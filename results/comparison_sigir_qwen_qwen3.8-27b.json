@@ -1,0 +1,417 @@
+{
+  "patients_processed": 4,
+  "total_criteria_baseline": 1663,
+  "total_criteria_enhanced": 1663,
+  "baseline_label_distribution": {
+    "included": 241,
+    "not excluded": 780,
+    "not applicable": 143,
+    "not enough information": 174,
+    "not included": 275,
+    "excluded": 50
+  },
+  "enhanced_label_distribution": {
+    "included": 237,
+    "not enough information": 198,
+    "not excluded": 761,
+    "not applicable": 143,
+    "not included": 274,
+    "excluded": 50
+  },
+  "total_corrections": 26,
+  "assertion_filtered_sentences": 0,
+  "clarification_triggered": 14,
+  "verifier_verdicts": {
+    "unsupported": 10,
+    "uncertain": 13,
+    "contradicted": 3
+  },
+  "corrections": [
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "0",
+      "criterion": "Missing informed consent.",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "weak",
+      "issues": [
+        "The evidence provided (Sentence 8) states that the patient 'will provide' informed consent, which is a future or planned action, not a completed fact.",
+        "The criterion is 'Missing informed consent'. To definitively label the patient as 'not excluded', there must be evidence that consent has already been obtained or is not required. A statement of future intent does not confirm the current status of consent.",
+        "Planned or hypothetical evidence cannot support a definitive eligibility label."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "3",
+      "criterion": "Recent thoracic surgery within1 year, inflammatory joint disease, fibromyalgia, cardiogenic shock.",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "weak",
+      "issues": [
+        "The patient note does not explicitly deny recent thoracic surgery, inflammatory joint disease, or fibromyalgia.",
+        "The absence of mention in a brief ER note is not sufficient evidence to definitively rule out these specific exclusion criteria, especially for conditions like fibromyalgia or past surgeries which may not be immediately relevant to the current chest pain presentation but are required exclusions.",
+        "The explanation relies on an assumption that 'absence in a detailed medical history note allows us to assume they are not present,' but the note is an ER presentation note, not a comprehensive medical history, and does not explicitly screen for these specific conditions."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "0",
+      "criterion": "Patients who rule-in for myocardial ischemia at initial testing",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The proposed label 'not excluded' relies on the absence of evidence for myocardial ischemia (negative EKG, no mention of troponins).",
+        "The patient presents with classic symptoms of acute coronary syndrome (chest pain radiating to back, diaphoresis, nausea).",
+        "Definitive exclusion requires explicit negative results for cardiac biomarkers (troponin) or a definitive rule-out diagnosis, which are not present in the note.",
+        "The clarification correctly identified missing facts, but the final label should reflect insufficient information rather than a definitive 'not excluded'."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "inclusion",
+      "criterion_id": "7",
+      "criterion": "intolerance of at least one antidepressant within the last 6 months.",
+      "initial_label": "not enough information",
+      "final_label": "not included",
+      "verifier_verdict": "contradicted",
+      "verifier_support": "strong",
+      "issues": [
+        "The proposed explanation incorrectly discusses cardiac evaluation, which is irrelevant to the criterion text 'intolerance of at least one antidepressant'.",
+        "The proposed label 'not enough information' is incorrect. The patient note states she takes no medications (Sentence 5), which provides definitive evidence that she has not had a trial of antidepressants, and therefore cannot have experienced intolerance. The criterion is not met."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "inclusion",
+      "criterion_id": "0",
+      "criterion": "Major",
+      "initial_label": "included",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "weak",
+      "issues": [
+        "The criterion 'Major' is ambiguous and does not clearly map to a specific medical eligibility requirement.",
+        "Sentence 8 describes a future intent to provide consent ('will provide'), which is not definitive evidence of current eligibility or completed consent."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "inclusion",
+      "criterion_id": "1",
+      "criterion": "Obese BMI>30",
+      "initial_label": "included",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "weak",
+      "issues": [
+        "The criterion requires a specific BMI > 30.",
+        "The note mentions a diagnosis of 'obesity' but does not provide the specific BMI value.",
+        "While obesity is clinically defined as BMI >= 30, the strict numerical threshold of > 30 is not explicitly confirmed in the text, and 'obesity' can sometimes refer to BMI >= 30 which includes the boundary, whereas the criterion is strict > 30. More importantly, without the specific number, it is not definitively verified."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "1",
+      "criterion": "Severe hepatic insufficiency",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "none",
+      "issues": [
+        "The label 'not excluded' assumes the absence of the condition based on lack of mention.",
+        "Absence of evidence is not evidence of absence for a specific exclusion criterion like severe hepatic insufficiency, which may require lab confirmation or specific history not present in the note."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "2",
+      "criterion": "Inflammatory disease",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "none",
+      "issues": [
+        "The label 'not excluded' assumes the absence of inflammatory disease based on lack of mention.",
+        "The note does not provide sufficient information to definitively rule out inflammatory diseases."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "3",
+      "criterion": "Neoplasia",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "none",
+      "issues": [
+        "The label 'not excluded' assumes the absence of neoplasia based on lack of mention.",
+        "The note does not provide a comprehensive medical history to definitively rule out cancer history."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "4",
+      "criterion": "Protein S deficiency",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "none",
+      "issues": [
+        "The label 'not excluded' assumes the absence of Protein S deficiency based on lack of mention.",
+        "This is a specific lab-based exclusion that cannot be ruled out by a general ER note without specific lab data."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "0",
+      "criterion": "Patients will be excluded for the following conditions: with secondary resistant hypertension becaus",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "weak",
+      "issues": [
+        "The proposed label 'not excluded' relies on the assumption that the absence of specific diagnoses (renal disease, pheochromocytoma, etc.) in the note implies their absence. However, the note is a brief ER presentation and does not explicitly rule out these conditions or provide sufficient negative evidence (e.g., normal renal function tests, specific history denial) to definitively exclude them.",
+        "The criterion excludes patients with 'secondary resistant hypertension'. The patient's hypertension status is confirmed, but whether it is 'resistant' or 'secondary' is not fully characterized by the provided evidence. While she takes no medications, the exclusion specifically targets secondary causes. Without explicit negative findings for renal disease or pheochromocytoma, a definitive 'not excluded' label is not strongly supported by the text alone.",
+        "The assertion output is empty, failing to capture the relevant negative evidence (denial of diabetes, normal physical exam) that partially supports the exclusion decision, though the decision itself remains uncertain due to lack of explicit ruling out of all listed secondary causes."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "inclusion",
+      "criterion_id": "1",
+      "criterion": "Documented coronary artery disease",
+      "initial_label": "not included",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The proposed label 'not included' assumes absence of CAD based on lack of documentation in the acute note. However, the absence of evidence is not evidence of absence. The patient has risk factors (hypertension, obesity) and acute symptoms suggestive of CAD. Without prior records or diagnostic confirmation, the status is unknown, not definitively negative."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "0",
+      "criterion": "Heart rate < 60 bpm",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The proposed label 'not excluded' relies on the assumption that a 'normal' physical exam implies a normal heart rate. However, 'normal' is a qualitative description and does not provide the specific numeric value required to rule out bradycardia (< 60 bpm). Without an explicit heart rate value, the exclusion criterion cannot be definitively ruled out."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "inclusion",
+      "criterion_id": "0",
+      "criterion": "Written informed consent",
+      "initial_label": "included",
+      "final_label": "not enough information",
+      "verifier_verdict": "unsupported",
+      "verifier_support": "weak",
+      "issues": [
+        "The patient note states the patient 'will provide' informed consent, which is a future intention or plan, not a completed action. Informed consent is a procedural requirement that must be executed before enrollment; a statement of willingness does not confirm the criterion is met in the current clinical snapshot."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "0",
+      "criterion": "Non-compliance, s-creatinin above 200, AFli",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The proposed label 'not excluded' is unsupported because the evidence does not rule out the other exclusion criteria: serum creatinine above 200 and Atrial Fibrillation (AFli).",
+        "Sentence 8 confirms compliance, but the absence of evidence for normal renal function or the absence of AF (EKG shows only nonspecific changes) means the patient cannot be definitively cleared from exclusion.",
+        "The clarification correctly identifies missing facts, but the final label should reflect the insufficiency of evidence rather than a definitive 'not excluded' status."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "0",
+      "criterion": "Non English speaking patients",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "contradicted",
+      "verifier_support": "none",
+      "issues": [
+        "The label 'not excluded' implies a definitive absence of the exclusion criterion (i.e., the patient *is* English speaking).",
+        "The patient note does not explicitly state the patient's language proficiency.",
+        "While the note is in English and the patient is providing consent, this is not definitive proof of English language proficiency for trial eligibility purposes without explicit documentation or a stated assumption in the protocol.",
+        "Per the instruction 'Use `not enough information` when the evidence is insufficient', the lack of explicit language evidence means we cannot definitively say the patient is *not* non-English speaking."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "inclusion",
+      "criterion_id": "3",
+      "criterion": "Written Informed Consent",
+      "initial_label": "included",
+      "final_label": "not enough information",
+      "verifier_verdict": "contradicted",
+      "verifier_support": "none",
+      "issues": [
+        "The note states the patient 'will provide' informed consent, which is a future intention or plan, not evidence that written informed consent has already been obtained. The criterion requires 'Written Informed Consent', implying the document exists. A statement of future intent does not satisfy the requirement for a completed administrative step."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "inclusion",
+      "criterion_id": "1",
+      "criterion": "Pre-Diabetes",
+      "initial_label": "not included",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The denial of diabetes does not definitively rule out pre-diabetes, as they are distinct clinical states. The note lacks specific evidence (e.g., HbA1c or glucose levels) to confirm or deny pre-diabetes. Therefore, the label 'not included' is not strongly supported by the provided evidence; 'not enough information' is more accurate."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "2",
+      "criterion": "Asthma",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The absence of a mention of asthma in the note does not definitively prove its absence. While the physical exam is normal, asthma can be asymptomatic at rest. Without explicit denial or history, 'not enough information' is the safer label than assuming 'not excluded' based solely on silence."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "3",
+      "criterion": "Chronic obstructive pulmonary disease (COPD)",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "Similar to asthma, the absence of a mention of COPD does not definitively rule it out. A normal physical exam does not exclude mild or stable COPD. Explicit denial or history is required for a definitive 'not excluded' label."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "5",
+      "criterion": "Heart rate less than 60 bpm",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "A 'normal' physical examination is a qualitative statement. It does not provide the specific quantitative heart rate value required to definitively rule out HR < 60 bpm. The clarification correctly identifies this gap. The label should be 'not enough information'."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "6",
+      "criterion": "Systolic blood pressure less than 90 mm Hg",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "A 'normal' physical examination does not explicitly provide the systolic blood pressure value. While hypotension (<90 mmHg) is often considered abnormal, the lack of specific vital signs means we cannot definitively confirm SBP >= 90 mmHg. The label should be 'not enough information'."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "7",
+      "criterion": "Raynaud's phenomenon",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The absence of a mention of Raynaud's phenomenon does not definitively rule it out. It is a specific condition that requires explicit history or examination findings to confirm or deny. 'Not enough information' is more appropriate."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "10",
+      "criterion": "Creatinine clearance less than 35 ml/min",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "Creatinine clearance is a laboratory value. The absence of lab results in the note means we cannot definitively rule out CrCl < 35 ml/min. The 'normal' physical exam does not assess renal function quantitatively. The label should be 'not enough information'."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "11",
+      "criterion": "Hematologic dysfunction (white blood cell [WBC] count less than 3000 or hematocrit less than 28%)",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "WBC and hematocrit are laboratory values. The absence of CBC results in the note means we cannot definitively rule out hematologic dysfunction. The label should be 'not enough information'."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": true
+    },
+    {
+      "criterion_type": "exclusion",
+      "criterion_id": "12",
+      "criterion": "Allergy to amide anesthetics",
+      "initial_label": "not excluded",
+      "final_label": "not enough information",
+      "verifier_verdict": "uncertain",
+      "verifier_support": "weak",
+      "issues": [
+        "The absence of a mention of allergies does not definitively rule out an allergy to amide anesthetics. Allergies are often not listed unless relevant to the current visit or if the patient has a known history. Without explicit denial, 'not enough information' is the correct label."
+      ],
+      "assertion_filtered": 0,
+      "clarification_triggered": false
+    }
+  ]
+}

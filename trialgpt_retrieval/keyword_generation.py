@@ -6,15 +6,15 @@ generate the search keywords for each patient
 
 import json
 import os
-from openai import AzureOpenAI
+from dotenv import load_dotenv
+from groq import Groq
+
+# Load environment variables from .env file
+load_dotenv()
 
 import sys
 
-client = AzureOpenAI(
-	api_version="2023-09-01-preview",
-	azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-	api_key=os.getenv("OPENAI_API_KEY"),
-)
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 def get_keyword_generation_messages(note):
