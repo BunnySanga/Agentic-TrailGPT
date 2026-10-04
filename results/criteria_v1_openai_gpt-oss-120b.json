@@ -98,5 +98,2283 @@
       "total_tokens": 4854,
       "seconds": 5.22
     }
+  },
+  "sigir-201413|NCT00163709": {
+    "labels": {
+      "216": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "217": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "218": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "219": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      },
+      "220": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 3216,
+      "completion_tokens": 1822,
+      "total_tokens": 5038,
+      "seconds": 5.62
+    }
+  },
+  "sigir-201414|NCT01624545": {
+    "labels": {
+      "221": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "222": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "223": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      },
+      "224": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "225": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      },
+      "226": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "227": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "228": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "229": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 4905,
+      "completion_tokens": 2828,
+      "total_tokens": 7733,
+      "seconds": 8.14
+    }
+  },
+  "sigir-201414|NCT01869855": {
+    "labels": {
+      "230": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          0,
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "231": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "232": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "233": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "234": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 3074,
+      "completion_tokens": 1206,
+      "total_tokens": 4280,
+      "seconds": 3.26
+    }
+  },
+  "sigir-201410|NCT02097186": {
+    "labels": {
+      "159": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "160": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "161": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "162": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "163": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "164": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "165": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "166": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "167": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "168": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "169": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "170": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "171": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "172": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "173": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "174": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 7019,
+      "completion_tokens": 4374,
+      "total_tokens": 11393,
+      "seconds": 11.67
+    }
+  },
+  "sigir-201419|NCT00256529": {
+    "labels": {
+      "339": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          1,
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "340": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "341": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "342": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "343": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "344": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 3995,
+      "completion_tokens": 2378,
+      "total_tokens": 6373,
+      "seconds": 6.58
+    }
+  },
+  "sigir-201416|NCT02238756": {
+    "labels": {
+      "274": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "275": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "276": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "277": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "278": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "279": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "280": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "281": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "282": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "283": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "284": {
+        "final_eligibility": "excluded",
+        "final_sentences": [
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "285": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "286": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "287": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "288": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "289": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "290": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "291": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "292": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "293": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "294": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 7,
+      "prompt_tokens": 11136,
+      "completion_tokens": 6105,
+      "total_tokens": 17241,
+      "seconds": 15.55
+    }
+  },
+  "sigir-201410|NCT02264964": {
+    "labels": {
+      "175": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "176": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "177": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "178": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "179": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "180": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "181": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "182": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "183": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "184": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 4524,
+      "completion_tokens": 2730,
+      "total_tokens": 7254,
+      "seconds": 6.98
+    }
+  },
+  "sigir-201419|NCT02509286": {
+    "labels": {
+      "345": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "346": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "347": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "348": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "349": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "350": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "351": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "352": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "353": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "354": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "355": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "356": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "357": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "358": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "359": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "360": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "361": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "362": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "363": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 4,
+      "prompt_tokens": 7951,
+      "completion_tokens": 4004,
+      "total_tokens": 11955,
+      "seconds": 10.79
+    }
+  },
+  "sigir-201424|NCT01771861": {
+    "labels": {
+      "457": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          5
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "458": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1,
+          5
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "459": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 3886,
+      "completion_tokens": 2026,
+      "total_tokens": 5912,
+      "seconds": 6.4
+    }
+  },
+  "sigir-201424|NCT02229695": {
+    "labels": {
+      "454": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          5
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "455": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "456": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 2948,
+      "completion_tokens": 950,
+      "total_tokens": 3898,
+      "seconds": 3.66
+    }
+  },
+  "sigir-20143|NCT01452971": {
+    "labels": {
+      "43": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "44": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "45": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 2542,
+      "completion_tokens": 1255,
+      "total_tokens": 3797,
+      "seconds": 4.34
+    }
+  },
+  "sigir-201423|NCT00170222": {
+    "labels": {
+      "437": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "438": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "439": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "440": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "441": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "442": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "443": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          6
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "444": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "445": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "446": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "447": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "448": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "449": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "450": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "451": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "452": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "453": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 9757,
+      "completion_tokens": 5061,
+      "total_tokens": 14818,
+      "seconds": 14.69
+    }
+  },
+  "sigir-201423|NCT02219360": {
+    "labels": {
+      "431": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          3,
+          5
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "432": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "433": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "434": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          6
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "435": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "436": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 4840,
+      "completion_tokens": 1644,
+      "total_tokens": 6484,
+      "seconds": 4.73
+    }
+  },
+  "sigir-20146|NCT00015626": {
+    "labels": {
+      "118": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "119": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "120": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "121": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "122": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "123": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "124": {
+        "final_eligibility": "excluded",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 4302,
+      "completion_tokens": 2837,
+      "total_tokens": 7139,
+      "seconds": 7.58
+    }
+  },
+  "sigir-20148|NCT01519271": {
+    "labels": {
+      "142": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "143": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "144": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "145": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "146": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "147": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "148": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          1,
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "149": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 4332,
+      "completion_tokens": 2705,
+      "total_tokens": 7037,
+      "seconds": 7.61
+    }
+  },
+  "sigir-201511|NCT01862510": {
+    "labels": {
+      "721": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "722": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "uncertain",
+        "clarification_triggered": false
+      },
+      "723": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "uncertain",
+        "clarification_triggered": false
+      },
+      "724": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "uncertain",
+        "clarification_triggered": false
+      },
+      "725": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "uncertain",
+        "clarification_triggered": false
+      },
+      "726": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "uncertain",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 3500,
+      "completion_tokens": 1195,
+      "total_tokens": 4695,
+      "seconds": 4.15
+    }
+  },
+  "sigir-201421|NCT00997100": {
+    "labels": {
+      "381": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "382": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          1,
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "383": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "384": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "385": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "386": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "387": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "388": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "389": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "390": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "391": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "392": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "393": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "394": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "395": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "396": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "397": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "398": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "399": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "400": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "401": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "402": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "403": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "404": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "405": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "406": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "407": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "408": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "409": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "410": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "411": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "412": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 9,
+      "prompt_tokens": 17940,
+      "completion_tokens": 8114,
+      "total_tokens": 26054,
+      "seconds": 23.5
+    }
+  },
+  "sigir-20147|NCT01863628": {
+    "labels": {
+      "133": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "134": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          3
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "135": {
+        "final_eligibility": "excluded",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "136": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "137": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "138": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          5
+        ],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      },
+      "139": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "140": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "141": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 4,
+      "prompt_tokens": 6367,
+      "completion_tokens": 3821,
+      "total_tokens": 10188,
+      "seconds": 10.29
+    }
+  },
+  "sigir-201421|NCT01520155": {
+    "labels": {
+      "413": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "414": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "uncertain",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 2321,
+      "completion_tokens": 511,
+      "total_tokens": 2832,
+      "seconds": 2.2
+    }
+  },
+  "sigir-201515|NCT00932425": {
+    "labels": {
+      "798": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "799": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "800": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "801": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      },
+      "802": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "803": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "804": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          4
+        ],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "805": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "806": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "807": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "808": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 6356,
+      "completion_tokens": 3241,
+      "total_tokens": 9597,
+      "seconds": 9.67
+    }
+  },
+  "sigir-201513|NCT01255670": {
+    "labels": {
+      "741": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "742": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "743": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "744": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "745": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "746": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "747": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "748": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "749": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "750": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "751": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "752": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "753": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "754": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "755": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "756": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "757": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "758": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 8025,
+      "completion_tokens": 4823,
+      "total_tokens": 12848,
+      "seconds": 12.57
+    }
+  },
+  "sigir-201517|NCT01231945": {
+    "labels": {
+      "855": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "856": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "857": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "858": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "859": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "860": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "uncertain",
+        "clarification_triggered": false
+      },
+      "861": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "862": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "863": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "864": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "865": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 5542,
+      "completion_tokens": 3333,
+      "total_tokens": 8875,
+      "seconds": 9.79
+    }
+  },
+  "sigir-201518|NCT00344513": {
+    "labels": {
+      "870": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "871": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "872": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 3024,
+      "completion_tokens": 1466,
+      "total_tokens": 4490,
+      "seconds": 5.27
+    }
+  },
+  "sigir-201518|NCT00534066": {
+    "labels": {
+      "873": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "874": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "875": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "876": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      },
+      "877": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "878": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "879": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 3194,
+      "completion_tokens": 1568,
+      "total_tokens": 4762,
+      "seconds": 4.63
+    }
+  },
+  "sigir-201520|NCT00182832": {
+    "labels": {
+      "887": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "888": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "889": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "890": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          9
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "891": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "892": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "893": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          1,
+          2,
+          7,
+          9
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 5956,
+      "completion_tokens": 2937,
+      "total_tokens": 8893,
+      "seconds": 8.19
+    }
+  },
+  "sigir-20155|NCT02407106": {
+    "labels": {
+      "646": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "647": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "648": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 2575,
+      "completion_tokens": 1498,
+      "total_tokens": 4073,
+      "seconds": 4.81
+    }
+  },
+  "sigir-20153|NCT01139632": {
+    "labels": {
+      "625": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "626": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "627": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "628": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "629": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "630": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "631": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "632": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "633": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "634": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 5558,
+      "completion_tokens": 2876,
+      "total_tokens": 8434,
+      "seconds": 8.69
+    }
+  },
+  "sigir-201522|NCT01207128": {
+    "labels": {
+      "942": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "943": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "944": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "945": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "946": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "947": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "948": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "949": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "950": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": true
+      },
+      "951": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "952": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "953": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "954": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "955": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "956": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "957": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 7975,
+      "completion_tokens": 4363,
+      "total_tokens": 12338,
+      "seconds": 12.44
+    }
+  },
+  "sigir-20157|NCT01632319": {
+    "labels": {
+      "660": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "661": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "662": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "663": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1,
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "664": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "665": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "666": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "667": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "668": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "669": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "670": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1,
+          2
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      }
+    },
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 7122,
+      "completion_tokens": 3783,
+      "total_tokens": 10905,
+      "seconds": 10.45
+    }
+  },
+  "sigir-20157|NCT02633449": {
+    "labels": {
+      "671": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          1,
+          2
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "672": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "673": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "674": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "675": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "676": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      },
+      "677": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 3035,
+      "completion_tokens": 1259,
+      "total_tokens": 4294,
+      "seconds": 4.19
+    }
   }
 }
