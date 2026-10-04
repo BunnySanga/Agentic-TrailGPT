@@ -77,5 +77,40 @@ class EnhancedMatchingTests(unittest.TestCase):
         self.assertEqual(len(review["criteria"]), 2)
         self.assertEqual(review["criteria"][0]["verifier"]["verdict"], "unsupported")
 
+class ChunkingTests(unittest.TestCase):
+    def test_large_trials_split_agent_calls_into_chunks(self):
+        class CountingClarification(StubClarification):
+            calls = []
+
+            def clarify_batch(self, requests, patient_sentences):
+                self.calls.append(len(requests))
+                return super().clarify_batch(requests, patient_sentences)
+
+        class CountingVerifier(StubVerifier):
+            calls = []
+
+            def verify_batch(self, requests, patient_sentences):
+                self.calls.append(len(requests))
+                return super().verify_batch(requests, patient_sentences)
+
+        criteria = "\n\n".join(f"Criterion number {index}" for index in range(25))
+        trial = {"inclusion_criteria": "Inclusion Criteria\n\n" + criteria, "exclusion_criteria": "Exclusion Criteria"}
+        raw = {"inclusion": {str(index): ["reason", [0], "included"] for index in range(25)}, "exclusion": {}}
+        clarification, verifier = CountingClarification(), CountingVerifier()
+        enhanced, review = enhance_trial_matching(
+            raw,
+            trial,
+            "0. The patient is 60.\n1. Other.\n2. More.",
+            assertion_agent=StubAssertion(),
+            clarification_agent=clarification,
+            verifier_agent=verifier,
+        )
+
+        self.assertEqual(clarification.calls, [10, 10, 5])
+        self.assertEqual(verifier.calls, [10, 10, 5])
+        self.assertEqual(len(enhanced["inclusion"]), 25)
+        self.assertEqual(len([item for item in review["criteria"] if "verifier" in item]), 25)
+
+
 if __name__ == "__main__":
     unittest.main()

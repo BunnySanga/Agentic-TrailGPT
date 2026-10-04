@@ -1,0 +1,16 @@
+# Held-out patients for the criterion-level agent evaluation.
+# Fixed before any agent results were seen: every ranking-study patient that
+# appears in the physician annotations, plus random others (seed 2024) until
+# at least 250 criteria. Agent prompts are developed on the other patients only.
+sigir-201415
+sigir-201411
+sigir-20144
+sigir-20142
+sigir-201523
+sigir-201412
+sigir-201417
+sigir-201422
+sigir-201427
+sigir-20141
+sigir-20156
+sigir-20158

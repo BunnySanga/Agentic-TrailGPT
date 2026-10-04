@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
-from collections.abc import Mapping
+import json
+import os
+from collections.abc import Iterator, Mapping
 from copy import deepcopy
 from typing import Any
 
@@ -10,6 +12,30 @@ from trialgpt_assertion.TrialGPT import AssertionAgent as LLMAssertionAgent
 from .contracts import coerce_sentence_ids, numbered_patient_sentences
 from trialgpt_clarification.TrialGPT import ClarificationAgent as LLMClarificationAgent
 from trialgpt_verifier.TrialGPT import VerifierAgent as LLMVerifierAgent
+
+
+# Groq's free tier rejects any single request above 8000 tokens (input plus
+# expected output). Trials with 20+ criteria exceed that when every criterion
+# goes into one Clarification or Verifier call, so the agents get criteria in
+# chunks. Each criterion is judged independently, so chunking does not change
+# what is asked about it.
+AGENT_BATCH_CRITERIA = int(os.getenv("AGENT_BATCH_CRITERIA", "10"))
+AGENT_BATCH_CHARS = int(os.getenv("AGENT_BATCH_CHARS", "12000"))
+
+
+def _request_chunks(requests: list[dict]) -> Iterator[list[dict]]:
+    """Split agent requests by criterion count and serialized size."""
+    chunk: list[dict] = []
+    size = 0
+    for request in requests:
+        length = len(json.dumps(request, ensure_ascii=True))
+        if chunk and (len(chunk) >= AGENT_BATCH_CRITERIA or size + length > AGENT_BATCH_CHARS):
+            yield chunk
+            chunk, size = [], 0
+        chunk.append(request)
+        size += length
+    if chunk:
+        yield chunk
 
 
 def criteria_by_id(criteria: object) -> dict[str, str]:
@@ -75,7 +101,7 @@ def _batched_llm_enhancement(
     clarification_agent: Any,
     verifier_agent: Any,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
-    """Run one Assertion, Clarification, and Verifier call for one trial."""
+    """Run one Assertion call plus chunked Clarification and Verifier calls for one trial."""
     enhanced = deepcopy(dict(matching_result))
     review: dict[str, Any] = {"criteria": [], "agent_mode": "llm_batched"}
     work_items: list[dict[str, Any]] = []
@@ -145,9 +171,9 @@ def _batched_llm_enhancement(
             }
         )
 
-    clarifications = clarification_agent.clarify_batch(
-        clarification_requests, patient_sentences
-    )
+    clarifications: dict[str, dict] = {}
+    for chunk in _request_chunks(clarification_requests):
+        clarifications.update(clarification_agent.clarify_batch(chunk, patient_sentences))
     verifier_requests = []
     for item in work_items:
         clarification = clarifications.get(item["key"], {})
@@ -179,7 +205,9 @@ def _batched_llm_enhancement(
             }
         )
 
-    verifications = verifier_agent.verify_batch(verifier_requests, patient_sentences)
+    verifications: dict[str, dict] = {}
+    for chunk in _request_chunks(verifier_requests):
+        verifications.update(verifier_agent.verify_batch(chunk, patient_sentences))
     for item in work_items:
         key = item["key"]
         verifier = verifications.get(

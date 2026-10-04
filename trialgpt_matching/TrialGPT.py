@@ -18,9 +18,7 @@ if _PROJECT_ROOT not in sys.path:
 
 load_dotenv()
 
-from trialgpt_llm.client import get_groq_client, parse_json_object, call_json
-
-client = get_groq_client()
+from trialgpt_llm.client import call_json
 
 
 def parse_criteria(criteria):
@@ -101,7 +99,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	for inc_exc in ["inclusion", "exclusion"]:
 		system_prompt, user_prompt = get_matching_prompt(trial, inc_exc, patient)
 
-		result = call_json(system_prompt, user_prompt, model, client=client)
+		result = call_json(system_prompt, user_prompt, model)
 		results[inc_exc] = result
 
 	return results

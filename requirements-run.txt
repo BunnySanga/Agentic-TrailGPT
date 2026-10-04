@@ -1,0 +1,8 @@
+# Minimal dependencies for run_parallel.py (matching, agents, aggregation, evaluation).
+# The full requirements.txt adds the retrieval stack (torch, faiss, ...), which the
+# cached-retrieval pipeline does not need.
+groq==0.10.0
+httpx<0.28
+nltk==3.8.1
+python-dotenv>=1.0
+tqdm==4.65.0

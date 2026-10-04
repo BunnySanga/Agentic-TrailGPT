@@ -1,0 +1,102 @@
+{
+  "sigir-201519|NCT00806091": {
+    "labels": {
+      "884": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          3
+        ],
+        "verdict": "unsupported",
+        "clarification_triggered": true
+      },
+      "885": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          0,
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 2582,
+      "completion_tokens": 1193,
+      "total_tokens": 3775,
+      "seconds": 4.14
+    }
+  },
+  "sigir-20155|NCT02118818": {
+    "labels": {
+      "649": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "650": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "unsupported",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 2828,
+      "completion_tokens": 1265,
+      "total_tokens": 4093,
+      "seconds": 4.3
+    }
+  },
+  "sigir-20145|NCT00163709": {
+    "labels": {
+      "98": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "verdict": "verified",
+        "clarification_triggered": true
+      },
+      "99": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "100": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "verdict": "contradicted",
+        "clarification_triggered": false
+      },
+      "101": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      },
+      "102": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "verdict": "verified",
+        "clarification_triggered": false
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 3071,
+      "completion_tokens": 1783,
+      "total_tokens": 4854,
+      "seconds": 5.22
+    }
+  }
+}

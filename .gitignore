@@ -2,3 +2,7 @@
 /.env
 /node_modules
 /dataset/trial_info.json
+
+# Local secrets
+/api.txt
+/dataset/trial_info.partial.json

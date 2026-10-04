@@ -35,7 +35,8 @@ if __name__ == "__main__":
 			item = json.loads(line)
 			queries[item["_id"]] = item["text"]
 
-	output_path = f"results/aggregation_results_{corpus}_{model_safe}.json"
+	# Optional 4th argument keeps baseline and enhanced aggregations in separate files.
+	output_path = sys.argv[4] if len(sys.argv) > 4 else f"results/aggregation_results_{corpus}_{model_safe}.json"
 
 	if os.path.exists(output_path):
 		output = json.load(open(output_path))

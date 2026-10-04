@@ -17,9 +17,7 @@ if _PROJECT_ROOT not in sys.path:
 
 load_dotenv()
 
-from trialgpt_llm.client import get_groq_client, call_json
-
-client = get_groq_client()
+from trialgpt_llm.client import call_json
 
 
 def convert_criteria_pred_to_string(
@@ -97,5 +95,5 @@ def convert_pred_to_prompt(
 
 def trialgpt_aggregation(patient: str, trial_results: dict, trial_info: dict, model: str):
 	system_prompt, user_prompt = convert_pred_to_prompt(patient, trial_results, trial_info)
-	result = call_json(system_prompt, user_prompt, model, client=client)
+	result = call_json(system_prompt, user_prompt, model)
 	return result
