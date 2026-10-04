@@ -12,6 +12,9 @@ Usage:
     python evaluate_criteria.py --variant v1 --split test
     python evaluate_criteria.py --variant v1 --split dev --sample 300 --report-only
 
+Variants: v1 = Assertion + Clarification + Verifier on every criterion;
+v2 = Assertion + one Reviewer on risky labels only.
+
 Splits are by patient: test = the patients in criteria_test_patients.txt,
 dev = everyone else. Develop agent prompts on dev only; score test once.
 --sample N takes a fixed, seeded subset of whole patient-trial pairs with at
@@ -48,10 +51,12 @@ from run_parallel import (
     read_patients_file,
 )
 from trialgpt_agents.enhanced_matching import criteria_by_id, enhance_trial_matching
+from trialgpt_agents.reviewed_matching import review_trial_matching
 from trialgpt_assertion.TrialGPT import AssertionAgent
 from trialgpt_clarification.TrialGPT import ClarificationAgent
 from trialgpt_llm.client import track_usage
 from trialgpt_llm.key_pool import AllKeysExhausted, get_key_pool
+from trialgpt_reviewer.TrialGPT import ReviewerAgent
 from trialgpt_verifier.TrialGPT import VerifierAgent
 
 DATASET = PROJECT_ROOT / "dataset" / "criterion_annotations.json"
@@ -59,11 +64,33 @@ TEST_PATIENTS = PROJECT_ROOT / "criteria_test_patients.txt"
 SAMPLE_SEED = 2024
 
 
-def build_agents(variant: str, model: str):
-    """Return (assertion, clarification, verifier) agents for one patient."""
+VARIANTS = ("v1", "v2")
+
+
+def build_enhancer(variant: str, model: str):
+    """Return a per-patient function (matching, trial, note) -> (enhanced, review)."""
     if variant == "v1":
-        return CachedNoteAssertion(AssertionAgent(model)), ClarificationAgent(model), VerifierAgent(model)
-    raise SystemExit(f"Unknown variant {variant!r}. Available: v1")
+        assertion = CachedNoteAssertion(AssertionAgent(model))
+        clarification, verifier = ClarificationAgent(model), VerifierAgent(model)
+        return lambda matching, trial, note: enhance_trial_matching(
+            matching, trial, note, model=model,
+            assertion_agent=assertion, clarification_agent=clarification, verifier_agent=verifier,
+        )
+    if variant == "v2":
+        assertion, reviewer = CachedNoteAssertion(AssertionAgent(model)), ReviewerAgent(model)
+        return lambda matching, trial, note: review_trial_matching(
+            matching, trial, note, model=model, assertion_agent=assertion, reviewer_agent=reviewer,
+        )
+    raise SystemExit(f"Unknown variant {variant!r}. Available: {', '.join(VARIANTS)}")
+
+
+def decision(record: dict) -> str | None:
+    """Short description of what the agents decided for one criterion."""
+    if record.get("verifier"):
+        return record["verifier"].get("verdict")
+    if not record.get("reviewed"):
+        return "not reviewed"
+    return "changed" if (record.get("reviewer") or {}).get("changed") else "kept"
 
 
 # ---- data ----------------------------------------------------------------------
@@ -150,13 +177,13 @@ class CriteriaRun:
         self.pairs_done = 0
 
     def process_patient(self, patient_pairs: list[list[dict]]) -> None:
-        agents = build_agents(self.variant, self.model)
+        enhancer = build_enhancer(self.variant, self.model)
         for pair_rows in patient_pairs:
             if self.stop.is_set():
                 return
             key = pair_key(pair_rows[0])
             try:
-                self.process_pair(key, pair_rows, agents)
+                self.process_pair(key, pair_rows, enhancer)
             except AllKeysExhausted as error:
                 self.stop_reason = str(error)
                 self.stop.set()
@@ -170,19 +197,10 @@ class CriteriaRun:
                 self.pairs_done += 1
             print(f"[{key}] reviewed {len(pair_rows)} criteria", flush=True)
 
-    def process_pair(self, key: str, pair_rows: list[dict], agents) -> None:
+    def process_pair(self, key: str, pair_rows: list[dict], enhancer) -> None:
         matching, trial, note, id_map = build_pair_input(pair_rows)
-        assertion, clarification, verifier = agents
         with track_usage() as usage:
-            enhanced, review = enhance_trial_matching(
-                matching,
-                trial,
-                note,
-                model=self.model,
-                assertion_agent=assertion,
-                clarification_agent=clarification,
-                verifier_agent=verifier,
-            )
+            enhanced, review = enhancer(matching, trial, note)
         records = {
             (item.get("criterion_type"), item.get("criterion_id")): item
             for item in review.get("criteria", [])
@@ -194,8 +212,7 @@ class CriteriaRun:
             labels[annotation_id] = {
                 "final_eligibility": prediction[2],
                 "final_sentences": prediction[1],
-                "verdict": (record.get("verifier") or {}).get("verdict"),
-                "clarification_triggered": bool((record.get("clarification") or {}).get("triggered")),
+                "decision": decision(record),
             }
         self.store.put(key, {"labels": labels, "usage": usage})
 
@@ -347,7 +364,7 @@ def main() -> int:
     rows = select_rows(load_rows(), args.split, args.sample)
     label = f"split {args.split}" + (f" (sample {args.sample})" if args.sample else "")
     run = CriteriaRun(args.variant, args.model)
-    build_agents(args.variant, args.model)  # fail fast on an unknown variant
+    build_enhancer(args.variant, args.model)  # fail fast on an unknown variant
 
     by_pair: dict[str, list[dict]] = defaultdict(list)
     for row in rows:

@@ -6,3 +6,7 @@
 # Local secrets
 /api.txt
 /dataset/trial_info.partial.json
+
+# Python bytecode
+__pycache__/
+*.pyc
