@@ -1151,6 +1151,30 @@
             "relevance_score_R": 22.0,
             "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and not meeting any exclusion criteria. The patient meets only the age criterion; she does not meet the key disease\u2011specific inclusion criteria (keloids or hypertrophic scars), the wash\u2011out period criterion, or the Fitzpatrick skin type documentation. No exclusion criteria are triggered. Because the patient fails most inclusion requirements, she is effectively ineligible, but the ineligibility cannot exceed the relevance magnitude. Therefore, the eligibility score is negative and limited to the relevance range.",
             "eligibility_score_E": -22.0
+        },
+        "NCT00911352": {
+            "relevance_explanation": "The trial targets patients undergoing docetaxel chemotherapy and focuses on nail toxicities related to that treatment. The patient note describes a 43\u2011year\u2011old woman with benign\u2011appearing skin lesions on the neck and contains no mention of cancer, chemotherapy, or nail problems. Because the core inclusion criterion (docetaxel exposure) is absent, the patient\u2019s clinical picture is largely unrelated to the study\u2019s disease and intervention focus. Hence the overall relevance is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Eligibility hinges on meeting the inclusion criteria, especially receiving docetaxel. The patient clearly does not meet this key requirement, making her ineligible for the trial. While the exclusion criteria appear not to apply (no evidence of prior taxane use, Raynaud\u2019s, metastases, etc.), the failure to satisfy the primary inclusion criterion outweighs the lack of exclusions. Therefore the eligibility score is set to the negative extreme of the relevance range, indicating definite ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00291486": {
+            "relevance_explanation": "The trial targets patients with metastatic colorectal cancer and requires specific disease characteristics, imaging, laboratory values, and performance status. The patient note describes a 43\u2011year\u2011old woman with benign\u2011appearing skin lesions on the neck and provides no evidence of any colorectal neoplasm, metastatic disease, or relevant laboratory/imaging data. Only the age and willingness to consent match the trial criteria. Consequently, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not have metastatic colorectal cancer, lacks histologic confirmation, and provides no data on measurable disease, survival expectancy, performance status, or laboratory values, she fails the core inclusion criteria. The few criteria she meets (age and consent) are insufficient to render her eligible. Therefore, her eligibility is negative, reflecting ineligibility, and is bounded by the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01384357": {
+            "relevance_explanation": "The trial focuses on patients with malignant cervical lymphadenopathy evaluated by ultrasound\u2011guided needle biopsy. The patient note describes only small, soft, pedunculated skin lesions on the neck with no mention of lymph nodes, malignancy, or any imaging. Therefore there is virtually no clinical overlap between the patient\u2019s condition and the trial\u2019s target condition, making the relevance very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not have malignant cervical lymphadenopathy, she does not meet the primary inclusion criterion. Additionally, the exclusion criterion notes the absence of an ultrasound exam, which appears to be true for this patient. Consequently, the patient would be considered ineligible for the study, and the eligibility score should be the negative of the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02537483": {
+            "relevance_explanation": "The patient is a 43\u2011year\u2011old woman with multiple small, soft, pedunculated lesions on the neck. The trial targets subjects with moderate to severe acne vulgaris. While the patient meets basic demographic and consent criteria, the described lesions are not characteristic of acne and there is no mention of acne severity. Therefore the overall relevance to an acne\u2011focused study is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "The patient satisfies the age, consent, and willingness\u2011to\u2011comply inclusion criteria and has no exclusion factors noted. However, the crucial inclusion criterion requiring a moderate or severe acne score is not met (the lesions described are not acne). Consequently, the patient is ineligible for the trial, and the eligibility score is negative, bounded by the relevance score.",
+            "eligibility_score_E": -30.0
         }
     },
     "sigir-201511": {
@@ -1303,6 +1327,18 @@
             "relevance_score_R": 5.0,
             "eligibility_explanation": "Because the patient does not meet the sole inclusion criterion (infant with congenital chylothorax needing a thoracic drain), she is ineligible for the study. No exclusion criteria are relevant, but the lack of inclusion makes her ineligible, so the eligibility score should be at the negative extreme of the relevance range.",
             "eligibility_score_E": -5.0
+        },
+        "NCT00287144": {
+            "relevance_explanation": "The patient shows classic signs of hypothyroidism (cold intolerance, fatigue, dry skin, slowed speech and movement, hyporeflexia), which aligns with the trial's target condition of hypothyroidism. However, the trial is specifically about women who had post\u2011partum thyroiditis diagnosed in 1985, a very narrow cohort. The patient note provides no information about pregnancy history, timing, or any testing for post\u2011partum thyroiditis, and her age (56) makes it unlikely she fits the 1985 cohort. Therefore, while the disease relevance is moderate, the specific trial population relevance is low.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Given the lack of any evidence that the patient was tested for or diagnosed with post\u2011partum thyroiditis in 1985, she does not meet the inclusion criteria. There are no exclusion criteria mentioned, but failure to satisfy the required inclusion criteria makes her ineligible. Hence the eligibility score is negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00906971": {
+            "relevance_explanation": "The trial is explicitly for children with chronic functional constipation, while the patient is a 56\u2011year\u2011old adult with hypothyroid\u2011like symptoms and no mention of constipation severity. Because the core target population (pediatric) does not match the patient, the overall relevance is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Even though the exclusion criteria do not clearly apply, the patient fails the fundamental inclusion requirement of being a child with chronic constipation. This makes the patient ineligible for the study, so the eligibility score is the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
         }
     },
     "sigir-201513": {
@@ -1425,6 +1461,18 @@
             "relevance_score_R": 30.0,
             "eligibility_explanation": "Because the patient does not satisfy key inclusion criteria (normal airway, ASA I\u2011II, elective surgery of \u226545\u202fmin) and the presentation suggests a potentially compromised airway, the patient would be considered ineligible for the study. No exclusion criteria are triggered, but the lack of required inclusion factors makes the patient unsuitable. Hence the eligibility score is the negative extreme of the relevance range.",
             "eligibility_score_E": -30.0
+        },
+        "NCT00173745": {
+            "relevance_explanation": "The trial targets children with cerebral palsy who have severe drooling and are aged 6\u201121 years. The patient is a 5\u2011year\u2011old boy with severe drooling, which matches the drooling aspect of the trial, but there is no evidence of cerebral palsy and the patient is outside the required age range. Because only one of the three key trial criteria (drooling) is relevant, the overall relevance is moderate but not high.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "Eligibility requires a diagnosis of cerebral palsy (not present), age 6\u201121 (patient is 5, which also triggers an exclusion criterion for age <6), and severe drooling (present). The patient meets the drooling and consent criteria but fails the diagnosis and age criteria, and the age exclusion directly disqualifies him. Therefore the patient is ineligible, and the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT01833676": {
+            "relevance_explanation": "The trial targets elderly patients (age 60\u201185) undergoing elective surgery with general anesthesia. The patient is a 5\u2011year\u2011old boy presenting emergently with dysphagia and no planned surgery. Only the gender criterion matches; all other inclusion criteria (age, ASA status, BMI, elective surgery, type and duration of surgery) are irrelevant or unmet. Consequently, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 15.0,
+            "eligibility_explanation": "Even though the patient is irrelevant, the eligibility assessment must consider the exclusion criteria. The patient has clear swallowing difficulty, which directly triggers exclusion criterion 0 (difficulty in swallowing). This makes the patient ineligible. Because relevance is low, the eligibility score is limited to the range \u2013R to R; we assign the most negative value within that range to reflect definite ineligibility.",
+            "eligibility_score_E": -15.0
         }
     }
 }

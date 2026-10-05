@@ -14946,6 +14946,221 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT00291486": {
+                "inclusion": {
+                    "0": [
+                        "No evidence of metastatic colorectal cancer in note; patient has skin lesions only.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "No histological confirmation of colorectal cancer mentioned.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No imaging or lesion size \u22652\u202fcm reported.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Survival expectancy not addressed; without cancer diagnosis cannot assume \u22654\u202fmonths.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "ECOG performance status not provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Laboratory parameters not mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "Neutrophil count not reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Platelet count not reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "Serum bilirubin not reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "Creatinine clearance not reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "Patient age is 43 years (sentence 0), which meets \u226518 years.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "11": [
+                        "Patient will provide informed consent (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient has no mention of prior capecitabine use and does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No evidence of CNS metastatic disease; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No serious illnesses reported; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No liver metastasis described; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No chemotherapy, radiation, or immunotherapy mentioned; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "No prior external beam irradiation mentioned; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No prior monoclonal antibody treatment or HAHA titre mentioned; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No systemic corticosteroid use reported; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "8": [
+                        "Patient is a 43\u2011year\u2011old woman able to give consent; no mental impairment noted, but she is not a colorectal cancer patient, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "Patient states she will comply with protocol; however she is not a colorectal cancer patient, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "10": [
+                        "No participation in other trials mentioned; patient does not have colorectal cancer, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "No pregnancy or breastfeeding status provided; patient is a woman of childbearing age, but she is not a colorectal cancer patient, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "No contraception information provided; patient is a woman of childbearing potential, but she is not a colorectal cancer patient, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT01384357": {
+                "inclusion": {
+                    "0": [
+                        "The inclusion criterion requires malignant cervical lymphadenopathy evaluated by US-FNA or US-CNB. The patient note describes skin lesions on the neck with no mention of lymph nodes or malignancy, so the premise of the criterion is not met.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion checks whether an ultrasound exam was performed. The note contains no mention of any ultrasound examination, and there is no indirect evidence suggesting one was done. In the absence of such information, we assume the patient did not have an ultrasound, thus meeting the exclusion criterion.",
+                        [],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT02537483": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 43 years old, satisfying age >=9.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence indicates patient will provide informed consent.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of acne vulgaris or its severity; lesions described are pedunculated and not typical acne, so criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No information about pregnancy test; cannot assume negative.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient states willingness to comply with study instructions.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion not applicable as patient has lesions on neck, not face; no facial dermatological condition mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Criterion not applicable; no facial dermatological condition requiring therapy is described.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Criterion not applicable; patient is a woman and no beard/mustache is indicated.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Patient explicitly states willingness to provide consent and comply with protocol, indicating ability to communicate and cooperate.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No underlying disease is mentioned; absence of information allows assumption that no uncontrolled disease is present.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -16229,6 +16444,127 @@
                     ]
                 },
                 "exclusion": {}
+            },
+            "NCT00287144": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the woman to have tested positive for post\u2011partum thyroiditis in 1985; the note provides no evidence of such testing and the patient is 56 years old, making this unlikely. No relevant sentences.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion requires the woman to have been tested negative for post\u2011partum thyroiditis; the note gives no evidence of any testing status, and the patient\u2019s age and presentation do not suggest inclusion. No relevant sentences.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00906971": {
+                "inclusion": {
+                    "0": [
+                        "The trial targets children; the patient is a 56-year-old adult, so the age premise of the criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The trial targets children; the patient is an adult, making the criterion irrelevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "The trial targets children; the patient is an adult, so this criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "The trial is for pediatric participants; the patient is an adult, thus the criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "The inclusion criteria are intended for children; the patient is not a child, so this criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Medication use is not mentioned in the note; absence of evidence is taken as likely no use, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Symptoms (cold intolerance, fatigue, dry skin, slowed movements) are suggestive of hypothyroidism, an organic cause listed, but the note does not provide a definitive diagnosis; therefore there is insufficient information to confirm the exclusion.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT02591550": {
+                "inclusion": {
+                    "1": [
+                        "The patient note does not mention any cough; therefore there is no evidence of a chronic cough lasting \u22658 weeks, so the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Sentence 0 states the patient is markedly more sensitive to cold, which satisfies the requirement of sensitivity to cold air (and possibly other irritants).",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "The note provides no information about chest X\u2011ray results; without evidence we cannot assume normality.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Sentence 0 gives the patient\u2019s age as 56, which falls within the 17\u201170 year range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "5": [
+                        "There is no mention of smoking history in the note; we cannot determine if the patient is a non\u2011smoker.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion describes grouping for the study rather than an exclusion; not applicable to patient eligibility.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No mention of recent respiratory infection; absence of evidence suggests patient does not have infection within 8 weeks.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No chronic respiratory, severe heart, liver, kidney, or autoimmune disease reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No medication use (ACEI, bronchodilators, glucocorticoids, antihistamines) reported; assume none used within a week.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient is a 56\u2011year\u2011old female; no indication of pregnancy or lactation, which is unlikely at this age.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No malignant tumour mentioned in the note; assume absent.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -17566,6 +17902,203 @@
                             4
                         ],
                         "not excluded"
+                    ]
+                }
+            },
+            "NCT00173745": {
+                "inclusion": {
+                    "0": [
+                        "No mention of cerebral palsy; absence of evidence likely means the patient does not have the diagnosis.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Drooling is explicitly described (sentences 0,1,2); severity is implied by progressive worsening and toxic appearance, indicating severe drooling.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient age is given as 5 years, which is outside the required 6\u201121 year range.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "Sentence 4 states the patient will provide informed consent and comply with the protocol, satisfying the consent/understanding requirement.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 5 years old, which meets the age <6 exclusion; sentence 0 provides age.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No mention of allergy or sensitivity to botulinum toxin; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No evidence of myasthenia gravis, ALS, or other neuromuscular disease; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No information about prior submandibular gland surgery; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No record of anticholinergic or other drooling\u2011affecting medication; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Sentence 4 states the patient will provide informed consent, so consent ability is present.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01833676": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old, which is outside the required 60-85 years age range.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient is male (boy) as stated in the note.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No information about ASA physical status is provided; cannot determine ASA class.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "BMI is not mentioned in the note; no data to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient is presenting emergently, not scheduled for elective surgery with LMA.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "No surgery is being performed; thus type of surgery criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No surgical procedure duration is described; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient has clear dysphagia and swallowing difficulty described in sentences 0,1,2; this directly meets the exclusion criterion.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No mention of the patient undergoing intra\u2011abdominal, thoracic, facial, nasal or throat surgery; absence of evidence suggests the criterion does not apply.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No information about conditions that interfere with gastric emptying; such conditions are not implied by the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "The note states the patient will provide informed consent, and there is no mention of cognitive or hearing impairment; thus the criterion is not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "ASA classification is not provided; without evidence we assume the patient is not ASA III\u2011IV.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No mention of muscle relaxant use during anesthesia; therefore the criterion is not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No contraindication or prior adverse response to study drugs is reported; assume none.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01255735": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires age 6-10 and confirmed vocal fold nodules. The patient is a 5-year-old boy and the note describes dysphagia, drooling, and a muffled voice suggestive of airway obstruction, with no mention of vocal fold nodules or stroboscopic exam. Therefore the patient does not meet the age requirement and lacks evidence of nodules.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 5 years old, which is outside the required 6-10 year age range, so the age exclusion applies.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No information on baseline PVRQOL score; cannot determine if it is <87.5.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Duration of dysphonia is not mentioned; cannot assess the 12\u2011week minimum.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Hearing level is not provided; cannot assess the 35\u202fdB threshold.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Sentence indicates informed consent will be obtained and the patient will comply with the protocol.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Gender and ethnicity criteria describe enrollment targets, not exclusion; they do not apply to eligibility determination.",
+                        [],
+                        "not applicable"
                     ]
                 }
             }
