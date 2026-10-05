@@ -1175,6 +1175,12 @@
             "relevance_score_R": 30.0,
             "eligibility_explanation": "The patient satisfies the age, consent, and willingness\u2011to\u2011comply inclusion criteria and has no exclusion factors noted. However, the crucial inclusion criterion requiring a moderate or severe acne score is not met (the lesions described are not acne). Consequently, the patient is ineligible for the trial, and the eligibility score is negative, bounded by the relevance score.",
             "eligibility_score_E": -30.0
+        },
+        "NCT02432118": {
+            "relevance_explanation": "The patient note describes a 43\u2011year\u2011old woman with skin lesions on the neck and expresses willingness to give informed consent. The trial concerns breast tissue localization for lumpectomy and requires breast lesions, prior biopsy, ultrasound visibility, and surgical targets\u2014all of which are absent in the patient note. Only the consent criterion is relevant, giving a very limited overlap with the trial.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "The patient meets the consent inclusion criterion and has no reported exclusion factors (e.g., pacemaker, pregnancy). However, she does not meet any of the core inclusion criteria related to breast lesions, biopsy markers, ultrasound visibility, or surgical targets, making her ineligible for the study. Because relevance is low, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
         }
     },
     "sigir-201511": {
@@ -1339,6 +1345,12 @@
             "relevance_score_R": 10.0,
             "eligibility_explanation": "Even though the exclusion criteria do not clearly apply, the patient fails the fundamental inclusion requirement of being a child with chronic constipation. This makes the patient ineligible for the study, so the eligibility score is the negative extreme of the relevance range.",
             "eligibility_score_E": -10.0
+        },
+        "NCT02591550": {
+            "relevance_explanation": "The patient\u2019s note mentions hypersensitivity to cold, which aligns with one of the trial\u2019s inclusion criteria (sensitivity to cold air). The patient also meets the age requirement (56 years, within 17\u201170). However, the trial focuses on chronic cough and related respiratory assessments (chest X\u2011ray, smoking history, absence of chronic cough), none of which are documented in the patient note. The lack of any mention of cough, respiratory imaging, or pulmonary function data means the majority of the trial\u2019s core criteria are not relevant to this patient. Consequently, the overall relevance is moderate but limited.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility requires fulfillment of all inclusion criteria and no exclusion criteria. The patient does not satisfy the primary inclusion criterion of a chronic cough lasting \u22658 weeks, which is essential for this study. While the patient meets the age range and shows sensitivity to cold (an inclusion point), the missing cough symptom and lack of required respiratory assessments make the patient ineligible. No exclusion criteria are triggered, but the failure to meet a key inclusion criterion outweighs the partial matches, resulting in a negative eligibility score within the allowed range.",
+            "eligibility_score_E": -38.0
         }
     },
     "sigir-201513": {
@@ -1473,6 +1485,18 @@
             "relevance_score_R": 15.0,
             "eligibility_explanation": "Even though the patient is irrelevant, the eligibility assessment must consider the exclusion criteria. The patient has clear swallowing difficulty, which directly triggers exclusion criterion 0 (difficulty in swallowing). This makes the patient ineligible. Because relevance is low, the eligibility score is limited to the range \u2013R to R; we assign the most negative value within that range to reflect definite ineligibility.",
             "eligibility_score_E": -15.0
+        },
+        "NCT01255735": {
+            "relevance_explanation": "The trial targets children aged 6\u201110 with confirmed vocal fold nodules and a measurable impact on voice\u2011related quality of life. The patient is a 5\u2011year\u2011old boy presenting with acute dysphagia, drooling, and a muffled voice suggestive of airway obstruction, with no mention of vocal fold nodules, stroboscopic examination, or chronic dysphonia. Because the core disease (vocal fold nodules) and the required age range are absent, the patient is only minimally related to the trial.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Given the very low relevance, the patient fails the primary inclusion criteria (age 6\u201110 and presence of vocal fold nodules) and is explicitly excluded by the age exclusion criterion. No other criteria can rescue eligibility. Therefore the eligibility score should be at the negative extreme of the relevance range, indicating clear ineligibility.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT02217111": {
+            "relevance_explanation": "The trial targets children aged 4\u201111 with vocal fold nodules who can participate in voice therapy. The patient is a 5\u2011year\u2011old boy, which matches the age range and the consent willingness, giving the trial moderate relevance. However, the chief complaint is acute dysphagia, drooling, fever and a toxic appearance\u2014signs of a serious infection\u2014not a voice disorder, and there is no mention of vocal fold nodules or any voice\u2011related diagnosis. Several inclusion criteria (English comprehension, behavioral suitability) lack information, and an exclusion criterion (major acute illness) is clearly met. Because the core disease focus is absent and the patient is acutely ill, the overall relevance is limited but not zero.",
+            "relevance_score_R": 58.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and not meeting any exclusion criteria. The patient satisfies age, consent, and willingness criteria, but fails the key inclusion criterion of having vocal fold nodules (no evidence of this diagnosis). Moreover, the exclusion criterion for major acute illness is clearly met (fever, toxic appearance, dysphagia). Therefore the patient is ineligible for the study. The eligibility score should be negative and bounded by the relevance score, reflecting clear ineligibility.",
+            "eligibility_score_E": -58.0
         }
     }
 }

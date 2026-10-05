@@ -15161,6 +15161,150 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT02432118": {
+                "inclusion": {
+                    "0": [
+                        "Criterion requires prior stereotactic or ultrasound\u2011guided biopsy with marker; patient note describes skin lesions on neck with no biopsy, thus not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Criterion requires lesion or marker visible on ultrasound; patient has no breast lesion and no ultrasound info, not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Criterion requires surgical target \u22646\u202fcm from skin; patient has no breast surgery target, not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Criterion requires a discreet surgical target; patient note unrelated to breast surgery, not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Criterion requires lesion with defined center/focal area; no such lesion described, not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Patient explicitly states willingness to provide informed consent and comply (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "6": [
+                        "Statement about ECOG/Karnofsky not being used is a trial design note, not a patient characteristic; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "Duplicate of criterion 5; patient consent confirmed (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion about needing more than one localization needle is irrelevant because patient has no breast surgery context.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Previous open surgical biopsy, lumpectomy, or mastectomy in operative breast is irrelevant; patient note does not mention any breast surgery.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Prosthesis/implant in operative breast is irrelevant; no breast involvement described.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No mention of cardiac pacemaker or defibrillator; absence can be assumed.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information indicating the patient is contraindicated for surgery; assume she is not contraindicated.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No indication of pregnancy; at 43 years old and no mention, assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02525822": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 43 years old (>=12) per sentence 0; meets age criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence 5 states patient will provide informed consent; meets consent requirement.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of Evaluator's Global Severity score; cannot determine moderate/severe status.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Patient is a female of potential childbearing age, but no pregnancy test result is provided; cannot confirm negative test.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Sentence 5 indicates willingness to comply with study instructions and visits.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns facial dermatological conditions; the note only mentions lesions on the neck, so it does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion refers to facial conditions requiring interfering therapy; no facial condition is described, making it not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "The criterion is about facial beard/mustache; the patient is a woman and no beard is mentioned, so it is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "The note states the patient will provide informed consent and comply with the protocol, indicating ability to communicate and cooperate.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No underlying disease is mentioned in the note; in the absence of evidence, we assume no uncontrolled disease relevant to safety.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -18099,6 +18243,61 @@
                         "Gender and ethnicity criteria describe enrollment targets, not exclusion; they do not apply to eligibility determination.",
                         [],
                         "not applicable"
+                    ]
+                }
+            },
+            "NCT02217111": {
+                "inclusion": {
+                    "0": [
+                        "No mention of vocal fold nodules; cannot infer diagnosis from presented symptoms, and such a key finding would likely be documented if present.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Sentence 0 states the patient is a 5-year-old boy, which falls within the 4-11 year age range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Sentence 4 explicitly says the patient will provide informed consent and will comply with the trial protocol.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "The note provides no information about the child's English language comprehension or production; while many children this age speak English, the absence of documentation means we cannot assume it.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No evidence is given regarding behavioral or cognitive suitability as assessed by ENT or SLP; such assessment would normally be noted if relevant.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Sentence 4 indicates willingness to participate and compliance, implying both parent and child are willing.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient shows acute major illness (fever, toxic appearance) which matches the exclusion of major acute illness; no indication of LPR or allergies, so criterion is met and patient should be excluded.",
+                        [
+                            0,
+                            1
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No mention of hearing assessment or hearing loss in the note; cannot determine hearing status.",
+                        [],
+                        "not enough information"
                     ]
                 }
             }
