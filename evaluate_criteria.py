@@ -13,7 +13,8 @@ Usage:
     python evaluate_criteria.py --variant v1 --split dev --sample 300 --report-only
 
 Variants: v1 = Assertion + Clarification + Verifier on every criterion;
-v2 = Assertion + one Reviewer on risky labels only.
+v2 = Assertion + one Reviewer on risky labels only; v3 = v2 without
+reviewing "not enough information" labels.
 
 Splits are by patient: test = the patients in criteria_test_patients.txt,
 dev = everyone else. Develop agent prompts on dev only; score test once.
@@ -51,7 +52,7 @@ from run_parallel import (
     read_patients_file,
 )
 from trialgpt_agents.enhanced_matching import criteria_by_id, enhance_trial_matching
-from trialgpt_agents.reviewed_matching import review_trial_matching
+from trialgpt_agents.reviewed_matching import V3_KEEP_LABELS, V3_REVIEW_LABELS, review_trial_matching
 from trialgpt_assertion.TrialGPT import AssertionAgent
 from trialgpt_clarification.TrialGPT import ClarificationAgent
 from trialgpt_llm.client import track_usage
@@ -64,7 +65,7 @@ TEST_PATIENTS = PROJECT_ROOT / "criteria_test_patients.txt"
 SAMPLE_SEED = 2024
 
 
-VARIANTS = ("v1", "v2")
+VARIANTS = ("v1", "v2", "v3")
 
 
 def build_enhancer(variant: str, model: str):
@@ -80,6 +81,12 @@ def build_enhancer(variant: str, model: str):
         assertion, reviewer = CachedNoteAssertion(AssertionAgent(model)), ReviewerAgent(model)
         return lambda matching, trial, note: review_trial_matching(
             matching, trial, note, model=model, assertion_agent=assertion, reviewer_agent=reviewer,
+        )
+    if variant == "v3":
+        assertion, reviewer = CachedNoteAssertion(AssertionAgent(model)), ReviewerAgent(model)
+        return lambda matching, trial, note: review_trial_matching(
+            matching, trial, note, model=model, assertion_agent=assertion, reviewer_agent=reviewer,
+            review_labels=V3_REVIEW_LABELS, keep_labels=V3_KEEP_LABELS, agent_mode="llm_reviewer_v3",
         )
     raise SystemExit(f"Unknown variant {variant!r}. Available: {', '.join(VARIANTS)}")
 
