@@ -15305,6 +15305,44 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT01565993": {
+                "inclusion": {
+                    "0": [
+                        "The patient has pedunculated lesions but the largest is only 4\u202fmm, which is below the required >1\u202fcm size; thus the criterion is not met.",
+                        [
+                            2,
+                            3
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "The note does not mention any blood test results or hemostatic status, so we cannot determine whether the patient lacks hemostatic alterations.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient age is explicitly stated as 43, which is above the exclusion threshold of 18 years.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No laboratory values for platelet count or INR are provided; cannot determine if thresholds are met.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient explicitly states they will provide informed consent.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -18298,6 +18336,22 @@
                         "No mention of hearing assessment or hearing loss in the note; cannot determine hearing status.",
                         [],
                         "not enough information"
+                    ]
+                }
+            },
+            "NCT00394550": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old, meeting age range, but note contains no evidence of obstructive sleep apnea symptoms (snoring, apneas, daytime somnolence, etc.) or polysomnography results; absence of such information likely indicates the criterion is not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The exclusion criterion lists many specific prior conditions and anatomical abnormalities. The note does not mention any prior laser supraglottoplasty, adenoidectomy, stridor with cyanosis, severe respiratory distress, recurrent pneumonia, laryngeal cyst, vocal cord paralysis, airway vascular malformation, neoplasm, subglottic hemangioma, paradoxical vocal cord motion, posterior glottic stenosis, glottic webs, discoordinate pharyngolaryngomalacia, or refusal to participate. No evidence of these is present, so the patient does not meet the exclusion condition.",
+                        [],
+                        "not excluded"
                     ]
                 }
             }

@@ -1181,6 +1181,12 @@
             "relevance_score_R": 10.0,
             "eligibility_explanation": "The patient meets the consent inclusion criterion and has no reported exclusion factors (e.g., pacemaker, pregnancy). However, she does not meet any of the core inclusion criteria related to breast lesions, biopsy markers, ultrasound visibility, or surgical targets, making her ineligible for the study. Because relevance is low, the eligibility score is set to the negative extreme of the relevance range.",
             "eligibility_score_E": -10.0
+        },
+        "NCT02525822": {
+            "relevance_explanation": "The trial targets subjects with moderate to severe acne vulgaris. The patient note describes multiple small, soft, pedunculated lesions on the neck, which are more consistent with skin tags or other benign lesions rather than acne. There is no mention of comedones, papules, pustules, or any acne\u2011related findings. While the patient meets basic demographic criteria (age, consent, willingness to comply), the core disease condition of the trial is not evident, making the overall relevance modest.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the patient does not appear to have acne vulgaris, the key inclusion criterion requiring a moderate or severe acne severity score cannot be satisfied. Additionally, the pregnancy test requirement for women of childbearing potential is unknown. Although the patient meets general inclusion items (age, consent, compliance) and shows no exclusion factors, the lack of evidence for the primary disease condition makes her effectively ineligible for this study. The eligibility score is therefore negative but not as low as the maximum possible because some inclusion criteria are met.",
+            "eligibility_score_E": -20.0
         }
     },
     "sigir-201511": {
@@ -1497,6 +1503,12 @@
             "relevance_score_R": 58.0,
             "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and not meeting any exclusion criteria. The patient satisfies age, consent, and willingness criteria, but fails the key inclusion criterion of having vocal fold nodules (no evidence of this diagnosis). Moreover, the exclusion criterion for major acute illness is clearly met (fever, toxic appearance, dysphagia). Therefore the patient is ineligible for the study. The eligibility score should be negative and bounded by the relevance score, reflecting clear ineligibility.",
             "eligibility_score_E": -58.0
+        },
+        "NCT00394550": {
+            "relevance_explanation": "The patient is a 5\u2011year\u2011old child, which fits the age range of the trial. However, the clinical note describes acute upper airway obstruction symptoms (dysphagia, drooling, muffled voice) suggestive of epiglottitis or infection, with no mention of obstructive sleep apnea symptoms, polysomnography results, or a known diagnosis of laryngomalacia. Because the key disease focus of the trial (OSA associated with laryngomalacia) is absent, the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "The inclusion criteria require documented signs of obstructive sleep apnea or a confirmed polysomnography abnormality, which are not present in the note, so the patient does not satisfy the inclusion requirement. The exclusion criteria list many prior airway surgeries or specific anatomical abnormalities; none are reported, so the patient is not excluded. Since the patient fails to meet the essential inclusion criteria, he is ineligible for the trial. The eligibility score should therefore be negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -20.0
         }
     }
 }
