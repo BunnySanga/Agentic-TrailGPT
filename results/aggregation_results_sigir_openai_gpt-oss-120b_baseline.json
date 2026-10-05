@@ -1961,6 +1961,12 @@
             "relevance_score_R": 22.0,
             "eligibility_explanation": "While the patient meets the age and consent requirements, he does not meet the primary inclusion criteria requiring admission for severe gastroenteritis, recent onset of gastroenteritis, or laboratory\u2011confirmed rotavirus infection. No exclusion criteria are triggered, but the lack of required gastroenteritis criteria makes him ineligible. Given the modest relevance (R\u224822), the eligibility score is set negative, reflecting ineligibility but not the maximum possible penalty.",
             "eligibility_score_E": -18.0
+        },
+        "NCT01253967": {
+            "relevance_explanation": "The trial targets children younger than 5 years with rotavirus gastroenteritis in Romania. The patient is an 8\u2011year\u2011old male presenting with respiratory illness, no evidence of gastroenteritis or rotavirus testing, and the location (USA) does not match the Romanian setting. These factors make the patient largely irrelevant to the study, though the fact that he is a child and was seen in an emergency department provides minimal overlap.",
+            "relevance_score_R": 15.0,
+            "eligibility_explanation": "Given the primary inclusion criteria (age <5, acute gastroenteritis, rotavirus positivity), the patient fails the age requirement and shows no signs of gastroenteritis or rotavirus testing. Consequently, he would be considered ineligible for the trial. Since relevance is low, the eligibility penalty is limited to the same magnitude.",
+            "eligibility_score_E": -15.0
         }
     },
     "sigir-20144": {

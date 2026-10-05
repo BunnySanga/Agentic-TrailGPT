@@ -24531,6 +24531,34 @@
                         "not applicable"
                     ]
                 }
+            },
+            "NCT01201252": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 8 years old, which exceeds the age limit of <5 years; no evidence in note to suggest otherwise.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Sentence 6 states the patient will provide informed consent and comply with the protocol, indicating consent is obtained.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The patient note does not state a diagnosis of acute gastroenteritis; symptoms are mainly respiratory with only loose stools mentioned, suggesting the diagnosis likely does not include acute gastroenteritis.",
+                        [],
+                        "excluded"
+                    ],
+                    "1": [
+                        "The note indicates symptoms began before hospital presentation (ER visit), so onset after 48\u202fhours of admission is not applicable.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -26472,6 +26500,190 @@
                         "not applicable"
                     ]
                 }
+            },
+            "NCT02247765": {
+                "inclusion": {
+                    "0": [
+                        "Patient is male, criterion applies and is met.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Criterion requires age 18-50; patient is 2 years old, so does not meet age requirement.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "Criterion applies only to females; patient is male, thus not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No evidence of a physical exam with 12\u2011lead ECG, medical history, and CBC with sickle cell screening within the past year; cannot assume it was done.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No information about specific demographic requirements for the monitoring device; cannot determine compliance.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Sentence 5 states the patient will provide informed consent and comply with protocol.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "6": [
+                        "No explicit statement about ability to participate for the full evaluation duration; insufficient data.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No information on baseline % modulation; cannot assess from note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Patient is 2 years old, which is under 18 years.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "Patient is a male child; pregnancy/lactation not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No blood pressure readings provided; cannot determine hypertension.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No cardiac rhythm information; no evidence of symptomatic VPCs.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No history of seizures or epilepsy mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No mention of unexplained syncope.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No mention of anxiolytic drug use.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No mention of frequent migraine headaches.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No evidence of compromised circulation or malformation of fingers/hands.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No history of altitude sickness reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No significant respiratory disease reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No mention of sickle cell disease or trait.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "Clinically significant findings: moderate coronary artery dilation/possible aneurysm and abnormal labs.",
+                        [
+                            4,
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "14": [
+                        "No history of stroke, TIA, or carotid disease mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No history of myocardial ischemia, angina, MI, CHF, or cardiomyopathy reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No mention of chronic renal impairment.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No severe contact allergies reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "No indication of unwillingness to remove nail polish; assume able.",
+                        [],
+                        "not excluded"
+                    ],
+                    "19": [
+                        "Patient (via parents) will provide informed consent.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "20": [
+                        "No known allergies to lidocaine or heparin mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "21": [
+                        "No recent arterial cannulation reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "22": [
+                        "No history of multiple arterial cannulations reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "23": [
+                        "No complications from prior arterial cannulation reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "24": [
+                        "No current use of blood thinners or daily aspirin reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "25": [
+                        "No history of bleeding disorders or prolonged bleeding reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -27626,6 +27838,194 @@
                     ],
                     "20": [
                         "Patient is male; pregnancy/breastfeeding not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT01110551": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 18 years old male, meets age and gender requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient presents with acute febrile illness and abnormal CBC, indicating not in good health.",
+                        [
+                            0,
+                            1
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "No laboratory values beyond those described are provided; cannot assess compliance with lab criteria.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No information on HIV, Hepatitis C/B, dengue, or West Nile serology is given.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No explicit history of prior dengue or West Nile infection or vaccine trial is mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Criterion applies only to females of child\u2011bearing potential; patient is male, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Sentence 2 states the patient will provide informed consent and comply with the protocol.",
+                        [
+                            2
+                        ],
+                        "included"
+                    ],
+                    "7": [
+                        "Sentence 2 indicates willingness and ability to comply with study procedures, implying ability to communicate with investigators.",
+                        [
+                            2
+                        ],
+                        "included"
+                    ],
+                    "8": [
+                        "No ECG results are provided in the note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "Patient's weight is not reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No information about telephone access is provided.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No condition limiting study participation is mentioned; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No clinically significant hematologic, renal, hepatic, pulmonary, CNS, cardiovascular, thromboembolic, autoimmune, coagulopathic, or GI disorders are reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No history of malignancy is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No history of diabetes mellitus is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient has high fever (sentence 0) which meets body temperature >100\u202f\u00b0F criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "No allergy to penicillin, neomycin, streptomycin or gentamicin is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No history of hypersensitivity to any vaccine is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No history of Yellow Fever or Japanese Encephalitis vaccination is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Current dengue infection is described, but no prior infection or seropositivity is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "Patient recently returned from a vacation in Asia (dengue\u2011endemic) within the month prior to screening (sentence 0).",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "10": [
+                        "Travel to a dengue\u2011endemic area within 1\u202fmonth of screening is documented (sentence 0).",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "11": [
+                        "No immunodeficiency or immunosuppressive therapy is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No history of recurring migraines or migraine medication is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No use of NSAIDs, aspirin, acetaminophen, or antihistamines in the 3\u202fdays prior to vaccination is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No information on NSAID/acetaminophen use during the first 14\u202fdays post\u2011vaccination; assume not used.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No receipt of other investigational product is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No recent licensed vaccine receipt is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No concurrent participation in another clinical study is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "No receipt of blood products or immunoglobulins in the prior 8\u202fweeks is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "19": [
+                        "No blood donation is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "20": [
+                        "Laboratory abnormalities (leukopenia, increased hematocrit, thrombocytopenia) are present (sentence 1), indicating a screening test out of normal range.",
+                        [
+                            1
+                        ],
+                        "excluded"
+                    ],
+                    "21": [
+                        "Patient is male; pregnancy/lactation not applicable.",
                         [],
                         "not applicable"
                     ]
