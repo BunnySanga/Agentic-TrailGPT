@@ -1,8 +1,9 @@
-"""Agent variant v2: Assertion + Reviewer on risky labels, TrialGPT result shape preserved.
+"""Agent variants v2/v3: Assertion + Reviewer on risky labels, TrialGPT result shape preserved.
 
 v1 (enhanced_matching.py) sends every criterion through Clarification and the
 Verifier. v2 leaves labels that are almost always right alone ("included",
 "not excluded" with clean evidence) and asks one Reviewer about the rest.
+v3 is v2 without reviewing "not enough information" labels.
 """
 
 from __future__ import annotations
@@ -20,7 +21,12 @@ from .enhanced_matching import _request_chunks, criteria_by_id
 # Labels the Reviewer always checks. On development patients GPT-4 was right
 # 42% ("not applicable"), 88% ("not enough information"), 62% ("excluded"),
 # and 67% ("not included") of the time, versus ~97% for the other two.
-REVIEW_LABELS = {"not applicable", "not enough information", "excluded", "not included"}
+REVIEW_LABELS = frozenset({"not applicable", "not enough information", "excluded", "not included"})
+# v3: on the 300-criterion dev sample, v2's changes to GPT-4's "not enough
+# information" labels were right 5 times out of 27, cancelling its other gains
+# (net +1). v3 never reviews them.
+V3_REVIEW_LABELS = REVIEW_LABELS - {"not enough information"}
+V3_KEEP_LABELS = frozenset({"not enough information"})
 AFFIRMATIVE_LABELS = {"included", "excluded"}
 # TrialGPT appends this sentence to every note on purpose, so consent and
 # compliance criteria can be met. It is an assumption, not a clinical
@@ -44,8 +50,15 @@ def review_trial_matching(
     model: str | None = None,
     assertion_agent: Any | None = None,
     reviewer_agent: Any | None = None,
+    review_labels: frozenset[str] = REVIEW_LABELS,
+    keep_labels: frozenset[str] = frozenset(),
+    agent_mode: str = "llm_reviewer_v2",
 ) -> tuple[dict[str, Any], dict[str, Any]]:
-    """Return an aggregation-compatible result plus a review sidecar."""
+    """Return an aggregation-compatible result plus a review sidecar.
+
+    A criterion is reviewed when its label is in ``review_labels`` or its
+    cited evidence is flagged, unless its label is in ``keep_labels``.
+    """
     if not isinstance(matching_result, Mapping):
         return {}, {"error": "matching result is not a JSON object", "criteria": []}
     if assertion_agent is None or reviewer_agent is None:
@@ -56,7 +69,7 @@ def review_trial_matching(
 
     patient_sentences = numbered_patient_sentences(numbered_patient)
     enhanced = deepcopy(dict(matching_result))
-    review: dict[str, Any] = {"criteria": [], "agent_mode": "llm_reviewer_v2"}
+    review: dict[str, Any] = {"criteria": [], "agent_mode": agent_mode}
 
     items = []
     for criterion_type in ("inclusion", "exclusion"):
@@ -121,7 +134,8 @@ def review_trial_matching(
         negated_support = label in AFFIRMATIVE_LABELS and any(
             sentence_id in negated for sentence_id in item["cited_ids"]
         )
-        if label in REVIEW_LABELS or item["unusable_cited"] or negated_support:
+        flagged = item["unusable_cited"] or negated_support
+        if label not in keep_labels and (label in review_labels or flagged):
             requests.append(
                 {
                     "key": item["key"],

@@ -1,6 +1,6 @@
 import unittest
 
-from trialgpt_agents.reviewed_matching import review_trial_matching
+from trialgpt_agents.reviewed_matching import V3_KEEP_LABELS, V3_REVIEW_LABELS, review_trial_matching
 from trialgpt_reviewer.TrialGPT import ReviewerAgent
 
 NOTE = (
@@ -94,6 +94,22 @@ class ReviewedMatchingTests(unittest.TestCase):
         self.assertEqual(review["agent_mode"], "llm_reviewer_v2")
         reviewed = {item["criterion_id"] + item["criterion_type"]: item["reviewed"] for item in review["criteria"]}
         self.assertFalse(reviewed["1exclusion"])
+
+
+class V3Tests(unittest.TestCase):
+    def test_not_enough_information_is_never_reviewed_even_with_flagged_evidence(self):
+        matching = {
+            "inclusion": {"1": ["Father has diabetes.", [1], "not enough information"],
+                          "2": ["Stroke mentioned.", [2], "included"]},
+            "exclusion": {"0": ["Patient is male.", [0], "not applicable"]},
+        }
+        trial = dict(TRIAL, inclusion_criteria="Inclusion Criteria\n\nMale patients\n\nDiabetes mellitus\n\nHistory of stroke")
+        reviewer = StubReviewer({})
+        review_trial_matching(
+            matching, trial, NOTE, assertion_agent=StubAssertion(), reviewer_agent=reviewer,
+            review_labels=V3_REVIEW_LABELS, keep_labels=V3_KEEP_LABELS, agent_mode="llm_reviewer_v3",
+        )
+        self.assertEqual({request["key"] for request in reviewer.requests}, {"inclusion:2", "exclusion:0"})
 
 
 class ReviewerNormalizeTests(unittest.TestCase):
