@@ -7,7 +7,7 @@ from types import SimpleNamespace
 from unittest import mock
 
 from evaluate_rankings import cost_report, ndcg_at_k, patient_cost, precision_at_k, rank_patient
-from run_parallel import CachedNoteAssertion, JsonStore, read_patients_file, select_patients
+from run_parallel import CachedNoteAssertion, JsonStore, Run, read_patients_file, select_patients
 from trialgpt_llm import client as llm_client
 from trialgpt_llm.client import call_json, parse_retry_after, track_usage
 from trialgpt_llm.key_pool import AllKeysExhausted, KeyPool, KeySlot
@@ -157,6 +157,21 @@ class UsageTrackingTests(unittest.TestCase):
         self.assertEqual(results, {"a": 1, "b": 3})
 
 
+class BaselineOnlyRunTests(unittest.TestCase):
+    instance = {"patient_id": "test-patient-not-in-results", "2": [{"NCTID": "NCT-A"}], "0": [{"NCTID": "NCT-B"}]}
+
+    def test_baseline_only_run_expects_no_enhanced_aggregation(self):
+        run = Run("sigir", "test-model", {"match", "aggregate"})
+        self.assertFalse(run.with_agents)
+        # per trial: 2 matching calls + 1 baseline aggregation
+        self.assertEqual(run.remaining_calls(self.instance), 6)
+
+    def test_full_run_counts_agents_and_both_aggregations(self):
+        run = Run("sigir", "test-model", {"match", "enhance", "aggregate"})
+        # per trial: 2 matching + 2 agent + 2 aggregation calls, plus 1 note-level assertion
+        self.assertEqual(run.remaining_calls(self.instance), 13)
+
+
 class CostReportTests(unittest.TestCase):
     @staticmethod
     def stage(tokens):
@@ -169,6 +184,12 @@ class CostReportTests(unittest.TestCase):
         self.assertEqual(report["baseline"]["total_tokens"], 120)
         self.assertEqual(report["enhanced"]["total_tokens"], 180)
         self.assertAlmostEqual(report["overhead_tokens_pct"], 50.0)
+
+    def test_baseline_only_cost(self):
+        usage = {"p": {"NCT1": {"match": self.stage(100), "agg-baseline": self.stage(20)}}}
+        report = cost_report(["p"], {"p": ["NCT1"]}, usage, ("baseline",))
+        self.assertEqual(report["baseline"]["total_tokens"], 120)
+        self.assertNotIn("enhanced", report)
 
     def test_patient_with_unrecorded_stage_is_left_out(self):
         usage = {"NCT1": {"match": self.stage(100), "agg-baseline": self.stage(20)}}
