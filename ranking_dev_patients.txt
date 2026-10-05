@@ -1,0 +1,10 @@
+# Ranking study: development patients (fixed 2026-10-05, before any ranking results).
+# The 6 smallest SIGIR patients that have at least one eligible (qrels 2) and one
+# non-eligible trial, chosen from the criterion-annotation development side.
+# New ranking components and score weights are tuned on these patients only.
+sigir-201514
+sigir-201510
+sigir-201520
+sigir-20149
+sigir-201511
+sigir-201513

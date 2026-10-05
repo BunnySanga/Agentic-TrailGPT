@@ -13,7 +13,11 @@
       "Bash(git commit -m \"Daily run:*)",
       "Bash(git push -u origin claude/daily-results)",
       "Bash(~/trialgpt-venv/bin/python evaluate_criteria.py --variant:*)",
-      "Bash(git commit -m \"Criteria test:*)"
+      "Bash(git commit -m \"Criteria test:*)",
+      "Bash(~/trialgpt-venv/bin/python run_parallel.py --patients-file ranking_dev_patients.txt:*)",
+      "Bash(~/trialgpt-venv/bin/python run_parallel.py --patients-file ranking_test_patients.txt:*)",
+      "Bash(~/trialgpt-venv/bin/python evaluate_rankings.py --variants:*)",
+      "Bash(git commit -m \"Ranking baseline:*)"
     ]
   }
 }

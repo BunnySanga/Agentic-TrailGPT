@@ -6,6 +6,7 @@ Usage:
     python run_parallel.py --patient-ids sigir-20145,sigir-20146
     python run_parallel.py --limit 10 --dry-run  # only estimate the API calls left
     python run_parallel.py --patients-file study_patients.txt --max-minutes 8
+    python run_parallel.py --patients-file ranking_dev_patients.txt --stages match,aggregate   # baseline only
 
 Options: --corpus sigir  --model MODEL  --workers 3  --stages match,enhance,aggregate
 
@@ -132,6 +133,9 @@ class Run:
         self.agg_enhanced = JsonStore(results / f"aggregation_results_{corpus}_{model_safe}_enhanced.json", indent=4)
         # Token usage per patient / trial / stage, for the baseline vs agents cost comparison.
         self.usage = JsonStore(results / f"usage_{corpus}_{model_safe}.json", indent=2)
+        # Without the enhance stage this is a baseline-only run: no enhanced
+        # aggregation is expected.
+        self.with_agents = "enhance" in stages
         self.stop = threading.Event()
         self.stop_reason = ""
         self._stats_lock = threading.Lock()
@@ -164,14 +168,15 @@ class Run:
                     needs_assertion = True
                 if "aggregate" in self.stages:
                     calls += self.agg_baseline.get(patient_id, trial_id) is None
-                    calls += self.agg_enhanced.get(patient_id, trial_id) is None
+                    if self.with_agents:
+                        calls += self.agg_enhanced.get(patient_id, trial_id) is None
         return calls + needs_assertion
 
     def patient_complete(self, instance: dict) -> bool:
         patient_id = instance["patient_id"]
         return all(
             isinstance(self.agg_baseline.get(patient_id, trial["NCTID"]), dict)
-            and isinstance(self.agg_enhanced.get(patient_id, trial["NCTID"]), dict)
+            and (not self.with_agents or isinstance(self.agg_enhanced.get(patient_id, trial["NCTID"]), dict))
             for label in ("2", "1", "0")
             for trial in instance.get(label, [])
         )
@@ -292,7 +297,10 @@ def read_patients_file(path: Path) -> list[str]:
     return ids
 
 
-def print_summary(run: Run, pool, started: float, status: str, remaining: int, corpus: str, model: str) -> None:
+def print_summary(
+    run: Run, pool, started: float, status: str, remaining: int, corpus: str, model: str,
+    patient_ids: list[str], show_scores: bool = True,
+) -> None:
     print("\n" + "=" * 70)
     if run.stop_reason:
         print(f"Stopped: {run.stop_reason}")
@@ -306,7 +314,9 @@ def print_summary(run: Run, pool, started: float, status: str, remaining: int, c
     print(f"  total tokens this run: {total_tokens:,}")
     if run.errors:
         print("Trials with errors were not saved; the next run retries them.")
-    print_report(evaluate(corpus, model))
+    if show_scores:
+        variants = ("baseline", "enhanced") if run.with_agents else ("baseline",)
+        print_report(evaluate(corpus, model, variants=variants, patient_ids=patient_ids))
     print(
         f"RESULT status={status} remaining_calls={remaining} "
         f"completed_patients={','.join(run.completed_patients) or '-'} "
@@ -329,6 +339,8 @@ def main() -> int:
     parser.add_argument("--max-minutes", type=float, default=0,
                         help="stop after this many minutes (saved work is kept); 0 = no limit")
     parser.add_argument("--dry-run", action="store_true", help="estimate remaining API calls and exit")
+    parser.add_argument("--no-report", action="store_true",
+                        help="skip the ranking scores in the summary (for held-out patients)")
     args = parser.parse_args()
 
     stages = {stage.strip() for stage in args.stages.split(",") if stage.strip()}
@@ -392,7 +404,8 @@ def main() -> int:
         status, code = "time_up", EXIT_TIME_UP
     else:
         status, code = "done", EXIT_DONE
-    print_summary(run, pool, started, status, remaining, args.corpus, args.model)
+    print_summary(run, pool, started, status, remaining, args.corpus, args.model,
+                  [item["patient_id"] for item in patients], show_scores=not args.no_report)
 
     if pending:
         # Workers may be mid-request or waiting out a cooldown. Everything

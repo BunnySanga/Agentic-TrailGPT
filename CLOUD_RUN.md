@@ -73,6 +73,14 @@ It scores the agents against TrialGPT's physician labels on a fixed
 the agents fixed and broke, and the token cost. `/criteria-test v1 test` scores
 the held-out patients; run that only at the end.
 
+## Ranking baseline
+
+Type `/ranking-baseline`. It runs official TrialGPT matching and aggregation
+(no agents) for the 6 development patients, then the 12 held-out patients, in
+8-minute chunks, and stops at the daily API limit. Type it again the next day
+to continue. It reports scores for development patients only; held-out
+scores wait until the end of the study.
+
 ## Every day (ranking study)
 
 1. At claude.ai/code start a session on `BunnySanga/Agentic-TrailGPT`
