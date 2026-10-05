@@ -127,6 +127,66 @@
             "relevance_score_R": 18.0,
             "eligibility_explanation": "Because the patient does not meet the essential pediatric age requirement and lacks the required septic\u2011shock context (no suspected infection, no documented fluid bolus), she fails the key inclusion criteria. No exclusion criteria are triggered, but the missing inclusions make her ineligible. Given the low relevance, the eligibility penalty is modest.",
             "eligibility_score_E": -12.0
+        },
+        "NCT01839786": {
+            "relevance_explanation": "The patient matches basic demographic criteria (age >18 and willingness to consent) which are relevant to both prospective and retrospective arms of the trial. However, there is no evidence of pulmonary hypertension, no scheduled or prior right heart catheterization, and the presentation is an acute, hemodynamically unstable emergency unrelated to the target condition. Thus the overall relevance to a study focused on pulmonary hypertension assessment is limited.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Key inclusion criteria are not met: the patient lacks a suspicion or diagnosis of pulmonary hypertension and is not scheduled for, nor has a history of, right heart catheterization. Additionally, the patient is hemodynamically unstable (low blood pressure, tachycardia, tachypnea), which is an explicit exclusion criterion. Consequently, the patient is ineligible for the trial. The eligibility score is set to the negative maximum of the relevance range.",
+            "eligibility_score_E": -38.0
+        },
+        "NCT02104050": {
+            "relevance_explanation": "The trial targets adults aged 45\u201180 with moderate to severe knee osteoarthritis pain. The patient is a 40\u2011year\u2011old woman presenting with acute right\u2011arm pain and no evidence of knee osteoarthritis, knee pain, or any of the required clinical features. Apart from willingness to consent, there is essentially no overlap with the disease condition, age range, or symptom criteria, making the patient largely irrelevant to this study.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet any of the inclusion criteria (age, knee OA diagnosis, knee pain, radiographic findings, etc.) and there is insufficient information for some exclusion criteria, the patient would be considered ineligible. The eligibility score should reflect ineligibility within the bounds of the relevance score, i.e., a negative value close to \u2013R.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT01792336": {
+            "relevance_explanation": "The trial targets individuals with focal hand dystonia (or healthy volunteers) who are right\u2011handed adults. The patient is a 40\u2011year\u2011old woman, which satisfies the age criterion, but the clinical note describes acute right\u2011arm pain without any mention of dystonia, hand cramps, or movement disorder. There is also no information on handedness. Because the core condition of focal hand dystonia is absent, the patient is only minimally relevant to the trial.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Eligibility requires a confirmed diagnosis of focal hand dystonia (or being a healthy control). The patient does not have dystonia and there is no evidence they are a healthy volunteer; thus they fail the primary inclusion criterion. Other criteria are either met or unknown, but the missing key inclusion makes the patient ineligible. Given the low overall relevance, the eligibility score is negative but bounded by the relevance magnitude.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00322621": {
+            "relevance_explanation": "The trial targets patients with chronic diabetic peripheral neuropathic pain in the feet lasting at least 6 months. The patient is a 40\u2011year\u2011old woman with an acute, isolated right\u2011arm pain episode, no history of diabetes, no peripheral neuropathy, and no mention of foot pain. Only the generic consent and ability to follow protocol are relevant. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Even though the patient appears otherwise free of the listed exclusion factors, the exclusion criterion regarding serious or unstable cardiovascular disease is triggered by the documented hypotension (BP 80/60) suggesting hemodynamic instability. This makes the patient ineligible. Because relevance is low (R=18), the eligibility score is limited to the range \u201318 to +18; the patient is clearly excluded, so we assign the most negative value within that range.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT02072538": {
+            "relevance_explanation": "The patient note describes a 40\u2011year\u2011old woman with acute severe right\u2011arm pain, hypotension, tachycardia and tachypnea presenting to the emergency department. The trial targets patients with acute coronary syndrome (ACS) presenting to a chest\u2011pain unit, typical angina, and who are asymptomatic at the time of enrollment. Only the age and willingness to give consent are relevant and match the trial, while the core clinical features (chest pain, ACS, GRACE score) are missing or contradictory. Therefore the overall relevance is limited but not zero.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and not meeting any exclusion criteria. The patient meets the age and consent criteria, but fails the symptom\u2011absence inclusion criterion and lacks required ACS\u2011specific data (chest pain, GRACE score). Moreover, the exclusion criterion for conditions requiring immediate workup is triggered by the patient\u2019s hypotension and severe pain, indicating she needs urgent evaluation. Consequently, the patient is ineligible, and the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -38.0
+        },
+        "NCT02011477": {
+            "relevance_explanation": "The trial targets asymptomatic adults aged 18\u201130 to study hypoalgesic effects of neural mobilization. The patient is a 40\u2011year\u2011old woman presenting with acute right\u2011arm pain, which makes her symptomatic and outside the required age range. Apart from age and symptom status, there is no overlap with the trial\u2019s focus on hyperalgesia or neural mobilization, so the overall relevance is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the patient does not satisfy the sole inclusion criterion (age 18\u201130 and asymptomatic), she is ineligible for the study. None of the exclusion criteria apply, but failure to meet inclusion means she cannot be enrolled. Hence the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01539161": {
+            "relevance_explanation": "The patient\u2019s presentation (acute right\u2011arm pain, hypotension, tachycardia) bears no relation to the trial\u2019s target condition (Chagas disease and associated cardiac arrhythmias). Only generic criteria such as age >21 and ability to consent are met, which are common to many studies and do not create a strong link to this specific trial. Consequently the overall relevance of this patient to the Reveal Chagas study is low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Eligibility requires confirmed Chagas disease and documented cardiac electrical abnormalities, both of which are absent from the note. While the patient meets some non\u2011specific criteria (age, consent), the core inclusion criteria are not satisfied, making the patient ineligible. No exclusion criteria are triggered, but the lack of required disease and cardiac findings outweighs the satisfied items, resulting in a negative eligibility score equal to the relevance magnitude.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT01188993": {
+            "relevance_explanation": "The trial targets patients with early septic shock who require advanced hemodynamic monitoring (ventilation, sinus rhythm, septic physiology). The patient note describes a 40\u2011year\u2011old woman with acute right\u2011arm pain, hypotension, tachycardia, and tachypnea, but there is no mention of infection, sepsis, or septic shock, nor of mechanical ventilation or sinus rhythm. Because the core disease (septic shock) and key procedural requirements are absent, the patient is only marginally related to the trial.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Given the low relevance, the inclusion criterion (ventilated patient with septic shock) cannot be satisfied with the available information, and there is no evidence that the patient meets the required septic shock profile. The exclusion criteria (age, pregnancy, TEE contraindications) are not violated, but because the patient does not appear to meet the essential inclusion condition, she would be considered ineligible. The eligibility score is therefore the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT00243152": {
+            "relevance_explanation": "The trial targets adults with chronic neuropathic facial pain. The patient is an adult (age 40) and can consent, which gives some overlap, but the presenting problem is acute right\u2011arm pain of 1\u2011hour duration, not facial pain, and there is no evidence of chronicity or neuropathic features. Most inclusion criteria cannot be assessed or are clearly not met, and only age matches. Therefore the overall relevance is modest but limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Key inclusion criteria (diagnosed facial pain, pain duration >3 months, pain intensity) are not satisfied, and there is insufficient information for several others. No exclusion criteria are triggered, but because the patient fails essential inclusion requirements, she is ineligible for the study. Eligibility is therefore negative and limited by the relevance magnitude.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02099071": {
+            "relevance_explanation": "The clinical trial seeks healthy male volunteers aged 18\u201145 with normal vital signs and no acute medical issues. The patient is a 40\u2011year\u2011old woman presenting to the emergency department with hypotension, tachycardia, pallor, and acute pain, indicating she is not a healthy subject and does not meet the gender requirement. Only a few criteria (informed consent, normal temperature, willingness to comply) are relevant, while the majority of the trial\u2019s inclusion criteria are clearly not met or lack information. Consequently, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Because the patient fails key inclusion criteria (male gender, normal blood pressure, normal vital signs, and absence of clinically significant findings) and also meets an exclusion criterion (acute condition that could affect drug ADME), she is effectively ineligible for the study. With the relevance being low (R=12), the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -12.0
         }
     },
     "sigir-201529": {
@@ -1767,6 +1827,360 @@
             "relevance_score_R": 10.0,
             "eligibility_explanation": "Even though relevance is low, the available information shows the patient has a high risk of aspiration due to dysphagia and drooling, which directly matches an exclusion criterion (Risk of aspiration). This makes the patient ineligible. Since eligibility scores must lie between \u2013R and +R, we assign the most negative value within that range.",
             "eligibility_score_E": -10.0
+        }
+    },
+    "sigir-20142": {
+        "NCT01017081": {
+            "relevance_explanation": "The trial targets pediatric patients (1\u201112 years) with acute community\u2011acquired pneumonia confirmed by clinical signs (fever, cough, dyspnea) and a chest radiograph showing infiltrates within the first 48\u202fhours. The patient is an 8\u2011year\u2011old boy presenting with fever, cough, dyspnea, and a chest X\u2011ray that shows bilateral infiltrates, with symptom onset 2\u202fdays ago. All key elements of the trial\u2019s target population are present, making the patient highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Review of the exclusion criteria shows no evidence that the patient meets any of them: there is no ICU admission, no pleural drainage, no atelectasis, no recent pneumonia, and no underlying chronic pulmonary, cardiac, neurologic, or immunologic disease. Therefore the patient satisfies all inclusion criteria and none of the exclusion criteria, indicating strong eligibility. Since eligibility cannot exceed relevance, the eligibility score is set close to the relevance value.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT02380352": {
+            "relevance_explanation": "The patient is an 8\u2011year\u2011old child, which fits the age range of the trial (6\u202fmonths\u201110\u202fyears). He presents with fever, cough, respiratory distress, auscultatory findings, and chest\u2011radiograph infiltrates \u2013 all core features of community\u2011acquired pneumonia that the trial targets. The note provides sufficient information for most inclusion criteria, though respiratory rate and some severity markers are missing. No obvious exclusion conditions (e.g., cystic fibrosis, immunosuppression, recent extensive antibiotic use) are mentioned. Overall, the case aligns closely with the trial\u2019s target population, yielding a high relevance.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Based on the criterion\u2011level predictions, the patient meets the age, fever, cough, work\u2011of\u2011breathing, auscultatory, and radiographic inclusion criteria. The only uncertain areas are tachypnoea (respiratory rate not reported) and the specific radiographic definition of bacterial CAP, but these do not constitute exclusion. No exclusion criteria are triggered in the note. Therefore, the patient is likely eligible, though the missing data prevent a perfect score. The eligibility score is set near the relevance ceiling but slightly lower to reflect the incomplete information.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT02269761": {
+            "relevance_explanation": "The patient is an 8\u2011year\u2011old presenting to the emergency department with dyspnea and cough, has a chest X\u2011ray performed, and the study is aimed at ED patients with cough, dyspnea or wheezing who receive imaging. All key elements of the trial\u2019s target population are present, making the case highly relevant.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Although the patient meets all inclusion criteria, the exclusion criterion for a life\u2011threatening medical condition requiring immediate treatment applies (respiratory distress with bilateral infiltrates). This exclusion overrides the inclusions, rendering the patient ineligible. No other exclusion criteria are violated.",
+            "eligibility_score_E": -92.0
+        },
+        "NCT00711399": {
+            "relevance_explanation": "The patient note contains multiple elements directly related to the trial\u2019s focus on respiratory sounds: the child has cough, dyspnea, and documented lung infiltrates, and he can give informed consent and comply with protocol. These match the inclusion criteria (consent, cough/shortness of breath). The only trial\u2011specific exclusion that applies is respiratory distress, which is explicitly mentioned. Because the patient\u2019s condition aligns closely with the trial\u2019s target condition and data collection needs, the overall relevance is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Although the patient meets all inclusion criteria, he also meets an exclusion criterion (respiratory distress). This makes him ineligible for enrollment despite the high relevance. Since the eligibility score must lie between \u2013R and +R and the exclusion is definitive, the score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -85.0
+        },
+        "NCT01253980": {
+            "relevance_explanation": "The trial targets children with pneumonitis caused specifically by recent kerosene (paraffin) ingestion. The patient note describes an 8\u2011year\u2011old with fever, dyspnea, cough, and bilateral infiltrates, but there is no mention of any kerosene ingestion or exposure. While the patient does meet general respiratory symptom criteria and consent, the core disease etiology required by the trial is absent. Therefore the patient is only loosely related to the trial (general pediatric pneumonia) and largely irrelevant to the specific kerosene\u2011pneumonitis focus.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the primary inclusion criterion (kerosene ingestion within the preceding 24\u202fhours) is not met and no information suggests it was met, the patient fails a mandatory inclusion requirement. Other criteria (respiratory signs, consent) are satisfied, but missing the key exposure makes the patient ineligible. The eligibility score cannot exceed the relevance magnitude, so we assign a negative score equal to the relevance, indicating clear ineligibility.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01099943": {
+            "relevance_explanation": "The trial targets primary care clinic practices and their antibiotic prescribing behavior for common outpatient infections. The patient note describes an individual 8\u2011year\u2011old male presenting to the emergency department with fever, dyspnea, cough, and bilateral infiltrates. There is no mention of a primary care visit, clinic affiliation, or the patient being part of a practice that would be monitored for prescribing patterns. Therefore the patient is only tangentially related to the trial\u2019s focus on clinician behavior, giving a low relevance.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Eligibility criteria pertain to clinic locations, willingness of practices to be monitored, and assessment of patient records for specific ICD\u20119 infection codes within those clinics. None of these criteria can be applied to a single patient presentation in the ER, and there is no information indicating the patient meets or violates any inclusion or exclusion condition. Consequently, the eligibility assessment is neutral.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT02618655": {
+            "relevance_explanation": "The patient is an 8\u2011year\u2011old with acute fever (39\u202f\u00b0C), respiratory symptoms, and recent travel to Colorado, a region where tick\u2011borne diseases can occur. The trial focuses on patients with unexplained acute fever of unknown origin and aims to evaluate diagnostic methods for tick\u2011borne diseases. While the patient\u2019s fever is short\u2011duration (2\u202fdays) and there is a clear respiratory infection picture, the travel history and fever meet part of the trial\u2019s target population. However, the patient does not satisfy the key inclusion criterion of fever lasting >1\u202fweek, and the clinical picture suggests a likely bacterial/viral pneumonia rather than an undiagnosed tick\u2011borne illness. Overall, the case is moderately relevant but not a perfect fit.",
+            "relevance_score_R": 58.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and none of the exclusions. The patient meets the temperature criterion (>38\u202f\u00b0C) but fails the primary fever\u2011duration criterion (fever >1\u202fweek). The third inclusion criterion (full work\u2011up after one week with no diagnosis) is not applicable because the illness is only 2\u202fdays old. No exclusion criteria are triggered. Because a critical inclusion criterion is not met, the patient is considered ineligible, though not excluded by any exclusion rule. The eligibility score is therefore negative, reflecting ineligibility, but its magnitude is limited by the relevance score.",
+            "eligibility_score_E": -58.0
+        },
+        "NCT01269554": {
+            "relevance_explanation": "The patient is an 8\u2011year\u2011old child presenting with loose stools, which directly matches the trial\u2019s focus on diarrhoea etiology in children. The trial seeks stool samples from participants with diarrhoea, and the patient\u2019s age group and symptom profile are relevant. However, the note also emphasizes a severe respiratory infection (fever, dyspnea, bilateral infiltrates) that is the primary acute problem, and there is no explicit mention of willingness or ability to provide stool specimens. Because the core condition (diarrhoea) aligns but the overall clinical picture is dominated by a respiratory illness, the relevance is high but not perfect.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "Inclusion criterion 1 (presence of diarrhoea) is satisfied by the patient\u2019s loose stools, so the patient meets at least one key inclusion requirement. The consent statement confirms willingness to participate, but there is no specific statement that the patient (or his guardians) will provide the required stool samples, which is essential for trial eligibility. No exclusion criteria are triggered. Consequently, the patient is likely eligible pending confirmation of stool\u2011sample provision; this yields a positive but partial eligibility score within the \u00b1R range.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT00455468": {
+            "relevance_explanation": "The trial targets children aged 2\u201159 months with severe pneumonia presenting to specific clinics in Bangladesh. The patient is an 8\u2011year\u2011old (\u224896 months), far older than the age range, and presented to an emergency department rather than the required Radda Clinic/ICHSH. While the patient does have pneumonia\u2011like symptoms and can give consent, the key demographic and site criteria are not met, making the overall relevance low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the patient does not satisfy the primary inclusion criteria (age and clinic attendance), he would be ineligible for enrollment. No exclusion criteria are triggered, but the lack of required inclusion factors means the patient is effectively excluded. The eligibility score is therefore negative and limited by the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT00851487": {
+            "relevance_explanation": "The trial targets children 2\u201159 months with WHO\u2011defined non\u2011severe pneumonia. The patient is an 8\u2011year\u2011old (\u224896 months), well outside the age range, and the clinical description suggests possible severe pneumonia (bilateral infiltrates, respiratory distress) rather than the WHO non\u2011severe phenotype. Only a few elements (pneumonia diagnosis, ability to consent and follow\u2011up) align with the trial, so overall relevance is limited.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Key inclusion criteria are not met: the patient exceeds the age limit and does not clearly satisfy WHO non\u2011severe pneumonia (no fast breathing, presence of distress and bilateral infiltrates suggests more severe disease). Although the patient meets follow\u2011up and consent criteria and has no exclusion factors, failure to meet essential inclusion criteria makes the patient ineligible. The eligibility score is therefore negative, bounded by the relevance score.",
+            "eligibility_score_E": -38.0
+        },
+        "NCT02139163": {
+            "relevance_explanation": "The trial focuses on community\u2011acquired pneumonia (CAP) but is an epidemiological study targeting adult patients (age \u226518). The patient is an 8\u2011year\u2011old child with CAP, which matches the disease condition but not the target population. Because the disease aligns but the age requirement does not, the overall relevance is moderate but limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and not meeting any exclusion criteria. The patient satisfies the radiographic infiltrate inclusion criterion and has no exclusion factors (no recent inpatient stay, no immunosuppression). However, the age inclusion criterion (\u226518) is not met, which disqualifies the patient. Since the only disqualifying factor is age, the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00513500": {
+            "relevance_explanation": "The trial targets community management of pneumonia (and malaria) in children in Zambia. The patient is an 8\u2011year\u2011old boy with acute pneumonia\u2011like presentation (fever, cough, dyspnea, bilateral infiltrates). This aligns with the disease focus, giving the case some relevance. However, the patient is older than the trial\u2019s age window (6\u202fmonths\u20115\u202fyears) and the study is set in a rural Zambian setting, which does not match the patient\u2019s location (USA). These mismatches reduce overall relevance.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility is determined by the inclusion and exclusion criteria. The patient meets the fever and respiratory symptom inclusions, but fails the age inclusion (outside 6\u202fmonths\u20115\u202fyears) and triggers two exclusion criteria: age above 5\u202fyears and signs of severe illness (respiratory distress, bilateral infiltrates). Because the patient is excluded on multiple grounds, the eligibility score should be negative and equal in magnitude to the relevance score, reflecting a clear ineligibility.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT00507871": {
+            "relevance_explanation": "The trial targets children 9\u201136 months old with diarrhea (and possibly respiratory symptoms). The patient is an 8\u2011year\u2011old (\u224896 months), far outside the age range, which is the most critical mismatch. The note does mention loose stools and respiratory distress, which aligns with the trial\u2019s focus on diarrhea and respiratory involvement, but without detailed stool criteria the relevance is limited. Overall, only a small portion of the patient\u2019s presentation matches the trial\u2019s target population.",
+            "relevance_score_R": 22.0,
+            "eligibility_explanation": "Even though the patient\u2019s guardian can give consent (an inclusion criterion) and there are no documented exclusion conditions, the patient fails the primary inclusion criteria of age and lacks sufficient evidence of qualifying diarrhea. Because the key inclusion criteria are not met, the patient is considered ineligible. The eligibility score is therefore negative, reflecting ineligibility, but not the full negative of the relevance score because one inclusion criterion is satisfied.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT00132951": {
+            "relevance_explanation": "The trial enrolls adult outpatients (\u226535 or \u226518 years) with community\u2011acquired lower respiratory tract infections such as CAP. The patient is an 8\u2011year\u2011old child with CAP, which matches the disease focus but fails the age and outpatient\u2011adult criteria that dominate the inclusion set. Several inclusion items (age, adult status, chronic bronchitis history, smoking history) are not applicable, while a few (fever, cough, dyspnea, chest\u2011x\u2011ray infiltrates, consent) are relevant. Because the disease matches but the demographic criteria do not, the overall relevance is moderate rather than high.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility requires the patient to satisfy all mandatory inclusion criteria and none of the exclusions. The patient meets some clinical signs of CAP and can give consent, but he does not meet the essential age requirements (\u226535 and \u226518 years) and is not an adult outpatient as stipulated. Consequently, the patient would be excluded on the basis of age, making him ineligible despite the lack of exclusionary comorbidities. The eligibility score is therefore the negative extreme of the relevance range.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT01589926": {
+            "relevance_explanation": "The trial targets children with acute chest syndrome (ACS) who have sickle cell disease. The patient clearly meets the clinical ACS criteria (fever, respiratory distress, bilateral infiltrates) which makes the case relevant to the trial\u2019s disease focus. However, the note provides no information about sickle cell genotype or a diagnosis of sickle cell disease, which is a core inclusion requirement. Because the key disease\u2011specific element is missing, the overall relevance is moderate rather than high.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "Eligibility hinges on two major groups of criteria: (1) confirmed sickle cell disease (specific genotypes) and (2) ACS clinical features. While the patient satisfies several ACS clinical inclusion items (fever, infiltrate, respiratory symptoms, increased work of breathing), the absence of any documented sickle cell genotype means the patient cannot be confirmed as meeting the essential sickle\u2011cell inclusion criteria. Consequently, the patient is considered ineligible for the trial. The eligibility score is therefore negative, reflecting ineligibility, and its magnitude is limited by the relevance score.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT01075204": {
+            "relevance_explanation": "The trial targets patients with upper or lower respiratory tract infections treated with clarithromycin, and the patient clearly has a lower respiratory infection (fever, dyspnea, cough, bilateral infiltrates). This aligns with the core disease focus, giving a strong disease\u2011relevance component. However, the trial explicitly restricts enrollment to adults (\u226518 years), and the patient is an 8\u2011year\u2011old child, which is a major mismatch. The age criterion alone substantially reduces overall relevance. Considering the strong disease match but the critical age mismatch, the overall relevance is moderate.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "For eligibility, the patient meets the infection inclusion criterion but fails the age inclusion (adult only). Moreover, the exclusion criterion for severe illness likely applies because the child is in respiratory distress with bilateral infiltrates, suggesting a severity that would warrant hospitalization. These factors make the patient ineligible. The eligibility score is therefore negative, but its magnitude cannot exceed the relevance score. A score of -30 reflects strong ineligibility while staying within the allowed range (\u2011R \u2264 E \u2264 R).",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01663155": {
+            "relevance_explanation": "The clinical trial targets lung cancer screening in adults aged 40\u201175 who are current or former smokers with significant pack\u2011year histories. The patient is an 8\u2011year\u2011old boy with an acute respiratory infection and no smoking history. Apart from the generic ability to consent, there is virtually no overlap with the trial\u2019s disease focus, age range, or risk factors. Therefore the overall relevance of this patient to the trial is extremely low.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet any of the inclusion criteria (age, smoking history, etc.) and actively meets several exclusion criteria (new cough, new dyspnea, and a current respiratory infection/pneumonia), the patient is clearly ineligible for the trial. The eligibility score must lie between \u2013R and +R; given the complete mismatch and multiple exclusions, the score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT01359020": {
+            "relevance_explanation": "The patient is an 8\u2011year\u2011old child with fever (39\u202f\u00b0C) and acute illness, which matches the trial's focus on fever control in children. However, the trial restricts participants to ages 6\u202fmonths\u20136\u202fyears, and the patient exceeds this limit. Because the core symptom (fever) aligns but the age criterion does not, the overall relevance is moderate but not maximal.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "The primary inclusion criterion (age 6\u202fmonths\u20136\u202fyears) is not satisfied, making the patient ineligible regardless of the other criteria, all of which are either met or not applicable. Since the patient fails a key inclusion requirement, the eligibility score should be negative at the maximum magnitude allowed by the relevance score.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT00694655": {
+            "relevance_explanation": "The trial enrolls healthy adults aged 18\u201145 to receive a yellow\u2011fever vaccine and study immune responses. The patient is an 8\u2011year\u2011old male presenting with an acute respiratory infection. Age and current illness are directly relevant to inclusion criteria, making the patient largely irrelevant to the study objectives. Apart from the generic consent statement, there is no overlap with the trial\u2019s target population or purpose.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Given the low relevance, the patient fails key inclusion criteria (age 18\u201145 and ability to give informed consent as a legal adult). No exclusion criteria are triggered, but the patient is clearly ineligible because he does not meet the essential inclusion requirements. Therefore the eligibility score is the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00161863": {
+            "relevance_explanation": "The trial seeks healthy children aged 1\u201115 years for a safety study of a tick\u2011borne encephalitis vaccine. The patient is an 8\u2011year\u2011old male, which matches the age and gender inclusion criteria, so there is clear relevance on those dimensions. However, the patient is currently acutely ill with fever, respiratory distress, and bilateral lung infiltrates, which directly conflicts with the key inclusion requirement that participants be clinically healthy. Because the primary purpose of the trial is to assess vaccine safety in healthy volunteers, the patient\u2019s current illness makes the overall relevance limited. Other trial requirements (parental consent, diary, etc.) are not addressed in the note, further reducing relevance. Taking these factors together, the patient is partially relevant but largely mismatched to the trial\u2019s target population.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and none of the exclusion criteria. The patient satisfies the gender, age, and (by assumption) the lack of prior TBE vaccination or infection, and no contraindicating medical history. The decisive factor is inclusion criterion 2, which requires the child to be clinically healthy. The note clearly indicates the child is ill (fever, respiratory distress, lung infiltrates), so this inclusion criterion is not met, rendering the patient ineligible. Since the relevance score is 38, the eligibility score must lie between \u201338 and +38. The patient is clearly ineligible, so the eligibility score is set near the negative extreme, reflecting the failure to meet a critical inclusion criterion while no exclusion criteria are triggered.",
+            "eligibility_score_E": -36.0
+        },
+        "NCT00094887": {
+            "relevance_explanation": "The trial targets patients with sickle cell disease (SCD) aged 10\u202fyears or older who are in a vaso\u2011occlusive pain crisis. The patient note describes an 8\u2011year\u2011old boy with fever, dyspnea, cough and bilateral infiltrates \u2013 an acute respiratory illness with no mention of SCD, pain crisis, or the required age. The only relevant point is that the note states the patient will give informed consent, which satisfies the consent inclusion criterion. Overall, the patient\u2019s clinical presentation is largely unrelated to the trial\u2019s target condition and population.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the patient does not have sickle cell disease, is younger than the required 10\u202fyears, and does not present with a vaso\u2011occlusive pain crisis, he fails three major inclusion criteria. Although he meets the consent requirement, the trial\u2019s exclusion criteria include acute chest syndrome/pneumonia, which the patient appears to have (fever, cough, dyspnea, new bilateral infiltrates). This makes him ineligible. Given the low relevance, the eligibility score is negative but bounded by the relevance magnitude.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT01177657": {
+            "relevance_explanation": "The trial targets children hospitalized for severe rotavirus gastroenteritis in Brazil. The patient is an 8\u2011year\u2011old male, which satisfies the age and consent inclusion criteria, giving some overlap. However, the presenting problem is acute respiratory illness with fever, cough, and bilateral infiltrates, and there is no evidence of gastroenteritis or rotavirus testing. Because the core disease focus of the trial (severe gastroenteritis) is absent, the overall relevance of this patient to the trial is limited.",
+            "relevance_score_R": 22.0,
+            "eligibility_explanation": "While the patient meets the age and consent requirements, he does not meet the primary inclusion criteria requiring admission for severe gastroenteritis, recent onset of gastroenteritis, or laboratory\u2011confirmed rotavirus infection. No exclusion criteria are triggered, but the lack of required gastroenteritis criteria makes him ineligible. Given the modest relevance (R\u224822), the eligibility score is set negative, reflecting ineligibility but not the maximum possible penalty.",
+            "eligibility_score_E": -18.0
+        }
+    },
+    "sigir-20144": {
+        "NCT02317913": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old boy with classic clinical features of Kawasaki disease (prolonged fever, bilateral conjunctivitis, strawberry tongue, peripheral extremity changes, cervical lymphadenopathy, and coronary artery dilation). The trial is an epidemiologic study of Kawasaki disease patients in Shanghai. Therefore the patient\u2019s condition aligns closely with the target condition of the trial, making the case highly relevant.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "The patient satisfies several explicit inclusion criteria: fever \u22655 days, bilateral conjunctival injection, oral changes (strawberry tongue), peripheral extremity changes, and cervical lymphadenopathy. The only criterion with insufficient information is the presence of polymorphous exanthema (rash); however, the lack of mention does not constitute a disqualifier, and the study likely includes patients with incomplete data as long as other criteria are met. No exclusion criteria are applicable. Consequently, the patient appears eligible, though with a slight uncertainty due to the missing rash information.",
+            "eligibility_score_E": 78.0
+        },
+        "NCT02439996": {
+            "relevance_explanation": "The patient note describes classic Kawasaki disease features (prolonged fever, conjunctivitis, strawberry tongue, extremity changes, cervical lymphadenopathy, coronary artery dilation/aneurysm) in a 2\u2011year\u2011old child, which directly matches the target condition of the trial. All inclusion criteria (diagnosis, age 1\u202fmonth\u201112\u202fyears, ability to give informed consent, no prior treatment) are clearly supported by the note, and no exclusion criteria are evident. Therefore the patient is highly relevant to the trial.",
+            "relevance_score_R": 95.0,
+            "eligibility_explanation": "Based on the criterion\u2011level predictions, the patient meets every inclusion criterion and does not meet any exclusion criterion. The diagnostic criteria for Kawasaki disease are satisfied, the age falls within the required range, informed consent is assured, and there is no indication of prior treatment or use of hormones/immunosuppressants. Consequently, the patient is essentially fully eligible for the study.",
+            "eligibility_score_E": 95.0
+        },
+        "NCT01596335": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old with classic Kawasaki disease features (conjunctivitis, strawberry tongue, extremity changes, desquamation, cervical lymphadenopathy) and meets the fever and timing criteria. The trial targets Kawasaki disease refractory to initial IVIG; the note does not state whether the patient has already received IVIG or failed it, which is a key inclusion element. All other inclusion criteria (fever, ability to treat by day\u202f8) are satisfied, and none of the exclusion criteria apply. Because the core disease match is strong but the refractory\u2011to\u2011IVIG requirement is unknown, the overall relevance is high but not perfect.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient clearly fulfills several inclusion criteria (diagnosis, fever, timing) and has no exclusion factors. However, the critical inclusion criterion of being refractory to initial IVIG therapy cannot be confirmed from the note. Without evidence of prior IVIG failure, we cannot assert full eligibility. Given the strong alignment on most criteria and lack of exclusions, the patient is likely eligible, but uncertainty about the refractory status reduces the eligibility score to about 60% of the relevance maximum.",
+            "eligibility_score_E": 51.0
+        },
+        "NCT00271570": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old boy with classic acute Kawasaki Disease (fever, conjunctivitis, strawberry tongue, extremity changes, cervical lymphadenopathy, coronary artery dilation). The trial targets infants and children with acute Kawasaki Disease, and the patient meets the age and disease criteria. The only missing pieces are details about prior IVIG treatment and a recent chest X\u2011ray, but overall the case is highly pertinent to the study.",
+            "relevance_score_R": 88.0,
+            "eligibility_explanation": "Several inclusion criteria are clearly satisfied: age, acute KD presentation, fever duration >3 days, \u22654 clinical criteria, and presentation within 14 days of fever onset. However, key eligibility requirements regarding post\u2011IVIG fever persistence and a recent chest radiograph are not documented, leaving uncertainty. No exclusion criteria are triggered. Given the strong alignment but incomplete information, the patient is likely partially eligible but cannot be confirmed as fully eligible.",
+            "eligibility_score_E": 32.0
+        },
+        "NCT00841789": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old male with classic Kawasaki disease findings (conjunctivitis, strawberry tongue, extremity changes, cervical lymphadenopathy, elevated inflammatory markers, coronary artery dilation) and meets the age and consent requirements of the trial. The trial specifically targets Kawasaki disease patients aged 2 months to 20 years (males) and requires parental consent, both of which are satisfied. Therefore the patient is highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "While the patient meets all inclusion criteria, the exclusion criteria flag elevated alanine aminotransferase (ALT) as a laboratory toxicity that may preclude participation. The note explicitly reports an elevated ALT, and the exclusion criterion states that any laboratory toxicity judged by the investigator can exclude the patient. No other exclusion criteria are triggered. Consequently, the patient is likely ineligible due to this lab abnormality, resulting in a negative eligibility score proportional to the high relevance.",
+            "eligibility_score_E": -78.0
+        },
+        "NCT01917721": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old boy with classic Kawasaki disease manifestations (fever, conjunctivitis, strawberry tongue, extremity changes, lymphadenopathy) and documented coronary artery dilation/possible aneurysm on echocardiogram. The trial targets children aged 1 month to 21 years with Kawasaki disease and coronary artery dilation or aneurysm. All key disease features and age range match, and the note indicates the family will consent and comply. Therefore the patient is highly relevant to the study.",
+            "relevance_score_R": 95.0,
+            "eligibility_explanation": "Inclusion criteria 0\u20112 are satisfied: age 2\u202fyears, confirmed KD, and coronary dilation/possible aneurysm. Criterion 3 (refractory KD after IVIG) lacks information, so eligibility cannot be confirmed for that point. Criterion 4 is a mutually exclusive inclusion (coronary measurements below +2.5) which the patient does not meet, but meeting any of the primary inclusion arms is sufficient. No exclusion criteria apply (complete KD, parental consent, no renal or chronic liver disease). Given the strong alignment with the primary inclusion criteria and absence of exclusions, the patient is likely eligible, though the missing IVIG data introduces some uncertainty. Hence an eligibility score near the upper bound of relevance is appropriate.",
+            "eligibility_score_E": 80.0
+        },
+        "NCT02390596": {
+            "relevance_explanation": "The patient\u2019s presentation aligns closely with the core disease focus of the trial. He is a 2\u2011year\u2011old boy with classic Kawasaki disease features (\u22655 days fever, conjunctivitis, oral changes, extremity changes, cervical lymphadenopathy >1.5\u202fcm) and coronary artery dilation, satisfying the inclusion criterion for KD diagnosis. The note also confirms ability to give informed consent and no contraindicating comorbidities. Several inclusion items (prior IVIG failure, exact weight, health\u2011insurance status) are not documented, and a few exclusion items lack data, but none are clearly violated. Overall, the patient is highly relevant to the trial\u2019s target population.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Eligibility is mixed. The patient clearly meets the disease\u2011specific inclusion and consent criteria and is not excluded by any listed exclusion. However, key eligibility requirements are missing: there is no information about prior IVIG treatment and failure, exact weight (\u22655\u202fkg), or health\u2011insurance status. Because these unknowns could disqualify the patient, we cannot assume full eligibility. The balance of known information leans toward possible eligibility but with uncertainty, so the eligibility score is positive but substantially lower than the relevance score.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT01440075": {
+            "relevance_explanation": "The patient clearly has acute Kawasaki disease, which is the target condition of the trial, and the clinical details (fever, conjunctivitis, strawberry tongue, extremity changes, coronary artery dilation) match the disease definition. This makes the case highly relevant to a study investigating long\u2011term vascular outcomes after Kawasaki disease. The main mismatch is the trial\u2019s focus on adults (\u226518\u202fyears old) while the patient is only 2\u202fyears old, which reduces relevance but does not eliminate it because the disease history is central to the research question.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility is limited by several criteria: the patient does not meet the age requirement (must be \u226518\u202fyears), and a 2\u2011year\u2011old is unlikely to be able to hold his breath for 20\u202fseconds, which is an explicit exclusion. Additionally, there is no information confirming willingness to undergo genotyping or the absence of other cardiovascular risk factors, creating uncertainty. While the patient consents to participation and shows no other exclusionary conditions, the age and breath\u2011hold requirements are decisive disqualifiers, leading to a strong negative eligibility score within the relevance bound.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT00162032": {
+            "relevance_explanation": "The patient clearly has Kawasaki disease, which matches the trial's target condition, and the clinical presentation (fever, conjunctivitis, strawberry tongue, extremity changes, coronary artery dilation) aligns with the disease criteria. However, the trial restricts participants to ages 4\u201116, and the patient is only 2 years old, which is a major mismatch. Aside from age, there is no information about exercise capacity, which is another key inclusion factor. Overall, the case is moderately relevant because of disease match but limited by age and missing exercise data.",
+            "relevance_score_R": 68.0,
+            "eligibility_explanation": "Inclusion criterion 0 (age 4\u201116) is not satisfied, making the patient ineligible on that basis. Inclusion criterion 1 (diagnosis of Kawasaki disease) is satisfied, and there are no exclusion criteria triggered. Inclusion criterion 2 (ability to exercise to 85% predicted HR) lacks sufficient information, but the failure to meet the age requirement alone is sufficient to deem the patient ineligible. Therefore, the eligibility assessment is negative, reflecting the primary disqualifying factor.",
+            "eligibility_score_E": -68.0
+        },
+        "NCT00305201": {
+            "relevance_explanation": "The trial focuses on children who had Kawasaki disease more than a year ago and are at least 8 years old, to study long\u2011term endothelial function and statin response. The patient is currently experiencing an acute Kawasaki episode and is only 2 years old, so the core inclusion criteria are not met. While the patient\u2019s clinical picture confirms Kawasaki disease, the lack of prior disease history and the age mismatch make the case only marginally relevant to the trial\u2019s target population.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because the patient does not satisfy the essential inclusion criteria (history >12 months and age \u22658), he would be considered ineligible for enrollment. No exclusion criteria are triggered, but the failure to meet key inclusion requirements outweighs any neutral or unknown factors, resulting in a negative eligibility assessment equal to the relevance magnitude.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT02063789": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old boy with Kawasaki disease, while the trial targets adult patients (\u226519 years) with primary immune thrombocytopenia (ITP). The only overlapping element is the use of IV\u2011Ig, which is mentioned in the trial background, but the disease context, age group, and required platelet criteria are unrelated. Consequently, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Key inclusion criteria are not satisfied: the patient is far below the required age (\u226519) and does not have primary ITP. Platelet count is not provided, and there is no evidence of thrombocytopenia. Although the consent criterion is met and no exclusion criteria are triggered, the failure to meet essential inclusion criteria makes the patient ineligible. Since eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT00100126": {
+            "relevance_explanation": "The trial targets pediatric patients with acute bacterial pharyngitis (strep throat). The patient is a 2\u2011year\u2011old boy, which satisfies the age range, and he does have fever and cervical lymphadenopathy, which are common in strep throat. However, the clinical picture is dominated by Kawasaki disease (conjunctivitis, strawberry tongue, hand/foot changes, coronary artery dilation) and there is no mention of sore throat, tonsillar exudate, or a positive rapid strep test. Thus only a few inclusion elements (age, fever, elevated WBC) are relevant, while the majority of disease\u2011specific criteria are absent, making the overall relevance modest.",
+            "relevance_score_R": 32.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and not meeting any exclusion criteria. The patient fails key inclusion criteria (no evidence of acute tonsillitis/pharyngitis, no sore throat, no pharyngeal findings, no rapid strep test). Moreover, several exclusion criteria are triggered: the patient has a serious multisystem illness (Kawasaki disease) and a significant cardiac abnormality (coronary artery dilation/aneurysm), which the protocol lists as grounds for exclusion. Consequently, the patient is clearly ineligible for this strep throat trial. Because eligibility cannot exceed the relevance magnitude, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -32.0
+        },
+        "NCT00643149": {
+            "relevance_explanation": "The trial targets children with acute streptococcal pharyngitis/tonsillitis confirmed by a rapid antigen test or culture. The patient note describes a 2\u2011year\u2011old with Kawasaki disease, presenting with fever, conjunctivitis, strawberry tongue, lymphadenopathy, coronary artery changes, and liver involvement, but there is no mention of sore throat, pharyngeal erythema, exudate, or a positive strep test. Therefore the clinical picture is unrelated to the condition the trial is studying, giving a very low relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not satisfy the essential inclusion criterion (no evidence of acute pharyngitis/tonsillitis or a positive strep test), he would be considered ineligible for the trial. No exclusion criteria are triggered, but lack of inclusion makes the patient ineligible, so the eligibility score is the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01281969": {
+            "relevance_explanation": "The trial targets children aged 4\u201112 with a diagnosis of OCD/PANDAS following a recent Group A streptococcal infection. The patient is a 2\u2011year\u2011old boy with Kawasaki disease, fever, and coronary artery changes, and there is no mention of OCD, tic disorder, or recent streptococcal infection. Only a single, non\u2011specific irritability note is present, which does not satisfy any of the inclusion criteria. Therefore the patient is largely irrelevant to the study objectives.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Even if we considered the minimal relevance, the patient would be ineligible because he has a serious, unstable medical condition (Kawasaki disease with coronary artery dilation/aneurysm). This meets an exclusion criterion (serious/unstable illness), making participation unsafe. Consequently, the eligibility score should be negative and equal in magnitude to the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02557334": {
+            "relevance_explanation": "The trial targets adults aged 35\u201165 with cardiovascular risk factors (BMI, LDL\u2011C, cholesterol, blood pressure, smoking status). The patient is a 2\u2011year\u2011old child with acute Kawasaki disease and no adult cardiovascular risk data. Almost none of the inclusion criteria apply, and the patient\u2019s condition directly conflicts with the exclusion criteria for inflammatory/heart disease. Therefore the overall relevance of this patient to the trial is extremely low.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Given the very low relevance, the patient is essentially ineligible. The exclusion criteria explicitly note that a history of acute inflammatory conditions or heart disease excludes participation, and the patient clearly has an acute inflammatory condition (Kawasaki disease) with coronary artery involvement and liver abnormalities. Thus the patient is excluded, resulting in an eligibility score at the negative extreme of the relevance range.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT00254930": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old presenting with acute Kawasaki disease and systemic inflammation. The trial targets learning\u2011disabled children with persistent behavioral problems after therapy. There is no evidence of learning disability, mental retardation, prior behavioral therapy, or any behavioral assessment. The only overlapping aspect is the patient\u2019s age (child) and ability to consent, but the clinical context is entirely unrelated. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Given the minimal relevance, the patient does not meet the key inclusion criteria (mental retardation, failed behavioral therapy, school attendance, hostility score) and fails the \"subject is otherwise healthy\" criterion because of active systemic illness. No exclusion criteria are triggered, but the lack of inclusion makes the patient ineligible. The eligibility score should reflect ineligibility within the relevance bound, so it is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01244217": {
+            "relevance_explanation": "The only clear point of overlap is the patient\u2019s age (2\u202fyears), which satisfies the trial\u2019s age range (6\u202fmonths\u201111\u202fyears). All other aspects of the patient\u2019s presentation (Kawasaki disease, fever, coronary artery changes, liver involvement) are unrelated to perennial allergic rhinitis, the condition targeted by the trial. Therefore the overall relevance is low but not zero.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "While the patient meets the age inclusion criterion, he does not meet the key disease inclusion criterion (perennial allergic rhinitis). No information suggests he has this condition, and the clinical picture is entirely different. Consequently, the patient is ineligible for the trial. Since eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02031120": {
+            "relevance_explanation": "The trial focuses on children 0\u201116 years who have experienced a drug\u2011related hypersensitivity reaction (e.g., urticaria, rash, anaphylaxis, DRESS, etc.). The patient is a 2\u2011year\u2011old boy, which satisfies the age range, but his presentation is classic for Kawasaki disease with fever, conjunctivitis, strawberry tongue, coronary artery changes, and no documented drug exposure or drug\u2011related rash/immune reaction. Because the core premise of the trial (drug\u2011induced hypersensitivity) is absent, the patient is only minimally relevant to the study.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Since the patient does not meet the inclusion criterion (no drug exposure or drug\u2011related hypersensitivity manifestation), he would be considered ineligible for the trial. There are no exclusion criteria that apply, but the lack of inclusion makes him unsuitable. Therefore the eligibility score should be negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT02624882": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old child, which satisfies the age inclusion criterion of the trial. However, the trial focuses on children with Group A Streptococcal blistering distal dactylitis. The patient\u2019s presentation is classic for Kawasaki disease with coronary artery involvement and no mention of any distal hand blistering or skin infection. Only the age and consent criteria are relevant; the core disease criterion is absent. Therefore the overall relevance is modest but far from a perfect match.",
+            "relevance_score_R": 32.0,
+            "eligibility_explanation": "Because the patient does not have the required condition (blistering distal dactylitis) and there is no evidence of a positive Group A Streptococcus test, the patient fails the essential inclusion criteria. No exclusion criteria are triggered, but the lack of the primary disease makes the patient ineligible. The eligibility score is therefore negative, reflecting ineligibility, and is limited by the relevance magnitude.",
+            "eligibility_score_E": -32.0
+        },
+        "NCT01494792": {
+            "relevance_explanation": "The clinical trial is focused on diagnosing Group A Streptococcus infection (strep throat) using a throat swab test. The patient is a 2\u2011year\u2011old with Kawasaki disease presenting with fever, conjunctivitis, mucocutaneous changes, coronary artery dilation, and laboratory abnormalities. None of the typical strep\u2011throat signs (sore throat, pharyngeal erythema, tonsillar exudate or swelling, palatal petechiae, etc.) are documented. Therefore the patient\u2019s condition is largely unrelated to the target condition of the trial, resulting in a very low relevance score.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Because the patient does not meet the required inclusion criteria for strep\u2011throat (no sore throat, no pharyngeal findings, no tonsillar signs, no rash typical of scarlet fever, etc.), the patient is ineligible for the study. No exclusion criteria are triggered, but the lack of inclusion criteria means the patient fails eligibility. The eligibility score should be negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -8.0
+        },
+        "NCT00604786": {
+            "relevance_explanation": "The patient is a 2\u2011year\u2011old boy with Kawasaki disease and coronary artery involvement. The trial targets adults (18\u201150) with cat\u2011allergy\u2013related allergic rhinitis and requires specific allergy testing and IgE data. Almost none of the patient\u2019s clinical features, age, or disease overlap with the trial\u2019s target condition or inclusion criteria, making the patient largely irrelevant to this study.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Given the very low relevance, the patient does not meet the core inclusion criteria (age, allergic rhinitis history, allergy test results) and there is insufficient information to assess many other criteria. The patient is therefore ineligible for the trial. The eligibility score is set to the negative of the relevance score, indicating clear ineligibility.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT00044239": {
+            "relevance_explanation": "The trial focuses on children with Obsessive\u2011Compulsive Disorder (OCD) aged 4\u201112 years, including healthy controls. The patient is a 2\u2011year\u2011old boy with acute Kawasaki disease and no mention of psychiatric symptoms. There is essentially no overlap between the patient\u2019s condition, age range, or the study\u2019s target population and the trial\u2019s focus, making the patient largely irrelevant to the trial.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Even though the patient is irrelevant, the eligibility assessment must consider exclusion criteria. The patient has a significant, unstable medical illness (Kawasaki disease with coronary artery involvement), which is an explicit exclusion. Therefore, the patient is ineligible, and the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -10.0
+        }
+    },
+    "sigir-201523": {
+        "NCT00629356": {
+            "relevance_explanation": "The patient\u2019s presentation (high fever, chills, facial flushing, epistaxis, severe headache, joint pain, leukopenia, hemoconcentration and thrombocytopenia) matches the classic clinical picture of dengue fever, which is the target condition of the trial. The patient is also young and able to give consent, which aligns with the trial\u2019s need for participants who can comply with protocol. The only missing piece is an explicit documented diagnosis of dengue, but the overall clinical similarity makes the case highly relevant to the study.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "Eligibility hinges on a confirmed clinical diagnosis of dengue fever (inclusion criterion). The note provides strong indirect evidence but does not state that a clinician has formally diagnosed dengue. Without that confirmation, we cannot assert that the patient meets the inclusion requirement. No exclusion criteria are mentioned, so there is no reason to disqualify the patient, but the uncertainty about the diagnosis limits the eligibility assessment. Therefore, the eligibility score is modestly positive, reflecting possible eligibility pending diagnostic confirmation.",
+            "eligibility_score_E": 20.0
+        },
+        "NCT02608047": {
+            "relevance_explanation": "The patient is an 18\u2011year\u2011old male presenting with acute high fever, chills, facial flushing, epistaxis, severe headache, joint pain, leukopenia, hemoconcentration and thrombocytopenia after returning from Asia \u2013 a classic clinical picture of dengue fever. The trial is focused on dengue fever patients in Guangzhou, aiming to study epidemiology, diagnosis and treatment of severe cases. Because the patient\u2019s presentation aligns closely with the target condition of the trial, the overall relevance is high, though the lack of geographic specificity (Guangzhou) and missing laboratory confirmation slightly reduce the perfect match.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility hinges on confirmed dengue infection (NS1 antigen or RNA). The note provides no laboratory results, so we cannot confirm that the inclusion criterion is met. None of the exclusion criteria (pregnancy, other viral fevers, bacterial infection, diabetes, tumor) appear to apply, so the patient is not excluded. Given the uncertainty about the required lab confirmation, the patient is only partially eligible. The eligibility score is therefore positive but limited by the missing confirmation, and it must stay within the \u00b1R range.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT00084240": {
+            "relevance_explanation": "The patient is an 18\u2011year\u2011old male who returned from Southeast Asia and presents with acute high fever, chills, headache, joint pain and laboratory findings of leukopenia, thrombocytopenia and hemoconcentration \u2013 a clinical picture highly suggestive of acute malaria. The trial targets uncomplicated symptomatic falciparum malaria in Southeast Asia and requires age \u226518, fever and a positive malaria test. While the patient meets the age and fever criteria, the note does not provide a confirmatory blood smear, parasite density, or rapid diagnostic test result, which are essential for definitive inclusion. Nonetheless, the strong epidemiologic and symptomatic overlap makes the case fairly relevant to the trial, though not perfectly certain.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "The key exclusion criterion is the presence of blood dyscrasias (leukopenia and thrombocytopenia), which are explicitly listed as exclusions. The patient\u2019s CBC shows both leukopenia and thrombocytopenia, directly triggering this exclusion. No other inclusion criteria can be confirmed, and the exclusion is definitive, making the patient ineligible for the study. Because eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT02334514": {
+            "relevance_explanation": "The patient presents with high fever, severe headache, and joint pain, which overlap with the core influenza presentation listed in the trial\u2019s inclusion criteria. However, the note lacks classic respiratory symptoms (cough, sore throat, runny nose) and includes laboratory findings (leukopenia, high hematocrit, thrombocytopenia) more typical of dengue fever rather than influenza. Because only some of the required influenza\u2011specific features are present and key diagnostic information (PCR confirmation) is missing, the overall relevance to an influenza\u2011focused trial is moderate but not strong.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "To be eligible, the patient must satisfy all inclusion criteria: (1) clinical presentation suggestive of influenza (partially met), (2) a positive influenza PCR test (not provided), and (3) indication for antiviral treatment (not indicated). The patient fails two of the three required inclusion items, making him ineligible. No exclusion criteria apply, but the lack of required inclusion evidence outweighs that. Therefore the eligibility score is negative, reflecting ineligibility, and is limited by the relevance magnitude.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT02134652": {
+            "relevance_explanation": "The trial is focused on children (<16\u202fyears) with suspected dengue fever and uses bedside ultrasound to predict disease severity. The patient is an 18\u2011year\u2011old adult, which makes him outside the target age range, but he does have a clinical picture strongly consistent with dengue hemorrhagic fever, which is the disease of interest. Because the age mismatch is a major mismatch while the disease match is strong, the overall relevance is limited but not zero.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Although the patient meets the clinical suspicion of dengue hemorrhagic fever and has no apparent exclusion factors, he fails the primary inclusion criterion of age (must be <16\u202fyears). Since the most critical inclusion criterion is not satisfied, the patient is ineligible for the study. Given the relevance of 30, the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01983553": {
+            "relevance_explanation": "The patient presents with classic acute dengue manifestations (high fever, chills, facial flushing, epistaxis, severe headache, joint pain, leukopenia, hemoconcentration, thrombocytopenia), which directly matches the target condition of the trial (Dengue/Dengue Hemorrhagic Fever). However, the trial is a long\u2011term safety follow\u2011up of children who were previously enrolled in a specific vaccine efficacy study (CYD23) in Thailand, and it explicitly involves hospitalized dengue cases in that pediatric cohort. The patient is an 18\u2011year\u2011old male, with no indication of Thai nationality or prior participation in CYD23, and the study focuses on children. Therefore, while the disease relevance is high, the demographic and study\u2011specific relevance is limited. I assign a moderate overall relevance score of 40 out of 100.",
+            "relevance_score_R": 40,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and not meeting any exclusion criteria. The patient satisfies the attendance/compliance criterion, but fails the critical inclusion criteria requiring prior enrollment in study CYD23 and documented assent/consent forms. No evidence is provided that the patient is a participant in CYD23 or that the required assent/consent paperwork exists. The exclusion criteria do not appear to apply. Because the patient does not meet key inclusion requirements, he is ineligible. Given the relevance of 40, the eligibility score must lie between -40 and +40; I set it at -30 to reflect strong ineligibility while acknowledging some partial relevance.",
+            "eligibility_score_E": -30
+        },
+        "NCT02510638": {
+            "relevance_explanation": "The patient presents with classic acute dengue manifestations (high fever, chills, facial flushing, epistaxis, severe headache, joint pain, leukopenia, hemoconcentration, thrombocytopenia) after travel to Asia, which aligns closely with the trial\u2019s focus on hospitalized dengue cases in Malaysia. The demographic (young adult male) also fits the broad inclusion of any gender and age. However, the trial is observational and based in Malaysia, and the note does not confirm hospitalization in Malaysia, which slightly reduces perfect relevance.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "Eligibility cannot be confirmed because the note lacks the required inclusion data: no discharge diagnosis with ICD A90\u2011A99, no minimal dataset (name, ID, admission/discharge dates), and no laboratory confirmation of dengue (NS1, IgM/IgG, PCR). Consequently, the patient would be considered ineligible based on the available information.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT01436396": {
+            "relevance_explanation": "The trial targets healthy toddlers (12\u201113 months old) for a vaccine co\u2011administration study. The patient is an 18\u2011year\u2011old male with an acute febrile illness and laboratory abnormalities, which is completely unrelated to the intended population and purpose of the trial. Consequently, the overall relevance of this patient to the trial is extremely low.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Even though the patient would be able to attend visits, he fails multiple key inclusion criteria (age, good health) and meets an exclusion criterion (thrombocytopenia). Therefore, within the very limited relevance, the patient is clearly ineligible for the study. The eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT00089908": {
+            "relevance_explanation": "The trial seeks healthy adult volunteers for a dengue vaccine. The patient is an 18\u2011year\u2011old adult who recently returned from an endemic area and currently exhibits classic acute dengue fever symptoms, directly matching the disease focus of the study. However, the patient is acutely ill and not in the \"healthy\" state required for a vaccine safety trial, which reduces overall relevance. Considering the strong disease match but the mismatch in health status, the relevance is moderate.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "Eligibility requires good general health and no hematologic disease. The patient is currently ill with dengue, showing leukopenia and thrombocytopenia, which constitute hematologic abnormalities and fail the \"good general health\" inclusion criterion. Additionally, the exclusion criterion for liver, renal, or hematologic disease is triggered by the observed hematologic abnormalities, leading to exclusion. While the patient meets the consent and follow\u2011up criteria, the critical health\u2011related inclusion and exclusion criteria are not satisfied, resulting in a negative eligibility score. The magnitude is limited by the relevance score.",
+            "eligibility_score_E": -50.0
+        },
+        "NCT00458120": {
+            "relevance_explanation": "The patient presents with an acute dengue\u2011like illness (fever, hemorrhagic signs, leukopenia, thrombocytopenia) which matches the disease focus of the trial (Dengue Hemorrhagic Fever). However, the trial is a vaccine safety/immunogenicity study that enrolls healthy individuals who have previously received a dengue vaccine, not patients who are currently ill. The patient\u2019s lack of documented prior dengue vaccination and his current poor health reduce the overall relevance. Therefore the patient is somewhat related to the disease area but not a good match for the study\u2019s target population.",
+            "relevance_score_R": 32.0,
+            "eligibility_explanation": "Key inclusion criteria are not satisfied: the patient has no evidence of prior dengue vaccination and is not in good health (he is acutely ill with abnormal labs). While he is available for the study duration, the lack of prior vaccination and current illness make him ineligible. No exclusion criteria are clearly triggered, but the unmet inclusion criteria dominate, resulting in a negative eligibility score equal to the relevance magnitude.",
+            "eligibility_score_E": -32.0
+        },
+        "NCT00842530": {
+            "relevance_explanation": "The trial targets healthy children aged 4\u201111 years for primary prevention of dengue infection. The patient is an 18\u2011year\u2011old male currently experiencing an acute febrile illness consistent with dengue, which is the opposite of the \"healthy\" requirement. Apart from the ability to consent and comply with visits, virtually none of the trial\u2019s inclusion criteria match the patient\u2019s profile, and the patient actively meets an exclusion criterion (current febrile illness). Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not satisfy the key inclusion criteria (age and good health) and explicitly meets an exclusion criterion (febrile illness on the day of vaccination), the patient would be considered ineligible. The eligibility score must lie within \u00b1R, so we assign the most negative value allowed, indicating clear ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00788151": {
+            "relevance_explanation": "The patient is an 18\u2011year\u2011old male with acute febrile illness consistent with dengue, whereas the trial enrolls healthy Peruvian children aged 2\u201111 years who have previously received yellow\u2011fever vaccine. Age alone makes the patient largely irrelevant to the study, and the health status criterion (must be in good health) is also not met. Apart from the disease similarity, there is virtually no overlap with the target population or study objectives.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not satisfy the primary inclusion criteria (age 2\u201111 and being in good health), he is ineligible for the trial. No exclusion criteria are triggered, but the failure to meet essential inclusion criteria places him firmly outside eligibility. The eligibility score is therefore negative and limited by the relevance magnitude.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02623725": {
+            "relevance_explanation": "The patient presents with an acute febrile illness consistent with dengue infection, which matches the disease focus of the trial (Dengue Fever/Dengue Hemorrhagic Fever). However, the trial is a booster study for subjects who previously completed a 3\u2011dose CYD dengue vaccine schedule and were aged 9\u201116 years at the time of that schedule. The patient is 18 years old and there is no evidence of prior vaccination, making him only loosely related to the trial\u2019s target population. Consequently, the overall relevance is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Key inclusion criteria are not satisfied: the patient is outside the required age range (9\u201116) and is not in good health at screening (he has an acute febrile illness). Moreover, exclusion criterion 11 explicitly excludes participants with a moderate or severe acute infection or fever \u226538\u202f\u00b0C on the day of vaccination, which directly applies to this patient. While consent and compliance criteria are met, the failure to meet essential inclusion criteria and the presence of a disqualifying exclusion criterion make the patient ineligible. The eligibility score is therefore negative and close to the magnitude of the relevance score.",
+            "eligibility_score_E": -28.0
+        },
+        "NCT00473135": {
+            "relevance_explanation": "The trial seeks healthy adult volunteers to receive a dengue vaccine, whereas the patient is an 18\u2011year\u2011old male currently experiencing acute dengue illness with fever, leukopenia, thrombocytopenia, and other systemic signs. This makes the patient only tangentially related to the disease focus (dengue) but not to the study population (healthy subjects). Consequently, the overall relevance is low to moderate.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Key inclusion criteria are not satisfied: the patient is not in good general health and there is no information about contraception use. Moreover, a major exclusion criterion (significant laboratory abnormalities) is triggered by the leukopenia and thrombocytopenia. These factors together render the patient ineligible for the trial. Since eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -30.0
         }
     }
 }
