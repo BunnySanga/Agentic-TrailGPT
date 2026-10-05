@@ -1,0 +1,112 @@
+{
+  "selected": 301,
+  "scored": 301,
+  "not_reviewed": 1,
+  "pairs": 33,
+  "baseline_accuracy": 0.8338870431893688,
+  "agent_accuracy": 0.8837209302325582,
+  "fixed": 21,
+  "broken": 6,
+  "changed": 27,
+  "mcnemar_p": 0.005924612283706665,
+  "transitions": [
+    {
+      "from": "not applicable",
+      "to": "not excluded",
+      "count": 24,
+      "right": 18
+    },
+    {
+      "from": "excluded",
+      "to": "not excluded",
+      "count": 2,
+      "right": 2
+    },
+    {
+      "from": "not applicable",
+      "to": "not enough information",
+      "count": 1,
+      "right": 1
+    }
+  ],
+  "gpt4_mistakes": [
+    {
+      "gpt4": "not applicable",
+      "expert": "not excluded",
+      "count": 19,
+      "fixed": 18
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "not excluded",
+      "count": 10,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "included",
+      "count": 5,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not excluded",
+      "expert": "not enough information",
+      "count": 4,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not included",
+      "expert": "not enough information",
+      "count": 4,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not applicable",
+      "expert": "not enough information",
+      "count": 3,
+      "fixed": 1
+    },
+    {
+      "gpt4": "excluded",
+      "expert": "not excluded",
+      "count": 2,
+      "fixed": 2
+    },
+    {
+      "gpt4": "not excluded",
+      "expert": "not applicable",
+      "count": 1,
+      "fixed": 0
+    },
+    {
+      "gpt4": "included",
+      "expert": "not included",
+      "count": 1,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "not included",
+      "count": 1,
+      "fixed": 0
+    }
+  ],
+  "evidence": {
+    "baseline": {
+      "precision": 1.0,
+      "recall": 0.842391304347826
+    },
+    "agents": {
+      "precision": 0.9754601226993865,
+      "recall": 0.8641304347826086
+    }
+  },
+  "usage": {
+    "calls": 47,
+    "prompt_tokens": 35944,
+    "completion_tokens": 18407,
+    "total_tokens": 54351,
+    "seconds": 55.300000000000004
+  },
+  "tokens_per_criterion": 180.56810631229237
+}
