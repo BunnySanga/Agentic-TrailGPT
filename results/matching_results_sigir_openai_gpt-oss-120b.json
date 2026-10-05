@@ -15343,6 +15343,253 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT01636453": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 43 years old, clearly meets age \u226518 requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "The note describes cutaneous lesions, not an intracranial saccular aneurysm; the premise of the criterion is not met.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No information about the patient\u2019s overall health or comorbidities to assess life expectancy; cannot determine from note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Sentence indicates patient will provide informed consent and comply with protocol.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of pregnancy or intention to become pregnant; cannot confirm status.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Patient note does not discuss aneurysms; criterion irrelevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Patient note does not discuss cerebral aneurysms; criterion irrelevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No history of recent hemorrhage or major surgery mentioned; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No laboratory or medication information provided; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "No information on renal function or contrast allergy; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No information on CT/MRI contraindications; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No allergy information provided; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "8": [
+                        "No infection or WBC data provided; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "No medical conditions affecting follow\u2011up are mentioned; insufficient detail to rule out.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No substance\u2011abuse information provided; insufficient detail.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No angiographic data; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "No medication contraindication information provided; irrelevant to patient.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT02476747": {
+                "inclusion": {
+                    "0": [
+                        "Patient is over 20 and gave consent (sentences 0 and 5), but the only lesion described is 4\u202fmm, which is smaller than the required 6\u201110\u202fmm size; thus the size criterion is not met.",
+                        [
+                            0,
+                            3,
+                            5
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The exclusion criterion concerns colon polyp patients and includes anticoagulant use, coagulopathy, liver cirrhosis, CKD, malignancy, IBD, significant infection, ASA class III+, and pedunculated or malignant polyps. The patient note describes a 43\u2011year\u2011old woman with skin lesions on the neck; there is no mention of colon polyps, gastrointestinal disease, medication use, or ASA class. The only potentially relevant detail is that the lesions are pedunculated (sentence 2), but they are cutaneous lesions, not colonic polyps, so the criterion is not applicable to this patient.",
+                        [
+                            2
+                        ],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT02156193": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires pedunculated colorectal polyps >10\u202fmm head and stalk >5\u202fmm; patient note describes small pedunculated skin lesions on the neck, not colonic polyps, so the premise does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns bleeding tendency, bowel preparation quality, or sessile colonic polyps, which are irrelevant to a dermatology patient with neck lesions; thus it is not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT00124163": {
+                "inclusion": {
+                    "0": [
+                        "Criterion requires age 45-80; patient is 43 years old (sentence 0). No evidence of meeting age requirement.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of inflammatory bowel disease in note; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No evidence of polyposis syndromes; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Pregnancy not mentioned; assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Weight not provided; no indication patient exceeds 350\u202flb, assume not.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No mention of bright red rectal bleeding; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No contraindicating conditions (blood thinners, recent MI, CHF, arrhythmia, weakness, severe constipation) noted; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Criterion describes consent process, not an exclusion factor; not applicable to eligibility.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT01023984": {
+                "inclusion": {
+                    "0": [
+                        "Criterion requires a large non\u2011pedunculated rectal adenoma \u22652\u202fcm; patient has small pedunculated skin lesions, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Requires adenoma located 2\u201315\u202fcm from anal verge; patient has no rectal lesion, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Needs biopsy showing no malignancy; no biopsy information for a rectal lesion, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Requires endoscopic assessment for invasive cancer signs; no endoscopic data, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Requires EUS to exclude submucosal invasion; no EUS performed, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Requires total colonoscopy to clear synchronous lesions; no colonoscopy mentioned, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Requires general health permitting anesthesia (ASA I\u2011III); no health status provided, but disease criteria already not met, thus not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "Requires absence of non\u2011correctable coagulopathy; coagulation status not mentioned, but lesion criteria not met, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "8": [
+                        "Patient age must be \u226518; sentence 0 states she is 43 years old, satisfying the criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion refers to histologic malignancy of the target rectal lesion, which is irrelevant for a patient presenting with neck skin lesions; no evidence of malignancy in note.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Criterion concerns prior anorectal surgery, not relevant to a patient with dermatologic complaints; note contains no such history.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Criterion addresses contraindications to general anesthesia; patient note provides no information on anesthesia risk and the condition is unrelated to current presentation, so not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
             }
         }
     },
@@ -16745,6 +16992,1558 @@
                         "No malignant tumour mentioned in the note; assume absent.",
                         [],
                         "not excluded"
+                    ]
+                }
+            },
+            "NCT00352664": {
+                "inclusion": {
+                    "0": [
+                        "No evidence of opiate use or sedation; patient does not meet the premise.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "No mention of regular strong opioid therapy; patient does not meet the premise.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Cognition not addressed; cannot confirm MMSE \u226524.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Sentence 4 states patient will comply with protocol without practical issues, indicating willingness for follow\u2011up.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "No information about sexual activity or pregnancy testing.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Sentence 4 indicates patient will provide informed consent and sign the form.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "6": [
+                        "Sentence 0 gives age 56, which is \u226518.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "7": [
+                        "No mention of concurrent radiation treatment.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No mention of concurrent chemotherapy.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of hypersensitivity to donepezil or piperidine derivatives; absence of mention likely means none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No information about planned changes in opiate dose or anesthesia; such plans would likely be documented, so assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of anti\u2011cholinergic agents like glycopyrrolate; absence suggests patient is not on them.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient note does not list methylphenidate use; likely not taking it.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No indication of tube feeding; would be noted if present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No history of arrhythmia described; such a condition would be reported, so assume none.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01576705": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a karyotype confirming trisomy 21, which is not mentioned and the patient is a 56\u2011year\u2011old adult, making the criterion irrelevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion concerns results of a cardiac ultrasound, but the patient note provides no cardiac imaging and the patient does not fit the target pediatric Down syndrome population, so it is irrelevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "The age requirement is 6\u201118 months; the patient is 56 years old, clearly outside this range, making the criterion irrelevant.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns congenital hypothyroidism, which is irrelevant for a 56\u2011year\u2011old adult without Down syndrome; the patient note provides no evidence of this condition.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion requires laboratory TSH >7\u202fmUI/L; no lab results are mentioned, and such testing is unlikely to be omitted if present in this adult patient note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Hyperthyroidism history is not mentioned; absence of any note likely indicates it is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Leukaemia history is not mentioned; given the note\u2019s focus, absence suggests it is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No mention of West syndrome, epilepsy, or unstable neurological disease; absence implies not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No signs of CNS distress such as stroke, postoperative hypoxia, or meningitis are described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No cardiac ultrasound or severe heart disease described; likely not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No cardiac arrhythmia mentioned; likely not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Apgar score pertains to newborns; not applicable to this adult patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "Gestational age criterion applies to newborns; not applicable to this adult patient.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT02516280": {
+                "inclusion": {
+                    "0": [
+                        "The note provides no information about any planned unilateral total knee arthroplasty at Verdun Hospital; without evidence we cannot assume the surgery is planned, so the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The note does not state the patient's language abilities; while many patients can speak French or English, the absence of explicit information means we cannot confirm capacity, leading to insufficient data.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns surgical complications, but the note provides no evidence the patient had knee arthroplasty; thus it is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion refers to inability to perform tests due to other diseases. The note mentions hypothyroid\u2011like symptoms but no indication that any disease prevents test performance; no direct evidence of inability.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The criterion lists specific cryotherapy contraindications (Raynaud's, cryoglobulinemia, hemoglobinopathy, temperature\u2011sensitive polyneuropathy, cold allergy). The patient reports general cold sensitivity but lacks any of the listed conditions; no direct evidence of these contraindications.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00844948": {
+                "inclusion": {
+                    "0": [
+                        "Patient age 56 falls within 18-80 range as stated in sentence 0.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence 4 explicitly states the patient will provide informed consent.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of a current Major Depressive Disorder diagnosis; absence of evidence suggests criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No information about recent or upcoming treatment for MDD; thus criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "No QIDS-C or QIDS-IVR scores provided; cannot meet the threshold.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of suicidal ideation in the note; absence of mention is taken as not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No history or current diagnosis of listed DSM\u2011IV psychiatric illnesses is described; lack of mention is taken as not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No indication of dementia; patient is 56 and no cognitive decline is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient shows classic hypothyroidism signs (cold intolerance, fatigue, decreased appetite, constipation, dry skin, slowed speech and movement), strongly suggesting a diagnosis of hypothyroidism.",
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT00486954": {
+                "inclusion": {
+                    "0": [
+                        "The criterion refers to information in the Investigator's Brochure, which is not part of the patient note; thus not applicable to patient eligibility assessment.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "This is a grouping statement, not an eligibility requirement; therefore not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Patient note sentence 4 states the patient will provide informed consent, directly satisfying this criterion.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Patient is a 56\u2011year\u2011old female (sentence 0), meeting the age (\u226520) and gender requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "No mention of gastric carcinoma diagnosis; absence of evidence likely means the patient does not have the disease, so criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "No information about prior chemotherapy regimens for gastric cancer; cannot assume prior therapy, thus not enough information and likely not met.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No cardiac evaluation (LVEF) reported; cannot confirm normal LVEF, so not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "No ECOG performance status provided; cannot determine if 0\u20111, so not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No data on ability to swallow oral medication; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No information about birth control use; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No details on prior therapy washout periods; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "Patient states willingness to comply with protocol (sentence 4), which implies willingness to complete screening assessments.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "12": [
+                        "No laboratory values are provided; cannot assess organ function, so not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "13": [
+                        "No statement about ability to be hospitalized for PK analysis; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "14": [
+                        "No life expectancy estimate is given; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "15": [
+                        "This is a heading for the Randomized Part, not an eligibility criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "16": [
+                        "Grouping statement for Randomized Part; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "17": [
+                        "Patient consent is confirmed in sentence 4, satisfying this criterion for the Randomized Part as well.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "18": [
+                        "Age and gender satisfied as in criterion 3.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "19": [
+                        "No confirmation of ErbB2 amplification; not enough information and likely not met.",
+                        [],
+                        "not enough information"
+                    ],
+                    "20": [
+                        "No data on prior regimen or disease progression; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "21": [
+                        "No imaging or lesion measurement information; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "22": [
+                        "No LVEF data; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "23": [
+                        "No ECOG status; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "24": [
+                        "No information on ability to swallow oral medication; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "25": [
+                        "No tumor tissue availability mentioned; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "26": [
+                        "No birth control information; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "27": [
+                        "No washout period details; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "28": [
+                        "Willingness to complete screening assessments is indicated in sentence 4.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "29": [
+                        "Organ function labs not provided; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "30": [
+                        "No information on gastrectomy status; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "31": [
+                        "Life expectancy not stated; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "32": [
+                        "Reference to Table 2, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "33": [
+                        "Header for laboratory values, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "34": [
+                        "Header for hematologic values, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "35": [
+                        "Header for ANC, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "36": [
+                        "Header for hemoglobin, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "37": [
+                        "Header for platelets and other labs, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "38": [
+                        "Header for creatinine clearance, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "39": [
+                        "Header for creatinine clearance alternative, not a patient\u2011specific criterion; not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "1": [
+                        "No mention of pregnancy or lactation; cannot confirm status.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient has no cancer diagnosis; concurrent anti\u2011cancer therapy not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No prior cancer treatment described; unresolved toxicity not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No description of peripheral neuropathy.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Constipation noted but no evidence of malabsorption syndrome, ulcerative colitis or Crohn's disease.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No history of other malignancy reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "No specific concurrent disease reported that would make participation inappropriate.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No infection mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No dementia, altered mental status, or psychiatric condition reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No cardiac history reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No CNS metastasis reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "Sentence 1 notes the patient has tried home remedies for constipation, which may include prohibited herbal medicines.",
+                        [
+                            1
+                        ],
+                        "excluded"
+                    ],
+                    "13": [
+                        "No investigational agent use reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "14": [
+                        "No hypersensitivity reactions reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "15": [
+                        "No pulmonary disorder reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "16": [
+                        "No gastrectomy reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "17": [
+                        "No history of EGFR agent use reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "18": [
+                        "No prior taxane\u2011containing gastric cancer treatment reported.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT02113215": {
+                "inclusion": {
+                    "0": [
+                        "Patient age is 56, which falls outside both specified ranges (18-35 or 60-75); no other age info to infer eligibility.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "BMI is not mentioned; cannot infer from other data, and BMI could be missing in note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Sentence 4 states the patient will provide informed consent and comply with protocol.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "No MMSE score is provided; cannot infer cognitive status from note.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of glucose testing; absence of evidence likely means patient is not diabetic.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No lipid panel reported; without evidence of high triglycerides, assume not excluded.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Kidney disease not referenced; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Liver disease not mentioned; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Bleeding disorders not discussed; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No hemoglobin values; cannot assess anemia, but absence of comment suggests not anemic.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Patient shows classic hypothyroidism signs (cold sensitivity, fatigue, dry skin, slowed movements) indicating endocrine disease; the criterion excludes endocrine disease except well\u2011regulated hypothyroidism, and there is no information that the condition is well\u2011controlled.",
+                        [
+                            0,
+                            2,
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "7": [
+                        "No hepatitis or HIV screening results provided; assume not positive.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No information on alcohol or drug abuse; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No mention of lipid\u2011altering medications; assume none are being taken.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Mini\u2011Mental State Exam score not reported; assume cognitive function is adequate.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00565890": {
+                "inclusion": {
+                    "0": [
+                        "The criterion concerns birth weight <1500g, which applies only to newborn infants; the patient is a 56\u2011year\u2011old adult, so the premise does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Gestational age is relevant only for preterm infants; the patient is an adult, thus the premise is not met.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Serum free thyroxine level is an infant inclusion criterion; the patient is not an infant, making the criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Serum thyrotropin level is required for infants; the patient is an adult, so the criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Age between 2 and 4 weeks after birth is specific to newborns; the patient is 56 years old, therefore not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Informed consent is required; the note states the patient will provide informed consent (sentence 4). However, the trial is for preterm infants, so consent from an adult patient is not the relevant scenario, making the criterion not applicable to this patient.",
+                        [
+                            4
+                        ],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns maternal thyroid disease, which is irrelevant for a 56\u2011year\u2011old adult patient; thus it is not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT01029262": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 56 years old, clearly \u226518 years old.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of Myelodysplastic Syndrome diagnosis or cytogenetics; cannot confirm presence or risk level.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No information about anemia or need for red blood cell transfusions.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No data on prior ESA treatment or erythropoietin levels.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "ECOG performance status not stated; patient shows slowed movement and speech but cannot assign a score.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Pregnancy precaution agreement not addressed; patient is a 56\u2011year\u2011old female but menopausal status unknown.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No mention of agreement to counseling on teratogenic risks.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "No statement about agreement not to donate blood or semen.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "Patient consents to trial participation (sentence 4) but does not explicitly state willingness for bone\u2011marrow aspirates.",
+                        [
+                            4
+                        ],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of prior immunomodulating, immunosuppressive, epigenetic or DNA modulation agents; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Allergy to thalidomide not mentioned; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Renal function not described; no evidence of creatinine clearance <40 mL/min.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No history of other cancers reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Absolute neutrophil count not provided; no evidence of ANC <500/uL.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Platelet count not provided; no evidence of platelets <50,000/uL.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "AST/ALT levels not mentioned; assume not elevated >3x ULN.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Patient shows signs of hypothyroidism (cold sensitivity, fatigue, dry skin, slowed speech/movement) suggesting uncontrolled thyroid disease.",
+                        [
+                            0,
+                            2,
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "8": [
+                        "No mention of neuropathy; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No history of stem cell transplantation mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Anemia cause not specified; patient not described as anemic, assume not due to other causes.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No history of DVT/PE within past 3 years reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No cardiac disease history provided; assume none within past 6 months.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No HIV, Hepatitis C, or active Hepatitis B infection mentioned.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01716871": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires age \u226440, military status, acute ankle injury, and signed consent. Patient is 56 years old (sentence 0) and no mention of military service or ankle injury, thus does not meet the premise.",
+                        [
+                            0,
+                            4
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns contraindications to cryotherapy and paracetamol allergy. The note does not mention cold allergy, cryoglobulinemia, Raynaud's phenomenon, cutaneous sensory abnormalities, diabetes mellitus, or paracetamol allergy. Absence of these mentions can be taken as lack of these conditions, so the patient does not meet the exclusion criterion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02073006": {
+                "inclusion": {
+                    "1": [
+                        "Patient explicitly states willingness to give informed consent (sentence 4).",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient age is 56 years (sentence 0), which falls within 18-80.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Patient reports constipation (sentence 1) but no details confirming chronic functional constipation per Rome III criteria.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No information provided about meeting at least two of the specific symptom criteria (sentences 5-9).",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No mention of straining during defecations.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No mention of lumpy or hard stools.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "No mention of sensation of incomplete evacuation.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No mention of sensation of anorectal obstruction/blockage.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No mention of manual maneuvers to facilitate defecation.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No data on frequency of defecations, presence of loose stools, or IBS criteria.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No statement about continuing a normal diet.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "No statement about agreeing to complete the patient diary.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "1": [
+                        "Age 56 is within 18-80 range (sentence 0).",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No information about pregnancy, lactation or desire for pregnancy; assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of hypersensitivity to product components.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No evidence of a significant acute or chronic unstable disease in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No indication of obstructive or metabolic cause for constipation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No history of laxative abuse reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No record of probiotic, prebiotic or fibre supplement use in prior 4 weeks.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No mention of drug or alcohol abuse at enrolment.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No condition or medication reported that would interfere with study objectives.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Patient states she will provide consent and comply with protocol (sentence 4).",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No indication of receiving experimental drug treatment.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No information about participation in a recent experimental trial.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No malignant disease or end\u2011stage organ disease mentioned.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02308137": {
+                "inclusion": {
+                    "0": [
+                        "Sentence 4 states the patient will provide informed consent, directly satisfying the criterion.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "The note contains no mention of Multiple Sclerosis or a secondary progressive disease course; absence of such a key diagnosis suggests the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No information about the Expanded Disability Status Scale (EDSS) score is provided; without any data we cannot determine eligibility.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "The note does not include any timed 25\u2011foot walk measurement; therefore eligibility cannot be assessed.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No ECG information provided; cannot assess QT interval. Absence of mention likely means no known prolonged QT.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No mention of known long-QT syndrome.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of ventricular arrhythmia.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of electrolyte disturbances.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No medication list provided; cannot determine use of QT\u2011prolonging drugs.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No medication list provided; cannot determine use of CYP3A4 inhibitors.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No history of breast cancer or carcinoma in situ mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No information about renal function or insufficiency.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No allergy or intolerance to domperidone reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No current use of Fampridine or 4\u2011aminopyridine mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No plan to start Fampridine or 4\u2011aminopyridine mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No plan to start Baclofen or Tizanidine mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No plan to change Baclofen or Tizanidine dose mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No plan to receive Botulinum toxin in leg muscles mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No information on hepatic impairment.",
+                        [],
+                        "not enough information"
+                    ],
+                    "15": [
+                        "No mention of prolactinoma.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No indication that gastrointestinal stimulation would be dangerous.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No use of MAO inhibitors reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "Duplicate of criterion 6; no history of breast cancer mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "19": [
+                        "Patient is a 56\u2011year\u2011old female; no pregnancy or breastfeeding status mentioned, assume not pregnant or lactating.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00836251": {
+                "inclusion": {
+                    "0": [
+                        "No mention of diabetes; cannot confirm non-diabetic status, but absence of info likely means not diabetic; however cannot be certain.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Patient note contains no diagnosis of schizophrenia or schizoaffective disorder; no inference possible.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No medication list provided; no evidence of olanzapine or ziprasidone prescription.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Sentence 0 states patient is 56 years old, which falls within 18-80 range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Age is explicitly stated as 56, which is within the 18-80 range; therefore the patient does not meet the exclusion age criterion.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of diabetes in the note; absence of evidence is taken as absence of disease, so the patient does not meet the diabetic exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The note provides no diagnosis of schizophrenia or schizoaffective disorder; given the clinical picture (hypothyroidism signs) the patient is unlikely to have these diagnoses, thus meets the exclusion 'not schizophrenic or schizoaffective'.",
+                        [],
+                        "excluded"
+                    ],
+                    "3": [
+                        "No medication list is provided; there is no evidence the patient is prescribed olanzapine or ziprasidone, so she meets the exclusion 'not currently prescribed olanzapine or ziprasidone'.",
+                        [],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT01258062": {
+                "inclusion": {
+                    "0": [
+                        "Patient explicitly states she will provide informed consent and comply, so meets criterion.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient is 56 years old, exceeding the upper age limit of 49; age criterion not met.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "Patient shows signs of hypothyroidism (cold sensitivity, fatigue, dry skin, slowed movements), indicating she is not generally healthy.",
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "Sentence 4 indicates she will comply with trial procedures and has no practical issues, satisfying attendance/compliance.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "At 56 years old, she is very likely post\u2011menopausal, thus not of child\u2011bearing potential; no contraception needed. No explicit statement, but inference from age is strong.",
+                        [],
+                        "included"
+                    ],
+                    "5": [
+                        "Given her likely post\u2011menopausal status, she meets the pregnancy\u2011test/menopause requirement; no explicit test result, but inference from age is reasonable.",
+                        [],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of fruit or pectin allergy; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of dairy/milk allergy; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No information about pregnancy or breastfeeding; age and context make it unlikely.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No history of chronic viral infection reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No report of severe allergic reaction to influenza vaccine.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No indication of demyelinating disease such as Guillain\u2011Barre.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No mention of Bell's palsy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No evidence of immunosuppression from illness or treatment.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No steroid use reported within the past month.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No use of immunosuppressive or cytotoxic drugs/radiation noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No herbal immune\u2011suppressant use reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No active neoplastic disease or recent hematologic malignancy noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No acute/chronic condition listed that would make vaccination unsafe (e.g., insulin\u2011treated diabetes, asthma).",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No experimental vaccine use reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No participation in another trial within 30 days mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No experimental device or procedure trial participation noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No receipt of immunoglobulin or blood products within 3 months.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No recent licensed vaccine receipt reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "No enrollment in a conflicting clinical trial indicated.",
+                        [],
+                        "not excluded"
+                    ],
+                    "19": [
+                        "No disorder or therapy identified that contraindicates influenza vaccination.",
+                        [],
+                        "not excluded"
+                    ],
+                    "20": [
+                        "No structural nasopharyngeal abnormality described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "21": [
+                        "No acute respiratory disease at enrollment.",
+                        [],
+                        "not excluded"
+                    ],
+                    "22": [
+                        "No febrile illness reported within 72\u202fh.",
+                        [],
+                        "not excluded"
+                    ],
+                    "23": [
+                        "No recent or upcoming allergy shots mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "24": [
+                        "No condition identified that would pose a health risk to the participant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "25": [
+                        "No active disease at the administration site noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "26": [
+                        "No history of drug or alcohol abuse in the past five years reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02509858": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the subject to be healthy or treatment\u2011naive type\u202f2 diabetes, euthyroid with a micronodular thyroid; the patient shows clear hypothyroid signs (cold intolerance, fatigue, dry skin, slowed movements) and no mention of diabetes, so she does not meet this premise.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion asks for being recreationally active; the note provides no information about the patient\u2019s activity level, and there is no way to infer it from the given data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "The criterion requires stable body weight and diet for the past two months; the note mentions decreased appetite and constipation but gives no details on weight or diet stability, so the criterion cannot be confirmed.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient shows signs of hypothyroidism (cold intolerance, hyporeflexia, dry skin, slowed movements) which is a systemic disease beyond glucose abnormalities; evidence present in sentences 0, 2, and 3.",
+                        [
+                            0,
+                            2,
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No medication use is mentioned in the note; absence of evidence is taken as no therapy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient does not have diabetes, so diabetic complications are not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT00357201": {
+                "inclusion": {
+                    "0": [
+                        "Patient explicitly states she will provide informed consent (sentence 4); meets criterion.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient is a 56\u2011year\u2011old female (sentence 0); age falls within 18\u201190 range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of known treated bilateral dry eye in the note; absence of this key information implies the patient does not meet the criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No ocular examination results (fluorescein/lissamine staining, BUT, Schirmer) are provided; therefore cannot satisfy this requirement.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "Patient report contains no ocular symptoms such as burning, stinging, dryness, etc.; criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "No data on lissamine green score, Schirmer test, or BUT are present; criterion not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of severe dry eye symptoms; absence of evidence suggests patient does not have severe dry eye.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No information on eyelid dysfunction; likely not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of rosacea; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No ocular anomaly reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Visual acuity not reported; cannot assess, but lack of eye exam suggests not applicable; assume not excluded.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No history of ocular allergy mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No recent ocular trauma, infection, or inflammation noted; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No ocular surgery or laser within last 3 months reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No LASIK, laser, PKR within last 12 months mentioned; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No contact lens use described; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No concomitant nutritive supplementation or vitamins reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No topical ocular treatments mentioned; assume none.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02086799": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 56 years old, satisfying age >=18.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of asthma diagnosis; absence suggests patient does not have known asthma.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No information about an asthma exacerbation; without asthma the criterion cannot be met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No evidence of participation in another trial; default assumption is not enrolled.",
+                        [],
+                        "included"
+                    ],
+                    "4": [
+                        "Sentence 4 states the patient will provide informed consent.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 56 years old, below the 60-year cutoff; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No diagnosis of thyroid disorder is mentioned; symptoms suggest hypothyroidism but not a known disorder, so patient does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient shows signs of hypothyroidism (cold sensitivity, dry skin, slowed movements) not thyrotoxicosis; no evidence of suspected thyrotoxicosis.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of heart disease in the note; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Heart rate not reported; no evidence it exceeds 140, assume it does not.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01236599": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the participant to be a preterm infant per official norm; the patient note describes a 56-year-old adult, so the premise does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns preterm infants with specific malformations; the patient is a 56-year-old adult, so the premise does not apply.",
+                        [],
+                        "not applicable"
                     ]
                 }
             }
@@ -18352,6 +20151,1414 @@
                         "The exclusion criterion lists many specific prior conditions and anatomical abnormalities. The note does not mention any prior laser supraglottoplasty, adenoidectomy, stridor with cyanosis, severe respiratory distress, recurrent pneumonia, laryngeal cyst, vocal cord paralysis, airway vascular malformation, neoplasm, subglottic hemangioma, paradoxical vocal cord motion, posterior glottic stenosis, glottic webs, discoordinate pharyngolaryngomalacia, or refusal to participate. No evidence of these is present, so the patient does not meet the exclusion condition.",
                         [],
                         "not excluded"
+                    ]
+                }
+            },
+            "NCT00071734": {
+                "inclusion": {
+                    "0": [
+                        "The criterion applies to all genders and races; the patient is a male (sentence 0) so he meets this requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "The patient is 5 years old (sentence 0), which is outside the required 18\u201145 age range, and he has dysphagia, drooling and a muffled voice indicating abnormal voice function (sentences 1\u20112); therefore he does not meet this criterion.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of any listed contraindications (e.g., implants, metal objects, pacemaker). Absence of mention likely means none are present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is a 5-year-old male, so pregnancy does not apply. No mention of claustrophobia or inability to lie still; assume these are not present.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00938353": {
+                "inclusion": {
+                    "0": [
+                        "Consent is explicitly stated in sentence 4, meeting the criterion.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient is a 5-year-old boy (sentence 0), exceeding the age limit of 6 months to 3 years; thus does not meet the age requirement despite other presentation details.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "No mention of a croup diagnosis or Westley score; without this key information, the patient cannot be confirmed to have moderate croup.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No direct evidence of other cause of stridor; patient presents with drooling and muffled voice which could suggest epiglottitis but not confirmed.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No mention of previous acute angioneurotic oedema; unlikely in this age group.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No Wesley score provided; severity cannot be determined from note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No history of congenital/acquired stridor, epiglottitis, chronic lung disease, asthma, severe systemic disease, recent chickenpox exposure, or immune dysfunction reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No severe acute/chronic medical, psychiatric, or laboratory abnormalities reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No record of recent oral/parenteral corticosteroids or epinephrine use.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No indication of prior ER visit for croup during this episode.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Sentence 4 states patient will provide informed consent and comply, implying parent understands the study.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No evidence of enrollment in another trial or prior admission to this study.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No information about telephone availability at home.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01609101": {
+                "inclusion": {
+                    "0": [
+                        "Sentence 4 explicitly states the patient will provide informed consent, satisfying the criterion.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No information about ASA physical status is provided; cannot determine if patient is ASA I-III.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Sentence 0 gives the patient's age as 5 years, which is not >18, so the criterion is not met.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "The presentation is emergent (emergency department, toxic-appearing), not an elective surgery, thus criterion not met.",
+                        [
+                            0,
+                            1
+                        ],
+                        "not included"
+                    ],
+                    "4": [
+                        "Mallampati classification is not mentioned in the note; insufficient data to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "BMI is not reported; insufficient data to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "Fasting status is not mentioned; insufficient data to assess.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Consent is explicitly stated in sentence 4, so the patient does not meet the exclusion criterion.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "ASA classification is not mentioned; cannot determine if ASA \u2265 IV.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient age is given as 5 years (sentence 0), which is < 18, thus meets the exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "3": [
+                        "The criterion concerns emergency surgery; the note describes an emergency presentation, not surgery, so the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No mention of locoregional anaesthesia; the patient is not undergoing surgery, so the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Mallampati score is not provided; insufficient information to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "BMI is not reported; insufficient information to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Fasting status is not mentioned; insufficient information to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No airway assessment details (neck movement, thyromental distance, retrognathia) are provided; insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "Dental condition is not described; insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No information about dental crowns or fixed partial dentures; insufficient information.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT00315549": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old, which is below the required minimum age of 13 years.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Criterion applies only to female subjects; patient is male.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Criterion applies only to female subjects; patient is male.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Criterion applies only to female subjects; patient is male.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Criterion applies only to female subjects; patient is male.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Criterion applies only to female subjects; patient is male.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Criterion applies only to female subjects; patient is male.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No evidence in the note of a clinical diagnosis of acute tonsillitis/pharyngitis caused by Streptococcus pyogenes.",
+                        [],
+                        "not included"
+                    ],
+                    "8": [
+                        "No rapid Group A streptococcal antigen test result is provided.",
+                        [],
+                        "not included"
+                    ],
+                    "9": [
+                        "Patient has dysphagia (possible odynophagia) but no mention of sore throat or the required two additional clinical signs.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No mention of tonsillar or pharyngeal erythema/exudate.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No mention of cervical adenopathy.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "No mention of uvular edema.",
+                        [],
+                        "not enough information"
+                    ],
+                    "13": [
+                        "Patient is reported to have fever.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient shows dysphagia, drooling, fever and muffled voice suggesting non\u2011streptococcal infection (e.g., epiglottitis); evidence present.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No mention of prior positive throat culture without symptoms; cannot determine but likely not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Symptoms (drooling, muffled voice, toxic appearance) indicate deep tissue infection of upper airway (possible epiglottitis/retropharyngeal involvement).",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "3": [
+                        "No information about rheumatic heart disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information about congenital prolonged QT syndrome.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No information about hypokalemia, hypomagnesemia or bradycardia.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No information about renal function or creatinine clearance.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No information about myasthenia gravis.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No information about hypersensitivity to macrolides, penicillins or cephalosporins.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No information about prior enrollment or telithromycin treatment.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No information about relationship to study staff.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No information about current or recent systemic antibacterial use.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No information about recent investigational medication use.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No information about recent use of rifampicin, phenytoin, carbamazepine, or St. John\u2019s wort.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00455468": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old (60 months) which exceeds the maximum age of 59 months; sentence 0 provides age.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Sex criterion is met; patient is a boy as stated in sentence 0.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No evidence of severe pneumonia (cough, fast breathing, chest indrawing) in the note; symptoms described are dysphagia and drooling, not pneumonia, so criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "The note does not mention attendance at the Radda Clinic or timing, so cannot determine; not enough information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Informed consent is indicated; sentence 4 states the patient will provide consent and comply.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient presents with dysphagia and fever, no mention of pneumonia; criterion not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No evidence of nosocomial pneumonia; patient does not have pneumonia, so criterion not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No information about prior antibiotic use; patient does not have pneumonia, making the criterion not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No chronic illnesses such as TB or cystic fibrosis are mentioned; not relevant to current presentation.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No congenital anomalies reported; not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "No immunodeficiency noted; not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Parents deny trauma; no burn or trauma described, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No bronchiolitis described; not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No asthma mentioned; not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No information on residence distance from study sites; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "Sentence 4 states informed consent will be provided and compliance ensured.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01292213": {
+                "inclusion": {
+                    "0": [
+                        "The note states the patient will comply with the trial protocol (sentence 4), directly satisfying the compliance requirement.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence 0 identifies the patient as a 5-year-old (60 months), which falls within the 6\u201172 month age range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Sentence 4 mentions that informed consent will be provided, satisfying the consent criterion.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "There is no mention of recent antibiotic use; the note does not provide enough information to confirm absence of antibiotics.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "The note does not discuss cystic fibrosis or immunodeficiency; insufficient information to determine presence or absence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No reference to gastro\u2011oesophageal reflux disease is found; insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "The note does not indicate any recent upper viral respiratory infection; insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Criterion 7 applies only to subjects classified as 'cases'; the patient does not present with chronic cough, so this criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "8": [
+                        "The patient has dysphagia and drooling, with no mention of a cough lasting >8 weeks; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "No information about prednisolone treatment is provided; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "10": [
+                        "Chest X\u2011ray findings are not described; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "Criterion 11 pertains to control subjects; the patient does not meet control criteria, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "The patient currently has respiratory symptoms, so does not meet the control requirement of no symptoms; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "13": [
+                        "No physical examination findings regarding lung disease are given; not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of participation in another study; absence of mention suggests not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No evidence of recent investigational or non\u2011registered product use; lack of mention implies not excluded.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No signs or history of immunosuppressive or immunodeficient condition; absence of such info leads to not excluded.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No indication that the child is in care; lack of statement suggests not applicable.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02436031": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a diagnosed moderate-to-severe OSA (AHI >15). The note describes acute dysphagia, drooling, fever, and vocal changes in a 5\u2011year\u2011old, with no mention of sleep symptoms, polysomnography, or an OSA diagnosis. Absence of any OSA evidence suggests the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns cardiovascular disease, which is not mentioned in the note. No evidence of hypertension or other CV issues is present, and such conditions would likely be noted if present in a pediatric emergency presentation. Therefore we assume the patient does not have cardiovascular disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Depression is not applicable to a 5\u2011year\u2011old acute presentation and is not mentioned in the note. Absence of any psychiatric history in this context suggests the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01406509": {
+                "inclusion": {
+                    "0": [
+                        "Age meets the 6\u202fmonths\u20115\u202fyears range (sentence 0), but the patient is acutely ill with fever, dysphagia and drooling, indicating he is not a healthy subject.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Sentence 4 states the patient will provide informed consent and will comply, implying the guardians can understand and sign consent.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "The inclusion requires subjects to be established as healthy after evaluation; the note describes an acute infection (fever, dysphagia, toxic\u2011appearing), so the subject is not healthy.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "Sentence 4 indicates the patient (and thus his guardians) will comply with the trial protocol without practical issues.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "Parents report delaying some vaccines (sentence 3), suggesting the child has not yet received the study vaccines; no evidence of prior receipt, so we infer he has never received them.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "5": [
+                        "The patient has fever (sentence 0), which means his axillary temperature is \u226537\u202f\u00b0C, not meeting the <37\u202f\u00b0C requirement.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT02464527": {
+                "inclusion": {
+                    "0": [
+                        "No mention of autism diagnosis; cannot infer presence, and lack of evidence likely means the patient does not have autism.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient is able to speak with a muffled voice, indicating he does emit vocalizations; no evidence of minimal verbal status.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Sentence 4 states the patient will provide informed consent and comply with the protocol, implying parental willingness to attend appointments.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns significant problem behavior that would interfere with the structured intervention. The note describes acute medical symptoms (dysphagia, drooling, fever, toxic appearance) but does not mention any behavioral issues such as aggression, self\u2011injury, or non\u2011compliance that would impede the intervention. No evidence of such behavior is present, and there is no reason to infer it from the given information; therefore we assume the patient does not have the disqualifying behavior.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01075269": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a minimally invasive follicular thyroid carcinoma \u22644\u202fcm; the note describes acute dysphagia, drooling, fever and no mention of thyroid cancer, so the premise is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion requires a papillary thyroid carcinoma \u22642\u202fcm; the note provides no evidence of any thyroid carcinoma, thus the patient does not satisfy this condition.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion not applicable premise (previous neck surgery) and no evidence in note; assume patient has not had prior neck operations.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Age criterion applicable; note states patient is 5 years old (sentence 0), which is <21, thus meets exclusion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "Prior vocal fold paralysis or laryngeal disease criterion applicable; note only describes current acute symptoms, no history of prior disease, so does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Malignancy with extrathyroid invasion criterion applicable; no mention of cancer in note, assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Lesion location dorsal area criterion applicable; note provides no information on lesion location, and acute presentation suggests not a dorsal thyroid lesion; assume not present.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01428908": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old, which falls within the 2-5 year range required.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient presents with dysphagia, drooling, fever and appears toxic, indicating he is not a healthy subject.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "Sentence indicates the patient (and thus guardians) will provide informed consent and comply with the protocol.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Patient is currently ill, so cannot be established as healthy per medical assessment.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "not included"
+                    ],
+                    "4": [
+                        "Sentence states the patient will comply with the trial requirements without practical issues.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "5": [
+                        "Parents report delaying some vaccines, implying the child has not yet received the study vaccines.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "6": [
+                        "Patient has fever, indicating temperature is above 37\u00b0C, thus does not meet the temperature criterion.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of prior meningitis; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of allergies, seizures, epilepsy, or encephalopathy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of tetanus toxoid allergy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of thrombocytopenia or coagulation disorder.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No mention of prior allergic reactions.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No mention of immunological dysfunction.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No mention of gamma globulin or immune globulin within past two weeks.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No mention of congenital malformations, dysgenesis, or serious chronic disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Patient presents with fever, dysphagia, drooling \u2013 acute infection.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "9": [
+                        "Potentially vague; acute infection might interfere but not explicitly stated.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "Patient is 5\u202fyears old, outside 6\u201123\u202fmonth infant range.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "Patient is not in the 6\u201123\u202fmonth age range.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "Sentence 4 indicates guardians will understand and sign consent.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "Patient is acutely ill, not established as healthy.",
+                        [],
+                        "excluded"
+                    ],
+                    "14": [
+                        "Sentence 4 states patient will comply with protocol.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No information on prior receipt of study vaccines; assume not received.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "Patient has fever, indicating temperature >37\u202f\u00b0C; criterion requires <37\u202f\u00b0C.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00569894": {
+                "inclusion": {
+                    "0": [
+                        "Patient shows acute illness (dysphagia, fever, toxic appearance), indicating he is not healthy.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Age requirement specifies birth quarter matching reference vaccinee; note only gives age (5 years) with no birth quarter information, so cannot determine compliance.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns chronic cardiovascular or pulmonary disease that increase influenza risk. The note describes an acute illness (dysphagia, drooling, fever) with no mention of chronic heart or lung conditions. No evidence of such diseases is present, and it is unlikely that a good note would omit a known chronic condition. Therefore the patient does not meet the exclusion criterion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01580033": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old, which exceeds the required age range of 3-5 months; age criterion is applicable and not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Guardians' ability to understand and sign consent is required; sentence 4 indicates the patient (and implicitly guardians) will provide informed consent and comply, suggesting guardians can consent.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Eligibility requires healthy subjects; patient presents with acute dysphagia, fever, and appears toxic, indicating he is not healthy.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Compliance with trial requirements is needed; sentence 4 states the patient will comply without practical issues, providing direct evidence of compliance.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "No prior receipt of the study vaccines is required; sentence 3 mentions delaying some vaccines, implying the subject has not yet received the group A, C meningococcal or Hib vaccines.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "5": [
+                        "Axillary temperature must be \u226437\u00b0C; sentence 0 reports fever, indicating temperature is above the limit, so criterion not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion is a heading, not an actual exclusion condition.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No mention of prior meningitis; absence of evidence can be taken as no history.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No allergies, seizures, epilepsy, or encephalopathy reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No statement about tetanus toxoid allergy; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information on thrombocytopenia or coagulation disorder; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No history of allergic reactions described; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No immunological dysfunction mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No record of gamma or immune globulin use in past two weeks; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No bleeding disorder or bruising reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "Patient presents with fever, dysphagia, drooling \u2013 acute infection present within last 7 days.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "10": [
+                        "No corticosteroid or immunosuppressant use mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No prior research medicines reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No recent live vaccine administration noted; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No recent subunit/inactivated vaccine (e.g., pneumococcal) noted; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No congenital malformations, developmental delay, or serious chronic disease described; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "Same as criterion 9 \u2013 acute infection present.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "16": [
+                        "Investigator discretion not provided; no information to suggest interference.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01715610": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old (sentence 0), which does not satisfy the >18 years requirement.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "No mention of peritonsillar abscess diagnosis, drainage, or purulence in the note; cannot determine if criterion is met.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is a male child, so pregnancy is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Sentence 0 states the patient is a 5-year-old, which is under 18, thus meets the exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No mention of bilateral peritonsillar abscesses; assume not bilateral, so does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No information about recent drainage of a peritonsillar abscess; assume it has not been drained, so does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No evidence of immunocompromise in the note; assume patient is not immunocompromised, so does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01198210": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires age 3-12 and ASA I\u2011II. The patient is a 5\u2011year\u2011old boy (sentence 0), satisfying the age range. ASA classification is not mentioned in the note, so we cannot confirm ASA I\u2011II; lacking direct evidence, we treat this as insufficient information rather than assume normal ASA status.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of contraindications to ketamine or dexamethasone in the note; assume none are present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient presents with fever, dysphagia, drooling and muffled voice, consistent with an acute upper respiratory infection; the note does not explicitly label it but the clinical picture strongly suggests it.",
+                        [
+                            0,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No evidence of conditions that raise intracranial pressure; not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No history of allergy, seizure, psychiatric illness, or bleeding disorder mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information about chronic analgesic, antiemetic, or steroid use prior to presentation; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Symptoms (fever, dysphagia, muffled voice, drooling) are classic for peritonsillar abscess, which is a recent infection within two weeks; thus meets exclusion.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT01925222": {
+                "inclusion": {
+                    "0": [
+                        "Age is directly stated as 5 years, which falls within the required 3-5 year range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No information about enrollment in the FinIP trial or receipt of the study vaccine; cannot assume enrollment.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Language proficiency of parents is not mentioned; cannot determine Finnish fluency.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Consent is described as coming from the patient himself, not from a parent; parent consent is not documented.",
+                        [
+                            4
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion refers to children already vaccinated in the FinIP trial; no indication patient was part of that study.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No information on PCV vaccination status; patient is delaying vaccines, likely not vaccinated yet.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of recent antimicrobial use; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient is 5 years old, which falls within the excluded age range 5-9 years.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "No data about siblings or their trial participation.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Parental language proficiency not described.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "Sentence indicates consent will be provided, implying parental consent is obtained.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02013570": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old, which satisfies the age range 3-9 years. ASA physical status is not mentioned in the note; without explicit evidence we cannot assume ASA 1\u20112, and it is unlikely that a good clinical note would omit ASA classification if it were favorable. Therefore the criterion is not met.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion applies (patient is a child). The note describes progressive dysphagia, drooling, muffled voice and toxic appearance, which are classic signs of peritonsillar abscess. This directly meets the exclusion condition.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT02264353": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 5 years old (sentence 0), which is outside the required 18-70 year age range, so does not meet this criterion.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "No mention of a sleep study or apnea\u2011hypopnea index in the note; cannot determine if criterion is met.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "The note does not state a diagnosis of obstructive sleep apnea; insufficient evidence to confirm.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of cardiac, pulmonary, renal, neurologic, neuromuscular, or hepatic disease; absence of evidence taken as absence.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No evidence of stomach ulcer susceptibility; not mentioned and unlikely in acute presentation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is a 5\u2011year\u2011old male; pregnancy criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No record of PAP therapy use; not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Weight not provided; a typical 5\u2011year\u2011old weighs far less than 55\u202fkg, making the criterion likely true. Assuming the fact would be noted if weight were \u226555\u202fkg, we treat as true and thus exclusion.",
+                        [],
+                        "excluded"
+                    ],
+                    "5": [
+                        "No history of hypersensitivity to Afrin, Lidocaine, or Donepezil; not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No mention of bleeding diathesis or GI bleeding; absence taken as absence.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No medications listed; assume none affecting sleep or breathing.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No psychiatric disorder reported; not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No substance use reported; not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No caffeine intake reported; not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No indication of recent sleep deprivation; not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No sleep study data provided; cannot assess desaturation criterion.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT01817907": {
+                "inclusion": {
+                    "0": [
+                        "Criterion requires diagnosis of OSA (elevated AHI). The note describes acute dysphagia, drooling, fever and vocal changes in a 5\u2011year\u2011old; there is no mention of sleep apnea, polysomnography, or elevated AHI. Absence of such information in a pediatric emergency presentation makes OSA unlikely, so we treat the criterion as not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Criterion requires age between 18 and 70 years. The note states the patient is a 5\u2011year\u2011old boy, which is outside the required range.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of cardiac, pulmonary, renal, neurologic, neuromuscular, or hepatic disease in the note; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of stomach ulcer susceptibility; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is a 5-year-old male; pregnancy not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No reported hypersensitivity to listed agents; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No mention of bleeding diathesis or GI bleeding; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No medications reported that affect sleep or breathing; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No psychiatric disorder reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Child; substantial cigarette/alcohol/illicit drug use not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "8": [
+                        "Child; excessive caffeine intake not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "No polysomnography data provided; cannot assess desaturation events.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT00626951": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires ASA physical status I-II; the note does not mention ASA classification. In a pediatric emergency setting, ASA is not typically recorded, and absence likely means it is not known, so we cannot assume it is met.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Age requirement is 18-80 years; the patient is a 5\u2011year\u2011old boy, clearly outside the range.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "Criterion specifies elective gynecological surgery; the patient is a male child presenting with dysphagia, not undergoing any surgery, thus the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Supine position is required for the procedure; there is no mention of patient positioning because no surgery is planned, making the criterion not applicable to this case.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The note does not provide airway assessment data; no direct evidence of a known or predicted difficult airway, and we cannot infer it reliably.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No weight or height information is given, so BMI cannot be calculated; no evidence of obesity.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "The patient has progressive dysphagia, drooling, and a muffled voice, indicating impaired swallowing and high aspiration risk.",
+                        [
+                            0,
+                            2,
+                            3
+                        ],
+                        "excluded"
                     ]
                 }
             }
