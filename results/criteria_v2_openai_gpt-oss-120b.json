@@ -2130,5 +2130,1788 @@
       "total_tokens": 5402,
       "seconds": 5.47
     }
+  },
+  "sigir-201412|NCT00271427": {
+    "labels": {
+      "200": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "decision": "changed"
+      },
+      "201": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1500,
+      "completion_tokens": 662,
+      "total_tokens": 2162,
+      "seconds": 2.59
+    }
+  },
+  "sigir-201412|NCT01551498": {
+    "labels": {
+      "202": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "203": {
+        "final_eligibility": "not included",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "204": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          4
+        ],
+        "decision": "kept"
+      },
+      "205": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0,
+          2,
+          3
+        ],
+        "decision": "changed"
+      },
+      "206": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "207": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "208": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 1243,
+      "completion_tokens": 376,
+      "total_tokens": 1619,
+      "seconds": 1.01
+    }
+  },
+  "sigir-201411|NCT01526382": {
+    "labels": {
+      "185": {
+        "final_eligibility": "not included",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "186": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "187": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          2
+        ],
+        "decision": "kept"
+      },
+      "188": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          3
+        ],
+        "decision": "kept"
+      },
+      "189": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "190": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "191": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "192": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "193": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          2
+        ],
+        "decision": "kept"
+      },
+      "194": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 2413,
+      "completion_tokens": 1188,
+      "total_tokens": 3601,
+      "seconds": 3.5
+    }
+  },
+  "sigir-201411|NCT01723137": {
+    "labels": {
+      "195": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "196": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0
+        ],
+        "decision": "changed"
+      },
+      "197": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0,
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "198": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "199": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 931,
+      "completion_tokens": 194,
+      "total_tokens": 1125,
+      "seconds": 0.65
+    }
+  },
+  "sigir-201417|NCT01745731": {
+    "labels": {
+      "304": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "305": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "306": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          3
+        ],
+        "decision": "changed"
+      },
+      "307": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          3
+        ],
+        "decision": "changed"
+      },
+      "308": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "309": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "310": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "311": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "312": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "313": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "314": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "315": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "316": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "317": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "318": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "319": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "320": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "321": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "322": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 2077,
+      "completion_tokens": 983,
+      "total_tokens": 3060,
+      "seconds": 2.76
+    }
+  },
+  "sigir-201417|NCT02556359": {
+    "labels": {
+      "323": {
+        "final_eligibility": "not included",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "324": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "325": {
+        "final_eligibility": "not included",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "326": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 1081,
+      "completion_tokens": 353,
+      "total_tokens": 1434,
+      "seconds": 1.2
+    }
+  },
+  "sigir-201415|NCT00180739": {
+    "labels": {
+      "243": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          3,
+          5
+        ],
+        "decision": "kept"
+      },
+      "244": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "245": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "246": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          6
+        ],
+        "decision": "not reviewed"
+      },
+      "247": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "248": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          4
+        ],
+        "decision": "kept"
+      },
+      "249": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "250": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          4
+        ],
+        "decision": "kept"
+      },
+      "251": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          3
+        ],
+        "decision": "not reviewed"
+      },
+      "252": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          1
+        ],
+        "decision": "not reviewed"
+      },
+      "253": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [
+          4
+        ],
+        "decision": "changed"
+      },
+      "254": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "255": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "256": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "257": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          2
+        ],
+        "decision": "not reviewed"
+      },
+      "258": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "259": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "260": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "261": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "262": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "263": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          5
+        ],
+        "decision": "changed"
+      },
+      "264": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "265": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "266": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "267": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "268": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "269": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "270": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          6
+        ],
+        "decision": "not reviewed"
+      },
+      "271": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "272": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "273": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      }
+    },
+    "usage": {
+      "calls": 3,
+      "prompt_tokens": 3940,
+      "completion_tokens": 1766,
+      "total_tokens": 5706,
+      "seconds": 5.39
+    }
+  },
+  "sigir-201415|NCT00277680": {
+    "labels": {
+      "235": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "236": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "237": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0,
+          3
+        ],
+        "decision": "not reviewed"
+      },
+      "238": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          4
+        ],
+        "decision": "not reviewed"
+      },
+      "239": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0
+        ],
+        "decision": "changed"
+      },
+      "240": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "241": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          1
+        ],
+        "decision": "not reviewed"
+      },
+      "242": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 989,
+      "completion_tokens": 187,
+      "total_tokens": 1176,
+      "seconds": 1.14
+    }
+  },
+  "sigir-20141|NCT00149227": {
+    "labels": {
+      "21": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          3
+        ],
+        "decision": "not reviewed"
+      },
+      "22": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          3,
+          4
+        ],
+        "decision": "kept"
+      },
+      "23": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "24": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "25": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          3
+        ],
+        "decision": "kept"
+      },
+      "26": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "27": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "28": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "29": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "30": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 2059,
+      "completion_tokens": 1459,
+      "total_tokens": 3518,
+      "seconds": 3.82
+    }
+  },
+  "sigir-201422|NCT00236912": {
+    "labels": {
+      "420": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "421": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "422": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          3
+        ],
+        "decision": "changed"
+      },
+      "423": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "424": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "425": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "426": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "427": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "428": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "429": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "430": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1576,
+      "completion_tokens": 930,
+      "total_tokens": 2506,
+      "seconds": 3.16
+    }
+  },
+  "sigir-201422|NCT00723788": {
+    "labels": {
+      "415": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "416": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "417": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "418": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "419": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 970,
+      "completion_tokens": 199,
+      "total_tokens": 1169,
+      "seconds": 0.9
+    }
+  },
+  "sigir-20141|NCT01397994": {
+    "labels": {
+      "0": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          0,
+          1,
+          2
+        ],
+        "decision": "changed"
+      },
+      "1": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "2": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "3": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          8
+        ],
+        "decision": "not reviewed"
+      },
+      "4": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          8
+        ],
+        "decision": "not reviewed"
+      },
+      "5": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "6": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "7": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "8": {
+        "final_eligibility": "excluded",
+        "final_sentences": [
+          0,
+          1,
+          2
+        ],
+        "decision": "changed"
+      },
+      "9": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "10": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "11": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "12": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "13": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          4
+        ],
+        "decision": "kept"
+      },
+      "14": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          3
+        ],
+        "decision": "not reviewed"
+      },
+      "15": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "16": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "17": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "18": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "19": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "20": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 1649,
+      "completion_tokens": 961,
+      "total_tokens": 2610,
+      "seconds": 2.71
+    }
+  },
+  "sigir-201427|NCT01187901": {
+    "labels": {
+      "499": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          3
+        ],
+        "decision": "not reviewed"
+      },
+      "500": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "501": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "502": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "503": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "504": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "505": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "506": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "507": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "508": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "509": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "510": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "511": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "512": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "513": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "514": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 2024,
+      "completion_tokens": 1007,
+      "total_tokens": 3031,
+      "seconds": 4.11
+    }
+  },
+  "sigir-20144|NCT00841789": {
+    "labels": {
+      "68": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "69": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "70": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          1,
+          4
+        ],
+        "decision": "not reviewed"
+      },
+      "71": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          3
+        ],
+        "decision": "kept"
+      },
+      "72": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "73": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          3
+        ],
+        "decision": "not reviewed"
+      },
+      "74": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          3
+        ],
+        "decision": "kept"
+      },
+      "75": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "76": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "77": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "78": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "79": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "80": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "81": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "decision": "kept"
+      },
+      "82": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "83": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "84": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "85": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "86": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "87": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "88": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "89": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "90": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "91": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1970,
+      "completion_tokens": 999,
+      "total_tokens": 2969,
+      "seconds": 2.9
+    }
+  },
+  "sigir-201427|NCT01713881": {
+    "labels": {
+      "515": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          3,
+          4
+        ],
+        "decision": "not reviewed"
+      },
+      "516": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "517": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0
+        ],
+        "decision": "changed"
+      },
+      "518": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 969,
+      "completion_tokens": 194,
+      "total_tokens": 1163,
+      "seconds": 0.91
+    }
+  },
+  "sigir-20144|NCT02390596": {
+    "labels": {
+      "49": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "decision": "not reviewed"
+      },
+      "50": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "51": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "52": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          5
+        ],
+        "decision": "not reviewed"
+      },
+      "53": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "54": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "55": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "56": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "decision": "not reviewed"
+      },
+      "57": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "58": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "59": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "60": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "61": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "62": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "63": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "64": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "65": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "66": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "67": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 1290,
+      "completion_tokens": 360,
+      "total_tokens": 1650,
+      "seconds": 1.49
+    }
+  },
+  "sigir-20142|NCT00711399": {
+    "labels": {
+      "37": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          6
+        ],
+        "decision": "not reviewed"
+      },
+      "38": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "39": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "40": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "41": {
+        "final_eligibility": "excluded",
+        "final_sentences": [
+          4
+        ],
+        "decision": "kept"
+      },
+      "42": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1503,
+      "completion_tokens": 816,
+      "total_tokens": 2319,
+      "seconds": 2.73
+    }
+  },
+  "sigir-20142|NCT02618655": {
+    "labels": {
+      "31": {
+        "final_eligibility": "not included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "kept"
+      },
+      "32": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "33": {
+        "final_eligibility": "not included",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "34": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "35": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "36": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 1375,
+      "completion_tokens": 627,
+      "total_tokens": 2002,
+      "seconds": 1.96
+    }
+  },
+  "sigir-20158|NCT00393913": {
+    "labels": {
+      "691": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0,
+          2
+        ],
+        "decision": "kept"
+      },
+      "692": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "693": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "694": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "695": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "696": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "697": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "698": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          3
+        ],
+        "decision": "not reviewed"
+      },
+      "699": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1698,
+      "completion_tokens": 965,
+      "total_tokens": 2663,
+      "seconds": 3.27
+    }
+  },
+  "sigir-20156|NCT01717352": {
+    "labels": {
+      "654": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "655": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "656": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0,
+          1
+        ],
+        "decision": "kept"
+      },
+      "657": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "658": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "659": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1471,
+      "completion_tokens": 597,
+      "total_tokens": 2068,
+      "seconds": 2.48
+    }
+  },
+  "sigir-20158|NCT02562040": {
+    "labels": {
+      "678": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "decision": "kept"
+      },
+      "679": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "680": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "681": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "682": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "not reviewed"
+      },
+      "683": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "684": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "685": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "686": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "687": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "688": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "689": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "690": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 1421,
+      "completion_tokens": 369,
+      "total_tokens": 1790,
+      "seconds": 1.44
+    }
+  },
+  "sigir-201523|NCT00084240": {
+    "labels": {
+      "958": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [
+          0
+        ],
+        "decision": "kept"
+      },
+      "959": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "960": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "961": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "962": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "changed"
+      },
+      "963": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "964": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "965": {
+        "final_eligibility": "excluded",
+        "final_sentences": [
+          1
+        ],
+        "decision": "kept"
+      },
+      "966": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "967": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "968": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "969": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "970": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "971": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "972": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "973": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "974": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [
+          2
+        ],
+        "decision": "not reviewed"
+      },
+      "975": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "976": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 2094,
+      "completion_tokens": 828,
+      "total_tokens": 2922,
+      "seconds": 3.02
+    }
+  },
+  "sigir-20156|NCT02375451": {
+    "labels": {
+      "651": {
+        "final_eligibility": "not included",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "652": {
+        "final_eligibility": "included",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "653": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 940,
+      "completion_tokens": 135,
+      "total_tokens": 1075,
+      "seconds": 1.2
+    }
+  },
+  "sigir-201523|NCT02334514": {
+    "labels": {
+      "977": {
+        "final_eligibility": "included",
+        "final_sentences": [
+          0
+        ],
+        "decision": "changed"
+      },
+      "978": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "979": {
+        "final_eligibility": "not enough information",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "980": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      },
+      "981": {
+        "final_eligibility": "not applicable",
+        "final_sentences": [],
+        "decision": "kept"
+      },
+      "982": {
+        "final_eligibility": "not excluded",
+        "final_sentences": [],
+        "decision": "not reviewed"
+      }
+    },
+    "usage": {
+      "calls": 1,
+      "prompt_tokens": 1177,
+      "completion_tokens": 403,
+      "total_tokens": 1580,
+      "seconds": 1.72
+    }
   }
 }
