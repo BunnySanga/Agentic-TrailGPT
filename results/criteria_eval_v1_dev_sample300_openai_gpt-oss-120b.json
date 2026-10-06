@@ -1,0 +1,130 @@
+{
+  "selected": 301,
+  "scored": 301,
+  "not_reviewed": 1,
+  "pairs": 33,
+  "baseline_accuracy": 0.8338870431893688,
+  "agent_accuracy": 0.574750830564784,
+  "fixed": 10,
+  "broken": 88,
+  "changed": 103,
+  "mcnemar_p": 9.940659465123946e-17,
+  "transitions": [
+    {
+      "from": "not excluded",
+      "to": "not enough information",
+      "count": 73,
+      "right": 2
+    },
+    {
+      "from": "included",
+      "to": "not enough information",
+      "count": 9,
+      "right": 0
+    },
+    {
+      "from": "not applicable",
+      "to": "not enough information",
+      "count": 9,
+      "right": 2
+    },
+    {
+      "from": "not included",
+      "to": "not enough information",
+      "count": 6,
+      "right": 2
+    },
+    {
+      "from": "not applicable",
+      "to": "not excluded",
+      "count": 4,
+      "right": 2
+    },
+    {
+      "from": "excluded",
+      "to": "not excluded",
+      "count": 2,
+      "right": 2
+    }
+  ],
+  "gpt4_mistakes": [
+    {
+      "gpt4": "not applicable",
+      "expert": "not excluded",
+      "count": 19,
+      "fixed": 2
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "not excluded",
+      "count": 10,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "included",
+      "count": 5,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not excluded",
+      "expert": "not enough information",
+      "count": 4,
+      "fixed": 2
+    },
+    {
+      "gpt4": "not included",
+      "expert": "not enough information",
+      "count": 4,
+      "fixed": 2
+    },
+    {
+      "gpt4": "not applicable",
+      "expert": "not enough information",
+      "count": 3,
+      "fixed": 2
+    },
+    {
+      "gpt4": "excluded",
+      "expert": "not excluded",
+      "count": 2,
+      "fixed": 2
+    },
+    {
+      "gpt4": "not excluded",
+      "expert": "not applicable",
+      "count": 1,
+      "fixed": 0
+    },
+    {
+      "gpt4": "included",
+      "expert": "not included",
+      "count": 1,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "not included",
+      "count": 1,
+      "fixed": 0
+    }
+  ],
+  "evidence": {
+    "baseline": {
+      "precision": 1.0,
+      "recall": 0.842391304347826
+    },
+    "agents": {
+      "precision": 0.9848484848484849,
+      "recall": 0.7065217391304348
+    }
+  },
+  "usage": {
+    "calls": 118,
+    "prompt_tokens": 175398,
+    "completion_tokens": 90954,
+    "total_tokens": 266352,
+    "seconds": 262.09999999999997
+  },
+  "tokens_per_criterion": 884.890365448505
+}

@@ -1,0 +1,118 @@
+{
+  "selected": 264,
+  "scored": 264,
+  "not_reviewed": 0,
+  "pairs": 24,
+  "baseline_accuracy": 0.9166666666666666,
+  "agent_accuracy": 0.5416666666666666,
+  "fixed": 6,
+  "broken": 105,
+  "changed": 113,
+  "mcnemar_p": 1.8478334088755076e-24,
+  "transitions": [
+    {
+      "from": "not excluded",
+      "to": "not enough information",
+      "count": 93,
+      "right": 3
+    },
+    {
+      "from": "included",
+      "to": "not enough information",
+      "count": 8,
+      "right": 0
+    },
+    {
+      "from": "not applicable",
+      "to": "not enough information",
+      "count": 7,
+      "right": 2
+    },
+    {
+      "from": "not included",
+      "to": "not enough information",
+      "count": 3,
+      "right": 1
+    },
+    {
+      "from": "included",
+      "to": "not included",
+      "count": 1,
+      "right": 0
+    },
+    {
+      "from": "excluded",
+      "to": "not enough information",
+      "count": 1,
+      "right": 0
+    }
+  ],
+  "gpt4_mistakes": [
+    {
+      "gpt4": "not applicable",
+      "expert": "not excluded",
+      "count": 6,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "not excluded",
+      "count": 4,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not excluded",
+      "expert": "not enough information",
+      "count": 3,
+      "fixed": 3
+    },
+    {
+      "gpt4": "not applicable",
+      "expert": "not enough information",
+      "count": 3,
+      "fixed": 2
+    },
+    {
+      "gpt4": "not enough information",
+      "expert": "included",
+      "count": 3,
+      "fixed": 0
+    },
+    {
+      "gpt4": "not included",
+      "expert": "not enough information",
+      "count": 1,
+      "fixed": 1
+    },
+    {
+      "gpt4": "included",
+      "expert": "not enough information",
+      "count": 1,
+      "fixed": 0
+    },
+    {
+      "gpt4": "excluded",
+      "expert": "not excluded",
+      "count": 1,
+      "fixed": 0
+    }
+  ],
+  "evidence": {
+    "baseline": {
+      "precision": 1.0,
+      "recall": 0.8297872340425532
+    },
+    "agents": {
+      "precision": 0.9900990099009901,
+      "recall": 0.7092198581560284
+    }
+  },
+  "usage": {
+    "calls": 87,
+    "prompt_tokens": 146289,
+    "completion_tokens": 73381,
+    "total_tokens": 219670,
+    "seconds": 209.14
+  },
+  "tokens_per_criterion": 832.0833333333334
+}
