@@ -49,7 +49,6 @@ if __name__ == "__main__":
 		if patient_id not in output:
 			output[patient_id] = {"0": {}, "1": {}, "2": {}}
 
-		patient_had_work = False
 		for label in ["2", "1", "0"]:
 			if label not in instance:
 				continue
@@ -63,7 +62,6 @@ if __name__ == "__main__":
 				try:
 					results = trialgpt_matching(trial, patient, model)
 					output[patient_id][label][trial_id] = results
-					patient_had_work = True
 
 					with open(output_path, "w") as f:
 						json.dump(output, f, indent=4)

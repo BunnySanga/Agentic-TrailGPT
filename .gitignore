@@ -1,6 +1,5 @@
 /.venv
 /.env
-/node_modules
 /dataset/trial_info.json
 
 # Local secrets
@@ -10,3 +9,7 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# OS and editor leftovers
+.DS_Store
+~$*

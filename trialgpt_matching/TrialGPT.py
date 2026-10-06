@@ -4,11 +4,8 @@ __author__ = "qiao"
 TrialGPT-Matching main functions.
 """
 
-import json
 import sys
 from pathlib import Path
-from nltk.tokenize import sent_tokenize
-import os
 from dotenv import load_dotenv
 
 # Ensure project root is on sys.path for cross-module imports

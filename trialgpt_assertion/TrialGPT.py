@@ -65,7 +65,7 @@ Return JSON only using the exact sentence IDs supplied:
 
 
 class AssertionAgent:
-    """Call an Azure deployment to validate selected patient evidence."""
+    """Call the LLM to validate selected patient evidence."""
 
     def __init__(self, model: str, client: Any | None = None):
         self.model = model
@@ -190,3 +190,20 @@ def trialgpt_assertion(
     return AssertionAgent(model, client=client).analyze(
         criterion, patient_sentences, candidate_sentence_ids
     )
+
+
+class CachedNoteAssertion:
+    """Classify a patient's note once and reuse it for every trial.
+
+    The note-level assertion depends only on the patient note, so repeating it
+    per trial costs one API call per trial for an identical answer.
+    """
+
+    def __init__(self, agent: AssertionAgent):
+        self._agent = agent
+        self._result = None
+
+    def analyze_patient_note(self, patient_sentences):
+        if self._result is None:
+            self._result = self._agent.analyze_patient_note(patient_sentences)
+        return self._result

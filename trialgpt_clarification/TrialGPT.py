@@ -59,7 +59,7 @@ triggered=false when no clarification is needed."""
 
 
 class ClarificationAgent:
-    """Use an Azure deployment to identify and search for missing evidence."""
+    """Use the LLM to identify and search for missing evidence."""
 
     def __init__(self, model: str, client: Any | None = None):
         self.model = model

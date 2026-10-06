@@ -59,7 +59,7 @@ Return JSON only:
 
 
 class VerifierAgent:
-    """Use an Azure deployment to verify the complete criterion decision."""
+    """Use the LLM to verify the complete criterion decision."""
 
     def __init__(self, model: str, client: Any | None = None):
         self.model = model

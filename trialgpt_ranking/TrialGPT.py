@@ -4,11 +4,8 @@ __author__ = "qiao"
 TrialGPT-Ranking main functions.
 """
 
-import json
 import sys
 from pathlib import Path
-from nltk.tokenize import sent_tokenize
-import os
 from dotenv import load_dotenv
 
 _PROJECT_ROOT = str(Path(__file__).resolve().parents[1])

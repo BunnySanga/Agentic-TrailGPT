@@ -1,0 +1,55 @@
+{
+  "corpus": "sigir",
+  "model": "openai/gpt-oss-120b",
+  "k": 10,
+  "variants": {
+    "baseline": {
+      "patients": 2,
+      "ndcg@10": 0.5388617565339328,
+      "p@10": 0.15000000000000002,
+      "per_patient": {
+        "sigir-201415": {
+          "ndcg@10": 0.299707663853072,
+          "p@10": 0.1
+        },
+        "sigir-201529": {
+          "ndcg@10": 0.7780158492147935,
+          "p@10": 0.2
+        }
+      }
+    }
+  },
+  "cost": {
+    "patients": 2,
+    "trials": 26,
+    "baseline": {
+      "calls": 79,
+      "prompt_tokens": 102971,
+      "completion_tokens": 40343,
+      "total_tokens": 143314,
+      "seconds": 141.56
+    },
+    "per_patient": {
+      "sigir-201415": {
+        "trials": 13,
+        "baseline": {
+          "calls": 40,
+          "prompt_tokens": 49706,
+          "completion_tokens": 19807,
+          "total_tokens": 69513,
+          "seconds": 67.75
+        }
+      },
+      "sigir-201529": {
+        "trials": 13,
+        "baseline": {
+          "calls": 39,
+          "prompt_tokens": 53265,
+          "completion_tokens": 20536,
+          "total_tokens": 73801,
+          "seconds": 73.81000000000002
+        }
+      }
+    }
+  }
+}

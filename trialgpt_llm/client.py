@@ -50,13 +50,6 @@ def _record_usage(prompt_tokens: int, completion_tokens: int, total_tokens: int,
     usage["seconds"] = round(usage["seconds"] + seconds, 2)
 
 
-def get_groq_client() -> Any:
-    """Create a Groq client using the free tier API."""
-    from groq import Groq
-
-    return Groq(api_key=os.getenv("GROQ_API_KEY"))
-
-
 def call_json(
     system_prompt: str,
     user_prompt: str,
@@ -212,7 +205,7 @@ def parse_json_object(content: object) -> object:
 
     cleaned = content.strip()
 
-    # Strip <think>...</think> blocks (common with qwen models)
+    # Strip <think>...</think> blocks that some reasoning models emit
     cleaned = re.sub(r"<think>.*?</think>", "", cleaned, flags=re.DOTALL).strip()
 
     cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned, flags=re.IGNORECASE)
@@ -221,7 +214,7 @@ def parse_json_object(content: object) -> object:
         return json.loads(cleaned)
     except json.JSONDecodeError:
         decoder = json.JSONDecoder()
-        for start, marker in ((cleaned.find("{"), "{"), (cleaned.find("["), "[")):
+        for start in (cleaned.find("{"), cleaned.find("[")):
             if start < 0:
                 continue
             try:

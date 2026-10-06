@@ -6,8 +6,20 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest import mock
 
-from evaluate_rankings import cost_report, ndcg_at_k, patient_cost, precision_at_k, rank_patient
-from run_parallel import CachedNoteAssertion, JsonStore, Run, read_patients_file, select_patients
+from evaluate_rankings import (
+    cost_report,
+    matching_score,
+    ndcg_at_k,
+    patient_cost,
+    precision_at_k,
+    rank_patient,
+    review_applies,
+    reviewed_trial_results,
+    trial_score,
+)
+from run_parallel import JsonStore, Run, read_patients_file, select_patients
+from trialgpt_assertion.TrialGPT import CachedNoteAssertion
+from trialgpt_ranking.rank_results import get_agg_score, get_matching_score
 from trialgpt_llm import client as llm_client
 from trialgpt_llm.client import call_json, parse_retry_after, track_usage
 from trialgpt_llm.key_pool import AllKeysExhausted, KeyPool, KeySlot
@@ -157,19 +169,110 @@ class UsageTrackingTests(unittest.TestCase):
         self.assertEqual(results, {"a": 1, "b": 3})
 
 
-class BaselineOnlyRunTests(unittest.TestCase):
+class StageTests(unittest.TestCase):
     instance = {"patient_id": "test-patient-not-in-results", "2": [{"NCTID": "NCT-A"}], "0": [{"NCTID": "NCT-B"}]}
+    trial = {"NCTID": "NCT-A", "inclusion_criteria": "Adults with melanoma", "exclusion_criteria": "Prior chemotherapy"}
 
-    def test_baseline_only_run_expects_no_enhanced_aggregation(self):
+    def test_trialgpt_only_run_counts_matching_and_aggregation(self):
         run = Run("sigir", "test-model", {"match", "aggregate"})
-        self.assertFalse(run.with_agents)
-        # per trial: 2 matching calls + 1 baseline aggregation
+        # per trial: 2 matching calls + 1 aggregation
         self.assertEqual(run.remaining_calls(self.instance), 6)
 
-    def test_full_run_counts_agents_and_both_aggregations(self):
-        run = Run("sigir", "test-model", {"match", "enhance", "aggregate"})
-        # per trial: 2 matching + 2 agent + 2 aggregation calls, plus 1 note-level assertion
-        self.assertEqual(run.remaining_calls(self.instance), 13)
+    def test_full_run_adds_one_estimated_review_call_per_unmatched_trial(self):
+        run = Run("sigir", "test-model", {"match", "aggregate", "review"})
+        self.assertEqual(run.remaining_calls(self.instance), 8)
+
+    def review_run(self, tmp, relevance, label="not included", min_relevance=50.0):
+        run = Run("sigir", "test-model", {"review"}, min_relevance)
+        for name in ("matching", "aggregation", "reviewed", "review_log", "usage"):
+            setattr(run, name, JsonStore(Path(tmp) / f"{name}.json", indent=0))
+        run.matching.put("p", "2", "NCT-A", {
+            "inclusion": {"0": ["no melanoma found", [0], label]},
+            "exclusion": {"0": ["no chemotherapy", [], "not excluded"]},
+        })
+        run.aggregation.put("p", "NCT-A", {"relevance_score_R": relevance, "eligibility_score_E": 0})
+        run.reviewer = mock.Mock()
+        run.reviewer.review_batch.return_value = {
+            "inclusion:0": {"label": "included", "changed": True, "reason": "melanoma in sentence 0", "sentence_ids": [0]}
+        }
+        return run
+
+    def test_review_fixes_negative_label_on_relevant_trial(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run = self.review_run(tmp, relevance=80)
+            self.assertEqual(run.remaining_work({"patient_id": "p", "2": [self.trial]}), (1, 1))
+            ran = run.process_trial("p", "2", self.trial, "0. Melanoma of the arm.")
+            self.assertEqual(run.reviewed.get("p", "2", "NCT-A")["inclusion"]["0"][2], "included")
+            self.assertTrue(run.review_log.get("p", "NCT-A")["selected"])
+            self.assertIn("1 changed", ran)
+            self.assertTrue(run.review_done("p", "NCT-A"))
+            self.assertEqual(run.remaining_work({"patient_id": "p", "2": [self.trial]}), (0, 0))
+
+    def test_irrelevant_trial_is_recorded_without_a_call(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run = self.review_run(tmp, relevance=20)
+            self.assertEqual(run.remaining_work({"patient_id": "p", "2": [self.trial]}), (0, 1))
+            run.process_trial("p", "2", self.trial, "0. Melanoma of the arm.")
+            run.reviewer.review_batch.assert_not_called()
+            self.assertFalse(run.review_log.get("p", "NCT-A")["selected"])
+            self.assertEqual(run.usage.get("p", "NCT-A", "review")["calls"], 0)
+            self.assertEqual(run.reviewed.get("p", "2", "NCT-A"), run.matching.get("p", "2", "NCT-A"))
+
+    def test_lower_cutoff_redoes_reviews_made_with_a_higher_one(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run = self.review_run(tmp, relevance=20)
+            run.process_trial("p", "2", self.trial, "0. Melanoma of the arm.")
+            run.min_relevance = 10.0
+            self.assertFalse(run.review_done("p", "NCT-A"))
+
+
+class ScoreTests(unittest.TestCase):
+    result = {
+        "inclusion": {"0": ["", [], "included"], "1": ["", [], "not included"], "2": ["", [], "not enough information"]},
+        "exclusion": {"0": ["", [], "excluded"], "1": ["", [], "not excluded"]},
+    }
+    assessment = {"relevance_score_R": 70, "eligibility_score_E": 20}
+
+    def test_defaults_match_trialgpt_formula(self):
+        official = get_matching_score(self.result) + get_agg_score(self.assessment)
+        self.assertAlmostEqual(trial_score(self.result, self.assessment), official)
+
+    def test_penalty_and_weight(self):
+        self.assertAlmostEqual(matching_score(self.result, penalty=0.25), 1 / 3 - 0.5, places=6)
+        self.assertAlmostEqual(trial_score(self.result, self.assessment, 0.0, 2.0), 1 / 3 + 1.8, places=6)
+
+    def test_smaller_penalty_lifts_a_relevant_trial_with_one_negative_label(self):
+        good = {"inclusion": {"0": ["", [], "included"], "1": ["", [], "not included"]}, "exclusion": {}}
+        unrelated = {"inclusion": {"0": ["", [], "included"], "1": ["", [], "not enough information"]}, "exclusion": {}}
+        matching = {"p": {"2": {"GOOD": good}, "0": {"OTHER": unrelated}}}
+        aggregation = {"p": {"GOOD": {"relevance_score_R": 80, "eligibility_score_E": 20},
+                             "OTHER": {"relevance_score_R": 30, "eligibility_score_E": 0}}}
+        self.assertEqual(rank_patient("p", ["GOOD", "OTHER"], matching, aggregation), ["OTHER", "GOOD"])
+        self.assertEqual(rank_patient("p", ["GOOD", "OTHER"], matching, aggregation, penalty=0.25), ["GOOD", "OTHER"])
+
+
+class ReviewedResultTests(unittest.TestCase):
+    before = {"p": {"2": {"A": {"inclusion": {"0": ["", [], "not included"]}, "exclusion": {}}},
+                    "0": {"B": {"inclusion": {}, "exclusion": {}}}}}
+    after = {"p": {"2": {"A": {"inclusion": {"0": ["", [], "included"]}, "exclusion": {}}},
+                   "0": {"B": {"inclusion": {}, "exclusion": {}}}}}
+    log = {"p": {"A": {"selected": True, "relevance": 60, "min_relevance": 50},
+                 "B": {"selected": False, "relevance": 10, "min_relevance": 50}}}
+
+    def test_review_counts_only_above_the_cutoff(self):
+        results, applied = reviewed_trial_results("p", ["A", "B"], self.before, self.after, self.log, None)
+        self.assertEqual(results["A"]["inclusion"]["0"][2], "included")
+        self.assertEqual(applied, {"A"})
+        results, applied = reviewed_trial_results("p", ["A", "B"], self.before, self.after, self.log, 70)
+        self.assertEqual(results["A"]["inclusion"]["0"][2], "not included")
+        self.assertEqual(applied, set())
+
+    def test_cutoff_below_the_run_cutoff_is_refused(self):
+        with self.assertRaises(SystemExit):
+            review_applies({"selected": False, "relevance": 10, "min_relevance": 50}, 30)
+
+    def test_missing_review_record_means_incomplete(self):
+        self.assertIsNone(reviewed_trial_results("p", ["A", "C"], self.before, self.after, self.log, None))
 
 
 class CostReportTests(unittest.TestCase):
@@ -177,19 +280,25 @@ class CostReportTests(unittest.TestCase):
     def stage(tokens):
         return {"calls": 1, "prompt_tokens": tokens, "completion_tokens": 0, "total_tokens": tokens, "seconds": 1.0}
 
-    def test_baseline_and_enhanced_costs_and_overhead(self):
-        usage = {"p": {"NCT1": {"match": self.stage(100), "enhance": self.stage(60),
-                                 "agg-baseline": self.stage(20), "agg-enhanced": self.stage(20)}}}
-        report = cost_report(["p"], {"p": ["NCT1"]}, usage)
-        self.assertEqual(report["baseline"]["total_tokens"], 120)
-        self.assertEqual(report["enhanced"]["total_tokens"], 180)
-        self.assertAlmostEqual(report["overhead_tokens_pct"], 50.0)
+    def usage(self):
+        return {"p": {"NCT1": {"match": self.stage(100), "agg-baseline": self.stage(20), "review": self.stage(30)},
+                      "NCT2": {"match": self.stage(100), "agg-baseline": self.stage(20), "review": self.stage(0)}}}
+
+    def test_baseline_and_reviewed_costs_and_overhead(self):
+        report = cost_report(["p"], {"p": ["NCT1", "NCT2"]}, self.usage())
+        self.assertEqual(report["baseline"]["total_tokens"], 240)
+        self.assertEqual(report["reviewed"]["total_tokens"], 270)
+        self.assertAlmostEqual(report["overhead_tokens_pct"], 12.5)
+
+    def test_simulated_cutoff_counts_only_reviews_that_count(self):
+        report = cost_report(["p"], {"p": ["NCT1", "NCT2"]}, self.usage(), reviewed_trials={"p": set()})
+        self.assertEqual(report["reviewed"]["total_tokens"], 240)
 
     def test_baseline_only_cost(self):
         usage = {"p": {"NCT1": {"match": self.stage(100), "agg-baseline": self.stage(20)}}}
         report = cost_report(["p"], {"p": ["NCT1"]}, usage, ("baseline",))
         self.assertEqual(report["baseline"]["total_tokens"], 120)
-        self.assertNotIn("enhanced", report)
+        self.assertNotIn("reviewed", report)
 
     def test_patient_with_unrecorded_stage_is_left_out(self):
         usage = {"NCT1": {"match": self.stage(100), "agg-baseline": self.stage(20)}}

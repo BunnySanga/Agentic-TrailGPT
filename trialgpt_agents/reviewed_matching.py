@@ -1,4 +1,4 @@
-"""Agent variants v2/v3: Assertion + Reviewer on risky labels, TrialGPT result shape preserved.
+"""Agent versions v2/v3 (criterion test): Assertion + Reviewer on risky labels.
 
 v1 (enhanced_matching.py) sends every criterion through Clarification and the
 Verifier. v2 leaves labels that are almost always right alone ("included",
@@ -15,8 +15,7 @@ from typing import Any
 from trialgpt_assertion.TrialGPT import AssertionAgent
 from trialgpt_reviewer.TrialGPT import ReviewerAgent
 
-from .contracts import coerce_sentence_ids, numbered_patient_sentences
-from .enhanced_matching import _request_chunks, criteria_by_id
+from .contracts import coerce_sentence_ids, criteria_by_id, numbered_patient_sentences, request_chunks
 
 # Labels the Reviewer always checks. On development patients GPT-4 was right
 # 42% ("not applicable"), 88% ("not enough information"), 62% ("excluded"),
@@ -149,7 +148,7 @@ def review_trial_matching(
             )
 
     reviews: dict[str, dict] = {}
-    for chunk in _request_chunks(requests):
+    for chunk in request_chunks(requests):
         reviews.update(reviewer_agent.review_batch(chunk, patient_sentences))
 
     for item in items:

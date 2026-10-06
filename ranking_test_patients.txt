@@ -1,5 +1,5 @@
 # Ranking study: held-out patients (fixed 2026-10-05, before any ranking results).
-# Same 12 patients as study_patients.txt (fixed 2026-10-03). 9 are the criterion
+# Same 12 patients as the earlier v1 pilot (fixed 2026-10-03). 9 are the criterion
 # test's held-out patients and 3 are not in the criterion annotations, so none
 # were used to tune anything. Score these once, at the end.
 sigir-201415

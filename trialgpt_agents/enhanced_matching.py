@@ -1,59 +1,15 @@
-"""Apply post-matching agents while retaining TrialGPT's result schema."""
+"""Agent version v1 (criterion test): Assertion, Clarification and Verifier on every criterion."""
 
 from __future__ import annotations
 
-import json
-import os
-from collections.abc import Iterator, Mapping
+from collections.abc import Mapping
 from copy import deepcopy
 from typing import Any
 
 from trialgpt_assertion.TrialGPT import AssertionAgent as LLMAssertionAgent
-from .contracts import coerce_sentence_ids, numbered_patient_sentences
+from .contracts import coerce_sentence_ids, criteria_by_id, numbered_patient_sentences, request_chunks
 from trialgpt_clarification.TrialGPT import ClarificationAgent as LLMClarificationAgent
 from trialgpt_verifier.TrialGPT import VerifierAgent as LLMVerifierAgent
-
-
-# Groq's free tier rejects any single request above 8000 tokens (input plus
-# expected output). Trials with 20+ criteria exceed that when every criterion
-# goes into one Clarification or Verifier call, so the agents get criteria in
-# chunks. Each criterion is judged independently, so chunking does not change
-# what is asked about it.
-AGENT_BATCH_CRITERIA = int(os.getenv("AGENT_BATCH_CRITERIA", "10"))
-AGENT_BATCH_CHARS = int(os.getenv("AGENT_BATCH_CHARS", "12000"))
-
-
-def _request_chunks(requests: list[dict]) -> Iterator[list[dict]]:
-    """Split agent requests by criterion count and serialized size."""
-    chunk: list[dict] = []
-    size = 0
-    for request in requests:
-        length = len(json.dumps(request, ensure_ascii=True))
-        if chunk and (len(chunk) >= AGENT_BATCH_CRITERIA or size + length > AGENT_BATCH_CHARS):
-            yield chunk
-            chunk, size = [], 0
-        chunk.append(request)
-        size += length
-    if chunk:
-        yield chunk
-
-
-def criteria_by_id(criteria: object) -> dict[str, str]:
-    """Mirror TrialGPT's criterion numbering without importing its API client."""
-    if not isinstance(criteria, str):
-        return {}
-
-    parsed: dict[str, str] = {}
-    index = 0
-    for criterion in criteria.split("\n\n"):
-        criterion = criterion.strip()
-        if "inclusion criteria" in criterion.lower() or "exclusion criteria" in criterion.lower():
-            continue
-        if len(criterion) < 5:
-            continue
-        parsed[str(index)] = criterion
-        index += 1
-    return parsed
 
 
 def _valid_prediction(prediction: object) -> bool:
@@ -172,7 +128,7 @@ def _batched_llm_enhancement(
         )
 
     clarifications: dict[str, dict] = {}
-    for chunk in _request_chunks(clarification_requests):
+    for chunk in request_chunks(clarification_requests):
         clarifications.update(clarification_agent.clarify_batch(chunk, patient_sentences))
     verifier_requests = []
     for item in work_items:
@@ -206,7 +162,7 @@ def _batched_llm_enhancement(
         )
 
     verifications: dict[str, dict] = {}
-    for chunk in _request_chunks(verifier_requests):
+    for chunk in request_chunks(verifier_requests):
         verifications.update(verifier_agent.verify_batch(chunk, patient_sentences))
     for item in work_items:
         key = item["key"]

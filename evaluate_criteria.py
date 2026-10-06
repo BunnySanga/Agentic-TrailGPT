@@ -43,17 +43,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from run_parallel import (
-    EXIT_DAILY_LIMIT,
-    EXIT_DONE,
-    EXIT_TIME_UP,
-    CachedNoteAssertion,
-    JsonStore,
-    read_patients_file,
-)
-from trialgpt_agents.enhanced_matching import criteria_by_id, enhance_trial_matching
+from run_parallel import EXIT_DAILY_LIMIT, EXIT_DONE, EXIT_TIME_UP, JsonStore, read_patients_file
+from trialgpt_agents.contracts import criteria_by_id
+from trialgpt_agents.enhanced_matching import enhance_trial_matching
 from trialgpt_agents.reviewed_matching import V3_KEEP_LABELS, V3_REVIEW_LABELS, review_trial_matching
-from trialgpt_assertion.TrialGPT import AssertionAgent
+from trialgpt_assertion.TrialGPT import AssertionAgent, CachedNoteAssertion
 from trialgpt_clarification.TrialGPT import ClarificationAgent
 from trialgpt_llm.client import track_usage
 from trialgpt_llm.key_pool import AllKeysExhausted, get_key_pool

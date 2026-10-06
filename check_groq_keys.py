@@ -17,7 +17,7 @@ from groq import Groq
 
 load_dotenv()
 
-MODEL = os.getenv("MODEL", "qwen/qwen3.8-27b")
+MODEL = os.getenv("MODEL", "openai/gpt-oss-120b")
 
 
 def load_keys() -> list[str]:

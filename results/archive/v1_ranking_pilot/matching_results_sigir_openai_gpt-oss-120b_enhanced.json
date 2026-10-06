@@ -1,0 +1,3080 @@
+{
+  "sigir-201415": {
+    "2": {
+      "NCT00166790": {
+        "inclusion": {
+          "0": [
+            "The criterion requires a confirmed diagnosis of hydatidiform mole. The note mentions a differential diagnosis of vesicular mole versus fibroid degeneration but does not confirm the mole, so the criterion is not met.",
+            [],
+            "not included"
+          ],
+          "1": [
+            "The criterion requires choriocarcinoma. There is no mention of choriocarcinoma in the note, and no indirect evidence suggests it, so the patient does not meet this criterion.",
+            [],
+            "not included"
+          ],
+          "2": [
+            "The criterion requires any gestational trophoblastic neoplasm. The note only suggests a possible vesicular mole (a type of GTN) but does not confirm the diagnosis; without confirmation we cannot assume the patient meets the criterion.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Criterion applicable; patient note states she will provide informed consent and comply with protocol, indicating willingness to participate.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00190918": {
+        "inclusion": {
+          "0": [
+            "Patient presents with new symptoms suggestive of molar pregnancy; no evidence of persistent or recurrent disease.",
+            [],
+            "not included"
+          ],
+          "1": [
+            "WHO risk score not mentioned; cannot confirm it falls within 2-6.",
+            [],
+            "not included"
+          ],
+          "2": [
+            "No histological confirmation of complete or partial mole after evacuation is provided.",
+            [],
+            "not included"
+          ],
+          "3": [
+            "Renal function and NSAID use are not discussed; criterion not relevant to this patient.",
+            [],
+            "not applicable"
+          ],
+          "4": [
+            "Long\u2011half\u2011life NSAID use and renal status are not mentioned; criterion not relevant.",
+            [],
+            "not applicable"
+          ],
+          "5": [
+            "Folic acid supplementation requirement is a protocol detail, not a patient characteristic.",
+            [],
+            "not applicable"
+          ],
+          "6": [
+            "Vitamin B12 administration is a protocol detail, not a patient characteristic.",
+            [],
+            "not applicable"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Criterion concerns prior chemotherapy other than actinomycin-D or methotrexate; patient note gives no history of any chemotherapy, so we infer none was given.",
+            [],
+            "not excluded"
+          ],
+          "1": [
+            "Criterion requires >8 metastatic lesions; note contains no information about metastases, and absence of such detail suggests none are present.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "Criterion concerns metastases to liver, spleen, brain, kidney or GI tract; no such metastases are mentioned, implying they are absent.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00277680": {
+        "inclusion": {
+          "0": [
+            "The criterion requires menorrhagia or bulk symptoms from fibroids. The note describes amenorrhea, spotting, and an enlarged uterus but no heavy menstrual bleeding or bulk symptoms; thus the patient does not meet the criterion.",
+            [],
+            "not included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No evidence of malignancy in note; absence can be assumed.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Pregnancy test negative (sentence 3); patient not pregnant.",
+            [
+              3
+            ],
+            "not excluded"
+          ],
+          "2": [
+            "No mention of small submucous fibroids; uterus size suggests larger fibroids, so criterion likely not met.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "Patient is 36 years old, not postmenopausal; no evidence of menopause.",
+            [],
+            "not excluded"
+          ],
+          "4": [
+            "No evidence of adenomyosis in note; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Uterus measured 12\u202fcm (sentence 4), which is below umbilical level; criterion not met.",
+            [
+              4
+            ],
+            "not excluded"
+          ],
+          "6": [
+            "No contraindications to laparoscopy mentioned; assume none.",
+            [],
+            "not enough information"
+          ]
+        }
+      }
+    },
+    "1": {
+      "NCT00003702": {
+        "inclusion": {
+          "0": [
+            "No histological confirmation of low\u2011risk GTN is provided in the note.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "No serial beta\u2011HCG titers are reported.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No serial beta\u2011HCG titers are reported.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No information on duration or level of beta\u2011HCG after curettage.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No histology confirming non\u2011metastatic choriocarcinoma is mentioned.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "No mention of metastases to vagina, parametria, or lung.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "WHO prognostic score is not provided.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No histologic evidence of placental site pseudotumor is described.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "The note does not state that a uterine curettage has been performed.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No prior treatment for GTN is described, but the note does not explicitly state the disease is untreated.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "Performance status (GOG) is not reported.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "CBC is reported as normal, which implies WBC \u22653,000/mm\u00b3.",
+            [
+              2
+            ],
+            "included"
+          ],
+          "12": [
+            "CBC is reported as normal, which implies granulocyte count \u22651,500/mm\u00b3.",
+            [
+              2
+            ],
+            "included"
+          ],
+          "13": [
+            "CBC is reported as normal, which implies platelet count \u2265100,000/mm\u00b3.",
+            [
+              2
+            ],
+            "included"
+          ],
+          "14": [
+            "No bilirubin value is provided.",
+            [],
+            "not enough information"
+          ],
+          "15": [
+            "No SGPT/SGOT values are provided.",
+            [],
+            "not enough information"
+          ],
+          "16": [
+            "No alkaline phosphatase value is provided.",
+            [],
+            "not enough information"
+          ],
+          "17": [
+            "No prior hepatic function abnormality is mentioned.",
+            [],
+            "not enough information"
+          ],
+          "18": [
+            "No creatinine value is provided.",
+            [],
+            "not enough information"
+          ],
+          "19": [
+            "No prior renal function abnormality is mentioned.",
+            [],
+            "not enough information"
+          ],
+          "20": [
+            "Point\u2011of\u2011care pregnancy test is negative, indicating the patient is not pregnant.",
+            [
+              3
+            ],
+            "included"
+          ],
+          "21": [
+            "No information on contraception use is given.",
+            [],
+            "not enough information"
+          ],
+          "22": [
+            "No history of other malignancies is mentioned.",
+            [],
+            "not enough information"
+          ],
+          "23": [
+            "No prior chemotherapy for GTN is mentioned.",
+            [],
+            "not enough information"
+          ],
+          "24": [
+            "No concurrent curettage is described.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {}
+      },
+      "NCT00340288": {
+        "inclusion": {
+          "0": [
+            "Patient is 36 years old (meets age), likely premenopausal (no menopause mentioned), but there is no confirmed diagnosis of a leiomyoma \u22652\u202fcm; ultrasound only lists a differential diagnosis of vesicular mole vs fibroid degeneration, so the required leiomyoma criterion is not satisfied. Uterine size is enlarged (18\u2011week size on exam, 12\u202f\u00d7\u202f9\u202f\u00d7\u202f7\u202fcm on US) which exceeds the typical 8\u2011week size, but without a confirmed leiomyoma the inclusion criterion is not met.",
+            [
+              0,
+              1,
+              4
+            ],
+            "not included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Patient has a negative pregnancy test (sentence 3) and no evidence of pregnancy; thus not excluded.",
+            [
+              3
+            ],
+            "not excluded"
+          ],
+          "1": [
+            "No mention of GnRH therapy use or planned use; assume not taking, so not excluded.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Weight and body size not provided; cannot determine if >350\u202flb or >52\u202fin circumference.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No information about an intra\u2011uterine device; assume none, so not excluded.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Criterion describes a non\u2011exclusion condition (prior myomectomy or OCP). No evidence of either, but absence does not trigger exclusion; thus not excluded.",
+            [],
+            "not excluded"
+          ],
+          "5": [
+            "Patient is 36 years old, clearly premenopausal and >18 years; thus not excluded.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00180739": {
+        "inclusion": {
+          "0": [
+            "Patient is 36 (within 20-40) and ultrasound suggests fibroids, but no mention of desire to become pregnant within 12 months; cannot confirm desire, so insufficient information.",
+            [
+              0,
+              4
+            ],
+            "not enough information"
+          ],
+          "1": [
+            "No information about duration of infertility, ovarian function testing, or male sperm analysis; criterion not addressed.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No mention of the patient undergoing fertility treatment or planning sperm donation.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No data on use or non\u2011use of antifibrinolytic agents or NSAIDs in the prior three months.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No PAP smear result provided.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Sentence 6 states the patient will give informed consent and comply with the protocol, satisfying this criterion.",
+            [],
+            "included"
+          ],
+          "6": [
+            "No information on the patient\u2019s ability to communicate sensations during the MRgFUS procedure.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "Fibroids are mentioned, but no detail on their anatomical accessibility for the device.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No MRI imaging information provided to confirm visibility of the tumor(s).",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "Fibroid size not reported; cannot determine if \u22648\u202fcm (or \u226412\u202fcm with GnRH).",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Pregnancy test is negative (sentence 3), so patient is not pregnant.",
+            [
+              3
+            ],
+            "not excluded"
+          ],
+          "1": [
+            "Uterine size described as 18\u2011week (sentence 1) and ultrasound dimensions correspond to ~18 weeks, which is \u226420 weeks.",
+            [
+              1,
+              4
+            ],
+            "not excluded"
+          ],
+          "2": [
+            "Patient is not pregnant; high\u2011risk pregnancy criteria are not applicable.",
+            [
+              3
+            ],
+            "not applicable"
+          ],
+          "3": [
+            "No information on proportion of sub\u2011mucosal fibroid; cannot determine.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No mention of adenomyosis; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "No evidence of dialysis in note.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "CBC is reported normal (sentence 2); hematocrit likely \u226525.",
+            [
+              2
+            ],
+            "not enough information"
+          ],
+          "7": [
+            "No evidence of hemolytic anemia.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No cardiac instability reported.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No ASA score provided; assume \u22642.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No cerebrovascular disease mentioned.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "No anticoagulation or bleeding disorder noted.",
+            [],
+            "not enough information"
+          ],
+          "12": [
+            "Differential includes vesicular mole, which is a uterine pathology other than leiomyoma, but not confirmed; insufficient evidence.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "No active pelvic infection or PID history reported.",
+            [],
+            "not enough information"
+          ],
+          "14": [
+            "No undiagnosed pelvic mass outside uterus mentioned.",
+            [],
+            "not enough information"
+          ],
+          "15": [
+            "Weight not provided; assume \u2264110\u202fkg.",
+            [],
+            "not enough information"
+          ],
+          "16": [
+            "No extensive abdominal scarring described.",
+            [],
+            "not enough information"
+          ],
+          "17": [
+            "No contraindicating implanted devices reported.",
+            [],
+            "not enough information"
+          ],
+          "18": [
+            "No intolerance to MRI contrast mentioned.",
+            [],
+            "not enough information"
+          ],
+          "19": [
+            "No inability to tolerate prone position reported.",
+            [],
+            "not enough information"
+          ],
+          "20": [
+            "No intrauterine contraceptive device noted.",
+            [],
+            "not enough information"
+          ],
+          "21": [
+            "No indication of breastfeeding.",
+            [],
+            "not enough information"
+          ],
+          "22": [
+            "Number and size of fibroids not specified; cannot assess five or more >3\u202fcm.",
+            [
+              4
+            ],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT00150644": {
+        "inclusion": {
+          "0": [
+            "Patient is a 36-year-old woman, meeting premenopausal age requirement.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "1": [
+            "Ultrasound mentions possible fibroid degeneration but does not confirm fibroids.",
+            [
+              4
+            ],
+            "not included"
+          ],
+          "2": [
+            "No information on menstrual cycle length; absence suggests criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "CBC and biochemical profile are normal, indicating overall good health.",
+            [
+              2
+            ],
+            "included"
+          ],
+          "4": [
+            "No mention of a planned hysterectomy; therefore criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Point\u2011of\u2011care pregnancy test is reported negative.",
+            [
+              3
+            ],
+            "included"
+          ],
+          "6": [
+            "No information about contraception method; assume not meeting the requirement.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "Pap test result is not provided; assume criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Endometrial biopsy result is not mentioned; assume criterion not met.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "The criterion concerns recent childbirth or breastfeeding. The note does not mention a recent birth or lactation; absence of such info likely means it is not applicable.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Labs are reported as normal and no abnormal procedures are noted. No evidence of abnormal results that the doctor would consider important.",
+            [
+              2
+            ],
+            "not excluded"
+          ],
+          "2": [
+            "No mention of hormone therapy use or severe reactions to it. Absence of information suggests the patient is not using hormone therapy.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "The note does not mention any history of cancer, alcohol abuse, or drug abuse. Lack of evidence implies none present.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No diagnosis of Polycystic Ovary Syndrome is stated. Absence indicates criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "No history of prolactinoma is mentioned. Absence suggests not present.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No intrauterine device use is described. Absence indicates not using an IUD.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "The note mentions a possible vesicular mole or fibroid degeneration, which could be considered a significant gynecological disorder, but the information is uncertain. Not enough detail to confirm exclusion.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Uterine size is described as 18\u2011week sized, which is less than the >32\u2011week threshold.",
+            [
+              1
+            ],
+            "not excluded"
+          ],
+          "9": [
+            "No diagnosis of endometriosis is provided. Absence suggests not present.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No mention of uterine artery embolization within the past 6 months. Absence implies it has not occurred.",
+            [],
+            "not enough information"
+          ]
+        }
+      }
+    },
+    "0": {
+      "NCT00288938": {
+        "inclusion": {
+          "0": [
+            "Patient is an adult, so pediatric criteria do not apply.",
+            [],
+            "not applicable"
+          ],
+          "1": [
+            "Criterion applies only to children \u22645 years; patient is adult.",
+            [],
+            "not applicable"
+          ],
+          "2": [
+            "Requires large congenital melanocytic nevus; no such lesion mentioned and patient is adult.",
+            [],
+            "not applicable"
+          ],
+          "3": [
+            "Outside referring physician is required for children; not relevant to adult patient.",
+            [],
+            "not applicable"
+          ],
+          "4": [
+            "Header for adult section, not an actionable inclusion criterion.",
+            [],
+            "not applicable"
+          ],
+          "5": [
+            "Patient age is 36 years (sentence 0), which satisfies >18 years.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "6": [
+            "No mention of \u2265100 melanocytic nevi; absence of information suggests criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No mention of a nevus \u22654\u202fmm; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Prior melanoma history is allowed but not required; not a mandatory inclusion.",
+            [],
+            "not applicable"
+          ],
+          "9": [
+            "No information about an outside primary physician; cannot confirm.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "Header for adult section, not an actionable inclusion criterion.",
+            [],
+            "not applicable"
+          ],
+          "11": [
+            "Patient age 36 years (sentence 0) meets >18 years requirement.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "12": [
+            "No current pigmented lesion suspicious for melanoma described; criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "No information on outside primary physician; cannot confirm.",
+            [],
+            "not enough information"
+          ],
+          "14": [
+            "Patient states she will provide informed consent and comply (sentence 6).",
+            [],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of genetic syndromes associated with multiple lentigines or nevi; absence of evidence suggests patient does not have such diagnosis.",
+            [],
+            "not excluded"
+          ],
+          "1": [
+            "Family history not described; no evidence of two or more first-degree relatives with melanoma or familial atypical mole\u2011melanoma syndrome.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "No indication of cancer\u2011associated syndromes such as xeroderma pigmentosum, NF1, or Li\u2011Fraumeni; lack of mention implies patient does not have these conditions.",
+            [],
+            "not excluded"
+          ],
+          "3": [
+            "Bleeding diathesis or other surgical intolerance not reported; assume patient can tolerate procedures.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Patient expresses willingness to comply with trial protocol; no statement of unwillingness to elective biopsy.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00237965": {
+        "inclusion": {
+          "0": [
+            "Patient is 36 years old, which satisfies age >18; no reason to doubt applicability.",
+            [
+              0
+            ],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No skin disease is mentioned; absence of evidence likely means none, so patient does not meet this exclusion.",
+            [],
+            "not excluded"
+          ],
+          "1": [
+            "Language ability not stated; typical assumption is English proficiency unless noted otherwise, so patient likely not excluded.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "No severe comorbidities are described; labs are normal and no other illnesses noted, so patient does not meet this exclusion.",
+            [],
+            "not excluded"
+          ],
+          "3": [
+            "No cognitive impairment is reported; patient is able to give informed consent, indicating capacity, thus not excluded.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00044876": {
+        "inclusion": {
+          "0": [
+            "Patient does not mention insulin or thyroid hormone use; criterion applies only if such meds are used, so not applicable.",
+            [],
+            "not applicable"
+          ],
+          "1": [
+            "Sentence 0 states the patient is a woman, satisfying female gender requirement.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "2": [
+            "Sentence 2 reports normal CBC and biochemical profile and no chronic meds are noted, indicating good health.",
+            [
+              2
+            ],
+            "not enough information"
+          ],
+          "3": [
+            "Menstrual cycle length is not mentioned in the note; cannot determine.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Normal CBC suggests hemoglobin likely >10\u202fg/dL, though not explicitly stated; reasonable to assume it meets the threshold.",
+            [
+              2
+            ],
+            "not enough information"
+          ],
+          "5": [
+            "Sentence 6 confirms patient will give informed consent and comply with protocol.",
+            [],
+            "included"
+          ],
+          "6": [
+            "Sentence 0 gives age 36, which falls within 33\u201150 years.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "7": [
+            "No information about contraception method is provided.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Sentence 3 reports a negative point\u2011of\u2011care pregnancy test, satisfying the negative urine test requirement.",
+            [
+              3
+            ],
+            "included"
+          ],
+          "9": [
+            "BMI is not reported in the note.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "English fluency is not addressed in the note.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "Glomerular filtration rate is not mentioned.",
+            [],
+            "not enough information"
+          ],
+          "12": [
+            "Liver function test results are not provided.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "Differential includes fibroid degeneration and symptoms (spotting, pain) could be due to leiomyoma, but no definitive history of leiomyoma is given.",
+            [
+              4
+            ],
+            "not enough information"
+          ],
+          "14": [
+            "Patient has vaginal spotting that has increased, but description does not meet criteria for profuse bleeding or prolonged periods; insufficient detail.",
+            [
+              0
+            ],
+            "not enough information"
+          ],
+          "15": [
+            "Lower abdominal tenderness is noted (sentence 0), which may reflect pelvic discomfort, but cause (leiomyoma) is not confirmed.",
+            [
+              0
+            ],
+            "not enough information"
+          ],
+          "16": [
+            "Ultrasound describes an enlarged uterus with cystic areas but does not specify a fibroid size \u22652\u202fcm.",
+            [
+              4
+            ],
+            "not enough information"
+          ],
+          "17": [
+            "Patient\u2019s fertility desires and willingness for hysterectomy are not discussed.",
+            [],
+            "not enough information"
+          ],
+          "18": [
+            "General criterion not specific; no assessment needed.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No major abnormalities reported; labs normal and physical findings explained by current uterine issue.",
+            [
+              2
+            ],
+            "not excluded"
+          ],
+          "1": [
+            "Pregnancy test negative; despite amenorrhea, no evidence of pregnancy in note.",
+            [
+              3
+            ],
+            "not excluded"
+          ],
+          "2": [
+            "No mention of breastfeeding; assume not lactating.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No information about glucocorticoid or megesterol use; cannot confirm.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Patient has vaginal spotting with no identified cause (differential includes molar pregnancy vs fibroid), thus unexplained bleeding.",
+            [
+              0
+            ],
+            "excluded"
+          ],
+          "5": [
+            "No history of malignancy mentioned.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No data on recent estrogen/progesterone use; not stated.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No mention of hepatic enzyme inducers or imidazoles.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No information on current GnRH analog or similar therapy.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "FSH level not provided; cannot assess.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No significant medical disorders reported in note.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "No mention of cervical dysplasia.",
+            [],
+            "not excluded"
+          ],
+          "12": [
+            "No indication of narcotic use.",
+            [],
+            "not excluded"
+          ],
+          "13": [
+            "Ultrasound describes uterine cystic areas, not adnexal/ovarian mass.",
+            [],
+            "not excluded"
+          ],
+          "14": [
+            "No intrauterine device reported.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00361036": {
+        "inclusion": {
+          "0": [
+            "Patient explicitly states they will provide informed consent and comply with protocol, satisfying the consent requirement.",
+            [],
+            "included"
+          ],
+          "1": [
+            "Patient age is given as 36 years, which falls within the 30\u201150 year range.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "2": [
+            "Patient has vaginal spotting and abdominal tenderness, but the note does not directly link these symptoms to fibroids nor mention classic fibroid\u2011related symptoms (menorrhagia, bulk\u2011related urinary or bowel complaints). No clear evidence that symptoms are caused by fibroids.",
+            [
+              0,
+              1,
+              4
+            ],
+            "not enough information"
+          ],
+          "3": [
+            "Fibroids are suggested on ultrasound, but MRI confirmation is required and no MRI result is provided in the note.",
+            [
+              4
+            ],
+            "not enough information"
+          ],
+          "4": [
+            "Laboratory results mention normal CBC and biochemical profile, but kidney function (e.g., serum creatinine or eGFR) is not specifically reported.",
+            [
+              2
+            ],
+            "not enough information"
+          ],
+          "5": [
+            "Patient states they will comply with the trial protocol without practical issues, implying willingness to undergo required follow\u2011up imaging.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Pregnancy test is negative (sentence 3); no indication of planned pregnancy, so patient does not meet exclusion.",
+            [
+              3
+            ],
+            "not excluded"
+          ],
+          "1": [
+            "No mention of prior gynecologic malignancy; absence of evidence assumed negative.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No mention of endometrial hyperplasia; assumed absent.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No mention of adenomyosis; assumed absent.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No mention of pelvic inflammatory disease; assumed absent.",
+            [],
+            "not excluded"
+          ],
+          "5": [
+            "Uterus described as 18\u2011week size (sentence 1) and dimensions 12\u00d79\u00d77\u202fcm (sentence 4), which corresponds to volume >250\u202fml and <24\u202fweeks, thus does not meet exclusion.",
+            [
+              1,
+              4
+            ],
+            "not excluded"
+          ],
+          "6": [
+            "No description of pedunculated subserosal fibroids; assumed absent.",
+            [],
+            "not excluded"
+          ],
+          "7": [
+            "Patient has lower abdominal tenderness (sentences 0\u20111) but pain is not described as the dominant symptom; no clear exclusion.",
+            [
+              0,
+              1
+            ],
+            "not excluded"
+          ],
+          "8": [
+            "Allergy to contrast media not mentioned; assume none.",
+            [],
+            "not excluded"
+          ],
+          "9": [
+            "Arterial access suitability not discussed; assume suitable.",
+            [],
+            "not excluded"
+          ],
+          "10": [
+            "No prior uterine artery embolization reported; assumed none.",
+            [],
+            "not excluded"
+          ],
+          "11": [
+            "No history of pelvic irradiation mentioned; assumed none.",
+            [],
+            "not excluded"
+          ],
+          "12": [
+            "No GnRH therapy within prior 3\u20116 months mentioned; assumed none.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00156208": {
+        "inclusion": {
+          "0": [
+            "No mention of prior participation in study C02-037; cannot assume she completed it, so criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "CBC and biochemical profile are normal and no other illnesses are described; suggests overall good health.",
+            [
+              2
+            ],
+            "included"
+          ],
+          "2": [
+            "Patient is 36 years old, typical premenopausal age; hormone levels not provided but absence of menopause signs allows inference of premenopausal status.",
+            [
+              0
+            ],
+            "not enough information"
+          ],
+          "3": [
+            "No information about contraception method or agreement to double\u2011barrier contraception.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Endometrial biopsy results are not mentioned; cannot assume adequacy.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Applicable; patient note states CBC and biochemical profile are normal, indicating no abnormal lab results.",
+            [
+              2
+            ],
+            "not excluded"
+          ],
+          "1": [
+            "Applicable; no mention of any blood-clotting disorder in the note, and absence of such history can be assumed.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Applicable; note does not report any prior surgical or invasive procedures for uterine fibroids, suggesting none were performed.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "Applicable; no significant gynecological disorder such as endometrial polyp is described in the note.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT00248144": {
+        "inclusion": {
+          "0": [
+            "Patient is 36 years old, meeting age >=18 criterion.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "1": [
+            "No mention of history of recurrent herpes labialis; cannot determine if patient meets the required episodes and symptoms.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "CBC and biochemical profile are normal, indicating general good health and likely normal renal/hepatic function.",
+            [
+              2
+            ],
+            "included"
+          ],
+          "3": [
+            "No information about use of any accepted method of birth control.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Point of care pregnancy test is negative, satisfying the negative pregnancy test requirement.",
+            [
+              3
+            ],
+            "included"
+          ],
+          "5": [
+            "Patient will provide informed consent as stated.",
+            [],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Criterion not applicable premise (vaccination status not mentioned); no evidence of prior herpes vaccination, assume not vaccinated",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Criterion premise (use of topical/systemic immunosuppressants) not evident; no mention of such agents, assume not used",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Criterion premise (immunosuppressed disease or treatment) not evident; no mention of HIV, chemotherapy, etc., assume not immunosuppressed",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "Criterion premise (recent alcohol or drug abuse) not evident; no mention of abuse, assume none",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Criterion premise (significant skin disease) not evident; no mention of atopic dermatitis or eczema, assume absent",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Criterion premise (allergy/hypersensitivity to nucleoside analogues) not evident; no allergy reported, assume none",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "Criterion premise (lactating or breastfeeding) not evident; patient is not described as lactating, assume not lactating",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "Criterion premise (previous randomization) not evident; no indication of prior participation, assume not randomized before",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Criterion premise (investigational drug within 4 weeks) not evident; no mention of such use, assume none",
+            [],
+            "not enough information"
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201411": {
+    "2": {
+      "NCT01723137": {
+        "inclusion": {
+          "0": [
+            "The criterion requires a reported pain score \u22653/10. The note describes excruciating pain but does not provide a numeric rating, and no inference can reliably assign a score; absence of a reported score means we cannot confirm the criterion.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Patient is 40 years old, so does not meet the <18 years exclusion.",
+            [
+              0
+            ],
+            "not excluded"
+          ],
+          "1": [
+            "No mention of decreased consciousness; patient appears alert and able to consent, so likely does not meet this exclusion.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "Sentence indicates patient will provide informed consent and comply, showing ability to answer questions.",
+            [],
+            "not excluded"
+          ],
+          "3": [
+            "No information suggesting the patient is a prisoner; assume not.",
+            [],
+            "not excluded"
+          ]
+        }
+      }
+    },
+    "1": {
+      "NCT01526382": {
+        "inclusion": {
+          "0": [
+            "Patient note does not state a diagnosis of shock or ARDS; only hypotension and tachycardia are described, which is insufficient to assume a shock diagnosis.",
+            [
+              2,
+              3,
+              4
+            ],
+            "not enough information"
+          ],
+          "1": [
+            "No heart rate value is given; tachycardia is mentioned but could be below 90\u202fbpm, so cannot confirm the criterion.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Tachypnea is noted but no respiratory rate, PaCO2, or ventilation status is provided; cannot confirm the criterion.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "There is no mention of vasopressor, dopamine, or dobutamine use; therefore the criterion is not met.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No data on urine output, neurologic status, or lactate levels; cannot confirm hypoperfusion sign.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "No diagnosis of ARDS is documented in the note.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No arterial blood gas or PaO2/FiO2 ratio is reported; cannot confirm the criterion.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "Chest imaging findings are not described; cannot confirm bilateral infiltrates.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No information on left atrial pressure or related findings; cannot confirm absence of left atrial hypertension.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "The note does not state that the patient requires positive\u2011pressure ventilation.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Criterion not applicable premise (moribund status) not mentioned; no evidence of moribund condition; assume patient is not moribund.",
+            [],
+            "not excluded"
+          ],
+          "1": [
+            "Criterion not applicable premise (DNR order) not mentioned; no evidence of signed do\u2011not\u2011resuscitate; assume none.",
+            [],
+            "not excluded"
+          ]
+        }
+      }
+    },
+    "0": {
+      "NCT02177188": {
+        "inclusion": {
+          "0": [
+            "The criterion requires a healthy volunteer without medical issues; the patient presents with acute pain, hypotension, tachycardia, and is not a healthy baseline individual.",
+            [],
+            "not included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Patient is 40 years old (sentence 0), so age < 18 does not apply.",
+            [
+              0
+            ],
+            "not excluded"
+          ],
+          "1": [
+            "No mention of pregnancy; absence of information and no indication of pregnancy in a 40\u2011year\u2011old female suggests she is not pregnant.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Sentence 0 states she has no past medical history and no drugs, indicating no existing disease or drug assumption.",
+            [
+              0
+            ],
+            "not enough information"
+          ],
+          "3": [
+            "No record of recent drug/substance intake affecting the autonomic nervous system; sentence 0 implies no drug use.",
+            [
+              0
+            ],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT01665521": {
+        "inclusion": {
+          "0": [
+            "Age is explicitly stated as 40, which meets the >=21 requirement.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "1": [
+            "Patient presents with right arm pain; no chest discomfort or ACS-like symptoms are described, so the criterion is not met.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "The note does not mention the physician's assessment regarding discharge if cardiac disease is excluded; insufficient information to determine.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No ECG information is provided; ST\u2011segment elevation is not mentioned and is unlikely to be present without being noted, so the criterion is not met.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Blood pressure is 80/60 (systolic <90 mm\u202fHg), indicating symptomatic hypotension, which satisfies the unstable vitals exclusion.",
+            [
+              3
+            ],
+            "excluded"
+          ],
+          "2": [
+            "No mention of a terminal illness or limited life expectancy; absence of evidence is taken as absence of the condition.",
+            [],
+            "not excluded"
+          ],
+          "3": [
+            "No non\u2011cardiac medical, surgical, or psychiatric illness requiring admission is described; thus the criterion is not met.",
+            [],
+            "not excluded"
+          ],
+          "4": [
+            "No indication of prior enrollment in the study; assume none.",
+            [],
+            "not excluded"
+          ],
+          "5": [
+            "The note states the patient will provide informed consent and comply with the protocol.",
+            [],
+            "not excluded"
+          ],
+          "6": [
+            "Language ability is not mentioned; in the absence of evidence of non\u2011English speaking, assume English proficiency.",
+            [],
+            "not excluded"
+          ],
+          "7": [
+            "Sub\u2011study I & II eligibility is not referenced; assume not applicable.",
+            [],
+            "not excluded"
+          ],
+          "8": [
+            "Exclusion of ED attending physicians is not relevant to this patient; not applicable.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00413855": {
+        "inclusion": {
+          "0": [
+            "The patient is 40 years old, which meets the age range, but the note describes acute right arm pain of 1 hour duration, not chronic/recurrent right lower abdominal quadrant pain lasting >3 months, so the criterion is not met.",
+            [
+              0
+            ],
+            "not included"
+          ]
+        },
+        "exclusion": {}
+      },
+      "NCT00929773": {
+        "inclusion": {
+          "0": [
+            "Patient reports right arm pain, not neck/shoulder region; criterion not applicable.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Pain location is right arm, not neck/shoulder; criterion not applicable.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No information about neck/shoulder range of motion; patient pain is elsewhere, so criterion not applicable.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No mention of fibrosis or scar tissue in neck/shoulder; patient has arm pain, thus not applicable.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Inflammation not described in neck/shoulder; patient pain is in arm, so not applicable.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Altered function not described for neck/shoulder; patient issue is arm pain, thus not applicable.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No evidence of muscle strains in neck/shoulder; pain is in arm, so not applicable.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "VAS pain score not provided; although pain is described as excruciating, without a numeric rating we cannot confirm >=30.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Patient age is 40, which falls within 18-65 age range.",
+            [
+              0
+            ],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of herniated disks; cannot confirm presence or absence, and such a condition might be omitted if absent, but uncertainty remains.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Patient is a 40-year-old woman; pregnancy not stated, and absence is typically noted if relevant, so likely not pregnant.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No information about recent pain medication use; lack of mention suggests she likely did not take meds within 12 hours.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT01997047": {
+        "inclusion": {
+          "0": [
+            "The criterion applies only to children under 5; the patient is a 40-year-old adult, so the premise is not met.",
+            [],
+            "not applicable"
+          ]
+        },
+        "exclusion": {}
+      },
+      "NCT01973907": {
+        "inclusion": {
+          "0": [
+            "Age criterion not applicable as patient is 40 years old, outside 29 days to <18 years range.",
+            [],
+            "not included"
+          ],
+          "1": [
+            "Patient exhibits hypotension (BP 80/60) and tachycardia, fulfilling persistent signs of shock.",
+            [
+              2,
+              3
+            ],
+            "not included"
+          ],
+          "2": [
+            "No mention of suspected or confirmed infectious cause of shock in the note.",
+            [],
+            "not included"
+          ],
+          "3": [
+            "No documentation of having received the required fluid bolus (\u226540\u202fmL/kg or \u22652000\u202fmL).",
+            [],
+            "not included"
+          ],
+          "4": [
+            "Fluid refractory septic shock requires all of 2a, 2b, and 2c; 2b and 2c are not met.",
+            [],
+            "not included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Criterion refers to NICU admission, which applies only to neonatal patients; the patient is a 40\u2011year\u2011old adult, so the premise does not apply.",
+            [],
+            "not applicable"
+          ],
+          "1": [
+            "Criterion concerns resuscitation in the OR/PACU; the note describes emergency department presentation, not OR/PACU, and the patient is an adult, making the premise irrelevant.",
+            [],
+            "not applicable"
+          ],
+          "2": [
+            "Criterion involves full active resuscitative treatment not within goals of care; such goals of care are not discussed for this adult patient, and the criterion is intended for pediatric septic shock context, thus not applicable.",
+            [],
+            "not applicable"
+          ],
+          "3": [
+            "Criterion excludes shock from non\u2011septic causes; the patient\u2019s presentation lacks any indication of sepsis or shock etiology, and the patient is an adult, making the pediatric\u2011focused criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "4": [
+            "Criterion excludes prior enrolment in this trial; there is no mention of prior enrolment, and the patient is an adult in a pediatric trial, so the premise does not apply.",
+            [],
+            "not applicable"
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201529": {
+    "2": {
+      "NCT02359643": {
+        "inclusion": {
+          "0": [
+            "Patient is a child with classic KD signs meeting AHA criteria.",
+            [
+              0,
+              2,
+              3,
+              4
+            ],
+            "included"
+          ],
+          "1": [
+            "Fever >5 days documented and at least four KD symptoms present.",
+            [
+              0,
+              2,
+              3,
+              4
+            ],
+            "included"
+          ],
+          "2": [
+            "Strawberry tongue and cracked lips noted, indicating diffuse mucosal inflammation.",
+            [
+              3
+            ],
+            "included"
+          ],
+          "3": [
+            "Bilateral red eyes without discharge show non\u2011purulent conjunctivitis.",
+            [
+              4
+            ],
+            "included"
+          ],
+          "4": [
+            "Erythematous rash on trunk fulfills dysmorphic skin rash criterion.",
+            [
+              2
+            ],
+            "included"
+          ],
+          "5": [
+            "Swollen red hands are described; foot involvement not mentioned, so cannot confirm full indurative angioedema.",
+            [
+              3
+            ],
+            "not enough information"
+          ],
+          "6": [
+            "No mention of cervical lymphadenopathy in the note.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "IVIG treatment after consent is required but not documented in the note.",
+            [
+              5
+            ],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Patient shows classic KD signs (fever, rash, strawberry tongue, conjunctival injection, extremity changes); no evidence of not fitting criteria.",
+            [],
+            "not excluded"
+          ],
+          "1": [
+            "Fever duration is about a week (\u22487 days), which is within the 5\u201110 day window; not excluded.",
+            [
+              0
+            ],
+            "not excluded"
+          ],
+          "2": [
+            "No information about completeness of follow\u2011up lab/echo data; cannot determine.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No mention of prior IVIG at another hospital; insufficient detail.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No data on recent corticosteroid use; insufficient detail.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "No indication of another disease mimicking KD; insufficient detail.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No history of prior Kawasaki diagnosis provided; insufficient detail.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No evidence of inability to take aspirin; assume patient can take it.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00000520": {
+        "inclusion": {
+          "0": [
+            "The patient is a 4\u2011year\u2011old girl with \u22655 days of fever, rash, strawberry tongue, cracked lips, swollen hands, and bilateral conjunctival injection, which satisfy CDC criteria for Kawasaki Syndrome; the note states illness duration of one week (7 days), thus presentation is before day 10.",
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "included"
+          ]
+        },
+        "exclusion": {}
+      }
+    },
+    "0": {
+      "NCT02114099": {
+        "inclusion": {
+          "0": [
+            "Patient shows KD symptoms but no mention of a giant coronary aneurysm; absence of evidence likely means criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Patient is 4 years old, which is younger than the required >10 years.",
+            [
+              0
+            ],
+            "not included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "CABG surgery is a possible exclusion but not mentioned; unlikely in a 4\u2011year\u2011old; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Active hepatitis or abnormal liver enzymes are not described; no evidence suggests they exist; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No history of rhabdomyolysis is provided; unlikely in this child; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "Pregnancy or child\u2011bearing plans are not applicable to a 4\u2011year\u2011old girl.",
+            [],
+            "not applicable"
+          ]
+        }
+      },
+      "NCT00100126": {
+        "inclusion": {
+          "0": [
+            "Informed consent is explicitly stated in sentence 5.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "No information about assent from the patient is provided.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Patient age is given as 4 years in sentence 0, which meets the 6 months\u201112 years range.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "3": [
+            "No mention of sore throat, tonsillar findings or pharyngitis symptoms; cannot confirm diagnosis.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No evidence of tonsillar or pharyngeal exudate in the note.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Tender cervical lymph nodes are not described.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "Fever is documented in sentences 0 and 1.",
+            [
+              0,
+              1
+            ],
+            "included"
+          ],
+          "7": [
+            "Odynophagia is not mentioned.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Uvular edema is not mentioned.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "Pharyngeal erythema is not mentioned.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No laboratory data on WBC provided.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "Strawberry red tongue is described in sentence 3.",
+            [
+              3
+            ],
+            "included"
+          ],
+          "12": [
+            "No rapid strep test result is provided.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "Ability to swallow oral medication is not addressed.",
+            [],
+            "not enough information"
+          ],
+          "14": [
+            "Patient is a 4\u2011year\u2011old female, thus presumed non\u2011lactating; no contrary information.",
+            [],
+            "not enough information"
+          ],
+          "15": [
+            "Patient is pre\u2011pubertal and not of childbearing potential; criterion does not apply.",
+            [],
+            "not applicable"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of chronic or recurrent odynophagia or enlarged tonsils; absence of evidence suggests criterion not met.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "No indication of need for hospitalization or IV antibiotics; patient presented to ER but no admission noted.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "No data on pathogen resistance; assume not resistant as not stated.",
+            [],
+            "not excluded"
+          ],
+          "3": [
+            "No information about carrier status for S. pyogenes.",
+            [],
+            "not excluded"
+          ],
+          "4": [
+            "No allergy or adverse reaction to penicillin reported.",
+            [],
+            "not excluded"
+          ],
+          "5": [
+            "No serious illness or condition described that would preclude study participation.",
+            [],
+            "not excluded"
+          ],
+          "6": [
+            "No rapidly progressive disease or shortened life expectancy mentioned.",
+            [],
+            "not excluded"
+          ],
+          "7": [
+            "No comment on ability to swallow dosage form.",
+            [],
+            "not excluded"
+          ],
+          "8": [
+            "Patient (a 4\u2011year\u2011old) presumably cannot understand study requirements, but consent is provided by guardians; criterion refers to patient understanding, so not applicable.",
+            [],
+            "not applicable"
+          ],
+          "9": [
+            "No lab values or immunocompromised state noted.",
+            [],
+            "not excluded"
+          ],
+          "10": [
+            "No mention of hard chills or rigors.",
+            [],
+            "not excluded"
+          ],
+          "11": [
+            "No seizure disorder reported; febrile seizures are allowed.",
+            [],
+            "not excluded"
+          ],
+          "12": [
+            "No psychiatric condition requiring major tranquilizers described.",
+            [],
+            "not excluded"
+          ],
+          "13": [
+            "Patient is a child; pregnancy or nursing not applicable.",
+            [],
+            "not applicable"
+          ],
+          "14": [
+            "No expectation of additional systemic antibacterials stated.",
+            [],
+            "not excluded"
+          ],
+          "15": [
+            "No drug or alcohol abuse noted.",
+            [],
+            "not excluded"
+          ],
+          "16": [
+            "No recent experimental drug/device use reported.",
+            [],
+            "not excluded"
+          ],
+          "17": [
+            "No prior treatment under this protocol.",
+            [],
+            "not excluded"
+          ],
+          "18": [
+            "No record of recent benzathine penicillin or azithromycin use.",
+            [],
+            "not excluded"
+          ],
+          "19": [
+            "No hospitalization within prior month mentioned.",
+            [],
+            "not excluded"
+          ],
+          "20": [
+            "No hematologic or cardiac valvular disease described.",
+            [],
+            "not excluded"
+          ],
+          "21": [
+            "No history of cardiovascular, renal, or neurological disease secondary to prior S. pyogenes infection.",
+            [],
+            "not excluded"
+          ],
+          "22": [
+            "No probenecid or systemic steroid use reported.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT01182532": {
+        "inclusion": {
+          "0": [
+            "The note describes HFMD-like symptoms but does not state a severe diagnosis nor any etiological testing; cannot confirm severe HFMD, so criterion not met.",
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "not included"
+          ],
+          "1": [
+            "Fever has persisted for a week, exceeding the 48\u2011hour limit; criterion not met.",
+            [
+              0
+            ],
+            "not included"
+          ],
+          "2": [
+            "Patient is a 4\u2011year\u2011old girl, which falls within the 1\u201114 year age range; criterion met.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "3": [
+            "Sentence states the patient will provide informed consent and comply with the protocol; criterion met.",
+            [],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No evidence of serious primary organ diseases; absence of mention likely means none.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "No history of allergies to Chinese medicine reported; lack of info suggests none.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No psychiatric disease in patient or guardians noted; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No indication of participation in other HFMD studies; assume not attending.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT01281969": {
+        "inclusion": {
+          "0": [
+            "Patient is 4 years old, which falls within the 4-13 year range.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "1": [
+            "No mention of OCD diagnosis in the note; cannot confirm presence.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No severity scores or OCD symptom rating provided.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No information about timing of OCD symptom onset.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Patient shows fever, rash, strawberry tongue, red eyes\u2014classic signs of scarlet fever, a GAS infection.",
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "not enough information"
+          ],
+          "5": [
+            "No neuropsychiatric signs listed; cannot confirm at least three required symptoms.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No mention of increased anxiety or separation anxiety.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No mention of emotional lability, irritability, aggression, or personality change.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No mention of concentration or learning difficulties.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No mention of developmental regression.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No mention of sleep disorder.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "No mention of handwriting deterioration or motor dysfunction.",
+            [],
+            "not enough information"
+          ],
+          "12": [
+            "No mention of urinary frequency or enuresis.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of rheumatic fever or Sydenham chorea; patient has acute febrile illness not described as rheumatic fever.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "No evidence of autism, schizophrenia, or psychotic disorder in note.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No neurological disorder other than possible tic disorder is described.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "IQ not reported; no indication of intellectual disability.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Patient has acute infection with fever and rash, but no indication of a serious or unstable chronic medical/psychiatric condition that would make participation unsafe.",
+            [],
+            "not excluded"
+          ],
+          "5": [
+            "IgA level not provided; no lab data.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No information about hyperviscosity syndromes.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No information about recent live virus vaccination needs.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No medications listed; assume none nephrotoxic.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No mention of recent CBT initiation.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No mention of recent psychotropic medication changes.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT00315042": {
+        "inclusion": {
+          "0": [
+            "Patient is 4 years old, which falls within 6 months to <13 years; sentence 0 states age.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "1": [
+            "No mention of a clinical diagnosis of acute tonsillitis/pharyngitis caused by Streptococcus pyogenes; absence of such information likely means the criterion is not met.",
+            [],
+            "not included"
+          ],
+          "2": [
+            "The note does not contain any result of a rapid Group A streptococcal antigen test or throat culture; without this evidence the criterion cannot be satisfied.",
+            [],
+            "not included"
+          ],
+          "3": [
+            "No report of sore throat or odynophagia; therefore the required symptom is missing.",
+            [],
+            "not included"
+          ],
+          "4": [
+            "No description of tonsillar or pharyngeal erythema/exudate in the note; cannot confirm presence.",
+            [],
+            "not included"
+          ],
+          "5": [
+            "Cervical adenopathy is not mentioned; lack of evidence suggests it is not present.",
+            [],
+            "not included"
+          ],
+          "6": [
+            "Uvular edema is not described in the note; no evidence to support this sign.",
+            [],
+            "not included"
+          ],
+          "7": [
+            "Patient has persistent fever (sentence 0) and a recorded spike to 104\u00b0F (sentence 1); fulfills fever criterion.",
+            [
+              0,
+              1
+            ],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Patient shows conjunctivitis and rash, which are non\u2011streptococcal features; thus meets exclusion criterion.",
+            [
+              2,
+              3,
+              4
+            ],
+            "excluded"
+          ],
+          "1": [
+            "No history of throat culture reported; absence of evidence suggests criterion not met.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "No mention of deep\u2011tissue upper\u2011respiratory infection; criterion not met.",
+            [],
+            "not excluded"
+          ],
+          "3": [
+            "No history of rheumatic heart disease noted.",
+            [],
+            "not excluded"
+          ],
+          "4": [
+            "Girl is 4\u202fyears old, far below menarche age; criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "5": [
+            "No information on congenital QT prolongation; assume not present.",
+            [],
+            "not excluded"
+          ],
+          "6": [
+            "No laboratory data on electrolytes or heart rate; assume normal.",
+            [],
+            "not excluded"
+          ],
+          "7": [
+            "No mention of myasthenia gravis.",
+            [],
+            "not excluded"
+          ],
+          "8": [
+            "Renal function not described; assume adequate.",
+            [],
+            "not excluded"
+          ],
+          "9": [
+            "Criterion text incomplete; not applicable to patient assessment.",
+            [],
+            "not applicable"
+          ],
+          "10": [
+            "No prohibited concomitant medications listed.",
+            [],
+            "not excluded"
+          ],
+          "11": [
+            "No current or recent systemic antibacterial therapy reported.",
+            [],
+            "not excluded"
+          ],
+          "12": [
+            "No recent use of rifampicin, phenytoin, carbamazepine, or St. John\u2019s wort.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "No history of hypersensitivity to macrolides, penicillins, or cephalosporins.",
+            [],
+            "not enough information"
+          ],
+          "14": [
+            "No prior enrollment or telithromycin treatment reported.",
+            [],
+            "not enough information"
+          ],
+          "15": [
+            "No indication that patient is a relative of study staff.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT00535093": {
+        "inclusion": {
+          "0": [
+            "No mention of sore throat in the note; cannot confirm presence.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Only fever is documented; other Centor components are absent from the note, so cannot verify at least two criteria.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Patient has persistent fever with a recorded temperature of 104\u00b0F, satisfying fever >38\u202f\u00b0C.",
+            [
+              0,
+              1
+            ],
+            "included"
+          ],
+          "3": [
+            "Enlarged cervical lymph nodes are not described in the note.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Tonsillar exudate is not mentioned in the note.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Absence of cough is not addressed in the note.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "Patient is a 4\u2011year\u2011old child, which falls within the 3\u201114 year age range.",
+            [
+              0
+            ],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of recent antibiotic use; absence of evidence suggests the patient likely has not taken antibiotics in the past 7 days.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Sentence 5 explicitly states the patient will provide informed consent, satisfying the consent requirement.",
+            [],
+            "not excluded"
+          ]
+        }
+      },
+      "NCT00242281": {
+        "inclusion": {
+          "0": [
+            "Patient explicitly states they will provide informed consent (sentence 5).",
+            [],
+            "included"
+          ],
+          "1": [
+            "Patient is a 4\u2011year\u2011old girl, which is below the required minimum age of 12.",
+            [
+              0
+            ],
+            "not included"
+          ],
+          "2": [
+            "No mention of sore throat, pharyngeal erythema or tonsillitis in the note; cannot confirm diagnosis.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "Odynophagia (painful swallowing) is not described in the note.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No reference to tonsillar or pharyngeal exudates.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Tender cervical lymph nodes are not mentioned.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "Persistent fever and a recorded spike to 104\u00b0F are documented (sentences 0\u20112).",
+            [
+              0,
+              1,
+              2
+            ],
+            "included"
+          ],
+          "7": [
+            "Chills are not reported in the note.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Uvular edema is not mentioned.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No laboratory data on white blood cell count are provided.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "Strawberry red tongue is described (sentence 3).",
+            [
+              3
+            ],
+            "included"
+          ],
+          "11": [
+            "Rapid screening test result for S. pyogenes is not provided.",
+            [],
+            "not enough information"
+          ],
+          "12": [
+            "Ability to swallow study medication is not addressed.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "Criterion about lactation is not applicable to a pre\u2011pubertal child.",
+            [],
+            "not applicable"
+          ],
+          "14": [
+            "Pregnancy risk criteria are not applicable to a 4\u2011year\u2011old.",
+            [],
+            "not applicable"
+          ],
+          "15": [
+            "Pregnancy testing criteria are not applicable to a 4\u2011year\u2011old.",
+            [],
+            "not applicable"
+          ],
+          "16": [
+            "Pregnancy abstinence criteria are not applicable to a 4\u2011year\u2011old.",
+            [],
+            "not applicable"
+          ],
+          "17": [
+            "Patient (or guardian) states they will comply with protocol requirements (sentence 5).",
+            [],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of chronic or recurrent odynophagia or enlarged tonsils; acute presentation suggests not applicable.",
+            [],
+            "not excluded"
+          ],
+          "1": [
+            "No history of multiple episodes of tonsillitis/pharyngitis in past 6 months; not mentioned.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "No information about resistant pathogen; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No data on carrier status for S. pyogenes.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No allergy or intolerance to penicillin reported.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "No serious illness or condition described that would preclude study.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No rapidly progressive disease described.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "Swallowing ability not addressed; assume able.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Understanding requirement not discussed; child is 4\u202fy, but consent noted from guardian, assume not excluded.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No lab values indicating neutropenia or immunocompromise.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No concurrent upper/lower respiratory infection documented.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "No viral symptom cluster described.",
+            [],
+            "not enough information"
+          ],
+          "12": [
+            "No conjunctivitis, coryza, or cough reported.",
+            [],
+            "not excluded"
+          ],
+          "13": [
+            "Rash present but described as erythematous trunk rash, not diffuse adenopathy or mononucleosis\u2011type rash.",
+            [],
+            "not excluded"
+          ],
+          "14": [
+            "Rash and strawberry tongue are classic for scarlet fever; criterion met.",
+            [
+              2,
+              3
+            ],
+            "excluded"
+          ],
+          "15": [
+            "No seizure disorder or psychiatric condition noted.",
+            [],
+            "not excluded"
+          ],
+          "16": [
+            "Patient is a 4\u2011year\u2011old child; pregnancy not applicable.",
+            [],
+            "not applicable"
+          ],
+          "17": [
+            "No expectation of additional systemic antibacterials mentioned.",
+            [],
+            "not excluded"
+          ],
+          "18": [
+            "Drug/alcohol abuse not applicable to a 4\u2011year\u2011old.",
+            [],
+            "not applicable"
+          ],
+          "19": [
+            "No recent experimental drug/device use reported.",
+            [],
+            "not excluded"
+          ],
+          "20": [
+            "No prior participation in this protocol.",
+            [],
+            "not excluded"
+          ],
+          "21": [
+            "No indication for hospitalization or IV therapy.",
+            [],
+            "not excluded"
+          ],
+          "22": [
+            "No recent systemic antimicrobial therapy reported.",
+            [],
+            "not enough information"
+          ],
+          "23": [
+            "No clinically significant hematologic condition described.",
+            [],
+            "not enough information"
+          ],
+          "24": [
+            "No history of cardiovascular, renal, or neurological disease secondary to prior S. pyogenes infection.",
+            [],
+            "not enough information"
+          ],
+          "25": [
+            "No probenecid or systemic steroid use reported.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT00788151": {
+        "inclusion": {
+          "0": [
+            "Patient is 4 years old, which falls within the required 2-11 year range.",
+            [
+              0
+            ],
+            "included"
+          ],
+          "1": [
+            "Patient presents with persistent fever, rash, strawberry tongue, and conjunctival injection, indicating active illness, thus not in good health.",
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "not included"
+          ],
+          "2": [
+            "Informed consent from parents is stated; assent not required for a child under 8.",
+            [],
+            "included"
+          ],
+          "3": [
+            "Sentence indicates the patient will comply with the trial protocol without practical issues, implying ability to attend visits.",
+            [],
+            "included"
+          ],
+          "4": [
+            "Female participant is 4 years old, pre\u2011menarche, so contraception requirement does not apply.",
+            [],
+            "not applicable"
+          ],
+          "5": [
+            "No mention of prior yellow fever vaccination; cannot determine if it was received.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of thymic pathology, thymoma, thymectomy, or myasthenia; absence of evidence likely indicates none.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "Criterion applies only to post\u2011menarche females; patient is 4\u202fy old, pre\u2011menarche.",
+            [],
+            "not applicable"
+          ],
+          "2": [
+            "Same as criterion 1; pregnancy not possible in a 4\u2011year\u2011old.",
+            [],
+            "not applicable"
+          ],
+          "3": [
+            "No information about participation in another trial within 4\u202fweeks; such participation would normally be documented.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No information about planned participation in another trial; not mentioned.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "No evidence of immunodeficiency, immunosuppressive therapy, chemotherapy, radiation, or long\u2011term steroids.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "No history of systemic hypersensitivity to vaccine components or life\u2011threatening vaccine reactions reported.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No mention of hypersensitivity to yellow fever vaccine.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No chronic illness described beyond the acute presentation; chronic stage unlikely.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No indication of alcohol or drug abuse; not applicable to a 4\u2011year\u2011old.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No record of blood product receipt in past 3\u202fmonths.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "No record of any vaccine received in the 4\u202fweeks before screening.",
+            [],
+            "not enough information"
+          ],
+          "12": [
+            "No plan for vaccine receipt in the 4\u202fweeks after first vaccination is mentioned.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "No HIV, hepatitis B or C serology results provided; assume negative in absence of mention.",
+            [],
+            "not enough information"
+          ],
+          "14": [
+            "No laboratory data presented; cannot assess abnormalities.",
+            [],
+            "not enough information"
+          ],
+          "15": [
+            "No history of prior pneumococcal polysaccharide vaccination noted.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT00044239": {
+        "inclusion": {
+          "0": [
+            "Criterion refers to group label, not a patient eligibility requirement.",
+            [],
+            "not applicable"
+          ],
+          "1": [
+            "Patient is 4 years old (sentence 0). No information about residence distance to NIH.",
+            [
+              0
+            ],
+            "not enough information"
+          ],
+          "2": [
+            "No mention of OCD symptoms or DSM\u2011IV criteria in the note.",
+            [],
+            "not included"
+          ],
+          "3": [
+            "No evidence of recent OCD symptom onset; patient presents with fever and rash, not OCD.",
+            [],
+            "not included"
+          ],
+          "4": [
+            "Criterion refers to healthy control group, not applicable to this patient.",
+            [],
+            "not applicable"
+          ],
+          "5": [
+            "No data on matching to OCD participants; patient is not a control.",
+            [],
+            "not applicable"
+          ],
+          "6": [
+            "Patient has no reported current or past psychopathology; only physical illness described.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "1": [
+            "The criterion concerns serious psychiatric or neurodevelopmental diagnoses which are unlikely in a 4\u2011year\u2011old and no such diagnosis is mentioned in the note.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "The patient currently has fever, rash, strawberry tongue and conjunctival injection, indicating an acute systemic illness that can be considered significant/unstable.",
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "excluded"
+          ],
+          "3": [
+            "IQ is not reported; absence of information allows us to assume the IQ is not below 80 unless stated otherwise.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "This criterion applies only to healthy control participants; the patient is presenting with an acute illness, so the criterion is not relevant.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Same as criterion 4, IQ threshold applies to healthy controls only; not relevant to this patient.",
+            [],
+            "not enough information"
+          ],
+          "6": [
+            "Significant/unstable medical illness criterion for healthy controls does not apply to a patient who is not a healthy control.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT01514552": {
+        "inclusion": {
+          "0": [
+            "No mention of a 24\u2011hour urine cotinine test; cannot determine if the patient will submit it.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "The patient must satisfy one of the smoking status criteria (2\u20116). Based on age, the child is almost certainly a non\u2011smoker, satisfying criterion\u202f2, so the overall smoking criterion is met.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "Child is 4\u202fyears old; impossible to be a current or former smoker. No explicit statement, but inference from age makes non\u2011smoker status highly likely.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "Criterion refers to former smokers who quit >10\u202fyears ago; not applicable to a 4\u2011year\u2011old child.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "Criterion defines a smoker who quit >10\u202fyears ago; not applicable to a child.",
+            [],
+            "not applicable"
+          ],
+          "5": [
+            "Criterion defines a current habitual smoker; not applicable to a child.",
+            [],
+            "not applicable"
+          ],
+          "7": [
+            "No information about willingness to consume a standardized vitamin/mineral supplement or avoid other supplements.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "No mention of malabsorptive, gastrointestinal or metabolic disorders; absence of evidence is not proof, so cannot assume.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "BMI not provided; cannot assess whether it falls between 20\u201135\u202fkg/m2.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "No information on diet restrictions regarding purple/red foods.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "No information on use of mouth washes during the study period.",
+            [],
+            "not enough information"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "No mention of allergy to strawberries, corn, or wheat; absence of evidence assumed negative.",
+            [],
+            "not enough information"
+          ],
+          "1": [
+            "No evidence of metabolic or digestive illnesses; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "2": [
+            "No history of pituitary hormone disease or endocrine hormone replacement; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "3": [
+            "No record of gastrointestinal organ loss surgery; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "4": [
+            "No chronic inflammatory, autoimmune, cancer, anemia, hemophilia or blood dyscrasia noted; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "5": [
+            "Child cannot be a heavy alcohol consumer; criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "6": [
+            "No mention of recent antibiotic use or bowel motility meds; assume absent.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "No indication of ongoing or needed dental treatment during study period.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Oral findings are acute Kawasaki signs, not chronic lesions >3\u202fmonths; no qualifying oral lesions.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "No dysphagia, odynophagia, salivary dysfunction or xerostomia reported.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "Child is a non\u2011smoker and cannot have a smoking history; criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "11": [
+            "4\u2011year\u2011old girl cannot be planning pregnancy, pregnant, or nursing; criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "12": [
+            "No use of warfarin or prescribed oral rinses reported.",
+            [],
+            "not enough information"
+          ]
+        }
+      },
+      "NCT00315549": {
+        "inclusion": {
+          "0": [
+            "Patient is 4 years old, which is below the required minimum age of 13 years.",
+            [],
+            "not included"
+          ],
+          "1": [
+            "This item is a header for female-specific criteria and does not represent a standalone inclusion condition.",
+            [],
+            "not applicable"
+          ],
+          "2": [
+            "The patient is a 4\u2011year\u2011old female, making her premenarchal by age; no contrary information is provided.",
+            [],
+            "included"
+          ],
+          "3": [
+            "A 4\u2011year\u2011old child is not of childbearing potential, so this criterion does not apply.",
+            [],
+            "not applicable"
+          ],
+          "4": [
+            "Menstrual flow is irrelevant for a premenarchal child; criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "5": [
+            "Pregnancy testing is irrelevant for a premenarchal child; criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "6": [
+            "Contraception use is irrelevant for a premenarchal child; criterion not applicable.",
+            [],
+            "not applicable"
+          ],
+          "7": [
+            "No evidence of acute tonsillitis/pharyngitis is present in the note; the patient shows Kawasaki disease features instead.",
+            [],
+            "not included"
+          ],
+          "8": [
+            "No rapid streptococcal test result is reported; therefore the criterion is not met.",
+            [],
+            "not included"
+          ],
+          "9": [
+            "The note does not mention sore or scratchy throat or odynophagia.",
+            [],
+            "not included"
+          ],
+          "10": [
+            "No description of tonsillar or pharyngeal erythema/exudate is provided.",
+            [],
+            "not included"
+          ],
+          "11": [
+            "Cervical adenopathy is not mentioned in the note.",
+            [],
+            "not included"
+          ],
+          "12": [
+            "Uvular edema is not mentioned in the note.",
+            [],
+            "not included"
+          ],
+          "13": [
+            "Sentence 0 states the patient has persistent fever for the past week.",
+            [
+              0
+            ],
+            "included"
+          ]
+        },
+        "exclusion": {
+          "0": [
+            "Applicable; patient has conjunctivitis (red eyes) and rash suggesting non\u2011streptococcal infection; meets exclusion criterion.",
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "excluded"
+          ],
+          "1": [
+            "Not applicable premise (requires prior positive throat culture without symptoms); no evidence in note; assume not present.",
+            [],
+            "not excluded"
+          ],
+          "2": [
+            "Not applicable premise (deep tissue infection); no evidence; assume not present.",
+            [],
+            "not excluded"
+          ],
+          "3": [
+            "Not applicable premise (rheumatic heart disease); no evidence; assume not present.",
+            [],
+            "not excluded"
+          ],
+          "4": [
+            "Not applicable premise (congenital prolonged QT); no evidence; assume not present.",
+            [],
+            "not excluded"
+          ],
+          "5": [
+            "Not applicable premise (hypokalemia/hypomagnesemia/bradycardia); no evidence; assume not present.",
+            [],
+            "not excluded"
+          ],
+          "6": [
+            "Not applicable premise (severe renal impairment); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "7": [
+            "Not applicable premise (myasthenia gravis); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "8": [
+            "Not applicable premise (hypersensitivity to study drugs); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "9": [
+            "Not applicable premise (previous enrollment/telithromycin use); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "10": [
+            "Not applicable premise (child of study staff); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "11": [
+            "Not applicable premise (systemic antibacterials within 14 days); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "12": [
+            "Not applicable premise (investigational medication within 30 days); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ],
+          "13": [
+            "Not applicable premise (rifampicin, phenytoin, carbamazepine, St. John\u2019s wort use); no evidence; assume not present.",
+            [],
+            "not enough information"
+          ]
+        }
+      }
+    }
+  }
+}

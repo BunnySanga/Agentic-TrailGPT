@@ -1,9 +1,18 @@
-"""Shared validation helpers for the post-matching agent pipeline."""
+"""Shared helpers for the agents: TrialGPT labels, criterion numbering, batching."""
 
 from __future__ import annotations
 
+import json
+import os
 import re
-from collections.abc import Iterable, Mapping
+from collections.abc import Iterable, Iterator
+
+# Groq's free tier rejects any single request above 8000 tokens (input plus
+# expected output). Trials with 20+ criteria exceed that when every criterion
+# goes into one agent call, so agents get criteria in chunks. Each criterion is
+# judged independently, so chunking does not change what is asked about it.
+AGENT_BATCH_CRITERIA = int(os.getenv("AGENT_BATCH_CRITERIA", "10"))
+AGENT_BATCH_CHARS = int(os.getenv("AGENT_BATCH_CHARS", "12000"))
 
 
 ALLOWED_LABELS = {
@@ -62,10 +71,35 @@ def coerce_sentence_ids(value: object) -> list[int]:
     return result
 
 
-def patient_evidence(patient_sentences: Mapping[int, str], sentence_ids: object) -> list[dict]:
-    """Build stable evidence objects for agent output and review sidecars."""
-    return [
-        {"id": sentence_id, "text": patient_sentences[sentence_id]}
-        for sentence_id in coerce_sentence_ids(sentence_ids)
-        if sentence_id in patient_sentences
-    ]
+
+def criteria_by_id(criteria: object) -> dict[str, str]:
+    """Mirror TrialGPT's criterion numbering without importing its API client."""
+    if not isinstance(criteria, str):
+        return {}
+
+    parsed: dict[str, str] = {}
+    index = 0
+    for criterion in criteria.split("\n\n"):
+        criterion = criterion.strip()
+        if "inclusion criteria" in criterion.lower() or "exclusion criteria" in criterion.lower():
+            continue
+        if len(criterion) < 5:
+            continue
+        parsed[str(index)] = criterion
+        index += 1
+    return parsed
+
+
+def request_chunks(requests: list[dict]) -> Iterator[list[dict]]:
+    """Split agent requests by criterion count and serialized size."""
+    chunk: list[dict] = []
+    size = 0
+    for request in requests:
+        length = len(json.dumps(request, ensure_ascii=True))
+        if chunk and (len(chunk) >= AGENT_BATCH_CRITERIA or size + length > AGENT_BATCH_CHARS):
+            yield chunk
+            chunk, size = [], 0
+        chunk.append(request)
+        size += length
+    if chunk:
+        yield chunk

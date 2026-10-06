@@ -24,7 +24,7 @@ class FakeClient:
 
 
 class LlmAgentTests(unittest.TestCase):
-    def test_assertion_calls_azure_and_normalizes_sentence_ids(self):
+    def test_assertion_calls_llm_and_normalizes_sentence_ids(self):
         client = FakeClient(
             [
                 {
