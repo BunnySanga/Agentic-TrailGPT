@@ -6,9 +6,9 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest import mock
 
+from agentic_score import matching_score, trial_score
 from evaluate_rankings import (
     cost_report,
-    matching_score,
     ndcg_at_k,
     paired_comparison,
     patient_cost,
@@ -16,7 +16,6 @@ from evaluate_rankings import (
     rank_patient,
     review_applies,
     reviewed_trial_results,
-    trial_score,
 )
 from run_parallel import JsonStore, Run, read_patients_file, select_patients
 from trialgpt_assertion.TrialGPT import CachedNoteAssertion

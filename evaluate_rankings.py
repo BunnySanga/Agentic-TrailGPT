@@ -12,12 +12,11 @@ Variants:
     baseline  TrialGPT matching + TrialGPT aggregation
     reviewed  the same, after the Reviewer re-checked negative labels on relevant trials
 
-Trial score = share of inclusion rules met
-              - penalty for any "not included" - penalty for any "excluded"
-              + weight * (R + E) / 100
-With --penalty 1 --weight 1 (the defaults) this is TrialGPT's rank_results.py
-formula. Tune --penalty, --weight and --min-relevance on the development
-patients only; the held-out patients are scored once, at the end.
+Trials are ranked by agentic_score.trial_score: TrialGPT's formula with an
+adjustable --penalty per negative label and --weight on (R+E)/100. With
+--penalty 1 --weight 1 (the defaults) it equals TrialGPT's rank_results.py.
+Tune --penalty, --weight and --min-relevance on the development patients
+only; the held-out patients are scored once, at the end.
 
 Only patients whose every retrieved trial has results in ALL requested variants
 are scored, so variants are compared on the same patients. Token cost comes
@@ -41,11 +40,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from trialgpt_ranking.rank_results import get_agg_score
+from agentic_score import trial_score
 
 K = 10
 ELIGIBLE = 2
-EPS = 1e-9  # as in rank_results.py
 STAGES_BY_VARIANT = {
     "baseline": ("match", "agg-baseline"),
     "reviewed": ("match", "agg-baseline", "review"),
@@ -102,31 +100,7 @@ def _trial_results(matching: dict, patient_id: str) -> dict[str, dict]:
     return flat
 
 
-# ---- scoring ----------------------------------------------------------------------
-
-def matching_score(result: dict, penalty: float = 1.0) -> float:
-    """TrialGPT's matching score with an adjustable penalty for negative labels."""
-    counts = {"included": 0, "not included": 0, "not enough information": 0, "excluded": 0}
-    for criterion_type in ("inclusion", "exclusion"):
-        for info in result.get(criterion_type, {}).values():
-            if len(info) != 3:
-                continue
-            label = info[2]
-            if criterion_type == "inclusion" and label in ("included", "not included", "not enough information"):
-                counts[label] += 1
-            elif criterion_type == "exclusion" and label == "excluded":
-                counts[label] += 1
-    score = counts["included"] / (counts["included"] + counts["not included"] + counts["not enough information"] + EPS)
-    if counts["not included"] > 0:
-        score -= penalty
-    if counts["excluded"] > 0:
-        score -= penalty
-    return score
-
-
-def trial_score(result: dict, assessment: dict, penalty: float = 1.0, weight: float = 1.0) -> float:
-    return matching_score(result, penalty) + weight * get_agg_score(assessment)
-
+# ---- ranking ----------------------------------------------------------------------
 
 def rank_trials(
     candidates: list[str],
