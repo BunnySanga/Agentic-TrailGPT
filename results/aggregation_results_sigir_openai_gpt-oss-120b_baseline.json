@@ -2525,6 +2525,18 @@
             "relevance_score_R": 68.0,
             "eligibility_explanation": "Eligibility is determined by the inclusion and exclusion criteria. The patient meets the age inclusion criterion and likely meets the obesity criterion, but the trial explicitly excludes pregnant or lactating women. The patient is currently pregnant (ectopic pregnancy), which directly triggers exclusion criterion 6. Therefore, despite meeting some inclusion items, the patient is ineligible for the study. The eligibility score is set to the negative of the relevance score to reflect a definitive exclusion.",
             "eligibility_score_E": -68.0
+        },
+        "NCT01870713": {
+            "relevance_explanation": "The patient is a 28\u2011year\u2011old woman being treated for an ectopic pregnancy. The trial is a proteomics study of Roux\u2011en\u2011Y gastric bypass surgery in patients with type\u202f2 diabetes in China. The only overlap is the patient\u2019s age, which falls within the trial\u2019s age range. There is no mention of diabetes, bariatric surgery, or any of the metabolic endpoints of the trial. Therefore the patient\u2019s clinical situation is largely unrelated to the trial\u2019s target condition and intervention, resulting in a low relevance score.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Although the patient meets the age inclusion criterion, she fails the key inclusion criteria (no type\u202f2 diabetes diagnosis and no planned gastric bypass) and is explicitly excluded by the pregnancy exclusion criterion (she is currently pregnant with an ectopic pregnancy). These factors make her ineligible for the study. Because relevance is low, the eligibility penalty is limited to the same magnitude, yielding a negative eligibility score equal to \u2013R.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02169856": {
+            "relevance_explanation": "The patient shares only a few superficial attributes with the trial (age within the required 25\u201155 range and willingness to consent). However, the core inclusion criterion requires undergoing an elective laparoscopic cholecystectomy for gallstone disease, which the patient does not meet (she is being treated for an ectopic pregnancy). All other inclusion and exclusion criteria are either irrelevant or not met, so the overall relevance of this patient to the trial is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the patient does not satisfy the primary inclusion criterion (laparoscopic cholecystectomy for gallstone disease), she is ineligible for the study regardless of the other criteria. No exclusion criteria apply, but the lack of the essential inclusion makes her ineligible, yielding an eligibility score equal to the negative of the relevance.",
+            "eligibility_score_E": -30.0
         }
     },
     "sigir-201527": {
@@ -2707,6 +2719,48 @@
             "relevance_score_R": 15.0,
             "eligibility_explanation": "Because the patient does not meet the essential inclusion criteria for age, acute coronary syndrome diagnosis, ECG changes, or cardiac biomarkers, she is ineligible for the study. The only applicable criteria are consent\u2011related, which she satisfies, but the lack of all critical disease\u2011specific criteria makes her effectively ineligible. The eligibility score is set to the negative of the relevance score to reflect clear ineligibility.",
             "eligibility_score_E": -15.0
+        },
+        "NCT02065596": {
+            "relevance_explanation": "The trial is specifically for patients with sickle cell disease (SCD) or related inherited hemoglobin disorders. The patient\u2019s note describes severe iron\u2011deficiency anemia with no mention of SCD, sickle cell trait, or any hemoglobinopathy. Consequently, the core disease requirement of the trial is not met, making the patient largely irrelevant to this study. Minor relevance comes from the fact that the patient is a pediatric female who can give consent and appears otherwise able to comply with study procedures, but these factors are peripheral to the primary disease criterion.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Because the patient does not have sickle cell disease, she fails the primary inclusion criterion and therefore is ineligible for the trial. No exclusion criteria are triggered, but the lack of the required disease means she cannot be enrolled. The eligibility score is set to the negative extreme of the relevance range to reflect clear ineligibility.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT01985243": {
+            "relevance_explanation": "The trial targets malnutrition and anemia in children and adolescents. The patient is a 15\u2011year\u2011old girl with severe iron\u2011deficiency anemia, directly matching the condition of interest. Age eligibility is satisfied (adolescent 10\u201115\u202fy). The only missing piece is geographic location, which is not mentioned, but the core clinical relevance (severe anemia) is strong. Therefore the overall relevance is high but not perfect.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Inclusion criterion 0 (age) is met, so the patient is included on that basis. Inclusion criterion 1 (residence in the selected Ghanaian district) lacks any information, so we cannot confirm eligibility; this creates uncertainty but does not constitute exclusion. The exclusion criterion about medical conditions limiting dietary intake is not met, as the anemia is a nutritional deficiency rather than a limiting condition. Consequently, the patient is likely eligible, though the unknown residence prevents a full positive score. The eligibility score is therefore positive but limited by the missing location data.",
+            "eligibility_score_E": 45.0
+        },
+        "NCT01050361": {
+            "relevance_explanation": "The trial targets adult patients (typically \u226565 years) with cardiovascular risk factors undergoing non\u2011cardiac surgery and requires peri\u2011operative echocardiographic management. The patient is a 15\u2011year\u2011old with severe iron\u2011deficiency anemia and a systolic murmur, but no documented cardiovascular risk factors, comorbidities, or planned surgery. Only one inclusion element (a murmur) aligns, while the vast majority of inclusion criteria (age, hypertension, diabetes, obesity, renal insufficiency, etc.) are irrelevant or missing. Consequently, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Eligibility depends on meeting all required inclusion criteria and not meeting any exclusion criteria. The patient does not satisfy the primary age requirement and lacks most other cardiovascular risk factors. Although a systolic murmur meets one inclusion item, the lack of other required criteria makes the patient ineligible. No exclusion criteria are clearly met, but the insufficient inclusion fulfillment leads to a negative eligibility assessment within the relevance bound.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT01204411": {
+            "relevance_explanation": "The trial targets children 6\u201159 months old with confirmed falciparum malaria and severe acute malnutrition. The patient is a 15\u2011year\u2011old adolescent with iron\u2011deficiency anemia, no evidence of malaria, and no anthropometric data to assess malnutrition. Only two inclusion criteria (parental consent and compliance) are met, while the majority are clearly not applicable or lack information. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Even though the patient would comply with follow\u2011up and has parental consent, the patient fails key inclusion criteria (age, malaria infection, malnutrition) and meets an exclusion criterion: severe anemia (Hb 4.2\u202fg/dL < 5\u202fg/dL). This makes the patient ineligible for the study. Because eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT02105480": {
+            "relevance_explanation": "The clinical trial is explicitly focused on premature babies and newborns with heart murmurs, using phonocardiogram analysis. The patient is a 15\u2011year\u2011old adolescent with severe iron\u2011deficiency anemia and a systolic murmur, but she is far outside the age range of interest. Apart from the presence of a murmur, there is essentially no overlap with the target population, making the overall relevance very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not meet the primary inclusion criterion (being a premature baby or newborn), she is ineligible for the study. Additionally, parental consent is not confirmed, further supporting ineligibility. Given the very low relevance, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01040923": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl being evaluated for severe iron\u2011deficiency anemia with a systolic murmur. The trial targets adults undergoing coronary CT angiography to assess a digital stethoscope for CAD detection. Apart from the generic willingness to consent, there is no indication that the patient is being screened for CAD, undergoing CT angiography, or has any cardiac risk factors relevant to the study. Thus the overall relevance to the trial is very low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "The only concrete eligibility impact is the age exclusion criterion: the patient is 15 years old, which falls below the trial's minimum age of 21, making her ineligible. While she can consent, the age exclusion overrides any inclusion, resulting in a negative eligibility score equal to the relevance magnitude.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01835210": {
+            "relevance_explanation": "The trial targets teenagers with acne vulgaris. The patient is a 15\u2011year\u2011old girl, which matches the age range, giving some relevance. However, the clinical note describes severe iron\u2011deficiency anemia with no mention of skin disease, acne, or dermatologic evaluation. Because the primary condition of interest (acne) is absent, the overall relevance of this patient to the acne quality\u2011of\u2011life study is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Eligibility requires a confirmed diagnosis of acne by a pediatric dermatologist, which is not present in the note. The patient therefore fails the key inclusion criterion. No exclusion criteria are triggered, but the lack of the required acne diagnosis makes the patient ineligible. Since relevance is low (R=20), the eligibility score must lie between -20 and 20; we assign a negative value reflecting ineligibility.",
+            "eligibility_score_E": -15.0
         }
     },
     "sigir-201412": {
@@ -2799,6 +2853,86 @@
             "relevance_score_R": 70.0,
             "eligibility_explanation": "Eligibility cannot be confirmed because the two mandatory inclusion criteria (positive thyroid antibodies within the past year and documented euthyroid labs) are not addressed in the note. The exclusion criteria appear to be satisfied (no pregnancy, renal/hepatic issues, hematologic disease, G6PD deficiency, allergies, retinopathy, or immunosuppression reported). Thus the patient is not clearly eligible; the lack of inclusion data makes her effectively ineligible for enrollment at this stage. The eligibility score is therefore negative, reflecting probable ineligibility while staying within the allowed range of -R to R.",
             "eligibility_score_E": -30.0
+        },
+        "NCT02094079": {
+            "relevance_explanation": "The patient shows classic signs of hypothyroidism (fatigue, cold intolerance, weight gain, hair loss, goiter) which matches the trial's target condition. However, the trial is restricted to pregnant women receiving levothyroxine, and there is no indication that this 25\u2011year\u2011old woman is pregnant or on treatment. Therefore the clinical condition aligns partially, but the key demographic requirement does not, making the overall relevance moderate.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "Because the patient is not identified as pregnant and there is no evidence she is on levothyroxine therapy, she fails the primary inclusion criterion. Consequently she is ineligible for the study. The eligibility score is set to the negative of the relevance score to reflect clear ineligibility.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT01574859": {
+            "relevance_explanation": "The trial focuses on patients with pituitary hypopituitarism (central hypothyroidism) and evaluates levothyroxine replacement. The patient presents with signs of primary hypothyroidism (thyroid enlargement, cold intolerance, weight gain) and no evidence of pituitary dysfunction. Therefore the clinical condition of the patient only loosely aligns with the trial\u2019s disease area, making the overall relevance low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the patient does not have pituitary hypopituitarism, she does not satisfy the sole inclusion criterion. No exclusion criteria apply, but failure to meet inclusion means she is ineligible. The eligibility score should be negative but limited by the relevance magnitude.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00111735": {
+            "relevance_explanation": "The patient is a 25\u2011year\u2011old woman with classic symptoms of hypothyroidism (fatigue, hair loss, weight gain, cold intolerance) and a palpable thyroid mass, which aligns closely with the trial\u2019s target condition (hypothyroidism) and age requirement. The note also indicates willingness to consent and comply with the protocol. However, the record lacks key trial\u2011specific information such as a confirmed diagnosis of primary hypothyroidism, current thyroxine dose, recent dose stability, TSH level, and contraceptive use. Because the core disease relevance is strong but many trial\u2011specific data points are missing, the overall relevance is high but not perfect.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and none of the exclusion criteria. The patient clearly satisfies the age inclusion, and there is no evidence of the listed exclusion conditions. Conversely, there is insufficient information to confirm the primary hypothyroidism diagnosis, duration, cause, current thyroxine dose, dose stability, TSH range, and contraceptive measures\u2014key inclusion items. Since the patient cannot be confirmed as meeting these essential inclusion criteria, the balance tilts toward ineligibility. The negative eligibility score reflects the uncertainty and likely failure to meet multiple inclusion requirements, while still acknowledging that no exclusion criteria are triggered.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT01739972": {
+            "relevance_explanation": "The patient is a 25\u2011year\u2011old woman with classic signs of primary hypothyroidism (fatigue, weight gain, cold intolerance, hair loss, a midline cervical mass consistent with a goiter) and is willing to consent and follow the protocol. The trial targets adults with primary hypothyroidism and compares desiccated thyroid extract to levothyroxine. Because the patient\u2019s condition directly matches the disease focus and she falls within the age range, the case is highly relevant to the trial, though the note lacks information about current levothyroxine therapy which is a key inclusion requirement.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Eligibility hinges on two inclusion criteria: age 18\u201165 (met) and being on levothyroxine for primary hypothyroidism for at least 6 months (not mentioned). The absence of any statement that the patient is currently taking levothyroxine means she does not satisfy this essential inclusion criterion, making her ineligible. No exclusion criteria are triggered, but failure to meet a required inclusion criterion outweighs the lack of exclusions, resulting in a negative eligibility score.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT01260532": {
+            "relevance_explanation": "The patient\u2019s presentation (fatigue, cold intolerance, weight gain, hair loss, and a midline cervical mass consistent with a goiter) strongly suggests autoimmune thyroid disease such as Hashimoto\u2019s thyroiditis. This aligns closely with the trial\u2019s target condition of AITD patients. The only missing link is the specific requirement about having undergone nodular goiter surgery at Wanfang Hospital, which is not mentioned in the note. Overall, the patient is highly relevant to the disease focus of the trial but lacks information for one of the inclusion criteria.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient clearly meets the first inclusion criterion (autoimmune thyroid disease). However, the second inclusion criterion (patients who had nodular goiter surgery at Wanfang Hospital) cannot be verified from the provided information, so we cannot confirm eligibility. Because one inclusion criterion is satisfied and the other is unknown, the eligibility is essentially neutral \u2013 the patient may be eligible pending further clarification, but we cannot assign a positive eligibility score. Hence, the eligibility score is set to 0, reflecting uncertainty rather than a definite ineligibility.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT01576705": {
+            "relevance_explanation": "The trial targets very young children (6\u201118 months) with genetically confirmed Down syndrome and evaluates thyroid/folinic acid treatment. The patient is a 25\u2011year\u2011old woman with signs of hypothyroidism and no evidence of Down syndrome or the required age range. Therefore the patient\u2019s condition and demographics are largely unrelated to the trial\u2019s focus.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet the core inclusion criteria (no Down syndrome, wrong age), she is ineligible for the study. While no exclusion criteria are clearly triggered, the lack of required inclusion factors makes her ineligible, resulting in a negative eligibility score equal to the relevance magnitude.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT00565890": {
+            "relevance_explanation": "The trial targets very low birth weight preterm infants (2\u20134 weeks old) with hypothyroxinemia. The patient is a 25\u2011year\u2011old adult with signs of hypothyroidism, not an infant, and none of the infant\u2011specific inclusion criteria (birth weight, gestational age, lab values, age after birth) apply. The only overlapping element is that the patient is willing to give informed consent, which matches one inclusion criterion. Because virtually all criteria are irrelevant except consent, the overall relevance is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Eligibility requires meeting all applicable inclusion criteria and not meeting any exclusion criteria. The patient does not satisfy any of the infant\u2011specific inclusion criteria (age, birth weight, lab values), which are essential for enrollment. Although she would provide informed consent and there is no explicit exclusion, the lack of fulfillment of the core inclusion criteria makes her ineligible. Therefore, the eligibility score is negative and equal in magnitude to the relevance score.",
+            "eligibility_score_E": -10.0
+        }
+    },
+    "sigir-201417": {
+        "NCT00006319": {
+            "relevance_explanation": "The patient has a documented primary immunodeficiency (common variable immunodeficiency, CVID), which directly aligns with the trial\u2019s focus on primary immunodeficiency diseases. Although the trial specifically mentions Wiskott\u2011Aldrich syndrome and ADA\u2011deficient SCID, its inclusion criteria accept any patient with a clinical history suggestive of a primary immune deficiency. Therefore the patient is highly relevant to the study, though not a perfect disease match, leading to a strong but not absolute relevance.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied: the patient has a primary immunodeficiency, is HIV\u2011negative (no evidence of infection), and is willing to provide informed consent and comply with study procedures (including blood draws). No exclusion criteria apply (the patient can consent and has no HIV infection). Consequently the patient appears fully eligible for enrollment, matching the relevance ceiling.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT02297659": {
+            "relevance_explanation": "The patient matches only a few peripheral aspects of the trial (age \u226518 and adult male) but the core inclusion criterion\u2014being a trauma patient who required damage control laparotomy\u2014is not met. The clinical scenario involves a ruptured liver abscess treated surgically, not a trauma-induced open abdomen. Therefore the overall relevance to a trial focused on hypertonic saline after damage\u2011control laparotomy is low.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the patient does not satisfy the primary inclusion criterion (trauma requiring damage control laparotomy), he is ineligible for the study. No exclusion criteria apply, but the lack of the essential inclusion factor makes the patient ineligible, resulting in a negative eligibility score equal in magnitude to the relevance.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00266513": {
+            "relevance_explanation": "The trial focuses on primary immunodeficiency disorders affecting antibody production, specifically including common variable immunodeficiency (CVID). The patient is a 48\u2011year\u2011old male with a documented history of CVID, directly matching the trial\u2019s target condition. Age, sex, and race are unrestricted, and the patient is able to give informed consent and comply with study procedures. Therefore the patient is highly relevant to the trial.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "Inclusion criterion 0 requires a known or suspected immune defect involving immunoglobulin production; the patient\u2019s CVID satisfies this. Exclusion criterion 0 lists acquired causes of immune deficiency such as HIV, chemotherapy, or malignancy; none of these are mentioned in the note, so the patient is not excluded. With the inclusion criterion met and no exclusion criteria triggered, the patient is fully eligible for the study.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT00263237": {
+            "relevance_explanation": "The patient is a 48\u2011year\u2011old male with a confirmed diagnosis of common variable immunodeficiency (CVID), which is the target condition of the trial. He is able and willing to give informed consent and meets the age and gender inclusion criteria. These factors make the case highly relevant to a study focused on CVID. The only major mismatch is the lack of documented chronic diarrhea or significant weight loss, which are required for inclusion; however, the patient\u2019s acute liver abscess and severe infection are not directly related to the gut\u2011inflammation focus of the trial. Overall, the patient shares the core disease and demographic characteristics, so the relevance is strong but not perfect.",
+            "relevance_score_R": 75.0,
+            "eligibility_explanation": "While the patient satisfies most inclusion criteria (age, CVID diagnosis, consent), he fails the key inclusion criterion regarding chronic gut inflammation (no evidence of chronic diarrhea or >5% weight loss). More critically, the exclusion criterion 17 states that any current serious infection such as a ruptured liver abscess requiring IV antibiotics excludes the subject. The patient clearly has a serious local infection (ruptured liver abscess) and is likely on IV antibiotics, which makes him ineligible. Therefore the eligibility score is negative and equal in magnitude to the relevance score, reflecting a clear exclusion.",
+            "eligibility_score_E": -75.0
+        },
+        "NCT02556359": {
+            "relevance_explanation": "The trial targets immune deficiencies, especially CVID and related DNA\u2011repair disorders, primarily in children with early bone\u2011marrow failure. The patient is a 48\u2011year\u2011old male with documented CVID, which directly aligns with the disease focus, giving strong relevance. However, the patient does not meet the age criterion (the trial emphasizes childhood onset) and there is no evidence of early bone\u2011marrow failure or a defined genetic mutation, which are key aspects of the study. These mismatches lower the overall relevance but do not eliminate it because the core condition (CVID) is present.",
+            "relevance_score_R": 68.0,
+            "eligibility_explanation": "Eligibility requires satisfying all inclusion criteria and none of the exclusions. The patient clearly meets the CVID inclusion criterion. He does not meet the \u2018immune deficiency with early bone\u2011marrow failure in childhood\u2019 criterion due to age and lack of BMF, and there is insufficient information to confirm the \u2018genetic patients\u2019 criterion. Since at least one inclusion criterion is unmet and another is indeterminate, the patient is not fully eligible. No exclusion criteria apply (the patient consents). Therefore, the eligibility score is positive but well below the maximum relevance, reflecting partial eligibility.",
+            "eligibility_score_E": 25.0
+        },
+        "NCT00630513": {
+            "relevance_explanation": "The trial enrolls adult patients with community\u2011acquired intra\u2011abdominal infections (IAI) of mild\u2011to\u2011moderate severity who require surgical intervention within 24\u202fh. The patient is a 48\u2011year\u2011old male with a ruptured liver abscess (an intra\u2011abdominal abscess) that was surgically drained shortly after diagnosis, satisfying the core disease concept and the surgical timing requirement. Although the trial lists several specific infection sources (appendicitis, diverticulitis, cholecystitis, perforated viscus, trauma), the broader inclusion criterion for intra\u2011abdominal abscess (including liver) directly matches the patient. Therefore the patient is highly relevant to the study, though the exact infection type (liver abscess) is not the most common target, so the relevance is not perfect.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets the adult age requirement and the need for surgical intervention within 24\u202fh. He fulfills inclusion criterion 0 (surgical IAI) and inclusion criterion 7 (intra\u2011abdominal abscess). No exclusion criteria apply: there is no trauma, no non\u2011infectious etiology, no pregnancy/lactation, no known antibiotic allergies, no severe hepatic/renal disease reported, and no concurrent infection that would confound assessment. Consequently, the patient is fully eligible for the trial within the relevance bound.",
+            "eligibility_score_E": 85.0
         }
     }
 }
