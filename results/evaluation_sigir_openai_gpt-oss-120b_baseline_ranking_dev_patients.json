@@ -2,6 +2,11 @@
   "corpus": "sigir",
   "model": "openai/gpt-oss-120b",
   "k": 10,
+  "score": {
+    "penalty": 1.0,
+    "weight": 1.0
+  },
+  "min_relevance": null,
   "variants": {
     "baseline": {
       "patients": 6,

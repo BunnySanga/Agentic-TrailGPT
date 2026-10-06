@@ -245,8 +245,10 @@ def score(rows: list[dict], store: dict) -> dict:
             continue
         pairs_scored.add(pair_key(row))
         outputs[str(row["annotation_id"])] = stored["labels"].get(str(row["annotation_id"]))
-    for key in pairs_scored:
+    for key in sorted(pairs_scored):  # fixed order, so float sums are reproducible
         usage.update({k: v for k, v in store[key].get("usage", {}).items() if isinstance(v, (int, float))})
+    if "seconds" in usage:
+        usage["seconds"] = round(usage["seconds"], 2)
 
     scored = [row for row in rows if pair_key(row) in pairs_scored]
     baseline_ok = agent_ok = fixed = broken = changed = not_reviewed = 0
