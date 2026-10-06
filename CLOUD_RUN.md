@@ -11,6 +11,7 @@ the same command the next day to continue from that branch.
 | `/criteria-test [variant] [split]` | Criterion test of v1, v2 or v3 against the physician labels |
 | `/ranking-baseline` | TrialGPT matching and aggregation (no agents) for the 18 ranking-study patients |
 | `/ranking-review` | The Reviewer on the 6 development patients, after the baseline |
+| `/ranking-heldout <cutoff>` | TrialGPT + the Reviewer on the 46 held-out patients (phase 2 of `RANKING_STUDY_PLAN.md`) |
 
 ## One-time setup
 
@@ -93,6 +94,15 @@ Type `/ranking-review` once the baseline has finished the development
 patients. It runs the Reviewer with `--min-relevance 0`, so every trial with a
 negative label is reviewed once, and then scores the development patients at
 several cutoffs and score settings without further API calls.
+
+## Held-out run
+
+After the settings are chosen on the development patients (phase 1 of
+`RANKING_STUDY_PLAN.md`), type `/ranking-heldout <cutoff>` every day, for
+example `/ranking-heldout 50`. It runs TrialGPT and the Reviewer on
+`ranking_test_patients.txt`, then `ranking_test_extra_patients.txt` (46
+patients, 2,689 trials, about 12 days), and reports progress only, never
+scores.
 
 ## Every day
 

@@ -6,6 +6,7 @@ Usage:
     python evaluate_rankings.py --patients-file ranking_dev_patients.txt --penalty 0.5 --weight 2
     python evaluate_rankings.py --patients-file ranking_dev_patients.txt --grid
     python evaluate_rankings.py --patients-file ranking_dev_patients.txt --min-relevance 60
+    python evaluate_rankings.py --patients-file ranking_test_patients.txt --patients-file ranking_test_extra_patients.txt
 
 Variants:
     baseline  TrialGPT matching + TrialGPT aggregation
@@ -30,6 +31,7 @@ import csv
 import json
 import math
 import os
+import random
 import sys
 from pathlib import Path
 
@@ -51,6 +53,8 @@ STAGES_BY_VARIANT = {
 USAGE_FIELDS = ("calls", "prompt_tokens", "completion_tokens", "total_tokens", "seconds")
 GRID_PENALTIES = (1.0, 0.75, 0.5, 0.25, 0.0)
 GRID_WEIGHTS = (1.0, 1.5, 2.0, 3.0)
+BOOTSTRAP_SAMPLES = 10_000
+BOOTSTRAP_SEED = 2024
 
 
 def result_paths(corpus: str, model: str) -> dict[str, Path]:
@@ -314,6 +318,27 @@ def _scores(rankings: dict[str, list[str]], qrels: dict) -> dict:
     }
 
 
+def paired_comparison(reference: dict, other: dict, metric: str = f"ndcg@{K}") -> dict:
+    """Per-patient comparison of two scored runs: mean difference, wins, and a bootstrap 95% CI."""
+    patients = sorted(set(reference) & set(other))
+    diffs = [other[patient_id][metric] - reference[patient_id][metric] for patient_id in patients]
+    if not diffs:
+        return {"patients": 0}
+    rng = random.Random(BOOTSTRAP_SEED)
+    means = sorted(
+        sum(rng.choice(diffs) for _ in diffs) / len(diffs) for _ in range(BOOTSTRAP_SAMPLES)
+    )
+    return {
+        "patients": len(diffs),
+        "metric": metric,
+        "mean_difference": sum(diffs) / len(diffs),
+        "better": sum(1 for diff in diffs if diff > 1e-12),
+        "same": sum(1 for diff in diffs if abs(diff) <= 1e-12),
+        "worse": sum(1 for diff in diffs if diff < -1e-12),
+        "ci95": [means[int(0.025 * BOOTSTRAP_SAMPLES)], means[int(0.975 * BOOTSTRAP_SAMPLES) - 1]],
+    }
+
+
 def evaluate(
     corpus: str,
     model: str,
@@ -359,6 +384,21 @@ def evaluate(
         "score": {"penalty": penalty, "weight": weight}, "min_relevance": min_relevance,
         "variants": {variant: _scores(rank_all(variant, penalty, weight), qrels) for variant in variants},
     }
+    # Everything is compared with TrialGPT as published: baseline, TrialGPT's formula.
+    if "baseline" in variants:
+        trialgpt = (
+            report["variants"]["baseline"] if (penalty, weight) == (1.0, 1.0)
+            else _scores(rank_all("baseline", 1.0, 1.0), qrels)
+        )
+        report["trialgpt"] = {key: value for key, value in trialgpt.items() if key != "per_patient"}
+        report["comparisons"] = {
+            variant: {
+                metric: paired_comparison(trialgpt["per_patient"], scores["per_patient"], metric)
+                for metric in (f"ndcg@{K}", f"p@{K}")
+            }
+            for variant, scores in report["variants"].items()
+            if not (variant == "baseline" and (penalty, weight) == (1.0, 1.0))
+        }
     # Every variant is ranked on the same patients, so any variant's keys will do.
     ranked_patients = sorted(next(iter(inputs.values()), {}))
     reviewed_trials = (
@@ -400,6 +440,17 @@ def print_report(report: dict) -> None:
         print(f"  {variant:<10} {scores[f'ndcg@{K}']:>8.4f} {scores[f'p@{K}']:>8.4f}")
     print("  (P@10 counts eligible trials, qrels label 2. NDCG@10 uses graded labels 0-2.)")
 
+    if report.get("comparisons"):
+        reference = report["trialgpt"]
+        print(f"\nAgainst TrialGPT as published (NDCG@10 {reference[f'ndcg@{K}']:.4f}, P@10 {reference[f'p@{K}']:.4f}):")
+        for variant, metrics in report["comparisons"].items():
+            for metric, item in metrics.items():
+                if not item.get("patients"):
+                    continue
+                low, high = item["ci95"]
+                print(f"  {variant:<10} {metric:<8} {item['mean_difference']:+.4f} (95% CI {low:+.4f} to {high:+.4f}); "
+                      f"better for {item['better']}, same {item['same']}, worse {item['worse']} of {item['patients']} patients")
+
     if report.get("grid"):
         print("\nScore grid, NDCG@10 / P@10")
         for row in report["grid"]:
@@ -440,7 +491,8 @@ def main() -> int:
     parser.add_argument("--corpus", default="sigir")
     parser.add_argument("--model", default=os.getenv("MODEL", "openai/gpt-oss-120b"))
     parser.add_argument("--variants", default="baseline,reviewed", help="comma-separated: baseline, reviewed")
-    parser.add_argument("--patients-file", type=Path, help="score only the patients listed in this file")
+    parser.add_argument("--patients-file", type=Path, action="append",
+                        help="score only the patients listed in this file (repeat to combine lists)")
     parser.add_argument("--penalty", type=float, default=1.0, help="score lost per negative label (TrialGPT: 1)")
     parser.add_argument("--weight", type=float, default=1.0, help="weight on (R+E)/100 (TrialGPT: 1)")
     parser.add_argument("--min-relevance", type=float, default=None,
@@ -456,7 +508,7 @@ def main() -> int:
     if args.patients_file:
         from run_parallel import read_patients_file
 
-        patient_ids = read_patients_file(args.patients_file)
+        patient_ids = [patient_id for path in args.patients_file for patient_id in read_patients_file(path)]
 
     report = evaluate(
         args.corpus, args.model, variants=variants, patient_ids=patient_ids,
@@ -464,7 +516,7 @@ def main() -> int:
     )
     print_report(report)
 
-    suffix = "_".join(variants) + (f"_{args.patients_file.stem}" if args.patients_file else "")
+    suffix = "_".join(variants) + "".join(f"_{path.stem}" for path in args.patients_file or [])
     if (args.penalty, args.weight) != (1.0, 1.0):
         suffix += f"_p{args.penalty:g}_w{args.weight:g}"
     if args.min_relevance is not None:

@@ -58,7 +58,7 @@ Reviewer is v3's Reviewer without Assertion, which changed almost no labels.
 | `evaluate_criteria.py` | Criterion test: scores v1, v2, v3 against the physician labels |
 | `evaluate_rankings.py` | Ranking test: NDCG@10, P@10 and token cost, with adjustable score settings |
 | `check_groq_keys.py` | Checks that every API key works and shows its rate limits |
-| `*_patients.txt` | Fixed patient lists for the criterion test and the ranking study |
+| `*_patients.txt` | Fixed patient lists: criterion test; ranking development (6) and held-out (12 + 34) |
 | `tests/` | Unit tests (no API calls) |
 | `results/` | All outputs; see [results/README.md](results/README.md) |
 
@@ -100,6 +100,7 @@ The criterion test uses `dataset/criterion_annotations.json` (included), taken f
 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-Long runs are done in Claude Code cloud sessions; see [CLOUD_RUN.md](CLOUD_RUN.md).
+The ranking study follows [RANKING_STUDY_PLAN.md](RANKING_STUDY_PLAN.md). Long runs are done in Claude Code
+cloud sessions; see [CLOUD_RUN.md](CLOUD_RUN.md).
 Never run `run_parallel.py` locally while a cloud run is going: both would use
 the same keys and write diverging result files.
