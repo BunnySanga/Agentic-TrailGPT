@@ -36744,6 +36744,39 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT02633735": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 15-year-old (within 5-20) presenting with abdominal pain (sentence 0).",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Criterion refers to provider specialty, not patient characteristics; thus not applicable to patient eligibility.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion refers to specific comorbid conditions, but the note provides no information about any comorbidities; absence is not confirmed.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No mention of prior abdominal surgery; such a history would likely be noted if present, so we infer the patient has not had surgery.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The criterion concerns treatment for certain comorbid conditions, which are not described in the note; we cannot confirm presence or absence.",
+                        [],
+                        "not enough information"
+                    ]
+                }
             }
         }
     }

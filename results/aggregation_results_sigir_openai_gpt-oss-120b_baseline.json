@@ -2895,6 +2895,12 @@
             "relevance_score_R": 10.0,
             "eligibility_explanation": "Eligibility requires meeting all applicable inclusion criteria and not meeting any exclusion criteria. The patient does not satisfy any of the infant\u2011specific inclusion criteria (age, birth weight, lab values), which are essential for enrollment. Although she would provide informed consent and there is no explicit exclusion, the lack of fulfillment of the core inclusion criteria makes her ineligible. Therefore, the eligibility score is negative and equal in magnitude to the relevance score.",
             "eligibility_score_E": -10.0
+        },
+        "NCT00261898": {
+            "relevance_explanation": "The trial targets obese, premenopausal women (or men) aged 18\u201150 who are chronically sleep\u2011deprived. The patient is a 25\u2011year\u2011old premenopausal woman, which matches the age and sex criteria, but there is no evidence of obesity (no BMI or weight data) and she reports sleeping 8\u202fhours/night, which is opposite of the required chronic sleep deprivation. Therefore only a small portion of the trial\u2019s inclusion criteria aligns with the patient\u2019s profile, giving a low overall relevance.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Even though the patient meets the age and sex component, she fails the key inclusion criteria (obesity and chronic sleep deprivation). Moreover, she exhibits multiple signs of hypothyroidism (hair loss, voice change, weight gain, cold intolerance, thyroid mass) which is an explicit exclusion criterion. Consequently, the patient is ineligible for the study. The eligibility score is set to the negative of the relevance score, reflecting a clear exclusion.",
+            "eligibility_score_E": -12.0
         }
     },
     "sigir-201417": {
@@ -2933,6 +2939,26 @@
             "relevance_score_R": 85.0,
             "eligibility_explanation": "The patient meets the adult age requirement and the need for surgical intervention within 24\u202fh. He fulfills inclusion criterion 0 (surgical IAI) and inclusion criterion 7 (intra\u2011abdominal abscess). No exclusion criteria apply: there is no trauma, no non\u2011infectious etiology, no pregnancy/lactation, no known antibiotic allergies, no severe hepatic/renal disease reported, and no concurrent infection that would confound assessment. Consequently, the patient is fully eligible for the trial within the relevance bound.",
             "eligibility_score_E": 85.0
+        },
+        "NCT01147640": {
+            "relevance_explanation": "The patient is a 48\u2011year\u2011old adult male with a ruptured liver abscess that required emergent laparotomy, which directly matches the target condition (complicated intra\u2011abdominal infection) and several inclusion criteria (age, diagnosis of intra\u2011abdominal abscess, need for surgical source control, ability to consent and comply). The note provides clear evidence for these points, making the case highly relevant to the trial. Some exclusion criteria lack data (renal function, labs, concomitant antibiotics), but the presence of septic shock and a known immunodeficiency are clearly documented and are strong exclusion factors. Overall, the patient\u2019s clinical picture aligns closely with the trial\u2019s disease focus, yielding a high relevance score.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "While the patient meets all applicable inclusion criteria, two exclusion criteria are definitively met: (1) evidence of a life\u2011threatening illness/septic shock (tachycardia, hypotension) and (2) an immunocompromising condition (common variable immunodeficiency). These exclusions make the patient ineligible for enrollment. Other exclusion items are unknown, but the confirmed exclusions are sufficient to deem the patient ineligible, resulting in a negative eligibility score close to the maximum negative value allowed by the relevance.",
+            "eligibility_score_E": -80.0
+        }
+    },
+    "sigir-201422": {
+        "NCT00674726": {
+            "relevance_explanation": "The patient note describes a classic case of acute appendicitis, which is one of the two target conditions of the trial (appendicitis vs. gastroenteritis). The trial is focused on measuring axillo\u2011rectal temperature in patients with acute appendicitis, so the patient is directly relevant to the study population. Although the patient does not meet the gastroenteritis arm or the age >15 requirement, the core disease of interest is present, giving a high but not perfect relevance.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "To be eligible, the patient must satisfy all inclusion criteria and none of the exclusion criteria. The patient meets inclusion criterion 0 (acute appendicitis) but fails inclusion criterion 1 (acute gastroenteritis) and inclusion criterion 2 (age >15 years). No exclusion criteria are triggered. Because the patient does not fulfill all required inclusions, she is ineligible for the trial. The eligibility score therefore reflects a negative outcome limited by the relevance magnitude.",
+            "eligibility_score_E": -80.0
+        },
+        "NCT02633735": {
+            "relevance_explanation": "The trial focuses on pediatric patients (ages 5\u201120) presenting to the emergency department with acute abdominal pain, specifically targeting appendicitis. The patient is a 15\u2011year\u2011old girl who presented to the ER with classic symptoms and imaging findings of appendicitis. This aligns directly with the trial\u2019s target population and condition, making the patient highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Inclusion criterion 0 (age 5\u201120 with abdominal pain) is satisfied. The other inclusion criterion concerns provider specialty and does not affect patient eligibility. For the exclusion criteria, there is no evidence of comorbid conditions, prior abdominal surgery, or treatment for excluded comorbidities in the note; the absence of such information is reasonable to interpret as the patient not having these exclusions. Therefore, the patient appears to meet all inclusion requirements and is not excluded by any known criteria, though some exclusion items lack explicit confirmation. Overall, the patient is likely eligible, though a small uncertainty remains.",
+            "eligibility_score_E": 78.0
         }
     }
 }

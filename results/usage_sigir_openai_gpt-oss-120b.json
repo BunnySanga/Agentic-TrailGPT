@@ -7683,6 +7683,13 @@
         "completion_tokens": 1856,
         "total_tokens": 5162,
         "seconds": 5.16
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 2782,
+        "completion_tokens": 306,
+        "total_tokens": 3088,
+        "seconds": 1.52
       }
     }
   },
@@ -7790,6 +7797,13 @@
         "completion_tokens": 1952,
         "total_tokens": 4990,
         "seconds": 5.29
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 2981,
+        "completion_tokens": 394,
+        "total_tokens": 3375,
+        "seconds": 1.53
       }
     }
   },
@@ -7801,6 +7815,29 @@
         "completion_tokens": 512,
         "total_tokens": 2071,
         "seconds": 2.44
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 846,
+        "completion_tokens": 397,
+        "total_tokens": 1243,
+        "seconds": 2.32
+      }
+    },
+    "NCT02633735": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 1920,
+        "completion_tokens": 490,
+        "total_tokens": 2410,
+        "seconds": 2.45
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 1018,
+        "completion_tokens": 303,
+        "total_tokens": 1321,
+        "seconds": 1.53
       }
     }
   }
