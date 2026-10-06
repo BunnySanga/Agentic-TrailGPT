@@ -1,0 +1,485 @@
+{
+  "corpus": "sigir",
+  "model": "openai/gpt-oss-120b",
+  "k": 10,
+  "score": {
+    "penalty": 1.0,
+    "weight": 1.0
+  },
+  "min_relevance": 70.0,
+  "variants": {
+    "baseline": {
+      "patients": 6,
+      "ndcg@10": 0.5875502428535162,
+      "p@10": 0.18333333333333335,
+      "per_patient": {
+        "sigir-20149": {
+          "ndcg@10": 0.6587634829133477,
+          "p@10": 0.3
+        },
+        "sigir-201510": {
+          "ndcg@10": 0.5113173177362986,
+          "p@10": 0.1
+        },
+        "sigir-201511": {
+          "ndcg@10": 0.3433834033942394,
+          "p@10": 0.0
+        },
+        "sigir-201513": {
+          "ndcg@10": 0.6275270415439392,
+          "p@10": 0.1
+        },
+        "sigir-201514": {
+          "ndcg@10": 0.7023202834571464,
+          "p@10": 0.2
+        },
+        "sigir-201520": {
+          "ndcg@10": 0.6819899280761257,
+          "p@10": 0.4
+        }
+      }
+    },
+    "reviewed": {
+      "patients": 6,
+      "ndcg@10": 0.5875502428535162,
+      "p@10": 0.18333333333333335,
+      "per_patient": {
+        "sigir-20149": {
+          "ndcg@10": 0.6587634829133477,
+          "p@10": 0.3
+        },
+        "sigir-201510": {
+          "ndcg@10": 0.5113173177362986,
+          "p@10": 0.1
+        },
+        "sigir-201511": {
+          "ndcg@10": 0.3433834033942394,
+          "p@10": 0.0
+        },
+        "sigir-201513": {
+          "ndcg@10": 0.6275270415439392,
+          "p@10": 0.1
+        },
+        "sigir-201514": {
+          "ndcg@10": 0.7023202834571464,
+          "p@10": 0.2
+        },
+        "sigir-201520": {
+          "ndcg@10": 0.6819899280761257,
+          "p@10": 0.4
+        }
+      }
+    }
+  },
+  "cost": {
+    "patients": 6,
+    "trials": 258,
+    "baseline": {
+      "calls": 775,
+      "prompt_tokens": 890841,
+      "completion_tokens": 302883,
+      "total_tokens": 1193724,
+      "seconds": 1152.29
+    },
+    "reviewed": {
+      "calls": 812,
+      "prompt_tokens": 935382,
+      "completion_tokens": 313139,
+      "total_tokens": 1248521,
+      "seconds": 1201.11
+    },
+    "per_patient": {
+      "sigir-20149": {
+        "trials": 43,
+        "baseline": {
+          "calls": 129,
+          "prompt_tokens": 136728,
+          "completion_tokens": 47010,
+          "total_tokens": 183738,
+          "seconds": 184.22000000000006
+        },
+        "reviewed": {
+          "calls": 132,
+          "prompt_tokens": 139970,
+          "completion_tokens": 47783,
+          "total_tokens": 187753,
+          "seconds": 187.97000000000003
+        },
+        "overhead_tokens_pct": 2.1851767190238274
+      },
+      "sigir-201510": {
+        "trials": 42,
+        "baseline": {
+          "calls": 126,
+          "prompt_tokens": 142432,
+          "completion_tokens": 56396,
+          "total_tokens": 198828,
+          "seconds": 198.29
+        },
+        "reviewed": {
+          "calls": 131,
+          "prompt_tokens": 147109,
+          "completion_tokens": 57440,
+          "total_tokens": 204549,
+          "seconds": 203.38000000000005
+        },
+        "overhead_tokens_pct": 2.877361337437383
+      },
+      "sigir-201511": {
+        "trials": 45,
+        "baseline": {
+          "calls": 135,
+          "prompt_tokens": 139478,
+          "completion_tokens": 46500,
+          "total_tokens": 185978,
+          "seconds": 185.89
+        },
+        "reviewed": {
+          "calls": 142,
+          "prompt_tokens": 146565,
+          "completion_tokens": 48225,
+          "total_tokens": 194790,
+          "seconds": 195.88
+        },
+        "overhead_tokens_pct": 4.738194840249922
+      },
+      "sigir-201513": {
+        "trials": 45,
+        "baseline": {
+          "calls": 135,
+          "prompt_tokens": 157889,
+          "completion_tokens": 53662,
+          "total_tokens": 211551,
+          "seconds": 212.07999999999998
+        },
+        "reviewed": {
+          "calls": 137,
+          "prompt_tokens": 160385,
+          "completion_tokens": 54301,
+          "total_tokens": 214686,
+          "seconds": 215.54
+        },
+        "overhead_tokens_pct": 1.481912163024519
+      },
+      "sigir-201514": {
+        "trials": 41,
+        "baseline": {
+          "calls": 123,
+          "prompt_tokens": 157510,
+          "completion_tokens": 49685,
+          "total_tokens": 207195,
+          "seconds": 188.46
+        },
+        "reviewed": {
+          "calls": 133,
+          "prompt_tokens": 170600,
+          "completion_tokens": 52504,
+          "total_tokens": 223104,
+          "seconds": 200.79999999999998
+        },
+        "overhead_tokens_pct": 7.678274089625716
+      },
+      "sigir-201520": {
+        "trials": 42,
+        "baseline": {
+          "calls": 127,
+          "prompt_tokens": 156804,
+          "completion_tokens": 49630,
+          "total_tokens": 206434,
+          "seconds": 183.35
+        },
+        "reviewed": {
+          "calls": 137,
+          "prompt_tokens": 170753,
+          "completion_tokens": 52886,
+          "total_tokens": 223639,
+          "seconds": 197.54
+        },
+        "overhead_tokens_pct": 8.33438290204133
+      }
+    },
+    "overhead_tokens_pct": 4.590424587258026
+  },
+  "grid": [
+    {
+      "penalty": 1.0,
+      "weight": 1.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.5875502428535162,
+        "p@10": 0.18333333333333335
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.5875502428535162,
+        "p@10": 0.18333333333333335
+      }
+    },
+    {
+      "penalty": 1.0,
+      "weight": 1.5,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6156122350116612,
+        "p@10": 0.20000000000000004
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6156122350116612,
+        "p@10": 0.20000000000000004
+      }
+    },
+    {
+      "penalty": 1.0,
+      "weight": 2.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6243331805773654,
+        "p@10": 0.20000000000000004
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6243331805773654,
+        "p@10": 0.20000000000000004
+      }
+    },
+    {
+      "penalty": 1.0,
+      "weight": 3.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6456389020930274,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6456389020930274,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.75,
+      "weight": 1.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.5960655189652364,
+        "p@10": 0.18333333333333335
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.5960655189652364,
+        "p@10": 0.18333333333333335
+      }
+    },
+    {
+      "penalty": 0.75,
+      "weight": 1.5,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6226735293455774,
+        "p@10": 0.20000000000000004
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6226735293455774,
+        "p@10": 0.20000000000000004
+      }
+    },
+    {
+      "penalty": 0.75,
+      "weight": 2.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6424085557288147,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6417626092022563,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.75,
+      "weight": 3.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6609505206099758,
+        "p@10": 0.2333333333333333
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6609505206099758,
+        "p@10": 0.2333333333333333
+      }
+    },
+    {
+      "penalty": 0.5,
+      "weight": 1.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6256983515049043,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6256983515049043,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.5,
+      "weight": 1.5,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6394231526347336,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6394231526347336,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.5,
+      "weight": 2.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6410037987414722,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6410037987414722,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.5,
+      "weight": 3.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6599318806101278,
+        "p@10": 0.2333333333333333
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6599318806101278,
+        "p@10": 0.2333333333333333
+      }
+    },
+    {
+      "penalty": 0.25,
+      "weight": 1.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6397344726928811,
+        "p@10": 0.2333333333333333
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6397344726928811,
+        "p@10": 0.2333333333333333
+      }
+    },
+    {
+      "penalty": 0.25,
+      "weight": 1.5,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6394247600020561,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6394247600020561,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.25,
+      "weight": 2.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6405862637216811,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6405862637216811,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.25,
+      "weight": 3.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6631430662499258,
+        "p@10": 0.2333333333333333
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6631430662499258,
+        "p@10": 0.2333333333333333
+      }
+    },
+    {
+      "penalty": 0.0,
+      "weight": 1.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6264599287133176,
+        "p@10": 0.25
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6264599287133176,
+        "p@10": 0.25
+      }
+    },
+    {
+      "penalty": 0.0,
+      "weight": 1.5,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6413312352931291,
+        "p@10": 0.2333333333333333
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6413312352931291,
+        "p@10": 0.2333333333333333
+      }
+    },
+    {
+      "penalty": 0.0,
+      "weight": 2.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.633994935452325,
+        "p@10": 0.21666666666666665
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.633994935452325,
+        "p@10": 0.21666666666666665
+      }
+    },
+    {
+      "penalty": 0.0,
+      "weight": 3.0,
+      "baseline": {
+        "patients": 6,
+        "ndcg@10": 0.6474905772519913,
+        "p@10": 0.2333333333333333
+      },
+      "reviewed": {
+        "patients": 6,
+        "ndcg@10": 0.6474905772519913,
+        "p@10": 0.2333333333333333
+      }
+    }
+  ]
+}
