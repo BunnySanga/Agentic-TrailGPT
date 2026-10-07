@@ -11,7 +11,7 @@ the same command the next day to continue from that branch.
 | `/criteria-test [variant] [split]` | Criterion test of v1, v2 or v3 against the physician labels |
 | `/ranking-baseline` | TrialGPT matching and aggregation (no agents) for the 18 ranking-study patients |
 | `/ranking-review` | The Reviewer on the 6 development patients, after the baseline |
-| `/ranking-heldout <cutoff>` | TrialGPT + the Reviewer on the 46 held-out patients (phase 2 of `RANKING_STUDY_PLAN.md`) |
+| `/ranking-heldout none` | TrialGPT on the 46 held-out patients (phase 2 of `RANKING_STUDY_PLAN.md`; the Reviewer was dropped in phase 1) |
 
 ## One-time setup
 
@@ -97,12 +97,12 @@ several cutoffs and score settings without further API calls.
 
 ## Held-out run
 
-After the settings are chosen on the development patients (phase 1 of
-`RANKING_STUDY_PLAN.md`), type `/ranking-heldout <cutoff>` every day, for
-example `/ranking-heldout 50`. It runs TrialGPT and the Reviewer on
-`ranking_test_patients.txt`, then `ranking_test_extra_patients.txt` (46
-patients, 2,689 trials, about 12 days), and reports progress only, never
-scores.
+Phase 1 of `RANKING_STUDY_PLAN.md` dropped the Reviewer and chose the new
+score (penalty 0.25, weight 3), so the held-out run is TrialGPT only. Type
+`/ranking-heldout none` every day. It runs TrialGPT on
+`ranking_test_patients.txt` (already done) and then
+`ranking_test_extra_patients.txt` (34 patients, 2,335 trials, about 11 days),
+and reports progress only, never scores.
 
 ## Every day
 

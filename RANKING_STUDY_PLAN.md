@@ -86,11 +86,42 @@ python evaluate_rankings.py --variants baseline,reviewed \
 
 ## Chosen settings
 
-To be filled in after phase 1.
+Filled in 2026-10-07 from phase 1 (Reviewer run on the 6 development patients,
+results commit 1e1bf44), by the rule above.
 
 | Setting | Value |
 |---|---|
-| Reviewer cutoff (R ≥) | |
-| Penalty per negative label | |
-| Weight on (R+E)/100 | |
-| Development NDCG@10 (TrialGPT formula → chosen) | |
+| Reviewer cutoff (R ≥) | **none**: Reviewer dropped |
+| Penalty per negative label | **0.25** |
+| Weight on (R+E)/100 | **3** |
+| Development NDCG@10 (TrialGPT formula → chosen) | 0.588 → 0.663 (P@10 0.183 → 0.233) |
+| Extra cost on top of TrialGPT | 0 tokens |
+
+Why the Reviewer is dropped: at every cutoff (0, 50, 70) and in 19 of the 20
+grid rows, its development NDCG@10 equals the score-only version (in the
+other row it is 0.0006 lower), so it never reaches the required +0.01. It
+checked 424 labels on 189 trials and changed 31: 21 to "not enough
+information", 7 "excluded" → "not excluded", 3 "not included" → "included".
+21 of the 27 changed trials are irrelevant to the patient. Of the 11 eligible
+trials carrying a −1 penalty it reviewed all 11 and kept the penalty on 10.
+Its cost would have been +22% (cutoff 0), +8.4% (50) or +4.6% (70).
+
+The best score-only row is penalty 0.25, weight 3 (0.6631), ahead of penalty
+0.75, weight 3 (0.6610) and penalty 0.5, weight 3 (0.6599). It was chosen as
+the best of 20 rows on 6 patients, so its development gain (+0.076, 95% CI
++0.025 to +0.132) is optimistic; the held-out run decides.
+
+Phase 2: `/ranking-heldout none` (TrialGPT only; the 12 patients in
+`ranking_test_patients.txt` are already done, so it continues with the 34 in
+`ranking_test_extra_patients.txt`).
+
+Phase 3 command:
+
+```bash
+python evaluate_rankings.py --variants baseline \
+  --patients-file ranking_test_patients.txt --patients-file ranking_test_extra_patients.txt \
+  --penalty 0.25 --weight 3
+```
+
+This reports TrialGPT as published (penalty 1, weight 1) against Agentic
+TrailGPT (penalty 0.25, weight 3) on the same TrialGPT outputs.
