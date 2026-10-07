@@ -44095,6 +44095,1347 @@
                         "not enough information"
                     ]
                 }
+            },
+            "NCT01647776": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires patients undergoing routine colonoscopy. The note describes a sigmoidoscopy, not a colonoscopy, so the premise is not met.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient explicitly states he will provide informed consent (sentence 5); no evidence of inability.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of inability to fill questionnaires; assume capable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No record of prior polyps within past 10 years; current polyps are present now, not past history.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Siblings had hundreds of adenomas and required total proctocolectomy, strongly suggesting familial adenomatous polyposis; thus family history of FAP present (sentences 0-2).",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "No mention of inflammatory bowel disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No mention of any personal cancer diagnosis.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No history of major colon surgeries for the patient.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00055848": {
+                "inclusion": {
+                    "1": [
+                        "Patient is 21 with adenomatous polyps confirmed by sigmoidoscopy and biopsy (sentences 0,3,4). Meets age and diagnosis requirement.",
+                        [
+                            0,
+                            3,
+                            4
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient has living full siblings with polyps who underwent proctocolectomy (sentence 1). Siblings are alive and have polyps diagnosed under age 70.",
+                        [
+                            1
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "No mention of familial adenomatous polyposis syndrome in the note. Absence of such a diagnosis is assumed.",
+                        [],
+                        "included"
+                    ],
+                    "4": [
+                        "No reference to hereditary nonpolyposis colon cancer or Amsterdam criteria in the note. Assume not present.",
+                        [],
+                        "included"
+                    ],
+                    "5": [
+                        "No information about I1370K adenomatous polyposis variant. Lack of mention is taken as absence.",
+                        [],
+                        "included"
+                    ],
+                    "6": [
+                        "The note does not state enrollment in any of the listed trials (CLB-9581, CLB-89803, CLB-80001). Therefore the patient is not enrolled.",
+                        [],
+                        "not included"
+                    ],
+                    "11": [
+                        "Patient age at diagnosis is 21, clearly under 70 (sentence 0).",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "13": [
+                        "No psychiatric illness is reported; assume none that would preclude consent.",
+                        [],
+                        "included"
+                    ],
+                    "14": [
+                        "No inflammatory bowel disease is mentioned for patient or siblings; assume absent.",
+                        [],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00253812": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires confirmed Familial Adenomatous Polyposis, a prior ileo-rectal anastomosis, and \u226420 adenomas at the last surveillance. The note shows the patient has dozens of adenomas (likely >20) and no mention of any ileo-rectal anastomosis, so the premise is not satisfied.",
+                        [
+                            0,
+                            3,
+                            4
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion applies (patient is >18 and must give consent). The note states the patient is 21 years old (sentence 0) and will provide informed consent (sentence 5). It also reports \"dozens of small colonic polyps\" (sentence 3), which implies more than 20 adenomas, satisfying the exclusion condition of >20 adenomas.",
+                        [
+                            0,
+                            3,
+                            5
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT02081742": {
+                "inclusion": {
+                    "0": [
+                        "Criterion describes study design rationale rather than a patient eligibility requirement; thus not applicable to individual screening.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Patient is 21 years old (sentence 0) which is outside the required 50-69 age range, and has a strong family history of polyposis, a known risk factor; also no mention of a positive FIT. Therefore does not meet the inclusion criteria.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No symptoms of colorectal disease are mentioned; criterion is applicable but no evidence of symptoms.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient has dozens of colonic polyps and biopsied adenomas, meeting the definition of colorectal polyposis/adenoma; thus meets exclusion.",
+                        [
+                            3,
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "Family history of numerous polyps and colectomies suggests possible hereditary polyposis, but no explicit diagnosis of FAP or other hereditary syndrome is provided; insufficient evidence to confirm.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No severe co\u2011morbidity or limiting chronic illness is described in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No contraindications to colon capsule or virtual colonoscopy are mentioned.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02521727": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the participant to be a first-degree relative aged 40 to 70 years. The patient is 21 years old (sentence 0) and thus does not meet the age requirement; no other evidence can change this.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "This criterion applies to first-degree relatives of patients with negative colonoscopy findings. The patient is a first-degree relative of siblings who have numerous adenomas (sentences 1\u20114), not negative findings, so the premise is not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of CRC in first-degree relatives; patient\u2019s siblings are reported as well without neoplasms.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No family history meeting Amsterdam criteria for HNPCC; no mention of colorectal cancer in three or more relatives.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Family members have numerous adenomas and underwent colectomy, but there is no documented diagnosis of Familial Adenomatous Polyposis.",
+                        [
+                            1
+                        ],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of inflammatory bowel disease in patient or siblings.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient is undergoing sigmoidoscopy now; no prior colonoscopy within the past 5 years is documented.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No severe cardio\u2011pulmonary or other medical comorbidities are described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Patient is male, so pregnancy is not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT00843375": {
+                "inclusion": {
+                    "0": [
+                        "Patient explicitly states he will provide informed consent (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No information about ability to tolerate 60\u202fml blood draw; cannot infer from note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Age 21 is stated (sentence 0), meeting adult \u226518 requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Willingness to collect stool samples not mentioned; cannot assume.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient is male; pregnancy/nursing not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "This is a heading for sub\u2011criteria, not a separate eligibility condition.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Patient has adenomas, no mention of colorectal adenocarcinoma; does not meet cancer criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "7": [
+                        "Biopsied adenomas confirmed pathologically (sentences 3 and 4).",
+                        [
+                            3,
+                            4
+                        ],
+                        "included"
+                    ],
+                    "8": [
+                        "No information about higher\u2011risk non\u2011neoplastic status; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "Patient currently has adenomas present, so does not meet 'history with none present' criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "10": [
+                        "No personal history of colorectal cancer is described.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of cancer within last 3 years; patient has no cancer history.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Family history refers to adenomas, not colorectal cancer; no CRC in first-degree relatives.",
+                        [
+                            0,
+                            1
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No stool test results are provided; assume no positive test.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient has multiple adenomas, thus not average risk non\u2011neoplastic.",
+                        [
+                            3,
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient has current adenomas, which directly violates the criterion of no colorectal neoplasia.",
+                        [
+                            3,
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "No history of CRC; criterion about previously treated CRC does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Criterion describes inclusion possibilities, not an exclusion; not applicable as exclusion.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No hyperplastic polyps reported; only benign adenomas.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Benign mucosal polyps are not mentioned; adenomas are different.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No polypoid granulation tissue described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No prolapsed mucosal polyps described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No inflammatory polyp described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No transitional mucosal polyp described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No lipoma described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No ganglioneuroma described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No neuroma described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No hamartomatous polyp described.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00641147": {
+                "inclusion": {
+                    "0": [
+                        "Patient has intact colon with dozens of adenomas in rectosigmoid, satisfying the \u22655 adenoma requirement.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient does not have documented duodenal adenomatous polyposis and does have lower tract adenomas, thus does not meet this criterion.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion applies only to females; gender not stated, assume not female so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Pregnancy applies only to women; gender not stated, assume not pregnant so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No WBC value provided; absence of mention suggests normal, thus does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No platelet count provided; absence of mention suggests normal, thus does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No BUN value provided; absence of mention suggests normal, thus does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No creatinine value provided; absence of mention suggests normal, thus does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No information on NSAIDs, aspirin, curcumin, turmeric, calcium, vitamin D, green tea, or polyphenol E use; assume none, so can stop them.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Patient has benign adenomas only; no other malignancy reported.",
+                        [
+                            4,
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No mention of bacterial infection; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No symptoms of GERD reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No history of peptic ulcer disease mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No warfarin or Plavix use mentioned; assume not on these medications.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01245816": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 21 with dozens of adenomatous polyps and strong family history, satisfying Group 2 (>10 polyps <40 yr with dominant family history).",
+                        [
+                            0,
+                            3
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of any colorectal surgery; absence of such info together with age suggests no surgery performed.",
+                        [],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient underwent sigmoidoscopy, which qualifies as a baseline endoscopic examination.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Patient has dozens of polyps but size (\u22652\u202fmm) is not reported; cannot confirm the \u22652\u202fmm cluster requirement.",
+                        [
+                            3
+                        ],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Rectal polyps are present, but their size (\u22652\u202fmm) and clustering criteria are not documented.",
+                        [
+                            3
+                        ],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Patient has no ileal pouch; this criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No information on duodenal polyps or Spigelman grading; not applicable unless duodenal assessment is planned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No hematologic laboratory values provided; cannot assess hematologic eligibility.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No hepatic laboratory values provided; cannot assess hepatic eligibility.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No renal laboratory values provided; cannot assess renal eligibility.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No information on hearing status; cannot determine eligibility.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "Patient is male, therefore cannot be pregnant; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "Patient is male, pregnancy test not required; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "13": [
+                        "No mention of gross blood in stool; absence of report suggests none, but not explicitly stated.",
+                        [],
+                        "not enough information"
+                    ],
+                    "14": [
+                        "Patient is male; contraception requirement not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "15": [
+                        "No stool occult blood result reported; cannot assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "16": [
+                        "No history of hypersensitivity to NSAIDs or related drugs mentioned; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "17": [
+                        "No history of gastric or duodenal ulcer provided; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "18": [
+                        "No prior invasive malignancy is mentioned; insufficient data to confirm absence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "19": [
+                        "No other medical or psychiatric problems are described; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "20": [
+                        "No information on chronic adrenocorticosteroid use; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "21": [
+                        "No history of pelvic irradiation mentioned; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "22": [
+                        "No information on prior investigational agents; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "23": [
+                        "No information on current corticosteroid use; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "24": [
+                        "No information on NSAID use frequency; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "25": [
+                        "No information on aspirin use; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "26": [
+                        "No information on concurrent warfarin, fluconazole, or lithium; insufficient data.",
+                        [],
+                        "not enough information"
+                    ],
+                    "27": [
+                        "Patient explicitly states willingness to provide informed consent and comply with protocol.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of diabetes, hypertension, hyperlipidemia, smoking, or prior cardiovascular disease in the note; assume these conditions are absent, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of hearing loss or need for a hearing aid; assume the patient does not have disabling hearing loss.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00586053": {
+                "inclusion": {
+                    "0": [
+                        "Patient is not scheduled for colonoscopy (only sigmoidoscopy) despite higher risk, so does not satisfy criterion 0.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient has a strong family history of colorectal neoplasia (siblings with hundreds of adenomas). This satisfies criterion 1.",
+                        [
+                            0,
+                            1
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient is 21 years old, which is below the required age range of 40\u2011100 years.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "No evidence of a known or suspected primary colorectal neoplasm larger than 10\u202fmm; only small benign adenomas are described.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "Same as criterion 0: patient is not scheduled for colonoscopy, thus does not meet this requirement.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of prior extensive colectomy; patient only has polyps, so criterion not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of Crohn's disease or ulcerative colitis; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient has dozens of adenomatous polyps and strong family history of hundreds of polyps, indicating familial polyposis; meets exclusion.",
+                        [
+                            0,
+                            1,
+                            3,
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "3": [
+                        "No report of melena or hematochezia; assume absent.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01737567": {
+                "inclusion": {
+                    "0": [
+                        "Criterion requires age >50 and asymptomatic screening; patient is 21 (sentence 0) and undergoing colonoscopy due to family history, not routine screening, so does not meet age requirement.",
+                        [
+                            0,
+                            5
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient currently has benign adenomas, which counts as personal history of colon adenoma; direct evidence present.",
+                        [
+                            3,
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "Family members have hundreds of colonic adenomas, consistent with familial adenomatous polyposis; direct evidence present.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No mention of first-degree relatives with colorectal carcinoma; absence of evidence likely indicates none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient is undergoing sigmoidoscopy now, indicating recent endoscopic evaluation; no evidence of lacking colonoscopy in past 5 years.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01422577": {
+                "inclusion": {
+                    "0": [
+                        "Patient is undergoing sigmoidoscopy due to family history, not a routine screening colonoscopy; although asymptomatic, the procedure is not a standard screening colonoscopy",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient age is 21, which is below the required >40 years",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "Patient has a strong family history of multiple adenomas and siblings with total proctocolectomy, indicating a hereditary polyposis risk, thus not an average\u2011risk subject",
+                        [
+                            0,
+                            1,
+                            3
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "No information is provided about any colonoscopy performed in the past 5 years; absence of mention does not guarantee it did not occur",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient explicitly states willingness to provide informed consent and comply with the protocol",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 21 years old, which meets the exclusion age <50.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No evidence the patient has had prior colorectal surgery; siblings' surgeries do not apply to the patient.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is male, so pregnancy/lactation does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No mention of a colonoscopy within the past 5 years for this patient; cannot confirm, so information is insufficient.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient explicitly states he will provide informed consent.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02016326": {
+                "inclusion": {
+                    "0": [
+                        "Patient has family history of multiple polyps and personal finding of dozens of colonic adenomas, satisfying the increased risk requirement; evidence present in notes.",
+                        [
+                            0,
+                            3,
+                            4
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient has strong family history and multiple polyps, indicating high risk, so the 'average risk' exclusion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No mention of any prior colon surgery in the note; absence of evidence suggests the patient has not had such surgery.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Family history of numerous adenomas suggests possible hereditary polyposis, but the note does not provide a definitive diagnosis; insufficient information to confirm presence or absence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "The note does not indicate any prior imaging modality that suggested polyps or CRC before the current colonoscopy.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01767870": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 21 years old, which is outside the required 45-75 age range; age is explicitly stated in sentence 0, so does not meet criterion.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient will provide informed consent as stated in sentence 5, satisfying the consent requirement.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of past colorectal cancer; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Siblings have hundreds of adenomas and underwent total proctocolectomy, indicating familial adenomatous polyposis.",
+                        [
+                            1
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No family history of colorectal cancer reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of inflammatory bowel disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No ASA classification provided; assume not >3.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Patient has not had colectomy; siblings did, but criterion applies to subject.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No prior colonoscopy within 5 years mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Patient already underwent sigmoidoscopy (current), which counts as within 3 years.",
+                        [
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "8": [
+                        "No CT colonoscopy history mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No symptoms such as hematochezia, melena, or significant weight loss reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00905710": {
+                "inclusion": {
+                    "0": [
+                        "The note does not mention any genetic testing or confirmed MLH1, MSH2, or MSH6 mutation; without direct evidence we cannot assume the patient is a carrier.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Sentence 0 states the patient is 21 years old, which falls within the required 20\u201170 year range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Sentence 5 indicates the patient will provide written informed consent and will comply with the protocol.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion applicable; patient note shows no history of large bowel surgery for the patient.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Criterion applicable; patient explicitly states willingness and ability to comply with protocol.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00319007": {
+                "inclusion": {
+                    "0": [
+                        "Patient has multiple adenomas and strong family history suggesting FAP, but note does not state a clinical or genetic confirmation; cannot be certain.",
+                        [
+                            0,
+                            1,
+                            3,
+                            4
+                        ],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Criterion requires that the patient has undergone restorative proctocolectomy with ileal pouch-anal anastomosis; note shows no surgery performed.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Renal/hepatic disease not mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No history of esophageal, gastric or duodenal ulcers in note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of sulindac hypersensitivity; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of daily use of listed agents in past 3 months.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Aspirin daily use not reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "NSAID daily use not reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Probiotic daily use not reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02470416": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a diagnosed or resected duodenal adenoma/ampulloma; the note only mentions colonic polyps and no duodenal lesions, so the patient does not meet this premise.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion requires patients undergoing VCE for obscure GI bleeding or iron deficiency anemia; the note provides no evidence of VCE, OGIB, or IDA, and the patient is being evaluated for colonic polyps, not these conditions.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00663819": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to undergo a restorative proctectomy or proctocolectomy with a low anastomosis; the note only describes endoscopic findings and no surgery, so the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "This criterion pertains to patients with diverticulitis, perforation, or trauma undergoing surgery; none of these conditions or surgeries are mentioned, so it is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "The criterion is specific to patients undergoing Hartmann's reversal; the patient has not had any prior Hartmann's procedure, making it not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "The criterion concerns the presence of a diverting loop ileostomy as part of the surgery; the patient is not undergoing surgery and no ileostomy is mentioned, so it is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "This criterion applies only to patients being treated for rectal cancer; the patient has benign adenomas and no cancer, thus the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns patients treated for rectal cancer with IBD; the note shows no cancer or IBD, so it does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion refers to intraoperative hypotension or cardiac events; the patient has not undergone surgery yet, so it is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No mention of collagen vascular disease, coagulopathy, renal or hepatic dysfunction; absence of evidence allows us to assume these conditions are not present, so the patient is not excluded.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01173250": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to have had total proctocolectomy with ileal pouch anal anastomosis. The note describes only colonoscopy/sigmoidoscopy findings and no surgery; therefore the patient does not meet the premise.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion hypoalbuminemia is not mentioned; no evidence of low albumin; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Prolonged steroid use not referenced; no indication patient is on steroids.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Anemia not cited; no lab values provided; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Anastomosis under tension is not applicable yet as surgery not performed; no info.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Leak with air test not applicable; no surgery performed.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Bleeding not reported; no intra\u2011operative bleeding noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Poor vascular supply of anastomosis not mentioned; no surgical details.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00900016": {
+                "inclusion": {
+                    "0": [
+                        "The item is a section heading rather than a specific eligibility requirement, so it is not applicable to the patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion requires biopsy\u2011proven pancreatic adenocarcinoma. The note describes colon polyps and no pancreatic disease; there is no evidence of pancreatic cancer, and it is unlikely that such a major diagnosis would be omitted from the note. Therefore the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "This requires localized pancreatic cancer. The patient has no pancreatic cancer at all, and the note provides no indication of any pancreatic lesion. Hence the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "The patient must be scheduled for pancreatic tumor resection or exploration. No surgical plan for the pancreas is mentioned; the note only discusses colonoscopy findings. Thus the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "Another section heading, not a specific eligibility condition, so it is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "The criterion states \"Not specified,\" meaning there is no explicit requirement. As there is no condition to satisfy, it is effectively not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Section heading for prior concurrent therapy, not a concrete eligibility rule, thus not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "Reference to disease characteristics, which have already been evaluated and found not met; this item adds no new requirement and is therefore not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT01495806": {
+                "inclusion": {
+                    "0": [
+                        "The inclusion criterion requires a diagnosis of an abdominal pain\u2011related functional gastrointestinal disorder (functional dyspepsia, IBS, or FAPS) per Rome III. The patient note describes a 21\u2011year\u2011old undergoing colonoscopy for familial polyposis and having benign adenomas; there is no mention of abdominal pain, functional GI symptoms, or a Rome III diagnosis. Absence of such information in a clinical note about a GI condition strongly suggests the patient does not have the required functional disorder.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion is applicable; the note reports dozens of colonic adenomas, which constitute an organic gastrointestinal disease, providing direct evidence of exclusion.",
+                        [
+                            0,
+                            3,
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "The criterion is applicable; the note contains no mention of any other chronic disease, and there is no indirect evidence suggesting one.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The criterion is applicable; the note does not provide any information about growth parameters, so we cannot determine presence of growth failure.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT01722149": {
+                "inclusion": {
+                    "0": [
+                        "Criterion requires malignant pleural mesothelioma; patient note describes colon polyps and no mesothelioma, so criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Patient explicitly states willingness to provide informed consent (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Criterion concerns inaccessibility to surgical treatment for mesothelioma; patient does not have mesothelioma, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Bone marrow lab values not mentioned; without mesothelioma diagnosis the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Hepatic function labs not mentioned; not applicable as patient lacks target disease.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Renal function labs not mentioned; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No mention of corticosteroid or immunosuppressive use; however, patient does not have mesothelioma, making the criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No mention of organ allograft; not applicable due to lack of target disease.",
+                        [],
+                        "not applicable"
+                    ],
+                    "8": [
+                        "HIV status not provided; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "HBV/HCV status not provided; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "10": [
+                        "Bleeding disorder status not provided; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "Contraception requirement applies to patients of child\u2011producing potential with mesothelioma; patient is male, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of hypersensitivity or allergy to the investigational product is mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No ethical contraindications are described; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is male, so pregnancy criteria do not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Patient is male, so intention to become pregnant does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Patient is male, so contraception requirements do not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "No mention of drug or alcohol abuse or compliance issues; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No information on pericardial effusion; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No history of coronary heart disease, stroke, or peripheral vascular disease is reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No autoimmune disease is reported; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No regular intake of immune\u2011modulating drugs is mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No language, psychological, or cognitive barriers are described; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No participation in another investigational study is mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No prior enrolment in this study is indicated; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No relationship to the investigators or staff is indicated; assume absent.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     }
