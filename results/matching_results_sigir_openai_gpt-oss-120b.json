@@ -49838,6 +49838,39 @@
                         "not enough information"
                     ]
                 }
+            },
+            "NCT02561208": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 32 years old (meets age >=30) but note does not mention residence being in a household visited by CHWs; absence of this key information suggests criterion not met.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion applies; no evidence of prior HPV test in note, and absence likely means none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Criterion applies; note shows cytology negative and no mention of precancerous lesion or cancer.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Criterion applies; no information about pregnancy status, and lack of mention suggests not pregnant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Criterion applies; no indication of mental disability in note.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -51907,6 +51940,61 @@
                         "excluded"
                     ]
                 }
+            },
+            "NCT00004771": {
+                "inclusion": {
+                    "1": [
+                        "Criterion is generic disease characteristics; patient note does not specify motor neuron disease, so cannot assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient is a 62\u2011year\u2011old man (sentence 0) satisfying age and gender, but no evidence of motor neuron disease in the note; therefore does not meet the disease requirement.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "No mention of X\u2011linked spinal and bulbar muscular atrophy (Kennedy's disease); patient does not meet this specific diagnosis.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "No genetic testing result reported; cannot confirm androgen\u2011receptor exon\u20111 mutation.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "No diagnosis of amyotrophic lateral sclerosis is given; patient\u2019s symptoms are not described as ALS.",
+                        [],
+                        "not included"
+                    ],
+                    "6": [
+                        "No diagnosis of spinal muscular atrophy is provided.",
+                        [],
+                        "not included"
+                    ],
+                    "7": [
+                        "The note contains no assessment of muscle strength or manual muscle testing; absence of reported weakness suggests the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "8": [
+                        "No information about incarceration; absence of any statement implies the patient is not a prisoner, which is typical for outpatient notes.",
+                        [],
+                        "included"
+                    ],
+                    "9": [
+                        "Patient shows severe cognitive deficits and memory dysfunction (sentences 0\u20112), indicating a mental disability that disqualifies him.",
+                        [
+                            0,
+                            1
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {}
             }
         }
     }

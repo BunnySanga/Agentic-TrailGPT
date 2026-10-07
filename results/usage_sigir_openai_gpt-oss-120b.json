@@ -12643,6 +12643,15 @@
         "total_tokens": 2463,
         "seconds": 1.53
       }
+    },
+    "NCT02561208": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 2572,
+        "completion_tokens": 526,
+        "total_tokens": 3098,
+        "seconds": 2.14
+      }
     }
   },
   "sigir-20148": {
@@ -13172,6 +13181,15 @@
         "completion_tokens": 309,
         "total_tokens": 1616,
         "seconds": 1.43
+      }
+    },
+    "NCT00004771": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 1643,
+        "completion_tokens": 774,
+        "total_tokens": 2417,
+        "seconds": 2.81
       }
     }
   }
