@@ -2901,6 +2901,102 @@
             "relevance_score_R": 12.0,
             "eligibility_explanation": "Even though the patient meets the age and sex component, she fails the key inclusion criteria (obesity and chronic sleep deprivation). Moreover, she exhibits multiple signs of hypothyroidism (hair loss, voice change, weight gain, cold intolerance, thyroid mass) which is an explicit exclusion criterion. Consequently, the patient is ineligible for the study. The eligibility score is set to the negative of the relevance score, reflecting a clear exclusion.",
             "eligibility_score_E": -12.0
+        },
+        "NCT02086799": {
+            "relevance_explanation": "The trial targets adults with moderate to severe asthma exacerbations and evaluates thyroid hormone supplementation. The patient is a 25\u2011year\u2011old woman with symptoms and signs of hypothyroidism (fatigue, weight gain, cold intolerance, neck mass) but there is no mention of asthma or an asthma exacerbation. The only overlap is age and willingness to consent, which are generic criteria. Because the core disease focus (asthma) is absent, the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and not meeting any exclusion criteria. The patient satisfies the age and consent inclusion items, but fails the essential inclusion criterion of having known asthma (and thus cannot have an asthma exacerbation). Consequently, the patient is ineligible for the trial. Since relevance is low (R=20), the eligibility score is set to the negative extreme of the allowed range, indicating clear ineligibility.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01986140": {
+            "relevance_explanation": "The trial targets women with newly diagnosed stage 1\u20112 breast cancer who are about to receive specific anthracycline or taxane\u2011based chemotherapy. The patient note describes a 25\u2011year\u2011old woman with symptoms of hypothyroidism and a cervical mass, with no mention of any cancer diagnosis, chemotherapy plan, or the required laboratory tests. The only overlap is that she is a woman and can give consent, which is a very minimal connection. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not meet any inclusion criteria (no breast cancer, no chemotherapy plan, missing required labs) and is excluded by the baseline alopecia criterion (she reports hair loss), she is ineligible for the study. The negative eligibility reflects the exclusion, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01319370": {
+            "relevance_explanation": "The trial is restricted to male participants with androgenetic alopecia. The patient is a 25\u2011year\u2011old woman presenting with symptoms of hypothyroidism and diffuse hair loss, not androgenetic alopecia. Only the consent\u2011related inclusion criteria match the patient, which is a very small portion of the overall trial requirements. Therefore the patient is only minimally relevant to the study.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Even though the patient meets the consent and compliance criteria, she fails the core inclusion criteria (male gender and male pattern hair loss) and triggers two exclusion criteria: active diffuse hair loss (possible telogen effluvium) and untreated hypothyroidism, both of which directly disqualify her. Consequently, her eligibility is negative and limited by the relevance score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00759993": {
+            "relevance_explanation": "The patient matches some basic demographic and consent criteria of the trial (age 25, ability to consent, willingness to comply). However, the core focus of the study is on psychiatric in\u2011patients who are about to start or change serotonergic psychotropic medication and who are concerned about medication\u2011induced weight gain. The note provides no evidence of any psychiatric diagnosis, inpatient status, or serotonergic treatment, and the presenting symptoms (fatigue, weight gain, cold intolerance, thyroid neck mass) point toward hypothyroidism rather than a psychiatric condition. Consequently, while the patient is not completely unrelated, the overlap with the trial\u2019s target population is limited. A relevance score of about 40 out of 100 reflects this partial but not strong relevance.",
+            "relevance_score_R": 40,
+            "eligibility_explanation": "Eligibility is assessed against the inclusion and exclusion criteria. The patient satisfies several inclusion items (informed consent, age, capacity, willingness to comply) but fails to meet key inclusion requirements: there is no indication of current or planned serotonergic medication, nor expressed concern that weight gain is a side effect of such medication. Moreover, the patient exhibits multiple signs of hypothyroidism (weight gain, cold intolerance, hair loss, voice change, palpable thyroid mass), which is listed as an exclusion criterion because hypothyroidism can cause weight gain independent of the study drug. This exclusion outweighs the satisfied inclusions, making the patient ineligible. Since the relevance score is 40, the eligibility score is set to the negative extreme, \u201340, indicating clear ineligibility within the relevance bounds.",
+            "eligibility_score_E": -40
+        },
+        "NCT00124384": {
+            "relevance_explanation": "The trial targets individuals with primary insomnia and evaluates modafinil's effect on sleep and daytime functioning. The patient is a 25\u2011year\u2011old woman presenting with fatigue, hair loss, weight gain, cold intolerance, and a cervical mass\u2014findings consistent with hypothyroidism, not insomnia. There is no mention of difficulty falling or staying asleep, sleep schedule, or any insomnia\u2011related complaints. Therefore the patient\u2019s clinical picture is largely unrelated to the trial\u2019s focus.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not exhibit any of the required inclusion criteria for insomnia (no reported sleep onset latency, awakenings, or chronic insomnia symptoms) and there is no information to suggest she meets the diagnostic criteria for psychophysiological insomnia, she would be considered ineligible. No exclusion criteria apply, but the lack of inclusion criteria fulfillment makes her ineligible. Hence the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01874704": {
+            "relevance_explanation": "The clinical trial enrolls emergency physicians to study stress biomarkers related to shift work. The patient is a 25\u2011year\u2011old woman presenting with symptoms of hypothyroidism and a thyroid mass, with no indication that she is a physician, let alone an emergency physician. Therefore the patient\u2019s condition and background are largely unrelated to the trial\u2019s target population and objectives.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "One of the exclusion criteria lists endocrine disease as a disqualifying condition. The patient exhibits clear signs of a thyroid disorder (cervical mass, fatigue, hair loss, weight gain, cold intolerance), which meets this exclusion. Although the overall relevance to the trial is minimal, the patient would be considered ineligible based on the exclusion criterion.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT01041261": {
+            "relevance_explanation": "The patient presents with symptoms of hypothyroidism (fatigue, weight gain, cold intolerance, neck mass) and no information about obesity, bariatric surgery, or metabolic disease. The trial targets obese or morbidly obese women undergoing laparoscopic gastric bypass and requires metabolic syndrome or diabetes. Because the patient\u2019s note lacks any of these key attributes, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "The patient does not satisfy any of the inclusion criteria (no evidence of BMI 30\u201150, no bariatric surgery, no metabolic syndrome/diabetes). While there are no clear exclusion factors, the lack of required inclusion factors makes her ineligible for the study. Therefore the eligibility score is negative, reflecting ineligibility, and is bounded by the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02316418": {
+            "relevance_explanation": "The patient is a 25\u2011year\u2011old woman with hair loss, which aligns with the trial\u2019s focus on female pattern hair loss. However, the note does not specify that the hair loss is due to androgenetic alopecia; instead, other signs (cold intolerance, cervical mass) suggest hypothyroidism. The patient meets the age criterion and is willing to consent, but the lack of a confirmed FPHL diagnosis and the absence of any laboratory data make the overall relevance moderate rather than high.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility is limited by the missing confirmation of androgenetic alopecia (the primary inclusion criterion) and the lack of required baseline laboratory values (hematology, coagulation, renal and liver function). While the patient satisfies the age and consent requirements and shows no exclusion criteria, the unknown key inclusion criteria mean she cannot be considered eligible. Given the moderate relevance, the eligibility score is negative but not at the full -R because some inclusion criteria are met.",
+            "eligibility_score_E": -28.0
+        },
+        "NCT00646451": {
+            "relevance_explanation": "The trial targets patients with essential tremor (ET) and requires specific tremor symptoms, medication history, and other criteria related to ET. The patient note describes a 25\u2011year\u2011old woman with fatigue, hair loss, weight gain, cold intolerance, and a cervical thyroid mass\u2014findings consistent with hypothyroidism, not ET. There is no mention of tremor, neurological symptoms, or any of the trial\u2019s disease\u2011specific inclusion criteria. Only the age and willingness to consent overlap with the trial requirements. Consequently, the overall relevance of this patient to an ET trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not exhibit any essential tremor symptoms, she fails the primary inclusion criterion for ET diagnosis. This alone makes her ineligible for the study, regardless of other uncertain criteria (medication use, pregnancy status, etc.). Given the low relevance (R=10), the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00819624": {
+            "relevance_explanation": "The trial targets patients with fibromyalgia and focuses on fatigue, pain, and sleep assessment in that specific population. The patient\u2019s presentation is consistent with hypothyroidism (fatigue, hair loss, weight gain, cold intolerance, cervical thyroid mass) and there is no mention of widespread musculoskeletal pain, tender points, or a fibromyalgia diagnosis. Therefore the patient\u2019s condition is largely unrelated to the trial\u2019s target condition, making the overall relevance very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not meet the inclusion criterion of a confirmed fibromyalgia diagnosis, she is not eligible on that basis. Additionally, the presence of another disease (likely thyroid disorder) triggers the exclusion criterion for confounding conditions, further confirming ineligibility. Given the low relevance, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00011102": {
+            "relevance_explanation": "The patient is a 25\u2011year\u2011old woman, which matches the trial\u2019s target age range (25\u201144) and gender. However, the trial focuses on preventing weight gain in normal\u2011weight or overweight women without chronic conditions that limit physical activity or diet. The patient\u2019s note describes symptoms of hypothyroidism (fatigue, weight gain, cold intolerance, thyroid mass), a chronic endocrine disorder that could affect activity and diet, and there is no information about her BMI. Because the patient\u2019s condition is not directly related to the primary aim of the study and may actually be an exclusion factor, the overall relevance is moderate but not high.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "One of the exclusion criteria is the presence of a chronic disease that precludes regular physical activity or changes in dietary intake. The patient shows clear signs of hypothyroidism, which is a chronic disease that can limit both activity and diet. This meets the exclusion criterion, making her ineligible for the trial. No other exclusion criteria are violated, but the single exclusion is sufficient to deem her ineligible. Therefore the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT00948610": {
+            "relevance_explanation": "The trial enrolls adults with rheumatoid arthritis (RA) who meet specific ACR criteria and may be on DMARDs or have prior biologic exposure. The patient is a 25\u2011year\u2011old woman with symptoms of hypothyroidism (fatigue, cold intolerance, weight gain, hair loss, neck mass) and no mention of joint pain, swelling, rheumatoid factor, or any RA diagnosis. Therefore, the patient\u2019s clinical picture is unrelated to the target condition of the trial. The only overlap is age (18\u201185) and willingness to consent, which contributes minimally to relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Eligibility requires satisfying the RA inclusion criteria, which the patient cannot meet because there is no evidence of RA or any of the required clinical features. None of the exclusion criteria appear to apply, but failure to meet the primary inclusion criteria makes the patient ineligible. Since relevance is low (R=10), the eligibility score is set to the negative extreme, indicating ineligibility: E = -R.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01835236": {
+            "relevance_explanation": "The clinical trial targets HER2\u2011positive metastatic breast cancer and requires a confirmed diagnosis of breast cancer with distant metastases, specific organ function labs, cardiac assessment, and prior treatment history. The patient note describes a 25\u2011year\u2011old woman with symptoms of hypothyroidism and a cervical thyroid mass, with no mention of any breast disease, cancer, or metastases. Only the age criterion (\u226518 years) is met, which is a very small portion of the overall eligibility profile. Consequently, the patient is largely irrelevant to the trial\u2019s disease focus and key inclusion/exclusion criteria.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not have breast cancer or any of the required disease\u2011specific characteristics, she would be excluded from the trial. The only applicable criterion is age, which she meets, but the lack of any breast cancer diagnosis makes her ineligible. With a relevance of 10, the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00915642": {
+            "relevance_explanation": "The trial enrolls healthy or obese volunteers to study overnight weight loss and sleep structure. The patient is a 25\u2011year\u2011old woman with symptoms of hypothyroidism (fatigue, hair loss, weight gain, cold intolerance, cervical mass) and no information about her weight status or sleep patterns. Because the patient\u2019s condition is unrelated to the trial\u2019s focus on obesity/healthy weight and sleep, the overall relevance is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "One of the exclusion criteria is any serious medical condition. The patient\u2019s anterior cervical mass and systemic hypothyroid symptoms constitute a serious medical condition, leading to exclusion. Since the patient is excluded, the eligibility score should be the negative of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00593736": {
+            "relevance_explanation": "The trial targets individuals with Delayed Sleep Phase Syndrome (DSPS) and requires specific sleep\u2011related symptoms and timing. The patient\u2019s note shows no sleep complaints, normal sleep duration, and explicitly denies insomnia, making her largely irrelevant to the primary condition of the study. The only potentially relevant information is her willingness to comply with study procedures, but this is outweighed by the lack of any DSPS features and the presence of possible endocrine disease (thyroid mass) that may disqualify her from the \"good health\" requirement. Overall, the patient shares very little with the trial\u2019s target population, resulting in a low relevance score.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because relevance is low, the eligibility range is limited to \u00b118. The patient fails multiple key inclusion criteria (no DSPS diagnosis, no delayed sleep timing, no insomnia) and is likely excluded by the endocrine disease exclusion criterion. While she is willing to comply, the lack of required sleep characteristics and the probable endocrine disorder make her ineligible. Therefore, the eligibility score is negative, reflecting ineligibility, but not the full negative of the relevance score because some criteria (e.g., willingness to comply) are met.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT02015936": {
+            "relevance_explanation": "The trial targets patients with advanced stage (III/IV) cancer and focuses on physical activity to improve cancer\u2011related symptoms. The patient note describes a 25\u2011year\u2011old woman with signs of hypothyroidism (fatigue, weight gain, cold intolerance, neck mass) and no mention of any cancer diagnosis, staging, or related treatment. Therefore the patient\u2019s condition is largely unrelated to the trial\u2019s target population, yielding a very low relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not have a stage III or IV cancer diagnosis, she fails the primary inclusion criterion. While other inclusion criteria are unknown, the lack of the essential cancer diagnosis makes her ineligible. No exclusion criteria are triggered, but eligibility is dominated by the missing inclusion requirement, resulting in a negative eligibility score close to the relevance magnitude.",
+            "eligibility_score_E": -8.0
         }
     },
     "sigir-201417": {
@@ -2945,6 +3041,198 @@
             "relevance_score_R": 85.0,
             "eligibility_explanation": "While the patient meets all applicable inclusion criteria, two exclusion criteria are definitively met: (1) evidence of a life\u2011threatening illness/septic shock (tachycardia, hypotension) and (2) an immunocompromising condition (common variable immunodeficiency). These exclusions make the patient ineligible for enrollment. Other exclusion items are unknown, but the confirmed exclusions are sufficient to deem the patient ineligible, resulting in a negative eligibility score close to the maximum negative value allowed by the relevance.",
             "eligibility_score_E": -80.0
+        },
+        "NCT00280514": {
+            "relevance_explanation": "The patient matches the core aspects of the trial: age (48), gender, ability to give informed consent, and has a liver abscess that will be surgically drained, which directly aligns with the trial\u2019s requirement for patients with an abscess scheduled for drainage. Several exclusion criteria are either not applicable or lack information, but they do not detract from relevance. Overall, the patient\u2019s clinical situation is highly pertinent to the study\u2019s focus on abscess pharmacokinetics.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "While the patient satisfies most inclusion criteria, the trial also requires a plasma creatinine <1.5\u202fmg/dL, for which no data are provided. This missing laboratory value means the patient cannot be confirmed as meeting all inclusion requirements, rendering the patient ineligible. No exclusion criteria are definitively triggered, but the lack of creatinine information is a critical omission, leading to a negative eligibility assessment relative to the relevance.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT02032914": {
+            "relevance_explanation": "The trial enrolls patients with cryptogenic pyogenic liver abscess to assess colon cancer prevalence. The patient clearly has a ruptured pyogenic liver abscess confirmed surgically, which matches the target condition. The only missing element is explicit radiologic confirmation, but the surgical finding is sufficient to consider the patient highly relevant to the study. Therefore the overall relevance is strong, though not absolutely perfect.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "The main exclusion criterion that applies is \"Inadequate general patient status to perform the colonoscopic examination.\" The patient is hemodynamically unstable (HR 132, BP 80/40) and is currently in the ICU after emergency surgery, indicating that he cannot safely undergo colonoscopy at this time. No other exclusion criteria are met, and the patient would consent to the study, but the inadequate clinical status makes him ineligible. Since the relevance is 78, the eligibility score is set to a negative value within the allowed range, reflecting ineligibility.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT01745731": {
+            "relevance_explanation": "The trial targets patients undergoing major liver surgery (extended hepatectomy) or liver transplant rejection, requiring specific liver lesions, metastatic disease, or hepatocarcinoma. The patient has an acute ruptured liver abscess treated surgically and is currently in ICU. While he is an adult male and can give consent, his condition does not match the trial\u2019s disease focus, and many required laboratory values are missing. Therefore the overall relevance is modest but not zero.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Even if the modest relevance were sufficient, the patient has common variable immunodeficiency, a hematologic disorder that directly triggers exclusion criterion 0 (any hematologic disease). This makes the patient ineligible. Because eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02417740": {
+            "relevance_explanation": "The patient is a 48\u2011year\u2011old male with common variable immunodeficiency (CVID), which is explicitly listed as a risk factor for non\u2011cirrhotic portal hypertension (NCPH) in the trial. Age criteria are met, and the patient\u2019s liver involvement (ruptured liver abscess) indicates a hepatic condition that could be related to NCPH. The trial targets individuals with NCPH or at risk due to immunologic deficiency syndromes, making this patient highly relevant to the study\u2019s target population.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied (age \u226512 and CVID as a risk factor). No exclusion criteria related to other liver diseases, viral hepatitis, metabolic disorders, or substance abuse are documented. However, exclusion criterion 13 states that any severe condition that could impede participation excludes the patient. The patient currently has a ruptured liver abscess requiring ICU care, which is a serious acute condition likely to prevent safe and reliable participation in a longitudinal observational study. Therefore, the patient is considered ineligible due to this exclusion.",
+            "eligibility_score_E": -85.0
+        },
+        "NCT01009450": {
+            "relevance_explanation": "The trial targets adult patients with liver cirrhosis who have symptomatic gallbladder stones and are candidates for laparoscopic cholecystectomy. The patient described is a 48\u2011year\u2011old male with common variable immunodeficiency who presented with a ruptured liver abscess and required emergent laparotomy. There is no mention of liver cirrhosis, gallbladder stones, or any indication that the patient would undergo elective laparoscopic cholecystectomy. Consequently, the core disease and procedural context of the trial are largely absent, making the patient only minimally relevant to the study.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Because the patient does not meet the primary inclusion criterion (cirrhosis with symptomatic gallstone), he is ineligible for enrollment. None of the listed exclusion criteria (age >80, prior upper laparotomy, common bile duct stones, pregnancy) apply, but the lack of required inclusion factors overrides this. Therefore the eligibility assessment is negative, proportional to the low relevance.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT00520494": {
+            "relevance_explanation": "The patient is a 48\u2011year\u2011old male with a confirmed diagnosis of common variable immunodeficiency (CVID), which is one of the primary immunodeficiencies targeted by the trial. He is able and willing to give informed consent and would be able to comply with study procedures. Age, gender, and disease type all match the inclusion criteria, making the case highly relevant to the trial despite the acute illness. The only missing piece is a laboratory IgG value, but the overall clinical picture aligns closely with the trial\u2019s target population.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Although the patient meets most inclusion criteria (consent, age, diagnosis, no prior immunoglobulin therapy), he lacks a documented IgG level <5\u202fg/L, which is required for eligibility. More critically, the patient currently has a serious active infection (ruptured liver abscess) and is in the ICU, both of which are explicit exclusion criteria (serious infection between screening and first treatment, and any condition likely to interfere with evaluation of the study drug). These exclusions outweigh the satisfied inclusions, rendering the patient ineligible. Because the relevance is high (R\u202f=\u202f85) and the patient is clearly excluded, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -85.0
+        },
+        "NCT01421901": {
+            "relevance_explanation": "The patient matches the age inclusion criterion and is able to consent, which gives some overlap with the trial population. However, the core disease focus of the trial is acute appendicitis without peritonitis, while the patient\u2019s presentation is a ruptured liver abscess with peritonitis and no mention of appendicitis. Because the primary condition does not align, the overall relevance is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Even though the patient meets the age criterion, he fails the key inclusion criterion (first episode of suspected acute appendicitis) and triggers two exclusion criteria: known immunodeficiency and recent surgery within 30 days. These exclusions outweigh the few positive points, making the patient ineligible. The eligibility score is therefore negative and bounded by the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00641992": {
+            "relevance_explanation": "The patient shares several basic characteristics with the trial population: he is an adult male older than 15 years, satisfying the non\u2011restrictive gender and age inclusion criteria. However, the core inclusion requirement\u2014confirmed clinical, ultrasonographic, and serologic (ELISA) diagnosis of amebic liver abscess\u2014is not met, as the note only describes a ruptured liver abscess of unspecified etiology. The exclusion criteria are largely irrelevant or not met (no evidence of pyogenic abscess, HIV, prior abdominal surgery, etc.). Because the primary disease\u2011specific inclusion is missing, the overall relevance is moderate but not high.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "Eligibility hinges on satisfying all inclusion criteria and not meeting any exclusion criteria. While the patient fulfills the gender and age inclusions and does not trigger any exclusions, he fails the essential inclusion criterion of a confirmed amebic liver abscess. This makes him ineligible for the trial. Since the relevance is 60, the eligibility score is set to the negative extreme of the relevance range, indicating clear ineligibility.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT02027402": {
+            "relevance_explanation": "The trial focuses on patients undergoing laparoscopic cholecystectomy for an acutely inflamed gallbladder (acute cholecystitis, empyema, or gallbladder abscess) and examines the effect of placing a drain. The patient described underwent an open exploratory laparotomy for a ruptured liver abscess, not a gallbladder disease, and the procedure was not laparoscopic. While both involve abdominal surgery and drainage, the underlying condition and surgical approach are unrelated to the trial\u2019s target population. Therefore the overall relevance is low but not zero because the patient is surgical and will receive a drain.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "The patient does not meet the key inclusion criterion (acutely inflamed gallbladder) and is explicitly excluded by the immunodeficiency exclusion criterion. Consequently, the patient is ineligible for the study. Since the relevance is low (R=20), the eligibility score is set to the negative extreme of the allowed range, indicating clear ineligibility.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01410526": {
+            "relevance_explanation": "The patient is a 48\u2011year\u2011old adult with severe intra\u2011abdominal sepsis (ruptured liver abscess, hypotension, ICU admission) and is able to give informed consent, which directly matches the trial\u2019s target population of adults with severe intra\u2011abdominal sepsis managed surgically. The only missing information is about the specific surgical technique (laparostomy with VAC), but the presence of severe sepsis and planned abdominal surgery makes the case highly relevant.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied (age >18, severe intra\u2011abdominal sepsis, consent). However, the trial explicitly excludes patients with any immune deficiency. The patient has common variable immunodeficiency, which is a clear immune deficiency, leading to exclusion. No other exclusion criteria are triggered, but the immune deficiency alone makes the patient ineligible. Therefore the eligibility score is strongly negative, bounded by the relevance score.",
+            "eligibility_score_E": -88.0
+        },
+        "NCT01851460": {
+            "relevance_explanation": "The patient has a liver abscess requiring surgical drainage, which aligns with the trial\u2019s focus on liver abscesses. However, the trial is limited to patients with chronic granulomatous disease (CGD), and the patient\u2019s documented condition is common variable immunodeficiency (CVID), not CGD. Age and willingness to consent are compatible, but the key disease requirement is missing. Therefore the overall relevance is moderate but limited by the lack of the primary disease criterion.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Because the patient does not have chronic granulomatous disease, the primary inclusion criterion is not met, making the patient ineligible regardless of other factors. Additional inclusion criteria (surgical ineligibility, willingness to travel) are either not met or unknown, and an exclusion criterion (critical illness/ICU status) may further preclude participation. Consequently, the eligibility score should reflect a clear ineligibility, set to the negative of the relevance score.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT00886210": {
+            "relevance_explanation": "The trial focuses on patients undergoing laparoscopic cholecystectomy for gallbladder stones. The patient is a 48\u2011year\u2011old male with a ruptured liver abscess treated by exploratory laparotomy; there is no mention of gallstones, cholecystectomy, or any laparoscopic procedure. Consequently, the clinical scenario is largely unrelated to the trial\u2019s target condition and intervention.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Although the patient is well below the age exclusion and gave informed consent, he has a history of an upper abdominal laparotomy, which is an explicit exclusion criterion for the trial. Because the patient does not meet the primary inclusion criterion and is excluded by the upper laparotomy rule, his eligibility is negative. The magnitude of the eligibility score cannot exceed the relevance score, so we set it to the negative of the relevance.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02585141": {
+            "relevance_explanation": "The trial targets perianal abscesses in adults. The patient is a 48\u2011year\u2011old adult, which satisfies the age inclusion, but his condition is a ruptured liver abscess, not a perianal abscess. None of the other disease\u2011specific inclusion criteria (perianal location, size \u22652\u202fcm) are met, and the patient\u2019s immune\u2011suppressed status is an exclusion factor. Because only the age and consent criteria overlap, the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Although the patient meets the age and consent requirements, he does not have a perianal abscess and therefore fails the primary disease\u2011specific inclusion criteria. Additionally, his common variable immunodeficiency classifies him as immunosuppressed, which is an explicit exclusion. Consequently, the patient is clearly ineligible for the study, yielding a negative eligibility score equal to the magnitude of relevance.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01315795": {
+            "relevance_explanation": "The trial targets patients with symptomatic polycystic liver disease (ADPKD or ADPLD) and requires specific liver\u2011related criteria (large liver volume, many cysts, chronic symptoms). The patient\u2019s note describes an acute ruptured liver abscess in a 48\u2011year\u2011old male with common variable immunodeficiency, but there is no mention of polycystic disease, liver cyst count, liver volume, or chronic mass\u2011effect symptoms. Only the age/gender and willingness to consent match the inclusion criteria. Because the core disease focus of the trial is absent, the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 20,
+            "eligibility_explanation": "Even though the patient meets the generic age, gender, and consent criteria, the exclusion criterion for presenting with an uncontrolled disease (other than ADPKD/ADPLD) applies. The patient is currently in the ICU with a ruptured liver abscess, fever, hypotension, and dehydration\u2014clearly an uncontrolled acute condition. This makes the patient ineligible for the study. Since the relevance is low (R=20), the eligibility score is set to the negative extreme, indicating ineligibility.",
+            "eligibility_score_E": -20
+        },
+        "NCT01068288": {
+            "relevance_explanation": "The trial focuses on pediatric patients with delayed perforated appendicitis. The patient is a 48\u2011year\u2011old adult with a ruptured liver abscess, not appendicitis, and does not meet the age or disease criteria. The only overlapping element is that the patient can give consent, which is a minimal point of relevance. Overall, the patient\u2019s condition and demographics are largely unrelated to the trial\u2019s target population and condition.",
+            "relevance_score_R": 15.0,
+            "eligibility_explanation": "Because the patient does not satisfy the key inclusion criteria (age and diagnosis of perforated appendicitis) and actually meets an exclusion criterion (requiring laparotomy for a reason other than appendicitis), the patient is clearly ineligible for the study. The eligibility score should therefore be negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00673374": {
+            "relevance_explanation": "The trial enrolls emergency department patients who are undergoing abdominal CT for non\u2011traumatic abdominal pain. The patient presented with acute abdominal pain and was evaluated with ultrasound and then taken to surgery; there is no mention of a CT scan being performed. Therefore the core context required for the study (CT imaging of abdominal pain) is largely absent, making the patient only marginally relevant to the trial.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the patient does not satisfy the primary inclusion criterion (no abdominal CT performed for abdominal pain), the patient would be excluded from enrollment. No exclusion criteria apply, but failure to meet inclusion means the patient is ineligible. Hence the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT00435032": {
+            "relevance_explanation": "The trial targets children with ruptured appendicitis, while the patient is a 48\u2011year\u2011old adult with a ruptured liver abscess. The disease, age group, and organ involved do not match the trial focus, making the patient largely irrelevant to this study.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not meet the key inclusion criterion (clinical diagnosis of ruptured appendicitis) and is outside the intended pediatric population, the patient is ineligible for the trial. No exclusion criteria apply, but the lack of inclusion makes the eligibility negative.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00526188": {
+            "relevance_explanation": "The patient is a 48\u2011year\u2011old male with a ruptured liver abscess, which qualifies as a focal liver lesion. This aligns with the trial\u2019s focus on known or suspected focal liver lesions. However, the trial is limited to Chinese patients, and the patient is described as a white male, suggesting a mismatch in ethnicity/region. Additionally, the patient is currently in the ICU after emergency surgery, indicating acute instability, which reduces the practical relevance to a study that likely seeks stable out\u2011patients for MRI evaluation. Considering the partial match on lesion type but major mismatches on ethnicity and clinical stability, the overall relevance is moderate.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility is strongly compromised. The patient meets inclusion criteria for age and willingness to consent, and the liver abscess is listed as an acceptable lesion type. However, the patient required emergency treatment (exclusion criterion 3) and is clinically unstable after recent emergency surgery (exclusion criterion 5). These exclusions outweigh the limited inclusion matches, making the patient ineligible. Since the relevance score is 42, the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT01329458": {
+            "relevance_explanation": "The trial focuses on evaluating de novo focal liver lesions (FLL) using contrast\u2011enhanced ultrasound. The patient\u2019s presentation is a ruptured liver abscess with hepatomegaly and free fluid, which is an infectious/inflammatory process, not a focal liver lesion such as FNH, metastasis, or other neoplastic nodules. Only the generic criteria of age >18 and ability to give consent are applicable, but the core clinical condition of interest is absent. Therefore the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Although the patient meets the generic inclusion criteria of age and informed consent and does not have any listed exclusion factors, he does not satisfy the primary inclusion criterion of having a de novo focal liver lesion on standard ultrasound. Without this key diagnostic requirement, the patient would be considered ineligible for the study. Consequently, the eligibility score should reflect ineligibility, limited by the relevance magnitude.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT00677989": {
+            "relevance_explanation": "The trial focuses on patients with perforated appendicitis undergoing laparoscopic or open surgery. The patient is a 48\u2011year\u2011old male with a ruptured liver abscess, not appendicitis, and no evidence of right lower quadrant pain or imaging consistent with appendicitis. Only a few generic elements (age within the trial range, ability to consent) overlap. Therefore the overall relevance of this patient to the trial is low but not zero.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Eligibility requires that perforated appendicitis be the most likely diagnosis and confirmed by clinical exam/CT. The patient\u2019s diagnosis is liver abscess, not appendicitis, so he fails the key inclusion criteria. No exclusion criteria are triggered, but because the primary inclusion criteria are not met, the patient is ineligible. The eligibility score is negative, reflecting ineligibility, and is limited by the relevance score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT01235546": {
+            "relevance_explanation": "The trial targets pregnant women undergoing cesarean delivery to prevent post\u2011cesarean infections. The patient is a 48\u2011year\u2011old male with a ruptured liver abscess and no pregnancy or surgical context related to cesarean section. Consequently, almost all inclusion criteria are irrelevant, and only a few exclusion criteria (e.g., active infection, consent) apply. Because the core population of the study does not match the patient, the overall relevance is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Even though the patient would consent and has no macrolide allergy, he has an active bacterial infection (ruptured liver abscess), which is an explicit exclusion criterion (clinical chorioamnionitis or any other active bacterial infection). This makes the patient ineligible. Since relevance is low (R=10), the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01030211": {
+            "relevance_explanation": "The trial targets adults with dengue fever and severe thrombocytopenia. The patient is a 48\u2011year\u2011old male, which satisfies the age requirement, but there is no mention of dengue infection, laboratory confirmation, or any dengue\u2011related symptoms (fever is present but not accompanied by the characteristic dengue criteria). Apart from age, the clinical picture (liver abscess, sepsis) is unrelated to dengue. Therefore the overall relevance of this patient to a dengue platelet\u2011transfusion study is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Even though the patient meets the age inclusion criterion, he fails the core disease inclusion criteria (probable or confirmed dengue) and lacks the required laboratory or clinical dengue findings. Consequently, he would be considered ineligible for the study. Since relevance is low (R=20), the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01412593": {
+            "relevance_explanation": "The trial targets patients with advanced liver cirrhosis (end\u2011stage liver disease) who are candidates for stem\u2011cell therapy. The patient is a 48\u2011year\u2011old male with a severe acute liver problem (ruptured liver abscess) requiring ICU care. While he clearly has a serious liver condition, the note does not mention chronic cirrhosis, decompensation, or the chronic liver dysfunction that the trial is designed for. The only overlapping aspects are his age (>18) and ability to give consent. Because the core disease phenotype (cirrhosis) is absent, the overall relevance of this patient to the trial is limited but not zero.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and none of the exclusion criteria. The patient meets the age and consent criteria, but fails the key inclusion criterion of clinically diagnosed liver cirrhosis and lacks MELD score data. Moreover, he is actively infected with a ruptured liver abscess, which is an exclusion criterion (ongoing infection). Therefore, the patient is ineligible. The eligibility score should be negative, reflecting ineligibility, but its magnitude cannot exceed the relevance score. A score of \u201330 (approximately 80% of the relevance magnitude) captures the strong ineligibility while staying within the allowed range.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02048319": {
+            "relevance_explanation": "The patient shares some superficial relevance with the trial: he is within the required age range (48 years) and is willing and able to give informed consent, which are both inclusion criteria. However, the core disease focus of the trial is a dominant liver cyst requiring aspiration sclerotherapy, whereas the patient has a ruptured liver abscess that was surgically drained. There is no evidence of a liver cyst or any indication for aspiration/sclerotherapy. Consequently, the overlap with the trial\u2019s primary target condition is minimal, leading to a moderate overall relevance.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and not meeting any exclusion criteria. The patient meets the age and consent criteria, but fails the essential inclusion criteria of having a dominant liver cyst with an indication for aspiration and sclerotherapy. Since the primary disease requirement is not satisfied, the patient is ineligible for the study. No exclusion criteria are triggered, but the lack of a qualifying cyst outweighs the satisfied criteria, resulting in a negative eligibility score within the allowed range.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02415010": {
+            "relevance_explanation": "The trial targets patients with intracranial aneurysms undergoing endovascular treatment. The patient is a 48\u2011year\u2011old male with a ruptured liver abscess and no mention of any intracranial pathology. Only the generic inclusion criteria (age \u226518, ability to consent) are met, which are common to many studies and do not make the patient specifically relevant to this aneurysm trial. Therefore the overall relevance is low but not zero because the patient satisfies basic demographic and consent criteria.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Eligibility requires the presence of a ruptured or non\u2011ruptured intracranial aneurysm suitable for endovascular coil embolization. The patient has no evidence of any intracranial aneurysm, so the primary inclusion criterion is not satisfied. No exclusion criteria are triggered, but the lack of the key disease makes the patient ineligible. The eligibility score is negative, reflecting ineligibility, and is bounded by the relevance score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT02261584": {
+            "relevance_explanation": "The trial focuses on patients with liver cirrhosis, splenomegaly and hypersplenism undergoing splenic interventions. The patient\u2019s note describes an acute ruptured liver abscess with hepatomegaly and intra\u2011abdominal fluid, but there is no mention of underlying cirrhosis, splenomegaly, or hypersplenism. The only overlapping element is liver involvement, which is indirect and does not match the specific disease phenotype required by the trial. Therefore the overall relevance is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Even though the patient\u2019s relevance to the trial is low, the exclusion criteria are decisive. The patient has abundant free intraperitoneal fluid on ultrasound, indicating ascites, which is an explicit exclusion (hepatic encephalopathy and tense ascites). This makes the patient ineligible regardless of other missing information. Because the relevance is 20, the eligibility score is set to the negative extreme, reflecting a clear exclusion.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01310361": {
+            "relevance_explanation": "The patient is a 48\u2011year\u2011old male presenting with a ruptured liver abscess and no signs or history of streptococcal pharyngitis. The trial targets children aged 6\u201115 with acute streptococcal sore throat and requires throat\u2011related examinations and cultures. Almost none of the inclusion criteria are relevant to this patient, and the exclusion criteria (age >15, no pharyngitis signs) directly apply. Therefore the overall relevance of this patient to the trial is extremely low.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient is far outside the required age range and lacks any pharyngitis signs, the exclusion criteria are clearly met. While many other criteria lack information, the age exclusion alone makes the patient ineligible. The eligibility score must lie between \u2013R and R, so we assign the maximum negative value to reflect definite ineligibility.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT00722709": {
+            "relevance_explanation": "The trial targets patients undergoing open colonic resection within an ERAS pathway. The patient described underwent emergency surgery for a ruptured liver abscess, which is a hepatic procedure, not a colon operation. Apart from general aspects of abdominal surgery and the patient\u2019s willingness to consent, there is little overlap with the trial\u2019s specific surgical focus. Therefore the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Eligibility is determined by both inclusion and exclusion criteria. The patient does not meet the primary inclusion criterion (open colonic resection), so he is not eligible on that basis. Additionally, the exclusion criterion of ASA\u202f\u2265\u202f4 appears to apply because the patient is hemodynamically unstable (BP 80/40, HR 132), indicating a high peri\u2011operative risk. While there are no reported allergies or consent issues, the failure to meet inclusion and the presence of a major exclusion factor make the patient clearly ineligible. Because eligibility cannot exceed the relevance magnitude, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT02463877": {
+            "relevance_explanation": "The trial targets patients with peritoneal surface malignancies undergoing cytoreductive surgery and HIPEC. The patient is a 48\u2011year\u2011old male with common variable immunodeficiency who presented with a ruptured liver abscess and required emergency surgery. There is no mention of any cancer, peritoneal carcinomatosis, or the specific disease characteristics required by the trial. Only generic inclusion items such as age and ability to consent are met. Because the core disease focus of the trial is absent, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 15.0,
+            "eligibility_explanation": "Given the low relevance, most disease\u2011specific inclusion criteria (histologically confirmed peritoneal carcinomatosis, PCI <10, no hepatic metastases, etc.) cannot be satisfied. The available information shows the patient does not have the required malignancy and lacks data for many other required laboratory and performance\u2011status criteria. Consequently, the patient would be considered ineligible for the study. The eligibility score is set to the negative extreme of the relevance range to reflect clear ineligibility.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT02140034": {
+            "relevance_explanation": "The patient note shares very little with the trial\u2019s focus. The only overlapping elements are the patient\u2019s age (48, within the 21\u201180 range) and the ability to give informed consent, both of which are generic eligibility factors. All disease\u2011specific inclusion criteria (gastric cancer T3/T4, planned curative gastrectomy) are absent, and none of the exclusion criteria are clearly applicable. Because only two out of many criteria are relevant, the overall relevance is modest.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Although the patient meets the age and consent requirements, he does not satisfy any of the core inclusion criteria required for enrollment (presence of gastric cancer, planned curative gastrectomy). Consequently, he would be considered ineligible for the trial. The eligibility score should therefore be the negative extreme of the relevance range, indicating clear ineligibility.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01226394": {
+            "relevance_explanation": "The trial targets patients with colorectal cancer at high risk of peritoneal carcinomatosis who have undergone resection of the primary tumor and will receive adjuvant chemotherapy. The patient is a 48\u2011year\u2011old male with common variable immunodeficiency who presented with a ruptured liver abscess and required emergency laparotomy. There is no mention of colorectal cancer, tumor resection, or any of the high\u2011risk criteria required for enrollment. Only generic attributes such as age (48), operability (underwent surgery), and willingness to consent match the trial\u2019s broader inclusion items. Because the core disease\u2011specific criteria are absent, the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Eligibility depends on satisfying all required inclusion criteria and not meeting any exclusion criteria. The patient does not meet the essential disease\u2011specific inclusions (histologically proven colorectal adenocarcinoma, presence of a primary tumor, high\u2011risk features, or prior adjuvant chemotherapy). While the patient fulfills some non\u2011specific criteria (age, operability, consent), the lack of the primary oncologic requirements makes the patient ineligible. No exclusion criteria are triggered, but the missing inclusions dominate the assessment, leading to a negative eligibility score equal to the relevance magnitude.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT00935779": {
+            "relevance_explanation": "The trial focuses on patients with early or locally advanced gastric cancer to study peritoneal changes. The patient\u2019s note describes a ruptured liver abscess and emergency abdominal surgery with no mention of gastric cancer or any gastric lesion. Therefore, the clinical condition of the patient is largely unrelated to the disease focus of the trial, resulting in very low relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not have operable gastric adenocarcinoma, they fail the primary inclusion criterion. Additionally, the patient has undergone a recent exploratory laparotomy, which matches an exclusion criterion (previous abdominal surgery). Consequently, the patient is clearly ineligible for the trial. The eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -10.0
         }
     },
     "sigir-201422": {
@@ -2959,6 +3247,338 @@
             "relevance_score_R": 92.0,
             "eligibility_explanation": "Inclusion criterion 0 (age 5\u201120 with abdominal pain) is satisfied. The other inclusion criterion concerns provider specialty and does not affect patient eligibility. For the exclusion criteria, there is no evidence of comorbid conditions, prior abdominal surgery, or treatment for excluded comorbidities in the note; the absence of such information is reasonable to interpret as the patient not having these exclusions. Therefore, the patient appears to meet all inclusion requirements and is not excluded by any known criteria, though some exclusion items lack explicit confirmation. Overall, the patient is likely eligible, though a small uncertainty remains.",
             "eligibility_score_E": 78.0
+        },
+        "NCT01096927": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female presenting with classic symptoms of acute appendicitis (periumbilical pain migrating to the right lower quadrant, anorexia, localized rebound tenderness) and imaging confirming an inflamed appendix. The trial targets patients with lower abdominal/right iliac fossa pain and suspected acute appendicitis who are not immediate surgical candidates. All of these core features are present, making the patient highly relevant to the study.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets several key inclusion criteria: age >14, lower/RIF abdominal pain, clinical suspicion of acute appendicitis, and ability to give informed consent (or have a guardian consent). No exclusion criteria are clearly met. The only uncertainties are the lack of documented Alvarado score and the absence of a confirmed negative pregnancy test; however, these do not constitute definite exclusions. Given the strong alignment with inclusion criteria and no definite exclusions, the patient is likely eligible, though the missing data prevent a full certainty.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT02447224": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old with clinical and ultrasound findings consistent with acute appendicitis, which is exactly the target condition of the trial (acute uncomplicated appendicitis). The age meets the \u22655\u2011year inclusion criterion. The note provides no evidence of severe sepsis, perforation, or major comorbidities that would make the patient ineligible. Therefore the case is highly relevant to the trial, though some required documentation (radiologist read, surgeon confirmation, pregnancy test, parental consent) is missing, preventing a perfect match.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Eligibility is uncertain. The patient clearly meets the age requirement and shows an appendicitis diagnosis, but the record lacks confirmation that the appendicitis is uncomplicated, a formal radiology read, surgeon consultation within 24\u202fh, a documented negative pregnancy test, and parental consent for a minor. No exclusion criteria are triggered based on the available information. Because inclusion criteria are partially satisfied and no exclusions are evident, the patient leans toward eligibility but cannot be confirmed as fully eligible. This yields a modest positive eligibility score within the \u00b1R range.",
+            "eligibility_score_E": 20.0
+        },
+        "NCT02507674": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl presenting to the pediatric emergency department with right lower quadrant pain and an ultrasound that confirms a markedly edematous appendix, which matches the trial\u2019s target population (children \u226418 years with suspected appendicitis undergoing ultrasound). All key elements of the trial inclusion criteria are present, and there is no information contradicting any exclusion criteria. Therefore the patient is highly relevant to the study.",
+            "relevance_score_R": 95.0,
+            "eligibility_explanation": "Inclusion criteria are fully satisfied: age (15\u202fy), presentation with right lower abdominal pain, and a clinical plan that includes an abdominal ultrasound. The exclusion criteria either do not apply (ultrasound safety) or lack sufficient patient data (BMI/weight, gel allergy). Since there is no evidence of exclusion, the patient can be considered eligible. Given the high relevance, the eligibility score is set close to the maximum relevance.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT01192620": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old child presenting to the emergency department with signs and imaging consistent with acute appendicitis, which matches the target condition of the Pediatric Appendicitis Pathway Study. The trial focuses on children being evaluated for appendicitis in the ED, and the patient\u2019s age, setting, and diagnosis align closely with this focus, making the case highly relevant despite the lack of an explicit chief\u2011complaint label.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Inclusion criterion 0 requires the chief complaint to be acute appendicitis. The note only mentions abdominal pain and does not state that the patient\u2019s presenting complaint was suspected or diagnosed appendicitis, so the inclusion requirement is not satisfied. The exclusion criterion (symptoms >7 days) is not met, so the patient is not excluded. Because the patient fails the key inclusion criterion, they are considered ineligible, yielding a negative eligibility score proportional to the relevance.",
+            "eligibility_score_E": -42.5
+        },
+        "NCT02574364": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female with a clear clinical picture of acute appendicitis (typical pain progression, localized tenderness, and ultrasound confirming an edematous appendix). The trial is focused on patients undergoing appendectomy and evaluating surgical techniques and outcomes. The patient\u2019s condition directly matches the target condition of the trial, and there are no obvious mismatches in age, consent capacity, or other major factors, making the case highly relevant.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied: the patient has a confirmed clinical diagnosis of acute appendicitis. The sole exclusion criterion (children under 14) does not apply because she is 15 years old. No other exclusion factors are mentioned. Therefore, the patient is fully eligible for the trial.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT01718171": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female presenting with classic signs and imaging-confirmed acute appendicitis, which is exactly the target condition of the trial. The trial seeks patients with appendicitis to study the systemic inflammatory response from symptom onset to surgery. No other information in the note conflicts with the trial focus, and the patient is able and willing to consent and follow the protocol. Therefore the patient is highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied (confirmed appendicitis) and none of the exclusion criteria apply (no immunosuppressive disease, no report of a normal appendix). The patient\u2019s age, sex, and ability to consent are not disqualifying. Consequently the patient is essentially eligible for the trial, with a small margin for uncertainty due to limited detail on other possible exclusions (e.g., unknown comorbidities).",
+            "eligibility_score_E": 88.0
+        },
+        "NCT01953289": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female with a confirmed diagnosis of acute appendicitis, which is exactly the target condition of the trial. Her age falls within the trial\u2019s allowed range (6\u201190\u202fyears). The only missing piece is the presence of peritoneal free fluid, which the trial mentions but the note does not address. Overall, the patient\u2019s presentation is highly relevant to the study\u2019s focus.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "Inclusion criteria are largely satisfied: the patient has appendicitis and is within the age limits. The trial also requires information on free fluid, which is not provided, so we cannot confirm full eligibility on that sub\u2011criterion. No exclusion criteria apply (no immunosuppression, age is appropriate). Therefore the patient is likely eligible, but the uncertainty about free fluid reduces confidence, resulting in a positive but not maximal eligibility score.",
+            "eligibility_score_E": 45.0
+        },
+        "NCT00908804": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl with clinically and radiologically confirmed acute appendicitis, which is exactly the condition targeted by the trial (open vs laparoscopic appendectomy). The note provides clear information about diagnosis, and the patient also indicates willingness to consent and comply with study procedures. The only missing piece is detailed information about suitability for laparoscopy, but the core disease relevance is strong. Therefore the overall relevance is high but not perfect because of the age boundary and the unknown laparoscopy suitability.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Eligibility requires three inclusion criteria: age >15, suspected acute appendicitis, and suitability for laparoscopy. The patient meets the appendicitis criterion but does NOT meet the age criterion (she is exactly 15, not >15). Suitability for laparoscopy is unknown, so we cannot confirm inclusion on that point. No exclusion criteria apply. Because one mandatory inclusion criterion is not satisfied, the patient is ineligible, but the ineligibility is limited to the age requirement; the patient otherwise aligns with the trial. Hence the eligibility score is negative but less than the full negative relevance bound.",
+            "eligibility_score_E": -50.0
+        },
+        "NCT00723788": {
+            "relevance_explanation": "The trial targets children aged 8\u201118 with suspected appendicitis who are evaluated in the emergency department using imaging (ultrasound or CT). The patient is a 15\u2011year\u2011old girl who presented to the ER with classic symptoms and imaging findings of appendicitis and underwent an abdominal ultrasound. All key elements of the trial\u2019s target population are present, making the patient highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Inclusion criteria are fully met: appropriate age, ER presentation, suspected appendicitis, and recent ultrasound. The only exclusion criteria relate to MRI contraindications (metal implants, claustrophobia, need for sedation). The note provides no evidence of any such issues, and the patient is described as able to consent and comply with the protocol, implying she can undergo MRI without sedation. Therefore, the patient appears eligible for the trial.",
+            "eligibility_score_E": 92.0
+        },
+        "NCT00236912": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female with clinical signs of acute appendicitis (abdominal pain, loss of appetite, localized rebound tenderness) and imaging showing an edematous appendix. The trial targets patients with complicated appendicitis requiring IV antibiotics. While the patient clearly has appendicitis, there is no evidence of perforation, abscess, or other features that define a \"complicated\" case, and the symptom duration is unclear (<24\u202fh). Thus the case is related to the trial\u2019s disease area but only partially matches the specific target condition.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "Inclusion criteria are not satisfied: the patient does not clearly meet the requirement of \u22652 symptoms for \u226524\u202fh or radiologic evidence of complicated appendicitis, and there is no information about postoperative oral intake or birth\u2011control use. Several inclusion items lack sufficient data, making the patient\u2019s eligibility uncertain. None of the exclusion criteria appear to apply based on the information provided. Overall, the patient leans toward ineligibility because key inclusion criteria are unmet or unknown, but the lack of exclusion factors prevents a fully negative score. Therefore the eligibility score is negative but not as low as the relevance limit.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02271932": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl with imaging\u2011confirmed appendicitis, which directly matches the trial\u2019s target condition (appendicitis) and age range (8\u201117). Most inclusion and exclusion criteria are applicable to her (e.g., age, imaging findings, pain duration, lab values, pregnancy status, communication ability). Although several specific data points (exact appendix diameter, WBC count, pregnancy test, exact pain\u2011to\u2011antibiotic timing) are missing, the note provides enough information to assess relevance for the majority of criteria. Therefore the overall relevance between the patient and the trial is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Eligibility is uncertain because key inclusion criteria (exact imaging measurements, WBC count, pain duration before antibiotics) are not documented, and exclusion criteria (pregnancy test, exact WBC thresholds) also lack data. However, no clear exclusion factors are present: there is no diffuse peritonitis, no fecalith, no signs of perforation, and the patient can consent and comply. Given the missing information, the patient cannot be confirmed as fully eligible, but there is no evidence of ineligibility. Thus the eligibility score is modestly positive, reflecting a likely but not certain eligibility.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT02137603": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl with imaging\u2011confirmed acute appendicitis, which directly matches the trial\u2019s target condition of suppurative appendicitis in children. The age falls within the pediatric range (5\u201118) required by the study, and the clinical presentation (right lower quadrant pain, ultrasound showing an edematous appendix) is highly relevant to a trial investigating fast\u2011track appendectomy. The only missing pieces are intra\u2011operative details and scheduling time, but the core disease and demographic fit are strong, so the overall relevance is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Eligibility cannot be fully determined because two key inclusion criteria lack information: (1) the appendectomy must be scheduled between 06:00\u201118:00, and (2) intra\u2011operative findings must show suppurative appendicitis. The note provides no data on operative timing or intra\u2011operative pathology, so we cannot confirm inclusion on those points. Exclusion criteria (pregnancy, complex medical history) appear not to apply. Given the uncertainty, the patient is neither clearly eligible nor clearly ineligible, resulting in a neutral eligibility score within the allowed range of \u201385 to\u202f+85.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT01925014": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old adolescent presenting to the emergency department with classic signs of acute appendicitis confirmed by imaging. The trial targets adolescents and young adults with suspected appendicitis and evaluates CT imaging strategies. Therefore the patient matches the core disease and demographic focus of the study, giving a high relevance. However, the note does not mention that a contrast\u2011enhanced CT was ordered (the trial\u2019s primary intervention), and there is no information about contact details for follow\u2011up, which are important trial\u2011specific elements. These gaps reduce the overall relevance but do not eliminate it.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and none of the exclusion criteria. The patient satisfies inclusion criteria 0 (ED visit with suspected appendicitis) and 3 (informed consent) and has no exclusion criteria. However, inclusion criterion 1 (contrast\u2011enhanced CT requested) is not met, and inclusion criterion 2 (willingness to provide phone contact) is unknown. Because the patient fails to meet at least one required inclusion element, she is not fully eligible. The missing information lowers the eligibility score, but the patient is not outright excluded, so the score is positive but well below the relevance ceiling.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT02624089": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl with acute appendicitis, which matches the trial\u2019s target condition (appendicitis) and age range (7\u201118 years). The note provides sufficient clinical detail (appendicitis diagnosis, likely uncomplicated) and indicates willingness to consent and comply with the protocol. The only missing pieces are explicit confirmation of scheduled laparoscopic appendectomy, hemodynamic stability, and caregiver consent, but overall the case aligns closely with the trial\u2019s focus.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Several inclusion criteria are clearly met (age, likely ASA I, uncomplicated appendicitis, consent/assent). However, key criteria lack definitive information: whether the patient is already scheduled for laparoscopic appendectomy, current hemodynamic stability, and caregiver consent. No exclusion criteria are triggered based on the available data. Because of these gaps, the patient cannot be confirmed as fully eligible, but there is no evidence of ineligibility. Thus the eligibility score is positive but modest relative to the relevance.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT01115153": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female with imaging\u2011confirmed acute appendicitis, which matches the trial\u2019s target condition of acute appendicitis. However, the trial specifically requires intra\u2011operative confirmation of a gangrenous appendix, and the note provides no surgical findings or pathology. Thus the patient is partially relevant but lacks a key piece of required information.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets the age and monitoring criteria and shows no obvious immunosuppression or recent antibiotic use. Pregnancy status is uncertain, and the crucial inclusion criterion (intra\u2011operative gangrenous appendix) cannot be verified from the note. Because of these missing data, the patient cannot be confidently considered eligible; the balance leans toward likely ineligible but not definitively excluded.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00172822": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female with a classic presentation of acute appendicitis confirmed by ultrasound. The trial specifically targets individuals with appendicitis, making the patient\u2019s condition directly aligned with the study\u2019s target condition. The only slight mismatch is the patient\u2019s age (adolescent) and the trial description does not state an age limit, but there is no indication that adolescents are excluded. Therefore the patient is highly relevant to the trial.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The trial enrolls patients with appendicitis who will be managed medically rather than surgically. The note confirms the diagnosis but does not specify the planned treatment. Assuming the patient could be managed non\u2011operatively (the note mentions willingness to consent and comply), there is no explicit exclusion criterion that would disqualify her. Because the information about treatment intent is missing, we cannot be certain of eligibility, but there is no evidence of ineligibility. Hence the eligibility is judged as moderately high but not maximal, reflecting some uncertainty.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT01698099": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female with clinical and ultrasound findings consistent with acute appendicitis, which is the exact condition targeted by the trial. The trial focuses on the diagnostic accuracy of serum bilirubin for distinguishing perforated from non\u2011perforated appendicitis. Although the note does not state whether the appendix is perforated, the patient\u2019s presentation is highly relevant to the study population. The only missing element is confirmation that the patient will undergo appendectomy, which is required for inclusion, but the overall disease relevance remains strong.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Inclusion criterion requires the patient to be undergoing appendectomy for suspected appendicitis. The note only describes presentation and imaging; there is no indication that surgery has been performed or scheduled, so the patient does not satisfy the inclusion requirement. The exclusion criterion (pre\u2011existing liver disease) is not met, but because the primary inclusion is unmet, the patient is ineligible for the trial. Hence the eligibility score is negative, reflecting ineligibility while staying within the \u00b1R range.",
+            "eligibility_score_E": -78.0
+        },
+        "NCT02018016": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old with confirmed acute appendicitis, which is exactly the condition studied in the trial (appendicitis/appendicectomy outcomes). The trial includes all ages and all patients undergoing appendicectomy, so the clinical presentation is highly relevant. The only missing piece is whether the patient actually undergoes an appendicectomy, which is not stated in the note. This uncertainty reduces the relevance slightly but does not eliminate it.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility depends on two main inclusion/exclusion points: (1) the patient must have had an appendicectomy during the study period (2001\u20112010) \u2013 the note only describes acute appendicitis and does not confirm surgery, so we cannot determine eligibility; (2) the patient must not be undergoing a major concurrent abdominal procedure and must be a Scotland resident \u2013 there is no information on either, so we cannot confirm exclusion either. Because the available data are insufficient to judge inclusion or exclusion, the eligibility score is centered at neutral (0), reflecting uncertainty while the relevance remains high.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT02017951": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old with acute appendicitis, which is the condition of interest for the trial. However, the trial concerns outcomes after appendicectomy performed between 2001\u20112010 in Scotland, and the note provides no evidence that the patient has already undergone surgery, nor any information about residence or time frame. Because the core disease matches but the key procedural and contextual details are missing, the overall relevance is moderate but not high.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility requires that the patient has already had an appendicectomy (procedure code H01) within the specified 2001\u20112010 window and be a Scottish resident. The note only describes a pending diagnosis; there is no record of surgery, no date, and no residency information. Consequently, the patient cannot be considered eligible, and the lack of required data pushes the eligibility toward the negative side of the relevance range.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01610193": {
+            "relevance_explanation": "The trial focuses on using pancreatic stone protein to predict acute appendicitis in patients presenting to the emergency department with abdominal pain. The patient is a 15\u2011year\u2011old with classic clinical presentation, imaging confirmation, and ability to consent, which aligns closely with the disease focus and study procedures. The only mismatch is the age requirement (>18 years) that the trial lists, which reduces but does not eliminate relevance.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "The patient satisfies the clinical suspicion and consent inclusion criteria, but fails the age inclusion (>18) and triggers the age exclusion (<18). Because the age criterion is a hard inclusion/exclusion rule, the patient is ineligible for the trial. All other criteria are met or not applicable, so the overall eligibility is negative, reflecting the disqualifying age factor.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT00677989": {
+            "relevance_explanation": "The trial focuses on patients with perforated appendicitis undergoing laparoscopic or open surgery. The patient is a 15\u2011year\u2011old with acute appendicitis symptoms, but the note does not indicate perforation, intra\u2011abdominal fluid, or CT findings required by the inclusion criteria. Moreover, the first inclusion criterion explicitly requires pain *other* than the right lower quadrant, which the patient does not have. Because only a few elements (age, consent) align with the trial while most key disease\u2011specific criteria are missing or contradictory, the overall relevance of this patient to the trial is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Eligibility depends on satisfying all inclusion criteria and not meeting any exclusion criteria. The patient fails the first two inclusion criteria (pain location and confirmed perforated appendicitis on imaging) and lacks evidence for the third (perforated appendicitis as the most likely diagnosis). No exclusion criteria are triggered, but the lack of required inclusion evidence makes the patient ineligible. Since the relevance is modest (R=30), the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01068288": {
+            "relevance_explanation": "The patient is a pediatric case of acute appendicitis, which aligns with the trial\u2019s target condition (appendicitis in children). The note provides information relevant to several trial criteria (consent, diagnosis certainty, lack of other surgical indications, no free air, no other comorbidities). However, the two critical inclusion criteria\u2014delayed diagnosis of \u22654 days and confirmed perforated appendicitis with abscess/phlegmon\u2014are either missing or not satisfied. Because the patient matches some but not the key disease\u2011specific requirements, the overall relevance is moderate.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and none of the exclusions. The patient meets the consent requirement and has no exclusion factors, but fails to demonstrate a delayed symptom duration and lacks evidence of perforated appendicitis with an abscess or phlegmon. Consequently, the patient does not satisfy the essential inclusion criteria and is therefore ineligible for the trial. The eligibility score is set to the negative of the relevance score to reflect clear ineligibility.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT02194140": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl presenting to the emergency department with right lower quadrant abdominal pain and an ultrasound confirming an inflamed appendix\u2014exactly the target condition (appendicitis) and setting described in the trial. All major trial elements (ED presentation, RLQ pain, appendicitis diagnosis) are directly mentioned, making the patient highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Inclusion criteria are satisfied (ED presentation with RLQ pain). However, the trial explicitly excludes patients under 18 years old. The patient is 15, so she meets this exclusion criterion. Because the exclusion overrides the inclusion, the patient is ineligible. The eligibility score is therefore negative, reflecting the exclusion, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -92.0
+        },
+        "NCT01022567": {
+            "relevance_explanation": "The patient presents with acute uncomplicated appendicitis, which matches the trial's target condition. However, key trial requirements are not met: the patient is 15 years old (trial age 18\u201160) and the diagnosis was made by ultrasound rather than the required CT scan. These mismatches reduce overall relevance but the core disease alignment still makes the case somewhat pertinent.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient is excluded by the explicit age exclusion criterion (under 18 years). No other exclusion criteria apply, but because the age exclusion is decisive, the patient is ineligible. The eligibility score therefore reflects full ineligibility within the relevance bound.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT01825863": {
+            "relevance_explanation": "The patient has acute appendicitis, which matches the trial's target condition. However, the trial is designed for patients undergoing laparoscopic surgery at an adult hospital and explicitly requires participants to be older than 18 years. The patient is 15 years old, and there is no information confirming that she will undergo laparoscopic (diagnostic) surgery or meet other peri\u2011operative criteria. Thus the case is moderately relevant but missing several key trial specifics.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "A critical inclusion criterion is age >18 years, which the patient does not meet (she is 15). This alone makes her ineligible regardless of other criteria. No exclusion criteria are triggered, but the failure to satisfy a mandatory inclusion rule outweighs any neutral or positive points. Consequently, the eligibility score is the negative extreme of the relevance range.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT00913445": {
+            "relevance_explanation": "The patient has acute appendicitis and is undergoing emergency surgery, which directly matches the trial's focus on wound healing after appendicectomy. However, the trial is limited to adult patients, and the patient is 15 years old, making her a child. This age mismatch reduces the overall relevance but does not eliminate it entirely because the disease and procedure are pertinent.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "The inclusion criterion requires the patient to be an adult with acute appendicitis, which the patient does not satisfy due to her age. Additionally, the exclusion criterion explicitly excludes children, and the patient is a child. Therefore, the patient is ineligible for the trial, and the eligibility score should be the negative of the relevance score.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT01678365": {
+            "relevance_explanation": "The patient presents with acute appendicitis confirmed by ultrasound, which matches the trial's focus on appendicitis in children. However, the trial specifically targets *complicated* appendicitis (perforation, abscess, free fluid) and limits enrollment to children aged 1\u201114 years. The patient is 15 years old and the imaging shows only a markedly edematous appendix without perforation, abscess, or free fluid. Thus the case is only partially relevant to the disease area but fails key trial inclusion criteria.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Because the patient does not satisfy the age limit (15\u202f>\u202f14) and lacks any evidence of complicated appendicitis (no perforation, abscess, or free fluid), she does not meet any of the inclusion criteria. No exclusion criteria are triggered, but failure to meet inclusions makes her ineligible. The eligibility score is therefore negative, reflecting ineligibility, and is bounded by the relevance score.",
+            "eligibility_score_E": -38.0
+        },
+        "NCT01027455": {
+            "relevance_explanation": "The patient clearly has acute appendicitis requiring laparoscopic surgery, which matches the disease focus of the trial. However, the trial explicitly restricts enrollment to children aged 8\u201114 years, and the patient is 15 years old. Because the primary disease criterion is met but the key age criterion is not, the overall relevance is high but not perfect.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and not meeting any exclusion criteria. The patient fails the age inclusion criterion (15\u202fyears vs. required 8\u201114\u202fyears), making her ineligible despite satisfying the disease and exclusion criteria. Therefore the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT01024439": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl with a confirmed diagnosis of acute appendicitis, which is exactly the target condition of the trial (laparoscopic appendicectomy). The clinical trial is focused on surgical technique for acute appendicitis, so the disease relevance is very high. The only major mismatch is the trial\u2019s age inclusion criterion (\u226518 years). Apart from age, the patient meets gender, consent, and likely ASA criteria, and has no prior abdominal surgery. Therefore the overall relevance between the patient\u2019s condition and the trial\u2019s purpose is strong but not perfect because of the age discrepancy.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and none of the exclusion criteria. The patient fails the primary inclusion criterion of age (must be \u226518 years). All other criteria appear to be satisfied or indeterminate but not disqualifying. Because the age requirement is a hard inclusion rule, the patient is ineligible for enrollment. The eligibility score is therefore the negative of the relevance score, reflecting a clear exclusion due to age while the rest of the profile is otherwise compatible.",
+            "eligibility_score_E": -80.0
+        },
+        "NCT02029781": {
+            "relevance_explanation": "The patient presents with acute appendicitis, which matches the trial's target condition. However, the trial is limited to patients aged 18\u202fyears or older and requires that they undergo a diagnostic laparoscopy for suspected appendicitis. The note does not indicate that the patient will have surgery or laparoscopy, and she is only 15\u202fyears old. Because the core disease matches but key inclusion criteria (age and surgical procedure) are not met, the overall relevance is moderate but not high.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and none of the exclusion criteria. The patient satisfies the informed\u2011consent inclusion, but she fails the age requirement (\u226518\u202fyears) and there is no evidence she will undergo a diagnostic laparoscopy, which is another required inclusion. No exclusion criteria are triggered. Since the patient does not meet essential inclusion criteria, she is ineligible. The eligibility score is therefore negative and bounded by the relevance score.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT02047786": {
+            "relevance_explanation": "The patient clearly has acute appendicitis, which matches the trial's target condition. However, the trial is limited to children aged 2\u201112 years, and the patient is 15 years old, placing her outside the defined age range. Because the core disease aligns but the key demographic criterion does not, the overall relevance is moderate rather than high.",
+            "relevance_score_R": 58.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and none of the exclusion criteria. The patient fails the primary inclusion criterion (age 2\u201112) and therefore is not eligible. No exclusion criteria are triggered, but the age mismatch makes her ineligible. Since relevance is 58, the eligibility score is set to the negative extreme of that relevance range, indicating clear ineligibility.",
+            "eligibility_score_E": -58.0
+        },
+        "NCT02004470": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old female presenting with acute appendicitis and will likely undergo an appendectomy. The trial targets patients undergoing laparoscopic gynecologic surgery to reduce post\u2011laparoscopic shoulder pain, focusing on shoulder pain outcomes. There is no indication that this patient will have laparoscopic surgery, nor does she have shoulder pain or a gynecologic condition. The only overlap is gender and willingness to consent, which are minimal. Therefore the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Even though the patient meets the gender and consent criteria, she fails the age inclusion (must be 18\u201175) and is explicitly excluded by the age exclusion criterion (under 18). Because the relevance is low, the eligibility score is bounded by \u00b120. The age exclusion makes her ineligible, so the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02469935": {
+            "relevance_explanation": "The patient underwent an abdominal ultrasound, which matches the trial's requirement for a patient referred for an abdominal ultrasound. However, the clinical trial focuses on detecting gallstones in adult patients, while this patient is a 15\u2011year\u2011old being evaluated for possible appendicitis. The overlap is limited to the imaging modality and referral type, but the target condition and age group are mismatched, making the overall relevance low to moderate.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Although the patient meets the referral and communication criteria, she does not satisfy the key inclusion criterion of age >\u202f18 years. No exclusion criteria apply, but the failure to meet an essential inclusion criterion makes her ineligible for the study. Therefore, the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02134652": {
+            "relevance_explanation": "The trial focuses on children with suspected dengue fever and uses bedside ultrasound to predict disease severity. The patient is a 15\u2011year\u2011old presenting with acute appendicitis, no fever, and no mention of dengue exposure or symptoms. Apart from age, the clinical picture is unrelated to the trial\u2019s target condition, making the overall relevance low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Although the patient meets the age requirement, consent criteria, and has no exclusion factors, she does not satisfy the key inclusion criterion of clinical suspicion of dengue hemorrhagic fever. Because a required inclusion criterion is missing, she is considered ineligible. The eligibility score is therefore the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02375529": {
+            "relevance_explanation": "The patient is a 15\u2011year\u2011old girl with acute appendicitis, whereas the trial enrolls adult patients (age 18\u201180) with symptomatic gallstones undergoing laparoscopic cholecystectomy. The only overlap is that the patient can give informed consent, but this single matching element is outweighed by the mismatch in age, diagnosis, and target surgery. Consequently the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not satisfy the primary inclusion criteria (age >18 and having symptomatic gallstones) and there is no information to confirm other required criteria, the patient would be considered ineligible for the trial. The eligibility score must lie within \u00b1R, so we assign the most negative value allowed, indicating clear ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01979029": {
+            "relevance_explanation": "The clinical trial is focused on patients with rectal cancer undergoing specific surgical techniques. The patient is a 15\u2011year\u2011old girl with acute appendicitis and no evidence of rectal cancer, pathology, or any related surgical plan. Therefore, the patient\u2019s condition is largely unrelated to the trial\u2019s target disease and interventions, resulting in a very low relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Although the patient is essentially irrelevant to the trial, one exclusion criterion (being in the acute phase of inflammation and requiring emergency surgery) does apply to her acute appendicitis. This makes her ineligible for the trial. Because eligibility cannot exceed the relevance magnitude, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02439593": {
+            "relevance_explanation": "The trial targets adults (18\u201180) with locally advanced pancreatic cancer and specific tumor characteristics. The patient is a 15\u2011year\u2011old girl with acute appendicitis and no evidence of pancreatic disease. Apart from the generic compliance statement, none of the inclusion criteria apply, and the age criterion is violated. Therefore the overall relevance of this patient to the trial is minimal.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet the core disease\u2011specific inclusion criteria, she is ineligible on that basis. Additionally, she fails the age requirement (under 18) and lacks documented contraception or a negative pregnancy test, which are required for women of child\u2011bearing potential. While there are no exclusion criteria that clearly apply, the lack of meeting key inclusion criteria and the age mismatch make her effectively ineligible. Given the low relevance, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -5.0
+        }
+    },
+    "sigir-201427": {
+        "NCT01761279": {
+            "relevance_explanation": "The trial focuses on evaluating small colonic polyps (<10\u202fmm) using advanced imaging. The patient is a 21\u2011year\u2011old with dozens of small adenomatous polyps in the rectosigmoid, which directly matches the target condition and size range of the study. The note also confirms the patient\u2019s willingness and ability to comply with study procedures. Therefore, the patient is highly relevant to the trial.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "While the patient meets the inclusion criterion of having small polyps, the exclusion criteria list polyposis syndrome. The patient\u2019s personal and family history (multiple adenomas, hundreds of polyps in siblings, and likely hereditary polyposis such as FAP) clearly indicates a polyposis syndrome, which is an exclusion factor. Consequently, the patient is ineligible for the trial despite high relevance.",
+            "eligibility_score_E": -92.0
+        },
+        "NCT00525655": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with dozens of adenomatous polyps and a strong family history of hundreds of polyps in siblings, which is characteristic of Familial Adenomatous Polyposis (FAP). The trial specifically targets adolescents and young adults (13\u201124 years) with a confirmed clinical or genetic diagnosis of FAP. The patient\u2019s age, disease phenotype, and willingness to consent align closely with the trial\u2019s target population, making the case highly relevant. The only missing information is language ability, which does not affect relevance to the disease focus.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria. The patient clearly satisfies inclusion criterion 0 (clinical diagnosis of FAP within the age range). However, inclusion criterion 1 (age 18\u201121 with a prior cancer diagnosis) is not met, as there is no evidence of any previous cancer. Because the patient fails this required inclusion criterion, they are ineligible for the study despite otherwise being a good match. The lack of information on English proficiency does not change the ineligibility status, but it adds uncertainty. Consequently, the eligibility score is negative and equal in magnitude to the relevance score, reflecting a clear ineligibility.",
+            "eligibility_score_E": -92.0
+        },
+        "NCT02538406": {
+            "relevance_explanation": "The trial enrolls adult patients (18\u201180) undergoing colonoscopy for screening or surveillance. The patient is a 21\u2011year\u2011old undergoing sigmoidoscopy/colonoscopy because of a strong family history of polyps, which is a classic surveillance indication. This directly matches the target condition (adenomatous polyps) and the procedural context of the study. Therefore the patient is highly relevant to the trial.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied (age, undergoing colonoscopy for screening/surveillance). None of the exclusion criteria apply: the patient has no prior colonic surgery, no inflammatory bowel disease, no history of colon cancer, no reported poor bowel prep, and is not pregnant. Consequently the patient is fully eligible for the study.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT01725490": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with dozens of colonic adenomatous polyps and a strong family history of hundreds of polyps in siblings, which is highly characteristic of familial adenomatous polyposis (FAP). The trial targets non\u2011diabetic FAP patients aged 20\u201165 with colonic or duodenal polyps. All key elements (age, diagnosis, presence of polyps, ability to consent and comply) are present, making the patient highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "The patient meets inclusion criteria 0 and 1 (age 21, confirmed colonic polyps). Criterion 2 requires \u22655 polyps \u22652\u202fmm; the note confirms \"dozens of small polyps\" but does not specify size, so eligibility cannot be fully confirmed but is likely satisfied. No exclusion criteria are triggered (no recent colectomy, no cancer, no NSAID/aspirin regular use, no diabetes, not pregnant, and no reported lab abnormalities). Given the strong overall fit with some minor uncertainty about polyp size, the patient is considered probably eligible, though not with absolute certainty.",
+            "eligibility_score_E": 68.0
+        },
+        "NCT00140894": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with dozens of adenomatous polyps and a strong family history of hundreds of polyps in siblings, which is characteristic of Familial Adenomatous Polyposis (FAP). The trial targets adults (\u226518) with FAP and evaluates a drug for rectal, colon, or duodenal adenomas. All key disease\u2011specific elements (age, diagnosis, lesion location) align, making the patient highly relevant to the study.",
+            "relevance_score_R": 95.0,
+            "eligibility_explanation": "Based on the inclusion criterion, the patient meets the age requirement and has FAP\u2011consistent adenomatous polyps. No exclusion criteria are presented, and the patient is willing and able to consent and follow the protocol. Therefore the patient is considered eligible for enrollment.",
+            "eligibility_score_E": 95.0
+        },
+        "NCT01483144": {
+            "relevance_explanation": "The patient is a young adult with a strong family history of polyposis and currently has dozens of colonic adenomas, which aligns with the trial\u2019s focus on Familial Adenomatous Polyposis (FAP). However, the patient does not meet the classic FAP phenotype (hundreds\u2011thousands of polyps) and there is no information on duodenal involvement, APC mutation status, or many of the required baseline laboratory and imaging assessments. Consequently, the case is somewhat relevant to the trial but lacks several key disease\u2011specific features.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Key inclusion criteria (classical FAP phenotype, confirmed APC mutation, extensive colonic/duodenal polyposis) are not satisfied or not documented, making the patient ineligible on those grounds. Some inclusion items (intact colon, willingness to consent, no gross blood, no recent malignancy) are met, and no exclusion criteria are triggered. Because the patient fails major inclusion requirements, the eligibility score is negative, but its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01187901": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with a clear clinical picture of familial adenomatous polyposis (numerous adenomatous polyps in the colon and a strong family history). This matches the trial\u2019s target condition (FAP/AFAP) and satisfies most of the inclusion criteria (age, diagnosis, ability to consent, no recent surgery, presumed performance status). Although the note lacks information on duodenal polyps and laboratory values, the majority of criteria are directly applicable, making the patient highly relevant to the trial.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria (age, clinical diagnosis, consent, no recent surgery, likely performance status, NSAID wash\u2011out). However, key eligibility data are missing: presence of duodenal polyps \u22655\u202fmm is unknown, and no laboratory results are provided to confirm bone\u2011marrow, liver, and other safety labs required for eligibility. Because these unknowns prevent confirming full eligibility, the eligibility score is moderate, reflecting partial eligibility but significant uncertainty.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT01713881": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with multiple benign tubular adenomas identified on sigmoidoscopy, which directly matches the trial\u2019s target condition (colon polyp surveillance) and the inclusion criteria of having any adenoma found on screening/surveillance colonoscopy. Age >18 also aligns with the trial\u2019s age requirement. No information suggests any exclusion criteria (e.g., IBD or age <18). Therefore the patient is highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied (adenoma present, age >18) and none of the exclusion criteria apply (patient is not under 18 and has no IBD). Consequently, the patient would be considered eligible for the retrospective chart\u2011review cohort, matching the trial\u2019s eligibility profile.",
+            "eligibility_score_E": 92.0
+        },
+        "NCT00728026": {
+            "relevance_explanation": "The clinical trial focuses on autonomic testing in pediatric patients with functional gastrointestinal or autonomic disorders (CVS, IBS, POTS, FAP, chronic nausea). The patient is a 21\u2011year\u2011old adult being evaluated for hereditary colorectal adenomatous polyposis, with no mention of vomiting, IBS, POTS, or autonomic testing. The only overlap is that both involve gastrointestinal evaluation, but the conditions, age group, and study purpose are unrelated. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Eligibility criteria pertain to outpatient versus inpatient status, which the note satisfies (outpatient). However, the trial\u2019s inclusion criteria also require the patient to have undergone specific autonomic function tests and to have one of the target functional GI or autonomic diagnoses, none of which are present in the note. Because the patient does not meet the core disease or testing requirements, there is no evidence to consider him eligible or ineligible beyond the generic outpatient status. With such minimal relevance, the eligibility score is neutral.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT00748449": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with a strong family history of multiple colonic adenomas and prior endoscopic examinations, which aligns closely with the trial\u2019s focus on high\u2011risk individuals and the inclusion criteria concerning age, informed consent, prior medical examination, and family history. Several inclusion criteria are directly met, and no clear exclusion criteria apply, making the patient highly relevant to the study.",
+            "relevance_score_R": 82.0,
+            "eligibility_explanation": "Despite high relevance, the patient does not satisfy key inclusion criteria: (1) there is no history of advanced adenomatous polyps, only small benign adenomas, and (2) the family history does not meet the specific first\u2011degree CRC diagnosis <60\u202fyears requirement. No exclusion criteria are triggered, but the unmet inclusion items render the patient ineligible. Therefore, the eligibility score is negative, reflecting ineligibility while staying within the \u00b1R bound.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT00685568": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with a strong family history of hundreds of adenomas and already has dozens of adenomas himself, which is highly characteristic of familial adenomatous polyposis (FAP). This aligns closely with the trial\u2019s target population of young patients with a genetic predisposition to FAP. However, the note lacks any documented genetic testing or confirmed APC mutation, which are key inclusion criteria. Because the core disease phenotype is present but the definitive genetic confirmation is missing, the overall relevance is high but not perfect.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "Several inclusion criteria are clearly met (intact colon, adenoma burden assessment, no severe dysplasia, no carcinoma, no relevant medical exclusions, and appropriate medication restrictions). The major uncertainties are the lack of documented APC mutation, unknown adenoma size/count thresholds, and missing laboratory values (CBC, liver/kidney labs). These unknowns prevent a definitive determination of full eligibility, but the available information leans toward eligibility rather than exclusion. Consequently, the eligibility score is positive but limited by the relevance ceiling.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT00808743": {
+            "relevance_explanation": "The trial targets patients with confirmed Familial Adenomatous Polyposis (FAP) defined by an APC mutation or >100 colorectal polyps, and who have duodenal adenomas with a Spigelman score II\u2011III. The patient is a young adult with a strong family history of polyposis and currently has dozens of colonic adenomas, suggesting a possible FAP phenotype, but the note does not document an APC mutation nor does it meet the quantitative threshold of >100 polyps. Moreover, there is no information about duodenal disease or Spigelman scoring. Because the patient shares the underlying disease context (family history and colonic adenomas) but lacks the specific inclusion criteria, the overall relevance is moderate rather than high.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility depends on satisfying all inclusion criteria and not meeting any exclusion criteria. The patient does not satisfy the primary inclusion criterion (no documented APC mutation and fewer than 100 polyps), and there is no data to confirm the required duodenal Spigelman score. Consequently, the patient would be considered ineligible for the study. All exclusion criteria appear to be met (i.e., none are violated), but the lack of inclusion fulfillment outweighs this. Given the relevance of 42, the eligibility score is set to a negative value reflecting ineligibility, but not the full negative of relevance because some aspects (e.g., no exclusion factors) are favorable.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02113202": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with dozens of adenomatous polyps and a strong family history of polyposis, which aligns with the trial\u2019s focus on hereditary adenomatous polyposis. Age, consent, and ability to follow\u2011up are clearly met, and there are no exclusion factors (no proctocolectomy, no known MutYH mutation, no pregnancy, etc.). The only major gap is the lack of documented genetic confirmation of an APC mutation or the clinical threshold of >100 polyps required for a definitive FAP diagnosis. Because this key inclusion criterion is uncertain, the overall relevance is substantial but not perfect.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "While the patient satisfies age, consent, and follow\u2011up criteria and has no exclusion conditions, the primary inclusion requirement (genetically or clinically proven FAP) is not met in the note. The patient has only \"dozens\" of polyps, far below the >100\u2011polyp clinical threshold, and no APC mutation testing is reported. Therefore, the patient is likely ineligible for the trial, though the uncertainty prevents a full -R penalty. The eligibility score reflects probable ineligibility but acknowledges the possibility of missing data.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00026468": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old male with dozens of colonic adenomas and a strong family history of hundreds of adenomas in siblings, which is highly consistent with familial adenomatous polyposis (FAP). The trial targets patients with FAP, ages 18\u201180, with an intact colon, and no prior colectomy \u2013 all of which are satisfied by the patient. Although many laboratory and medication\u2011use criteria are not documented in the note, the core disease\u2011specific and demographic criteria that define the trial population are clearly met, making the patient highly relevant to the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Based on the available information, the patient meets the key inclusion criteria: diagnosis of FAP (inferred from multiple adenomas and family history), age 21, intact colon, and male (not pregnant). No exclusion criteria are documented (no prior colectomy, no active malignancy, no known allergies, etc.). The main uncertainty lies in missing laboratory values (hemoglobin, platelets, liver and renal function) and medication history (NSAID use), which are required but not provided. Assuming these values are within acceptable ranges, the patient would be eligible. Therefore, the eligibility assessment is positive but tempered by the lack of complete data, resulting in a moderate\u2011high eligibility score within the relevance bound.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT00770991": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with a strong family history of hundreds of adenomas and multiple rectosigmoid adenomas himself, which is characteristic of Familial Adenomatous Polyposis (FAP). The trial targets adults with FAP and requires a baseline endoscopic assessment of the rectum, both of which are clearly present in the note. The only missing detail is the exact size of the polyps, but the overall clinical picture aligns closely with the trial\u2019s target population, making the patient highly relevant to the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Inclusion criterion 1 (endoscopically assessable rectal segment) is satisfied. Inclusion criterion 0 (\u22655 rectal polyps \u22652\u202fmm) is likely met given the description of \"dozens of small colonic polyps\" but the exact size is not documented, so eligibility cannot be confirmed. NSA\u2011NSAID use is unknown, leaving inclusion criterion 2 uncertain. No exclusion criteria are triggered based on the available information. Consequently, the patient appears potentially eligible but there is insufficient data to declare full eligibility; the eligibility score reflects a positive but partial likelihood of meeting all criteria.",
+            "eligibility_score_E": 40.0
+        },
+        "NCT00224679": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old with multiple colorectal adenomas, which directly matches the trial\u2019s target condition (colon adenomas) and the age inclusion range (18\u201175). The note provides clear evidence of the required number of adenomas and the patient\u2019s willingness to comply, making the case highly relevant to the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied: the patient\u2019s age is within 18\u201175 and he has dozens of adenomas (well above the minimum of 3). The exclusion criteria (personal history of colon cancer, IBD, FAP, or regular aspirin use) are not documented; there is no indication of colon cancer, IBD, or regular aspirin use, and FAP is not diagnosed despite a family history. Therefore, the patient is not excluded and is fully eligible for the trial.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT01960348": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old who meets the age inclusion criterion, which gives a small amount of relevance. However, the trial targets patients with transthyretin\u2011mediated amyloidosis (FAP) and requires specific neurological, laboratory, and organ\u2011function assessments that are completely unrelated to the patient\u2019s presentation of familial adenomatous polyposis. Apart from age, there is essentially no overlap between the patient\u2019s condition and the disease focus of the trial. Therefore the overall relevance is low but not zero.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because the patient does not have a diagnosis of familial amyloid polyneuropathy (FAP) and there is no evidence of any of the required disease\u2011specific criteria, the patient is clearly ineligible. The only inclusion criterion satisfied is age; all disease\u2011specific inclusions are missing, and no exclusion criteria are triggered. Hence the eligibility score should be negative, reflecting ineligibility, but its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT01729416": {
+            "relevance_explanation": "The trial investigates colonoscopy technique (water vs air) in adults undergoing colonoscopy for adenoma detection. The patient is undergoing sigmoidoscopy for surveillance of multiple adenomas, which aligns with the trial\u2019s focus on adenoma detection, giving moderate relevance. However, the patient is 21 years old, far younger than the typical screening population and the trial\u2019s age inclusion (\u226550), and the patient is not an average\u2011risk screening candidate but a high\u2011risk surveillance case. These mismatches lower overall relevance.",
+            "relevance_score_R": 58.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and none of the exclusions. The patient satisfies the consent and surveillance inclusion criteria, but fails the age criterion (must be \u226550) and does not meet the average\u2011risk screening criterion. No exclusion criteria apply. Because the patient does not satisfy key inclusion requirements, they are ineligible. The eligibility score is therefore negative and bounded by the relevance score.",
+            "eligibility_score_E": -58.0
         }
     }
 }
