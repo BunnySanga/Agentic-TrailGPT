@@ -16,7 +16,9 @@
       "Bash(~/trialgpt-venv/bin/python run_parallel.py --patients-file ranking_test_patients.txt:*)",
       "Bash(~/trialgpt-venv/bin/python evaluate_rankings.py --variants:*)",
       "Bash(git commit -m \"Ranking baseline:*)",
-      "Bash(git commit -m \"Ranking review:*)"
+      "Bash(git commit -m \"Ranking review:*)",
+      "Bash(~/trialgpt-venv/bin/python run_parallel.py --patients-file ranking_test_extra_patients.txt:*)",
+      "Bash(git commit -m \"Ranking held-out:*)"
     ]
   }
 }

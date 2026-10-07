@@ -6,16 +6,16 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest import mock
 
+from agentic_score import matching_score, trial_score
 from evaluate_rankings import (
     cost_report,
-    matching_score,
     ndcg_at_k,
+    paired_comparison,
     patient_cost,
     precision_at_k,
     rank_patient,
     review_applies,
     reviewed_trial_results,
-    trial_score,
 )
 from run_parallel import JsonStore, Run, read_patients_file, select_patients
 from trialgpt_assertion.TrialGPT import CachedNoteAssertion
@@ -273,6 +273,19 @@ class ReviewedResultTests(unittest.TestCase):
 
     def test_missing_review_record_means_incomplete(self):
         self.assertIsNone(reviewed_trial_results("p", ["A", "C"], self.before, self.after, self.log, None))
+
+
+class PairedComparisonTests(unittest.TestCase):
+    def test_counts_and_interval(self):
+        reference = {p: {"ndcg@10": 0.5} for p in "abcd"}
+        other = {"a": {"ndcg@10": 0.7}, "b": {"ndcg@10": 0.6}, "c": {"ndcg@10": 0.5}, "d": {"ndcg@10": 0.4}}
+        result = paired_comparison(reference, other)
+        self.assertEqual((result["better"], result["same"], result["worse"]), (2, 1, 1))
+        self.assertAlmostEqual(result["mean_difference"], 0.05)
+        low, high = result["ci95"]
+        self.assertLessEqual(low, 0.05)
+        self.assertGreaterEqual(high, 0.05)
+        self.assertEqual(paired_comparison(reference, other), result)  # fixed seed
 
 
 class CostReportTests(unittest.TestCase):
