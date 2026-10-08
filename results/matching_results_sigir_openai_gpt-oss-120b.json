@@ -68530,6 +68530,113 @@
                         "excluded"
                     ]
                 }
+            },
+            "NCT02404181": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 85 years old, satisfying age \u226560.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient shows functional decline (stopped walking and eating) suggesting frailty, though not explicitly stated.",
+                        [
+                            1
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of elective surgery; patient was in a car accident, not surgery.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Criterion refers to postoperative stay, which is irrelevant as patient is not undergoing surgery.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of language barrier or deafness; assume patient can communicate.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is in ER after car accident, no indication of neurological surgery admission.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No evidence of prior participation in this study; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Sentence 4 states patient will provide consent and comply without practical issues, indicating no logistical barriers.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information about isolation or resistant organism carrier status; assume not isolated.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00906711": {
+                "inclusion": {
+                    "0": [
+                        "The criterion asks for absence of any basic pathology that directly interferes with balance. The note does not describe any neurological, vestibular, musculoskeletal, or other disorders known to affect balance. The only relevant mention is the prior car accident with a normal head CT (sentence 3), which suggests no brain injury. Thus we infer the patient likely has no basic pathology affecting balance.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient shows decreased level of consciousness, indicating neurological changes.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No direct evidence of cognitive impairment; decreased consciousness is not sufficient to conclude cognitive deficit.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No mention of orthopedic injury despite recent car accident; absence of evidence suggests no orthopedic injury.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No information about use of lower limb orthoses.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information regarding obesity.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No information about exercise frequency.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No information about any commitment to stay in standing position; criterion not applicable.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -71306,6 +71413,57 @@
                         "not applicable"
                     ]
                 }
+            },
+            "NCT02026531": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to be referred for assessment of possible pulmonary hypertension. The note does not mention any referral, suspicion, or evaluation for pulmonary hypertension; it only describes acute wheezing. No evidence suggests the patient meets this criterion, and it is unlikely that a relevant note would omit such a referral if it existed.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns a cardiac pacemaker or temporary pacing wire; the note contains no mention of any cardiac device and such devices are unlikely in a 4\u2011year\u2011old without prior cardiac history, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The criterion concerns an aneurysm clip; there is no evidence of prior neurosurgery or aneurysm in the note, and it would be unusual for a child of this age, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The criterion concerns a non\u2011MRI\u2011compatible heart valve prosthesis; no heart valve replacement is described, and such prostheses are rare in a healthy 4\u2011year\u2011old, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "The criterion concerns an intra\u2011orbital metallic foreign body; the note contains no ocular trauma or foreign body information, making this exclusion not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Pregnancy is not applicable to a male child; therefore the criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "The criterion concerns metal prostheses or spinal rods; no such implants are mentioned and are unlikely in this patient, so the exclusion is not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Retained shrapnel would be noted if present; there is no mention of trauma with shrapnel, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Cochlear implants or bladder stimulators would be documented; none are reported, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -73062,6 +73220,36 @@
                     ]
                 },
                 "exclusion": {}
+            },
+            "NCT00838643": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 65 years old, which satisfies age > 16.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of allogeneic HSCT or any hematological disease; absence of such information likely means the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Sentence indicates patient will provide informed consent and comply with protocol.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 65 years old, thus not a pediatric patient; criterion does not apply to him.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     }

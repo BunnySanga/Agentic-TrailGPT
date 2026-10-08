@@ -17005,6 +17005,31 @@
         "total_tokens": 1194,
         "seconds": 2.18
       }
+    },
+    "NCT02404181": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 2042,
+        "completion_tokens": 795,
+        "total_tokens": 2837,
+        "seconds": 3.21
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 1196,
+        "completion_tokens": 264,
+        "total_tokens": 1460,
+        "seconds": 1.16
+      }
+    },
+    "NCT00906711": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 1662,
+        "completion_tokens": 666,
+        "total_tokens": 2328,
+        "seconds": 3.28
+      }
     }
   },
   "sigir-201516": {
@@ -17671,6 +17696,29 @@
         "completion_tokens": 1003,
         "total_tokens": 3049,
         "seconds": 3.58
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 1742,
+        "completion_tokens": 238,
+        "total_tokens": 1980,
+        "seconds": 1.82
+      }
+    },
+    "NCT02026531": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 1781,
+        "completion_tokens": 642,
+        "total_tokens": 2423,
+        "seconds": 3.17
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 1222,
+        "completion_tokens": 286,
+        "total_tokens": 1508,
+        "seconds": 2.07
       }
     }
   },
@@ -18025,6 +18073,22 @@
         "completion_tokens": 413,
         "total_tokens": 1306,
         "seconds": 1.99
+      }
+    },
+    "NCT00838643": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 1549,
+        "completion_tokens": 299,
+        "total_tokens": 1848,
+        "seconds": 1.96
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 768,
+        "completion_tokens": 326,
+        "total_tokens": 1094,
+        "seconds": 1.75
       }
     }
   }

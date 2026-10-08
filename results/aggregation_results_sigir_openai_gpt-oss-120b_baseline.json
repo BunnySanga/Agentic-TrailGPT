@@ -5729,6 +5729,12 @@
             "relevance_score_R": 30.0,
             "eligibility_explanation": "Although the patient can give consent and would comply with study procedures, he fails key inclusion criteria (no evidence of being healthy or meeting BMI/weight requirements) and, more critically, meets an exclusion criterion: a recent traumatic event (car accident) within the past 4 weeks. This makes him ineligible for the study. Given the relevance score of 30, the eligibility score is set to the negative extreme, indicating clear ineligibility.",
             "eligibility_score_E": -30.0
+        },
+        "NCT02404181": {
+            "relevance_explanation": "The trial targets frail elderly patients (\u226560) undergoing elective surgery with an expected postoperative stay of at least two days. The patient is 85 years old and shows functional decline, satisfying the age and frailty aspects, which gives some relevance. However, there is no evidence that he is scheduled for elective surgery; instead he presents after a traumatic car accident. Because the core inclusion criterion (elective surgery) is missing, the overall relevance to the trial is limited.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "While the patient meets the age and frailty inclusion criteria and has no exclusion factors, he does not meet the essential inclusion requirement of undergoing elective surgery. Therefore, he would be considered ineligible for this study. The eligibility score is negative, reflecting ineligibility, but its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -42.0
         }
     },
     "sigir-201516": {
@@ -5977,6 +5983,18 @@
             "relevance_score_R": 30.0,
             "eligibility_explanation": "Because the patient does not meet the key inclusion criteria (age 6\u201111 and prior physician\u2011diagnosed mild asthma), he is effectively ineligible. Several inclusion items lack sufficient information (height, asthma severity), and the age criterion alone excludes him. No exclusion criteria are triggered, but the failure to satisfy essential inclusions outweighs that, resulting in a negative eligibility score within the allowed range.",
             "eligibility_score_E": -20.0
+        },
+        "NCT01405963": {
+            "relevance_explanation": "The trial enrolls adults (18\u201160 years) with mild atopic asthma and includes adult\u2011specific criteria such as BMI, skin\u2011prick testing, and medication use. The patient is a 4\u2011year\u2011old child with an acute wheezing episode and a history of allergic rhinitis, but no confirmed diagnosis of chronic atopic asthma. Because the patient\u2019s age and disease status do not match the target population, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Given the near\u2011zero relevance, most inclusion criteria are not applicable, and none of the exclusion criteria are clearly violated. Therefore there is no evidence to label the patient as eligible or ineligible; the eligibility assessment is essentially neutral.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT02026531": {
+            "relevance_explanation": "The trial focuses on patients being evaluated for possible pulmonary hypertension and uses MRI to assess pulmonary vascular disease. The patient note describes an acute wheezing episode in a previously healthy 4\u2011year\u2011old with no mention of dyspnea at rest, chronic respiratory disease, cardiac symptoms, or any referral for pulmonary hypertension assessment. Therefore there is virtually no clinical overlap between the patient\u2019s presentation and the target condition of the trial, making the relevance very low.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Eligibility depends on meeting the inclusion criterion (referral for possible pulmonary hypertension) and not meeting any exclusion criteria. The patient does not satisfy the sole inclusion criterion, so he is ineligible. None of the exclusion criteria apply, but because the inclusion is not met, the overall eligibility is negative. The magnitude of the eligibility score cannot exceed the relevance score, so we assign the maximum negative value within that range.",
+            "eligibility_score_E": -8.0
         }
     },
     "sigir-201522": {
@@ -6111,6 +6129,12 @@
             "relevance_score_R": 30.0,
             "eligibility_explanation": "Eligibility requires the patient to be a high\u2011risk haematology subject (acute leukaemia on chemotherapy or post\u2011bone\u2011marrow transplant). The patient\u2019s note does not mention any haematologic malignancy, chemotherapy, or transplant, so he does not satisfy the primary inclusion criterion. Consequently, he would be considered ineligible for the trial. Since the relevance is modest (R=30), the eligibility score is set to the negative extreme, indicating clear ineligibility.",
             "eligibility_score_E": -30.0
+        },
+        "NCT00838643": {
+            "relevance_explanation": "The patient presents with a fungal infection consistent with invasive aspergillosis (septated, low\u2011angle branching hyphae) which matches the target condition of the trial. However, the trial is restricted to patients who have undergone an allogeneic hematopoietic stem cell transplant for a hematologic disease. There is no evidence in the note that the patient has had a transplant or any hematologic malignancy. Thus the patient is partially relevant because of the disease but largely irrelevant because the key transplant criterion is missing.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "Although the patient meets the age and consent inclusion criteria, he does not satisfy the essential inclusion criterion of having received an allogeneic HSCT for a hematologic disease. No exclusion criteria apply, but the missing transplant requirement makes him ineligible for the study. Therefore the eligibility score is negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -60.0
         }
     }
 }
