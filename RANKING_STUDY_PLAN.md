@@ -125,3 +125,33 @@ python evaluate_rankings.py --variants baseline \
 
 This reports TrialGPT as published (penalty 1, weight 1) against Agentic
 TrailGPT (penalty 0.25, weight 3) on the same TrialGPT outputs.
+
+## Addendum (2026-10-08): the Reviewer on the held-out patients
+
+Added before any held-out ranking score was seen. Six development patients are
+too few to judge the agent, so the Reviewer also runs once on all 46 held-out
+patients as a pre-specified ablation. The chosen system above does not change.
+
+- **When:** after phase 2 has finished TrialGPT for every held-out trial.
+- **How:** `/ranking-heldout-review`, which runs
+  `run_parallel.py --stages review --min-relevance 0` on both test lists, so
+  every trial with a "not included" or "excluded" label is reviewed once.
+  Cutoffs 50 and 70 are scored from the same run, exactly, as in phase 1.
+- **Cost:** about 1,000 tokens per trial at cutoff 0 (1,019 on the
+  development patients), about 2.7M tokens for 2,689 trials, about 2 days.
+- **Reported in phase 3, alongside the primary result:**
+  - Reviewer + new score vs new score alone (penalty 0.25, weight 3), at
+    cutoffs 0, 50 and 70: does the agent add anything on top of the score?
+  - Reviewer at TrialGPT's formula vs TrialGPT: does the agent help on its own?
+  - Each with the mean per-patient NDCG@10 and P@10 difference, the bootstrap
+    95% CI, patients better / same / worse, and the Reviewer's extra tokens (%).
+
+Phase 3 commands for the ablation:
+
+```bash
+python evaluate_rankings.py --variants baseline,reviewed \
+  --patients-file ranking_test_patients.txt --patients-file ranking_test_extra_patients.txt
+python evaluate_rankings.py --variants baseline,reviewed \
+  --patients-file ranking_test_patients.txt --patients-file ranking_test_extra_patients.txt \
+  --penalty 0.25 --weight 3 [--min-relevance 50 | --min-relevance 70]
+```

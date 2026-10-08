@@ -12,6 +12,7 @@ the same command the next day to continue from that branch.
 | `/ranking-baseline` | TrialGPT matching and aggregation (no agents) for the 18 ranking-study patients |
 | `/ranking-review` | The Reviewer on the 6 development patients, after the baseline |
 | `/ranking-heldout none` | TrialGPT on the 46 held-out patients (phase 2 of `RANKING_STUDY_PLAN.md`; the Reviewer was dropped in phase 1) |
+| `/ranking-heldout-review` | After that: the Reviewer once on the 46 held-out patients (ablation, about 2 days) |
 
 ## One-time setup
 
@@ -103,6 +104,14 @@ score (penalty 0.25, weight 3), so the held-out run is TrialGPT only. Type
 `ranking_test_patients.txt` (already done) and then
 `ranking_test_extra_patients.txt` (34 patients, 2,335 trials, about 11 days),
 and reports progress only, never scores.
+
+## Held-out Reviewer run (ablation)
+
+When `/ranking-heldout none` has finished, type `/ranking-heldout-review`
+daily until it reports both lists done. It runs the Reviewer once on every
+held-out trial with a negative label (about 2.7M tokens, about 2 days), so the
+final report can show whether the agent adds anything on 46 patients, not
+just 6. It reports progress only, never scores.
 
 ## Every day
 
