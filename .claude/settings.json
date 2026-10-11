@@ -18,7 +18,8 @@
       "Bash(git commit -m \"Ranking baseline:*)",
       "Bash(git commit -m \"Ranking review:*)",
       "Bash(~/trialgpt-venv/bin/python run_parallel.py --patients-file ranking_test_extra_patients.txt:*)",
-      "Bash(git commit -m \"Ranking held-out:*)"
+      "Bash(git commit -m \"Ranking held-out:*)",
+      "Bash(git commit -m \"Ranking held-out review:*)"
     ]
   }
 }
