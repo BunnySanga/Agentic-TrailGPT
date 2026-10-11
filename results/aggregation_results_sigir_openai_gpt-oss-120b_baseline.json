@@ -7535,6 +7535,12 @@
             "relevance_score_R": 12.0,
             "eligibility_explanation": "Because the patient is not a cardiac surgical patient, she fails the inclusion criterion. Moreover, the exclusion criterion explicitly excludes patients undergoing non\u2011cardiac procedures, and a cardiac catheterization qualifies as a non\u2011cardiac intervention. Thus the patient is clearly ineligible, and the eligibility score should be negative, reflecting exclusion, but its magnitude cannot exceed the relevance score.",
             "eligibility_score_E": -12.0
+        },
+        "NCT02074371": {
+            "relevance_explanation": "The trial focuses on patients who have undergone coronary artery bypass graft surgery (CABG) with cardiopulmonary bypass, using internal thoracic or saphenous vein grafts, and who have coronary artery disease. The patient note describes a 67\u2011year\u2011old woman who had a diagnostic cardiac catheterization via the femoral artery and now has a vascular complication at the access site. There is no mention of CABG, graft use, or coronary artery disease requiring surgery. Therefore the patient\u2019s clinical situation is only tangentially related to the trial\u2019s target population, resulting in a low relevance score.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "One of the trial\u2019s exclusion criteria is the occurrence of surgical complications. The patient has a clear vascular complication (pulsatile groin mass and loss of distal pulses) following the femoral artery catheterization, which qualifies as a postoperative complication. This meets the exclusion criterion, making the patient ineligible. Because the relevance is low (R=20), the eligibility score is set to the negative extreme of the allowed range, indicating definite ineligibility.",
+            "eligibility_score_E": -20.0
         }
     },
     "sigir-201420": {
@@ -7729,6 +7735,12 @@
             "relevance_score_R": 20.0,
             "eligibility_explanation": "One of the exclusion criteria is \"multitrauma patients / other simultaneous fractures,\" which directly matches the patient\u2019s presentation of multiple extremity fractures. This exclusion criterion is clearly met, so the patient would be considered ineligible. Because the relevance is low (R=20), the eligibility score is set to the negative of that relevance, indicating ineligibility.",
             "eligibility_score_E": -20.0
+        },
+        "NCT01514643": {
+            "relevance_explanation": "The patient is a 32\u2011year\u2011old adult with multiple traumatic injuries from a motor vehicle accident, which aligns with the trial\u2019s focus on post\u2011traumatic intra\u2011articular fractures. The age criterion is met, and the patient is capable of consent and protocol compliance. However, the clinical note does not mention any intra\u2011articular tibial plateau or tibial plafond fracture, which are central to the study. Because the key injury required for the trial is absent, the overall relevance is limited.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "The patient satisfies the age inclusion and has no exclusion factors (no pre\u2011existing knee osteoarthritis, autoimmune disease, or contralateral knee injury). Nonetheless, the primary inclusion criterion\u2014radiographic evidence of a tibial plateau fracture\u2014is not documented, so the patient does not meet all required inclusion criteria. Consequently, the patient is considered ineligible, but not excluded, resulting in a negative eligibility score within the allowed range.",
+            "eligibility_score_E": -30.0
         }
     },
     "sigir-201424": {
@@ -7809,6 +7821,18 @@
             "relevance_score_R": 10.0,
             "eligibility_explanation": "Since the patient does not meet the primary inclusion criterion (traumatic thoracic aortic rupture) and there is no information that would trigger any exclusion criteria, there is no basis to deem the patient eligible or ineligible. The lack of relevant data leads to a neutral eligibility assessment.",
             "eligibility_score_E": 0.0
+        },
+        "NCT01828749": {
+            "relevance_explanation": "The patient suffered blunt abdominal trauma and had an abdominal CT, which aligns with the trial\u2019s focus on blunt trauma imaging. However, the trial is limited to stable, alert patients (GCS >14, hemodynamically stable) without suspected pelvic injury. This patient is hemodynamically unstable (BP 60/30, HR 140) and likely has a low GCS, making him a poor fit for the study\u2019s target population. Therefore, while the case is related to the trial\u2019s condition, the mismatch in stability reduces overall relevance.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Key inclusion criteria are not satisfied: the patient\u2019s GCS is not documented but is likely \u226414 given severe hypotension, and the required order of CT abdomen\u202f+\u202fpelvis is not met. Moreover, the patient meets an exclusion criterion (age\u2011defined hypotension). These factors indicate the patient would be excluded from the trial. Since relevance is 38, the eligibility score is set to the negative extreme, reflecting clear ineligibility.",
+            "eligibility_score_E": -38.0
+        },
+        "NCT00769873": {
+            "relevance_explanation": "The trial is focused on patients undergoing elective laparoscopic splenectomy and receiving peri\u2011operative anticoagulation. The patient has an acute splenic rupture from trauma and will require emergency surgery, with no indication that the procedure will be laparoscopic or scheduled. Only the consent\u2011capacity criteria match the trial, while the core surgical criterion does not. Therefore the overall relevance to the trial is low but not zero because the patient does have a splenic condition and can consent.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Even though the patient can give informed consent and is willing to receive daily injections, the trial requires participants to be scheduled for a laparoscopic splenectomy. The patient does not meet this inclusion criterion. Moreover, the exclusion criterion explicitly lists splenectomy due to trauma as a contraindication to anticoagulation, which applies here. Consequently the patient is ineligible, and the eligibility score should be the negative of the relevance score.",
+            "eligibility_score_E": -30.0
         }
     }
 }

@@ -95633,6 +95633,249 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT01514643": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 32 years old, satisfying age >=18.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of tibial plateau fracture or radiographic evidence; cannot assume presence.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 32 years old, which is not less than 18.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is 32 years old, which is not greater than 60.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of pre-existing knee osteoarthritis or suggestive history in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of any autoimmune disease in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No mention of contralateral intra\u2011articular knee injury in the note.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02396446": {
+                "inclusion": {
+                    "0": [
+                        "Patient is described as fully awake and alert (sentence 2); meets criterion.",
+                        [
+                            2
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No information about current diet; cannot determine if patient is on a regular diet.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No mention of pancreatitis; assume absent.",
+                        [],
+                        "included"
+                    ],
+                    "3": [
+                        "No mention of bowel obstruction; assume none.",
+                        [],
+                        "included"
+                    ],
+                    "4": [
+                        "No mention of massive GI hemorrhage; assume absent.",
+                        [],
+                        "included"
+                    ],
+                    "5": [
+                        "No mention of toxic megacolon; assume absent.",
+                        [],
+                        "included"
+                    ],
+                    "6": [
+                        "No mention of colonic perforation; assume absent.",
+                        [],
+                        "included"
+                    ],
+                    "7": [
+                        "No mention of severe dysmotility; assume absent.",
+                        [],
+                        "included"
+                    ],
+                    "8": [
+                        "No mention of high\u2011output intestinal fistula; assume absent.",
+                        [],
+                        "included"
+                    ],
+                    "9": [
+                        "No information about ability to place enteral feeding tube; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No mention of abdominal compartment syndrome; assume absent.",
+                        [],
+                        "included"
+                    ],
+                    "11": [
+                        "No mention of DNAR or withdrawal of care; assume patient is full code.",
+                        [],
+                        "included"
+                    ],
+                    "12": [
+                        "Absent bowel sounds and guarding could indicate ileus, but severity not specified; insufficient detail.",
+                        [],
+                        "not enough information"
+                    ],
+                    "13": [
+                        "Blood pressure 134/74 and pulse 87 (sentence 3) indicate no hemodynamic compromise.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "14": [
+                        "Tender abdomen with guarding and rebound (sentence 4) suggests diffuse peritonitis.",
+                        [
+                            4
+                        ],
+                        "not included"
+                    ],
+                    "15": [
+                        "No mention of vomiting; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "16": [
+                        "Pregnancy status not stated; cannot assume.",
+                        [],
+                        "not enough information"
+                    ],
+                    "17": [
+                        "Patient age is 32 years (sentence 0); meets age criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is fully awake and alert per sentence 2, so does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No information about current diet; absence of mention suggests not on regular diet.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of acute pancreatitis; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of bowel obstruction or feeding tube issues.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No signs of massive GI hemorrhage described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No indication of toxic megacolon.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No explicit mention of bowel perforation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No data indicating severe dysmotility.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No high\u2011output intestinal fistula reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No statement that gut access is impossible.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No evidence of abdominal compartment syndrome.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "Patient consented and no DNAR/withdrawal noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No NG output or gastric residual volumes provided; cannot confirm severe ileus.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "Hemodynamics stable (BP 134/74, pulse 87) and no vasopressors mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "Tender abdomen with guarding and rebound (sentence 4) indicates diffuse peritonitis.",
+                        [
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "15": [
+                        "No report of vomiting.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "Pregnancy status not mentioned; assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "Age 32 (>18) per sentence 0.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -96217,6 +96460,86 @@
                     ],
                     "10": [
                         "No hip dislocation is described; absence of mention implies the patient does not have this condition.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00769873": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to be scheduled for a laparoscopic splenectomy; the note describes an acute splenic rupture requiring emergency surgery with no mention of a scheduled laparoscopic procedure, so the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The note states the patient will provide informed consent and comply with the trial protocol, directly confirming capacity and willingness to consent.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "The patient agrees to comply with the trial protocol, which implies willingness to receive daily subcutaneous injections as required by the study.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Male patient cannot be pregnant or nursing; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Patient explicitly states willingness to provide informed consent (sentence 6).",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No evidence of bleeding diathesis or current anticoagulant use; absence in note assumed negative.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of hemorrhagic cerebrovascular accident; assumed absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Blood pressure is low (60/30) not hypertension; no evidence of severe uncontrolled hypertension.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No mention of diabetes or retinal disease; assumed absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Splenectomy is due to trauma (sentence 1) and splenic rupture (sentence 5), which is a listed contraindication.",
+                        [
+                            1,
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "7": [
+                        "No information about conversion to open surgery; assumed not converted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No allergy to Lovenox or related agents mentioned; assumed absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No evidence of bacterial endocarditis in note.",
                         [],
                         "not excluded"
                     ]
