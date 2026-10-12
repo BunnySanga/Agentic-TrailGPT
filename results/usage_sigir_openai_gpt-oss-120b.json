@@ -24503,6 +24503,13 @@
         "completion_tokens": 1383,
         "total_tokens": 3288,
         "seconds": 4.03
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 1552,
+        "completion_tokens": 394,
+        "total_tokens": 1946,
+        "seconds": 1.8
       }
     }
   },
@@ -24850,6 +24857,13 @@
         "completion_tokens": 866,
         "total_tokens": 4247,
         "seconds": 3.23
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 1944,
+        "completion_tokens": 259,
+        "total_tokens": 2203,
+        "seconds": 1.24
       }
     }
   },
@@ -24964,6 +24978,15 @@
         "completion_tokens": 287,
         "total_tokens": 1348,
         "seconds": 1.03
+      }
+    },
+    "NCT01250275": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 2112,
+        "completion_tokens": 1683,
+        "total_tokens": 3795,
+        "seconds": 4.81
       }
     }
   }

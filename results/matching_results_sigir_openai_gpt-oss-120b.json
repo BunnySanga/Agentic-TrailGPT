@@ -105835,6 +105835,152 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT01250275": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 72\u2011year\u2011old man, which satisfies >40 years age requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "BMI not mentioned in the note; cannot determine if it is between 18\u201130.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No glycated hemoglobin value provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No fasting cholesterol or triglyceride values provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Blood pressure recorded as 151/91 mm\u202fHg, which exceeds the <140/90 requirement.",
+                        [
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "5": [
+                        "Ankle\u2011brachial index not reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "Patient explicitly states willingness to comply with protocol (sentence 8).",
+                        [
+                            8
+                        ],
+                        "included"
+                    ],
+                    "7": [
+                        "Patient will provide informed consent (sentence 8).",
+                        [
+                            8
+                        ],
+                        "included"
+                    ],
+                    "8": [
+                        "No information about prior participation in another food\u2011related study.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "Age >40 confirmed (sentence 0).",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "10": [
+                        "Patient has claudication symptoms and carotid bruit, but no documented ABI \u22640.90, no measured carotid stenosis >50%, and no prior PAD intervention reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "Medication list is given, but no explicit statement that the regimen has been stable for the past 3 months; cannot confirm stability.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "Willingness to comply reiterated (sentence 8).",
+                        [
+                            8
+                        ],
+                        "included"
+                    ],
+                    "13": [
+                        "Willingness to provide consent reiterated (sentence 8).",
+                        [
+                            8
+                        ],
+                        "included"
+                    ],
+                    "14": [
+                        "No information about prior food study participation.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion excludes healthy participants; the patient has peripheral arterial disease symptoms, so this criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No mention of current or recent smoking in the note; absence of evidence is taken as no smoking, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The patient has a history of myocardial infarction and a transient ischemic attack, both cardiovascular diseases requiring treatment, which satisfies this exclusion.",
+                        [
+                            2,
+                            3,
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "3": [
+                        "The note lists prescribed medications (isosorbide dinitrate, hydrochlorothiazide, aspirin) taken within the last 3 months, meeting the exclusion.",
+                        [
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "Patient is male; pregnancy is not possible, so the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "No evidence of bilateral upper or lower extremity amputation; the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No surgical procedures are mentioned in the note; assume none within the last 3 months, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No information about gastrointestinal reactions or allergies to dietary oils is provided; assume none, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No mention of daily omega-3 supplement use; assume the patient does not take them, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     }

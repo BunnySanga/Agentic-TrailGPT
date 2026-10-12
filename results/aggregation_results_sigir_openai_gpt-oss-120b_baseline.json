@@ -8549,6 +8549,12 @@
             "relevance_score_R": 80.0,
             "eligibility_explanation": "The trial lists a placeholder inclusion criterion stating \"No eligibility criteria\" and indicates that all patients are considered included. No exclusion criteria are provided. Therefore, given the relevance of the patient\u2019s condition to the study focus, the patient is fully eligible under the trial\u2019s stated rules.",
             "eligibility_score_E": 80.0
+        },
+        "NCT00368836": {
+            "relevance_explanation": "The trial targets individuals at risk for pulmonary embolism and seeks to evaluate a new diagnostic device. The patient is a 56\u2011year\u2011old postoperative mastectomy patient presenting with shortness of breath, calf tenderness, and an elevated D\u2011dimer \u2013 classic signs that raise clinical suspicion for PE. Although the patient\u2019s surgery type (mastectomy) is not among the listed high\u2011risk surgeries in the inclusion list, the overall clinical picture (recent major surgery, immobilization, symptoms) aligns closely with the condition the trial aims to study. Therefore the patient is highly relevant to the trial\u2019s disease focus, but the mismatch with the specific inclusion surgery criteria reduces relevance somewhat.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and not meeting any exclusion criteria. The patient does not satisfy any of the listed inclusion criteria, which are limited to specific orthopedic, spinal, cranial, or certain cancer surgeries; a left mastectomy is not included. Moreover, exclusion criterion 4 (clinical suspicion of PE with symptoms and a risk factor within 24\u202fh) is met, which directly disqualifies the patient. While other exclusions (age, consent) are satisfied, the failure to meet any inclusion and the presence of a definitive exclusion result in the patient being ineligible. Because eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -78.0
         }
     },
     "sigir-201418": {
@@ -8677,6 +8683,12 @@
             "relevance_score_R": 10.0,
             "eligibility_explanation": "One of the explicit exclusion criteria is age <18 years. The patient is a 6\u2011month\u2011old infant, directly meeting this exclusion. Consequently, the patient is ineligible for the trial. Since eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
             "eligibility_score_E": -10.0
+        },
+        "NCT02147470": {
+            "relevance_explanation": "The trial targets adult patients (age >18) with liver cirrhosis who develop acute kidney injury. The patient is a 6\u2011month\u2011old infant with no evidence of liver disease, and the note provides no information about hospitalization at the University of Virginia. Consequently, the clinical scenario shares only a generic feature of AKI, which is a very small overlap with the trial\u2019s specific population.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Because the patient does not meet the key inclusion criteria (age >18 and cirrhosis) and there is insufficient information to confirm AKI per AKIN criteria, the patient would be considered ineligible. No exclusion criteria are triggered, but the lack of required inclusion factors makes the patient unsuitable for enrollment. The eligibility score is therefore negative but limited in magnitude by the low relevance.",
+            "eligibility_score_E": -8.0
         }
     },
     "sigir-201430": {
