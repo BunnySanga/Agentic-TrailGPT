@@ -8355,6 +8355,42 @@
             "relevance_score_R": 10.0,
             "eligibility_explanation": "Although the patient satisfies basic demographic inclusion criteria, he is explicitly excluded by the trial\u2019s exclusion criterion for patients with an acute abdomen or alternate serious diagnoses (splenic rupture with hemorrhagic shock). This exclusion directly disqualifies him from participation, resulting in a negative eligibility score equal to the relevance magnitude.",
             "eligibility_score_E": -10.0
+        },
+        "NCT01196715": {
+            "relevance_explanation": "The trial targets patients with low\u2011risk Myelodysplastic Syndromes (MDS) and requires specific hematologic criteria, disease classification, and performance status. The patient is a 33\u2011year\u2011old male with acute traumatic splenic rupture and hemorrhagic shock, with no mention of any hematologic disorder, MDS diagnosis, or related laboratory values. Only the age and ability to give consent match the inclusion criteria. Consequently, the patient\u2019s overall relevance to this MDS trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Eligibility requires a confirmed MDS diagnosis and related disease\u2011specific criteria (e.g., IPSS risk, hemoglobin <10\u202fg/dL, refractory anemia, etc.). The patient has no MDS, no relevant laboratory data, and is currently in acute life\u2011threatening shock, making him ineligible for the trial. Since relevance is only 10, the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00726544": {
+            "relevance_explanation": "The trial targets patients with thrombotic microangiopathy (TMA) such as TTP. The patient is a 33\u2011year\u2011old male with acute traumatic splenic rupture and massive hemorrhage, not a TMA diagnosis. Only the generic criteria (age, sex, consent) match, while the core disease\u2011specific inclusion criteria are absent. Therefore the overall relevance to this trial is low but not zero because basic demographic eligibility is met.",
+            "relevance_score_R": 22.0,
+            "eligibility_explanation": "Even though the patient meets basic demographic and consent criteria, he fails the essential disease\u2011specific inclusions (no TMA, no thrombocytopenia, no microangiopathic hemolytic anemia). Moreover, he has active internal bleeding, which is an explicit exclusion criterion. Consequently, the patient is considered ineligible, and the eligibility score is negative, bounded by the relevance magnitude.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT00625053": {
+            "relevance_explanation": "The patient is a 33\u2011year\u2011old male who can give informed consent, which matches two inclusion items (age and consent). However, the clinical condition (acute splenic rupture requiring emergency surgery) is unrelated to the trial\u2019s focus on elective incisional hernia repair, and there is no information about hernia status, language, or residence. Consequently, only a small portion of the trial criteria are applicable, making the overall relevance low.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "While the patient meets the consent and age criteria, he fails key inclusion criteria (no incisional hernia, not a candidate for elective surgery, not medically fit for general anesthesia). Additionally, he meets exclusion criteria for ASA class 4 and emergency surgery. Therefore, the patient is clearly ineligible, and the eligibility score should be the negative of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02624089": {
+            "relevance_explanation": "The trial targets children and adolescents (7\u201118\u202fy) undergoing laparoscopic appendectomy for uncomplicated appendicitis and requires hemodynamic stability. The patient is a 33\u2011year\u2011old male with traumatic splenic rupture, massive intra\u2011abdominal hemorrhage, and profound hypotension. None of the inclusion criteria (age, ASA I\u2011II, scheduled appendectomy, stable vitals, appendicitis) apply, and only one exclusion criterion (hemodynamic instability) is met. Consequently, the patient\u2019s clinical picture is largely unrelated to the study population.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Because the patient does not meet any inclusion criteria and is explicitly excluded by the \u2018hemodynamically unstable patient\u2019 exclusion, the patient is ineligible. The eligibility score must lie within \u00b1R; with clear exclusion we assign the most negative value, i.e., \u2013R.",
+            "eligibility_score_E": -8.0
+        },
+        "NCT02584777": {
+            "relevance_explanation": "The trial targets Asian patients with myelofibrosis and requires disease\u2011specific criteria (risk score, splenomegaly, symptom score). The patient is a 33\u2011year\u2011old male with acute traumatic splenic rupture and no history of myelofibrosis or related hematologic disease. Apart from meeting the age criterion and showing willingness to consent, virtually none of the disease\u2011specific inclusion criteria apply. Therefore the overall relevance of this patient to a myelofibrosis trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Even though the patient meets the age and consent criteria, the trial\u2019s exclusion criteria disqualify him. He is in hemorrhagic shock with a blood pressure of 60/30\u202fmmHg and a heart rate of 140\u202fbpm, indicating a life\u2011threatening condition and a life expectancy far less than 6\u202fmonths. Additionally, the uncontrolled acute illness (massive intraperitoneal bleed) would prevent safe participation and compliance. These exclusion factors outweigh the few included criteria, making the patient ineligible. Since relevance is only 10, the eligibility score is set to the negative extreme of that range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01113645": {
+            "relevance_explanation": "The trial focuses on patients who have undergone decompressive craniectomy for severe head injuries or other intracranial hemorrhagic conditions and are being evaluated for cranioplasty. The patient is a 33\u2011year\u2011old male with isolated splenic rupture from blunt abdominal trauma and no mention of any cranial injury, neurosurgical procedure, or need for cranioplasty. The only overlapping aspects are age (within the 18\u201165 range) and ability to give consent, which are minor compared to the core disease and procedural criteria. Therefore the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Although the patient meets the age and consent inclusion criteria, he does not satisfy the critical inclusion criterion requiring a prior decompressive craniectomy for a qualifying head injury. Consequently, he is not eligible for the study. No exclusion criteria are triggered, but the missing essential inclusion makes him ineligible. The eligibility score is therefore negative and bounded by the relevance score.",
+            "eligibility_score_E": -18.0
         }
     },
     "sigir-20145": {
@@ -8417,6 +8453,102 @@
             "relevance_score_R": 92.0,
             "eligibility_explanation": "The inclusion criterion explicitly requires suspicion of PE, which the patient clearly meets based on symptoms, risk factors, and laboratory findings. No exclusion criteria are mentioned in the provided information, and the patient is willing and able to consent and follow the protocol. Consequently, the patient appears eligible for enrollment, though a small amount of uncertainty remains (e.g., definitive imaging confirmation) that prevents a perfect score.",
             "eligibility_score_E": 85.0
+        },
+        "NCT01164046": {
+            "relevance_explanation": "The patient is a 56\u2011year\u2011old woman with recent breast cancer surgery and clinical signs that raise suspicion for a deep\u2011vein thrombosis or pulmonary embolism (shortness of breath, calf tenderness, elevated D\u2011dimer). The trial enrolls cancer patients who have a confirmed VTE event and who have already completed 6\u201312\u202fmonths of therapeutic anticoagulation. The note does not provide a confirmed diagnosis of PE/DVT nor any history of prior anticoagulation for the required duration. Therefore the patient is somewhat related to the disease area (cancer\u2011associated VTE) but lacks the key eligibility facts. I assign a moderate relevance of 42 out of 100.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Key inclusion criteria are (1) confirmed cancer\u2011associated PE or DVT and (2) completion of 6\u201312\u202fmonths of anticoagulation. The patient\u2019s record shows only suspected VTE and no evidence of having been on anticoagulation for the required period, so she does not satisfy the primary inclusion requirements. She does meet the consent criterion and has no exclusion factors (age, contraindications, child\u2011bearing, short life expectancy). Because the most important inclusion criteria are unmet, the patient is considered ineligible. The eligibility score must lie between \u2013R and +R; I set it at \u201330, reflecting clear ineligibility but acknowledging some relevance to the trial.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00456196": {
+            "relevance_explanation": "The patient is a 56\u2011year\u2011old woman who recently underwent mastectomy and now presents with symptoms suggestive of venous thromboembolism (shortness of breath, calf tenderness, elevated D\u2011dimer). The trial focuses on the epidemiology of VTE, including deep\u2011vein thrombosis and pulmonary embolism, and seeks data from patients with confirmed DVT. Because the patient\u2019s presentation aligns with the clinical condition of interest, the case is fairly relevant to the trial, though the note lacks a confirmed ultrasound diagnosis, which is a key inclusion requirement.",
+            "relevance_score_R": 62.0,
+            "eligibility_explanation": "One of the trial\u2019s inclusion criteria explicitly requires an ultrasound\u2011confirmed DVT. The patient note does not provide evidence of an ultrasound study or a confirmed DVT diagnosis; it only mentions calf tenderness and an elevated D\u2011dimer, which are suggestive but not definitive. Therefore, the patient does not satisfy this essential inclusion criterion and is considered ineligible for the study.",
+            "eligibility_score_E": -62.0
+        },
+        "NCT00163709": {
+            "relevance_explanation": "The patient is a 56\u2011year\u2011old female presenting to the ED with shortness of breath, which matches the trial\u2019s target population of adults over 40 with SOB. The only missing piece is the triage category, which is not reported, so relevance is high but not absolute.",
+            "relevance_score_R": 85,
+            "eligibility_explanation": "Inclusion criteria are met for age and symptom; triage level is unknown but not contradicted. No exclusion criteria (traumatic dyspnea, severe renal disease, cardiogenic shock, early transfer) are present. Hence the patient is likely eligible, with a small uncertainty due to the missing triage detail.",
+            "eligibility_score_E": 78
+        },
+        "NCT00277394": {
+            "relevance_explanation": "The trial targets elderly patients (\u226570\u201175 years) with impaired renal function who have a confirmed acute DVT and require anticoagulation. The patient is 56 years old, there is no documented renal impairment, and the note only suggests possible DVT (calf tenderness, elevated D\u2011dimer) without any objective imaging confirmation. While the patient does have a recent surgery and presents with symptoms that could be related to a venous thrombo\u2011embolism, the core inclusion criteria (age, renal function, objectively confirmed DVT) are largely missing. Therefore the overall relevance of this patient to the trial is low but not zero because the clinical picture could still represent an acute DVT that might be confirmed with further testing.",
+            "relevance_score_R": 22.0,
+            "eligibility_explanation": "Because the patient does not satisfy the essential inclusion criteria\u2014specifically the age threshold, renal function requirement, and objective confirmation of DVT\u2014she would be considered ineligible for enrollment. None of the exclusion criteria appear to apply, but the lack of inclusion criteria fulfillment outweighs this, resulting in a negative eligibility assessment equal to the relevance magnitude.",
+            "eligibility_score_E": -22.0
+        },
+        "NCT00321048": {
+            "relevance_explanation": "The trial enrolls women who have undergone mastectomy for breast cancer and are candidates for radiation therapy. The patient is a 56\u2011year\u2011old female who is 20 days post\u2011left mastectomy, which directly matches the target population. The note does not provide the histologic subtype of the breast cancer, which is required for full confirmation of eligibility, but the core clinical context (post\u2011mastectomy breast cancer patient) is clearly present. Therefore the patient is highly relevant to the trial, though not perfectly matched because of missing pathology detail.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Most inclusion criteria are clearly met: age \u226518, recent mastectomy, no prior breast radiation, no active local\u2011regional disease, not pregnant, able to consent, and willingness to comply. The only uncertain element is the required histologic confirmation of invasive adenocarcinoma or DCIS of the left breast; the note does not state this, so we cannot confirm inclusion on that criterion. No exclusion criteria are triggered. Because eligibility is limited by the missing pathology information, the eligibility score is lower than the relevance score but still positive, reflecting likely eligibility pending confirmation of histology.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT00000566": {
+            "relevance_explanation": "The trial enrolls adults (men or women) who are suspected of having a pulmonary embolism and are candidates for diagnostic angiography. The patient is a 56\u2011year\u2011old female presenting with shortness of breath, calf tenderness, and an elevated D\u2011dimer \u2013 classic features that raise suspicion for PE. She is an adult, has no reported contraindications to angiography, and is willing to consent and follow the protocol. Thus the patient\u2019s clinical picture aligns closely with the target population of the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Based on the inclusion criterion, the patient appears to meet all required elements: she is an adult with suspected PE and there is no indication that she cannot undergo angiography. No exclusion criteria have been provided that would apply (e.g., recent major bleeding, severe renal impairment, pregnancy). Therefore she is likely eligible, though the exact eligibility cannot be confirmed without a full review of all trial exclusions. The eligibility score is set near the relevance ceiling, reflecting strong but not absolute certainty.",
+            "eligibility_score_E": 88.0
+        },
+        "NCT00726947": {
+            "relevance_explanation": "The patient is a 56\u2011year\u2011old postoperative woman presenting with shortness of breath, calf tenderness, and an elevated D\u2011dimer, all of which raise suspicion for venous thromboembolism. The trial focuses on ultrasound elasticity imaging of venous thrombi, so the clinical scenario is related to thrombosis and potential clot imaging. However, the note does not provide a confirmed diagnosis of either chronic or acute deep\u2011vein thrombosis, which are the specific inclusion criteria of the study. Thus the patient is somewhat relevant but lacks the key diagnostic information required for full relevance.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "The patient meets the generic adult consent inclusion (criterion 3), but she does not satisfy the primary disease\u2011specific inclusion criteria: there is no documented chronic DVT \u22652 weeks old (criterion 0) and no confirmed acute clot diagnosed by a vascular lab within the past 2 weeks (criterion 1). Because the essential disease\u2011specific criteria are missing, the patient would be considered ineligible for the trial. The eligibility score is therefore negative, reflecting ineligibility, but its magnitude is limited by the overall relevance (\u2011R \u2264 E \u2264 R).",
+            "eligibility_score_E": -21.0
+        },
+        "NCT01899339": {
+            "relevance_explanation": "The trial targets patients with acute submassive pulmonary embolism (PE) confirmed by imaging within 14 days and with right\u2011ventricular strain. The patient is a 56\u2011year\u2011old female 20 days post\u2011mastectomy who presents with shortness of breath, calf tenderness, elevated D\u2011dimer, and bilateral decreased breath sounds \u2013 all raising suspicion for PE. However, the note lacks a confirmed diagnosis by CT angiogram, does not specify the exact onset of symptoms, and provides no RV/LV ratio or other imaging data. Thus the patient is potentially relevant but the key inclusion evidence is missing, placing her relevance at a moderate level.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "All listed exclusion criteria are either explicitly not met or have no evidence of being violated (age, recent surgery beyond 7\u202fdays, no bleeding, no coagulopathy, etc.). Therefore the patient is not excluded. The inclusion criterion (acute symptomatic PE \u226414\u202fdays with imaging confirmation and RV/LV >0.9) cannot be confirmed from the available information, so eligibility cannot be affirmed. Given the moderate relevance and the lack of exclusion, the patient is somewhat likely to be eligible but with considerable uncertainty, resulting in a modest positive eligibility score.",
+            "eligibility_score_E": 20.0
+        },
+        "NCT02507180": {
+            "relevance_explanation": "The trial is limited to pregnant women with suspected acute DVT. The patient is a 56\u2011year\u2011old female with no indication of pregnancy, making her demographic and condition largely irrelevant to the study population. While she does have signs suggestive of DVT (calf tenderness, elevated D\u2011dimer), the lack of pregnancy means the overall relevance to this specific trial is low.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Even if we consider the DVT\u2011related inclusion criteria, the patient meets the suspected acute DVT criterion but fails the key exclusion criterion for concomitant symptoms of suspected pulmonary embolism (shortness of breath). This exclusion overrides any inclusion, rendering her ineligible. Because the relevance is low, the eligibility penalty is limited to the same magnitude, resulting in a negative score equal to \u2013R.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01317160": {
+            "relevance_explanation": "The trial focuses on patients with acute Achilles tendon rupture undergoing surgery, whereas the patient is a 56\u2011year\u2011old woman 20 days post\u2011mastectomy with possible thromboembolic complications. There is no indication of an Achilles injury, so the core condition of the study does not match the patient. Some general criteria (consent, ability to comply) are relevant, but the primary disease relevance is minimal, leading to a low overall relevance.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Even though the patient can give consent and comply with the protocol, several exclusion criteria are clearly met: recent major surgery (mastectomy within the past month), presence of known malignancy, and a probable recent thromboembolic event (shortness of breath, elevated D\u2011dimer). These exclusions make the patient ineligible. Because relevance is low, the eligibility penalty is limited to the relevance range, resulting in a negative score indicating ineligibility.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00816920": {
+            "relevance_explanation": "The patient is a 56\u2011year\u2011old postoperative woman who presents with calf tenderness, elevated D\u2011dimer, and shortness of breath, all of which raise suspicion for a lower\u2011extremity deep vein thrombosis (DVT) and possible pulmonary embolism. The trial enrolls outpatients with suspected isolated distal DVT of the calf, requiring a high pre\u2011test probability or elevated D\u2011dimer. The patient meets these core features, and there is no information that would make her population irrelevant (e.g., age <18, pregnancy, non\u2011ambulatory status unrelated to DVT). Therefore the case is highly relevant to the trial, though the presence of pulmonary symptoms introduces some uncertainty about whether the DVT is isolated. A relevance score of 85 out of 100 reflects strong but not perfect alignment.",
+            "relevance_score_R": 85,
+            "eligibility_explanation": "Eligibility hinges on inclusion criteria (suspected leg DVT and high D\u2011dimer) which the patient satisfies, but the trial explicitly excludes anyone with symptoms of pulmonary embolism. The patient reports shortness of breath, decreased breath sounds, and an elevated D\u2011dimer, all consistent with possible PE, and the exclusion criterion 4 flags this as a disqualifier. Consequently, despite meeting inclusion criteria, the patient is ineligible due to the PE symptom exclusion. The eligibility score is therefore negative, proportional to the relevance score, indicating clear ineligibility.",
+            "eligibility_score_E": -80
+        },
+        "NCT02553200": {
+            "relevance_explanation": "The trial targets intubated patients with airway secretion issues and specific respiratory criteria. The patient is a 56\u2011year\u2011old postoperative woman who is not intubated, has no documented pulmonary infection, airway inflammation, or secretion accumulation, and no data on cardiopulmonary stability, fluid balance, or ability to perform a spontaneous breathing trial. The only relevant point is that she is conscious and willing to consent, which matches the trial\u2019s cooperation requirement. Consequently, the overall relevance of this patient to the trial is very limited.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Eligibility requires fulfillment of all inclusion criteria and absence of any exclusion criteria. The patient meets only the cooperation inclusion (criterion 6) and has no documented exclusion factors. However, she fails to meet the core inclusion criteria (intubation, secretion volume, pulmonary infection, airway disease, stability, fluid balance, and breathing trial capability). Because the essential inclusion criteria are not satisfied, the patient is considered ineligible. The eligibility score is therefore negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT00789399": {
+            "relevance_explanation": "The trial enrolls patients undergoing coronary artery bypass graft (CABG) surgery and focuses on preventing postoperative venous thromboembolism. The patient is a 56\u2011year\u2011old woman who is 20 days post\u2011left mastectomy, not a cardiac surgery patient. Only a few generic inclusion items (age, ability to consent, willingness to comply) match the patient, but the core inclusion criterion (undergoing isolated or redo isolated CABG) is absent. Therefore the patient is only marginally relevant to the trial.",
+            "relevance_score_R": 22.0,
+            "eligibility_explanation": "Because the patient does not meet the essential surgical inclusion criterion (CABG), she would be ineligible for enrollment despite satisfying age, consent, and compliance criteria. The lack of the required surgery outweighs the positive matches, leading to a negative eligibility assessment within the relevance bound.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00726570": {
+            "relevance_explanation": "The patient is a postoperative surgical patient with risk factors for venous thromboembolism (recent mastectomy, immobility, elevated D\u2011dimer). The trial, however, is focused on patients undergoing major abdominal surgery who are admitted to the ICU and receiving LMWH with or without sequential compression devices. The patient\u2019s surgery type (breast) and lack of documented ICU admission make her only loosely related to the trial\u2019s target population. Therefore the overall relevance is modest.",
+            "relevance_score_R": 32.0,
+            "eligibility_explanation": "None of the inclusion criteria are satisfied (no elective major abdominal surgery, no confirmed ICU admission, no ASA or surgery class information). The exclusion criteria do not appear to apply, but because the patient does not meet the required inclusion conditions, she would be considered ineligible for the study. Hence the eligibility score is negative and equal in magnitude to the relevance score.",
+            "eligibility_score_E": -32.0
+        },
+        "NCT01724996": {
+            "relevance_explanation": "The patient presents with shortness of breath, malaise, and documented chest wall tenderness after recent thoracic surgery, which aligns with the trial\u2019s focus on chest wall tenderness as a bedside test for excluding acute coronary syndrome. Although the primary condition of interest is chest pain, the presence of chest wall tenderness and recent thoracic surgery makes the case reasonably relevant to the study\u2019s demographic investigation.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "The patient is excluded by two key exclusion criteria: (1) lack of self\u2011reported chest pain, which directly meets the \u2018No self reported chest pain\u2019 exclusion, and (2) recent thoracic surgery (left mastectomy 20 days ago), which meets the \u2018Recent thoracic surgery within 1 year\u2019 exclusion. These exclusions outweigh any neutral or positive factors, rendering the patient ineligible for the trial.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT00005351": {
+            "relevance_explanation": "The patient is a 56\u2011year\u2011old postoperative woman presenting with symptoms (shortness of breath, calf tenderness, elevated D\u2011dimer) that are highly suggestive of a venous thrombo\u2011embolism (DVT/PE). The trial is an observational study of the incidence and outcomes of venous thrombo\u2011embolism in a defined population. Because the patient\u2019s clinical picture aligns directly with the condition of interest, the case is strongly relevant to the trial, though the trial is historical and population\u2011based, so the match is not perfect.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "The trial lists a placeholder inclusion criterion stating \"No eligibility criteria\" and indicates that all patients are considered included. No exclusion criteria are provided. Therefore, given the relevance of the patient\u2019s condition to the study focus, the patient is fully eligible under the trial\u2019s stated rules.",
+            "eligibility_score_E": 80.0
         }
     },
     "sigir-201418": {
@@ -8467,6 +8599,128 @@
             "relevance_score_R": 88.0,
             "eligibility_explanation": "All inclusion criteria that can be assessed are met: the patient is under 7 years old. The ASA physical status is not documented, so eligibility cannot be confirmed for that criterion, but the lack of information does not constitute an exclusion. All listed exclusion criteria (pre\u2011operative creatinine >1.5\u202fmg/dL, dialysis history, liver dysfunction, diabetes, allergic reactions, coagulation abnormalities) are either explicitly not met or not mentioned, suggesting they are absent. Therefore, the patient appears eligible, though the uncertainty about ASA status prevents a perfect score.",
             "eligibility_score_E": 70.0
+        },
+        "NCT00821522": {
+            "relevance_explanation": "The trial focuses on patients undergoing cardiac surgery with cardiopulmonary bypass who are at risk for acute kidney injury. The patient is a 6\u2011month\u2011old infant who developed AKI after a major surgery, but the note does not specify that the surgery was cardiac or involved cardiopulmonary bypass. Therefore the core clinical context of the trial (cardiac surgery + CPB) is largely missing, making the patient only loosely related to the trial\u2019s target population.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the primary inclusion criterion (heart surgery on cardiopulmonary bypass) is not satisfied, the patient does not meet the trial\u2019s inclusion requirements. No exclusion criteria are triggered, but lacking the essential inclusion condition means the patient is ineligible. The eligibility score should reflect ineligibility proportionate to the relevance, i.e., the negative extreme of the relevance range.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00004696": {
+            "relevance_explanation": "The patient is a 6\u2011month\u2011old infant who has just undergone a major surgery and will require postoperative inpatient care, which matches the core target population of the trial (infants <12\u202fmonths undergoing major thoracic/abdominal/cardiac surgery). The note provides sufficient information to assess many of the inclusion criteria (age, surgery type) and several exclusion criteria (renal function, transplantation). Although several criteria lack data (gestational age, prenatal opioid exposure, hepatic function, pulmonary status, allergy, developmental status), the available information strongly indicates that the patient is a candidate the trial is designed to enroll. Therefore the overall relevance is high but not perfect because of missing data.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and not meeting any exclusion criteria. The patient satisfies key inclusions (age <12\u202fmonths, major surgery, no transplantation) but fails the renal function criterion: BUN 33\u202fmg/dL and creatinine 1.3\u202fmg/dL are elevated for a 6\u2011month\u2011old infant, indicating abnormal renal function, which is an exclusion. Other exclusion criteria (e.g., pulmonary hypertension, morphine allergy) are unknown, but the confirmed renal abnormality is sufficient to deem the patient ineligible. Hence the eligibility score is negative, reflecting ineligibility, but its magnitude is limited by the overall relevance score.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT00549107": {
+            "relevance_explanation": "The patient is a 6\u2011month\u2011old infant, which directly matches the trial\u2019s age inclusion criterion (<1\u202fyear). The note indicates he underwent a major surgery shortly before developing oliguria and renal findings, suggesting a postoperative setting that could be consistent with open heart surgery, but the specific type of surgery (corrective open\u2011heart with biventricular repair) is not confirmed. Several exclusion criteria (weight, gestational age, pre\u2011existing conditions) lack sufficient information, but there is no evidence of exclusion. Overall, the patient is moderately relevant to the trial because the key demographic and postoperative context align, though critical surgical details are missing.",
+            "relevance_score_R": 68.0,
+            "eligibility_explanation": "While the patient meets the age inclusion criterion, the trial requires confirmation of corrective open\u2011heart surgery with biventricular repair, which is not documented in the note. Additionally, weight, gestational age, and platelet count are unknown, preventing a definitive assessment of exclusion criteria. No clear exclusions are present, but the missing inclusion detail means the patient cannot be confidently considered eligible. Thus, the eligibility is low but slightly positive, reflecting partial alignment without sufficient evidence to deem the patient fully eligible.",
+            "eligibility_score_E": 15.0
+        },
+        "NCT00747864": {
+            "relevance_explanation": "The trial is focused on preterm and term infants in the first week of life, specifically assessing urine S100B concentrations relative to gestational age. The patient is a 6\u2011month\u2011old infant, far older than the target age window, and the note provides no gestational age. Therefore the patient is only minimally relevant to the study population.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not meet the fundamental inclusion criterion of being an infant in the first week of life, the patient is effectively ineligible for the trial. No exclusion criteria apply, but the lack of eligibility on the primary inclusion factor makes the patient unsuitable.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00974337": {
+            "relevance_explanation": "The trial targets preterm very low birth weight infants (28\u201134 weeks gestation, 750\u20111500\u202fg) in the neonatal period, specifically those with shock in the first week of life. The patient described is a 6\u2011month\u2011old male infant with acute kidney injury after major surgery, with no information about gestational age, birth weight, or neonatal shock. Because the core inclusion criteria (preterm status and very low birth weight) are not met, the patient is largely irrelevant to the trial, though the general context of infant illness provides a minimal connection.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Since the patient does not satisfy any of the inclusion criteria, the eligibility assessment is essentially undefined. The exclusion criteria that are applicable (no major congenital malformations, no maternal contraindicated drugs, no post\u2011natal steroids, consent provided) do not disqualify the patient, but because the patient is not in the target population, we cannot consider him eligible. Therefore the eligibility score is neutral (0) within the allowed range of -R to R.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT00577525": {
+            "relevance_explanation": "The patient is a 6\u2011month\u2011old infant with acute kidney injury after surgery. The trial targets idiopathic nephrotic syndrome (steroid\u2011sensitive) in children and requires specific laboratory findings (proteinuria, hypoalbuminemia, normal complement, negative hepatitis serologies). The note provides no data on proteinuria, albumin, complement, or viral serologies, so the majority of the trial\u2019s inclusion criteria cannot be assessed. However, the note does indicate no prior renal disease and no conflicting exclusion factors (insurance, other study participation). Thus the patient is partially relevant but lacks key disease\u2011specific information, leading to a modest relevance score.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "Only one inclusion criterion (no prior renal disease) can be confidently satisfied, and no exclusion criteria appear to apply. The critical nephrotic\u2011syndrome criteria (proteinuria, hypoalbuminemia, complement status) are unknown, so eligibility cannot be confirmed. Given the partial match and lack of disqualifying factors, the eligibility score is positive but limited, reflecting uncertainty.",
+            "eligibility_score_E": 20.0
+        },
+        "NCT02282930": {
+            "relevance_explanation": "The trial targets patients with progressive IgA nephropathy and significant proteinuria, typically adults or older children with a known diagnosis confirmed by kidney biopsy. The patient is a 6\u2011month\u2011old infant presenting with acute kidney injury after surgery, with no mention of IgA nephropathy, proteinuria, prior ACEi/ARB therapy, or a kidney biopsy. Only the blood pressure criterion aligns, but that alone is insufficient to make the case relevant. Consequently, the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because the patient lacks the core inclusion criteria (IgA nephropathy diagnosis, proteinuria >1000\u202fmg/24\u202fh, creatinine clearance >30\u202fml/min/1.73\u202fm\u00b2, and a biopsy slide), and there is no evidence that these can be satisfied, the patient would be considered ineligible. The only applicable criterion (blood pressure) is met, but it does not outweigh the missing essential criteria. Therefore, the eligibility score is negative and equal to the relevance magnitude, indicating clear ineligibility.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT02338895": {
+            "relevance_explanation": "The trial targets critically ill adult patients with acute oliguria in septic shock. The patient is a 6\u2011month\u2011old infant with postoperative oliguria, not an adult and not described as septic shock. Therefore the clinical scenario only loosely matches the broad condition of AKI but fails the key demographic and disease context, making the overall relevance very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the primary inclusion criterion explicitly requires adult patients, the infant does not meet this requirement. Consequently, the patient is ineligible for the study. No other inclusion or exclusion criteria can rescue eligibility, so the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02443389": {
+            "relevance_explanation": "The trial focuses on neonatal acute kidney injury, enrolling infants born or admitted to a level 2 or 3 NICU and generally within the first weeks of life. The patient is a 6\u2011month\u2011old infant who is not described as a NICU admission and is well beyond the neonatal period. Consequently, the core population of the study does not match the patient\u2019s age or setting, making the overall relevance very low.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Because the patient does not meet the age and setting criteria that define the target population, none of the inclusion or exclusion criteria are meaningfully applicable. There is no information that would actively exclude the patient, but also no information that would include him. Therefore the eligibility assessment is essentially neutral.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT02276170": {
+            "relevance_explanation": "The trial targets neonates (<3 months) with acute kidney injury (AKI). The patient is a 6\u2011month\u2011old infant, which makes the age criterion clearly irrelevant, but the patient does have clear evidence of AKI (oliguria, edema, elevated BUN/creatinine, fractional excretion of sodium, granular casts). The other inclusion and exclusion criteria (use of aminophylline, renal anomalies, renal replacement therapy, major genetic abnormalities) are either not mentioned or appear negative, which adds some relevance but not enough to overcome the age mismatch. Overall, the patient matches the disease condition but fails the primary age eligibility, resulting in moderate overall relevance.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Because the patient does not satisfy the key inclusion criterion of being a neonate (<3 months), he is ineligible for the trial regardless of meeting the AKI diagnosis and lacking exclusion factors. The lack of information about aminophylline use does not rescue eligibility, and the age mismatch is a definitive exclusion. Therefore the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT02016053": {
+            "relevance_explanation": "The trial focuses on acute kidney injury (AKI) in two populations: cirrhotic patients with normal baseline renal function and patients who present with AKI. The infant clearly meets the AKI definition (oliguria, elevated BUN and creatinine, granular casts, FE Na 3.3%). However, the trial is designed for adult patients (age 18\u201170) and specifically mentions cirrhosis as a key characteristic of the normal\u2011function arm. The patient\u2019s age and lack of cirrhosis make him only partially aligned with the AKI arm of the study, so the overall relevance is moderate.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility is determined by inclusion and exclusion criteria. The patient satisfies the AKI inclusion requirement, but fails the age exclusion criterion (must be 18\u201170 years old). All other exclusion criteria are not met. Because the age rule excludes the patient, the eligibility score should be the negative of the relevance score, indicating clear ineligibility.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT02046135": {
+            "relevance_explanation": "The patient is a 6\u2011month\u2011old infant who has developed acute kidney injury (low urine output, edema, elevated BUN and creatinine, granular casts, FeNa 3.3%). The trial targets prevention of AKI in children undergoing cardiac surgery with cardiopulmonary bypass. The patient\u2019s age and AKI phenotype match the disease focus, giving strong relevance. However, the note does not specify that the recent major surgery was cardiac surgery with bypass, which is a key inclusion element. Because this critical detail is missing, the overall relevance is high but not perfect.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "Eligibility hinges on two inclusion criteria (age \u226418 and cardiac surgery with bypass) and several exclusion criteria. Age is satisfied. The cardiac surgery with bypass requirement cannot be confirmed, so eligibility is uncertain. Creatinine clearance cannot be calculated due to missing height/weight, leaving another uncertainty for exclusion criterion 0. All other exclusion criteria appear not applicable. Given the missing information on a mandatory inclusion criterion and one exclusion criterion, the patient cannot be considered fully eligible, but there is no clear disqualifying evidence. Thus the eligibility score is modestly positive, reflecting partial eligibility pending further data.",
+            "eligibility_score_E": 20.0
+        },
+        "NCT02489669": {
+            "relevance_explanation": "The trial enrolls high\u2011risk adult patients with chronic kidney disease who are undergoing contrast\u2011enhanced coronary or peripheral procedures. The patient is a 6\u2011month\u2011old infant with acute oliguria after surgery, no mention of CKD, contrast exposure, or the required procedures. Therefore the clinical scenario shares virtually no overlap with the target population, giving a very low relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "One of the explicit exclusion criteria is age <18 years. The patient is a 6\u2011month\u2011old infant, directly meeting this exclusion. Consequently, the patient is ineligible for the trial. Since eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -10.0
+        }
+    },
+    "sigir-201430": {
+        "NCT02273232": {
+            "relevance_explanation": "The patient is a 72\u2011year\u2011old man with classic signs of peripheral arterial disease (exertional calf pain, cool lower limbs, diminished dorsalis pedis pulses) that fit the trial\u2019s target condition of moderate PVD. The note provides enough clinical detail to infer Rutherford stage 2 / Fontaine 2a claudication, which matches the inclusion criteria. No information contradicts the trial focus, and the patient is able and willing to consent and follow the protocol. Therefore the patient is highly relevant to the trial.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Inclusion criteria are satisfied: the patient shows moderate PVD and claudication consistent with Rutherford stage 2 / Fontaine 2a. All listed exclusion criteria are either not present or not applicable (no upper\u2011limb PVD, no severe cardiac or respiratory disease, no prohibited medications, no contraindications to MRA, etc.). The only uncertainty is the lack of information on exercise risk classification (class C or above), which the trial uses as an exclusion. Because this information is missing, we cannot confirm full eligibility, but there is no evidence of exclusion. Hence the patient is likely eligible, though with some residual uncertainty, yielding an eligibility score below the maximum relevance.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT02254356": {
+            "relevance_explanation": "The patient exhibits classic signs of peripheral arterial disease: exertional calf pain, cool lower extremities, and diminished dorsalis pedis pulses, which align directly with the trial\u2019s focus on symptomatic PAD of the femoropopliteal arteries. The note provides clear evidence of PAD and no contradictory information, making the patient highly relevant to the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The inclusion criterion for symptomatic PAD is satisfied by the patient\u2019s symptoms and physical findings. No exclusion criteria are presented that would disqualify him (e.g., recent major surgery, severe comorbidities beyond his stable MI and TIA). Therefore, the patient appears eligible for the Zilver Flex post\u2011market study.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT00721006": {
+            "relevance_explanation": "The patient is a 72\u2011year\u2011old man with calf pain on exertion, diminished distal pulses, and a carotid bruit, all suggesting peripheral arterial disease with limb ischemia. The trial targets patients with severe leg ischemia/critical limb ischemia and double\u2011sided claudication who are not surgical candidates. The patient\u2019s age, gender, and symptomatic claudication align with the trial\u2019s target population, making the case highly relevant. However, the note lacks key objective data required by the protocol (e.g., ABI values, ulcer status, prior revascularization attempts), so the match is not perfect.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Inclusion criteria that are clearly met: age >18 and presence of claudication. Critical inclusion criteria such as ABI <0.7, resting ischemic pain or ulceration, and being unsuitable for revascularization are not documented, leaving eligibility uncertain. No exclusion criteria are definitively triggered (the patient can consent, has no recent MI, no known drug sensitivities, and no reported infection). The uncontrolled hypertension could be a safety concern, but the protocol does not explicitly list it as an exclusion. Because essential inclusion data are missing, the patient is likely ineligible pending further assessment, resulting in a negative eligibility score within the relevance range.",
+            "eligibility_score_E": -35.0
+        },
+        "NCT02051088": {
+            "relevance_explanation": "The patient is a 72\u2011year\u2011old man with exertional calf pain, cool lower limbs and diminished distal pulses, all classic features of symptomatic peripheral arterial disease (intermittent claudication). The trial targets adults with PAD (intermittent claudication or critical limb ischemia) and requires willingness to be randomized, which the patient explicitly states. The only missing element is objective confirmation of >50% infra\u2011inguinal stenosis, but the clinical picture strongly suggests PAD. Therefore the overall relevance to the trial is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "No exclusion criteria are triggered by the information provided (no acute thromboembolism, no aneurysmal disease, no prior trial participation, and no evidence of lacking a Swedish ID). However, the inclusion criterion requiring documented >50% infra\u2011inguinal stenosis or occlusion cannot be verified from the note, and the Swedish personal identification status is unknown. Because eligibility cannot be confirmed nor denied, the eligibility score is modestly positive, reflecting that the patient appears potentially eligible but key data are missing.",
+            "eligibility_score_E": 20.0
+        },
+        "NCT02110251": {
+            "relevance_explanation": "The patient is a 72\u2011year\u2011old man with calf pain on exertion, diminished distal pulses, and a right carotid bruit, all suggesting peripheral arterial disease (PAD). The trial targets patients with PAD (Rutherford stage 4\u20115) who have undergone or are candidates for vascular intervention and will receive supervised exercise therapy. While the note confirms PAD signs, it does not specify the Rutherford stage, bilateral involvement, or whether an intervention is planned, which are key inclusion criteria. Therefore the patient is moderately relevant to the trial but the match is incomplete.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "No exclusion criteria are triggered: the patient has no NYHA IV heart failure, no amputations, and there is no information suggesting language barriers or lack of physiotherapy insurance. However, the inclusion criteria cannot be confirmed because the Rutherford stage and eligibility for vascular intervention are not documented. Consequently, the patient cannot be deemed fully eligible, but there is no evidence of ineligibility. The eligibility score is therefore modestly positive, reflecting uncertainty but no known exclusions.",
+            "eligibility_score_E": 10.0
+        },
+        "NCT01970332": {
+            "relevance_explanation": "The patient exhibits classic signs of peripheral arterial disease with intermittent calf pain on exertion, cool lower extremities, diminished dorsalis pedis pulses, and a carotid bruit. These findings align closely with the trial\u2019s focus on mechanisms of leg dysfunction in claudication. Although the note lacks some specific trial measurements (e.g., ABI, supervised walking test), the overall clinical picture is highly pertinent to a study of PAD and intermittent claudication.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Inclusion criteria are partially satisfied: the patient has a history of chronic claudication. However, key inclusion data (formal walking test, ABI <0.90) are missing, and the patient has significant cardiac comorbidities (prior myocardial infarction, uncontrolled hypertension, recent TIA) that could limit exercise capacity independent of claudication. This meets the exclusion criterion regarding exercise limitation due to systemic disease, rendering the patient ineligible for the trial. Therefore, the eligibility score is negative, reflecting ineligibility while acknowledging some relevance.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT01041729": {
+            "relevance_explanation": "The patient is a 72\u2011year\u2011old man with calf pain on exertion, diminished distal pulses, and a carotid bruit, all suggestive of peripheral arterial disease likely at Fontaine grade II. The trial targets patients with PAD, so the clinical picture aligns well with the disease focus. The only missing piece is an explicit hemodynamic confirmation (Doppler ultrasound) required by the inclusion criteria, which reduces certainty but does not eliminate relevance.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "The patient meets the age inclusion criterion and shows no evidence of prior revascularization, statin use, statin contraindications, or chronic inflammatory disease, satisfying all listed exclusion criteria. However, the key inclusion criterion requiring a confirmed diagnosis of Fontaine grade II PAD by Doppler ultrasound is not documented in the note, leaving eligibility uncertain. Given the strong alignment with most criteria but the lack of definitive PAD confirmation, the eligibility is moderately positive but not definitive.",
+            "eligibility_score_E": 32.0
         }
     }
 }

@@ -102421,6 +102421,634 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT00726544": {
+                "inclusion": {
+                    "0": [
+                        "Patient is male as stated in sentence 0.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient age is 33 years (sentence 0), which is within 18\u201175.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of thrombotic microangiopathy diagnosis; patient has traumatic splenic rupture, not TMA.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No platelet count provided; absence of information suggests thrombocytopenia is not documented.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "No evidence of microangiopathic hemolytic anemia in the note.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "Since TMA is not diagnosed, the requirement for absence of alternative explanations is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Patient is male, so female contraception criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No statement about male contraceptive use; cannot confirm commitment.",
+                        [],
+                        "not included"
+                    ],
+                    "8": [
+                        "No record of recent investigational agent use; assume none.",
+                        [],
+                        "included"
+                    ],
+                    "9": [
+                        "Sentence 6 confirms patient will give informed consent and comply with protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "10": [
+                        "Patient does not have prior TMA treatment or remission; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "Not applicable as criterion 10 is not met.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "Not applicable as criterion 10 is not met.",
+                        [],
+                        "not applicable"
+                    ],
+                    "13": [
+                        "Patient suffered splenic rupture but no splenectomy is reported; thus criterion satisfied if needed.",
+                        [],
+                        "included"
+                    ],
+                    "14": [
+                        "Not applicable as criterion 10 is not met.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Male patient, so female-specific criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Patient has active intraperitoneal hemorrhage from spleen rupture, indicating active abnormal bleeding.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No mention of disseminated malignancy or life\u2011limiting co\u2011morbid illness.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of thrombocytopenia/hemolytic anemia; alternative diagnosis not relevant to this criterion.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No laboratory data indicating DIC; absence of mention suggests DIC not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Patient does not have prior TMA treatment course; criteria 6\u20118 therefore not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No record of plasma exchange in recent history.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No splenectomy performed; spleen rupture noted instead.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No plasma exchange therapy described.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00625053": {
+                "inclusion": {
+                    "0": [
+                        "Patient explicitly states willingness to provide informed consent (sentence 6).",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient age is 33 years (sentence 0), which meets the \u226518 years requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient has spleen rupture and intraperitoneal hemorrhage; no mention of incisional hernia, thus does not meet diagnosis requirement.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Patient is hemodynamically unstable (BP 60/30, HR 140) indicating poor fitness for general anesthesia; no evidence of fitness.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "No information about language comprehension or use of French in the note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No information about residence stability for two years.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion not applicable (patient has no hernia).",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No evidence of chronic pain syndrome in note; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of coagulation disorder or anticoagulation; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient is hypotensive (BP 60/30) and tachycardic (HR 140), indicating severe systemic instability likely ASA class 4.",
+                        [
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "Emergency surgery required for splenic rupture with intraperitoneal hemorrhage.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "No evidence of mental illness in note; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No evidence of infection reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Patient is 33 years old with no terminal illness mentioned; assume life expectancy >2 years.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No cognitive impairment mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No BMI or obesity information provided; assume not morbidly obese.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02624089": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 33 years old, not a child or adolescent; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "ASA score not mentioned; patient is hypotensive (BP 60/30) and tachycardic, indicating severe illness, unlikely ASA I. No direct evidence, and severe instability makes ASA I impossible.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "ASA II requires mild systemic disease; patient is hemodynamically unstable with massive hemorrhage, indicating more than mild disease. No evidence supports ASA II.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Patient is not scheduled for laparoscopic appendectomy; presentation is splenic rupture. No evidence of appendectomy planning.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "No appendicitis at all; patient has splenic injury. No evidence of uncomplicated appendicitis.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "Patient is hemodynamically unstable (BP 60/30, HR 140). Criterion requires stability, which is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "6": [
+                        "No appendicitis, thus no perforation assessment; however, the patient does not have appendicitis, so criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "7": [
+                        "No intraoperative diagnosis of appendicitis; patient undergoing trauma surgery, not appendectomy.",
+                        [],
+                        "not included"
+                    ],
+                    "8": [
+                        "Patient will provide informed consent, but assent is required for minors; patient is adult, so assent not applicable.",
+                        [
+                            6
+                        ],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "Patient will provide informed consent; caregivers not needed for adult. Criterion not applicable to this adult patient.",
+                        [
+                            6
+                        ],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No ASA score is provided; the note does not mention chronic systemic disease. Without explicit ASA classification we cannot assume ASA III, and absence of information is taken as not meeting the criterion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "ASA IV not stated; severe systemic disease constant threat to life not documented. No evidence to support the criterion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "ASA V not stated; moribund status not documented beyond hemodynamic instability. No direct evidence of ASA V.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient is hemodynamically unstable: BP 60/30 mmHg and HR 140/min indicate instability.",
+                        [
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "The trial concerns appendiceal perforation; patient has splenic rupture from trauma, no mention of appendicitis. Criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "No intra\u2011operative diagnosis of perforated or gangrenous appendix; patient is undergoing trauma surgery, not appendectomy. Criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No postoperative ICU admission with sedation or ventilatory assistance is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No evidence of cognitive impairment or mental retardation in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No mention of progressive degenerative CNS disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No history of seizures or chronic antiepileptic therapy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No information about severe hepatic or renal impairment.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No allergy to ropivacaine or saline reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "History negative for smoking, drugs, and alcohol; no addiction noted.",
+                        [
+                            2
+                        ],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "Patient is not undergoing a laparoscopic appendectomy; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "14": [
+                        "No communication problems reported; patient appears able to follow up.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No indication of participation in another research study.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "Patient will provide informed consent and comply with protocol; no indication of follow\u2011up issues.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "Informed consent will be obtained as stated.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02584777": {
+                "inclusion": {
+                    "0": [
+                        "Patient does not have myelofibrosis, so disease\u2011specific risk criteria are not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Splenomegaly assessment is irrelevant because the patient does not have MF.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Total Symptom Score is irrelevant for a patient without MF.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Sentence 0 states the patient is 33 years old, which meets the age \u226518 requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "No information on ECOG performance status; cannot determine from the note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No peripheral blast count reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No absolute neutrophil count reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "No information on transfusion dependence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No liver or renal function laboratory values provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No history of splenic irradiation mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No history of 32P therapy mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No information about recent CYP3A4 inhibitor/inducer use.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "No information about recent experimental treatment.",
+                        [],
+                        "not enough information"
+                    ],
+                    "13": [
+                        "No information about recent any treatment for MF.",
+                        [],
+                        "not enough information"
+                    ],
+                    "14": [
+                        "No information about birth control use.",
+                        [],
+                        "not enough information"
+                    ],
+                    "15": [
+                        "Sentence 6 indicates the patient will comply with the trial protocol and has no practical issues, implying ability to complete assessments.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "16": [
+                        "Sentence 6 states the patient will provide informed consent.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "17": [
+                        "Sentence 6 shows willingness and ability to comply with protocol requirements.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of GI or metabolic disorder that could affect oral drug absorption; absence of evidence taken as not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is in hemorrhagic shock (BP 60/30, HR 140, intraperitoneal bleed) indicating a very poor short\u2011term prognosis, likely <6\u202fmonths.",
+                        [
+                            3,
+                            4,
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No record of prior JAK2 inhibitor use; absence of evidence assumed negative.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "ASCT is irrelevant to a patient without myelofibrosis; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Patient has acute splenic rupture, not a splenectomy history or plan; no evidence of splenectomy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Severe acute hemorrhage and hemodynamic instability constitute an uncontrolled intercurrent illness that would limit study compliance.",
+                        [
+                            3,
+                            4,
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "6": [
+                        "No mention of other malignancies; absence taken as none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No evidence of inflammatory or chronic bowel disorder.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No chronic cardiovascular disease described; acute shock is not a chronic symptomatic CV condition.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No history of MI, unstable angina, or CHF within 6\u202fmonths.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No indication of NYHA class II\u2011IV heart failure.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No cardiac arrhythmia or QTc prolongation reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No erythropoietic agents mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No thrombopoietic agents mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No HIV, syphilis, or active hepatitis reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No participation in another clinical study reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No relationship to investigator indicated.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "Patient is male; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT01113645": {
+                "inclusion": {
+                    "0": [
+                        "Patient age is explicitly stated as 33, which falls within the 18-65 range; no ambiguity.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "The criterion requires the patient to have undergone a decompressive craniectomy for specified neuro injuries; the note describes a splenic injury with no mention of any craniectomy or relevant brain condition, so the patient does not meet this requirement.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "The note states the patient will provide informed consent and will comply with the protocol, directly satisfying the consent requirement.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The note does not mention the patient's health system affiliation; cannot determine if they are assisted by the French NHS. Assuming lack of information, we cannot conclude they are excluded.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No mention of allergy to CT contrast agents; absence of evidence is taken as no allergy, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is a male, so pregnancy or nursing does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                }
             }
         }
     },
@@ -102903,6 +103531,899 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT00456196": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to have an ultrasound-confirmed DVT. The note mentions shortness of breath, calf tenderness, and elevated D-dimer but does not state that an ultrasound was performed or that DVT was confirmed. Absence of such evidence likely means the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00163709": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 56 years old (>40) and presents with shortness of breath, satisfying age and symptom parts; however, triage category is not mentioned in the note, so we cannot confirm the required triage level.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns traumatic dyspnea, severe renal disease, cardiogenic shock, or early transfer. The note describes post\u2011mastectomy status, not a traumatic cause of dyspnea, and does not mention renal failure, shock, or planned early transfer. Absence of these findings in the note allows us to assume they are not present, so the patient does not meet any exclusion condition.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00277394": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a symptomatic and objectively confirmed DVT; the note mentions calf tenderness and elevated D-dimer but provides no imaging confirmation, so the required objective evidence is missing.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion needs an indication for DVT treatment with LMWH or UFH; the note does not state any treatment plan or indication, so we cannot confirm the requirement.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "The criterion concerns hospitalized patients who will be followed daily; the note only describes an ED presentation and does not specify ongoing hospitalization or daily follow\u2011up.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "The patient is 56 years old, which is below the required age of \u226575 years; therefore she does not satisfy this age\u2011based criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "The patient is 56 years old, below the required age of \u226570 years; thus she does not meet this criterion either.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of recent high\u2011dose UFH/LMWH or thrombolytics; assume patient is not receiving them.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Oral anticoagulant use not documented; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient has symptomatic DVT signs but no indication of thrombolytic or invasive therapy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of end\u2011stage renal disease or dialysis.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Surgery (mastectomy) occurred 20 days ago, which is beyond the 2\u2011week window; no planned surgery noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No planned use of high\u2011dose aspirin, NSAIDs, or Dextran reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No current overt bleeding or known hemorrhagic condition described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Platelet count not provided; absence of mention suggests it is not low enough to meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No history of heparin\u2011induced thrombocytopenia noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No information on hepatic function or INR; assume severe insufficiency is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Blood pressure values are not reported; assume severe hypertension is absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No recent ischemic stroke reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No recent hemorrhagic stroke reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No bacterial endocarditis within 3 months mentioned.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00321048": {
+                "inclusion": {
+                    "0": [
+                        "Applicable; sentence 0 states patient is 56 years old, meeting age \u226518.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Applicable; no sentence provides histology of invasive adenocarcinoma or DCIS of left breast; cannot infer.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Applicable; sentence 0 mentions post\u2011left mastectomy, satisfying mastectomy requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Applicable; no mention of prior breast radiation; absence of such important detail allows assumption none, thus meets criterion.",
+                        [],
+                        "included"
+                    ],
+                    "4": [
+                        "Applicable; no evidence of active local\u2011regional disease in note; assume none, thus meets criterion.",
+                        [],
+                        "included"
+                    ],
+                    "5": [
+                        "Applicable; patient is 56\u2011year\u2011old female with no pregnancy mention; reasonable to assume not pregnant.",
+                        [],
+                        "included"
+                    ],
+                    "6": [
+                        "Applicable; sentence 6 states patient will provide consent and comply, indicating no serious illness preventing participation.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "7": [
+                        "Applicable; sentence 6 confirms patient will give informed consent.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of oxygen therapy; patient likely not requiring supplemental oxygen.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Pathology not specified as sarcoma or squamous cell; breast cancer implied to be ductal adenocarcinoma.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient had left mastectomy; criterion concerns right-sided cancers.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of metastatic disease to the breast in the note.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00000566": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 56\u2011year\u2011old female with SOB, calf tenderness and elevated D\u2011dimer, indicating suspicion for PE; no contraindication to angiography is mentioned, so she likely meets the requirement to undergo angiography.",
+                        [
+                            0,
+                            2,
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00726947": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a documented chronic DVT \u22652 weeks old; the note mentions calf tenderness and elevated D-dimer but no diagnosis of chronic DVT, so the premise is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion needs a confirmed acute clot diagnosed by the Vascular Lab with symptoms \u22642 weeks; the note lacks a confirmed diagnosis, only symptoms and D-dimer, so insufficient evidence.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Patient is 56 years old, thus the age\u2011under\u201118 criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Adult patient who consents to participate; sentence 6 states she will provide informed consent and comply with the protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT01899339": {
+                "inclusion": {
+                    "0": [
+                        "Criterion requires acute symptomatic PE \u226414 days confirmed by CT angiogram with RV:LV >0.9. Patient note mentions shortness of breath but no CT confirmation, no timing of symptom onset, and no RV measurements, so cannot determine if criterion is met.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient age is 56 (sentence 0); does not exceed 80.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of thrombolytic therapy within 4 days.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No evidence of active bleeding or bleeding diathesis in note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No coagulation lab values provided; assume not abnormal.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No platelet count reported; assume not thrombocytopenic.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No history of intracranial/intraspinal surgery, trauma, or bleed noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No intracranial neoplasm, AVM, or aneurysm mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No recent GI bleed reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No recent eye surgery or hemorrhagic retinopathy noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "Mastectomy was 20 days ago (sentence 0); exceeds 7\u2011day window.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Renal function not reported; assume eGFR \u226545.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No allergy or hypersensitivity to heparin/tPA documented.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No hemodynamic instability (BP or pressor use) described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No severe hypertension reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "Female age 56; pregnancy unlikely and not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No right\u2011to\u2011left shunt reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No large intracardiac thrombus described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No use of thrombolytics or glycoprotein IIb/IIIa antagonists within 3 days noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "Life expectancy not stated; no indication of <30 days.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            }
+        },
+        "0": {
+            "NCT02507180": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 56\u2011year\u2011old female with no mention of pregnancy; age makes pregnancy highly unlikely.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient presents with calf tenderness and elevated D\u2011dimer, indicating suspicion for acute symptomatic DVT.",
+                        [
+                            0,
+                            2,
+                            5
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No documentation of new leg swelling or edema in the past month; absence of such detail leaves uncertainty.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No explicit report of new leg pain in the specified locations; tenderness is noted but not described as pain.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 56 years old, well above legal consent age; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No history of prior proximal DVT or imaging mentioned; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Sentence 6 states patient will provide informed consent and comply; does not meet exclusion.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Sentence 0 reports shortness of breath, a listed PE symptom; meets exclusion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "No information about therapeutic anticoagulant use; assume not on anticoagulant, so does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01317160": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires an acute Achilles tendon rupture surgically repaired within 96 hours; the patient note describes a post\u2011mastectomy case with no mention of Achilles injury, so the premise of the criterion is not met.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Applicable; note states patient will provide informed consent (sentence 6).",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Applicable; no mention of anticoagulant use, and absence in note can be assumed negative.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Applicable; note says patient will comply with protocol without issues (sentence 6).",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Applicable; kidney disorder not mentioned, assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Applicable; heart failure with pitting oedema not mentioned, assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Applicable; thrombophlebitis not mentioned, assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Applicable; patient presents with shortness of breath, elevated D\u2011dimer suggesting a current thromboembolic event (sentences 0,4,5).",
+                        [
+                            0,
+                            4,
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "7": [
+                        "Applicable; recent left mastectomy 20 days ago (sentence 0) falls within 1\u2011month window.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "8": [
+                        "Applicable; mastectomy implies known malignancy (sentence 0).",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "9": [
+                        "Applicable; no evidence of bleeding disorder, assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Applicable; patient is 56\u2011year\u2011old female, unlikely pregnant, no mention of pregnancy.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00816920": {
+                "inclusion": {
+                    "0": [
+                        "Patient shows calf tenderness suggesting suspicion of leg DVT; evidence present in note.",
+                        [
+                            2,
+                            5
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Elevated D-dimer indicates high D-dimer level, satisfying the criterion; evidence present.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is 56 years old, so age <18 does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No evidence of proximal DVT in the note; absence of mention likely means not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No suspicion of iliac DVT is described; lack of info suggests it is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Symptoms have been present for about 2 weeks (20 days post\u2011surgery), which is \u226430 days.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient reports shortness of breath, decreased breath sounds, and has an elevated D\u2011dimer, all consistent with pulmonary embolism symptoms.",
+                        [
+                            0,
+                            4,
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "Patient is a 56\u2011year\u2011old female, unlikely to be pregnant or in puerperium.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No mention of full\u2011dose heparin or similar anticoagulant therapy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No indication of superficial vein thrombosis in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Life expectancy is not discussed; assume not limited.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "Geographic accessibility is not addressed; assume accessible.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Patient explicitly states she will provide informed consent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No information about participation in other clinical studies.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02553200": {
+                "inclusion": {
+                    "0": [
+                        "Patient is not intubated; criterion requires intubation, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "No mention of clinical or radiologic diagnosis of pulmonary infection; absence of evidence suggests patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No evidence of acute/chronic airway inflammation disease or signs of secretion accumulation; patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No information on stability of cardiopulmonary function or vasopressor use; cannot determine compliance.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No data on hydration status or fluid balance; unable to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No details on ability to tolerate T\u2011piece trial, FiO2 level, or hypoxemia; insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "Sentence 6 states the patient will provide informed consent and comply with the protocol, indicating good consciousness and cooperation.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion requires evidence of untreated pneumothorax. No mention of pneumothorax in note; absence of such finding can be assumed negative.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Criterion requires massive hemoptysis. No hemoptysis reported; lack of mention suggests it is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Criterion requires acute myocardial infarction with angina chest pain. No cardiac symptoms or diagnosis noted; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Criterion requires high intracranial pressure >20 mm Hg. No neurological assessment or ICP data provided; absence of any indication implies not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Criterion requires major arrhythmia. No cardiac rhythm information given; assume no major arrhythmia.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00789399": {
+                "inclusion": {
+                    "0": [
+                        "Patient is not undergoing CABG surgery; criterion requires isolated or redo isolated CABG.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Sentence 6 explicitly states patient will provide informed consent.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Sentence 6 states patient will comply with the trial protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Sentence 0 gives age 56, which meets the \u226518 years requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "The criterion text 'Subject' is ambiguous and no information in the note clarifies it.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The exclusion criterion is incomplete and does not specify any condition, so it cannot be applied to the patient.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT00726570": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires elective major abdominal surgery for neoplasm; patient had left mastectomy (breast), not abdominal, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Criterion asks for planned ICU admission; note does not mention ICU admission, no evidence either way.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "ASA Physical Status Class 4 is not mentioned; no evidence to confirm or deny.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Modified Johns-Hopkins class \u2265IV not referenced; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "ASA 3 with modified Johns-Hopkins class 3 not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Expected surgery duration \u22658 h not provided; no evidence.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of any congenital or acquired coagulation disorder; absence of evidence suggests the patient does not have such a history.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The note does not list any anticoagulant or antiplatelet drugs besides the implied LMWH; therefore the patient likely is not on prohibited agents.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "There is no description of leg swelling or massive edema in the physical exam.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No findings indicating severe peripheral arterial disease or neuropathy are reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "The patient\u2019s recent surgery was a left mastectomy, not involving the lower extremities; thus this criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT01724996": {
+                "inclusion": {},
+                "exclusion": {
+                    "0": [
+                        "Consent is explicitly stated in sentence 6, so the patient does not meet the missing consent exclusion.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The note does not provide vital signs or explicit signs of cardiopulmonary instability; shortness of breath and decreased breath sounds are present but could be stable. No direct evidence of instability, and it is possible a good note would mention instability if present.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "The patient reports shortness of breath and malaise but no chest pain; absence of chest pain meets the exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "3": [
+                        "The patient had left mastectomy 20 days ago, which is thoracic surgery within 1 year, meeting the exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT00005351": {
+                "inclusion": {
+                    "0": [
+                        "Since the trial lists 'No eligibility criteria', there is nothing to evaluate; by definition all patients satisfy this placeholder criterion.",
+                        [],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00368836": {
+                "inclusion": {
+                    "0": [
+                        "The inclusion requires the patient to have experienced or be scheduled for at least one of the listed surgeries; the note only mentions a left mastectomy, which is not in the list, so the patient does not meet this overall criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Hip or knee replacement surgery is not mentioned; the patient had mastectomy, so this specific criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Hip or acetabular fracture surgery is not mentioned; patient had mastectomy, so not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Pelvic fracture is not mentioned; patient had mastectomy, so not met.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "Decompression for spinal stenosis surgery is not mentioned; patient had mastectomy, so not met.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "Scoliosis corrective surgery is not mentioned; patient had mastectomy, so not met.",
+                        [],
+                        "not included"
+                    ],
+                    "6": [
+                        "Craniotomy surgery for brain tumor is not mentioned; patient had mastectomy, so not met.",
+                        [],
+                        "not included"
+                    ],
+                    "7": [
+                        "Surgery for listed cancers (bladder, colon, kidney, ovary, pancreas, uterus) is not mentioned; mastectomy is not among them, so not met.",
+                        [],
+                        "not included"
+                    ],
+                    "8": [
+                        "Phase I is not a surgery; the criterion is unclear but the patient note provides no information about trial phase eligibility, so cannot be satisfied.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of current or recent PE treatment; assume patient not treated for PE.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Hospitalization duration not specified; cannot determine if <2 days.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No information about oral or facial abnormalities; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Living situation not described; assume stable follow\u2011up capability.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient has SOB, calf tenderness and recent surgery \u2013 classic PE risk and symptoms within 24\u202fh, indicating clinical suspicion.",
+                        [
+                            0,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "No CTA ordered is mentioned in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Patient is 56 years old, satisfying the age condition.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "7": [
+                        "Patient will provide written informed consent as stated.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Trial phase is a study design attribute, not applicable to patient eligibility.",
+                        [],
+                        "not applicable"
+                    ]
+                }
             }
         }
     },
@@ -103263,6 +104784,1053 @@
                     ],
                     "5": [
                         "Coagulation parameters are not provided; no indication of abnormality.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00821522": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to be undergoing heart surgery with cardiopulmonary bypass. The note only mentions a major surgery without specifying cardiac surgery or CPB, so the premise is not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of peripheral vascular disease, skin necrosis, or infection; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is an infant with acute kidney injury labs; no evidence of dialysis-dependent end-stage renal disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Sentence 6 states the patient will provide informed consent and comply with protocol.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00004696": {
+                "inclusion": {
+                    "0": [
+                        "Generic protocol entry criteria not specific to patient; no direct evidence needed.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Section header, not a specific patient requirement.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Patient had major surgery and will have postoperative inpatient care as implied by note.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Gestational age not mentioned; cannot determine if \u226535 weeks.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No information on prenatal opiate exposure.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Section header for Part I patients.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Patient is 6 months old (<12\u202fmo) and underwent a major surgery (likely thoracic/abdominal/cardiac).",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "7": [
+                        "No mention of excluded surgery types; assume they were not performed.",
+                        [],
+                        "included"
+                    ],
+                    "8": [
+                        "No mention of hepatic or renal transplantation; assume none.",
+                        [],
+                        "included"
+                    ],
+                    "9": [
+                        "Section header for Part II patients.",
+                        [],
+                        "not applicable"
+                    ],
+                    "10": [
+                        "Age requirement <3\u202fmo not met (patient is 6\u202fmo).",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "Cyanotic congenital heart disease or specific thoracotomy not described; also age >3\u202fmo.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "Section header for patient characteristics.",
+                        [],
+                        "not applicable"
+                    ],
+                    "13": [
+                        "Age criterion for Part I satisfied (<12\u202fmo).",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "14": [
+                        "No hepatic function test results provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "15": [
+                        "Renal labs show BUN 33\u202fmg/dL and creatinine 1.3\u202fmg/dL, which are elevated for an infant, indicating abnormal renal function.",
+                        [
+                            3
+                        ],
+                        "not included"
+                    ],
+                    "16": [
+                        "No pulmonary disease or baseline hypercarbia information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "17": [
+                        "No data on pulmonary hypertension.",
+                        [],
+                        "not enough information"
+                    ],
+                    "18": [
+                        "Section header for other criteria.",
+                        [],
+                        "not applicable"
+                    ],
+                    "19": [
+                        "Allergy status to morphine not mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "20": [
+                        "Developmental status not described.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00549107": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 6 months old, which satisfies age <1 year.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "The note mentions 'major surgery' but does not specify that it was corrective open heart surgery with biventricular repair, nor exclude tetralogy of Fallot; insufficient detail to confirm.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Consent is explicitly stated as will be provided, so not excluded.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Weight not mentioned; cannot determine if <3\u202fkg. Absence of info does not prove low weight, but we cannot assume normal weight.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No mention of pre\u2011operative low cardiac output syndrome; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Gestational age not provided; cannot infer prematurity. No evidence of <36\u202fweeks.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Renal labs show elevated BUN/creatinine post\u2011surgery, indicating acute kidney injury, not chronic pre\u2011existing renal failure.",
+                        [
+                            3,
+                            5,
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No platelet count or thrombocytopenia mentioned; cannot assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No record of pre\u2011operative cardiopulmonary resuscitation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No documentation of prior milrinone or levosimendan use before surgery.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00747864": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires gestational age >28 weeks; the note provides no gestational age information, and we cannot infer it from other data, so eligibility cannot be determined.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns infants in the first week of life and specific conditions (fetal malformations, chromosomal anomalies, sepsis, or no urine output for first 48\u202fh). The patient is a 6\u2011month\u2011old infant, well beyond the target age range, so the premise of the criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT00974337": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the infant to be preterm (28\u201134 weeks gestation) and very low birth weight (750\u20111500\u202fg) at birth; the patient is a 6\u2011month\u2011old male, indicating he is not a preterm newborn, so the premise does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "This criterion specifies preterm infants with shock requiring high\u2011dose vasopressors in the first week of life; the patient is 6\u202fmonths old and no vasopressor use is mentioned, thus the premise is not met.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "The control criterion also applies only to preterm very low birth weight infants; the patient is older and not described as preterm, so the premise does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of major congenital malformations; absence of evidence is taken as likely absence, so criterion not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Mother's medication history not provided; assume not receiving listed drugs, so criterion not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No record of postnatal corticosteroid use; assume not given, so criterion not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Sentence 6 states the patient will provide informed consent, directly addressing this criterion.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00577525": {
+                "inclusion": {
+                    "0": [
+                        "No proteinuria or albumin values are mentioned; cannot confirm the required levels, and absence of mention likely means not present.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No prior renal disease is described in the note; absence of history suggests the patient meets the criterion.",
+                        [],
+                        "included"
+                    ],
+                    "2": [
+                        "C3 complement and hepatitis B/C status are not provided; cannot determine normality or negativity.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns medical insurance, which is not mentioned in the note; absence of evidence is taken as the patient likely has insurance, so not excluded.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The criterion concerns participation in another study, which is not referenced in the note; lack of mention suggests the patient is not in another study, so not excluded.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02282930": {
+                "inclusion": {
+                    "1": [
+                        "No mention of proteinuria measurement, ACEi/ARB use, or sustained BP control; cannot determine if criterion met.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Serum creatinine provided but no creatinine clearance calculation; insufficient data to assess >30\u202fml/min/1.73\u202fm\u00b2.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Blood pressure recorded as 115/80\u202fmmHg, which is below the 130/80 threshold; meets criterion.",
+                        [
+                            2
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "No evidence of Henoch\u2011Sch\u00f6nlein purpura or biopsy\u2011proven IgA nephropathy; criterion not applicable to this infant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "Patient (or guardian) states willingness to consent and comply with protocol, implying ability to receive injections.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "6": [
+                        "No information about existence of a kidney biopsy slide on file; cannot confirm availability.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {}
+            }
+        },
+        "0": {
+            "NCT02338895": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires adult patients; the note describes a 6\u2011month\u2011old infant, so the premise is not met.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0.i": [
+                        "The criterion concerns chronic renal failure, which the note does not mention; the infant presents with acute oliguria after surgery, making chronic disease unlikely. No evidence of pre\u2011existing renal disease is found.",
+                        [],
+                        "not excluded"
+                    ],
+                    "0.ii": [
+                        "The criterion concerns current renal replacement therapy or dialysis. The note provides labs and urine findings but makes no reference to dialysis or any renal replacement modality, and such therapy would be unlikely in a 6\u2011month\u2011old with acute AKI.",
+                        [],
+                        "not excluded"
+                    ],
+                    "0.iii": [
+                        "The criterion concerns poor sonographic windows. The note contains no information about imaging quality; absence of a comment suggests no known limitation, and there is no reason to assume poor windows in this infant.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02443389": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 6 months old, not a newborn; thus the criterion about NICU admission does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Patient age and note do not indicate NICU stay or IV fluid administration; criterion is irrelevant for a 6\u2011month\u2011old infant.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns NICU admission at \u22652 weeks of age; the patient is a 6\u2011month\u2011old infant, far beyond the neonatal period, and no NICU admission is mentioned, so the criterion is not relevant to this case.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion refers to cardiovascular surgery for a congenital heart lesion within the first week of life; the patient underwent major surgery at 6 months, not within the first week, and no congenital heart disease is described, making the criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No lethal anomaly is reported in the note; such a serious condition would normally be documented, and its absence allows us to assume the patient does not have one.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "The patient is alive at 6 months, so he clearly did not die within 48\u202fhours after birth.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02276170": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 6 months old, exceeding the <3 months age limit; sentence 0 provides age.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient shows oliguria, edema, elevated BUN/creatinine, and fractional excretion consistent with AKI; multiple sentences support diagnosis.",
+                        [
+                            0,
+                            1,
+                            3,
+                            5,
+                            6
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of aminophylline administration in the note; cannot confirm receipt.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns anatomical renal anomalies; the note does not mention any such findings, and absence of mention in a neonatal surgical context makes it reasonable to assume none are present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Renal replacement therapy would be explicitly noted if the infant were receiving it; no such information is present, so we infer the patient is not on RRT.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Major genetic abnormalities (trisomy 13, 18, 21) would be documented in the history; the note provides no indication of these conditions, allowing us to assume they are absent.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02016053": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires enrollment of patients with acute kidney injury (AKI). The note describes oliguria (<0.2\u202fmL/kg/hr), elevated BUN (33\u202fmg/dL), creatinine 1.3\u202fmg/dL, granular casts, and fractional excretion of sodium 3.3%, all consistent with AKI. No mention of cirrhosis, but the AKI arm (Group\u202fB) does not require cirrhosis. Therefore the patient meets the AKI inclusion requirement.",
+                        [
+                            0,
+                            3,
+                            5,
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is a 6\u2011month\u2011old infant (sentence 0), which is below the lower age limit of 18 years, so the age exclusion criterion is met.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No mention of chronic renal disease; the note describes acute kidney injury without prior history, so the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "There is no evidence of obstructive uropathy in the note; absence of such findings suggests the criterion is not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Cirrhosis and HCC are not referenced and are irrelevant to a 6\u2011month\u2011old infant; the criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No documentation of advanced cardiopulmonary disease; vital signs are provided but do not indicate chronic advanced disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Patient is male, making pregnancy impossible; the criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No mention of any extrahepatic malignancy; given the infant\u2019s age and presentation, such a condition is unlikely.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02046135": {
+                "inclusion": {
+                    "0": [
+                        "Applicable; sentence 0 directly states the patient is a 6\u2011month\u2011old infant, which is \u226418 years, so meets the age criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Applicable; the note mentions the patient underwent a major surgery but does not specify cardiac surgery with cardiopulmonary bypass, and there is no other evidence to infer this, so the criterion cannot be confirmed.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The note provides serum creatinine but lacks height/weight to calculate Schwartz creatinine clearance, so we cannot determine if clearance is <90\u202fml/min/1.7\u202fm\u00b2.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "There is no mention of cystic kidney disease, posterior ureteral valves, solitary or dysplastic kidney, or hydronephrosis; absence of such statements allows us to assume these conditions are not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The note does not describe any metabolic disorder; lack of evidence suggests the patient does not have one.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "The patient is a 6\u2011month\u2011old infant, not a premature infant <30\u202fweeks gestation and <30\u202fdays old; thus the criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No evidence of severe cardiogenic shock, ECMO, or LVAD use is present; vital signs are stable enough to infer the patient is not in such a state.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02489669": {
+                "inclusion": {
+                    "0": [
+                        "The patient is a 6\u2011month\u2011old infant and there is no mention of chronic kidney disease, scheduled coronary or peripheral angiography/angioplasty, so this inclusion criterion does not apply to him.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The note provides laboratory values but does not include Mehran or Gurm risk scores, nor any information that would allow calculation of those scores; therefore we cannot determine if the patient meets the high\u2011risk requirement.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is a 6\u2011month\u2011old infant, thus age <18 years, which directly meets the exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "Criterion applies only to pregnant women; patient is a male infant, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No mention of acute pulmonary edema; generalized edema is noted but not pulmonary. Assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of acute myocardial infarction in the note; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information about recent contrast media exposure; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No dialysis or end\u2011stage CKD mentioned; creatinine 1.3\u202fmg/dL does not indicate ESRD.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Multiple myeloma not mentioned and highly unlikely in a 6\u2011month\u2011old; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No indication of enrollment in another study; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No signs of cardiogenic shock (BP normal, no shock description); assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No administration of theophylline, dopamine, mannitol, or fenoldopam reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02147470": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 6-month-old infant, so age >18 years is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "No mention of liver cirrhosis; infant unlikely to have cirrhosis.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Hospital location not specified in note; cannot assume admission to UVA.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Patient shows signs of AKI (low urine output, elevated creatinine), but AKIN criteria are not explicitly documented; cannot confirm.",
+                        [
+                            0,
+                            3,
+                            5,
+                            6
+                        ],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of a right\u2011to\u2011left intracardiac shunt in the note; such a condition would likely be documented if present, so we assume it is absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Pulmonary hypertension is not mentioned; given the acute postoperative setting it would be noted if present, so we assume it is absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is a 6\u2011month\u2011old male infant, therefore pregnancy or lactation does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No allergy history to Definity\u00ae is provided; absence of mention suggests no known allergy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "There is no indication of prior liver or kidney transplantation in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "The infant is not reported to be on hemodialysis; such therapy would be explicitly noted.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            }
+        }
+    },
+    "sigir-201430": {
+        "2": {
+            "NCT02273232": {
+                "inclusion": {
+                    "0": [
+                        "Patient shows classic signs of peripheral arterial disease (calf pain on exertion, cool limbs, diminished pulses), which aligns with moderate PVD; no explicit severity stated but inference is reasonable.",
+                        [
+                            0,
+                            7
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient reports exertional calf pain consistent with intermittent claudication and no rest pain, matching Rutherford stage 2 and Fontaine stage 2a criteria.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of upper limb peripheral vascular disease; absence of evidence suggests patient does not have it.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient had a myocardial infarction 2 years ago but no evidence of current severe cardiac dysfunction; thus not a severe cardiac condition.",
+                        [
+                            2
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Risk classification for exercise (class C or above) is not provided in the note; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No respiratory disease described; patient appears free of severe respiratory condition.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No history of upper limb deep vein thrombosis mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Current medications listed do not include glibenclamide or nicorandil.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No indication of Raynaud's disease in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No contraindications for MRA (e.g., implanted devices, severe renal failure) are mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Patient is a male; pregnancy is not applicable.",
+                        [
+                            0
+                        ],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "No record of major limb amputation.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02254356": {
+                "inclusion": {
+                    "0": [
+                        "Patient shows classic PAD symptoms (calf pain on exertion, cool legs, diminished dorsalis pedis pulses) indicating symptomatic PAD in femoropopliteal region; evidence present in sentences 0 and 7.",
+                        [
+                            0,
+                            7
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00721006": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 72 years old, clearly older than 18.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No ankle\u2011brachial index (ABI) values are provided; cannot determine if ABI < 0.7.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient reports calf pain on walking (claudication), but the note does not specify resting ischemic pain, distance walked (100\u202fm), or presence of non\u2011healing ulcers.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "The note describes calf pain when walking uphill, which is classic claudication.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "There is no information about prior attempts at surgical or percutaneous revascularization or reasons why the patient would be ineligible for such procedures.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient explicitly states willingness to provide informed consent (sentence 8); criterion applicable and patient meets consent requirement.",
+                        [
+                            8
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of prior angiogenic therapy; criterion applicable but no evidence; assume patient has not received such therapy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No information on sensitivity to gentamycin or amphotericin B; criterion applicable but no evidence; assume no known sensitivity.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No antineoplastic drug use reported; criterion applicable and no evidence of use.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient has past MI and TIA and hypertension, but these are chronic conditions not necessarily fatal within study period; no explicit statement that illness will affect survival.",
+                        [
+                            2,
+                            3
+                        ],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Hypertension uncontrolled (sentence 3-5) could affect safety/compliance, but no explicit judgment that it will interfere; insufficient direct evidence to deem exclusion.",
+                        [
+                            3,
+                            4,
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No acute infection mentioned in note; criterion applicable and patient appears infection\u2011free.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No laboratory values provided for WBC; cannot confirm >15000, assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No laboratory values provided for WBC; cannot confirm <4000, assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No serum creatinine reported; cannot confirm >3.0 mg/dL, assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Patient is male, so pregnancy criterion is not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "Myocardial infarction occurred 2 years ago (sentence 2), well beyond 3\u2011month window; patient does not meet recent MI exclusion.",
+                        [
+                            2
+                        ],
+                        "not excluded"
+                    ]
+                }
+            }
+        },
+        "1": {
+            "NCT02051088": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 72 years old (sentence 0) and explicitly states willingness to consent and comply (sentence 8); both satisfy adult age and willingness criteria.",
+                        [
+                            0,
+                            8
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient reports calf pain on exertion and diminished distal pulses (sentences 0 and 7), indicating symptomatic PAD, but the note lacks any imaging or diagnostic confirmation of >50% infrainguinal stenosis/occlusion; such detail could be omitted, so eligibility cannot be confirmed nor denied.",
+                        [
+                            0,
+                            7
+                        ],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns acute thromboembolic disease in the leg; the note does not mention any acute leg thrombosis or embolism, and there is no indirect evidence suggesting it. Absence of mention can be taken as the condition not being present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Infrainguinal aneurysmal disease would be described if present; the note contains no reference to aneurysms in the femoropopliteal or infrapopliteal arteries, and no indirect clues. Therefore the patient likely does not have this condition.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Previous participation in this or another randomized infrainguinal study would be noted; the note provides no such history, and there is no reason to infer prior enrollment. Hence the patient does not meet this exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "The exclusion applies to patients without a Swedish personal identification number. The note gives no information about nationality or ID status; we cannot infer it, so eligibility cannot be determined from the available data.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT02110251": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires PAD Rutherford stage 4 or 5 with potential for vascular improvement; the note only mentions calf pain on exertion and diminished pulses, without specifying Rutherford stage or eligibility for intervention, so there is no direct evidence and we cannot infer the stage.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "The criterion concerns bilateral disease with the worst leg \u2264 stage 5; the note provides no information about involvement of both legs or their Rutherford stages, so we cannot determine applicability.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion requires severe cardiopulmonary disease (NYHA class IV) or lower\u2011leg/thigh amputation. The note mentions prior MI, TIA and hypertension but gives no NYHA classification or any amputation. Absence of such information suggests the patient does not meet the exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "This statement describes a condition that is allowed rather than excluded (limited toe amputation). It does not constitute an exclusion criterion for the patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "The criterion concerns insufficient Dutch language understanding. The note provides no language information, but lack of mention typically implies adequate understanding; therefore the patient is not excluded.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "The criterion requires lack of physiotherapy insurance. No insurance information is given; in the absence of evidence of lacking insurance, we assume the patient is not excluded.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01970332": {
+                "inclusion": {
+                    "0": [
+                        "Patient reports calf pain when walking uphill that has worsened over 3 months, indicating a chronic claudication history.",
+                        [
+                            0,
+                            1
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "History suggests exercise\u2011limiting claudication, but the note does not mention a screening walking test or direct observation by a vascular surgeon.",
+                        [
+                            0,
+                            1
+                        ],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No ankle\u2011brachial index measurement is provided in the note; cannot determine if ABI < 0.90.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "PAD is evident from calf pain on exertion, cool legs, and diminished pulses, so the patient does have PAD and does not meet the exclusion of absence of PAD.",
+                        [
+                            0,
+                            7
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of an acute ischemic event, thromboembolism, or trauma to the lower extremities; thus the criterion does not apply.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The patient has significant cardiac history (myocardial infarction, uncontrolled hypertension) that could limit exercise capacity independent of claudication, meeting the exclusion criterion.",
+                        [
+                            2,
+                            3,
+                            5
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT01041729": {
+                "inclusion": {
+                    "0": [
+                        "Patient shows symptoms consistent with intermittent claudication (calf pain on exertion) and diminished distal pulses, suggesting possible Fontaine grade II PAD, but the note lacks explicit confirmation by hemodynamic evaluation (Doppler ultrasound). Therefore, cannot confirm the criterion.",
+                        [
+                            0,
+                            1,
+                            7
+                        ],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Patient age is stated as 72 years, which satisfies the >18 years requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of any prior revascularization procedure; absence of evidence suggests the patient has not undergone such surgery.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Medication list (sentence 4) includes isosorbide dinitrate, hydrochlorothiazide, and aspirin, with no statin reported.",
+                        [
+                            4
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No documented liver disease, muscle disorders, pregnancy, or known statin allergy; thus no contraindication is evident.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "The note does not describe any chronic inflammatory condition (e.g., rheumatoid arthritis, lupus) nor mention steroid use.",
                         [],
                         "not excluded"
                     ]
