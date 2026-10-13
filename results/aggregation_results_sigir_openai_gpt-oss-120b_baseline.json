@@ -10255,6 +10255,12 @@
             "relevance_score_R": 85.0,
             "eligibility_explanation": "The provided eligibility predictions only address trial\u2011design criteria that are not applicable to patient characteristics. No specific inclusion or exclusion criteria (e.g., disease severity thresholds, recent exacerbations, comorbidities, medication restrictions) are given, and the patient note does not contain information that would confirm or refute eligibility. Consequently, there is insufficient evidence to judge the patient as eligible or ineligible, resulting in a neutral eligibility assessment.",
             "eligibility_score_E": 0.0
+        },
+        "NCT01431911": {
+            "relevance_explanation": "The patient is a 66\u2011year\u2011old female with a long smoking history, chronic cough, progressive dyspnea, and wheezing, all classic features of chronic obstructive pulmonary disease (COPD). The trial targets adults with COPD who have experienced an exacerbation and examines timing of maintenance therapy. The patient\u2019s age, disease presentation, and willingness to consent align closely with the trial\u2019s target population, making her highly relevant. The only missing information is administrative (continuous enrollment) and prior maintenance therapy status, which affect eligibility but not relevance.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Inclusion criteria are largely met: age \u226540 and clinical picture strongly suggests COPD. However, two key eligibility elements are uncertain: (1) continuous medical/pharmacy enrollment, and (2) whether the patient is maintenance\u2011therapy na\u00efve. No evidence of exclusionary comorbidities is present, and there is no mention of prohibited inhaler doses. Because the missing information could disqualify the patient, we cannot assign full eligibility. The balance of available data leans toward possible eligibility but with notable uncertainty, so the eligibility score is positive but well below the relevance ceiling.",
+            "eligibility_score_E": 30.0
         }
     },
     "sigir-201423": {
@@ -10449,6 +10455,18 @@
             "relevance_score_R": 85.0,
             "eligibility_explanation": "All inclusion criteria appear satisfied: probable COPD diagnosis, acute exacerbation with lower\u2011airway infection, and signed informed consent. None of the exclusion criteria are triggered\u2014no prior antibiotics >2 days, no other pulmonary diseases, no chronic immunosuppression, no severe comorbidities, and no cognitive or language barriers. Therefore the patient is fully eligible within the relevance envelope.",
             "eligibility_score_E": 85.0
+        },
+        "NCT01254032": {
+            "relevance_explanation": "The patient is a 63\u2011year\u2011old male with a smoking history and acute respiratory symptoms consistent with a possible COPD exacerbation, which aligns with the trial\u2019s focus on COPD patients and the CAT questionnaire. However, the trial explicitly requires outpatients, and the note indicates the patient is currently admitted, which reduces relevance. Additionally, the record lacks confirmed COPD diagnosis, spirometry data, and prior exacerbation history, which are central to the study. These gaps further lower the overall relevance but do not make the patient completely irrelevant.",
+            "relevance_score_R": 68.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria (consent, gender, age, smoking history) and has no exclusion criteria. Crucially, the trial requires a documented COPD diagnosis (post\u2011bronchodilator FEV1/FVC <0.7) and a history of at least one exacerbation in the past 12 months, neither of which is documented in the note. Because these key inclusion criteria are missing, the patient cannot be considered eligible; the lack of disqualifying factors keeps the eligibility from being strongly negative, resulting in a modest negative score within the relevance bound.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01337336": {
+            "relevance_explanation": "The patient is a 63\u2011year\u2011old heavy smoker with chronic respiratory symptoms, barrel\u2011shaped chest, hyperinflated chest X\u2011ray and dyspnea, all strongly suggestive of COPD, which matches the target condition of the trial. However, the clinical note does not explicitly state a COPD diagnosis, nor does it mention any comorbid depression or anxiety, which are required inclusion criteria. Age and smoking history are relevant, but the lack of documented COPD diagnosis and the absence of depression/anxiety reduce overall relevance.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "Key inclusion criteria are not satisfied: (1) a confirmed COPD diagnosis is not documented, and (2) there is no evidence of depression or anxiety or related medication. The patient meets the age requirement, and no exclusionary respiratory comorbidities are noted, but the missing mandatory inclusion elements make the patient ineligible. Therefore the eligibility score should be negative, reflecting ineligibility, but not the full negative of relevance because some criteria are met (age, no exclusions).",
+            "eligibility_score_E": -45.0
         }
     },
     "sigir-201429": {
@@ -10547,6 +10565,12 @@
             "relevance_score_R": 68.0,
             "eligibility_explanation": "The eligibility assessment shows that the patient meets several inclusion criteria, but two key exclusion criteria are satisfied: (1) cardiovascular disease \u2013 the note records significant hypertension, and (2) endocrine disease \u2013 the patient has diet\u2011controlled type\u202f2 diabetes (NIDDM). Both exclusions are definitive, making the patient ineligible for the study despite other neutral or unknown factors. Consequently the eligibility score is negative, reflecting ineligibility, and is set to the negative of the relevance score.",
             "eligibility_score_E": -68.0
+        },
+        "NCT02184962": {
+            "relevance_explanation": "The patient is a 51\u2011year\u2011old post\u2011menopausal woman, which aligns with the trial\u2019s target demographic (women 45\u201170 years, post\u2011menopausal). However, the trial specifically requires participants to have either periodontal disease with normal bone status (control) or periodontal disease with osteoporosis/osteopenia (study group), and to have documented bone density (DEXA) and possibly bisphosphonate use. The patient note provides no information about periodontal disease, bone density results, or bisphosphonate therapy. Thus, while the age and menopausal status are relevant, the core disease criteria are missing, giving a moderate overall relevance.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "The patient has systemic illnesses (hypertension and diet\u2011controlled diabetes). The exclusion criterion states that any systemic illness other than osteopenia/osteoporosis excludes the patient. Therefore, the patient is excluded on this basis. No other exclusion criteria are met, but the lack of required inclusion features (periodontal disease, osteoporosis/osteopenia, DEXA confirmation) also means she would not satisfy inclusion. Consequently, the patient is ineligible, and the eligibility score is negative, bounded by the relevance score.",
+            "eligibility_score_E": -38.0
         }
     }
 }

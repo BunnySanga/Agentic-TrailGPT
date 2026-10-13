@@ -123521,6 +123521,315 @@
                         "not enough information"
                     ]
                 }
+            },
+            "NCT00261105": {
+                "inclusion": {
+                    "0": [
+                        "Patient explicitly states willingness to provide informed consent (sentence 4); meets general condition requirement.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient is presenting in an outpatient setting (implied by presentation in clinic, sentence 0).",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No clear evidence that patient meets diagnostic criteria for CAP, AECB, or AS; insufficient information to confirm any indication.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No data on pneumonia severity, chest X\u2011ray, or fever; cannot determine mild\u2011moderate CAP.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Chronic bronchitis requires cough plus excessive sputum >2\u202fyears; sputum production not mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No sinus symptoms (facial pain, congestion, etc.) reported.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "CAP\u2011specific criteria are not applicable because CAP not established.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "Refers to CAP criteria; not applicable as CAP not established.",
+                        [],
+                        "not applicable"
+                    ],
+                    "8": [
+                        "CAP criterion \u2013 requires at least two symptoms; patient data insufficient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "Cough is present (sentence 0), but alone does not satisfy CAP requirement of two symptoms.",
+                        [
+                            0
+                        ],
+                        "not applicable"
+                    ],
+                    "10": [
+                        "No mention of purulent sputum.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "No auscultatory findings specific to pneumonia reported.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "Dyspnea is present (sentence 0), but alone insufficient for CAP criteria.",
+                        [
+                            0
+                        ],
+                        "not applicable"
+                    ],
+                    "13": [
+                        "No fever reported.",
+                        [],
+                        "not applicable"
+                    ],
+                    "14": [
+                        "No lab data on white blood cell count.",
+                        [],
+                        "not applicable"
+                    ],
+                    "15": [
+                        "No chest X\u2011ray findings reported.",
+                        [],
+                        "not applicable"
+                    ],
+                    "16": [
+                        "AECB\u2011specific criteria are not applicable because AECB not confirmed.",
+                        [],
+                        "not applicable"
+                    ],
+                    "17": [
+                        "Refers to AECB criteria; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "18": [
+                        "Chronic bronchitis definition requires sputum production; sputum not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "19": [
+                        "Exacerbation increase in sputum purulence not documented.",
+                        [],
+                        "not applicable"
+                    ],
+                    "20": [
+                        "Increase in sputum volume not documented.",
+                        [],
+                        "not applicable"
+                    ],
+                    "21": [
+                        "Increase in dyspnea is present (sentence 0) but other exacerbation signs missing.",
+                        [
+                            0
+                        ],
+                        "not applicable"
+                    ],
+                    "22": [
+                        "Exacerbation criteria not fully met.",
+                        [],
+                        "not applicable"
+                    ],
+                    "23": [
+                        "AS\u2011specific criteria are not applicable because sinusitis not indicated.",
+                        [],
+                        "not applicable"
+                    ],
+                    "24": [
+                        "Refers to AS criteria; not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "25": [
+                        "AS major/minor factors not documented.",
+                        [],
+                        "not applicable"
+                    ],
+                    "26": [
+                        "Major factor list not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "27": [
+                        "Facial pressure/pain not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "28": [
+                        "Facial congestion/fullness not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "29": [
+                        "Nasal obstruction not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "30": [
+                        "Nasal purulence/postnasal discharge not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "31": [
+                        "Hyposmia/anosmia not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "32": [
+                        "Fever not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "33": [
+                        "Minor factor list not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "34": [
+                        "Headache not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "35": [
+                        "Halitosis not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "36": [
+                        "Fatigue not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "37": [
+                        "Dental pain not mentioned.",
+                        [],
+                        "not applicable"
+                    ],
+                    "38": [
+                        "Cough is present (sentence 0) but alone does not satisfy AS criteria.",
+                        [
+                            0
+                        ],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion is a generic heading without specific requirements; it does not apply to the patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The criterion refers to a list that is not provided; no specific condition can be assessed for the patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No medications are mentioned in the note, so we cannot find evidence of prohibited drugs. Absence of mention suggests the patient is not taking them.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "There is no information about congenital/family long QT syndrome or acquired QT prolongation; such data is typically recorded if present, so we assume it is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No hypersensitivity to telithromycin or macrolides is reported; lack of mention implies none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "The note describes a community\u2011onset respiratory problem with no recent hospitalization; therefore hospital\u2011acquired infection is unlikely.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Patient is a 66\u2011year\u2011old female; pregnancy is highly unlikely at this age and no pregnancy information is given, so we assume she is not pregnant or breastfeeding.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Renal function (creatinine clearance) is not reported; without lab data we cannot confirm severe impairment, but such a condition would normally be noted, so we assume it is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No prior antibiotic use is described; absence of this information suggests the patient has not received >24\u202fh of antibiotics within 7\u202fdays.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "The note does not list any concurrent medications that could interfere with evaluation; thus no exclusion based on this criterion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No microbiological data are provided; without evidence of a resistant pathogen we cannot exclude the patient.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "Only the primary respiratory complaint is described; no other infection requiring systemic antibiotics is mentioned.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "There is no mention of splenectomy; such a major surgical history would be noted if present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No prior use of telithromycin or participation in a telithromycin study is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No investigational drug use within 4 weeks is mentioned; absence suggests none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "The note does not indicate prior enrollment in this study; single enrollment is assumed.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "This is a heading specific to CAP and contains no concrete exclusion condition; not applicable to the patient note.",
+                        [],
+                        "not applicable"
+                    ],
+                    "17": [
+                        "This is a generic 'Additional' heading without content; not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
             }
         }
     },
@@ -126139,6 +126448,44 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT01337336": {
+                "inclusion": {
+                    "0": [
+                        "The note describes COPD-like symptoms (cough, dyspnea, heavy smoking, hyperinflation, barrel chest) but does not explicitly state a COPD diagnosis; without a clear diagnosis we cannot assume it is present.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "There is no mention of depression or anxiety diagnosis nor any related medication in the note; thus the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "The criterion refers to study indexing timing, which is not a patient\u2011specific characteristic and cannot be assessed from the clinical note.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "Age is clearly 63 (meets \u226540). Continuous eligibility for 1\u202fyear before and after the index date is not addressed in the note; lacking this information we cannot confirm the criterion.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion lists specific respiratory comorbidities; the note does not mention any of these conditions, and there is no indirect evidence suggesting their presence, so we assume they are absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The criterion concerns use of other maintenance COPD medications; the note provides no information about the patient's current or recent COPD maintenance therapy, making it impossible to determine compliance.",
+                        [],
+                        "not enough information"
+                    ]
+                }
             }
         }
     },
@@ -127095,6 +127442,114 @@
                     "33": [
                         "No mental status issues reported that would impede study conduct.",
                         [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02184962": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 51-year-old woman, satisfying the age range, but the note does not mention a DEXA scan, which is required to confirm bone status.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Patient is post\u2011menopausal (sentence 3) but there is no mention of periodontal disease or normal bone condition, both required for the control group.",
+                        [
+                            3
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "Patient is post\u2011menopausal, yet the note lacks any reference to periodontal disease, osteoporosis/osteopenia, or bisphosphonate use, all essential for the study group.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns aggressive periodontitis or prior periodontal treatment; the note contains no mention of periodontal disease or treatment, so we infer the patient does not have this condition.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The patient has documented hypertension and diet\u2011controlled diabetes mellitus (sentence 1), which are systemic illnesses; the criterion excludes any systemic illness except osteopenia/osteoporosis, so the patient meets this exclusion.",
+                        [
+                            1
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No information is provided about recent antibiotic or NSAID use; absence of such mention allows us to assume the patient has not taken these medications in the prior 6 months.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00846638": {
+                "inclusion": {
+                    "0": [
+                        "Patient has documented hypertension and diet\u2011controlled diabetes (sentence 1) and is seeking osteoporosis advice (sentences 0 and 4), satisfying the requirement of having at least one of the listed conditions.",
+                        [
+                            0,
+                            1,
+                            4
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of current treatment for alcohol or drug problems; absence of such information suggests the patient is not receiving treatment, meeting the criterion.",
+                        [],
+                        "included"
+                    ],
+                    "2": [
+                        "The note does not indicate any physical dependence on alcohol or need for detoxification; lack of evidence allows us to assume the patient is not dependent.",
+                        [],
+                        "included"
+                    ],
+                    "3": [
+                        "There is no reference to abuse or dependence on opiates, cocaine, or other illicit drugs; we assume the patient is not abusing these substances.",
+                        [],
+                        "included"
+                    ],
+                    "4": [
+                        "Pregnancy status is not mentioned; given the patient is a 51\u2011year\u2011old post\u2011menopausal woman, it is reasonable to infer she is not pregnant.",
+                        [],
+                        "included"
+                    ],
+                    "5": [
+                        "Nursing status is not described; a 51\u2011year\u2011old post\u2011menopausal woman is unlikely to be nursing, so we infer she is not nursing.",
+                        [],
+                        "included"
+                    ],
+                    "6": [
+                        "Sentence 5 states the patient will provide informed consent and comply with the protocol without practical issues, indicating ability to complete study measures.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "7": [
+                        "Same as criterion 6; the patient\u2019s expressed willingness and ability to comply demonstrate capacity to complete study measures.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns alcohol consumption, which is not mentioned in the note; no direct evidence is present, and we cannot infer the patient's drinking status, so the information is insufficient to determine exclusion.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "The criterion is applicable; sentence 5 states the patient will provide informed consent and comply with the protocol, indicating agreement to randomization and study terms.",
+                        [
+                            5
+                        ],
                         "not excluded"
                     ]
                 }
