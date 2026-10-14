@@ -148964,6 +148964,49 @@
                     ]
                 },
                 "exclusion": {}
+            },
+            "NCT02559232": {
+                "inclusion": {
+                    "0": [
+                        "Patient note does not mention a diagnosis of non-valvular atrial fibrillation; therefore the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "No information about current anticoagulant use or a change to a DOAC for at least three months; criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No evidence that a specialist prescribed a DOAC; criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Sentence 5 states the patient will provide informed consent, satisfying this requirement.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of any anticoagulant therapy change; cannot determine timing, so insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No evidence of cognitive impairment in the note; absence suggests patient can understand consent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The note does not state that the patient has started a DOAC for NVAF; thus the criterion is not met.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -149595,6 +149638,37 @@
                 "exclusion": {
                     "0": [
                         "Criterion applies to all participants; patient note does not mention language proficiency. Absence of evidence of non\u2011English speaking is taken to imply English proficiency, so the patient does not meet the exclusion.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01163565": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a diagnosis of multinodular goiter. The note does not mention any thyroid imaging or diagnosis; no evidence of goiter is present, and such a finding would normally be documented. Therefore the patient likely does not have multinodular goiter.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion requires Graves' disease. The patient shows hyperthyroid symptoms (weight loss, sweating, tachycardia, exophthalmia) suggestive of Graves', but the note does not provide a definitive diagnosis or confirmatory labs/imaging. Absence of a stated diagnosis means we cannot assume it is present.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "The criterion requires a thyroid nodule. No mention of a nodule or imaging findings is present in the note; such a finding would be recorded if present. Hence the patient likely does not have a thyroid nodule.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns thyroid carcinoma. The patient note does not mention any thyroid cancer diagnosis or prior evaluation for malignancy. Absence of such information in a clinical note typically implies the condition is not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The criterion concerns reoperative (repeat) thyroid surgery. The note provides no history of prior thyroid surgery or any previous operations, and there is no indication of prior procedures. Lack of mention suggests no prior surgery.",
                         [],
                         "not excluded"
                     ]

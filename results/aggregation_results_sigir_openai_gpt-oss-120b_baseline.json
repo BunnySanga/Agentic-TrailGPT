@@ -12239,6 +12239,12 @@
             "relevance_score_R": 40.0,
             "eligibility_explanation": "One of the primary inclusion criteria is documented atrial fibrillation. The patient does not have AF on ECG and no evidence of it on work\u2011up, so she fails the essential inclusion requirement. Consequently, she is ineligible for the study. Since eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
             "eligibility_score_E": -40.0
+        },
+        "NCT02559232": {
+            "relevance_explanation": "The trial focuses on patients with non\u2011valvular atrial fibrillation (NVAF) who are on a direct oral anticoagulant (DOAC) and have changed therapy at least three months ago. The patient note mentions hypertension, diabetes, a recent cryptogenic stroke, occasional palpitations, and willingness to give consent, but it does not mention a diagnosis of NVAF, any anticoagulant use, or a therapy change. The only element that aligns with the trial is the statement that the patient will provide informed consent. Because the core disease and treatment criteria are missing, the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria (NVAF diagnosis, DOAC use with a therapy change \u22653\u202fmonths ago, specialist prescription) and not meeting any exclusion criteria. The patient satisfies only the consent inclusion criterion and shows no evidence of cognitive impairment, but fails to meet the critical disease\u2011specific and medication\u2011specific inclusions. With insufficient information to confirm the required anticoagulant history, the patient is effectively ineligible. The eligibility score is therefore negative, reflecting ineligibility, but its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -15.0
         }
     },
     "sigir-20156": {
@@ -12325,6 +12331,18 @@
             "relevance_score_R": 90.0,
             "eligibility_explanation": "Inclusion criteria are fully satisfied: the patient provides informed consent, is female, within the age range, and has an indication for treatment of hyperthyroidism. The exclusion criteria list pregnancy, renal insufficiency, osteoporosis, other bone\u2011affecting diseases, certain medications, low T\u2011score, and severe thyroid eye disease requiring steroids. The note only mentions mild exophthalmos without steroid indication and provides no evidence of any exclusion condition. Therefore, the patient is not excluded and is eligible for the trial.",
             "eligibility_score_E": 90.0
+        },
+        "NCT02375451": {
+            "relevance_explanation": "The patient is a 46\u2011year\u2011old adult presenting with symptoms suggestive of hyperthyroidism, which is one of the target conditions of the trial. However, the trial specifically investigates the effect of *childhood* radioiodine therapy on salivary function and requires participants who are children receiving I\u2011131 (or a control group of children who have never received it). The patient is an adult and there is no evidence she was treated with radioiodine in childhood. Therefore the clinical condition overlaps only loosely and the age/ exposure criteria are largely mismatched, resulting in low overall relevance.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Eligibility hinges on the inclusion criteria about prior radioiodine exposure in children. The patient does not meet the primary inclusion (has not been treated with radioiodine) and also cannot be placed in the negative\u2011control group because her treatment history is unknown and she is not a child. No exclusion criteria apply, but because she fails to satisfy the required inclusion conditions, she is effectively ineligible. The eligibility score is therefore negative and bounded by the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01163565": {
+            "relevance_explanation": "The patient presents with signs of hyperthyroidism (weight loss, sweating, tachycardia, exophthalmos) that could be consistent with Graves' disease, one of the trial's inclusion conditions. However, the note does not provide a confirmed diagnosis of Graves', nor any mention of multinodular goiter or thyroid nodules, which are also required for eligibility. Because the only possible link is speculative and the patient\u2019s thyroid status is not clearly defined, the overall relevance to a trial focused on benign thyroid surgery is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "The trial requires a confirmed diagnosis of either multinodular goiter, Graves' disease, or a thyroid nodule for inclusion. The patient\u2019s record lacks a definitive diagnosis for any of these conditions, providing only suggestive but not confirmatory evidence for Graves' disease. Consequently, the patient does not satisfy the inclusion criteria, while no exclusion criteria are triggered. This places the patient firmly in the ineligible category, resulting in an eligibility score equal to the negative of the relevance score.",
+            "eligibility_score_E": -30.0
         }
     }
 }
