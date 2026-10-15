@@ -14101,6 +14101,12 @@
             "relevance_score_R": 30.0,
             "eligibility_explanation": "While the patient meets the generic inclusion criteria of age \u226516 and ability to give informed consent, he does not meet the core disease\u2011specific inclusion criteria (no evidence of cancer or LMWH use for CAT). No exclusion criteria are triggered, but the lack of required inclusion factors makes him ineligible. Given the modest relevance (R=30), the eligibility score is set negative to reflect ineligibility, but not the full negative range because some criteria are satisfied.",
             "eligibility_score_E": -20.0
+        },
+        "NCT00358735": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male who recently underwent a total hip replacement and now presents with symptoms suggestive of a possible pulmonary embolism and calf pain, indicating a high risk of DVT/PE. The trial focuses on DVT prevention in patients undergoing total hip arthroplasty, so the clinical context (post\u2011THA, risk of thrombo\u2011embolic events) is directly related. However, the trial\u2019s inclusion criteria require patients who are *intended* to undergo an elective primary unilateral THA, i.e., the surgery must be upcoming, not already performed. Because the patient\u2019s surgery occurred two weeks ago, he does not satisfy this key inclusion requirement. Thus, while the patient\u2019s condition is relevant to the trial\u2019s therapeutic area, he does not match the target population for enrollment.",
+            "relevance_score_R": 62.0,
+            "eligibility_explanation": "The patient meets the basic adult age and consent requirements, and there is no evidence of any exclusion criteria (no known coagulation disorder, no current anticoagulant use, no malignancy, etc.). However, he fails the primary inclusion criterion that he must be scheduled for an elective primary unilateral THA. Since this inclusion criterion is not satisfied, the patient is ineligible for the study. No exclusion criteria apply, so the ineligibility stems solely from the unmet inclusion condition, leading to a negative eligibility score equal in magnitude to the relevance score.",
+            "eligibility_score_E": -62.0
         }
     }
 }

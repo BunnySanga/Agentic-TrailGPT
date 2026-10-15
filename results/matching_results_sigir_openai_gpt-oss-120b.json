@@ -165135,6 +165135,161 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT01649765": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 21 years old, which is outside the required 5-17 year age range.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Patient exhibits classic SLE manifestations (malar rash, alopecia, arthritis, hematologic abnormalities, positive anti-dsDNA) fulfilling ACR criteria.",
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Active disease is required (SELENA SLEDAI \u22656). The note describes active manifestations but does not provide a SLEDAI score; cannot confirm threshold.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "ANA test is reported as 4/4 positive.",
+                        [
+                            2
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "No information about stability of the current SLE treatment regimen for \u226530 days.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No mention of contraception use or willingness.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "Assent and guardian consent are required for pediatric participants; patient is an adult, so this criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Pregnancy status not mentioned; cannot determine if patient is pregnant or nursing.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No mention of prior belimumab treatment.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No mention of prior B\u2011cell targeted or investigational biologic therapy within the past year.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No mention of recent anti\u2011TNF, IL\u20111 antagonist, IVIG, or plasmapheresis within 90 days.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No mention of high\u2011dose prednisone (>1.5\u202fmg/kg/day) within 60 days.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No mention of IV cyclophosphamide within 60 days.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No mention of new immunosuppressive or anti\u2011malarial agents within 60 days.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Sentence 3: 'Her urine is positive for protein and RBC casts.' This indicates active lupus nephritis, which qualifies as severe lupus kidney disease.",
+                        [
+                            3
+                        ],
+                        "excluded"
+                    ],
+                    "8": [
+                        "No mention of CNS involvement.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No mention of organ transplant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "10": [
+                        "No mention of other significant unstable or uncontrolled diseases.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No mention of a planned surgical procedure.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "No mention of malignant neoplasm within the last 5 years.",
+                        [],
+                        "not enough information"
+                    ],
+                    "13": [
+                        "No mention of acute or chronic infection management in past 60 days.",
+                        [],
+                        "not enough information"
+                    ],
+                    "14": [
+                        "No mention of current drug or alcohol abuse.",
+                        [],
+                        "not enough information"
+                    ],
+                    "15": [
+                        "No mention of HIV, Hepatitis B or C testing or positivity.",
+                        [],
+                        "not enough information"
+                    ],
+                    "16": [
+                        "No mention of IgA deficiency.",
+                        [],
+                        "not enough information"
+                    ],
+                    "17": [
+                        "No mention of severe laboratory abnormalities beyond those described (anemia, thrombocytopenia, positive ANA/dsDNA).",
+                        [],
+                        "not enough information"
+                    ],
+                    "18": [
+                        "No mention of anaphylactic reaction to contrast or biologic agents.",
+                        [],
+                        "not enough information"
+                    ],
+                    "19": [
+                        "No mention of suicidal behavior or ideation.",
+                        [],
+                        "not enough information"
+                    ],
+                    "20": [
+                        "Patient is 21\u202fyears old, thus not a child in care; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
             }
         }
     },
@@ -169484,6 +169639,171 @@
                         "excluded"
                     ]
                 }
+            },
+            "NCT01864538": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 58 years old, which satisfies the \u226518 years requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence indicates patient will provide informed consent and comply with protocol.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No mention of histologically documented cutaneous or mucosal malignant melanoma; patient has lung and brain masses.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Requirement for tumor tissue pertains to melanoma patients; not applicable to this patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "Patient states willingness to comply with trial protocol, implying ability to complete biomarker studies.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ],
+                    "5": [
+                        "No information on prior therapy toxicities; patient does not appear to have received prior therapy, making this criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "Patient has radiologically documented lung mass and brain lesion, providing measurable disease sites.",
+                        [
+                            0,
+                            2
+                        ],
+                        "included"
+                    ],
+                    "7": [
+                        "ECOG performance status is not provided in the note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No prior chemotherapy is mentioned, implying the patient meets the limit of \u22641 prior chemotherapy.",
+                        [],
+                        "included"
+                    ],
+                    "9": [
+                        "No laboratory data on liver function are provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No laboratory data on renal function are provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No hematologic data are provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "No ECG information is provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "13": [
+                        "Patient is a 58\u2011year\u2011old female, exceeding the age threshold for menopause (\u226555), thus meeting the criterion.",
+                        [],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of any anticancer therapy within 28 days; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of other investigational drug use; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No current cardiotoxic drugs reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of cardiac dysfunction in note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No seizure disorder or anticonvulsant therapy described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Brain lesion noted but no info on progression or prior treatment; cannot determine stability.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No other malignancies reported besides current lung/brain lesions.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Patient is a nonsmoker with no pulmonary disease described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No recent major surgery reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No active infection mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No prior hypoxic cytotoxin therapy indicated.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No HIV or hepatitis B/C infection noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No allergic reaction to similar compounds reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "58\u2011year\u2011old female; pregnancy unlikely and not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No concomitant disease reported that would interfere.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "Patient expressed willingness to comply with protocol.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -172343,6 +172663,87 @@
                         "Patient is male, so pregnancy/lactation is not applicable.",
                         [],
                         "not applicable"
+                    ]
+                }
+            },
+            "NCT00358735": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to be an adult (>18), intended to undergo elective primary unilateral THA, and able to consent and follow instructions. The patient is adult (sentence 0) and can consent (sentence 3), but he already had a right total hip replacement two weeks ago and is not scheduled for a future THA, so he does not meet the 'intended to undergo elective primary unilateral THA' requirement.",
+                        [
+                            0,
+                            1,
+                            3
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of coagulation disorder; not applicable premise not met and no evidence suggests presence.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient not reported on anticoagulant use; absence of evidence likely indicates not on such meds.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No thrombophilia noted; not applicable and no evidence.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No history or confirmed signs of DVT/PE; calf pain noted but not diagnostic; insufficient to deem excluded.",
+                        [
+                            2
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient states will provide consent and comply; clearly not uncooperative.",
+                        [
+                            3
+                        ],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No mention of solid tumor malignancy; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No active peptic disease reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No allergy to aspirin or enoxaparin reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No leg gangrene, recent skin graft, or similar contraindications described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "Patient had right total hip replacement 2 weeks ago, which is a major surgery within 3 months prior to study surgery.",
+                        [
+                            1
+                        ],
+                        "excluded"
+                    ],
+                    "10": [
+                        "Patient is male; pregnancy not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "11": [
+                        "No indication of participation in another clinical drug trial.",
+                        [],
+                        "not excluded"
                     ]
                 }
             }
