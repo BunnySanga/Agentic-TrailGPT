@@ -13479,6 +13479,54 @@
             "relevance_score_R": 20.0,
             "eligibility_explanation": "To be eligible the patient must have the required cancer diagnosis and be planning cetuximab therapy, which she does not. Moreover, she has an active facial rash that qualifies as a pre\u2011existing dermatologic condition, which is an exclusion criterion. Therefore she is clearly ineligible. Because the relevance is 20, the eligibility score is set to the negative extreme, indicating ineligibility.",
             "eligibility_score_E": -20.0
+        },
+        "NCT01649765": {
+            "relevance_explanation": "The patient clearly has active systemic lupus erythematosus, meeting several inclusion criteria (clinical diagnosis, positive ANA, hematologic involvement). However, the trial is limited to pediatric patients aged 5\u201117, and the patient is 21 years old, which is a major mismatch. Apart from age, the patient\u2019s disease characteristics align with the trial\u2019s target condition, giving a moderate overall relevance.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility is strongly negative. The patient fails the age inclusion criterion (outside 5\u201117 years) and also meets an exclusion criterion for severe lupus kidney disease (proteinuria and RBC casts suggest active nephritis). These disqualifying factors outweigh the limited positive signals from other criteria, resulting in a fully ineligible assessment within the relevance bound.",
+            "eligibility_score_E": -42.0
+        },
+        "NCT00343187": {
+            "relevance_explanation": "The trial targets patients who develop a facial rash as a side effect of the EGFR inhibitor Tarceva (erlotinib) while being treated for non\u2011small\u2011cell lung cancer. The patient is a 21\u2011year\u2011old woman with a facial malar rash due to systemic lupus erythematosus, not related to any cancer therapy. While she meets the age requirement and does have a facial rash, there is no evidence of Tarceva exposure, NSCLC, or any oncology context. Therefore the patient is only loosely related to the trial (age and rash) but lacks the core disease\u2011drug connection, giving a low\u2011to\u2011moderate relevance.",
+            "relevance_score_R": 32.0,
+            "eligibility_explanation": "Eligibility requires both inclusion and exclusion criteria to be satisfied. The patient fails key inclusion criteria: she has not been prescribed Tarceva for NSCLC and the rash cannot be attributed to Tarceva. She also meets an exclusion criterion because she has an active systemic autoimmune disease (SLE with renal involvement) that represents a poor medical risk. Additional uncertainties (rash severity, ECOG status, birth\u2011control use) further reduce confidence. Consequently, the patient is considered ineligible, and the eligibility score is negative, limited by the relevance magnitude.",
+            "eligibility_score_E": -28.0
+        },
+        "NCT02006784": {
+            "relevance_explanation": "The trial targets children aged 8\u201118 with SLE and focuses on vaccine safety. The patient is a 21\u2011year\u2011old female with active SLE, which places her outside the age range and makes her disease profile only partially aligned with the study focus. Additionally, the note lacks information on immunization history, disease stability over the prior 3 months, and timing relative to vaccine availability, further reducing relevance. Overall, the patient shares the disease condition but fails the key demographic criterion and provides insufficient data for many other eligibility aspects, resulting in low relevance.",
+            "relevance_score_R": 22.0,
+            "eligibility_explanation": "Given the low relevance, the eligibility assessment is limited. The patient clearly does not meet the age inclusion criterion (21\u202fyears vs. required 8\u201118) and likely has moderate\u2011to\u2011high disease activity (multiple active manifestations suggest SLEDAI >6), which is an exclusion. Other criteria lack sufficient information, but the known exclusions outweigh any potential inclusions. Therefore, the patient is considered ineligible, with an eligibility score reflecting a negative assessment within the relevance bound.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT00392093": {
+            "relevance_explanation": "The patient has active systemic lupus erythematosus, which matches the disease focus of the trial. However, the trial is specifically for menopausal women aged \u226548 years and requires menopausal status (amenorrhea, elevated FSH, or menopausal symptoms). The patient is a 21\u2011year\u2011old pre\u2011menopausal female with no evidence of amenorrhea or menopausal symptoms, and her age is far below the required minimum. Consequently, while the disease overlap provides some relevance, the demographic and menopausal criteria make the patient largely irrelevant to this study.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "All four inclusion criteria are unmet (no amenorrhea, no elevated FSH, no menopausal symptoms, age <48). No exclusion criteria are clearly triggered, but because the patient does not satisfy any inclusion requirement, she is ineligible for enrollment. The eligibility score is therefore negative, reflecting ineligibility, and is limited by the relevance magnitude.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT00908037": {
+            "relevance_explanation": "The trial enrolls pediatric patients (<18\u202fy) with chronic idiopathic thrombocytopenic purpura (ITP). The patient is a 21\u2011year\u2011old woman with systemic lupus erythematosus, anemia, thrombocytopenia secondary to SLE, and renal involvement. She does not have ITP, is outside the age range, and none of the trial\u2019s disease\u2011specific inclusion criteria apply. Only a few generic criteria (e.g., ability to consent) are relevant, but these are outweighed by the major mismatches. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Because the patient does not meet the primary inclusion criteria (age <18 and confirmed chronic ITP), she is ineligible. Additionally, the exclusion criterion that any other primary diagnosis (e.g., SLE) makes the subject unsuitable applies. Even though many other criteria lack data, the failure to satisfy the core inclusion criteria and the presence of a disqualifying alternative diagnosis lead to a negative eligibility assessment. The magnitude of the negative score cannot exceed the relevance score, so we assign the most negative value within that range.",
+            "eligibility_score_E": -8.0
+        },
+        "NCT02239731": {
+            "relevance_explanation": "The trial targets cancer patients receiving EGFR inhibitors who develop a rash on the face. The patient is a 21\u2011year\u2011old female with systemic lupus erythematosus, no cancer diagnosis, and no EGFR\u2011inhibitor therapy. Apart from meeting the age criterion, none of the disease\u2011specific or treatment\u2011specific inclusion criteria apply. Therefore the patient is largely irrelevant to the study purpose.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Even within the minimal relevance, the patient fails key inclusion criteria (no cancer, no EGFR\u2011I therapy) and meets two explicit exclusion criteria: (1) active facial rash due to SLE, which would confound rash assessment, and (2) a diagnosis of systemic lupus erythematosus, which is listed as an exclusion. Consequently, the patient is clearly ineligible. The eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01924000": {
+            "relevance_explanation": "The patient is a 21\u2011year\u2011old female, which satisfies the age requirement of the eyebrow minoxidil trial, and she is able to give informed consent. However, the trial targets individuals with eyebrow hypotrichosis who are otherwise healthy. The patient\u2019s presentation is dominated by systemic lupus erythematosus with arthritis, rash, anemia, thrombocytopenia, renal involvement, and no mention of eyebrow hair loss. Consequently, the clinical condition of the patient is largely unrelated to the trial\u2019s therapeutic focus, making the overall relevance low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Although the patient meets the age and consent inclusion criteria, she fails the key inclusion criteria of having eyebrow hypotrichosis and being healthy. Moreover, she is explicitly excluded because she has an underlying systemic disease (SLE). These factors render her ineligible for the study. Since eligibility cannot exceed relevance, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01230827": {
+            "relevance_explanation": "The trial targets children with juvenile idiopathic arthritis (JIA) who have active disease in \u22655 joints and have failed methotrexate. The patient is a 21\u2011year\u2011old woman with systemic lupus erythematosus (SLE) presenting with arthritis in only two joints, no mention of JIA diagnosis, age criteria, or methotrexate use. Consequently, the patient\u2019s condition and demographic characteristics are largely unrelated to the trial\u2019s target population, yielding a very low relevance.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Because the patient does not meet the core inclusion criteria (age <16 at diagnosis, \u22655 active joints, JIA diagnosis, methotrexate background) and there is insufficient information to assess many other criteria, the patient would be considered ineligible for this study. The eligibility score is therefore set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -8.0
         }
     },
     "sigir-20143": {
@@ -13841,6 +13889,162 @@
             "relevance_score_R": 30.0,
             "eligibility_explanation": "The patient does not satisfy the primary inclusion requirement of having mild COPD or being a healthy control. Additionally, the presence of a lung mass and a brain mass are significant comorbidities that trigger an exclusion criterion (significant disease that could cause dyspnea or limit exercise). Therefore the patient is clearly ineligible for the study. The eligibility score is set to the negative of the relevance score to reflect definite ineligibility.",
             "eligibility_score_E": -30.0
+        },
+        "NCT01864538": {
+            "relevance_explanation": "The trial targets patients with advanced melanoma. The patient has a lung mass and a brain lesion with no mention of melanoma, making the core disease relevance very low. Only generic criteria such as age, consent, and ability to comply are met, which are common to many trials. Therefore the overall relevance of this patient to a melanoma\u2011specific study is limited.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Even though the patient satisfies several generic inclusion criteria (age, consent, measurable disease, no recent anticancer therapy, etc.), the key disease\u2011specific inclusion criterion (histologically confirmed metastatic melanoma) is not met. Without this, the patient cannot be considered eligible for the study. Consequently, the eligibility score is negative, reflecting ineligibility, but its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT01668459": {
+            "relevance_explanation": "The trial targets patients with locally advanced or metastatic transitional cell carcinoma of the bladder or upper urinary tract. The patient has a lung mass and a brain lesion with no evidence of bladder/urinary tract cancer, making the disease context largely unrelated. Only generic criteria such as age, consent, and measurable disease are relevant, but the core disease mismatch dominates the assessment. Therefore the overall relevance is low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Even though the patient meets some generic inclusion items (age, consent, measurable disease) and shows no documented exclusion for recent therapies or organ dysfunction, she fails a critical inclusion criterion (histologically confirmed transitional cell carcinoma) and meets an exclusion criterion (presence of a brain metastasis, which is considered symptomatic in this trial). These decisive factors render her ineligible, resulting in a negative eligibility score within the allowed range of -R to R.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT01908933": {
+            "relevance_explanation": "The patient is a 58\u2011year\u2011old woman with a lung mass and a brain metastasis, but the trial targets patients with advanced heterogeneous emphysema (COPD). Only two inclusion criteria (age \u226540 and ability to consent) and one smoking\u2011abstinence criterion are met; all other disease\u2011specific criteria (emphysema pattern, lung function, imaging of emphysema, etc.) have no supporting information and are assumed not met. The presence of an active malignancy is highly relevant to the exclusion criteria. Overall, the patient\u2019s clinical picture is only tangentially related to the trial\u2019s target condition, giving a low relevance score.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Although the patient satisfies the consent, age, and smoking\u2011abstinence requirements, she fails the core disease\u2011specific inclusion criteria (no evidence of heterogeneous emphysema, lung\u2011function thresholds, etc.). Moreover, the trial explicitly excludes patients with active malignancy, and the patient has a confirmed lung mass and a brain lesion consistent with metastatic cancer. Therefore, the patient is ineligible, and the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01572584": {
+            "relevance_explanation": "The trial focuses on patients with a radiologically confirmed pneumothorax who require a CT scan and immediate lung ultrasound. The patient note describes a 58\u2011year\u2011old woman with a lung mass and a brain lesion, with no mention of pneumothorax, chest trauma, or any need for a CT scan of the chest. Consequently, the clinical scenario is largely unrelated to the trial\u2019s target condition and procedures, yielding a very low relevance.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "All inclusion criteria (radiologic pneumothorax, clinical need for a chest CT, ability to perform ultrasound within 20\u202fminutes of that CT) are not met, and the only exclusion criterion (age <16) is not applicable. Because the patient does not satisfy any inclusion requirement, she is ineligible. The eligibility score should be negative and bounded by the relevance score.",
+            "eligibility_score_E": -8.0
+        },
+        "NCT00757120": {
+            "relevance_explanation": "The trial focuses on emphysema and COPD in current or former smokers. The patient is a 58\u2011year\u2011old nonsmoker with a lung mass and a brain metastasis, and there is no information about COPD, emphysema, smoking history, or lung function. Because the core disease focus (emphysema/COPD) and smoking exposure are absent, the patient is only marginally relevant to the study. Some minimal relevance exists because the patient has a pulmonary abnormality (lung mass) and can give consent, but overall the match to the trial\u2019s target condition is weak.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Key inclusion criteria (\u226530 pack\u2011year smoking history, GOLD classification, presence of emphysema on CT) are not met or lack sufficient information, making the patient ineligible on the inclusion side. Moreover, the patient has a non\u2011cutaneous malignancy (lung mass) and CT evidence of a lung nodule, both of which are explicit exclusion criteria. Therefore the patient is clearly ineligible, and the eligibility score should be the negative of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02505750": {
+            "relevance_explanation": "The trial targets early rectal adenocarcinoma and requires specific rectal tumor characteristics. The patient\u2019s note describes a lung mass and a brain lesion with no mention of any rectal cancer, making the core disease relevance very low. Only generic criteria such as age (\u226518) and willingness to consent are applicable, contributing minimally to relevance.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "While the patient meets generic inclusion items (age, consent, no obvious comorbidities), the trial\u2019s key inclusion criteria (rectal adenocarcinoma, operable rectal tumor, tumor accessible to CXB) are not met, rendering the patient ineligible. Moreover, the exclusion criterion for \"simultaneous progressive cancer\" is triggered by the presence of both lung and brain masses, leading to a clear exclusion. Given the low overall relevance, the eligibility score is set to the negative extreme of the relevance range.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02289144": {
+            "relevance_explanation": "The patient is a 58\u2011year\u2011old female with a lung mass and a brain lesion, but the trial targets patients with anaplastic or undifferentiated thyroid cancer that harbors an ALK abnormality. Most inclusion criteria (diagnosis, ALK status, organ function labs) are not applicable because the patient\u2019s disease is not thyroid cancer. Only a few generic criteria (age \u226518, willingness to consent and comply) match the patient. Because the core disease\u2011specific premise is missing, the overall relevance is low but not zero, as the patient meets some non\u2011specific criteria.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Even though the patient meets the generic inclusion items (age, consent, compliance), she is excluded by exclusion criterion 3, which bars patients who have another active malignant disease (the newly identified lung mass and brain metastasis) diagnosed within the past year. This exclusion directly disqualifies her from the trial. Therefore, the eligibility is negative at the maximum magnitude allowed by the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00001777": {
+            "relevance_explanation": "The trial targets patients with frontal lobe dementia, requiring behavioral and cognitive deficits specific to that condition. The patient is a 58\u2011year\u2011old woman with an incidental solitary frontal lobe mass but no reported dementia symptoms, behavioral changes, or neuropsychiatric testing. Her presentation (lung mass, asymptomatic, incidental brain lesion) is unrelated to the dementia population, making the overall relevance low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Even though the patient appears able to consent and cooperate (inclusion criterion 2) and has no history of severe neurologic injury (criterion 6), she lacks the required behavioral and cognitive assessments (criteria 0 and 1), has serious concurrent medical conditions (lung and brain masses) that likely constitute unwarranted risk (criterion 4), and there is insufficient information on contraindications, pregnancy status, and psychotropic medication use. These gaps and exclusions suggest she is unlikely to be eligible. Given the low relevance, the eligibility score is negative but bounded by the relevance magnitude.",
+            "eligibility_score_E": -14.0
+        },
+        "NCT01586611": {
+            "relevance_explanation": "The trial is for metastatic pancreatic adenocarcinoma and requires histologic confirmation, measurable metastatic disease, and tissue for hENT1 testing. The patient\u2019s note describes a lung mass and a solitary brain lesion with no mention of pancreatic cancer, pancreatic tissue, or any related diagnostics. Only the age criterion (\u226518) and ability to consent are applicable, which are generic and do not establish disease relevance. Therefore the patient is largely irrelevant to the trial\u2019s target condition and key inclusion criteria.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Because the patient does not meet the disease\u2011specific inclusion criteria, the trial\u2019s eligibility cannot be positively established. Moreover, the exclusion criterion for \"previous or concurrent malignancies\" applies: the patient has a lung mass (a concurrent malignancy) that is not an allowed exception, leading to exclusion. With a relevance of 12, the eligibility score must lie between -12 and +12; the exclusion outweighs the minimal positive points, resulting in a negative eligibility score.",
+            "eligibility_score_E": -9.0
+        },
+        "NCT01863069": {
+            "relevance_explanation": "The trial targets patients with Multiple Sclerosis and requires specific age (18\u201145), BMI, and no significant pulmonary disease. The patient is a 58\u2011year\u2011old woman with a lung mass and mild dyspnea, which is unrelated to MS and places her outside the age window. Consequently, the patient\u2019s clinical profile is largely irrelevant to the disease focus and key inclusion criteria of the study.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not meet the primary inclusion criterion of age (she is 58, exceeding the maximum of 45), she is ineligible. No exclusion criteria definitively disqualify her, but the failure to satisfy an essential inclusion rule makes her ineligible. The eligibility score is therefore the negative of the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02137291": {
+            "relevance_explanation": "The patient is a 58\u2011year\u2011old female with a newly discovered left lung mass, which could make her a candidate for left\u2011sided thoracic surgery such as VATS. The trial focuses on left\u2011sided video\u2011assisted thoracoscopic surgery requiring one\u2011lung ventilation. While the note confirms willingness to consent, it provides no information about a planned elective left VATS, the need for one\u2011lung ventilation, or any of the exclusion factors. Therefore there is moderate thematic overlap (lung mass, potential surgery) but insufficient specific details to consider the patient highly relevant to this trial.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "The only inclusion criterion clearly satisfied is the patient\u2019s willingness to provide informed consent. All other inclusion criteria (elective left VATS and one\u2011lung ventilation) are not mentioned, so the patient does not appear to meet them. None of the exclusion criteria are triggered, but the lack of evidence for the required surgical procedure means the patient would be considered ineligible. Because eligibility cannot exceed relevance, the eligibility score is set negative, reflecting ineligibility while staying within the allowed range (-R \u2264 E \u2264 R).",
+            "eligibility_score_E": -38.0
+        },
+        "NCT00088569": {
+            "relevance_explanation": "The trial seeks healthy volunteers without any central nervous system disorder, aged 20\u201170, right\u2011handed, and not on neuroactive drugs. The patient is a 58\u2011year\u2011old female, which fits the age range, but she has a diagnosed brain mass (a CNS disorder) and a lung mass, indicating serious medical conditions. These findings make her largely irrelevant to a study of healthy individuals, though the age match provides a small degree of overlap.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Inclusion criteria are not met because the patient has a CNS disorder (brain mass). Exclusion criteria are triggered by the presence of serious medical conditions (lung and brain masses). Consequently, the patient would be considered ineligible for the trial. The eligibility score should be negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00339066": {
+            "relevance_explanation": "The trial targets older adults with late\u2011life depression and examines how brain lesion severity influences treatment response. The patient is a 58\u2011year\u2011old woman with a lung mass and an incidental solitary frontal brain lesion, but there is no mention of any depressive disorder, mood symptoms, or psychiatric evaluation. Because the core condition of interest (depression) is absent, the patient\u2019s overall relevance to this study is minimal.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Eligibility requires meeting several inclusion criteria related to major depressive disorder and specific depression severity scores, none of which are satisfied. Moreover, the patient has a serious medical condition (lung mass) and a primary neurological disorder (brain mass), both of which are exclusion criteria. Consequently, the patient is clearly ineligible, and the eligibility score should reflect the maximum negative value allowed by the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01272622": {
+            "relevance_explanation": "The trial is exclusively for children and adolescents with craniopharyngioma, requiring a diagnosis of that tumor and an age \u226418 years. The patient is a 58\u2011year\u2011old adult with a lung mass and a solitary brain lesion of unknown pathology, not craniopharyngioma. Therefore there is virtually no clinical overlap between the patient\u2019s condition and the trial\u2019s target population.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet any inclusion criteria (no craniopharyngioma, age far above the limit) and explicitly matches an exclusion criterion (age >18 years), the patient is ineligible. The eligibility score must be negative and cannot exceed the relevance magnitude, so it is set to -5.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT00188435": {
+            "relevance_explanation": "The trial focuses on patients with acute dyspnea being investigated for acute pulmonary embolism and compares imaging modalities in the acutely ill. The patient has mild, chronic\u2011appearing exertional dyspnea related to a lung mass, not an acute presentation, and there is no indication she is being admitted for evaluation of a pulmonary embolus. Therefore the patient\u2019s condition only loosely aligns with the trial\u2019s target of acute dyspnea, giving a low to moderate relevance.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "One of the key inclusion criteria is admission for investigation of acute pulmonary embolus. The patient\u2019s note does not mention any such admission or suspicion of embolus; instead it describes a lung mass and a solitary brain lesion. Consequently, the patient does not satisfy the primary inclusion requirement and is considered ineligible for the trial.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01696292": {
+            "relevance_explanation": "The trial targets adolescents (8\u201117 years old) with frontal lobe damage who are native Hebrew speakers and have no specific language disorder. The patient is a 58\u2011year\u2011old adult with a frontal lobe mass, no information about age, language background, or language abilities. While there is a match on the presence of frontal lobe damage, the age mismatch and lack of language\u2011related information make the patient largely irrelevant to the study population.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because the patient does not meet the core demographic criteria (age and language) and there is insufficient information to confirm the required timing of injury, the patient cannot be considered eligible. The only clear eligibility factor is the absence of a specific language disorder, which does not offset the major mismatches. Therefore, the eligibility score is neutral to slightly negative within the relevance bound.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT02441478": {
+            "relevance_explanation": "The trial targets adults with frontal lobe epilepsy, aged 18\u201150, who are right\u2011handed and meet several psychiatric and functional criteria. The patient is a 58\u2011year\u2011old female with a solitary frontal lobe mass but no diagnosis of epilepsy, and her age exceeds the trial\u2019s range. While she can give consent, most key disease\u2011specific and demographic criteria are not met or not mentioned, making her overall relevance to this study very low.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because the patient does not satisfy the primary inclusion criteria (age 18\u201150 and diagnosis of frontal lobe epilepsy) and has another neurological condition (a frontal lobe mass) that is listed as an exclusion, she would be considered ineligible. The lack of information on many secondary criteria does not change the fact that a definitive exclusion applies, so the eligibility score is negative and equal to the relevance magnitude.",
+            "eligibility_score_E": -18.0
+        },
+        "NCT01654887": {
+            "relevance_explanation": "The trial enrolls patients who present to the emergency department with respiratory symptoms suspicious for pneumonia and who need diagnostic imaging. The patient described has mild exertional dyspnea and occasional cough, which are respiratory symptoms, but the note does not indicate that she presented to the ED, that pneumonia is suspected, or that imaging is being sought for a respiratory infection. Instead, the imaging was performed to evaluate a lung mass. Therefore the patient only loosely matches the symptom component and largely fails to meet the contextual requirements of the trial. This yields a low overall relevance.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "One exclusion criterion states that patients who have already had a chest X\u2011ray before arriving at the ED are excluded. The note explicitly says a chest X\u2011ray was performed to discover the lung mass, which satisfies this exclusion. No other inclusion or exclusion criteria can be confirmed. Because the patient meets an exclusion, she is ineligible, and the eligibility score should be negative, limited by the relevance magnitude.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01605214": {
+            "relevance_explanation": "The trial enrolls bilateral lung transplant recipients to study extravascular lung water after transplant. The patient is a 58\u2011year\u2011old woman with a newly discovered lung mass and a brain lesion, with no history of lung transplantation or any indication that she is a transplant candidate. Therefore the patient\u2019s clinical situation is largely unrelated to the target population of the study, resulting in a very low relevance.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Because the patient does not meet the primary inclusion criterion (being a bilateral lung transplant recipient), the eligibility assessment is essentially moot. No exclusion criteria apply, but the lack of transplant status means the patient cannot be considered eligible for the study. With such low relevance, the eligibility score is set to neutral (zero) within the allowed range of -R to R.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT02022371": {
+            "relevance_explanation": "The trial is focused exclusively on men with prostate cancer who are undergoing prostate biopsies. The patient is a 58\u2011year\u2011old female with a lung mass and a brain lesion, with no mention of prostate disease, PSA, or any male\u2011specific criteria. Apart from the generic statement that she will give informed consent, there is essentially no overlap between the patient\u2019s condition and the trial\u2019s target condition or required procedures. Therefore the overall relevance of this patient to the trial is extremely low.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet any of the inclusion criteria (all require male gender and prostate\u2011related findings) and none of the exclusion criteria are triggered, there is no basis to consider her eligible or ineligible for the study. With such minimal relevance, the eligibility score is set to neutral (0), reflecting that eligibility cannot be meaningfully assessed.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT00423332": {
+            "relevance_explanation": "The trial targets metastatic or recurrent renal cell carcinoma, while the patient\u2019s note describes a lung mass and a brain lesion with no evidence of kidney cancer. Because the core disease of the trial is absent, the patient is largely irrelevant to this study.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Since the primary inclusion criterion (confirmed metastatic/recurrent RCC) is not met, the patient cannot be considered eligible. The exclusion criteria do not apply, but without the required diagnosis the patient is effectively ineligible. Given the very low relevance, the eligibility impact is neutral to negative, resulting in a score near zero.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT01354912": {
+            "relevance_explanation": "The trial focuses on patients with bilateral bronchiectasis or bronchiolitis identified on chest CT. The patient note describes a solitary left lung mass and no mention of bronchiectasis, bronchiolitis, or the characteristic CT patterns required for the study. Because the core disease phenotype of the trial is absent, the patient is only minimally relevant to the trial.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "One of the exclusion criteria is \"severe lung disease other than bronchiectasis,\" and the patient has a left lung mass, which qualifies as a severe non\u2011bronchiectatic lung disease. This exclusion directly disqualifies the patient, while the other exclusion criteria are not met. Since the patient is ineligible, the eligibility score should be the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT00992966": {
+            "relevance_explanation": "The trial targets children (age 3\u201118) with acute respiratory symptoms (e.g., pneumonia) and requires a recent ED referral for a chest X\u2011ray. The patient is a 58\u2011year\u2011old adult with a chronic\u2011appearing lung mass and only mild, non\u2011acute dyspnea and cough. None of the inclusion criteria (age range, acute respiratory presentation, ED referral) apply, and only the exclusion criteria are potentially relevant. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Because the patient does not meet the key inclusion criteria (age and acute respiratory presentation), she is ineligible for the study. No exclusion criteria are triggered, but the lack of inclusion makes her ineligible. The eligibility score should be negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -12.0
+        },
+        "NCT01802125": {
+            "relevance_explanation": "The trial focuses on patients with undifferentiated soft\u2011tissue sarcoma, specifically those enrolled in the ARST0332 dataset. The patient note describes a 58\u2011year\u2011old woman with a lung mass and a brain lesion, with no mention of sarcoma, soft\u2011tissue tumor, or participation in ARST0332. Therefore the patient\u2019s clinical picture is largely unrelated to the trial\u2019s target condition and inclusion requirement.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not satisfy the sole inclusion criterion (being an undifferentiated sarcoma case from ARST0332), she is ineligible for the study. No exclusion criteria are relevant, but the lack of required inclusion makes her ineligible, so the eligibility score should be negative and equal in magnitude to the relevance score.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00382707": {
+            "relevance_explanation": "The trial targets patients with refractory frontal lobe epilepsy and requires specific neuroimaging findings (cryptogenic epilepsy and a normal cerebral MRI). The patient described has a solitary frontal lobe mass and no history of seizures, which is unrelated to the disease focus of the study. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Both inclusion criteria are not satisfied: the patient does not have cryptogenic frontal lobe epilepsy and the cerebral MRI is abnormal (frontal lobe mass). Consequently the patient is ineligible for the trial, yielding an eligibility score at the negative extreme of the relevance range.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00193765": {
+            "relevance_explanation": "The trial targets early T1/T2 oral cavity squamous cell carcinoma (buccal mucosa, lower alveolus, oral tongue, floor of mouth) and requires surgical management of that lesion. The patient\u2019s note describes a 58\u2011year\u2011old woman with a lung mass and a solitary brain metastasis, with no mention of any oral cavity lesion. Consequently, the core disease focus of the trial does not match the patient\u2019s condition, making the overall relevance low. A few generic inclusion criteria (age, ability to consent, reliability for follow\u2011up) are met, but these are peripheral compared to the primary disease requirement.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because the patient does not have the required oral cavity squamous cell carcinoma, she cannot satisfy the essential inclusion criteria 0 and 1. While she meets several ancillary criteria (age, consent, follow\u2011up reliability), the lack of the target disease makes her ineligible for the trial. Therefore the eligibility score should be negative, reflecting ineligibility, but its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -18.0
         }
     },
     "sigir-20153": {
@@ -14107,6 +14311,376 @@
             "relevance_score_R": 62.0,
             "eligibility_explanation": "The patient meets the basic adult age and consent requirements, and there is no evidence of any exclusion criteria (no known coagulation disorder, no current anticoagulant use, no malignancy, etc.). However, he fails the primary inclusion criterion that he must be scheduled for an elective primary unilateral THA. Since this inclusion criterion is not satisfied, the patient is ineligible for the study. No exclusion criteria apply, so the ineligibility stems solely from the unmet inclusion condition, leading to a negative eligibility score equal in magnitude to the relevance score.",
             "eligibility_score_E": -62.0
+        },
+        "NCT00187408": {
+            "relevance_explanation": "The trial enrolls patients who have sustained a lower\u2011extremity fracture distal to the knee and are undergoing surgery for that fracture. The patient is a 65\u2011year\u2011old male who recently had a right total hip replacement (a proximal femur procedure) and now presents with possible pulmonary embolism and calf pain. While his age, ability to consent, and acute thrombo\u2011embolic presentation are relevant to the trial\u2019s disease focus (DVT/PE), the key inclusion criterion \u2013 a fracture of the tibia or fibula (or related distal\u2011leg fracture) \u2013 is absent. Therefore the patient is only loosely related to the trial\u2019s target population.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "The patient fails the essential inclusion criteria that require a distal\u2011leg (tibia/fibula) fracture and scheduled fracture surgery. He does meet the age criterion and has no documented exclusion factors, but because the primary inclusion requirements are not satisfied, he would be considered ineligible for the study. The eligibility score is therefore negative and limited by the relevance magnitude.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00311753": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male with an acute medical condition (shortness of breath, chest pain) requiring hospitalization, and he has a recent major orthopedic surgery that has markedly reduced his mobility. The trial targets acutely ill, immobilized medical patients for thromboprophylaxis, which aligns closely with the patient\u2019s presentation. Therefore the overall relevance to the trial is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "While the patient meets the inclusion criteria (hospitalization for an acute non\u2011surgical disease and significant decrease in mobility), he also meets two key exclusion criteria: (1) a major surgical procedure (hip replacement) performed within the past 4 weeks, and (2) immobilization lasting longer than 3 days prior to randomization. These exclusions outweigh the inclusions, making the patient ineligible for the study. The eligibility score is therefore negative, reflecting ineligibility but not the full magnitude of relevance because some inclusion criteria are satisfied.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT00954395": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male presenting with acute shortness of breath, chest pain and calf pain consistent with a first episode of pulmonary embolism and/or deep\u2011vein thrombosis. The trial (DULCIS) enrolls patients with venous thromboembolism (VTE) to study anticoagulation duration. The patient\u2019s age, gender, acute VTE presentation, and ability to give informed consent all align with the disease focus of the study, making the case highly relevant. Minor missing details (e.g., exact imaging confirmation) do not substantially lower relevance.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Inclusion criterion 0 (age >18 and first symptomatic VTE) is satisfied. However, the trial requires the VTE to be unprovoked/idiopathic or associated with specific low\u2011risk provoking factors (minor surgery, minor trauma, etc.). The patient\u2019s VTE is clearly provoked by a recent major orthopedic surgery (total hip replacement), which is not among the allowed provoking factors. Consequently, the patient fails the key inclusion criteria beyond the first one. No exclusion criteria are triggered, but because essential inclusion criteria are not met, the patient is ineligible. The eligibility score is therefore negative, reflecting ineligibility while staying within the relevance bound.",
+            "eligibility_score_E": -70.0
+        },
+        "NCT01871194": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male presenting with acute shortness of breath, tachypnea, chest pain and right calf pain shortly after hip surgery \u2013 a clinical picture that raises suspicion for pulmonary embolism (PE) or deep\u2011vein thrombosis (DVT). The trial is an observational safety study of rivaroxaban in patients with DVT, PE, or atrial fibrillation. Because the patient\u2019s presentation is highly suggestive of the target conditions (PE/DVT) and he is an adult who can give consent, the case is fairly relevant to the trial, though the note does not confirm a definitive diagnosis or that rivaroxaban will be prescribed. Therefore the overall relevance is strong but not perfect.",
+            "relevance_score_R": 72.0,
+            "eligibility_explanation": "Eligibility requires that the patient be started on rivaroxaban (or another anticoagulant) for a documented DVT or PE (or non\u2011valvular AF). The note only mentions calf pain and possible PE symptoms; there is no confirmed diagnosis of DVT/PE and no indication that anticoagulation has been initiated. The patient meets the age and consent criteria and shows no exclusionary use of other anticoagulants, but the key inclusion criterion (treated for DVT or PE) is not satisfied. Consequently the patient is considered ineligible for the study. Because the relevance score is 72, the eligibility score is set to the negative extreme, indicating clear ineligibility.",
+            "eligibility_score_E": -72.0
+        },
+        "NCT01308385": {
+            "relevance_explanation": "The trial focuses on patients undergoing minimally invasive repair of pectus excavatum and studies postoperative pain modulation. The patient is a 65\u2011year\u2011old male who recently had a right total hip replacement, not a pectus excavatum repair. Apart from age, there is no overlap with the target surgical procedure or condition, making the patient only marginally relevant to the study.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the primary inclusion criterion (pectus excavatum repair) is not met, the patient is ineligible for the trial despite satisfying the age criterion and not being excluded by any exclusion factors. Eligibility is therefore negative and limited by the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02230865": {
+            "relevance_explanation": "The trial focuses on predicting postoperative pain for patients undergoing elective minimally invasive correction of pectus excavatum. The patient is a 65\u2011year\u2011old male who recently had a right total hip replacement, which is a different surgical procedure and not elective minimally invasive thoracic surgery. While the patient meets the age criterion and has no contraindicating comorbidities, the core inclusion requirement (specific surgery type) is not satisfied, making the overall relevance to this trial modest.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the primary inclusion criterion (elective minimally invasive surgical correction of funnel chest) is not met, the patient is ineligible for the study despite meeting age and lacking exclusion factors. The eligibility score therefore reflects full ineligibility within the bounds of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00225108": {
+            "relevance_explanation": "The trial is explicitly limited to women who have recently undergone a cesarean section and are at risk for postpartum VTE. The patient is a 65\u2011year\u2011old male who presented with acute shortness of breath after hip replacement surgery. Apart from the generic requirement of providing informed consent, none of the trial\u2019s inclusion or exclusion criteria are applicable to him (they are all obstetric\u2011specific). Therefore the patient is only minimally relevant to the study.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet the essential inclusion criterion of having delivered by cesarean section (and is not a woman), he cannot satisfy the trial\u2019s enrollment requirements. No exclusion criteria are clearly triggered, but the lack of the mandatory obstetric criteria makes him ineligible. Hence the eligibility score is negative, reflecting ineligibility, and its magnitude cannot exceed the relevance score.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT00462241": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male who presented with acute chest pain that is the primary complaint, matching the trial\u2019s target condition of acute musculoskeletal chest pain. The presentation is acute (onset within hours) and the patient is able and willing to give informed consent and follow the protocol, which aligns with several key inclusion criteria (primary chest pain, acute episode, consent). The note does not provide information on language ability (Danish) or residence in Funen County, which are required for full relevance, and it does not explicitly confirm that cardiac causes have been ruled out. Because most of the core clinical features match while some logistical criteria are unknown, the overall relevance is high but not perfect.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility hinges on meeting all inclusion criteria and not meeting any exclusion criteria. The patient clearly satisfies the clinical inclusion items (chest pain as primary complaint, acute onset, consent, age 18\u201175, no dementia, able to cooperate). However, there is insufficient information to confirm two required criteria: ability to read/understand Danish and residence in Funen County. Without this information the patient cannot be confidently classified as eligible; they are not excluded by any listed exclusion criteria. Therefore, the eligibility score is positive but limited by the missing data, reflecting a likely but not certain eligibility.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT01304108": {
+            "relevance_explanation": "The trial targets improvement of venous thromboembolism (VTE) prophylaxis for all hospitalized patients. The patient is a 65\u2011year\u2011old inpatient who recently underwent major orthopedic surgery (right total hip replacement) and now presents with symptoms suggestive of a possible VTE (shortness of breath, tachypnea, chest pain, calf pain). These factors make him highly pertinent to a study focused on VTE prophylaxis in the inpatient setting.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient satisfies the sole inclusion criterion (inpatient age >17) and does not meet any exclusion criteria (he is not an outpatient and is older than 17). The provided eligibility predictions label him as \"included\" for the inclusion criterion and \"not excluded\" for both exclusion criteria. Therefore, he is fully eligible for the trial.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT00878475": {
+            "relevance_explanation": "The patient presents with acute shortness of breath, the primary complaint required by the trial, and the clinical scenario (emergency presentation) matches the pre\u2011hospital acute dyspnea focus of the study. The trial targets conditions such as heart failure, asthma, and COPD, all of which can present with acute dyspnea, so the patient is highly relevant despite the recent orthopedic trauma, which does not diminish the relevance to the dyspnea assessment objective.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The trial\u2019s exclusion criteria list recent trauma as a disqualifying factor. The patient had a right total hip replacement two weeks ago, which qualifies as recent trauma. Therefore the patient is excluded from participation. No other exclusion criteria are definitively met, but the trauma exclusion alone makes the patient ineligible. Because eligibility cannot exceed relevance, the eligibility score is set to the negative of the relevance score.",
+            "eligibility_score_E": -85.0
+        },
+        "NCT00421538": {
+            "relevance_explanation": "The patient presents with acute shortness of breath, chest pain, and right calf pain shortly after hip surgery, which raises suspicion for a distal (calf) deep\u2011vein thrombosis \u2013 the target condition of the trial. However, the note does not provide imaging confirmation of a distal DVT, and the patient is currently an inpatient in the emergency department rather than an outpatient, which is a key inclusion requirement. Thus the case is somewhat related to the trial but missing several critical elements.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "Inclusion criterion 0 requires a confirmed acute symptomatic distal DVT in an outpatient setting; this is not satisfied because there is no diagnostic confirmation and the patient is inpatient. The exclusion criterion about lack of informed consent is not triggered, as the patient will consent. Consequently, the patient fails the essential inclusion requirement and is therefore ineligible for the study. The eligibility score should reflect a negative value equal to the relevance magnitude.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT00219921": {
+            "relevance_explanation": "The patient underwent a total hip replacement two weeks ago, which directly matches the trial\u2019s target population (post\u2011operative analgesia after total hip replacement). The note also mentions pain management issues and inability to start rehabilitation, which are precisely the outcomes the trial aims to address. The only missing piece is information about fast\u2011track eligibility (ASA score), but the core clinical context is highly aligned, so the overall relevance is strong.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "Eligibility hinges on the inclusion criterion of being accepted for fast\u2011track total hip replacement (ASA \u2264\u202f3). The patient note does not provide ASA classification or confirm fast\u2011track status, leaving this requirement unverified. All listed exclusion criteria (language, communication, dementia, mental retardation) appear not to apply. Because the key inclusion criterion cannot be confirmed, the patient is likely ineligible, but the uncertainty prevents a full negative score. Therefore, the eligibility score is set negative but within the relevance bound.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT01240044": {
+            "relevance_explanation": "The clinical trial is exclusively focused on newborns (\u226428 days old) receiving respiratory therapy in the NICU, while the patient is a 65\u2011year\u2011old adult presenting with acute respiratory symptoms after hip surgery. None of the inclusion or exclusion criteria pertain to an adult patient, so the trial is essentially unrelated to this case.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the trial criteria are not applicable to an adult, there is no basis to assess eligibility. The patient neither meets inclusion nor exclusion conditions, resulting in a neutral eligibility assessment.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT01546857": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male who underwent a right total hip replacement two weeks ago, which directly matches the trial\u2019s target population (post\u2011operative hip surgery patients). The trial focuses on postoperative pain and sleep after hip/knee arthroplasty, and the patient\u2019s recent surgery and reported pain make him highly pertinent to the study. The only missing piece for relevance is the ASA physical status, which is not documented, but this does not diminish the overall relevance of the case to the trial\u2019s purpose.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Eligibility cannot be confirmed because the patient note lacks critical information for many inclusion and exclusion criteria: ASA rating, allergy history, sleep disorder, chronic narcotic or gabapentin use, comorbidities (renal, hepatic, cardiac, asthma/NSAID allergy, recent thrombotic events), and ability to use PCA or meet extubation criteria. Since the trial\u2019s inclusion (ASA I\u2011III) is unknown and all exclusion items are indeterminate, we cannot assert that the patient meets all required conditions nor that he is excluded. Therefore the eligibility score is set near neutral, slightly negative to reflect the uncertainty and the possibility that missing data may ultimately render the patient ineligible.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02289937": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male who underwent a right total hip replacement two weeks ago, which directly matches the trial\u2019s target population (post\u2011operative pain after primary total hip arthroplasty). The trial focuses on analgesic techniques for this exact procedure, and the patient\u2019s ability to consent and comply with the protocol is confirmed. Therefore the case is highly relevant to the study.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Inclusion criteria are satisfied because the patient had a primary total hip replacement. None of the listed exclusion criteria are clearly present: there is no evidence of revision or bilateral surgery, the patient is male (so fertile\u2011woman exclusion does not apply), and no chronic pain or known allergy to amide local anesthetics is reported. The only uncertainty is the use of general anaesthesia, which is not mentioned in the note; without that information we cannot confirm eligibility but also cannot deem the patient excluded. Consequently, the patient is likely eligible but with some residual uncertainty, yielding an eligibility score that is positive but lower than the full relevance score.",
+            "eligibility_score_E": 45.0
+        },
+        "NCT00182364": {
+            "relevance_explanation": "The patient shares several attributes with the trial population (adult age, recent orthopedic surgery, acute respiratory symptoms suggesting possible critical illness). However, the trial specifically targets critically ill patients admitted to the ICU, and there is no evidence the patient is currently in an ICU or expected to stay >72\u202fh. Because the key inclusion criterion (ICU admission) is missing, the overall relevance is limited.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "Even if the patient were considered relevant, the exclusion criterion for \"post orthopedic surgery\" directly applies (hip replacement 2 weeks ago). This makes the patient ineligible for the trial. No mitigating information is provided, so the eligibility score should reflect a full negative impact equal to the relevance magnitude.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT00823563": {
+            "relevance_explanation": "The trial enrolls patients being evaluated for chest pain/ischemia who will undergo coronary angiography and have normal coronary arteries. The patient presents with acute chest pain and shortness of breath, which matches the symptom focus, giving some relevance. However, the key inclusion requirement of a referral for elective coronary angiography is absent; the presentation is emergent, and no angiography is mentioned. Therefore the patient is only partially relevant to the study\u2019s target population.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "The patient satisfies the symptom\u2011based inclusion criterion (angina or equivalent) and does not meet any exclusion criteria. Nevertheless, the essential inclusion criterion of being referred for elective coronary angiography due to suspected ischemia is not fulfilled, so the patient cannot be considered fully eligible. With the relevance ceiling of 42, the eligibility score reflects a modest positive contribution from the satisfied criteria but is limited by the missing primary inclusion requirement.",
+            "eligibility_score_E": 12.0
+        },
+        "NCT01312077": {
+            "relevance_explanation": "The trial focuses on patients who are *scheduled* for a unilateral total hip replacement and will receive peri\u2011articular infiltration of local anaesthetic at the time of surgery. The patient is a 65\u2011year\u2011old male who *already* underwent a right total hip replacement two weeks ago and is now presenting with acute respiratory symptoms. While the patient\u2019s recent hip surgery places him in the same clinical domain (post\u2011operative hip patients), the key inclusion requirement of being a *future* surgical candidate is not met. Other inclusion criteria (spinal anaesthesia consent, ASA grade) are unknown, further reducing relevance. Overall, the patient\u2019s situation is only loosely related to the trial\u2019s target population.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the primary inclusion criterion (being scheduled for a unilateral total hip replacement) is not satisfied, the patient is ineligible for the study. No exclusion criteria are triggered, but the lack of fulfillment of essential inclusion criteria outweighs this. With a relevance of 30, the eligibility score should reflect ineligibility but not be as low as the negative maximum; a moderate negative value is appropriate.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01112436": {
+            "relevance_explanation": "The trial focuses on patients undergoing partial hip replacement for a femoral neck fracture. The patient had a recent right total hip replacement and no mention of a femoral neck fracture. While the patient\u2019s recent hip surgery makes the case somewhat related, the key inclusion criteria (partial hip replacement and femoral neck fracture) are not met, resulting in low overall relevance.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the patient does not satisfy the essential inclusion criteria (no femoral neck fracture and the surgery was total, not partial), he would be considered ineligible for the study. No exclusion criteria are triggered, but failure to meet inclusion criteria means the patient is not eligible, so the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01274871": {
+            "relevance_explanation": "The trial focuses on sensory changes from chest drains after thoracotomy and chronic post\u2011thoracotomy pain. The patient presents with acute shortness of breath and chest pain but there is no indication that he has undergone a thoracotomy or has chest drains; his recent surgery was a hip replacement. While the patient meets generic inclusion criteria such as age and ability to cooperate, the core condition of interest (thoracotomy) is absent, making the overall relevance modest.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Because the patient does not have the target condition (no thoracotomy or chest drains), he fails to satisfy the primary disease\u2011specific inclusion criteria. Additionally, he lacks information on speaking/reading Danish, which is a required inclusion criterion. No exclusion criteria are triggered, but the missing key inclusion elements render him ineligible. Therefore the eligibility score is negative and equal in magnitude to the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02437942": {
+            "relevance_explanation": "The trial focuses on chronic athletic groin pain in athletes and requires participants to have a diagnosis of athletic groin pain and be engaged in sport\u2011specific training. The patient note describes a 65\u2011year\u2011old male with acute shortness of breath, chest pain, recent hip replacement, and calf pain, with no mention of groin pain, athletic activity, or chronic musculoskeletal issues. Therefore the patient\u2019s condition and background are largely unrelated to the trial\u2019s target population and objectives.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "Because the patient does not meet any of the inclusion criteria (no groin pain diagnosis, not an athlete), he would be considered ineligible for enrollment. None of the listed exclusion criteria apply, but the lack of required inclusion criteria makes him unsuitable. Given the low relevance, the eligibility score is set at the negative extreme of the relevance range.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT01084239": {
+            "relevance_explanation": "The patient presents with acute left\u2011sided chest pain at rest within the emergency department, is 65 years old (within the 40\u201175 age window), and is willing and able to give informed consent and follow the protocol. These features align closely with the core focus of the trial (evaluation of acute chest pain using cardiac CT). The note lacks information on several other criteria (breath\u2011hold ability, ECG rhythm, renal function, etc.), which reduces the overall match but does not eliminate relevance. Therefore the patient is substantially, though not perfectly, relevant to the study.",
+            "relevance_score_R": 75.0,
+            "eligibility_explanation": "To be eligible, the patient must meet all inclusion criteria and none of the exclusion criteria. The patient satisfies the chest\u2011pain, age, and consent requirements, and no exclusion criteria are clearly violated. However, the patient does not meet inclusion criterion 1 (requires \u22652 cardiac risk factors) because no risk factors are mentioned. This missing inclusion element makes the patient ineligible despite the lack of exclusions. The eligibility score is therefore negative, reflecting ineligibility, but its magnitude is limited by the overall relevance (\u201130 out of a possible \u00b175).",
+            "eligibility_score_E": -30.0
+        },
+        "NCT01724996": {
+            "relevance_explanation": "The trial focuses on evaluating chest wall tenderness as a bedside test to rule out acute coronary syndrome in patients presenting with chest pain. The patient is a 65\u2011year\u2011old male who presents with acute shortness of breath, tachypnea, and left\u2011sided chest pain that worsens with inspiration \u2013 a classic presentation that would trigger the use of the chest\u2011wall\u2011tenderness test. The patient\u2019s age, gender, and symptom profile align well with the target population of the study, making the case highly relevant. The only peripheral detail is the recent hip replacement, which does not affect the relevance to a chest\u2011pain\u2011focused trial.",
+            "relevance_score_R": 82.0,
+            "eligibility_explanation": "One of the trial\u2019s exclusion criteria is \"cardiopulmonary unstable patients.\" The patient exhibits clear signs of instability: acute dyspnea, a respiratory rate of 35, and chest pain, with no information indicating that he has been stabilized. This meets the exclusion criterion, meaning the patient would be deemed ineligible for enrollment. Because the patient is excluded, the eligibility score should be the negative of the relevance score, reflecting a definitive ineligibility.",
+            "eligibility_score_E": -82.0
+        },
+        "NCT01992224": {
+            "relevance_explanation": "The trial focuses on patients with acute pancreatitis who develop ARDS and are candidates for early mechanical ventilation. The patient presents with acute shortness of breath and chest pain after hip surgery, with no mention of abdominal pain, elevated pancreatic enzymes, or any diagnosis of pancreatitis. While he has a respiratory problem, the core disease (pancreatitis) required by the trial is absent, making the overall relevance low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the patient does not satisfy any of the inclusion criteria (no evidence of pancreatitis, no severe acute pancreatitis, no documented ARDS), he would be considered ineligible for the study. None of the exclusion criteria apply, but lack of required inclusion makes him ineligible, so the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT00451412": {
+            "relevance_explanation": "The trial targets acutely ill, immobilized medical patients at risk for venous thromboembolism. The patient is a 65\u2011year\u2011old male with an acute medical event (shortness of breath, chest pain) and recent hip surgery that has limited his mobility, which aligns with the trial\u2019s disease focus and mobility criteria. However, the age inclusion criterion (\u226570\u202fyears) is not met, which substantially lowers overall relevance. Considering the strong match on clinical condition and mobility but the age mismatch, the relevance is moderate.",
+            "relevance_score_R": 62.0,
+            "eligibility_explanation": "To be eligible, the patient must satisfy all inclusion criteria and none of the exclusion criteria. He meets the acute illness and mobility requirement and can give informed consent, but he fails the age requirement (must be \u226570\u202fyears). Moreover, two exclusion criteria are triggered: immobilization longer than 3\u202fdays before randomization and a major surgery (hip replacement) within the past 4\u202fweeks. These exclusions outweigh the satisfied inclusions, making the patient ineligible. Because the relevance is 62, the eligibility score is set to the negative of that relevance, reflecting clear ineligibility.",
+            "eligibility_score_E": -62.0
+        },
+        "NCT01535248": {
+            "relevance_explanation": "The trial focuses on patients undergoing ERCP to detect air embolism using echocardiography. The patient note describes a 65\u2011year\u2011old man presenting with shortness of breath after recent hip surgery, with no mention of an ERCP procedure, endoscopic work, or any biliary/pancreatic intervention. Only the age criterion matches, which is a minor component of relevance. Therefore the patient is only loosely related to the trial\u2019s target condition and procedure.",
+            "relevance_score_R": 18.0,
+            "eligibility_explanation": "Because the primary inclusion criterion (undergoing ERCP) is not satisfied, the patient cannot be eligible for the study despite meeting the age requirement and having no documented exclusion factors. With a low relevance ceiling of 18, the eligibility score should reflect ineligibility but not exceed the relevance magnitude.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT01274637": {
+            "relevance_explanation": "The trial PROSPER enrolls postpartum women at risk for venous thromboembolism and evaluates LMWH prophylaxis. The patient is a 65\u2011year\u2011old male presenting with acute shortness of breath and possible pulmonary embolism after recent hip surgery. While he has a condition (immobilization after surgery) that is a risk factor for VTE, the trial\u2019s inclusion criteria are exclusively tied to postpartum status, pregnancy\u2011related conditions, and female\u2011specific risk factors (e.g., postpartum infection, hemorrhage, pre\u2011pregnancy BMI, cesarean delivery, smoking during pregnancy, preeclampsia, infant birth weight). Consequently, almost all inclusion criteria are not applicable to this patient, and only a few exclusion criteria (e.g., need for anticoagulation, prior VTE) are relevant but do not make him eligible. Therefore the overall relevance of this patient to the trial is very low.",
+            "relevance_score_R": 8.0,
+            "eligibility_explanation": "Because the patient does not meet any of the required postpartum\u2011related inclusion criteria, he is effectively ineligible for the study. None of the exclusion criteria explicitly disqualify him, but the lack of applicable inclusion criteria means he would be excluded from enrollment. The eligibility score should reflect ineligibility while staying within the bounds of the relevance score (\u2011R \u2264 E \u2264 R). Hence, a negative score close to the lower bound is appropriate.",
+            "eligibility_score_E": -8.0
+        },
+        "NCT00314548": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male presenting with acute shortness of breath, tachypnea, and chest pain, which are classic features of acute respiratory distress syndrome (ARDS). He is also postoperative (hip replacement 2 weeks ago), matching the trial\u2019s interest in post\u2011operative pulmonary hypertension. He is able and willing to give informed consent. These points make the case highly pertinent to a trial investigating inhaled prostacyclin for ARDS and pulmonary hypertension. The lack of explicit data on pulmonary artery pressure, ARDS diagnostic criteria, and intubation status limits the certainty, but overall the patient is strongly aligned with the target condition and setting.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Inclusion criteria cannot be confirmed because the note does not provide pulmonary artery pressure, PaO2/FiO2 ratio, chest imaging, or wedge pressure; therefore eligibility cannot be established from the available information. Importantly, the exclusion criterion for non\u2011intubated patients appears to be met \u2013 the note describes a spontaneously breathing emergency\u2011room presentation with no indication of mechanical ventilation, which directly excludes the patient. Consequently, despite the patient\u2019s relevance, the trial\u2019s eligibility is negative. The eligibility score is set to the negative of the relevance score to reflect a clear exclusion.",
+            "eligibility_score_E": -78.0
+        },
+        "NCT01117610": {
+            "relevance_explanation": "The trial is focused on patients undergoing lumbar spine surgery (laminectomy) for postoperative pain management. The patient\u2019s note describes a recent right total hip replacement and acute respiratory symptoms, with no mention of any spine surgery. Therefore, the core condition required for the trial is absent, making the patient largely irrelevant to this study.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Because the patient does not meet the primary inclusion criterion (laminectomy), he is ineligible for the trial. None of the exclusion criteria apply, but failure to satisfy the inclusion requirement means the patient would be excluded from participation.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT01285648": {
+            "relevance_explanation": "The trial focuses on patients undergoing lung resection for cancer and receiving CPAP post\u2011operatively. The patient note describes a 65\u2011year\u2011old man with acute dyspnea after a recent hip replacement, with no mention of lung cancer, lung surgery, or thoracic procedures. Only the age criterion and willingness to consent are relevant, which provides a modest link to the trial but the core clinical context is missing. Therefore the overall relevance is low to moderate.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Eligibility requires a confirmed diagnosis of lung cancer and an indication for lung resection, which the patient clearly does not have. While he meets the age requirement and does not violate any exclusion criteria, the missing primary inclusion criterion makes him ineligible. Consequently, the eligibility score should be the negative of the relevance score, reflecting clear ineligibility despite some peripheral relevance.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00873587": {
+            "relevance_explanation": "The trial focuses on techniques for removing chest tubes after thoracic surgery (thoracotomy or pulmonary resection). The patient\u2019s presentation is acute shortness of breath with possible pulmonary embolism (calf pain, recent hip surgery) and there is no mention of a recent thoracotomy, pulmonary resection, or the presence of a chest tube. Because the core clinical context of the trial is absent, the patient is only minimally relevant to the study.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Eligibility requires that the patient both meets all inclusion criteria (post\u2011thoracotomy/pulmonary resection and having a chest tube) and does not meet any exclusion criteria. The patient fails the inclusion criteria (no thoracotomy, no chest tube), while none of the exclusion criteria apply. Since the patient is not eligible but the trial is still somewhat relevant, the eligibility score is negative but limited by the relevance magnitude.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02271399": {
+            "relevance_explanation": "The trial focuses on patients who have undergone primary total knee arthroplasty (TKA) and aims to prevent venous thromboembolism after that specific surgery. The patient is a 65\u2011year\u2011old male who recently had a right total hip replacement, not a knee procedure. Apart from the general interest in VTE prophylaxis, there is no direct link between his condition and the study\u2019s target population. Therefore the patient is only marginally relevant to the trial.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "Because the primary inclusion criterion requires a primary total knee arthroplasty, the patient does not satisfy this essential requirement. No exclusion criteria are triggered, but failing the inclusion criterion makes the patient ineligible. Given the low overall relevance, the eligibility score is set to the negative extreme of the relevance range, indicating clear ineligibility.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01242150": {
+            "relevance_explanation": "The trial is explicitly for infants and preschool children with acute respiratory failure in a PICU setting. The patient is a 65\u2011year\u2011old adult presenting with acute shortness of breath after hip surgery. Because the target population (pediatric) does not match the patient\u2019s age and setting, the overall relevance of this patient to the trial is very low, despite the fact that the patient has respiratory distress. The inclusion criteria are defined for children and are not applicable to an adult, which further reduces relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "Given the near\u2011zero relevance, the patient cannot satisfy the pediatric inclusion criteria (e.g., PaO2/FiO2 <300, respiratory rate >50, etc.) and therefore is not eligible on that basis. However, none of the listed exclusion criteria are triggered by the information in the note. Since the patient is essentially neutral with respect to the exclusions but does not meet the required pediatric inclusions, the eligibility score is set to 0, reflecting no clear eligibility or ineligibility within the limited relevance context.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT02204514": {
+            "relevance_explanation": "The trial focuses on patients who are undergoing surgery specifically for painful external snapping hip. The patient had a recent total hip replacement, which is a different procedure and there is no mention of external snapping hip pain. Apart from the fact that he is an adult male, there is little overlap with the trial's target condition. Therefore the overall relevance is low but not zero because the patient does have a recent hip surgery.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "One inclusion criterion requires the patient to be undergoing surgery for painful external snapping hip, which the patient does not meet. The age criterion is satisfied, and there is no exclusion based on compliance. However, because the key inclusion criterion is not met, the patient is considered ineligible. The eligibility score is set to the negative of the relevance score to reflect clear ineligibility within the limited relevance context.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02008370": {
+            "relevance_explanation": "The trial targets patients undergoing minimally invasive cardiac surgery and receiving intra\u2011operative Exparel for postoperative analgesia. The patient is a 65\u2011year\u2011old male presenting with acute respiratory distress after a recent hip replacement; there is no indication that he is scheduled for or undergoing cardiac surgery. Only generic criteria such as age and ability to consent are potentially relevant, while the core inclusion criterion (cardiac surgery) is absent. Therefore the overall relevance of this patient to the trial is low.",
+            "relevance_score_R": 22.0,
+            "eligibility_explanation": "Because the patient does not meet the essential inclusion criterion of undergoing minimally invasive cardiac surgery, he would be ineligible for the study regardless of other factors (age, consent capability). No exclusion criteria are clearly triggered, but the lack of the required surgical context makes him unsuitable. The eligibility score is therefore negative, reflecting ineligibility, and is bounded by the relevance score.",
+            "eligibility_score_E": -22.0
+        },
+        "NCT01660594": {
+            "relevance_explanation": "The trial focuses on patients with stable (non\u2011acute) chest pain being evaluated for coronary artery disease using CT calcium scoring. The patient is a 65\u2011year\u2011old male presenting with acute shortness of breath and acute left\u2011sided chest pain, which is clearly an acute presentation rather than stable chest pain. He also has no mention of having undergone CT calcium scoring or of having a complete set of cardiovascular risk\u2011factor data, which are required for inclusion. Therefore the patient\u2019s clinical picture is largely unrelated to the target population of the trial.",
+            "relevance_score_R": 12.0,
+            "eligibility_explanation": "Because the patient does not meet any of the inclusion criteria (acute rather than non\u2011acute chest pain, no CT calcium scoring performed, insufficient risk\u2011factor information) and there are no exclusion criteria that apply, there is essentially no information to judge eligibility. Given the very low relevance, the eligibility score is set to neutral (zero), reflecting that the patient is neither clearly eligible nor clearly ineligible for a trial to which he is largely irrelevant.",
+            "eligibility_score_E": 0.0
+        }
+    },
+    "sigir-20157": {
+        "NCT00010517": {
+            "relevance_explanation": "The patient is a young adult female presenting with multiple core symptoms of major depressive disorder (fatigue, hypersomnia, increased appetite, impaired concentration, anhedonia, guilt) and no conflicting medical history. The trial targets depressive disorders and seeks participants who meet major depression criteria, making the patient highly relevant to the study\u2019s disease focus. Additionally, the patient\u2019s willingness to consent and ability to comply with protocol further align with trial requirements. Therefore the overall relevance is strong but not absolute because the note does not include a formal diagnostic confirmation (e.g., PHQ\u20119 score) or severity grading.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Based on the criterion\u2011level predictions, the patient appears to satisfy all inclusion criteria: (1) she exhibits depressive symptoms consistent with major depression; (2) she has no other mental or physical disorders that would confound the diagnosis; (3) she is not receiving other treatments and has no urgent clinical needs. No exclusion criteria are mentioned. Consequently, the patient is likely eligible for enrollment. The eligibility score is set close to the relevance score, reflecting high confidence in eligibility while allowing for the possibility that a formal diagnostic assessment could alter the determination.",
+            "eligibility_score_E": 80.0
+        },
+        "NCT02116361": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female with several classic symptoms of major depressive disorder (fatigue, hypersomnia, increased appetite, concentration problems, anhedonia, guilt). The trial targets adult females with major depressive disorder, so the patient\u2019s demographic and clinical presentation are highly pertinent. The only missing piece is a formal severity rating (moderate\u2011to\u2011severe), but the overall symptom picture strongly suggests relevance to the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Inclusion requires moderate\u2011to\u2011severe MDD; the note does not provide a severity scale, so we cannot confirm that the patient meets this threshold. However, there is no evidence of any exclusion criteria (no prior botulinum toxin exposure, no recent antidepressant use, no neuromuscular disease). Thus, while the patient is not clearly excluded, the uncertainty about meeting the severity requirement limits the eligibility confidence. Given the high relevance but incomplete inclusion evidence, the eligibility score is modestly positive.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT01371383": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female presenting with multiple depressive symptoms (fatigue, hypersomnia, increased appetite, concentration problems, anhedonia, guilt) that align with the target condition of Major Depressive Disorder. Age and capacity to consent are clearly met, and there are no major medical illnesses or other psychiatric diagnoses noted. The only missing piece is an explicit DSM\u2011IV diagnosis, but the overall clinical picture is highly suggestive of MDD, making the patient strongly relevant to the trial.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "The patient satisfies the age (18\u201165) and consent criteria and does not appear to have any exclusionary medical or psychiatric comorbidities. However, the inclusion criterion requiring a confirmed DSM\u2011IV diagnosis of major depressive disorder is not explicitly documented; the note only suggests possible MDD. Because eligibility cannot be confirmed for this key inclusion, the patient is likely eligible but with uncertainty. This yields a positive but modest eligibility score.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT00360451": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old college student showing possible depressive symptoms, which aligns with the trial\u2019s focus on depression and anxiety. However, the trial is specifically for young adolescents (grades 6\u20118), not college\u2011age adults. Because the age/grade mismatch is substantial, the overall relevance of this patient to the study is limited.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "Inclusion requires above\u2011average depression/anxiety symptoms; the note suggests depressive features but does not quantify severity, so inclusion cannot be confirmed. More critically, the exclusion criteria specify that participants must be students in grades six through eight. The patient is a 20\u2011year\u2011old college student, clearly outside that grade range, leading to exclusion. Therefore the patient is considered ineligible, and the eligibility score is the negative of the relevance score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02521012": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female with several depressive\u2011like symptoms (fatigue, increased sleep and appetite, low concentration, anhedonia, guilt) that align with the target condition of the trial (unipolar depression). She meets the age range (18\u201165) and appears able to consent and comply with study procedures. However, the note does not state that she has been formally diagnosed with depression, nor that she is currently receiving treatment or has been referred to a recruitment site, which are key inclusion criteria. Because of these missing pieces, the overall relevance is moderate but not maximal.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "No exclusion criteria are triggered (no bipolar, psychotic, substance abuse, relevant medical diseases, pregnancy, or high\u2011dose vitamin D/calcium use). The main uncertainty lies in the inclusion criteria: the patient\u2019s depressive status is not formally confirmed, there is no evidence of a prior episode or recurrence, and there is no indication of referral for depression treatment. These gaps make her likely ineligible for enrollment at this time. Given the moderate relevance, the eligibility score is set negative but not at the full -R magnitude.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT02614443": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old university student, which matches the trial\u2019s target population (students aged 18+). The presenting complaints (fatigue, hypersomnia, increased appetite, concentration difficulties, loss of interest, guilt) are consistent with depressive symptoms and possibly anxiety or stress, aligning with the trial\u2019s focus on depression, anxiety, and stress. The note lacks formal PHQ\u20119, GAD\u20117, or DASS\u201121 scores, so the exact severity cannot be confirmed, but the clinical picture suggests the patient could meet the symptom\u2011severity inclusion criteria. Overall, the patient is highly relevant to the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "There is no indication that the patient is currently receiving face\u2011to\u2011face therapy or has self\u2011harm risk, so the exclusion criterion does not appear to apply. However, because the required symptom\u2011severity thresholds (PHQ\u20119 \u22655, GAD\u20117 \u22655, or DASS\u201121 stress \u226515) are not documented, we cannot confirm that the patient definitively meets the inclusion criteria. Given the strong relevance but incomplete eligibility information, the eligibility score is positive but lower than the relevance score.",
+            "eligibility_score_E": 40.0
+        },
+        "NCT02023567": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female with depressive symptoms that align with the target condition (major depressive disorder) of the trial. She meets several inclusion criteria (age, ability to read/write, willingness to give consent) and the trial description focuses on MDD patients, making the case highly relevant. The main uncertainty is the lack of a formal DSM\u2011IV/M.I.N.I diagnosis and unclear episode status, but overall the patient profile matches the intended study population.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Although the patient satisfies most inclusion criteria, the exclusion criterion regarding \"current psychopathology\" directly applies because she is presently experiencing depressive symptoms consistent with major depression. This exclusion overrides the inclusions, rendering her ineligible for the study. No other exclusion criteria are triggered, but the presence of current psychopathology is sufficient to disqualify her, so the eligibility score is negative and close to the maximum magnitude allowed by the relevance score.",
+            "eligibility_score_E": -80.0
+        },
+        "NCT00047944": {
+            "relevance_explanation": "The patient matches the trial on age (20 years, within the 10\u201130 inclusion range) and can give informed consent, which are the only clearly relevant criteria. The trial focuses on adolescents who are offspring of parents with or without major depressive disorder, assessing risk for depression. The patient note provides no information about parental psychiatric history, risk status, IQ, or other required characteristics, and the presenting symptoms suggest possible depression rather than the pre\u2011symptomatic high\u2011risk profile sought by the study. Consequently, while there is some overlap, the overall relevance is limited.",
+            "relevance_score_R": 38.0,
+            "eligibility_explanation": "Eligibility is uncertain for many criteria due to missing information (IQ, parental MDD history, current psychiatric diagnoses, pregnancy status). Importantly, the exclusion criterion \"Offspring: All subjects will have offspring participating in this same protocol\" is not met, as the 20\u2011year\u2011old patient is unlikely to have offspring, leading to a definite exclusion. This makes the patient ineligible despite partial inclusion matches. The eligibility score is therefore negative, capped by the relevance magnitude.",
+            "eligibility_score_E": -38.0
+        },
+        "NCT01682785": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female presenting with classic depressive symptoms (fatigue, hypersomnia, increased appetite, difficulty concentrating, anhedonia, guilt) that align closely with the target condition of Major Depressive Disorder in the trial. Age criteria are also met. No information suggests relevance to metabolic syndrome or thyroid dysfunction, but the primary condition matches, making the patient highly relevant to the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied: the patient shows depressive symptomatology consistent with Major Depressive Disorder and is over 18 years old. The exclusion criterion regarding inability to give information is not met, as the note confirms she will provide informed consent and comply with the protocol. Therefore, the patient is eligible for the trial.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT01579942": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female, which matches the trial\u2019s age (18\u201155) and gender criteria. She reports fatigue, increased sleep and appetite, difficulty concentrating, anhedonia, and guilt \u2013 a cluster of symptoms consistent with major depressive disorder, making her clinically relevant to a study targeting MDD. However, the note lacks a formal diagnosis, severity rating, and other required details (handedness, vision, hearing), so the match is not perfect.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "Key inclusion criteria are not satisfied: there is no confirmed diagnosis of MDD by SCID, no HAM\u2011D17 score, and missing information on handedness and sensory function. While the patient can give consent and meets age/gender, the exclusion criterion 7 explicitly excludes subjects who do not meet full criteria for any major psychiatric diagnosis, which applies here. Consequently, the patient is likely ineligible for the trial. The eligibility score is negative, reflecting ineligibility within the relevance bound.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT02633449": {
+            "relevance_explanation": "The trial targets adults with major depressive disorder (MDD) and evaluates a psychotherapy plus tDCS intervention. The patient is a 20\u2011year\u2011old female who presents with several classic depressive symptoms (hypersomnia, increased appetite, concentration difficulties, anhedonia, guilt) and no other medical or psychiatric conditions. Although a formal diagnosis of unipolar MDD is not documented, the symptom profile is highly suggestive of depression, making the patient quite relevant to the study. There is no evidence of neurological disease, other psychiatric disorders, or prior treatments that would make her irrelevant. Therefore the overall relevance is high but not perfect because the diagnosis is not confirmed.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and not meeting any exclusion criteria. The patient appears to satisfy all exclusion criteria (no neurological disease, no disallowed medications, no manic or psychotic history, no recent psychotherapy or ECT). However, the key inclusion criterion\u2014confirmed diagnosis of unipolar major depressive disorder\u2014is not explicitly stated. Without a formal diagnosis, we cannot be certain she meets the inclusion requirement, which reduces the eligibility estimate. Given the high relevance but uncertainty about the primary inclusion criterion, the eligibility score is set to a moderate negative value within the allowed range (\u2011R \u2264 E \u2264 R).",
+            "eligibility_score_E": -35.0
+        },
+        "NCT00861978": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female presenting with fatigue, hypersomnia, increased appetite, low mood, anhedonia, guilt and concentration difficulties that have been present for a few months. These features align closely with atypical depression (hypersomnia, hyperphagia, mood reactivity) and the patient falls within the age range of the trial. The only missing pieces are a formal diagnosis, exact duration (\u22653 months) and ethnicity, but the core clinical picture is highly relevant to the study\u2019s target condition.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility cannot be firmly determined because the trial requires a confirmed diagnosis of mild\u2011to\u2011moderate atypical depression lasting at least 3 months, a specific ethnicity (Caucasian), and a HAMD\u201128 score >1 on items 22\u201126. None of these data are provided in the note, so we cannot say the patient meets or fails the inclusion criteria, nor are any exclusion criteria mentioned. Consequently the eligibility score should be near neutral, reflecting uncertainty rather than a clear eligibility or ineligibility.",
+            "eligibility_score_E": 5.0
+        },
+        "NCT00290914": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female presenting with classic depressive symptoms (fatigue, hypersomnia, increased appetite, concentration difficulties, anhedonia, guilt) and has no medical exclusions. The trial targets adults 18\u201165 with Major Depressive Disorder, which aligns closely with the patient\u2019s age and likely diagnosis, making the case highly relevant.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The only inclusion criterion provided (age 18\u201165) is satisfied, and there are no reported exclusion criteria that would disqualify the patient. Therefore, the patient appears fully eligible for the study.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT00026832": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female with fatigue, increased sleep and appetite, low mood, anhedonia, guilt and concentration problems \u2013 a symptom cluster consistent with a depressive episode. The trial enrolls adults 18\u201160 with mood disorders (major depressive disorder or bipolar depression) and also includes healthy controls. While the note does not state a formal DSM\u2011IV/5 diagnosis of MDD, the clinical picture is highly suggestive of depression, making the patient fairly relevant to the study\u2019s target population. Age and gender also match the trial\u2019s inclusion windows. Because the patient does not clearly fit any of the specific sub\u2011groups (e.g., family\u2011history\u2011defined FPDD, remission, bipolar, or control groups), the relevance is not maximal but still substantial.",
+            "relevance_score_R": 65.0,
+            "eligibility_explanation": "No exclusion criteria are triggered: the patient is not reported to be on antidepressants, has no suicidal ideation, psychosis, medical or neurological illness, substance abuse, pregnancy, or breastfeeding, and no MRI contraindications are mentioned. However, the inclusion criteria require a confirmed diagnosis of MDD (or bipolar disorder) and often additional specifications (family history, remission status, medication history) that are not provided in the note. Because the necessary diagnostic confirmation is missing, we cannot deem the patient fully eligible, but the lack of exclusions suggests a modest positive eligibility likelihood. Hence the eligibility score is modestly positive but limited by the incomplete inclusion information.",
+            "eligibility_score_E": 10.0
+        },
+        "NCT01799551": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female presenting with several classic depressive symptoms (fatigue, hypersomnia, increased appetite, poor concentration, anhedonia, guilt). The trial targets depression and requires participants aged 19\u201160, which the patient meets. However, the patient note lacks a formal ICD\u201110 diagnosis, a HADS\u2011Depression score, and any information about residence or travel distance to the study site. These missing pieces reduce the overall relevance, though the core symptom profile and age make the case reasonably pertinent.",
+            "relevance_score_R": 68.0,
+            "eligibility_explanation": "The patient satisfies the age inclusion criterion and shows no evidence of the listed exclusion factors (substance abuse, cognitive impairment, psychosis). Nevertheless, critical inclusion criteria are unresolved: there is no confirmed ICD\u201110 depressive episode diagnosis, no HADS\u2011Depression score, and no data on travel proximity. Because eligibility cannot be confirmed and key inclusion requirements are absent, the patient leans toward ineligibility rather than eligibility. The eligibility score is therefore negative but limited by the relevance ceiling.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02410616": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female with fatigue, increased sleep/appetite, low mood and anhedonia, which are suggestive of depressive symptoms and therefore potentially relevant to a trial targeting major depressive disorder. However, the note lacks critical information required by the trial: a confirmed DSM\u2011IV MDD diagnosis, access to a PC/internet, a compatible smartphone, and German language proficiency. Because only the age and willingness to consent are clearly aligned, the overall relevance is moderate but limited.",
+            "relevance_score_R": 42.0,
+            "eligibility_explanation": "Eligibility requires meeting all inclusion criteria and none of the exclusion criteria. The patient satisfies the age and consent criteria, but does not have a confirmed MDD diagnosis, nor any documented access to required technology or German language ability, which are essential for inclusion. No exclusion criteria are triggered, but the missing inclusion elements make the patient ineligible. Given the relevance score of 42, the eligibility score is set negative to reflect ineligibility while staying within the allowed range.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00296699": {
+            "relevance_explanation": "The patient\u2019s presentation aligns closely with the trial\u2019s target condition (atypical depression) and meets most of the listed inclusion criteria (age, physical health). All exclusion criteria appear irrelevant based on the note. The only missing piece is the required HAMD\u201124 score, which is not provided, creating some uncertainty but not eliminating overall relevance.",
+            "relevance_score_R": 82.0,
+            "eligibility_explanation": "The patient satisfies the majority of inclusion criteria and shows no exclusion factors. However, the trial requires a HAMD\u201124 score >14, and the note does not contain this information, making it impossible to confirm full eligibility. Assuming the score might be below the threshold, the patient leans toward ineligibility, but the lack of data prevents a definitive exclusion.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00963196": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female presenting with fatigue, increased sleep and appetite, concentration difficulties, anhedonia, and guilt \u2013 a symptom cluster that is suggestive of depression and therefore potentially relevant to a trial targeting Major Depressive Disorder. Age, gender, and willingness to comply are clearly met, which adds to relevance. However, the clinical note does not contain a formal diagnosis of Major Depressive Disorder, nor does it address several key inclusion items (English proficiency, birth\u2011control use, current psychotherapy, and supplement use). Because the core disease target is only implied and several required pieces of information are missing, the overall relevance is moderate rather than high.",
+            "relevance_score_R": 62.0,
+            "eligibility_explanation": "Eligibility hinges on a confirmed diagnosis of Major Depressive Disorder and on meeting several safety/administrative criteria (birth\u2011control, psychotherapy status, supplement use, etc.). The note lacks a definitive MDD diagnosis, so the patient cannot be confirmed as meeting the primary inclusion criterion. All exclusion criteria appear to be satisfied, but the missing inclusion data means the patient is effectively ineligible at this stage. Consequently, the eligibility score is negative, reflecting likely ineligibility while staying within the allowed range of -R to R.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00939718": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old female with several classic depressive symptoms (fatigue, hypersomnia, increased appetite, concentration difficulty, anhedonia, guilt) which aligns with the trial\u2019s target condition of Major Depressive Disorder. Age falls within the required 18\u201164 range and she is willing to give informed consent, matching another inclusion criterion. However, the note lacks two critical pieces of information required by the trial: a HAM\u2011D score \u226516 and a serum vitamin B12 level in the low\u2011normal range. Because half of the required inclusion data are missing, the overall relevance is high but not perfect.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "Based on the available data, the patient meets the consent requirement and shows no exclusionary medical or psychiatric history. The two key inclusion criteria (HAM\u2011D score and low\u2011normal B12) cannot be confirmed from the note, so eligibility cannot be positively asserted. Given the strong alignment with many aspects of the trial and the absence of any exclusion factors, the patient is likely eligible pending the missing laboratory and rating\u2011scale data, resulting in a moderate positive eligibility score.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT02021344": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old college student presenting with depressive\u2011like symptoms (fatigue, anhedonia, increased sleep/appetite, concentration difficulties, guilt). The trial targets mental health barriers among college students and seeks participants who are enrolled undergraduates. Although the note does not specify full\u2011time status, residence hall living, or the exact academic year, the core demographic (college student with possible depression) aligns closely with the trial\u2019s target population, making the patient highly relevant but not perfectly matched.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility hinges on meeting the inclusion criteria of being a full\u2011time, residential undergraduate at a participating campus during the specified years. The note confirms age (20\u202fy) and student status but lacks details on enrollment status, residence hall living, and academic year, so inclusion cannot be confirmed. The only exclusion criterion (under\u201118) is clearly not met, so the patient is not excluded. Consequently, the patient is partially eligible \u2013 not disqualified, but also not definitively eligible.",
+            "eligibility_score_E": 30.0
+        }
+    },
+    "sigir-20146": {
+        "NCT01259206": {
+            "relevance_explanation": "The trial targets obese patients with diabetes mellitus, and the patient note explicitly states that the patient is a 64\u2011year\u2011old obese female with a clinical diagnosis of diabetes mellitus. These two key attributes align directly with the trial\u2019s inclusion criteria, making the patient highly relevant. The additional information about a painful skin lesion and medication non\u2011adherence does not affect relevance to the trial\u2019s primary focus, but it does not detract from it either. Therefore the overall relevance is strong but not absolute, as the patient\u2019s other health issues are unrelated to the trial\u2019s specific aim.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "All inclusion criteria are satisfied (diagnosed diabetes and obesity) and none of the exclusion criteria are present in the note. The absence of foot radiotherapy, foot trauma, rheumatic/vascular disease, malignancy, and lymphatic edema is assumed based on the lack of mention. Consequently, the patient appears fully eligible for the study. Since eligibility cannot exceed relevance, the eligibility score is set equal to the relevance score.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT02512159": {
+            "relevance_explanation": "The patient is a 64\u2011year\u2011old woman with diabetes mellitus who presents a painful, enlarging, oozing skin lesion on the left lower leg, which is consistent with a cutaneous leg ulcer. The trial targets skin ulcers of the lower limb in patients with diabetes, venous stasis, or arterial insufficiency. While the ulcer\u2019s diabetic background aligns with the trial\u2019s target population, the note does not specify whether venous stasis or arterial insufficiency contributes to the ulcer\u2019s etiology, and it does not mention other required details such as hospitalization at the specified center. Nonetheless, the core elements (diabetic leg ulcer, adult patient, consent) are present, making the case reasonably relevant but not a perfect match. I assign a relevance score of 70 out of 100.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and not meeting any exclusion criteria. The patient clearly satisfies inclusion criteria for age, sex, and having diabetes as a comorbidity, and she consents to participation. However, two key inclusion items lack sufficient information: (1) the ulcer\u2019s specific etiology (venous stasis or arterial insufficiency) and (2) the presence of a baseline complete blood count with differential. Because these are unknown, we cannot confirm full eligibility. All exclusion criteria appear to be met (i.e., the patient is not excluded). Given the mix of confirmed inclusions, unknown critical inclusions, and no exclusions, the eligibility is moderate but uncertain. I therefore give an eligibility score of 30, which is within the allowed range of \u201370 to +70.",
+            "eligibility_score_E": 30.0
+        },
+        "NCT01542463": {
+            "relevance_explanation": "The trial targets patients with insufficiently controlled type 1 or type 2 diabetes. The patient note clearly states the patient has type 2 diabetes with persistently elevated HbA1c, indicating poor glycemic control, which directly matches the trial\u2019s disease focus. The additional information about a skin lesion and medication non\u2011adherence does not affect the core relevance to the diabetes indication, but it does introduce some peripheral issues that are not addressed by the trial. Overall, the patient is highly relevant to the trial\u2019s population.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The inclusion criterion requires insufficiently controlled diabetes, which the patient meets (elevated HbA1c). No exclusion criteria are provided that would disqualify her (e.g., severe comorbidities, contraindications to insulin detemir). She is willing to give informed consent and comply with the protocol. Therefore, she is considered eligible for the study.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT00095446": {
+            "relevance_explanation": "The patient is a 64\u2011year\u2011old adult with diabetes mellitus, which directly matches the trial's target condition (type 1 or type 2 diabetes) and age requirement (\u226518). The note provides clear evidence of diabetes and age, and the patient is willing to consent and follow the protocol, making the trial highly relevant to her clinical situation.",
+            "relevance_score_R": 92.0,
+            "eligibility_explanation": "Both inclusion criteria are satisfied: the patient has diabetes (likely type 2) and is over 18 years old. No exclusion criteria are presented, and the patient indicates willingness to comply with the study procedures. Therefore, the patient is fully eligible for the trial.",
+            "eligibility_score_E": 92.0
+        },
+        "NCT00311922": {
+            "relevance_explanation": "The patient is a 64\u2011year\u2011old woman with a documented diagnosis of diabetes mellitus, which directly matches the trial\u2019s target condition (diabetes). The trial seeks adults aged 18\u201180, and the patient falls within this range. The study focuses on improving diabetes self\u2011management, and the patient\u2019s poor medication adherence and reluctance to engage with standard care suggest a need for educational interventions, aligning with the trial\u2019s purpose. The only unrelated element is the skin lesion, which does not impact the diabetes\u2011focused trial. Overall, the patient\u2019s profile is highly relevant to the trial\u2019s objectives.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria (diagnosis of diabetes, appropriate age) and shows no exclusion criteria. However, key eligibility items are missing or uncertain: the most recent A1C value is not provided, the patient has not been referred to the Diabetes Improvement Program, and English proficiency is unknown. Because these gaps prevent confirmation of full eligibility, the patient cannot be considered fully eligible, but the lack of exclusion factors means they are not disqualified. The eligibility assessment is therefore moderately negative, reflecting partial but incomplete eligibility.",
+            "eligibility_score_E": -30.0
         }
     }
 }
