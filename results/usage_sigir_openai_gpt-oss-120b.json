@@ -40715,6 +40715,22 @@
         "total_tokens": 1418,
         "seconds": 1.47
       }
+    },
+    "NCT01117532": {
+      "match": {
+        "calls": 2,
+        "prompt_tokens": 1635,
+        "completion_tokens": 276,
+        "total_tokens": 1911,
+        "seconds": 1.82
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 767,
+        "completion_tokens": 336,
+        "total_tokens": 1103,
+        "seconds": 1.42
+      }
     }
   },
   "sigir-20146": {
@@ -40805,6 +40821,13 @@
         "completion_tokens": 1046,
         "total_tokens": 3092,
         "seconds": 3.49
+      },
+      "agg-baseline": {
+        "calls": 1,
+        "prompt_tokens": 1457,
+        "completion_tokens": 283,
+        "total_tokens": 1740,
+        "seconds": 1.27
       }
     }
   }

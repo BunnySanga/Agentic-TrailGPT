@@ -179130,6 +179130,30 @@
                     ]
                 }
             }
+        },
+        "1": {
+            "NCT01117532": {
+                "inclusion": {
+                    "0": [
+                        "No mention of Beck Depression Inventory score; cannot determine if score \u226519.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Patient is a college student but university not specified; cannot confirm enrollment at University of Santo Tomas.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient is a college student, implying literacy and ability to complete forms; no direct statement but reasonable inference.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
+            }
         }
     },
     "sigir-20146": {

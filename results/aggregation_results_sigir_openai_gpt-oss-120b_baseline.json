@@ -14649,6 +14649,12 @@
             "relevance_score_R": 78.0,
             "eligibility_explanation": "Eligibility hinges on meeting the inclusion criteria of being a full\u2011time, residential undergraduate at a participating campus during the specified years. The note confirms age (20\u202fy) and student status but lacks details on enrollment status, residence hall living, and academic year, so inclusion cannot be confirmed. The only exclusion criterion (under\u201118) is clearly not met, so the patient is not excluded. Consequently, the patient is partially eligible \u2013 not disqualified, but also not definitively eligible.",
             "eligibility_score_E": 30.0
+        },
+        "NCT01117532": {
+            "relevance_explanation": "The patient is a 20\u2011year\u2011old college student presenting with fatigue, increased sleep and appetite, difficulty concentrating, anhedonia, and guilt \u2013 a symptom cluster consistent with depression. The trial targets depression in college students, so the patient\u2019s demographic and clinical presentation are highly pertinent, even though the note does not provide a formal depression severity score. Therefore the overall relevance is strong but not perfect because the specific trial inclusion criteria (e.g., BDI score, enrollment at a particular university) are not confirmed.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "Eligibility requires a BDI score \u226519 and enrollment at the University of Santo Tomas. The patient note does not mention a BDI score, so we cannot confirm the inclusion threshold; this is a major unknown. The note also does not specify the university, leaving that criterion unresolved. The only criterion with clear support is the ability to read and complete forms, which the patient meets. Because the critical inclusion criteria lack sufficient information, the patient is likely ineligible or at best only marginally eligible. The eligibility score is therefore low and positive, reflecting the small amount of supporting evidence but overall uncertainty.",
+            "eligibility_score_E": 12.0
         }
     },
     "sigir-20146": {
@@ -14681,6 +14687,12 @@
             "relevance_score_R": 85.0,
             "eligibility_explanation": "The patient meets several inclusion criteria (diagnosis of diabetes, appropriate age) and shows no exclusion criteria. However, key eligibility items are missing or uncertain: the most recent A1C value is not provided, the patient has not been referred to the Diabetes Improvement Program, and English proficiency is unknown. Because these gaps prevent confirmation of full eligibility, the patient cannot be considered fully eligible, but the lack of exclusion factors means they are not disqualified. The eligibility assessment is therefore moderately negative, reflecting partial but incomplete eligibility.",
             "eligibility_score_E": -30.0
+        },
+        "NCT02222376": {
+            "relevance_explanation": "The patient matches several key inclusion criteria: she is an adult female with diabetes, and she is willing to consent and comply with study procedures. The note describes a painful skin lesion on the lower leg that is likely a diabetic foot ulcer, which aligns with the target condition. However, critical details required for full relevance\u2014Wagner grade (1 or 2) and ulcer duration (>8 weeks)\u2014are missing, and there is no information on ankle\u2011brachial index. These gaps reduce the overall relevance but do not eliminate it.",
+            "relevance_score_R": 78.0,
+            "eligibility_explanation": "While the patient satisfies most inclusion criteria, she is currently using topical lotions and creams on the ulcer, which the protocol excludes as an active pharmacologic topical ulcer treatment. This exclusion alone makes her ineligible despite meeting other criteria. No other exclusion criteria are triggered.",
+            "eligibility_score_E": -78.0
         }
     }
 }
