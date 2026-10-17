@@ -199378,6 +199378,37 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT00001629": {
+                "inclusion": {
+                    "0": [
+                        "Patient is over 18 (sentence 0) but no mention of requiring diagnostic cardiac catheterization; cannot determine requirement.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Criterion applies only to women on chronic estrogen therapy; patient is male, so not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "Patient shows classic signs of heart failure (sentences 0,1,2); meets inclusion for heart failure patients.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "No evidence of any listed exclusion conditions (unstable angina, recent MI, pregnancy, allergy, renal failure, ACE\u2011I dependence). Absence of information suggests exclusions are not present.",
+                        [],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
             }
         }
     },
@@ -201251,6 +201282,91 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT02272920": {
+                "inclusion": {
+                    "0": [
+                        "Patient explicitly states they will provide informed consent (sentence 8).",
+                        [
+                            8
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient is a 58\u2011year\u2011old woman (sentence 0), which falls within the 18\u201180 age range and gender criteria.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No documentation of an acute coronary syndrome diagnosis (STEMI/NSTEMI) nor that PCI was performed; only chest pain described. Therefore the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Patient has hypertension (sentence 3) but is not on any antihypertensive medication (sentence 5) and there is no blood pressure measurement or evidence of treatment with three drugs; thus the criterion is not satisfied.",
+                        [
+                            3,
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "4": [
+                        "Ejection fraction is not mentioned anywhere in the note; insufficient information to determine if it is >40%.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of bleeding disorders, anticoagulant use, or other risk factors for pathological bleeding; absence of evidence suggests patient likely does not have increased bleeding risk.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Blood pressure values are not provided; cannot determine if office systolic BP is <120 mmHg.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Renal artery status is not described in the note; no evidence of abnormalities.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No laboratory data on renal function or eGFR are given; cannot assess if eGFR <30 mL/min.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "The note does not mention any ICD, pacemaker, or other metallic implants; assume none are present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No information on overall prognosis or estimated survival time; cannot assess if <1 year.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No neurocognitive deficits are reported; patient appears oriented.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Sentence 8 states the patient will provide informed consent and comply with the protocol, indicating understanding.",
+                        [
+                            8
+                        ],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Patient is a 58\u2011year\u2011old woman, likely post\u2011menopausal; fertility status not explicitly stated but probability of being fertile is very low.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -201541,6 +201657,40 @@
                     ],
                     "2": [
                         "Criterion is applicable; sentence 6 shows the patient expects no practical issues complying with study requirements, suggesting ability to meet long\u2011term time commitments.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00741299": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old and female, which satisfies the age 18-65 and gender requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Note mentions a history of bipolar disorder but does not specify DSM\u2011IV bipolar I; no direct evidence of bipolar I subtype, and cannot infer it reliably.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Sentence states the patient will provide informed consent and comply with the protocol, indicating ability and willingness.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns unwillingness or inability to participate. The note states the patient will provide informed consent and comply with the protocol, indicating willingness and ability.",
                         [
                             6
                         ],

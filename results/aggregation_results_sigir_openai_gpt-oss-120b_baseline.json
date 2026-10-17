@@ -16255,6 +16255,12 @@
             "relevance_score_R": 20.0,
             "eligibility_explanation": "Eligibility depends on meeting all inclusion criteria and not meeting any exclusion criteria. The patient satisfies the gender, age, and consent criteria, but fails the critical inclusion criterion requiring symptoms or manifestations secondary to GERD or gastroparesis. No evidence of such GI symptoms is present, so the patient is not included on that basis. All exclusion criteria appear to be met (no arrhythmias, bradycardia, electrolyte disorders, etc.), but because a key inclusion criterion is not satisfied, the patient is ineligible. Given the relevance score of 20, the eligibility score is set to the negative extreme, indicating clear ineligibility.",
             "eligibility_score_E": -20.0
+        },
+        "NCT00001629": {
+            "relevance_explanation": "The patient is a 65\u2011year\u2011old male with classic signs of congestive heart failure (exertional dyspnea, orthopnea, bibasilar crackles, peripheral edema, JVD). The trial targets conditions that include heart failure and other cardiovascular diseases and seeks participants who are undergoing diagnostic cardiac catheterization. While the patient clearly matches the disease focus, the note does not state whether he is scheduled for a diagnostic cardiac catheterization, which is a key inclusion requirement. Therefore the patient is highly relevant to the therapeutic area of the study, but there is some uncertainty about meeting the procedural inclusion criterion.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "Based on the criterion\u2011level predictions: the patient satisfies inclusion criterion 2 (heart\u2011failure diagnosis) and shows no evidence of any listed exclusion criteria, so he would be included on that basis. However, inclusion criterion 0 requires that the participant be undergoing diagnostic cardiac catheterization, and the note provides no information about this. Because eligibility cannot be confirmed for that essential requirement, the overall eligibility is positive but not maximal. The patient is therefore likely eligible, but with some uncertainty.",
+            "eligibility_score_E": 60.0
         }
     },
     "sigir-20141": {
@@ -16413,6 +16419,12 @@
             "relevance_score_R": 45.0,
             "eligibility_explanation": "No exclusion criteria are triggered (no prior bariatric surgery, malignancy, or end\u2011stage renal disease mentioned). Inclusion criteria require documented morbid obesity (BMI >30 with a metabolic comorbidity, or BMI >35). Because the BMI is not reported, we cannot determine eligibility; the patient might be eligible but the information is insufficient. Therefore the eligibility score is modestly positive but well below the maximum relevance bound.",
             "eligibility_score_E": 10.0
+        },
+        "NCT02272920": {
+            "relevance_explanation": "The patient matches several trial aspects: age 58 and female (inclusion 1), willingness to consent (inclusion 0), and a history of hypertension (inclusion 3). However, the core trial requirement\u2014having an acute coronary syndrome (STEMI or non\u2011STEMI) treated with PCI\u2014is not documented, and the hypertension is untreated and lacks the required blood\u2011pressure criteria. Cardiac function data (ejection fraction) and several exclusion\u2011related labs are missing, limiting the ability to fully assess relevance. Overall the patient is moderately relevant to the trial but lacks key disease\u2011specific information.",
+            "relevance_score_R": 65.0,
+            "eligibility_explanation": "The patient fulfills the consent, age, gender, and hypertension history criteria, but fails to meet the essential inclusion criteria of a confirmed ACS treated with PCI and the specific hypertension treatment/BP thresholds. No exclusion criteria are clearly triggered, but the missing inclusion elements make the patient ineligible. Therefore the eligibility score is negative, reflecting ineligibility while staying within the relevance bound.",
+            "eligibility_score_E": -40.0
         }
     },
     "sigir-20147": {
@@ -16451,6 +16463,12 @@
             "relevance_score_R": 85.0,
             "eligibility_explanation": "Based on the available information, the patient satisfies the key inclusion criteria (age, consent, bipolar diagnosis) and shows no evidence of any exclusion criteria (no psychosis, competence to consent, willingness to adhere to study requirements). The unknown status of a few procedural inclusion items (standard evaluation, specialist visits, registry forms) prevents a full confirmation of eligibility, but there is no indication of ineligibility. Therefore the eligibility is judged to be positive, though slightly tempered by the missing procedural details, resulting in an eligibility score that is high but less than the maximum relevance.",
             "eligibility_score_E": 70.0
+        },
+        "NCT00741299": {
+            "relevance_explanation": "The trial investigates the relationship between tobacco smoking and bipolar affective disorder. The patient\u2019s note explicitly mentions a history of bipolar disorder, which directly aligns with the target condition of the study. Additionally, the patient meets the basic demographic inclusion (age 26, female) and demonstrates willingness to consent and comply with study procedures. These factors make the patient highly relevant to the trial, though the note does not discuss smoking behavior, which is a secondary focus of the study.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient satisfies the age and gender inclusion criteria and is willing and able to provide informed consent, fulfilling two clear inclusion requirements. However, the trial requires a DSM\u2011IV diagnosis of bipolar I disorder, which is not confirmed in the note; the information is insufficient to determine eligibility for this specific subtype. No exclusion criteria are triggered. Consequently, the patient is partially eligible\u2014eligible on some criteria but lacking definitive confirmation for a key inclusion criterion\u2014resulting in a moderate positive eligibility score within the allowed range.",
+            "eligibility_score_E": 40.0
         }
     }
 }
