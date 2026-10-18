@@ -216499,6 +216499,2773 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT00709202": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old (within 12-59) and has a history of bipolar disorder, matching allowed diagnoses.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Current medications listed are lithium carbonate and zolpidem; neither is an antipsychotic, and there is no mention of antipsychotic use.",
+                        [
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "This item is a header describing weight criteria, not an actual eligibility requirement.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No information on weight change since starting antipsychotics; also antipsychotic use is absent, making the criterion unverifiable.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No data on 7% weight increase in the past year while on antipsychotics; insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "BMI value and recent 10\u2011lb weight gain are not provided; cannot assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No BMI measurement or long\u2011term weight\u2011gain history while on antipsychotics is given.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion lists several medical conditions and medication uses that would exclude a patient. The note shows no asthma, peptic ulcer, pheochromocytoma, or use of weight\u2011loss, metformin, thyroid, lipid\u2011lowering, or diabetes drugs. Pregnancy is not mentioned, and in the absence of evidence we assume she is not pregnant. Therefore she does not meet any exclusion sub\u2011criteria.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02281162": {
+                "inclusion": {
+                    "0": [
+                        "Patient has a documented history of bipolar disorder, which satisfies the DSM\u2011IV diagnosis requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient is 26 years old, which falls within the 21\u201165 year age range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Sentence 6 explicitly states the patient will provide informed consent and comply with the protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Current medications listed are lithium carbonate and zolpidem; there is no mention of quetiapine use, so the criterion is not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of pregnancy; assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient reports thoughts of suicide (sentence 2) but no MINI score; cannot determine high risk.",
+                        [
+                            2
+                        ],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No evidence of unstable medical condition, poor kidney/liver function, or seizure disorder.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Current meds listed (lithium, zolpidem) but no info on stability duration; assume stable or insufficient data.",
+                        [
+                            5
+                        ],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No clozapine or olanzapine use mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No immunosuppressants or orexigenic/anorexigenic drugs reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No amphetamines or methylphenidate reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No hypothyroidism or thyroxine therapy mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Obesity present but no eating disorder, type I diabetes, hyperthyroidism, thyroxine, Topamax, or infectious disease noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No active vitamin D supplementation reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00934908": {
+                "inclusion": {
+                    "0": [
+                        "Patient is not taking olanzapine; medication list shows lithium and zolpidem, so criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "No information about weight stability over the prior 2 weeks; cannot determine if weight has been stable.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No mention of participation in a weight loss program in the past 3 months; insufficient data to confirm.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient is not on any atypical antipsychotic; no evidence of such treatment in note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "BMI not reported; absence of information suggests BMI is not >40.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of dietary supplements for weight gain/loss in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Current meds are lithium and zolpidem, which are not weight/lipid\u2011affecting; no other relevant meds listed.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No blood pressure values or hypertension diagnosis provided; assume not uncontrolled.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Only lithium and zolpidem are listed; no hypertensive medication mentioned.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No evidence of alcohol or substance abuse; not reported in note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No cardiovascular disease mentioned in the note.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00492232": {
+                "inclusion": {
+                    "0": [
+                        "Patient mentions difficulty sleeping but no evidence of chronic insomnia, zolpidem dose, or frequency; cannot confirm criterion.",
+                        [
+                            1,
+                            5
+                        ],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Zolpidem is listed as a current medication, but the indication (difficulty initiating sleep) is not stated.",
+                        [
+                            5
+                        ],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No information on zolpidem dose or duration of \u22653 months.",
+                        [
+                            5
+                        ],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No data on dose, weekly frequency, or 4\u2011week usage pattern.",
+                        [
+                            5
+                        ],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient's willingness to discontinue zolpidem is not mentioned.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "No sleep\u2011history details about habitual bedtime.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No hepatitis B or C test results are provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Female of childbearing age, but no information on sexual activity, contraception use, pregnancy or lactation status.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of hypersensitivity to ramelteon, zolpidem, or melatonin; absence of evidence assumed negative.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No information about participation in other investigational studies or drugs within 30 days; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of shift work or employment-related sleep schedule changes; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient has a documented history of bipolar disorder (sentence 0); this matches the exclusion list.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "No evidence of drug addiction or abuse in the past 12 months; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No evidence of alcohol abuse or consumption >2 drinks/day; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No mention of significant hepatic, renal, endocrine, cardiovascular, gastrointestinal, pulmonary, hematological, or metabolic disease; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "BMI not provided; obesity is noted but exact BMI unknown, cannot determine if >34. Information insufficient.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No clinical abnormal findings reported; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No hepatitis panel result mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No HIV history mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No additional conditions noted that would affect eligibility; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No specific sleep/wake function disorders beyond insomnia are reported; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No indication that the subject cannot complete the study; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No statement that continuation would be against best interests; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "Current medications listed are lithium carbonate and zolpidem; none of the disallowed categories (melatonin, anxiolytics, antipsychotics, etc.) are present.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No melatonin use mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No anxiolytic medication mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "No antipsychotic medication mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "19": [
+                        "No other sedatives besides zolpidem reported; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "20": [
+                        "No hypnotics other than zolpidem reported; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "21": [
+                        "No narcotic analgesics mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "22": [
+                        "No antidepressants listed; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "23": [
+                        "No beta\u2011blockers listed; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "24": [
+                        "No anticonvulsants listed; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "25": [
+                        "No St. John\u2019s wort mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "26": [
+                        "No sedating H1 antihistamines mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "27": [
+                        "No kava\u2011kava mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "28": [
+                        "No systemic steroids mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "29": [
+                        "No Ginkgo\u2011biloba mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "30": [
+                        "No respiratory stimulants mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "31": [
+                        "No diet aids mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "32": [
+                        "No sedating decongestants mentioned; assume not applicable.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01006525": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old, which falls within the required 21-70 range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient is female, but the note does not state pregnancy status or use of birth control; cannot confirm non\u2011pregnant status or birth\u2011control agreement.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient reports difficulty sleeping, but the note lacks details on sleep latency, total sleep time, or restorative quality; cannot verify two required insomnia complaints.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No information provided about DSM\u2011IV criteria for primary insomnia; cannot determine if criteria are met.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Acute or unstable illness not mentioned; no evidence of acute pain, infection, or unstable condition, so likely not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Chronic illnesses (renal failure, liver disease, seizures, dementing) not mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient shows current depression (sentence 0) and suicidal thoughts (sentence 2), meeting the exclusion for current psychiatric disease.",
+                        [
+                            0,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "3": [
+                        "No mention of alcohol or substance abuse history in past two years; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No information about urine drug screen; assume negative as not reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Alcohol consumption not reported; assume \u226414 drinks/week.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Caffeine intake not reported; assume \u2264300\u202fmg/day.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Nighttime smoking not reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Medications listed are lithium carbonate and zolpidem; zolpidem is allowed in this study and lithium is not an excluded drug.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No mention of sleep\u2011disordered breathing or related disorders; assume absent.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02139098": {
+                "inclusion": {
+                    "0": [
+                        "Patient age 26 is within 18-69 range as stated in sentence 0.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No information about language fluency is provided; cannot determine German proficiency.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Sentence 6 explicitly states the patient will provide informed consent.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "No direct evidence of the patient's ability to understand study instructions; not enough info to confirm.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of medical sleep disorder; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No contraindication information provided; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No allergy to amitriptyline mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No allergy to zolpidem mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No acute intoxication reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No urinary retention reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No delirium reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No untreated closed\u2011angle glaucoma reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Patient is female; prostatic hyperplasia not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "9": [
+                        "No pyloric stenosis reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No paralytic ileus reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "Patient expresses thoughts of suicide (sentence 2).",
+                        [
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "12": [
+                        "No liver/kidney/pulmonary insufficiency reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No myasthenia gravis reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No hypokalemia reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No bradycardia reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No coronary heart disease or arrhythmia reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No seizure history reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "No substance dependence reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "19": [
+                        "No allergy to placebo ingredients reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "20": [
+                        "No pregnancy or lactation reported; assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "21": [
+                        "Epworth Sleepiness Scale score not provided; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "22": [
+                        "Insomnia Severity Index score not provided; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "23": [
+                        "Patient has bipolar disorder and depressive symptoms (sentences 0,1,2,3,4).",
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "excluded"
+                    ],
+                    "24": [
+                        "No nicotine consumption reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "25": [
+                        "No statement about willingness to refrain from alcohol.",
+                        [],
+                        "not excluded"
+                    ],
+                    "26": [
+                        "Current medication includes lithium carbonate, a psychotropic drug that interferes with study meds (sentence 5).",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "27": [
+                        "No information on recent medication changes.",
+                        [],
+                        "not enough information"
+                    ],
+                    "28": [
+                        "Patient is taking lithium, a psychotropic medication, within the last 3 months (sentence 5).",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "29": [
+                        "No participation in other trials reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "30": [
+                        "Contraceptive use not mentioned; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "31": [
+                        "No employment with sponsor reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00662155": {
+                "inclusion": {
+                    "0": [
+                        "Patient reports difficulty sleeping but no details on RDC psychophysiologic insomnia criteria; cannot confirm insomnia diagnosis.",
+                        [
+                            1
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "No information on sleep onset latency; cannot determine if >30 minutes.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No information on number or duration of awakenings during the night.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No information on early morning awakenings lasting >30 minutes.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "Since criteria 1\u20113 lack data, cannot establish that any two are present.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "No data on total sleep time, sleep efficiency, frequency of problems, or chronicity >6 months.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient has known bipolar disorder and reports suicidal thoughts, indicating unstable psychiatric illness; this directly meets exclusion criterion.",
+                        [
+                            0,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No mention of other sleep disorder symptoms; cannot confirm presence or absence, insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No polysomnographic data provided; insufficient information to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No report of head injury with loss of consciousness; absence of evidence suggests criterion not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No evidence of illicit substance or alcohol abuse in note; assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Patient is taking lithium carbonate, a CNS active medication besides zolpidem, meeting the exclusion criterion.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "6": [
+                        "No indication of language comprehension problems; assume adequate comprehension.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No information about pregnancy; assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Criterion concerns first-degree relatives; patient\u2019s own bipolar disorder does not satisfy this, and no relatives are mentioned.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00114439": {
+                "inclusion": {
+                    "0": [
+                        "The note provides no information about cannabis use or a DSM\u2011IV diagnosis of cannabis dependence; absence of such detail likely means the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "There is no mention that the patient is seeking treatment for a primary cannabis problem; the note focuses on weight, mood, and bipolar disorder.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "The note does not describe cannabis withdrawal symptoms or that withdrawal is a barrier to abstinence; no evidence of cannabis use at all.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of other drug dependency; not mentioned in note, and absence of such info likely means none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of pregnancy or breastfeeding; absence of info suggests not applicable.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No specific contraindicated medical or psychiatric conditions listed; bipolar disorder is not a contraindication for lithium withdrawal study.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient takes lithium and zolpidem; no known interaction between zolpidem and lithium noted, and no other interacting meds mentioned.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No report of hypersensitivity or prior side effects to lithium.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Patient is currently taking lithium carbonate (sentence 5), indicating she is receiving lithium from another source.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "6": [
+                        "Lithium carbonate is a mood\u2011stabilising medication (sentence 5); patient is therefore on a mood stabiliser, meeting this exclusion.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "7": [
+                        "No opioid pharmacotherapy mentioned in the note.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02096900": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old, not a pediatric patient age 2-9, so criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "ASA class is not mentioned and patient is not undergoing surgery; criterion not applicable to this adult patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No surgery described; patient is not a surgical candidate, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No postoperative admission described; patient is not undergoing surgery, so criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00174876": {
+                "inclusion": {},
+                "exclusion": {}
+            },
+            "NCT02033915": {
+                "inclusion": {
+                    "0": [
+                        "The criterion targets nurses working in specific wards; the patient note describes a 26-year-old female patient, not a nurse, so the premise does not apply.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00088387": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old, which is below the required 40\u201190 age range.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "No diagnosis of Alzheimer disease is mentioned; patient has bipolar disorder instead.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No information about the modified Hachinski Ischemia Score is provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No information about a recent brain MRI is provided.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "The note states the patient will provide informed consent and comply with the protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The exclusion section provides no specific criteria, only a placeholder heading, so it is not applicable to the patient.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT00383643": {
+                "inclusion": {
+                    "0": [
+                        "Sentence 6 explicitly states the patient will provide informed consent, satisfying the criterion.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence 0 gives the patient's age as 26, which falls within the 18-75 range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "The note mentions difficulty sleeping (sentence 1) but does not specify duration of at least six months or distress level; insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No diagnostic information regarding Chronic Insomnia per ICSD is provided; insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No sleep diary or quantitative sleep latency data are present; insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Patient has a history of bipolar disorder (sentence 0) and is on psychiatric medication, indicating she may not be in 'good health' as required.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "6": [
+                        "No information about sterilization status or use of birth control is given; insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Sentence 6 states the patient will comply with the trial protocol, meeting the compliance criterion.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Applicable; patient has bipolar disorder with depressive symptoms, anxiety, and suicidal thoughts indicating uncontrolled psychiatric condition.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "Applicable; no evidence of any sleep disorder other than insomnia is present in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Applicable; current meds listed (lithium, zolpidem). Neither is identified as disallowed by the protocol.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Applicable; no mention of alcohol, narcotic, or other substance abuse.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Applicable; physical examination findings are not reported, assume no clinically significant deviation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Applicable; patient is a woman of child\u2011bearing age but there is no indication of pregnancy or lactation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Applicable; no reported gastrointestinal surgery or metabolic disorder that would affect drug handling.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Applicable; no reported drug sensitivities to sodium oxybate or sedative hypnotics.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00716521": {
+                "inclusion": {
+                    "0": [
+                        "Age is directly stated as 26 in sentence 0, which falls within the required 18-55 range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "The note describes the patient as \"obese,\" which typically corresponds to a BMI >30, outside the required 18-30 range; no exact BMI is provided, but obesity implies the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "While exact weight is not given, an obese adult woman is very likely to weigh more than 50\u202fkg; absence of weight data makes direct confirmation impossible, but it is reasonable to assume the criterion is met.",
+                        [],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient reports difficulty sleeping but no diagnosed sleep disorder is mentioned; cannot confirm history of sleep disorder, and absence is plausible if not noted.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Patient is taking lithium carbonate and zolpidem as listed in sentence 5, indicating concurrent medication use, which directly meets the exclusion criterion.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No mention of alcohol consumption in any sentence; lack of information makes it unclear whether the patient uses alcohol.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Patient has documented medical issues: obesity and bipolar disorder (sentence 0), thus meets the exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "Smoking status is not addressed in the note; cannot determine if the patient smokes.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT01117961": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to be a non\u2011smoker adult. The note confirms the patient is an adult (26\u202fy) but provides no information about smoking status; absence of mention does not guarantee non\u2011smoking, so we cannot confirm the premise.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "The criterion requires pregnancy <\u202f16\u202fweeks gestation. The note contains no mention of pregnancy or gestational age, indicating the patient is not pregnant; thus the criterion is not applicable to her.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion refers to any medical comorbidities. The patient note mentions bipolar disorder (a psychiatric comorbidity) and obesity, both of which are medical conditions that could be considered comorbidities relevant to the trial. Therefore the patient meets this exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT01736709": {
+                "inclusion": {
+                    "1": [
+                        "Patient is 26 years old (meets age) but has bipolar disorder and is on psychiatric medication, indicating she is not a healthy adult as required.",
+                        [
+                            0,
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "No information about the patient\u2019s ability to show a legal identity card or her influenza vaccination history in the past 3 years; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "The note does not mention participation in any other clinical trials; insufficient evidence to confirm.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient\u2019s current medications are lithium carbonate and zolpidem, neither of which are immunosuppressive agents; no immunosuppressive use reported.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "5": [
+                        "Sentence states the patient will provide informed consent and will comply with the trial protocol, indicating ability to understand and sign consent.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Woman, but no mention of breastfeeding or plans for pregnancy; absence of evidence assumed negative.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No allergy history reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No severe vaccine adverse reaction history mentioned; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No autoimmune or immunodeficiency disease noted; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No chronic disease (hepatitis, hypertension, diabetes, CVD) reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No Guillain\u2011Barre syndrome reported; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No pregnancy test result provided; no indication of pregnancy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Current meds are lithium and zolpidem; neither are immunosuppressive per criterion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No temperature measurement reported; no evidence of fever.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "Patient has bipolar disorder and current suicidal thoughts (sentence 2); suicidal ideation within five years meets exclusion.",
+                        [
+                            2,
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "10": [
+                        "Patient consents and appears able to comply; no other contraindicating condition noted.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00820794": {
+                "inclusion": {
+                    "0": [
+                        "Patient has bipolar disorder (sentence 0), indicating she is not a healthy subject; thus she does not meet the healthy volunteer criterion.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "1": [
+                        "Age is explicitly stated as 26 years old (sentence 0), which falls within the required 21\u201155 range, so she meets this criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient is described as \"obese\" (sentence 0); obesity generally corresponds to BMI >30 kg/m2, which is outside the required 18\u201130 range, so she does not meet this criterion.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of prior participation in any PD 332334 study; absence of evidence suggests the patient likely has not participated.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is a female of childbearing age, but the note does not state pregnancy or nursing status; cannot determine.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient is currently taking lithium (sentence 5) and there is no reported allergy to lithium, gabapentin, or pregabalin.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00602394": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires evidence of no clinically significant abnormal findings on physical exam, medical history, or labs. The note provides no such information, so we cannot confirm the absence of abnormalities; there is insufficient data to assess.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of HIV, Hepatitis B or C in note; absence suggests patient does not have these infections.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of enzyme\u2011altering drugs; current meds (lithium, zolpidem) are not known enzyme modifiers.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No report of allergy or adverse reaction to lithium; patient is currently taking lithium without noted issues.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00601575": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires confirmation that there are no clinically significant abnormal findings on physical exam, medical history, or labs. The note provides no information about physical exam results, medical history beyond bipolar disorder and obesity, or laboratory data, so we cannot determine if abnormal findings are present. Absence of mention does not guarantee normal findings.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns recent trial participation; the note does not mention any prior trial enrollment, and absence of such information can be taken to mean the patient has not participated recently.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The criterion requires a positive HIV/Hepatitis test; the note provides no lab results or history of these infections, and lack of mention is taken as absence of infection.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The criterion concerns use of enzyme\u2011altering drugs; lithium carbonate is not an enzyme inducer/inhibitor, and zolpidem is a substrate rather than an inducer, so the patient is not on known enzyme\u2011altering medications.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00494468": {
+                "inclusion": {
+                    "0": [
+                        "Criterion not applicable because patient is 26 years old, outside 2-18 age range.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "Criterion not applicable because patient is adult; parental consent not required.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No information about pregnancy status; cannot determine if patient meets negative pregnancy requirement.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Patient reports difficulty sleeping but no documented physician diagnosis of insomnia.",
+                        [
+                            1
+                        ],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient states she has recently had difficulty sleeping, indicating significant difficulty initiating/maintaining sleep.",
+                        [
+                            1
+                        ],
+                        "included"
+                    ],
+                    "5": [
+                        "Patient is an adult, not in school; criterion about school performance not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "6": [
+                        "No information about intrinsic dyssomnias or other sleep disorders; cannot confirm exclusion.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Patient is currently taking zolpidem, which could affect sleep disturbance, but no explicit attribution is provided.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Pregnancy/breastfeeding not mentioned; absence of evidence taken as not present, criterion applicable to women of child\u2011bearing age.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No evidence of untreated, progressive, or unstable systemic disease in note; assume none present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No laboratory values provided; assume renal and liver tests are within normal limits.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Current meds listed (lithium carbonate, zolpidem) are not known CYP3A/2C9/2D6 inducers or inhibitors; no other interacting drugs noted.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Only sleep\u2011aid medication (zolpidem) is reported; no sleep\u2011impairing drugs identified.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No systemic contraceptive steroids reported; assume patient is not using them.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00469937": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a confirmed extracranial primary malignancy, which is not mentioned in the note; absence of cancer info suggests the patient does not meet it.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Requires multiple brain metastases or a large lesion; no mention of any brain metastases, so the patient likely does not meet this.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Needs the patient to be not eligible for radiosurgery; the note provides no information about radiosurgery eligibility, making it impossible to confirm.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Requires no immediate need for whole\u2011brain radiotherapy; the note gives no indication of such a need, so we cannot determine eligibility.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Requires absence of metastases to the midbrain or brainstem; no metastatic disease is described, thus we cannot confirm this condition.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Performance status not mentioned; cannot determine if Zubrod 0-2; no evidence in note.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "Life expectancy not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Platelet count not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "ANC not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Hemoglobin not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "BUN not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "Creatinine not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Bilirubin not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "ALT not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "Sodium not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "Pregnancy status not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "Negative pregnancy test not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "12": [
+                        "Contraception use not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "13": [
+                        "Neurological stability not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "14": [
+                        "Seizure disorder status not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "15": [
+                        "Patient has bipolar disorder (sentence 0) which is a psychiatric condition that could preclude study completion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "16": [
+                        "Sensory neuropathy not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "17": [
+                        "Patient has bipolar disorder (sentence 0); criterion excludes bipolar disorder.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "18": [
+                        "Thyroid disease not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "19": [
+                        "QTc interval not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "20": [
+                        "Prior concurrent therapy details not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "21": [
+                        "Timing since prior therapy not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "22": [
+                        "Use of listed medications not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "23": [
+                        "Prior radiotherapy to head/neck not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "24": [
+                        "Prior radiosurgery not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "25": [
+                        "Concurrent radiotherapy to other sites not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "26": [
+                        "Concurrent anticonvulsants not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "27": [
+                        "Concurrent psychoactive drugs not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "28": [
+                        "Concurrent thyroid medications not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "29": [
+                        "Concurrent amifostine not mentioned; no evidence.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT00936598": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 26-year-old woman, satisfying age and gender requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of endometrial cancer or related clinical indications; absence of evidence suggests the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No information about scheduled staging surgery; without evidence, the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "The note is written in English and the patient is providing consent, implying sufficient English communication ability.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "4": [
+                        "No neuromuscular or movement disorder is reported; fidgetiness is not a diagnosed disorder.",
+                        [],
+                        "included"
+                    ],
+                    "5": [
+                        "Patient has bipolar disorder with suicidal thoughts, anxiety, sleep difficulty, and irritability, indicating uncontrolled psychiatric illness.",
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "6": [
+                        "Patient is currently taking zolpidem, a hypnotic that affects sleep, which is prohibited by the criterion.",
+                        [
+                            5
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of any prior or concurrent cancer; absence of evidence in note suggests patient does not have cancer history.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Life expectancy not discussed; given patient age and lack of severe illness, unlikely to be <6 months.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No information about pre\u2011surgery hospital admission; assume patient will not be admitted before surgery day.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient appears able to communicate and follow instructions; no evidence of inability to complete study measures.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Sentence 6 explicitly states the patient will provide informed consent, indicating capacity.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01896336": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old, which falls within the 20-64 age range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No diagnosis of primary insomnia is mentioned; difficulty sleeping may be secondary to bipolar disorder or medication, and absence of explicit diagnosis suggests the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "The note does not provide information about sleep maintenance patterns or waking time (e.g., waking up until 3\u202fam).",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Patient is currently taking lithium carbonate and zolpidem, both psychoactive drugs, indicating recent use of psychoactive medication.",
+                        [
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "4": [
+                        "The patient states they will provide informed consent and comply with the protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient has a documented psychiatric disorder (bipolar disorder) which satisfies the premise of a serious psychiatric history; sentence 0 provides direct evidence.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "1": [
+                        "No mention of allergy or hypersensitivity to zolpidem; absence of evidence is taken as no allergy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Obstructive Sleep Apnea not referenced; obesity alone is insufficient without diagnostic evidence.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No polysomnography results are provided; without data we assume the criterion is not met.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No secondary sleep disorders are described in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No history of substance abuse or dependence is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No information about daily alcohol consumption is given.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Patient is a woman of childbearing age but pregnancy status or contraceptive use is not stated; assume not pregnant and using contraception unless noted.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01159652": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old, which falls within 18-50 range.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient reports difficulty sleeping, indicating a sleep complaint.",
+                        [
+                            1
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "No sleep questionnaire data; patient reports difficulty sleeping, suggesting poor sleep quality, thus does not meet good sleep quality criterion.",
+                        [
+                            1
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "No information about time spent in bed each night; cannot determine sufficiency.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Unstable medical condition not mentioned; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient has bipolar disorder, depression, anxiety, suicidal thoughts \u2013 recent psychiatric disorder present.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No diagnosis of sleep disorder reported; difficulty sleeping is a symptom, not a diagnosed disorder.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of substance abuse in note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient is currently taking zolpidem, a prescription hypnotic.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "Patient is taking lithium carbonate, a psychotropic medication.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "6": [
+                        "No information about adverse reaction to benzodiazepines.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Obesity noted but BMI value not provided; cannot determine if >36.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No mention of pregnancy or nursing status.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No information about work schedule; assume not rotating/night shift.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No data on xanthine-containing food/beverage consumption.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "Alcohol consumption not reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "Smoking habits not described.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00781482": {
+                "inclusion": {
+                    "0": [
+                        "Patient is female, criterion requires male; gender mismatch leads to not meeting criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Patient described as obese, implying BMI >30, which is outside the required 18-30 range; no exact BMI provided but obesity indicates failure.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Sentence 6 states the patient will provide informed consent and comply with the trial protocol, directly satisfying willingness to adhere.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "3": [
+                        "Sentence 6 confirms the patient will give informed consent, meeting this requirement.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No lab values are provided; absence of evidence suggests no clinically significant abnormal labs.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Physical exam, vital signs, and EKG results are not mentioned; assume no abnormalities.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No significant medical illnesses are described beyond obesity, which is not necessarily significant; insufficient evidence of a qualifying illness.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient has a diagnosed psychiatric illness (bipolar disorder) and suicidal thoughts, directly meeting the exclusion.",
+                        [
+                            0,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "No mention of recent exposure to ionizing radiation; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No MR imaging results are provided; assume no clinically significant MR abnormality.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No information about metal implants; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No history of epilepsy, fits, or blackouts is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Serology results for Hepatitis B, C, HIV are not provided; assume negative.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "Urine drug screen result is not mentioned; insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "Alcohol screen result is not mentioned; insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No indication of alcoholism or drug addiction is given.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "Caffeine intake is not described; assume below threshold.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "Smoking status is not mentioned; assume no recent smoking.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No acute illness within 7 days is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No mention of claustrophobia; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "No recent blood donation or loss is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "17": [
+                        "No experimental drug or device use is mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "Current use of prescription medications (lithium and zolpidem) within 2 weeks, including a GABA\u2011ergic drug (zolpidem), meets the exclusion.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "19": [
+                        "Psychological issues (suicidal thoughts) could impair consent validity; the note indicates willingness but the presence of severe symptoms suggests exclusion.",
+                        [
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "20": [
+                        "No other condition is described that would compromise the study; insufficient evidence of any such issue.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00684814": {
+                "inclusion": {
+                    "0": [
+                        "Patient is identified as a woman, satisfying the sex criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient age is stated as 26, which meets the minimum age requirement of 18.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Weight requirement refers to being within 15% of ideal weight; the note only describes the patient as obese with no quantitative weight data, so the criterion cannot be assessed.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Patient has bipolar disorder, depressive symptoms, anxiety, insomnia, and suicidal thoughts, indicating she is not in good health as required.",
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "4": [
+                        "The note explicitly states the patient will provide informed consent and comply with the protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of alcohol, substance or drug abuse in the note; cannot determine if there was treatment within past 24 months.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No mention of malignancy, stroke, diabetes, cardiac, renal, liver disease or other serious illness.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No mention of GERD, malabsorption, colon cancer or chronic colitis.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No mention of asthma or its treatment in the past five years.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient reports depressive symptoms, suicidal thoughts and anxiety, indicating a history of mental depression.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "No mention of pulmonary disease.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No mention of sleep apnea.",
+                        [],
+                        "not enough information"
+                    ],
+                    "7": [
+                        "Female patient; no information about pregnancy or lactation status.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No mention of hypersensitivity to zolpidem or related drugs.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No mention of participation in other investigational drug studies.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No mention of recent blood donation.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "No mention of smoking or nicotine use.",
+                        [],
+                        "not enough information"
+                    ]
+                }
+            },
+            "NCT00501540": {
+                "inclusion": {
+                    "0": [
+                        "No mention of neuroendocrine tumor diagnosis; absence suggests patient does not meet this disease requirement.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "No evidence of measurable disease; cannot confirm.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No radiographic progression information provided.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No data on timing since surgery/chemotherapy.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "No data on timing since radiation therapy.",
+                        [],
+                        "not included"
+                    ],
+                    "5": [
+                        "Laboratory values not reported.",
+                        [],
+                        "not included"
+                    ],
+                    "6": [
+                        "Performance status not stated; cannot assume PS 0\u20112.",
+                        [],
+                        "not included"
+                    ],
+                    "7": [
+                        "Sentence 6 states patient will provide informed consent and comply with protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ],
+                    "8": [
+                        "No mention of available tissue specimens.",
+                        [],
+                        "not included"
+                    ],
+                    "9": [
+                        "Sentence 0 gives age 26, which is \u226518.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "10": [
+                        "Pregnancy/lactation status not provided; cannot assume.",
+                        [],
+                        "not included"
+                    ],
+                    "11": [
+                        "Contraception use not mentioned.",
+                        [],
+                        "not included"
+                    ],
+                    "12": [
+                        "Patient is currently on lithium (sentence 5), implying no known allergy to lithium.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "13": [
+                        "No chemotherapy or radiation therapy reported; likely not on concurrent therapy.",
+                        [],
+                        "included"
+                    ],
+                    "14": [
+                        "Header, not an evaluable criterion.",
+                        [],
+                        "not applicable"
+                    ],
+                    "15": [
+                        "No gastrointestinal disease described that would prevent oral intake.",
+                        [],
+                        "not included"
+                    ],
+                    "16": [
+                        "No history of hypothyroidism or active cardiac disease noted.",
+                        [],
+                        "not included"
+                    ],
+                    "17": [
+                        "Current meds (lithium, zolpidem) do not include any prohibited drugs (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "18": [
+                        "Willingness for tumor biopsy not addressed.",
+                        [],
+                        "not included"
+                    ],
+                    "19": [
+                        "No concurrent malignancy mentioned.",
+                        [],
+                        "not included"
+                    ],
+                    "20": [
+                        "Patient is already taking lithium (sentence 5), which excludes her per criterion.",
+                        [
+                            5
+                        ],
+                        "not included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00466193": {
+                "inclusion": {
+                    "0": [
+                        "Applicable criterion; patient note directly states difficulty sleeping indicating a history of sleeplessness.",
+                        [
+                            1
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Allergy not mentioned; assume patient is not allergic, so does not meet exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is currently taking zolpidem, which is the investigational drug, potentially interfering with evaluation; thus meets exclusion.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT00658541": {
+                "inclusion": {
+                    "0": [
+                        "Patient is identified as a woman in sentence 0, satisfying the sex criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence 0 states the patient is 26 years old, meeting the minimum age requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient is described as obese (sentence 0) but no specific weight or height data are provided; cannot determine if weight is within 15% of ideal.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Patient has bipolar disorder, suicidal thoughts, anxiety, and is on lithium (sentences 0,1,2,5), indicating she is not in good health.",
+                        [
+                            0,
+                            1,
+                            2,
+                            5
+                        ],
+                        "not included"
+                    ],
+                    "4": [
+                        "Sentence 6 confirms the patient will provide informed consent and comply with the protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion applicable; no mention of alcohol, substance or drug abuse in note, so assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Criterion applicable; no evidence of malignancy, stroke, diabetes, cardiac, renal or liver disease.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Criterion applicable; no evidence of GERD, malabsorption, colon cancer or chronic colitis.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Criterion applicable; no mention of asthma treatment in past five years.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Patient reports depression, suicidal thoughts and anxiety, meeting the mental depression exclusion.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ],
+                    "5": [
+                        "Criterion applicable; no indication of pregnancy or lactation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No report of hypersensitivity to zolpidem or related drugs.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No vital sign data provided; cannot assess hypotension or bradycardia, assume not present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Patient will provide informed consent and sign the form, so able to read/sign.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No mention of other investigational drug use within 4 weeks.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No mention of recent blood donation.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No mention of smoking or nicotine product use.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00997672": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a clinical diagnosis of probable MSA; the note provides no mention of MSA or related neurological symptoms, and there is no way to infer it from the given information, so the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Age requirement is \u226518 and <80; sentence 0 states the patient is 26 years old, directly satisfying the age criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Heart failure not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Liver disease not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Kidney failure not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Thyroid disease not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "Sick sinus syndrome/ECG changes not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Hyposodemia not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No diuretics listed in meds; assume not using",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Haloperidol/antipsychotics not listed; patient on lithium only",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "NSAIDs or corticosteroids not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "ACE inhibitors not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Aminophyllines not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "Mannitol not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No indication of pregnancy or breastfeeding; assume not",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No acute diseases reported; assume none",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00998634": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a molecular diagnosis of SCA2, which is not mentioned in the note; absence of evidence likely means the patient does not have this diagnosis.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "Age is directly stated as 26, which satisfies the \u226518 and <80 requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "SARA score is not provided and cannot be inferred from the note; there is no way to assume the score meets the threshold.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "SARA score not mentioned; assume not >32",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No evidence of heart failure; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No evidence of liver disease; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No evidence of kidney failure; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No evidence of thyroid disease; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No ECG findings or sick sinus syndrome reported; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Hyposodemia not mentioned; assume absent",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "No diuretic use noted in meds list",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Patient meds are lithium and zolpidem; no haloperidol/antipsychotics",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No NSAIDs or corticosteroids listed",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No ACE inhibitor use mentioned",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "No aminophylline use mentioned",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No mannitol use mentioned",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "Pregnancy/breastfeeding status not provided; assume not applicable for a 26\u2011year\u2011old woman without mention",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No acute diseases reported in note",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00750061": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old, within 18-60 range; gender not a restriction.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of any spinal cord injury history; cannot confirm chronic SCI.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "ASIA classification not referenced; no evidence to assess.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Vertebral level of injury not provided; no evidence of C4\u2011T10 injury.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "Patient's ability to read, understand, and complete VAS not stated; cannot confirm.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Sentence 6 states patient will provide informed consent and comply with protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of hypersensitivity or adverse reaction to lithium; absence of evidence suggests the patient likely does not have this issue.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient has a history of bipolar disorder (psychiatric disease) as stated in sentence 0, which meets the exclusion criterion for significant psychiatric disease.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No evidence of other significant medical diseases or infections in the note; assume none are present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Addison's disease is not mentioned; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No indication of debilitation or dehydration; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Current medications are lithium carbonate and zolpidem; no diuretics or interacting drugs are listed.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "No history of alcohol or drug abuse is provided; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Patient is a female of reproductive age, but pregnancy or lactation status is not mentioned; assume not pregnant/lactating.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Female of childbearing potential is implied, but there is no information about contraceptive use or willingness; insufficient data to determine exclusion.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "No indication of participation in another investigational study; assume not participating.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Patient is currently taking lithium carbonate for bipolar disorder, matching the exclusion criterion of having taken lithium for psychiatric conditions.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "11": [
+                        "Patient explicitly states willingness to provide informed consent and comply with the protocol (sentence 6), indicating likely compliance.",
+                        [
+                            6
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02607696": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 26 years old (meets age >18). No information about pregnancy or breastfeeding, so cannot confirm eligibility regarding that aspect.",
+                        [
+                            0
+                        ],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "BMI range required but patient note does not provide height or weight to calculate BMI.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "Patient has obesity and a history of bipolar disorder, which are significant medical conditions, thus does not meet the 'good health' criterion.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "3": [
+                        "Patient explicitly states willingness to provide informed consent and comply with the protocol.",
+                        [
+                            6
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of hypersensitivity; assume patient does not have it.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No evidence of hepatic or gastrointestinal disease in note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is on chronic therapy (lithium and zolpidem) which is prohibited except oral contraceptives.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "3": [
+                        "Patient has a history of psychiatric disease (bipolar disorder).",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "4": [
+                        "No ECG information provided; cannot assess.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No laboratory result deviations reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Smoking status not mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Coffee/tea intake not reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "Unusual food habits not described.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No history of drug/alcohol addiction reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "Patient is using regular medications (lithium, zolpidem) within 2 weeks, which is excluded.",
+                        [
+                            5
+                        ],
+                        "excluded"
+                    ],
+                    "11": [
+                        "No recent hospitalization mentioned.",
+                        [],
+                        "not excluded"
+                    ],
+                    "12": [
+                        "No recent toxic drug treatment reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "No participation in other experimental research noted.",
+                        [],
+                        "not excluded"
+                    ],
+                    "14": [
+                        "No recent blood donation reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "Potential condition preventing participation not clearly documented (e.g., suicidal ideation). Insufficient information.",
+                        [],
+                        "not enough information"
+                    ],
+                    "16": [
+                        "Pregnancy status not mentioned; assume not pregnant.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     }
