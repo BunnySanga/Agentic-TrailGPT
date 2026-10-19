@@ -59726,6 +59726,271 @@
           }
         }
       ]
+    },
+    "NCT00540267": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "DSM-IV diagnosis of schizophrenia",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note does not mention a DSM\u2011IV diagnosis of schizophrenia; such a major diagnosis would be recorded if present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "No severe Medical and endocrinological disorder",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The note lists hypertension and diet\u2011controlled diabetes, but does not indicate whether these disorders are severe; severity is required to determine exclusion.",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01452243": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Aged over 65 years with normal renal function",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02534714": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Patients with any form of spinal fusion surgery performed by Dr. Daniel Fassett, MD, MBA, Neurosurgeon at OSF-INI from November 1, 2012 to October 31, 2014.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of the required spinal fusion surgery in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "3",
+          "criterion": "50 years old or older.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient age 51 meets the exclusion criterion of \u226550 years.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01698463": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "> age 65",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "age 75 +",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01928134": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "13",
+          "criterion": "Cigarette smoker (>=1/day).",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00386022": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "Non-smokers or smoke less than 10 cigarettes/day",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient smokes 1 pack (~20 cigarettes) per day, exceeding the <10 cigarettes/day limit, so does not meet the inclusion criterion.",
+            "sentence_ids": [
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02164552": {
+      "relevance": 12.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "PCOS diagnosis to include three of the Rotterdam criteria",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note contains no evidence of a PCOS diagnosis or any Rotterdam criteria; therefore the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01314807": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "cases: spirometry (post-bronchodilator) based diagnosis of COPD (GOLD criteria) + smoking history of at least 10 pack-years and active smoking behavior till at least 10 years from the moment of enrollment.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              2
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "7",
+          "criterion": "Significant cardiovascular comorbidity",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01607775": {
+      "relevance": 8.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "2",
+          "criterion": "concomitant neoplastic, metabolic, severe general or infectious disease",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "The patient has diet-controlled diabetes mellitus, a metabolic disease, meeting the exclusion criterion.",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
     }
   },
   "sigir-201524": {
@@ -60880,6 +61145,852 @@
           }
         }
       ]
+    },
+    "NCT02352545": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Cough is the main or only clinical symptom and was persistent for 3-8 weeks",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's cough duration is about 1 week, not the required 3-8 weeks.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01621685": {
+      "relevance": 82.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Men of ages 18 and 30 (Dates of birth 1973-1985) or 55-92 years old (Dates of birth 1911-1948).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Responses to the questionnaire deny current and prior respiratory diseases (including asthma, emphysema, chronic bronchitis, sinusitis and interstitial lung d9sase) and no current respiratory complaints (e.g., cough, wheezing, shortness of breath, allergic rhinitis, and sinusitis). Subjects must not be taking any cardiac medications or admit to a physician-diagnosed cardiac condition.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "7",
+          "criterion": "Negative physical examination of the chest with absence of wheezing and crackles on auscultation of the chest.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "men of: ages < 18, 31-54 and >92 years old;",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "4",
+          "criterion": "one or more positive response to the questionnaire(e.g., current or past respiratory diseases including asthma, emphysema, chronic bronchitis, sinusitis and interstitial lung disease; and/or; current respiratory complaints (e.g., cough, wheezing, shortness of breath, allergic rhinitis, and sinusitis) and/or; admitting to taking a cardiac medication and/or; or physician-diagnosed cardiac condition (e.g., coronary heart disease, angina, myocardial infarction, valvular heart disease, cardiomyopathy, etc.);",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "6",
+          "criterion": "Positive physical examination (performed by Physician/PI) with presence of wheezing and/or crackles on auscultation of the chest;",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00118781": {
+      "relevance": 40.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Orally/nasally intubated and receiving mechanical ventilation for <24 hours prior to scheduled randomization and administration of the first dose of Study Drug, and in the judgment of the attending physician, expected to remain intubated and mechanically ventilated for at least 48 hours",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note does not mention intubation or mechanical ventilation, so criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "Current diagnosis of pneumonia (Patients currently receiving antibiotics for treatment of pneumonia and patients who meet the study definition of clinically defined pneumonia at the time of screening will be excluded.)",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient exhibits fever, productive cough, chest pain, and egophany consistent with clinically defined pneumonia, meeting exclusion criteria.",
+            "sentence_ids": [
+              0,
+              1,
+              2,
+              4,
+              5
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00977366": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "Recent upper respiratory tract infection (<4 weeks) - this can lead to increased sensitivity of the cough reflex which resolves as the infection settles",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient has cold symptoms starting one week ago, which satisfies the recent upper respiratory tract infection (<4 weeks) exclusion criterion.",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01554657": {
+      "relevance": 32.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Patient in medical or surgical intensive care unit",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not indicate admission to a medical or surgical intensive care unit, so the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00271531": {
+      "relevance": 5.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01763008": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients who are diagnosed with nosocomial pneumonia including ventilator-associated pneumonia, complicated intra-abdominal infections or complicated urinary tract infection",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note describes a community\u2011onset illness with no evidence of hospital exposure or nosocomial infection, so the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02458300": {
+      "relevance": 8.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02303600": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Cough is the main or only clinical symptom and was persistent for 3-8 weeks",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's cough duration is about one week, shorter than required 3-8 weeks.",
+            "sentence_ids": [
+              0,
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02591550": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "cough lasting \u2265 8 weeks,characterized by irritating dry cough.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "with respiratory tract infection within 8 weeks.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01952470": {
+      "relevance": 22.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Post bilateral sequential lung transplant",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of lung transplant in the note; absence of such a major surgical history is sufficient to conclude the patient does not meet this inclusion criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "7",
+          "criterion": "New or increased haemoptysis",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note does not mention haemoptysis; absence of this symptom indicates the patient does not meet the criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01118403": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "All patients admitted to intensive care units,with score in the Glasgow Coma scale less than nine.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Requiring mechanical ventilation for more than 48 hours",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Includes all patients with structural or metabolic coma",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "3",
+          "criterion": "Patients with an indication of antibiotic therapy, or who have received more than 2 doses of any antibiotic previously.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0,
+              1,
+              4,
+              5
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00002292": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00702871": {
+      "relevance": 35.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Those on mechanical ventilation for more than 48 hours.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note provides no evidence of mechanical ventilation; therefore the patient does not meet the inclusion criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00858624": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "7",
+          "criterion": "Chronic persistent cough (> 8 weeks) despite investigation and/or treatment trials for cough variant asthma/post nasal drip and gastro-oesophageal reflux disease.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's cough duration is only about one week, not >8 weeks as required.",
+            "sentence_ids": [
+              0,
+              1,
+              2
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "Recent Upper Respiratory Tract Infection (4 weeks)",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient reports a cold that started one week ago, which falls within the 4\u2011week exclusion window.",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01704040": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "b). Healthy with no clinically significant abnormalities as determined by medical history, physical examination, blood chemistry assessments, hematologic assessments, coagulation and urinalysis, measurement of vital signs, and 12-lead electrocardiogram (ECG) performed at Screening Visit 2",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient has acute respiratory symptoms and abnormal exam, not healthy.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "2",
+          "criterion": "Has had any acute illness, including a common cold, within 4 weeks prior to Screening Visit 1, or has had a major illness or hospitalization within 6 months prior to Screening Visit 1",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient reports a cold that began one week ago and is still symptomatic, within 4\u2011week window.",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "4",
+          "criterion": "Has a current infection (eg, sepsis, pneumonia or pyelonephritis), or has been hospitalized and/or received antimicrobials for a serious infection during the 6 months prior to Screening Visit 1",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Findings (fever, productive cough, egophany) indicate a current respiratory infection.",
+            "sentence_ids": [
+              0,
+              5
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00207584": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "- Working at hospital facility where outbreak of Mycoplasma pneumoniae occured",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The patient note does not provide any information about employment, and employment is not a medically essential detail that would necessarily be documented, so the criterion cannot be determined.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00724828": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00530270": {
+      "relevance": 12.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Diagnosis of sickle cell anemia (Hgb SS) or sickle-\u03b20-thalassemia (Hgb S\u03b20)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of sickle cell disease in the note; absence implies not present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Tachypnea (i.e., rapid breathing)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Respiratory rate documented as 15 breaths/min, which is not tachypneic.",
+            "sentence_ids": [
+              4
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Dyspnea or increased work of breathing",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No mention of dyspnea or increased work of breathing; absence suggests not present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02447731": {
+      "relevance": 40.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Healthy male or female volunteers in the age group.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient has acute respiratory illness, not a healthy volunteer.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "Any acute or chronic cardiopulmonary disorder including a simple common cold.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient exhibits acute cold symptoms and respiratory findings, meeting the exclusion criterion.",
+            "sentence_ids": [
+              1,
+              5
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01800942": {
+      "relevance": 5.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01452945": {
+      "relevance": 5.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00588627": {
+      "relevance": 22.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Postnasal Drip with chronic cough:",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Postnasal drip by rhinoscopy",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Cough by visual analog scale.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Cough-variant asthma must be excluded by a negative methacholine challenge test within one year, or documented failure of chronic cough to resolve after administration of inhaled corticosteroid (> one-month duration). Asthma is defined by the ATS guidelines.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "Subjects must have a negative chest radiogram or Chest CT scan within 6 months.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "6",
+          "criterion": "No active GERD symptoms (< 7 RSI score) & a stable dose of Proton Pump Inhibitor (4 weeks).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "9",
+          "criterion": "No cough by visual analog scale.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02058602": {
+      "relevance": 18.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Males/females aged 40 years and over, at the time of signing the informed consent.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Patients will have a diagnosis of IPF as determined by a responsible and experienced Respiratory physician and based on established criteria defined by the American Thoracic Society/European Respiratory Society: American Thoracic Society/European Respiratory Society International Multidisciplinary Consensus Classification of the Idiopathic Interstitial Pneumonias.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "3",
+          "criterion": "Patients with an upper or lower respiratory tract infection within four weeks of Visit 1.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              1,
+              4,
+              5
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00011336": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Spinal cord injury of >= 1 year in duration, and no other neuromuscular diseases",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note provides no evidence of a spinal cord injury of \u22651 year duration; absence of such information means the criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02591563": {
+      "relevance": 5.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "3",
+          "criterion": "Subjects < 6 months old or >36 months old at the time of enrollment",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
     }
   },
   "sigir-201419": {
@@ -61459,6 +62570,3425 @@
             "changed": false,
             "reason": "ECOG performance status not provided; a good note would include this medically important information.",
             "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01243398": {
+      "relevance": 62.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "13",
+          "criterion": "Able to take oral tablets (whole or dispersed)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient has progressive dysphagia affecting solids and liquids, making oral tablet intake unlikely.",
+            "sentence_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02509286": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Histologically verified adenocarcinoma of the esophagus according to the UICC definition (TNM7)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of histologically verified adenocarcinoma in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Pre-treatment stage cT1N+, M0 or cT2-4a, N0/+, M0",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No staging information or cancer diagnosis provided in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01809756": {
+      "relevance": 32.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Patients with histologically proven (N)SCLC (all histological subtypes), treated with concurrent chemo- and radiotherapy.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not mention a histologically proven (N)SCLC diagnosis nor concurrent chemo\u2011radiotherapy; such critical details would normally be documented if present, so the criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00193882": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Biopsy proven Carcinoma of the oesophagus.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not mention a biopsy-proven carcinoma of the oesophagus; such a key diagnosis would be documented if present, so the criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00506324": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "The target population for this study is 125 patients with stages III or IV squamous cell lesions of the oral cavity, oropharynx, pharynx or larynx, or unknown primary.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note provides no evidence of a diagnosis of stage III or IV squamous cell carcinoma of the oral cavity, oropharynx, pharynx, larynx, or unknown primary, and such a major diagnosis would be expected to be mentioned if present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00827671": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Weight loss < 10% in 0.5 yr",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The note states a 25\u2011lb weight loss but does not provide the patient's baseline weight, so it is impossible to determine whether this loss is less than 10% of body weight within 0.5\u202fyr.",
+            "sentence_ids": [
+              4
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02130011": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Histologically proven adenocarcinoma of the gastro-oesophageal junction",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not provide any evidence of a histologically proven adenocarcinoma of the gastro\u2011oesophageal junction; therefore the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01742312": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02445209": {
+      "relevance": 62.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "histologically confirmed inoperable locally advanced, recurrent, or metastatic adenocarcinoma of the stomach or gastro-oesophageal junction;",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of histologically confirmed inoperable locally advanced, recurrent, or metastatic gastric or gastro\u2011oesophageal junction adenocarcinoma in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "4",
+          "criterion": "significant dysphagia that would preclude oral administration of capecitabine",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient reports progressive dysphagia severe enough to impede oral intake, which would preclude oral capecitabine.",
+            "sentence_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00375180": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Diagnosed with head and neck cancer including the lip, oral cavity, salivary glands, paranasal sinuses, oropharynx, nasopharynx, hypopharynx, larynx, and thyroid",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not mention a diagnosis of head and neck cancer, which is required for inclusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01359397": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "7",
+          "criterion": "Able to swallow and retain oral medication.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient clearly cannot swallow oral medication due to progressive dysphagia.",
+            "sentence_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01396707": {
+      "relevance": 12.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00608205": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Histologically confirmed squamous cell carcinoma of the oral cavity, oropharynx, larynx, or hypopharynx",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No histologic confirmation of squamous cell carcinoma is mentioned; the patient likely does not meet this required diagnosis.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "No evidence of nodal disease below the clavicles or distant hematogenous metastases (M0)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The note provides no information about nodal disease or distant metastases; cannot determine if the criterion is met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "11",
+          "criterion": "ECOG performance status 0-1",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "ECOG performance status is not reported; insufficient data to assess.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "22",
+          "criterion": "No unstable or uncontrolled angina",
+          "initial_eligibility": "not included",
+          "final_eligibility": "included",
+          "reviewer": {
+            "label": "included",
+            "changed": true,
+            "reason": "Unstable or uncontrolled angina is a medically important condition that would be noted if present; its absence implies the patient does not have it.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "23",
+          "criterion": "No clinically apparent jaundice",
+          "initial_eligibility": "not included",
+          "final_eligibility": "included",
+          "reviewer": {
+            "label": "included",
+            "changed": true,
+            "reason": "Clinically apparent jaundice would be documented if present; its absence suggests the patient does not have it.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "24",
+          "criterion": "No active infection",
+          "initial_eligibility": "not included",
+          "final_eligibility": "included",
+          "reviewer": {
+            "label": "included",
+            "changed": true,
+            "reason": "Active infection would be mentioned in a thorough note; lack of mention indicates it is absent.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00336609": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Histologically proven oral cavity or oropharyngeal cancers planned to receive a full cycle of daily single fraction radiation therapy (with or without boost) or IMRT +/- chemotherapy.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Histologically proven laryngeal or hypopharyngeal cancers planned to receive a full cycle of daily single fraction radiation (with or without boost) +/- chemotherapy.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "Histologically proven adenocarcinoma of the colon or rectum planned to receive a minimum of 2 cycles of FOLFOX +/- Avastin or Erbitux.1 cycle defined as 2 doses of FOLFOX.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "6",
+          "criterion": "Histologically proven adenocarcinoma of the colon or rectum planned to receive a minimum of 2 cycles of FOLFIRI +/- Avastin or Erbitux. 1 cycle defined as 2 doses of FOLFIRI.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "7",
+          "criterion": "Adenocarcinoma of the breast planned to receive a minimum of 2 cycles of TAC.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "8",
+          "criterion": "Histologically proven adenocarcinoma (any primary) planned to receive a minimum of 2 cycles of capecitabine.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "9",
+          "criterion": "Adenocarcinoma of the breast planned to receive standard or dose-dense doxorubicin and cyclophosphamide (AC) followed by paclitaxel (T) (4 cycles AC followed by 2 cycles T).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "10",
+          "criterion": "Stage 3A or 3B non-small cell lung cancers planned to receive daily single fraction radiation with or without boost (1 fraction daily for 5-6 weeks) +/- Carbo/Taxol.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "11",
+          "criterion": "B-cell Non-Hodgkin's lymphoma (NHL) planned to receive at least 2 cycles of CHOP-14, CHOEP-14, CHOP-DI-14, EPOCH-14 or CHOP-21 +/- rituxan",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00662662": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients with newly diagnosed, previously untreated squamous cell carcinoma of the head and neck (SCCHN) who are candidates for the molecular epidemiology study LAB00-062 of head and neck cancer.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note does not mention a diagnosis of squamous cell carcinoma of the head and neck, so the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00465907": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Histological or cytological diagnosis of non-small cell lung cancer.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not provide any evidence of a histological or cytological diagnosis of non\u2011small cell lung cancer.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Malignant pleural effusion proven by cytological examination.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "There is no mention of a malignant pleural effusion or cytology results in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Patient must have stage IIIB or IV disease with malignant pleural effusion.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note does not describe disease stage or the presence of a malignant pleural effusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "Measurable disease (in addition to malignant pleural effusion).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of measurable disease beyond a pleural effusion is present in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00880906": {
+      "relevance": 65.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02296528": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Profound oropharyngeal feeding tube dependent dysphagia of greater than 12 months duration, as documented by the prevalence of aspiration on fluoroscopic swallow study.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient does not have feeding tube dependence, duration is less than 12 months, and no evidence of aspiration.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Must be receiving 100% of nutritional requirements by enterogastric tube.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No mention of enterogastric tube feeding; patient is not tube dependent.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "22",
+          "criterion": "Patients taking sedatives, narcotics, muscle-relaxants, anxiolytics, medical marijuana, alcohol, nicotine, medicinal nicotine, or other mind-altering medications that may affect safe patient use of the swallowing device.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient reports heavy smoking and drinking, which are listed exclusion substances.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02375581": {
+      "relevance": 58.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Aged \u2265 70 and < 85 years, behavioral status evaluation ECOG scores 0-2",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient is 52 years old, which is outside the required 70-84 age range.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "7",
+          "criterion": "(1) Uncontrolled angina and heart failure, have a history of hospitalization in 3 months; (2) A history of myocardial infarction in the past 6 months; (3) There is a need for antibiotic treatment of acute bacterial or fungal infection; (4) Chronic obstructive pulmonary disease, or other lung disease requiring hospitalization; (5) Drug addiction, alcoholism and AIDS disease or long-term virus carriers; (6) Uncontrollable seizures, or loss of insight because of mental illness.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not excluded",
+          "reviewer": {
+            "label": "not excluded",
+            "changed": true,
+            "reason": "The note mentions heavy drinking but does not provide evidence of alcoholism; therefore the exclusion criterion is not met.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01291823": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "age:70-85 years",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01450748": {
+      "relevance": 22.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Patients with at least one symptom consistent with LPR, including hoarseness, throat clearing, throat pain, globus sensation in the throat, or chronic cough \u2267 4 weeks before entering study",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "9",
+          "criterion": "Patients with a history of alcohol or drug abuse, or with any psychiatric disease",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02333201": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00773227": {
+      "relevance": 32.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Oculopharyngeal muscular dystrophy confirmed by genetic diagnosis (mutation of the GCG) on the chromosome 14)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Oculopharyngeal muscular dystrophy with UES dysfunction",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "salivary or alimentary stasis at fibroscopy of swallowing above the UES,",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "decreased opening of the UES at videofluoroscopy of swallowing A decreased of the pharyngeal propulsion may be associated Written consent of the patient",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01731847": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "first-time stroke confirmed by computed tomography or magnetic resonance image",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note contains no evidence of a stroke; absence of such a medically important diagnosis implies the patient does not meet this inclusion criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00308399": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "18- 45 years old",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "No alarm indicators on clinical assessment (weight loss of more than 7kg, bleeding, recent recurrent vomiting, progressive dysphagia).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0,
+              2,
+              4
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01279824": {
+      "relevance": 40.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Stroke identified by neurological and radiological examination",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of stroke in the note; absence is assumed.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Oropharyngeal dysphagia as confirmed by clinical and radiological examination",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Clinical signs of dysphagia are present, but radiological confirmation is missing.",
+            "sentence_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00306501": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "History of brain injury. No specific localization of brain injury or brain injuyr type will be required for inclusion.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No mention of any brain injury in the patient note; absence of such medically important history means the patient does not meet the criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "Chronic dysphagia can occur as a result of stroke or other brain injury. Lesions in either hemisphere and/or the brain stem may cause dysphagia and aspiration.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "included",
+          "reviewer": {
+            "label": "included",
+            "changed": true,
+            "reason": "The note describes progressive dysphagia over several months, indicating chronic dysphagia, which satisfies the inclusion requirement.",
+            "sentence_ids": [
+              0,
+              1,
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01723358": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02492646": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "patients aged between 20-80 years who were scheduled for surgery under general anesthesia requiring orotracheal intubation",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient meets age requirement but there is no evidence of scheduled surgery requiring orotracheal intubation in the note.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01863264": {
+      "relevance": 5.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01335269": {
+      "relevance": 32.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02322411": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "clinical diagnosis of unilateral ischemic strokes by attending physician (according to the National Institute of Health Stroke Scale (NIHSS))",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note provides no evidence of a unilateral ischemic stroke diagnosis, so the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "within 6 months of acute stroke diagnosis",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No stroke diagnosis is documented; therefore the timing requirement cannot be satisfied.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "a score of 3 or higher on the Penetration-Aspiration scale OR a score of 2 on the Residue scale at any location (oral cavity, valleculae, or pharynx) that is instrumentally documented by a participating SLP during a standardized videofluoroscopic swallowing study",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No instrumental swallowing study scores are documented, so the criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01724411": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Overall healthy",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient has progressive dysphagia, significant weight loss, and heavy smoking/alcohol use, indicating they are not overall healthy.",
+            "sentence_ids": [
+              0,
+              4
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Weight Stable (<3 kg change in the past 4 months, before the trial).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient lost 25 pounds, exceeding the <3\u202fkg weight stability requirement.",
+            "sentence_ids": [
+              4
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "7",
+          "criterion": "Disorders of swallowing, severe dysphagia to food or pills.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "The patient reports progressive dysphagia to solids and liquids, meeting the criterion for severe swallowing disorder.",
+            "sentence_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00412490": {
+      "relevance": 22.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Diagnosis of head and neck malignancy involving an oral cavity site without previous treatment",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of head/neck malignancy involving oral cavity; absence implies not present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Current treatment plan includes surgical intervention",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No information about current surgical treatment plan.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "English speaking",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "Language proficiency is not mentioned; cannot infer English speaking.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01867983": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "9",
+          "criterion": "Use 10 cigarettes per day or more",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The note mentions heavy smoking but provides no quantitative detail to determine if the patient smokes \u226510 cigarettes per day.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "10",
+          "criterion": "BMI of 18.5 or above",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "Weight loss is reported without height or weight, so BMI cannot be calculated to confirm it is \u226518.5.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01578018": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00873535": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Treatment seeking smokers",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note mentions heavy smoking but provides no evidence of seeking treatment for smoking.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "7",
+          "criterion": "Treatment seeking smokers",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Duplicate criterion; still no evidence of treatment\u2011seeking behavior for smoking.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01514552": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Non-smoker",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient is described as a heavy smoker, so does not meet non\u2011smoker inclusion.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Does not currently smoke or has no history of smoking or using tobacco related products (cigarettes, cigars, pipe, snuff, or chewing tobacco) or smoking any non-tobacco related products and urine cotinine (less than 100 ng/mL",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient is a current smoker, failing the detailed non\u2011smoker requirement.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "5",
+          "criterion": "Heavy alcohol consumers defined as >15 glasses/week (one glass = 1.5 oz. liquor, 5 oz. wine, or 12 oz. beer).",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The note mentions heavy drinking but provides no quantitative detail to confirm >15 glasses/week; therefore the exclusion cannot be confirmed.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "9",
+          "criterion": "Have difficulty swallowing (dysphagia), pain with swallowing (odynophagia), salivary gland dysfunction, or xerostomia (dry mouth).",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient clearly has dysphagia as described in multiple sentences.",
+            "sentence_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00897364": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00040287": {
+      "relevance": 22.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00352391": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01199185": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "*18 to 35 years old",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not excluded",
+          "reviewer": {
+            "label": "not excluded",
+            "changed": true,
+            "reason": "Patient age 52 is outside the excluded age range 18-35, so the patient is not excluded.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01862809": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "We will exclude pregnant women and other racial groups because they may represent very small numbers and thus be difficult to match. Hormonal changes associated with pregnancy and unique cultural habits associated with specific ethnic groups could be associated with highly unique or variable microbiome patterns, and therefore reduce the power to detect differences associated with smoking which is our primary goal. We will also exclude subjects with antibiotic usage in the last three months and subjects with previous diagnosed major periodontal disease or cancer because they might be potential confounders.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient is African American, matching the excluded racial group mentioned in the criterion.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01988350": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00591175": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01023828": {
+      "relevance": 12.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients diagnosed with advanced NSCLC stage IIIB/IV who have not received previous chemotherapy",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence in the note of advanced NSCLC diagnosis or prior chemotherapy; assume criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Radiotherapy or both and who have tumor tissue embedded in paraffin blocks or formalin-fixed",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of prior radiotherapy or availability of paraffin\u2011embedded tumor tissue; assume criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01900392": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "BMI between 30 and 45 prior to starting Weight Watchers",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Stable health",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "Substance abuse",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00918307": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "HIV-infected patients",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of HIV infection in the note; assume absent.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "0",
+          "criterion": "current co-dependency to another psychoactive substance",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The note mentions heavy drinking but does not explicitly state dependence; cannot confirm co-dependency.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02017288": {
+      "relevance": 80.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    }
+  },
+  "sigir-201515": {
+    "NCT00861133": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00932425": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00697151": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02428140": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01498146": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01149447": {
+      "relevance": 58.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "all consecutive patients undergoing a successful percutaneous closure of a PFO secondary to a cryptogenic stroke",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note describes a cryptogenic stroke but contains no evidence of a percutaneous PFO closure, so the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01830517": {
+      "relevance": 90.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "5",
+          "criterion": "(7) patients with a severe stroke (NIH stroke scale > 20); (8) patients who could not give their consent to investigators; (9) patients with severely impaired liver function (AST or ALT \u2265 100); (10) patients with severely impaired renal function (serum creatinine \u2265 2.0 mg/dL); (11) patients with cancer; (12) patients who were pregnant or lactating; (13) patients with other grave diseases such as hypertensive encephalopathy, aortic dissection, acute myocardial infarction, or severe congestive heart failure; and (14) patients who were allergic to the test or control drugs",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not excluded",
+          "reviewer": {
+            "label": "not excluded",
+            "changed": true,
+            "reason": "The patient does not meet any of the listed exclusion conditions; thrombolytic therapy is not an exclusion criterion here, and there is no evidence of severe stroke, impaired liver/renal function, cancer, pregnancy, grave diseases, or drug allergy.",
+            "sentence_ids": [
+              0,
+              1,
+              5
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00626041": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00000499": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Men and women, aged 60 or over. Isolated systolic hypertension. Normal diastolic pressure of less than 90 mm Hg.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient meets age requirement but does not have isolated systolic hypertension (BP 120/70).",
+            "sentence_ids": [
+              0,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02164357": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "80 or less years old patients with acute stroke produced by a main artery occlusion",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient age meets criterion but no evidence of a main artery occlusion is documented; therefore does not satisfy inclusion.",
+            "sentence_ids": [
+              0,
+              2
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Patients receiving EVT or IVT within 4.5 hours after onset",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Thrombolytic therapy was administered two weeks ago, not within the required 4.5\u2011hour window.",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00325793": {
+      "relevance": 62.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Acute ischemic cerebral stroke (IS) with uncontrollable hypertension that may need to be controlled for the purpose of considering thrombolytic therapy or anticoagulation therapy.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient had acute ischemic stroke but blood pressure is controlled (120/70), not meeting the requirement of uncontrollable hypertension.",
+            "sentence_ids": [
+              0,
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00623350": {
+      "relevance": 38.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Symptoms consistent with acute stroke (ischemic or hemorrhagic)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Acute presentation of stroke symptoms, per bedside physician discretion (onset generally less than 12 hours and likely less than 3 hours)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00643773": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "3",
+          "criterion": "Hypertension",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient has hypertension explicitly stated in sentence 0.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01550588": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Subjects who have been diagnosed with a high-risk* Patent Foramen Ovale (PFO), echocardiographically verified (*PFO size \u2265 2 mm or atrial septal aneurysm or hypermobility by TEE)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note states the transesophageal echocardiogram found no evidence of abnormalities, indicating no patent foramen ovale, so the inclusion criterion is not met.",
+            "sentence_ids": [
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00374270": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00540527": {
+      "relevance": 70.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Clearly defined time of onset, allowing initiation of intravenous treatment within 3 hours of symptoms onset and intra-arterial treatment within 6 hour of symptoms onset.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's stroke occurred two weeks ago, exceeding the required 3\u2011hour IV and 6\u2011hour IA windows.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "11",
+          "criterion": "Another stroke or serious head trauma within the preceding 3 months",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient had a stroke two weeks ago, which is within the preceding 3\u2011month window.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "20",
+          "criterion": "Any history of prior stroke and concomitant diabetes",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient has a stroke (current event) and type 2 diabetes, satisfying the combined exclusion.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "21",
+          "criterion": "Prior stroke within the last 3 months",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient's stroke occurred two weeks ago, within the last 3 months.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00792220": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Onset of symptoms until call at least 30 min prior to the end of the approved time window for thrombolysis (and not after awakening)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Clinical signs of ischemic stroke with suddenly occurring, measurable neurological deficits defined as impairment of language, motor function, facial palsy or asymmetry",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "Non-acute onset of symptoms",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "2",
+          "criterion": "No focal stroke-like symptoms",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              3
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00840671": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Clinical diagnosis of ischemic stroke causing a measurable neurological deficit defined as impairment of language, motor function, cognition and/or gaze,vision or neglect. Ischemic stroke is defined as an event characterized by the sudden onset of an acute focal neurologic deficit presumed to be due to cerebral ischemia after CT scan excludes haemorrhage.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0,
+              1
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Onset of symptoms within 3 hours prior to initiation of rt-PA administration.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "2",
+          "criterion": "Hospitalisation (except for study purposes) or change of concomitant medication 4 weeks prior to screening or during screening period",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "4",
+          "criterion": "Patients with any history of prior stroke and concomitant diabetes",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "5",
+          "criterion": "Prior stroke within the last 3 months",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02036450": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Heart failure",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not indicate a diagnosis of heart failure; absence of evidence is taken as the condition not being present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00039832": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Diagnosis of acute ischemic stroke with onset between 3 and 24 hours prior to planned start of study drugs. Acute ischemic stroke is defined as a measurable neurological deficit of sudden onset, presumed secondary to focal cerebral ischemia, and not otherwise attributable to ICH or another disease process. Stroke onset will be defined as the time the patient was last known to be without the new clinical deficit. Patients whose deficits have worsened in the last 24 hours are not eligible if their first symptoms started more than 24 hours before. If the stroke started during sleep, stroke onset will be recorded as the time the patient was last known to be intact. A careful history is important to determine when the patient was last without the presenting deficits.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's stroke occurred two weeks ago, outside the 3\u201124\u202fhour onset window.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Disabling neurological deficit attributable to the acute stroke at the start of study drugs.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Symptoms resolved after thrombolysis; no disabling deficit at present.",
+            "sentence_ids": [
+              1
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "22",
+          "criterion": "Safety Related:",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not excluded",
+          "reviewer": {
+            "label": "not excluded",
+            "changed": true,
+            "reason": "The criterion text only says \"Safety Related:\" without specifying a condition; therefore it does not exclude the patient.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "39",
+          "criterion": "INR greater than or equal to 1.4. Patients receiving warfarin prior to entry are eligible provided INR is less than 1.4 and warfarin can be safely discontinued for at least 48 hours.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "No information about INR or warfarin use is provided in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00451620": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01851902": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "Patient has a symptom complex consistent with an arrhythmia (where an ICM may have an alternate indication for use)",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient reports occasional palpitations, shortness of breath and chest pain lasting minutes, which matches the symptom complex consistent with an arrhythmia.",
+            "sentence_ids": [
+              4
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "2",
+          "criterion": "Patient had an ischemic stroke or TIA within past year prior to enrollment",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient had a cryptogenic ischemic stroke two weeks ago, which is within the past year.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00807976": {
+      "relevance": 80.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02018497": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00001965": {
+      "relevance": 32.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients of either gender, aged 18-75 years, with HCM caused by sarcomeric gene mutations determined by existing protocols.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of HCM caused by sarcomeric gene mutation; absence in note implies criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "LV wall thickness of greater than or equal to 20 mm measured in any LV segment by MRI.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "LV wall thickness measurement required; note provides no imaging data.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Severe symptoms refractory to medical treatment (New York Heart Association functional class III or IV).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient reports only occasional mild symptoms, not NYHA class III/IV.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "14",
+          "criterion": "No diabetes mellitus.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient has type 2 diabetes mellitus, violating the 'No diabetes' criterion.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01682096": {
+      "relevance": 40.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Typical or atypical chest pain lasting more than 5 min in the last 24 hs.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note only mentions occasional chest pain lasting a few minutes, without duration >5 minutes or occurrence in the last 24 hours, so criterion not met.",
+            "sentence_ids": [
+              4
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02232022": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Have a presumed stroke etiology: Lacunar or small vessel thrombosis, extra-cranial or intracranial atherosclerotic stenosis or dissection, arteriopathy or vasculitis, hypercoagulable state, aortic arch plaque with or without mobile elements, or evidence of a low-risk cardiac source (e.g., patent foramen ovale with or without atrial septal aneurysm and with or without evidence of venous thromboembolic source).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient has cryptogenic stroke with no identified etiology matching the listed causes.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "7",
+          "criterion": "Patient can have the device implanted within 7 days of the incident ischemic event",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Stroke occurred two weeks ago, exceeding the 7\u2011day implantation window.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "12",
+          "criterion": "Cryptogenic Stroke: A stroke/TIA will be considered cryptogenic if no cause is determined despite extensive inpatient workup according to the standard diagnostic protocol at North Shore University Hospital.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Note explicitly describes the stroke as cryptogenic with extensive negative workup.",
+            "sentence_ids": [
+              0,
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02014896": {
+      "relevance": 80.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "BASE - Arrival to the emergency department or hospital within 18 hrs of symptom onset or last known normal time",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's stroke occurred two weeks ago, outside the 18\u2011hour window.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "BASE 24 - Arrival to the emergency department or hospital within 24 hours +/- 6 hours (i.e. 18 - 30 hour window) of symptom onset or last known normal time and clinical evidence suggesting Acute Ischemic Stroke.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's stroke occurred two weeks ago, outside the 18\u201130 hour window.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "Any form of head trauma, stroke or intracranial hemorrhage in the past 30 days",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient had a stroke two weeks ago, which is within the past 30 days.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02180542": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "time from diagnose to inclusion maximum 7 days.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note states the stroke occurred two weeks ago, exceeding the 7\u2011day maximum, so the patient does not meet the inclusion criterion.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00968786": {
+      "relevance": 70.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Regardless of whether they are currently receiving antihypertensive therapy, systolic blood pressure higher than 140 mmHg or diastolic blood pressure higher than 90 mmHg.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              3
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Whether or not use oral hypoglycemic agents or insulin injections, the fasting plasma is higher than 7.0 mmol/L, or postprandial blood glucose higher than 11.1 mmol/L.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              3
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "2",
+          "criterion": "Stroke, myocardial infarction and other serious cardiovascular and cerebrovascular diseases occurred within 3 months.",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00785057": {
+      "relevance": 65.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Outpatients attending neurology specialty centers, either with or without history of stroke, receiving hypertension medication",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note does not provide evidence that the patient is an outpatient at a neurology specialty center or that she is receiving hypertension medication; absence of such medically important details leads to a 'not included' determination.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02478294": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Have documented AF episodes",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              3,
+              4
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "The occurrence of ischemic stroke, TIA or systemic thromboembolism at least one month before enrollment",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00583401": {
+      "relevance": 68.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patent foramen ovale (PFO); recurrent cryptogenic stroke; failed antiplatelet/anticoagulant therapy",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient lacks required PFO, has only a single cryptogenic stroke and no evidence of failed antiplatelet/anticoagulant therapy.",
+            "sentence_ids": [
+              0,
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02004509": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00001368": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Patient will be excluded if enrollment time is within 30 days of a stroke, myocardial infarction, or surgery. Patient may be enrolled after 30 days of the above events.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Invalid label 'excluded' returned; original kept.",
+            "sentence_ids": null,
+            "valid": false
+          }
+        }
+      ]
+    },
+    "NCT02212496": {
+      "relevance": 58.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Subjects with acute ischemic stroke who presented within 7 days from symptom onset",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient had stroke two weeks ago, exceeding the 7\u2011day window required by the criterion.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02585076": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02451631": {
+      "relevance": 82.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "severe complications (stage IV,V chronic kidney failure, diabetic food complications, unstable angina pectoris, MI or stroke, surgical procedure of coronary & peripheral artery within recent 6 months)",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient had a cryptogenic stroke two weeks ago, which meets the recent stroke exclusion criterion.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00077805": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Onset of symptoms of qualifying stroke within 48 hours prior to randomization. In patients receiving thrombolytic therapy for the acute stroke, such as tissue-type plasminogen activator (tPA), administration of study drug may not start until at least 24 hours after completion of thrombolytic therapy",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient's stroke occurred two weeks ago, exceeding the 48\u2011hour window required for enrollment.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02229812": {
+      "relevance": 70.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "7",
+          "criterion": "Patients with any history of prior stroke and concomitant diabetes",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient has prior stroke and type 2 diabetes as stated.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "8",
+          "criterion": "Prior stroke within the last 3 months",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Stroke occurred two weeks ago, within the 3\u2011month window.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00514735": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "History of symptomatic, continuous atrial fibrillation defined as: Continuous atrial fibrillation lasting greater than 1 year but less than 4 years or nonself-terminating atrial fibrillation, lasting greater than 7 days but no more than 1 year, with at least one failed direct current cardioversion. A failed cardioversion was defined as an unsuccessful cardioversion or one in which normal sinus rhythm was established but not maintained beyond 7 days.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of atrial fibrillation or failed cardioversion in the note; absence implies not meeting the criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Age between 18 and 70 years",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient age is 72, exceeding the upper limit of 70.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Failure of at least one Class I or III rhythm control drug",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No information about use or failure of Class I/III antiarrhythmic drugs; absence implies criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "15",
+          "criterion": "Any history of cerebral vascular disease including stroke or transient ischemic attacks",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient had a cryptogenic stroke two weeks ago, constituting a history of cerebrovascular disease.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01562613": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Hypertensive patients, with a sitting Systolic Blood Pressure above 140 mmHg or 130 mmHg in diabetics and high/very high risk patients, according to ESC/ESH Guidelines",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              3
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Patients being prescribed eprosartan under the terms and conditions of the local label and administered according to standard medical practice",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Patients with at least one of the following conditions:",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Newly diagnosed hypertension,",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "5",
+          "criterion": "Inability to tolerate other antihypertensive medications, or",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "6",
+          "criterion": "Lack of response to current antihypertensive medication(s)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00136773": {
+      "relevance": 68.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Presence of protein in the urine (albuminuria)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "The note does not mention protein or albumin in urine, so the presence cannot be confirmed nor ruled out; this requires specific lab information.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "2",
+          "criterion": "Myocardial infarction or stroke within the last 6 months",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00000556": {
+      "relevance": 40.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Elderly men and women with atrial fibrillation and other risk factors for stroke.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient does not have documented atrial fibrillation, which is required for inclusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    }
+  },
+  "sigir-20156": {
+    "NCT01611896": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02107794": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02373995": {
+      "relevance": 68.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "minimal or no eye signs, defined as lid retraction / lid lag but no other signs.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Original label correctly reflects that the patient has mild exophthalmia, which is an eye sign beyond lid retraction/lag, thus does not meet the minimal or no eye signs criterion.",
+            "sentence_ids": [
+              2
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "8",
+          "criterion": "Moderate-to-severe GO: Patients without sight-threatening GO whose eye disease has sufficient impact on daily life to justify the risks of immunosuppression (if active) or surgical intervention (if inactive). Patients with moderate-to-severe GO usually have any one or more of the following: lid retraction R2 mm, moderate or severe soft tissue involvement, exophthalmos >3 mm above normal for race and gender, inconstant, or constant diplopia.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note lacks any evidence of moderate-to-severe GO features (lid retraction \u22652\u202fmm, significant exophthalmos, or diplopia), so the patient does not meet this inclusion criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "9",
+          "criterion": "Sight -threatening GO: Patients with dysthyroid optic neuropathy (DON) and/or corneal",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No mention of dysthyroid optic neuropathy or corneal ulceration, so the patient does not meet the sight\u2011threatening GO criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00145366": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Patients with nontoxic/subtoxic nodular goiter confirmed by ultrasonography",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient shows hyperthyroid signs and no evidence of a nontoxic/subtoxic nodular goiter, so does not meet the inclusion criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01227499": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01204359": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00677469": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00432146": {
+      "relevance": 88.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00150111": {
+      "relevance": 75.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02203682": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01247077": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "New diagnose of autoimmune thyrotoxicosis",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note does not mention a diagnosis of autoimmune thyrotoxicosis, so the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "biochemically proven with increased thyroxin",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No laboratory results showing increased thyroxin are provided, so the criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "low TSH and elevated TRAb/or positive scintigraphy.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note lacks TSH, TRAb, or scintigraphy data, so the criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02210741": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01182584": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02005250": {
+      "relevance": 90.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02375451": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients who have been treated with radioiodine therapy",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note contains no evidence of prior radioiodine therapy; absence of such a medically important treatment implies the patient does not meet the inclusion criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01163565": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "multinodular goiter",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note contains no evidence of multinodular goiter; such a diagnosis would be documented if present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "thyroid nodule",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note contains no evidence of a thyroid nodule; such a finding would be documented if present.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00796913": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Graves hyperthyroidism in remission after ATD",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00150124": {
+      "relevance": 70.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02620085": {
+      "relevance": 90.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "euthyroid Graves' disease",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient shows hyperthyroid symptoms consistent with active Graves' disease; no evidence of euthyroid status.",
+            "sentence_ids": [
+              0,
+              1,
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00150137": {
+      "relevance": 62.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01885533": {
+      "relevance": 62.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Received radioiodine for treatment of Graves' disease",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not mention receiving radioiodine therapy; absence of evidence is treated as not meeting the inclusion criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Had a minimum of 12 months follow-up after RI",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No information about follow\u2011up duration after radioiodine is provided; therefore the criterion cannot be satisfied.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "4",
+          "criterion": "Most recent RI dose 5 years ago or less at the time of enrollment",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The timing of the most recent radioiodine dose is not mentioned in the note, so the criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00946296": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Patients who have selected surgical resection as treatment of their Graves Disease",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence in the note that the patient selected surgical resection for Graves disease.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "Patients who are clinically hyperthyroid or have T3 or T4 levels 2X the upper limit of normal",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient exhibits multiple clinical signs of hyperthyroidism, meeting the exclusion criterion.",
+            "sentence_ids": [
+              0,
+              1,
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00437931": {
+      "relevance": 22.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "patients with subclinical hypothyroidism or hyperthyroidism",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient shows overt hyperthyroid symptoms, not subclinical thyroid dysfunction.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "patients with thyroid nodules and normal thyroid function",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of thyroid nodules or normal thyroid function; patient exhibits hyperthyroid signs.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00822289": {
+      "relevance": 78.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00348413": {
+      "relevance": 65.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "10",
+          "criterion": "Active disease",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient has 9\u2011month disease duration and no inflammatory index, so does not meet active disease definition.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "26",
+          "criterion": "Active disease is defined as an inflammatory index of at least 3 together with acute or subacute onset (3 months and under) and/or evidence of progression (from history or clinical observation).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Same definition as inclusion:10; patient does not satisfy it.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "4",
+          "criterion": "History of cardiac arrthymias, recent acute myocardial infarction",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Physical exam notes an irregular pulse at 110\u202fbpm, indicating a cardiac arrhythmia.",
+            "sentence_ids": [
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00505011": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01379196": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01717352": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT01320813": {
+      "relevance": 70.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02205801": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT02194920": {
+      "relevance": 30.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients affected by benign thyroid disease undergoing thyroidectomy",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note does not provide evidence of a benign thyroid disease diagnosis nor any plan for thyroidectomy, which are required for inclusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01865838": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Histological confirmation of differentiated thyroid cancer requiring surgery, symptomatic goiters, thyroid nodules requiring histological analysis, or thyrotoxicosis poorly controlled by medication.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note shows hyperthyroid symptoms but no mention of differentiated thyroid cancer, symptomatic goiter, nodules, or poorly controlled thyrotoxicosis; absence of such medically important diagnoses implies criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01913743": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "weight stable",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient explicitly reports a 20 lb weight loss over 9 months, indicating weight is not stable.",
+            "sentence_ids": [
+              0
+            ],
             "valid": true
           }
         }
