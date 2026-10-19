@@ -45935,6 +45935,13 @@
         "completion_tokens": 252,
         "total_tokens": 1934,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1190,
+        "completion_tokens": 532,
+        "total_tokens": 1722,
+        "seconds": 2.25
       }
     },
     "NCT02483663": {
@@ -45951,6 +45958,13 @@
         "completion_tokens": 313,
         "total_tokens": 1745,
         "seconds": 2.81
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1378,
+        "completion_tokens": 634,
+        "total_tokens": 2012,
+        "seconds": 1.71
       }
     },
     "NCT02304250": {
@@ -45967,6 +45981,13 @@
         "completion_tokens": 292,
         "total_tokens": 1501,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1055,
+        "completion_tokens": 165,
+        "total_tokens": 1220,
+        "seconds": 1.34
       }
     },
     "NCT02494960": {
@@ -45983,6 +46004,13 @@
         "completion_tokens": 313,
         "total_tokens": 1547,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 939,
+        "completion_tokens": 121,
+        "total_tokens": 1060,
+        "seconds": 0.92
       }
     },
     "NCT01252225": {
@@ -45999,6 +46027,13 @@
         "completion_tokens": 271,
         "total_tokens": 2165,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1003,
+        "completion_tokens": 369,
+        "total_tokens": 1372,
+        "seconds": 1.5
       }
     },
     "NCT02045342": {
@@ -47045,6 +47080,13 @@
         "completion_tokens": 338,
         "total_tokens": 1516,
         "seconds": 1.62
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1240,
+        "completion_tokens": 315,
+        "total_tokens": 1555,
+        "seconds": 1.29
       }
     },
     "NCT00171561": {
@@ -47061,6 +47103,13 @@
         "completion_tokens": 340,
         "total_tokens": 1421,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1075,
+        "completion_tokens": 201,
+        "total_tokens": 1276,
+        "seconds": 1.78
       }
     },
     "NCT01170559": {
@@ -47077,6 +47126,13 @@
         "completion_tokens": 697,
         "total_tokens": 3563,
         "seconds": 2.74
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00005133": {
@@ -47093,6 +47149,13 @@
         "completion_tokens": 280,
         "total_tokens": 1120,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00451113": {
@@ -47109,6 +47172,13 @@
         "completion_tokens": 297,
         "total_tokens": 1474,
         "seconds": 1.01
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1012,
+        "completion_tokens": 133,
+        "total_tokens": 1145,
+        "seconds": 1.03
       }
     },
     "NCT00417898": {
@@ -48334,6 +48404,13 @@
         "completion_tokens": 348,
         "total_tokens": 1178,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 898,
+        "completion_tokens": 103,
+        "total_tokens": 1001,
+        "seconds": 0.88
       }
     },
     "NCT01789541": {
@@ -48350,6 +48427,13 @@
         "completion_tokens": 359,
         "total_tokens": 1597,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1412,
+        "completion_tokens": 658,
+        "total_tokens": 2070,
+        "seconds": 1.94
       }
     },
     "NCT01528904": {
@@ -48366,6 +48450,13 @@
         "completion_tokens": 275,
         "total_tokens": 1169,
         "seconds": 1.34
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 956,
+        "completion_tokens": 169,
+        "total_tokens": 1125,
+        "seconds": 1.13
       }
     },
     "NCT00471458": {
@@ -48382,6 +48473,13 @@
         "completion_tokens": 293,
         "total_tokens": 1096,
         "seconds": 2.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1100,
+        "completion_tokens": 238,
+        "total_tokens": 1338,
+        "seconds": 1.25
       }
     },
     "NCT00946894": {

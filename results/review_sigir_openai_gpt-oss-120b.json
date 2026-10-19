@@ -64066,6 +64066,245 @@
       "min_relevance": 0.0,
       "selected": false,
       "criteria": []
+    },
+    "NCT02144545": {
+      "relevance": 18.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "BMI more than 40 kg/m2 or more than 35 kg/m2 with comorbidities likely to improve after weight loss.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not enough information",
+          "reviewer": {
+            "label": "not enough information",
+            "changed": true,
+            "reason": "BMI is not reported; the note does not provide enough detail to determine whether the patient meets the BMI threshold.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Morbid obesity established at least five years.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Continued failures to adequately supervised conservative treatments",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "6",
+          "criterion": "No alcohol or drug abuse.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02483663": {
+      "relevance": 5.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Ability and willingness to come with their twin to the University of Washington (Seattle)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No twin information; patient does not meet inclusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Additional Criteria for Aim 1 random sample only: Member of randomly selected MZ pair or",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No twin information; patient does not meet inclusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Additional criteria for Aim 2 random sample only: One member of MZ or same-sex DZ pair with BMI of at least 30 kg/m^2",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No twin or BMI information; patient does not meet inclusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Additional criteria for Aim 3 sample only: Member of randomly selected MZ pair, and not BMI discordant \u2265 5 kg/m^2",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No twin or BMI information; patient does not meet inclusion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "6",
+          "criterion": "Current smoking",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not excluded",
+          "reviewer": {
+            "label": "not excluded",
+            "changed": true,
+            "reason": "The note mentions a history of heavy smoking but does not state current smoking; assume patient is not a current smoker.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02304250": {
+      "relevance": 10.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Elective total thyroidectomy or hemithyroidectomy with lymphadenectomy for thyroid cancer",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "7",
+          "criterion": "Smoking, alcohol drinking history",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02494960": {
+      "relevance": 58.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Chinese residents able to communicate in Chinese (Mandarin or Cantonese)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note indicates African American man with no evidence of Chinese residency or Mandarin/Cantonese language ability.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01252225": {
+      "relevance": 18.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "History of cough for more than 8 weeks.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of chronic cough in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "Current smokers",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "not excluded",
+          "reviewer": {
+            "label": "not excluded",
+            "changed": true,
+            "reason": "The note mentions a history of heavy smoking but does not indicate current smoking; therefore the patient is not a current smoker.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
     }
   },
   "sigir-201515": {
@@ -65415,6 +65654,129 @@
           }
         }
       ]
+    },
+    "NCT02559232": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients \u226518 years of age diagnosed with non-valvular atrial fibrillation with a risk of stroke or systemic embolism treated in primary care centres.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "Patient note shows no diagnosis of non-valvular atrial fibrillation; criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Patients on regular treatment with anticoagulants who have changed their therapeutic regimen due to any clinical situation and have been on treatment with a direct oral anticoagulant for at least three months before being recruited (date of signing the in-formed consent).",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No information about anticoagulant use or DOAC treatment; criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Patients whose first direct oral anticoagulant prescription is written by the specialist (cardiologist, haematologist, internist, etc.) and who are followed in primary care.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence that a specialist prescribed a DOAC; criterion not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00171561": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "elevated blood pressure and pulse pressure",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              3
+            ],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "History of stroke, myocardial infarction, heart failure, chest pain, abnormal heart rhythm",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01170559": {
+      "relevance": 85.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00005133": {
+      "relevance": 92.0,
+      "min_relevance": 0.0,
+      "selected": false,
+      "criteria": []
+    },
+    "NCT00451113": {
+      "relevance": 80.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "evidence of diabetic complications including coronary artery disease, stroke, transient ischemic attacks, peripheral vascular disease, nephropathy, retinopathy, or neuropathy",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Patient has a documented stroke, which is listed as a diabetic complication.",
+            "sentence_ids": [
+              0
+            ],
+            "valid": true
+          }
+        }
+      ]
     }
   },
   "sigir-20156": {
@@ -65989,6 +66351,164 @@
             "sentence_ids": [
               0
             ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT02190214": {
+      "relevance": 70.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Malaysian citizen",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note provides no information about citizenship; therefore the criterion cannot be satisfied.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01789541": {
+      "relevance": 42.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Atrial fibrillation or AV-nodal reentry tachycardia",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No explicit diagnosis of atrial fibrillation or AV\u2011nodal reentry tachycardia in the note.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Fulfills criteria for ablation (severe arrhythmia symptoms; for atrial fibrillation patients, having tried at least one antiarrhythmic agent with poor effect)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No evidence of severe arrhythmia symptoms or prior antiarrhythmic use.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "2",
+          "criterion": "Admitted for ablation for the first time",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No mention of admission for ablation.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "3",
+          "criterion": "Has left blood samples for thyroid status (TSH, free T4, free T3)",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "No mention of left\u2011hand blood sampling for thyroid tests.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "exclusion",
+          "criterion_id": "1",
+          "criterion": "Overt hyperthyroidism",
+          "initial_eligibility": "excluded",
+          "final_eligibility": "excluded",
+          "reviewer": {
+            "label": "excluded",
+            "changed": false,
+            "reason": "Clinical signs (weight loss, sweating, tachycardia, hyperreflexia, exophthalmos) strongly indicate overt hyperthyroidism.",
+            "sentence_ids": [
+              0,
+              1,
+              2
+            ],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT01528904": {
+      "relevance": 20.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Autoimmune hyper or hypothyroidism, diagnosed by an endocrinologist, treated, based on clinical and laboratory tests and ultrasound thyroid examination.",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note shows hyperthyroid symptoms but provides no evidence of a confirmed diagnosis by an endocrinologist, nor laboratory or imaging confirmation required by the criterion.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        }
+      ]
+    },
+    "NCT00471458": {
+      "relevance": 60.0,
+      "min_relevance": 0.0,
+      "selected": true,
+      "criteria": [
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "0",
+          "criterion": "Patients: Radioiodine treatment for hyperthyroidism given in the Tampere University Hospital between January 1969 and June 2002",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The patient note provides no evidence of having received radioactive iodine treatment at the specified hospital and time period, so the inclusion criterion is not met.",
+            "sentence_ids": [],
+            "valid": true
+          }
+        },
+        {
+          "criterion_type": "inclusion",
+          "criterion_id": "1",
+          "criterion": "Controls: age- and gender-matched control subject identified for each patient from the Population Register Centre. The control subject had to be alive at the time when the patient received the first RAI treatment",
+          "initial_eligibility": "not included",
+          "final_eligibility": "not included",
+          "reviewer": {
+            "label": "not included",
+            "changed": false,
+            "reason": "The note does not indicate that the patient is a control subject matched by age and gender, so the inclusion criterion is not met.",
+            "sentence_ids": [],
             "valid": true
           }
         }

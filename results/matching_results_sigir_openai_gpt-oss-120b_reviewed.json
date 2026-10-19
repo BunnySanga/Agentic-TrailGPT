@@ -145853,6 +145853,476 @@
                         "not excluded"
                     ]
                 }
+            },
+            "NCT02144545": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 52 years old (sentence 0), which falls within 18\u201165 years.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "BMI is not reported; the note does not provide enough detail to determine whether the patient meets the BMI threshold.",
+                        [],
+                        "not enough information"
+                    ],
+                    "2": [
+                        "No mention of morbid obesity or its duration; assume the patient does not have established morbid obesity.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No evidence of prior failed conservative weight\u2011loss treatments; assume criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "4": [
+                        "No endocrine disorder is described; given lack of obesity, it is reasonable to assume none are present.",
+                        [],
+                        "included"
+                    ],
+                    "5": [
+                        "Patient states willingness to provide informed consent and comply with protocol (sentence 5), indicating psychological stability.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "6": [
+                        "Patient has a history of heavy drinking (sentence 0), violating the no alcohol/drug abuse rule.",
+                        [
+                            0
+                        ],
+                        "not included"
+                    ],
+                    "7": [
+                        "No psychiatric disorders are mentioned; assume they are absent.",
+                        [],
+                        "included"
+                    ],
+                    "8": [
+                        "Patient\u2019s statement of informed consent and compliance (sentence 5) shows understanding of surgery\u2019s purpose.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "9": [
+                        "Patient\u2019s consent and compliance (sentence 5) imply understanding that surgery aims for ideal weight.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "10": [
+                        "Patient commits to adhere to the trial protocol without practical issues (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "11": [
+                        "Patient will provide informed consent (sentence 5).",
+                        [
+                            5
+                        ],
+                        "included"
+                    ],
+                    "12": [
+                        "Patient is male; criterion applies only to women of childbearing age.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient explicitly states he will provide informed consent, so the 'No acceptance' criterion does not apply.",
+                        [
+                            5
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient is 52 years old (sentence 0), which is between 18 and 65, so age criterion is not met.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of prior bariatric surgery; absence of evidence is taken as not having had it.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of prior gastric surgery; assume none.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No mention of inflammatory bowel disease; assume absent.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02483663": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to have a twin and be willing to travel together; the note provides no information about a twin, so the premise is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "This aims at members of a randomly selected monozygotic twin pair; the note does not mention any twin status, thus the patient does not meet the premise.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Requires the patient to be a member of an MZ or same\u2011sex DZ twin pair with BMI \u226530\u202fkg/m\u00b2; there is no mention of twin status or BMI, so the criterion is not satisfied.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Requires membership in a randomly selected MZ twin pair and non\u2011discordant BMI; no twin or BMI information is present, so the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion not applicable premise met; no evidence of weight loss surgery or program.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No evidence of major medical problems like diabetes or cancer.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of weight loss medication use.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient is male, so pregnancy/menopause not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No evidence of MRI contraindications such as metal implants or claustrophobia.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No evidence of lifetime eating disorder.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "The note mentions a history of heavy smoking but does not state current smoking; assume patient is not a current smoker.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Heavy alcohol use mentioned but quantity not specified; cannot determine if \u22653 drinks/day.",
+                        [],
+                        "not enough information"
+                    ],
+                    "8": [
+                        "No weight provided; cannot confirm >330 lbs.",
+                        [],
+                        "not enough information"
+                    ],
+                    "9": [
+                        "BMI not provided; cannot assess limits.",
+                        [],
+                        "not enough information"
+                    ],
+                    "10": [
+                        "No information on food allergies or taste ability.",
+                        [],
+                        "not enough information"
+                    ],
+                    "11": [
+                        "Patient is not a twin; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "No co\u2011twin involvement; criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT02304250": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to be undergoing an elective total thyroidectomy or hemithyroidectomy with lymphadenectomy for thyroid cancer. The note describes dysphagia, weight loss, and smoking history, with no mention of thyroid cancer or planned thyroid surgery, so the premise is not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient age is 52, which does not meet the >65 or <18 condition; no evidence of age exclusion.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No mention of thyroid tumor or Graves' disease; criterion not relevant to this patient.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "No information about thyroid tumor size; not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No history of prior thyroid surgery; not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "4": [
+                        "No description of surgical pathway; not relevant.",
+                        [],
+                        "not applicable"
+                    ],
+                    "5": [
+                        "ASA classification not provided; cannot determine if >II.",
+                        [],
+                        "not enough information"
+                    ],
+                    "6": [
+                        "No evidence of pharyngitis in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "7": [
+                        "Sentence 0 explicitly states heavy smoking and drinking history, which meets the exclusion criterion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "8": [
+                        "No mention of contraindications or long\u2011term dexamethasone use; assume absent.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT02494960": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 52 years old, which meets the age >=18 requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Patient has a history of heavy smoking, indicating smoking on at least one day in the past 30 days.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "Patient is described as an African American man; no indication of Chinese residency or ability to communicate in Mandarin/Cantonese.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "No mention of a telephone in the note; cannot confirm presence.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The note does not mention any current smoking cessation program or therapy; absence of such information suggests the patient is not receiving an intervention.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "No reference to participation in other smoking\u2011cessation trials; lack of evidence implies the patient is not enrolled elsewhere.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No indication that the physician has judged the patient to need special care for quitting; assume not needed.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient provides informed consent and appears able to communicate; no mention of physical or cognitive communication problems.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01252225": {
+                "inclusion": {
+                    "0": [
+                        "Patient is a 52-year-old male, satisfying age \u226518 and gender; sentence 0 provides age and gender.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No mention of cough in the note; cannot confirm cough duration >8 weeks; absence of cough likely means criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "Chest x\u2011ray result not mentioned; cannot assume normality, so insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "No information about chronic idiopathic cough or cough resistant to treatment; cannot confirm.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Smoking status heading is not a specific exclusion criterion; patient note does not address it.",
+                        [],
+                        "not applicable"
+                    ],
+                    "1": [
+                        "The note mentions a history of heavy smoking but does not indicate current smoking; therefore the patient is not a current smoker.",
+                        [
+                            0
+                        ],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "Patient is not an ex\u2011smoker; criterion does not apply.",
+                        [],
+                        "not applicable"
+                    ],
+                    "3": [
+                        "No prohibited cough\u2011suppressing medications are mentioned; assume not taking.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No anti\u2011arrhythmic medication is mentioned; assume not taking.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No cimetidine, beta\u2011blocker or diuretic use is mentioned; assume not taking.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Cardiovascular conditions heading is not a specific exclusion.",
+                        [],
+                        "not applicable"
+                    ],
+                    "7": [
+                        "No sinoatrial disease, bradycardia or heart block is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "8": [
+                        "No history of ischemic heart disease or heart failure is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "9": [
+                        "No abnormal ECG is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "10": [
+                        "No history of cardiac surgery is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "11": [
+                        "Respiratory conditions heading is not a specific exclusion.",
+                        [],
+                        "not applicable"
+                    ],
+                    "12": [
+                        "No asthma is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "13": [
+                        "CNS/PNS conditions heading is not a specific exclusion.",
+                        [],
+                        "not applicable"
+                    ],
+                    "14": [
+                        "No epilepsy is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "15": [
+                        "No myasthenia gravis is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "16": [
+                        "Miscellaneous heading is not a specific exclusion.",
+                        [],
+                        "not applicable"
+                    ],
+                    "17": [
+                        "No hepatic or renal dysfunction is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "18": [
+                        "No porphyria is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "19": [
+                        "No history of hypersensitivity to lidocaine is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "20": [
+                        "Patient is male; pregnancy/breast\u2011feeding not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "21": [
+                        "No participation in another trial within 6 weeks is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "22": [
+                        "No trauma or ulceration to oral mucosa is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "23": [
+                        "No recent chest or upper airway infection is reported.",
+                        [],
+                        "not excluded"
+                    ],
+                    "24": [
+                        "No stroke, diabetes, Parkinson\u2019s disease or other conditions affecting cough are reported.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -149592,6 +150062,245 @@
                     ]
                 },
                 "exclusion": {}
+            },
+            "NCT02559232": {
+                "inclusion": {
+                    "0": [
+                        "Patient note does not mention a diagnosis of non-valvular atrial fibrillation; therefore the criterion is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "No information about current anticoagulant use or a change to a DOAC for at least three months; criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "No evidence that a specialist prescribed a DOAC; criterion not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "Sentence 5 states the patient will provide informed consent, satisfying this requirement.",
+                        [
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No mention of any anticoagulant therapy change; cannot determine timing, so insufficient evidence.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "No evidence of cognitive impairment in the note; absence suggests patient can understand consent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "The note does not state that the patient has started a DOAC for NVAF; thus the criterion is not met.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00171561": {
+                "inclusion": {
+                    "0": [
+                        "Patient note explicitly states type 2 diabetes, meeting the criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Current blood pressure is 120/70 mm Hg, which is normal; therefore elevated BP is not met.",
+                        [
+                            3
+                        ],
+                        "not included"
+                    ],
+                    "2": [
+                        "No mention of albuminuria; absence of evidence cannot confirm presence, so insufficient information.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Patient's blood pressure is normal (120/70 mm Hg), indicating no severe hypertension.",
+                        [
+                            3
+                        ],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient had a cryptogenic stroke two weeks ago, meeting the history of stroke exclusion.",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "No mention of liver, kidney (non\u2011diabetic), or pancreas disease in the note.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "Patient has type 2 diabetes with normal glucose levels, suggesting controlled disease.",
+                        [
+                            3
+                        ],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "No allergy information is provided; assume no relevant allergy.",
+                        [],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "Criterion is incomplete/unspecified, thus not applicable to this patient.",
+                        [],
+                        "not applicable"
+                    ]
+                }
+            },
+            "NCT01170559": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 72 years old, clearly meets age >=18 criterion.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "Sentence 4 describes occasional palpitations with shortness of breath and chest pain lasting a few minutes, matching episodic symptomatic sustained palpitations.",
+                        [
+                            4
+                        ],
+                        "included"
+                    ],
+                    "2": [
+                        "No explicit statement that palpitations terminate before hospital presentation; episodes are described as self\u2011limited but no info on whether she presented to hospital for them.",
+                        [],
+                        "not enough information"
+                    ],
+                    "3": [
+                        "Frequency of episodes is not specified; only described as occasional, cannot confirm < once every two weeks.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No record of prior ECG or ambulatory monitoring capturing the palpitations; absence of such mention suggests they have not been caught, but not definitive.",
+                        [],
+                        "not enough information"
+                    ],
+                    "5": [
+                        "Sentence 3 reports a normal sinus rhythm on a 12\u2011lead ECG, indicating a normal resting ECG.",
+                        [
+                            3
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "No evidence of contraindications such as anticoagulation, infection, sepsis or fever; assume none are present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient reports occasional palpitations but no description indicating extrasystoles; assume not suggestive.",
+                        [],
+                        "not excluded"
+                    ],
+                    "2": [
+                        "No mention of severe valvular or myocardial disease; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No mention of an audible heart murmur; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "4": [
+                        "ECG described as normal sinus rhythm, indicating no abnormality.",
+                        [
+                            3
+                        ],
+                        "not excluded"
+                    ],
+                    "5": [
+                        "No mention of thyrotoxicosis; assume absent.",
+                        [],
+                        "not excluded"
+                    ],
+                    "6": [
+                        "Patient explicitly states willingness to consent and comply; no refusal.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00005133": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 72 years old (meets age \u226565) and explicitly states willingness to give informed consent; no mention of institutionalization, hospice, radiation, chemotherapy, or wheelchair-bound status, which suggests none of these exclusions apply.",
+                        [
+                            0,
+                            5
+                        ],
+                        "included"
+                    ]
+                },
+                "exclusion": {}
+            },
+            "NCT00451113": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to have type 2 diabetes managed only with diet or metformin. The note confirms type 2 diabetes but does not state the current management regimen, so we cannot determine if only diet or metformin is used.",
+                        [],
+                        "not enough information"
+                    ],
+                    "1": [
+                        "The criterion requires an A1c value < 8.5%. The note provides no laboratory data for hemoglobin A1c, so the requirement cannot be assessed.",
+                        [],
+                        "not enough information"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "Criterion not applicable premise (use of insulin or non\u2011metformin oral agents) is relevant, but note does not mention any such medications; absence of evidence is taken as likely not using them.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "Patient had a cryptogenic stroke two weeks ago (sentence 0), which counts as a diabetic complication (stroke).",
+                        [
+                            0
+                        ],
+                        "excluded"
+                    ],
+                    "2": [
+                        "Patient is explicitly described as having type 2 diabetes; no indication of type 1 or secondary causes.",
+                        [],
+                        "not excluded"
+                    ],
+                    "3": [
+                        "No A1c value is provided; cannot determine if \u22658.5%. Absence of data does not guarantee normal level.",
+                        [],
+                        "not enough information"
+                    ],
+                    "4": [
+                        "No mention of participation in another trial within the past 30 days; assume not participated.",
+                        [],
+                        "not excluded"
+                    ]
+                }
             }
         }
     },
@@ -151284,6 +151993,114 @@
                         "not excluded"
                     ]
                 }
+            }
+        },
+        "0": {
+            "NCT02190214": {
+                "inclusion": {
+                    "0": [
+                        "Patient is 46 years old, which meets the age >=18 requirement.",
+                        [
+                            0
+                        ],
+                        "included"
+                    ],
+                    "1": [
+                        "No information about Malaysian citizenship is provided; absence of evidence suggests the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns lack of consent. The note states the patient will provide informed consent (sentence 3), so the patient does not meet the exclusion condition.",
+                        [
+                            3
+                        ],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT01789541": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires atrial fibrillation or AV\u2011nodal reentry tachycardia; the note mentions an irregular pulse but does not specify either arrhythmia, and there is no evidence of such a diagnosis, so the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion demands severe arrhythmia symptoms and prior use of at least one antiarrhythmic agent with poor effect; the note provides no information about arrhythmia severity, specific diagnosis, or medication history, thus we cannot confirm the requirement and assume it is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "2": [
+                        "The criterion requires admission for ablation for the first time; the note contains no mention of any planned or prior ablation procedure, so we cannot confirm this condition and assume it is not met.",
+                        [],
+                        "not included"
+                    ],
+                    "3": [
+                        "The criterion asks for left\u2011hand blood samples for thyroid status (TSH, free T4, free T3); the note does not mention any blood testing, so this requirement is not demonstrated.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion concerns atrial flutter, which is a specific arrhythmia not mentioned in the note; there is no evidence of flutter and no reason to assume it is present.",
+                        [],
+                        "not excluded"
+                    ],
+                    "1": [
+                        "The patient exhibits classic clinical signs of overt hyperthyroidism (weight loss, sweating, tachycardia, exophthalmia); although labs are not provided, the symptom constellation strongly suggests overt disease, making exclusion likely.",
+                        [
+                            0,
+                            1,
+                            2
+                        ],
+                        "excluded"
+                    ]
+                }
+            },
+            "NCT01528904": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires a confirmed diagnosis of autoimmune hyper- or hypothyroidism by an endocrinologist with supporting labs and ultrasound. The note describes hyperthyroid symptoms but provides no diagnosis, labs, imaging, or specialist confirmation, so the patient does not meet the required premise.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion applies only to pregnant patients seen by a gynecologist before 20 weeks gestation. The note gives no indication that the patient is pregnant or has had any gynecologic evaluation, making the criterion not applicable.",
+                        [],
+                        "not applicable"
+                    ],
+                    "2": [
+                        "This criterion describes the control group composition for the study and does not pertain to individual patient eligibility. It is therefore not applicable to the patient.",
+                        [],
+                        "not applicable"
+                    ]
+                },
+                "exclusion": {
+                    "0": [
+                        "The criterion asks about any other chronic diseases. The note does not mention any chronic condition; absence of mention can be taken as no such disease. No direct evidence is present.",
+                        [],
+                        "not excluded"
+                    ]
+                }
+            },
+            "NCT00471458": {
+                "inclusion": {
+                    "0": [
+                        "The criterion requires the patient to have received radioactive iodine treatment for hyperthyroidism at a specific hospital and time period; the note provides no information about any prior RAI treatment, making it impossible to confirm; absence of such detail likely means the patient does not meet this criterion.",
+                        [],
+                        "not included"
+                    ],
+                    "1": [
+                        "The criterion describes a control subject matched by age and gender, alive at the time of the patient's RAI treatment; the note gives no indication that the patient is a control subject, and without evidence we cannot assume they are; thus the criterion is not met.",
+                        [],
+                        "not included"
+                    ]
+                },
+                "exclusion": {}
             }
         }
     }
