@@ -14126,6 +14126,13 @@
         "completion_tokens": 206,
         "total_tokens": 1018,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02118818": {
@@ -14142,6 +14149,13 @@
         "completion_tokens": 294,
         "total_tokens": 1172,
         "seconds": 0.95
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 969,
+        "completion_tokens": 138,
+        "total_tokens": 1107,
+        "seconds": 0.82
       }
     },
     "NCT02407106": {
@@ -14158,6 +14172,13 @@
         "completion_tokens": 278,
         "total_tokens": 1080,
         "seconds": 0.98
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1089,
+        "completion_tokens": 304,
+        "total_tokens": 1393,
+        "seconds": 1.29
       }
     },
     "NCT02188862": {
@@ -14174,6 +14195,13 @@
         "completion_tokens": 349,
         "total_tokens": 1540,
         "seconds": 0.94
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1460,
+        "completion_tokens": 335,
+        "total_tokens": 1795,
+        "seconds": 1.11
       }
     },
     "NCT02218580": {
@@ -14190,6 +14218,13 @@
         "completion_tokens": 297,
         "total_tokens": 1834,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 931,
+        "completion_tokens": 94,
+        "total_tokens": 1025,
+        "seconds": 0.45
       }
     },
     "NCT02609672": {
@@ -14206,6 +14241,13 @@
         "completion_tokens": 367,
         "total_tokens": 2109,
         "seconds": 1.67
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1648,
+        "completion_tokens": 529,
+        "total_tokens": 2177,
+        "seconds": 1.52
       }
     },
     "NCT01294696": {
@@ -14222,6 +14264,13 @@
         "completion_tokens": 255,
         "total_tokens": 1264,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1144,
+        "completion_tokens": 381,
+        "total_tokens": 1525,
+        "seconds": 1.0
       }
     },
     "NCT01900418": {
@@ -14238,6 +14287,13 @@
         "completion_tokens": 301,
         "total_tokens": 1484,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01920373": {
@@ -14254,6 +14310,13 @@
         "completion_tokens": 254,
         "total_tokens": 1404,
         "seconds": 1.08
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1091,
+        "completion_tokens": 204,
+        "total_tokens": 1295,
+        "seconds": 0.66
       }
     },
     "NCT02111057": {
@@ -14270,6 +14333,13 @@
         "completion_tokens": 355,
         "total_tokens": 1603,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01859130": {
@@ -14286,6 +14356,13 @@
         "completion_tokens": 385,
         "total_tokens": 2089,
         "seconds": 1.56
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01285310": {
@@ -14302,6 +14379,13 @@
         "completion_tokens": 330,
         "total_tokens": 4296,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 3,
+        "prompt_tokens": 4861,
+        "completion_tokens": 1525,
+        "total_tokens": 6386,
+        "seconds": 5.68
       }
     },
     "NCT01423591": {
@@ -14318,6 +14402,13 @@
         "completion_tokens": 298,
         "total_tokens": 2166,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1640,
+        "completion_tokens": 532,
+        "total_tokens": 2172,
+        "seconds": 1.53
       }
     },
     "NCT01058161": {
@@ -14334,6 +14425,13 @@
         "completion_tokens": 348,
         "total_tokens": 1710,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 965,
+        "completion_tokens": 147,
+        "total_tokens": 1112,
+        "seconds": 0.8
       }
     },
     "NCT02592434": {
@@ -14350,6 +14448,13 @@
         "completion_tokens": 260,
         "total_tokens": 4902,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1048,
+        "completion_tokens": 195,
+        "total_tokens": 1243,
+        "seconds": 0.97
       }
     },
     "NCT01273519": {
@@ -14366,6 +14471,13 @@
         "completion_tokens": 360,
         "total_tokens": 1590,
         "seconds": 1.54
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02241148": {
@@ -14382,6 +14494,13 @@
         "completion_tokens": 307,
         "total_tokens": 1749,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 949,
+        "completion_tokens": 136,
+        "total_tokens": 1085,
+        "seconds": 0.65
       }
     },
     "NCT00534495": {
@@ -14398,6 +14517,13 @@
         "completion_tokens": 353,
         "total_tokens": 2420,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 942,
+        "completion_tokens": 92,
+        "total_tokens": 1034,
+        "seconds": 0.42
       }
     },
     "NCT02564237": {
@@ -14414,6 +14540,13 @@
         "completion_tokens": 268,
         "total_tokens": 2536,
         "seconds": 1.46
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1311,
+        "completion_tokens": 562,
+        "total_tokens": 1873,
+        "seconds": 1.48
       }
     },
     "NCT00106535": {
@@ -14430,6 +14563,13 @@
         "completion_tokens": 336,
         "total_tokens": 1387,
         "seconds": 2.1
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1134,
+        "completion_tokens": 336,
+        "total_tokens": 1470,
+        "seconds": 2.03
       }
     },
     "NCT00339157": {
@@ -14446,6 +14586,13 @@
         "completion_tokens": 305,
         "total_tokens": 2532,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1060,
+        "completion_tokens": 167,
+        "total_tokens": 1227,
+        "seconds": 0.66
       }
     },
     "NCT00847236": {
@@ -14462,6 +14609,13 @@
         "completion_tokens": 275,
         "total_tokens": 980,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 935,
+        "completion_tokens": 98,
+        "total_tokens": 1033,
+        "seconds": 0.9
       }
     },
     "NCT01345097": {
@@ -14478,6 +14632,13 @@
         "completion_tokens": 286,
         "total_tokens": 1190,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1078,
+        "completion_tokens": 247,
+        "total_tokens": 1325,
+        "seconds": 1.01
       }
     },
     "NCT01821040": {
@@ -14494,6 +14655,13 @@
         "completion_tokens": 330,
         "total_tokens": 2435,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1188,
+        "completion_tokens": 220,
+        "total_tokens": 1408,
+        "seconds": 1.08
       }
     },
     "NCT01083563": {
@@ -14510,6 +14678,13 @@
         "completion_tokens": 412,
         "total_tokens": 2351,
         "seconds": 1.51
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00094900": {
@@ -14526,6 +14701,13 @@
         "completion_tokens": 418,
         "total_tokens": 4079,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 948,
+        "completion_tokens": 155,
+        "total_tokens": 1103,
+        "seconds": 0.82
       }
     },
     "NCT01782469": {
@@ -14542,6 +14724,13 @@
         "completion_tokens": 309,
         "total_tokens": 1608,
         "seconds": 0.81
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 959,
+        "completion_tokens": 163,
+        "total_tokens": 1122,
+        "seconds": 0.93
       }
     },
     "NCT00977106": {
@@ -14558,6 +14747,13 @@
         "completion_tokens": 335,
         "total_tokens": 1556,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1272,
+        "completion_tokens": 629,
+        "total_tokens": 1901,
+        "seconds": 1.61
       }
     },
     "NCT01459952": {
@@ -14574,6 +14770,13 @@
         "completion_tokens": 300,
         "total_tokens": 1767,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 933,
+        "completion_tokens": 85,
+        "total_tokens": 1018,
+        "seconds": 0.86
       }
     },
     "NCT01396317": {
@@ -14590,6 +14793,13 @@
         "completion_tokens": 303,
         "total_tokens": 1543,
         "seconds": 1.68
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 951,
+        "completion_tokens": 181,
+        "total_tokens": 1132,
+        "seconds": 1.23
       }
     },
     "NCT00023205": {
@@ -14606,6 +14816,13 @@
         "completion_tokens": 284,
         "total_tokens": 1076,
         "seconds": 0.81
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01557322": {
@@ -14622,6 +14839,13 @@
         "completion_tokens": 398,
         "total_tokens": 1591,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00793403": {
@@ -14638,6 +14862,13 @@
         "completion_tokens": 311,
         "total_tokens": 1405,
         "seconds": 1.86
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 969,
+        "completion_tokens": 156,
+        "total_tokens": 1125,
+        "seconds": 0.58
       }
     },
     "NCT02498808": {
@@ -14654,6 +14885,13 @@
         "completion_tokens": 326,
         "total_tokens": 1480,
         "seconds": 1.66
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 924,
+        "completion_tokens": 120,
+        "total_tokens": 1044,
+        "seconds": 0.74
       }
     },
     "NCT02162186": {
@@ -14670,6 +14908,13 @@
         "completion_tokens": 254,
         "total_tokens": 1115,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1148,
+        "completion_tokens": 228,
+        "total_tokens": 1376,
+        "seconds": 0.82
       }
     },
     "NCT00303186": {
@@ -14686,6 +14931,13 @@
         "completion_tokens": 301,
         "total_tokens": 1220,
         "seconds": 1.52
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1039,
+        "completion_tokens": 211,
+        "total_tokens": 1250,
+        "seconds": 1.1
       }
     },
     "NCT02627768": {
@@ -14702,6 +14954,13 @@
         "completion_tokens": 351,
         "total_tokens": 1485,
         "seconds": 1.92
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01748084": {
@@ -14718,6 +14977,13 @@
         "completion_tokens": 294,
         "total_tokens": 1304,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 958,
+        "completion_tokens": 126,
+        "total_tokens": 1084,
+        "seconds": 0.5
       }
     },
     "NCT01550068": {
@@ -14734,6 +15000,13 @@
         "completion_tokens": 223,
         "total_tokens": 1359,
         "seconds": 1.03
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1128,
+        "completion_tokens": 419,
+        "total_tokens": 1547,
+        "seconds": 1.2
       }
     },
     "NCT01258738": {
@@ -14750,6 +15023,13 @@
         "completion_tokens": 309,
         "total_tokens": 1567,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1175,
+        "completion_tokens": 429,
+        "total_tokens": 1604,
+        "seconds": 1.56
       }
     },
     "NCT01298531": {
@@ -14766,6 +15046,13 @@
         "completion_tokens": 330,
         "total_tokens": 1423,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00205985": {
@@ -14782,6 +15069,13 @@
         "completion_tokens": 270,
         "total_tokens": 1264,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1035,
+        "completion_tokens": 303,
+        "total_tokens": 1338,
+        "seconds": 1.57
       }
     },
     "NCT01103635": {
@@ -14798,6 +15092,13 @@
         "completion_tokens": 242,
         "total_tokens": 1340,
         "seconds": 0.9
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 924,
+        "completion_tokens": 116,
+        "total_tokens": 1040,
+        "seconds": 0.78
       }
     },
     "NCT00342199": {
@@ -14814,6 +15115,13 @@
         "completion_tokens": 200,
         "total_tokens": 1787,
         "seconds": 0.93
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00422227": {
@@ -14830,6 +15138,13 @@
         "completion_tokens": 336,
         "total_tokens": 1330,
         "seconds": 1.87
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00420238": {
@@ -14846,6 +15161,13 @@
         "completion_tokens": 296,
         "total_tokens": 1228,
         "seconds": 1.12
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1030,
+        "completion_tokens": 271,
+        "total_tokens": 1301,
+        "seconds": 1.4
       }
     },
     "NCT01169597": {
@@ -14862,6 +15184,13 @@
         "completion_tokens": 295,
         "total_tokens": 1516,
         "seconds": 1.44
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1077,
+        "completion_tokens": 155,
+        "total_tokens": 1232,
+        "seconds": 1.35
       }
     }
   },
@@ -14880,6 +15209,13 @@
         "completion_tokens": 337,
         "total_tokens": 1496,
         "seconds": 0.97
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1639,
+        "completion_tokens": 451,
+        "total_tokens": 2090,
+        "seconds": 1.54
       }
     },
     "NCT01231945": {
@@ -14896,6 +15232,13 @@
         "completion_tokens": 322,
         "total_tokens": 1772,
         "seconds": 1.54
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00458562": {
@@ -14912,6 +15255,13 @@
         "completion_tokens": 391,
         "total_tokens": 1837,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1070,
+        "completion_tokens": 456,
+        "total_tokens": 1526,
+        "seconds": 1.53
       }
     },
     "NCT01158209": {
@@ -14928,6 +15278,13 @@
         "completion_tokens": 291,
         "total_tokens": 1280,
         "seconds": 0.93
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01671462": {
@@ -14944,6 +15301,13 @@
         "completion_tokens": 294,
         "total_tokens": 1256,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01213459": {
@@ -14960,6 +15324,13 @@
         "completion_tokens": 297,
         "total_tokens": 1308,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00743626": {
@@ -14976,6 +15347,13 @@
         "completion_tokens": 349,
         "total_tokens": 1241,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00435214": {
@@ -14992,6 +15370,13 @@
         "completion_tokens": 322,
         "total_tokens": 1311,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 885,
+        "completion_tokens": 113,
+        "total_tokens": 998,
+        "seconds": 0.61
       }
     },
     "NCT02328872": {
@@ -15008,6 +15393,13 @@
         "completion_tokens": 236,
         "total_tokens": 1619,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00461760": {
@@ -15024,6 +15416,13 @@
         "completion_tokens": 325,
         "total_tokens": 1377,
         "seconds": 1.26
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00443313": {
@@ -15040,6 +15439,13 @@
         "completion_tokens": 282,
         "total_tokens": 1888,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00092521": {
@@ -15056,6 +15462,13 @@
         "completion_tokens": 622,
         "total_tokens": 2340,
         "seconds": 2.13
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01824992": {
@@ -15072,6 +15485,13 @@
         "completion_tokens": 310,
         "total_tokens": 1226,
         "seconds": 1.07
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00673192": {
@@ -15088,6 +15508,13 @@
         "completion_tokens": 323,
         "total_tokens": 1572,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1011,
+        "completion_tokens": 251,
+        "total_tokens": 1262,
+        "seconds": 0.91
       }
     },
     "NCT00854269": {
@@ -15104,6 +15531,13 @@
         "completion_tokens": 314,
         "total_tokens": 1595,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1016,
+        "completion_tokens": 244,
+        "total_tokens": 1260,
+        "seconds": 1.02
       }
     },
     "NCT01446198": {
@@ -15120,6 +15554,13 @@
         "completion_tokens": 275,
         "total_tokens": 1043,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00518336": {
@@ -15136,6 +15577,13 @@
         "completion_tokens": 374,
         "total_tokens": 1446,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 876,
+        "completion_tokens": 136,
+        "total_tokens": 1012,
+        "seconds": 0.65
       }
     },
     "NCT00736216": {
@@ -15152,6 +15600,13 @@
         "completion_tokens": 287,
         "total_tokens": 1176,
         "seconds": 0.98
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 994,
+        "completion_tokens": 274,
+        "total_tokens": 1268,
+        "seconds": 1.07
       }
     },
     "NCT01539668": {
@@ -15168,6 +15623,13 @@
         "completion_tokens": 213,
         "total_tokens": 882,
         "seconds": 0.99
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02113514": {
@@ -15184,6 +15646,13 @@
         "completion_tokens": 308,
         "total_tokens": 1342,
         "seconds": 1.26
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01550783": {
@@ -15200,6 +15669,13 @@
         "completion_tokens": 282,
         "total_tokens": 1280,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 873,
+        "completion_tokens": 152,
+        "total_tokens": 1025,
+        "seconds": 1.06
       }
     },
     "NCT01881659": {
@@ -15216,6 +15692,13 @@
         "completion_tokens": 267,
         "total_tokens": 1336,
         "seconds": 1.0
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 883,
+        "completion_tokens": 179,
+        "total_tokens": 1062,
+        "seconds": 0.85
       }
     },
     "NCT00120848": {
@@ -15232,6 +15715,13 @@
         "completion_tokens": 318,
         "total_tokens": 1294,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 910,
+        "completion_tokens": 157,
+        "total_tokens": 1067,
+        "seconds": 0.95
       }
     },
     "NCT01824537": {
@@ -15248,6 +15738,13 @@
         "completion_tokens": 329,
         "total_tokens": 1515,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00122681": {
@@ -15264,6 +15761,13 @@
         "completion_tokens": 400,
         "total_tokens": 2617,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 893,
+        "completion_tokens": 96,
+        "total_tokens": 989,
+        "seconds": 1.13
       }
     },
     "NCT00925288": {
@@ -15280,6 +15784,13 @@
         "completion_tokens": 271,
         "total_tokens": 1398,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 963,
+        "completion_tokens": 173,
+        "total_tokens": 1136,
+        "seconds": 0.83
       }
     },
     "NCT02634190": {
@@ -15296,6 +15807,13 @@
         "completion_tokens": 270,
         "total_tokens": 1290,
         "seconds": 1.6
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00421486": {
@@ -15312,6 +15830,13 @@
         "completion_tokens": 233,
         "total_tokens": 935,
         "seconds": 0.95
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01131312": {
@@ -15328,6 +15853,13 @@
         "completion_tokens": 320,
         "total_tokens": 1629,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 899,
+        "completion_tokens": 135,
+        "total_tokens": 1034,
+        "seconds": 0.49
       }
     },
     "NCT00119509": {
@@ -15344,6 +15876,13 @@
         "completion_tokens": 295,
         "total_tokens": 1381,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1139,
+        "completion_tokens": 321,
+        "total_tokens": 1460,
+        "seconds": 1.31
       }
     },
     "NCT01034358": {
@@ -15360,6 +15899,13 @@
         "completion_tokens": 315,
         "total_tokens": 1173,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 879,
+        "completion_tokens": 126,
+        "total_tokens": 1005,
+        "seconds": 0.61
       }
     },
     "NCT01953094": {
@@ -15376,6 +15922,13 @@
         "completion_tokens": 298,
         "total_tokens": 1133,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1006,
+        "completion_tokens": 165,
+        "total_tokens": 1171,
+        "seconds": 0.89
       }
     },
     "NCT01097356": {
@@ -15392,6 +15945,13 @@
         "completion_tokens": 276,
         "total_tokens": 1110,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 898,
+        "completion_tokens": 133,
+        "total_tokens": 1031,
+        "seconds": 0.89
       }
     },
     "NCT01512784": {
@@ -15408,6 +15968,13 @@
         "completion_tokens": 321,
         "total_tokens": 2059,
         "seconds": 1.73
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 953,
+        "completion_tokens": 199,
+        "total_tokens": 1152,
+        "seconds": 1.02
       }
     },
     "NCT00501189": {
@@ -15424,6 +15991,13 @@
         "completion_tokens": 297,
         "total_tokens": 1472,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 974,
+        "completion_tokens": 191,
+        "total_tokens": 1165,
+        "seconds": 0.75
       }
     },
     "NCT01086709": {
@@ -15440,6 +16014,13 @@
         "completion_tokens": 334,
         "total_tokens": 1837,
         "seconds": 1.26
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 907,
+        "completion_tokens": 133,
+        "total_tokens": 1040,
+        "seconds": 0.78
       }
     },
     "NCT02431520": {
@@ -15456,6 +16037,13 @@
         "completion_tokens": 301,
         "total_tokens": 1271,
         "seconds": 1.08
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 889,
+        "completion_tokens": 158,
+        "total_tokens": 1047,
+        "seconds": 0.95
       }
     },
     "NCT00316693": {
@@ -15472,6 +16060,13 @@
         "completion_tokens": 331,
         "total_tokens": 2463,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 902,
+        "completion_tokens": 109,
+        "total_tokens": 1011,
+        "seconds": 0.76
       }
     },
     "NCT02561208": {
@@ -15488,6 +16083,13 @@
         "completion_tokens": 325,
         "total_tokens": 1647,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 904,
+        "completion_tokens": 172,
+        "total_tokens": 1076,
+        "seconds": 0.63
       }
     },
     "NCT00294047": {
@@ -15504,6 +16106,13 @@
         "completion_tokens": 285,
         "total_tokens": 2268,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 896,
+        "completion_tokens": 126,
+        "total_tokens": 1022,
+        "seconds": 0.81
       }
     },
     "NCT01207999": {
@@ -15520,6 +16129,13 @@
         "completion_tokens": 268,
         "total_tokens": 1092,
         "seconds": 0.83
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1000,
+        "completion_tokens": 249,
+        "total_tokens": 1249,
+        "seconds": 0.73
       }
     },
     "NCT01192282": {
@@ -15536,6 +16152,13 @@
         "completion_tokens": 274,
         "total_tokens": 1030,
         "seconds": 0.89
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 895,
+        "completion_tokens": 129,
+        "total_tokens": 1024,
+        "seconds": 0.75
       }
     },
     "NCT01637298": {
@@ -15552,6 +16175,13 @@
         "completion_tokens": 223,
         "total_tokens": 982,
         "seconds": 0.9
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00520117": {
@@ -15568,6 +16198,13 @@
         "completion_tokens": 267,
         "total_tokens": 1113,
         "seconds": 2.52
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 878,
+        "completion_tokens": 142,
+        "total_tokens": 1020,
+        "seconds": 0.56
       }
     },
     "NCT01826045": {
@@ -15584,6 +16221,13 @@
         "completion_tokens": 366,
         "total_tokens": 1729,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     }
   },
@@ -15602,6 +16246,13 @@
         "completion_tokens": 338,
         "total_tokens": 1447,
         "seconds": 1.7
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 954,
+        "completion_tokens": 129,
+        "total_tokens": 1083,
+        "seconds": 0.83
       }
     },
     "NCT01628315": {
@@ -15618,6 +16269,13 @@
         "completion_tokens": 275,
         "total_tokens": 1222,
         "seconds": 0.86
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1144,
+        "completion_tokens": 505,
+        "total_tokens": 1649,
+        "seconds": 2.14
       }
     },
     "NCT01315704": {
@@ -15634,6 +16292,13 @@
         "completion_tokens": 316,
         "total_tokens": 1518,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00031369": {
@@ -15650,6 +16315,13 @@
         "completion_tokens": 289,
         "total_tokens": 1928,
         "seconds": 0.88
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1401,
+        "completion_tokens": 379,
+        "total_tokens": 1780,
+        "seconds": 1.25
       }
     },
     "NCT00002414": {
@@ -15666,6 +16338,13 @@
         "completion_tokens": 287,
         "total_tokens": 1213,
         "seconds": 0.79
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1034,
+        "completion_tokens": 238,
+        "total_tokens": 1272,
+        "seconds": 0.66
       }
     },
     "NCT00077896": {
@@ -15682,6 +16361,13 @@
         "completion_tokens": 327,
         "total_tokens": 1573,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02212119": {
@@ -15698,6 +16384,13 @@
         "completion_tokens": 360,
         "total_tokens": 1427,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01960985": {
@@ -15714,6 +16407,13 @@
         "completion_tokens": 315,
         "total_tokens": 1637,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1044,
+        "completion_tokens": 307,
+        "total_tokens": 1351,
+        "seconds": 1.16
       }
     },
     "NCT00340301": {
@@ -15730,6 +16430,13 @@
         "completion_tokens": 366,
         "total_tokens": 1286,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01238926": {
@@ -15746,6 +16453,13 @@
         "completion_tokens": 300,
         "total_tokens": 1269,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1047,
+        "completion_tokens": 239,
+        "total_tokens": 1286,
+        "seconds": 1.01
       }
     },
     "NCT00718107": {
@@ -15762,6 +16476,13 @@
         "completion_tokens": 235,
         "total_tokens": 1048,
         "seconds": 1.07
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 963,
+        "completion_tokens": 159,
+        "total_tokens": 1122,
+        "seconds": 1.02
       }
     },
     "NCT01962779": {
@@ -15778,6 +16499,13 @@
         "completion_tokens": 292,
         "total_tokens": 2477,
         "seconds": 1.44
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1275,
+        "completion_tokens": 347,
+        "total_tokens": 1622,
+        "seconds": 1.47
       }
     },
     "NCT02571504": {
@@ -15794,6 +16522,13 @@
         "completion_tokens": 359,
         "total_tokens": 1682,
         "seconds": 1.44
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1133,
+        "completion_tokens": 464,
+        "total_tokens": 1597,
+        "seconds": 1.69
       }
     },
     "NCT01725178": {
@@ -15810,6 +16545,13 @@
         "completion_tokens": 346,
         "total_tokens": 1610,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1114,
+        "completion_tokens": 265,
+        "total_tokens": 1379,
+        "seconds": 1.3
       }
     },
     "NCT00306124": {
@@ -15826,6 +16568,13 @@
         "completion_tokens": 297,
         "total_tokens": 1550,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1020,
+        "completion_tokens": 197,
+        "total_tokens": 1217,
+        "seconds": 0.96
       }
     },
     "NCT00297271": {
@@ -15842,6 +16591,13 @@
         "completion_tokens": 376,
         "total_tokens": 1726,
         "seconds": 1.61
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1228,
+        "completion_tokens": 432,
+        "total_tokens": 1660,
+        "seconds": 1.54
       }
     },
     "NCT00040196": {
@@ -15858,6 +16614,13 @@
         "completion_tokens": 367,
         "total_tokens": 3119,
         "seconds": 2.61
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1158,
+        "completion_tokens": 357,
+        "total_tokens": 1515,
+        "seconds": 1.49
       }
     },
     "NCT02045004": {
@@ -15874,6 +16637,13 @@
         "completion_tokens": 286,
         "total_tokens": 1620,
         "seconds": 1.46
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1119,
+        "completion_tokens": 261,
+        "total_tokens": 1380,
+        "seconds": 1.07
       }
     },
     "NCT00476372": {
@@ -15890,6 +16660,13 @@
         "completion_tokens": 303,
         "total_tokens": 1577,
         "seconds": 1.43
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1045,
+        "completion_tokens": 248,
+        "total_tokens": 1293,
+        "seconds": 1.01
       }
     },
     "NCT02440815": {
@@ -15906,6 +16683,13 @@
         "completion_tokens": 309,
         "total_tokens": 1740,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1344,
+        "completion_tokens": 469,
+        "total_tokens": 1813,
+        "seconds": 2.57
       }
     },
     "NCT00393588": {
@@ -15922,6 +16706,13 @@
         "completion_tokens": 339,
         "total_tokens": 2641,
         "seconds": 1.75
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1146,
+        "completion_tokens": 360,
+        "total_tokens": 1506,
+        "seconds": 1.28
       }
     },
     "NCT01555827": {
@@ -15938,6 +16729,13 @@
         "completion_tokens": 349,
         "total_tokens": 1556,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1052,
+        "completion_tokens": 365,
+        "total_tokens": 1417,
+        "seconds": 1.5
       }
     },
     "NCT02544178": {
@@ -15954,6 +16752,13 @@
         "completion_tokens": 314,
         "total_tokens": 1482,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 955,
+        "completion_tokens": 148,
+        "total_tokens": 1103,
+        "seconds": 0.5
       }
     },
     "NCT00812474": {
@@ -15970,6 +16775,13 @@
         "completion_tokens": 274,
         "total_tokens": 1308,
         "seconds": 1.15
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 985,
+        "completion_tokens": 140,
+        "total_tokens": 1125,
+        "seconds": 0.55
       }
     },
     "NCT00718458": {
@@ -15986,6 +16798,13 @@
         "completion_tokens": 317,
         "total_tokens": 1765,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1128,
+        "completion_tokens": 285,
+        "total_tokens": 1413,
+        "seconds": 0.89
       }
     },
     "NCT01677793": {
@@ -16002,6 +16821,13 @@
         "completion_tokens": 314,
         "total_tokens": 1512,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1075,
+        "completion_tokens": 243,
+        "total_tokens": 1318,
+        "seconds": 1.08
       }
     },
     "NCT00474292": {
@@ -16018,6 +16844,13 @@
         "completion_tokens": 283,
         "total_tokens": 1472,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00921648": {
@@ -16034,6 +16867,13 @@
         "completion_tokens": 326,
         "total_tokens": 1009,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01862172": {
@@ -16050,6 +16890,13 @@
         "completion_tokens": 328,
         "total_tokens": 1846,
         "seconds": 1.61
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1004,
+        "completion_tokens": 225,
+        "total_tokens": 1229,
+        "seconds": 0.68
       }
     },
     "NCT00631332": {
@@ -16066,6 +16913,13 @@
         "completion_tokens": 260,
         "total_tokens": 1131,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1197,
+        "completion_tokens": 451,
+        "total_tokens": 1648,
+        "seconds": 2.2
       }
     },
     "NCT02208219": {
@@ -16082,6 +16936,13 @@
         "completion_tokens": 285,
         "total_tokens": 1679,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 921,
+        "completion_tokens": 115,
+        "total_tokens": 1036,
+        "seconds": 0.79
       }
     },
     "NCT01022307": {
@@ -16098,6 +16959,13 @@
         "completion_tokens": 278,
         "total_tokens": 1219,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 957,
+        "completion_tokens": 189,
+        "total_tokens": 1146,
+        "seconds": 0.84
       }
     },
     "NCT02604186": {
@@ -16114,6 +16982,13 @@
         "completion_tokens": 309,
         "total_tokens": 1616,
         "seconds": 1.43
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1232,
+        "completion_tokens": 518,
+        "total_tokens": 1750,
+        "seconds": 1.66
       }
     },
     "NCT00004771": {
@@ -16130,6 +17005,13 @@
         "completion_tokens": 348,
         "total_tokens": 1392,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1461,
+        "completion_tokens": 530,
+        "total_tokens": 1991,
+        "seconds": 1.68
       }
     },
     "NCT02480803": {
@@ -16146,6 +17028,13 @@
         "completion_tokens": 281,
         "total_tokens": 1636,
         "seconds": 0.82
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 929,
+        "completion_tokens": 113,
+        "total_tokens": 1042,
+        "seconds": 0.83
       }
     },
     "NCT01438060": {
@@ -16162,6 +17051,13 @@
         "completion_tokens": 362,
         "total_tokens": 2121,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1071,
+        "completion_tokens": 370,
+        "total_tokens": 1441,
+        "seconds": 1.32
       }
     },
     "NCT02589925": {
@@ -16178,6 +17074,13 @@
         "completion_tokens": 327,
         "total_tokens": 1977,
         "seconds": 1.73
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1404,
+        "completion_tokens": 430,
+        "total_tokens": 1834,
+        "seconds": 1.24
       }
     },
     "NCT02152449": {
@@ -16194,6 +17097,13 @@
         "completion_tokens": 313,
         "total_tokens": 1643,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1067,
+        "completion_tokens": 206,
+        "total_tokens": 1273,
+        "seconds": 0.99
       }
     },
     "NCT01388400": {
@@ -16210,6 +17120,13 @@
         "completion_tokens": 278,
         "total_tokens": 2043,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00104663": {
@@ -16226,6 +17143,13 @@
         "completion_tokens": 274,
         "total_tokens": 1129,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02588053": {
@@ -16242,6 +17166,13 @@
         "completion_tokens": 264,
         "total_tokens": 1285,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1110,
+        "completion_tokens": 210,
+        "total_tokens": 1320,
+        "seconds": 0.66
       }
     },
     "NCT00786032": {
@@ -16258,6 +17189,13 @@
         "completion_tokens": 276,
         "total_tokens": 1864,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 936,
+        "completion_tokens": 223,
+        "total_tokens": 1159,
+        "seconds": 0.73
       }
     },
     "NCT01641627": {
@@ -16274,6 +17212,13 @@
         "completion_tokens": 280,
         "total_tokens": 1296,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1056,
+        "completion_tokens": 181,
+        "total_tokens": 1237,
+        "seconds": 0.95
       }
     },
     "NCT00781833": {
@@ -16290,6 +17235,13 @@
         "completion_tokens": 264,
         "total_tokens": 1364,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1386,
+        "completion_tokens": 421,
+        "total_tokens": 1807,
+        "seconds": 1.43
       }
     },
     "NCT02275312": {
@@ -16306,6 +17258,13 @@
         "completion_tokens": 310,
         "total_tokens": 1580,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1212,
+        "completion_tokens": 400,
+        "total_tokens": 1612,
+        "seconds": 1.18
       }
     },
     "NCT01463475": {
@@ -16322,6 +17281,13 @@
         "completion_tokens": 304,
         "total_tokens": 1550,
         "seconds": 1.01
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 939,
+        "completion_tokens": 102,
+        "total_tokens": 1041,
+        "seconds": 0.73
       }
     },
     "NCT00108849": {
@@ -16338,6 +17304,13 @@
         "completion_tokens": 189,
         "total_tokens": 824,
         "seconds": 0.82
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     }
   },
@@ -16356,6 +17329,13 @@
         "completion_tokens": 587,
         "total_tokens": 1915,
         "seconds": 2.01
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1011,
+        "completion_tokens": 142,
+        "total_tokens": 1153,
+        "seconds": 0.86
       }
     },
     "NCT00222742": {
@@ -16372,6 +17352,13 @@
         "completion_tokens": 314,
         "total_tokens": 1814,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00035139": {
@@ -16388,6 +17375,13 @@
         "completion_tokens": 278,
         "total_tokens": 1155,
         "seconds": 1.09
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01056146": {
@@ -16404,6 +17398,13 @@
         "completion_tokens": 324,
         "total_tokens": 1446,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01692769": {
@@ -16420,6 +17421,13 @@
         "completion_tokens": 391,
         "total_tokens": 1855,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02378311": {
@@ -16436,6 +17444,13 @@
         "completion_tokens": 236,
         "total_tokens": 1871,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02475226": {
@@ -16452,6 +17467,13 @@
         "completion_tokens": 300,
         "total_tokens": 1146,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00451789": {
@@ -16468,6 +17490,13 @@
         "completion_tokens": 307,
         "total_tokens": 1113,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1057,
+        "completion_tokens": 167,
+        "total_tokens": 1224,
+        "seconds": 1.03
       }
     },
     "NCT00178711": {
@@ -16484,6 +17513,13 @@
         "completion_tokens": 322,
         "total_tokens": 1634,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1039,
+        "completion_tokens": 114,
+        "total_tokens": 1153,
+        "seconds": 0.72
       }
     },
     "NCT00163774": {
@@ -16500,6 +17536,13 @@
         "completion_tokens": 338,
         "total_tokens": 1650,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1031,
+        "completion_tokens": 115,
+        "total_tokens": 1146,
+        "seconds": 0.93
       }
     },
     "NCT00810940": {
@@ -16516,6 +17559,13 @@
         "completion_tokens": 295,
         "total_tokens": 1462,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1109,
+        "completion_tokens": 268,
+        "total_tokens": 1377,
+        "seconds": 1.05
       }
     },
     "NCT02119533": {
@@ -16532,6 +17582,13 @@
         "completion_tokens": 323,
         "total_tokens": 2398,
         "seconds": 2.53
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1709,
+        "completion_tokens": 677,
+        "total_tokens": 2386,
+        "seconds": 2.11
       }
     },
     "NCT01619943": {
@@ -16548,6 +17605,13 @@
         "completion_tokens": 276,
         "total_tokens": 1288,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1328,
+        "completion_tokens": 236,
+        "total_tokens": 1564,
+        "seconds": 1.01
       }
     },
     "NCT00174980": {
@@ -16564,6 +17628,13 @@
         "completion_tokens": 360,
         "total_tokens": 1724,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1398,
+        "completion_tokens": 497,
+        "total_tokens": 1895,
+        "seconds": 7.21
       }
     },
     "NCT00061399": {
@@ -16580,6 +17651,13 @@
         "completion_tokens": 338,
         "total_tokens": 1702,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01763892": {
@@ -16596,6 +17674,13 @@
         "completion_tokens": 381,
         "total_tokens": 1518,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00908063": {
@@ -16612,6 +17697,13 @@
         "completion_tokens": 261,
         "total_tokens": 3343,
         "seconds": 2.76
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1220,
+        "completion_tokens": 284,
+        "total_tokens": 1504,
+        "seconds": 1.15
       }
     },
     "NCT00040339": {
@@ -16628,6 +17720,13 @@
         "completion_tokens": 316,
         "total_tokens": 2228,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1121,
+        "completion_tokens": 170,
+        "total_tokens": 1291,
+        "seconds": 0.89
       }
     },
     "NCT01942564": {
@@ -16644,6 +17743,13 @@
         "completion_tokens": 296,
         "total_tokens": 1610,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1112,
+        "completion_tokens": 180,
+        "total_tokens": 1292,
+        "seconds": 0.64
       }
     },
     "NCT01990768": {
@@ -16660,6 +17766,13 @@
         "completion_tokens": 352,
         "total_tokens": 2417,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1035,
+        "completion_tokens": 137,
+        "total_tokens": 1172,
+        "seconds": 0.96
       }
     },
     "NCT01933217": {
@@ -16676,6 +17789,13 @@
         "completion_tokens": 326,
         "total_tokens": 1557,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1029,
+        "completion_tokens": 124,
+        "total_tokens": 1153,
+        "seconds": 0.87
       }
     },
     "NCT02392975": {
@@ -16692,6 +17812,13 @@
         "completion_tokens": 287,
         "total_tokens": 1720,
         "seconds": 1.51
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1167,
+        "completion_tokens": 256,
+        "total_tokens": 1423,
+        "seconds": 1.17
       }
     },
     "NCT01315379": {
@@ -16708,6 +17835,13 @@
         "completion_tokens": 373,
         "total_tokens": 1536,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1025,
+        "completion_tokens": 129,
+        "total_tokens": 1154,
+        "seconds": 0.81
       }
     },
     "NCT02064959": {
@@ -16724,6 +17858,13 @@
         "completion_tokens": 344,
         "total_tokens": 2040,
         "seconds": 1.41
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1232,
+        "completion_tokens": 415,
+        "total_tokens": 1647,
+        "seconds": 1.54
       }
     },
     "NCT02203968": {
@@ -16740,6 +17881,13 @@
         "completion_tokens": 377,
         "total_tokens": 2363,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1359,
+        "completion_tokens": 464,
+        "total_tokens": 1823,
+        "seconds": 1.63
       }
     },
     "NCT02054117": {
@@ -16756,6 +17904,13 @@
         "completion_tokens": 277,
         "total_tokens": 1714,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1342,
+        "completion_tokens": 601,
+        "total_tokens": 1943,
+        "seconds": 1.94
       }
     },
     "NCT01712477": {
@@ -16772,6 +17927,13 @@
         "completion_tokens": 308,
         "total_tokens": 1944,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1020,
+        "completion_tokens": 121,
+        "total_tokens": 1141,
+        "seconds": 0.8
       }
     },
     "NCT01613235": {
@@ -16788,6 +17950,13 @@
         "completion_tokens": 282,
         "total_tokens": 1916,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1199,
+        "completion_tokens": 226,
+        "total_tokens": 1425,
+        "seconds": 1.0
       }
     },
     "NCT01796886": {
@@ -16804,6 +17973,13 @@
         "completion_tokens": 326,
         "total_tokens": 2000,
         "seconds": 1.26
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1132,
+        "completion_tokens": 189,
+        "total_tokens": 1321,
+        "seconds": 1.05
       }
     },
     "NCT00490997": {
@@ -16820,6 +17996,13 @@
         "completion_tokens": 239,
         "total_tokens": 1369,
         "seconds": 1.03
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1121,
+        "completion_tokens": 182,
+        "total_tokens": 1303,
+        "seconds": 0.67
       }
     },
     "NCT02568124": {
@@ -16836,6 +18019,13 @@
         "completion_tokens": 327,
         "total_tokens": 2363,
         "seconds": 1.5
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1034,
+        "completion_tokens": 176,
+        "total_tokens": 1210,
+        "seconds": 1.09
       }
     },
     "NCT00754481": {
@@ -16852,6 +18042,13 @@
         "completion_tokens": 270,
         "total_tokens": 1964,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1040,
+        "completion_tokens": 120,
+        "total_tokens": 1160,
+        "seconds": 0.48
       }
     },
     "NCT02304328": {
@@ -16868,6 +18065,13 @@
         "completion_tokens": 306,
         "total_tokens": 1710,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1247,
+        "completion_tokens": 330,
+        "total_tokens": 1577,
+        "seconds": 1.44
       }
     },
     "NCT01785797": {
@@ -16884,6 +18088,13 @@
         "completion_tokens": 257,
         "total_tokens": 2309,
         "seconds": 1.49
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1121,
+        "completion_tokens": 189,
+        "total_tokens": 1310,
+        "seconds": 0.74
       }
     },
     "NCT01753921": {
@@ -16900,6 +18111,13 @@
         "completion_tokens": 272,
         "total_tokens": 1606,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1238,
+        "completion_tokens": 272,
+        "total_tokens": 1510,
+        "seconds": 1.09
       }
     },
     "NCT01463878": {
@@ -16916,6 +18134,13 @@
         "completion_tokens": 260,
         "total_tokens": 1756,
         "seconds": 1.13
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1243,
+        "completion_tokens": 241,
+        "total_tokens": 1484,
+        "seconds": 1.03
       }
     },
     "NCT01869855": {
@@ -16932,6 +18157,13 @@
         "completion_tokens": 260,
         "total_tokens": 1297,
         "seconds": 0.92
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1129,
+        "completion_tokens": 223,
+        "total_tokens": 1352,
+        "seconds": 1.0
       }
     },
     "NCT02024373": {
@@ -16948,6 +18180,13 @@
         "completion_tokens": 268,
         "total_tokens": 1823,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1233,
+        "completion_tokens": 504,
+        "total_tokens": 1737,
+        "seconds": 1.75
       }
     },
     "NCT02318290": {
@@ -16963,6 +18202,13 @@
         "prompt_tokens": 1740,
         "completion_tokens": 289,
         "total_tokens": 2029,
+        "seconds": 1.74
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1420,
+        "completion_tokens": 716,
+        "total_tokens": 2136,
         "seconds": 1.74
       }
     },
@@ -16980,6 +18226,13 @@
         "completion_tokens": 250,
         "total_tokens": 1563,
         "seconds": 1.34
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1146,
+        "completion_tokens": 171,
+        "total_tokens": 1317,
+        "seconds": 1.4
       }
     },
     "NCT02282228": {
@@ -16996,6 +18249,13 @@
         "completion_tokens": 283,
         "total_tokens": 1543,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1426,
+        "completion_tokens": 426,
+        "total_tokens": 1852,
+        "seconds": 1.45
       }
     },
     "NCT01819597": {
@@ -17012,6 +18272,13 @@
         "completion_tokens": 302,
         "total_tokens": 4210,
         "seconds": 1.57
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1594,
+        "completion_tokens": 457,
+        "total_tokens": 2051,
+        "seconds": 1.71
       }
     },
     "NCT02477007": {
@@ -17028,6 +18295,13 @@
         "completion_tokens": 298,
         "total_tokens": 1608,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1053,
+        "completion_tokens": 140,
+        "total_tokens": 1193,
+        "seconds": 0.81
       }
     },
     "NCT02192320": {
@@ -17044,6 +18318,13 @@
         "completion_tokens": 323,
         "total_tokens": 1868,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1399,
+        "completion_tokens": 354,
+        "total_tokens": 1753,
+        "seconds": 1.28
       }
     },
     "NCT00915928": {
@@ -17060,6 +18341,13 @@
         "completion_tokens": 230,
         "total_tokens": 1506,
         "seconds": 0.73
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1247,
+        "completion_tokens": 470,
+        "total_tokens": 1717,
+        "seconds": 1.57
       }
     },
     "NCT02416752": {
@@ -17076,6 +18364,13 @@
         "completion_tokens": 252,
         "total_tokens": 1340,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01595906": {
@@ -17092,6 +18387,13 @@
         "completion_tokens": 274,
         "total_tokens": 1379,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1292,
+        "completion_tokens": 418,
+        "total_tokens": 1710,
+        "seconds": 1.9
       }
     },
     "NCT01279928": {
@@ -17108,6 +18410,13 @@
         "completion_tokens": 269,
         "total_tokens": 1227,
         "seconds": 1.09
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1023,
+        "completion_tokens": 122,
+        "total_tokens": 1145,
+        "seconds": 0.85
       }
     }
   },
@@ -17126,6 +18435,13 @@
         "completion_tokens": 317,
         "total_tokens": 1283,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00163709": {
@@ -17142,6 +18458,13 @@
         "completion_tokens": 217,
         "total_tokens": 1057,
         "seconds": 0.91
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1007,
+        "completion_tokens": 122,
+        "total_tokens": 1129,
+        "seconds": 0.42
       }
     },
     "NCT00782912": {
@@ -17158,6 +18481,13 @@
         "completion_tokens": 304,
         "total_tokens": 1262,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01566058": {
@@ -17174,6 +18504,13 @@
         "completion_tokens": 329,
         "total_tokens": 1707,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1260,
+        "completion_tokens": 411,
+        "total_tokens": 1671,
+        "seconds": 1.4
       }
     },
     "NCT02221895": {
@@ -17190,6 +18527,13 @@
         "completion_tokens": 387,
         "total_tokens": 1915,
         "seconds": 1.47
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 970,
+        "completion_tokens": 162,
+        "total_tokens": 1132,
+        "seconds": 1.08
       }
     },
     "NCT02616991": {
@@ -17206,6 +18550,13 @@
         "completion_tokens": 321,
         "total_tokens": 1528,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02458625": {
@@ -17222,6 +18573,13 @@
         "completion_tokens": 286,
         "total_tokens": 1044,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 998,
+        "completion_tokens": 155,
+        "total_tokens": 1153,
+        "seconds": 0.51
       }
     },
     "NCT02264769": {
@@ -17238,6 +18596,13 @@
         "completion_tokens": 292,
         "total_tokens": 1512,
         "seconds": 1.15
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00848731": {
@@ -17254,6 +18619,13 @@
         "completion_tokens": 380,
         "total_tokens": 2342,
         "seconds": 1.81
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01858129": {
@@ -17270,6 +18642,13 @@
         "completion_tokens": 294,
         "total_tokens": 1341,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02523586": {
@@ -17286,6 +18665,13 @@
         "completion_tokens": 292,
         "total_tokens": 1678,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00302601": {
@@ -17302,6 +18688,13 @@
         "completion_tokens": 396,
         "total_tokens": 1539,
         "seconds": 1.66
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01692821": {
@@ -17318,6 +18711,13 @@
         "completion_tokens": 358,
         "total_tokens": 1558,
         "seconds": 1.0
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1086,
+        "completion_tokens": 209,
+        "total_tokens": 1295,
+        "seconds": 0.72
       }
     },
     "NCT01274637": {
@@ -17334,6 +18734,13 @@
         "completion_tokens": 409,
         "total_tokens": 2794,
         "seconds": 1.61
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1722,
+        "completion_tokens": 678,
+        "total_tokens": 2400,
+        "seconds": 2.23
       }
     },
     "NCT00522977": {
@@ -17350,6 +18757,13 @@
         "completion_tokens": 361,
         "total_tokens": 1340,
         "seconds": 1.57
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 979,
+        "completion_tokens": 116,
+        "total_tokens": 1095,
+        "seconds": 0.46
       }
     },
     "NCT01463202": {
@@ -17366,6 +18780,13 @@
         "completion_tokens": 283,
         "total_tokens": 1558,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01684592": {
@@ -17382,6 +18803,13 @@
         "completion_tokens": 339,
         "total_tokens": 1327,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1061,
+        "completion_tokens": 279,
+        "total_tokens": 1340,
+        "seconds": 1.12
       }
     },
     "NCT02210702": {
@@ -17398,6 +18826,13 @@
         "completion_tokens": 351,
         "total_tokens": 2179,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02307201": {
@@ -17414,6 +18849,13 @@
         "completion_tokens": 314,
         "total_tokens": 1368,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1008,
+        "completion_tokens": 146,
+        "total_tokens": 1154,
+        "seconds": 0.5
       }
     },
     "NCT02309489": {
@@ -17430,6 +18872,13 @@
         "completion_tokens": 330,
         "total_tokens": 1283,
         "seconds": 1.34
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01004939": {
@@ -17446,6 +18895,13 @@
         "completion_tokens": 323,
         "total_tokens": 1280,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1081,
+        "completion_tokens": 119,
+        "total_tokens": 1200,
+        "seconds": 0.94
       }
     },
     "NCT02043223": {
@@ -17462,6 +18918,13 @@
         "completion_tokens": 313,
         "total_tokens": 1177,
         "seconds": 1.34
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02231398": {
@@ -17478,6 +18941,13 @@
         "completion_tokens": 327,
         "total_tokens": 2142,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1094,
+        "completion_tokens": 216,
+        "total_tokens": 1310,
+        "seconds": 1.09
       }
     },
     "NCT02010840": {
@@ -17494,6 +18964,13 @@
         "completion_tokens": 328,
         "total_tokens": 1183,
         "seconds": 0.94
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01262742": {
@@ -17510,6 +18987,13 @@
         "completion_tokens": 261,
         "total_tokens": 1555,
         "seconds": 0.95
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01428817": {
@@ -17526,6 +19010,13 @@
         "completion_tokens": 381,
         "total_tokens": 1655,
         "seconds": 1.68
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1002,
+        "completion_tokens": 196,
+        "total_tokens": 1198,
+        "seconds": 0.81
       }
     },
     "NCT00341848": {
@@ -17542,6 +19033,13 @@
         "completion_tokens": 308,
         "total_tokens": 1256,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00067691": {
@@ -17558,6 +19056,13 @@
         "completion_tokens": 236,
         "total_tokens": 1303,
         "seconds": 0.75
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1071,
+        "completion_tokens": 175,
+        "total_tokens": 1246,
+        "seconds": 0.63
       }
     },
     "NCT01828697": {
@@ -17574,6 +19079,13 @@
         "completion_tokens": 297,
         "total_tokens": 1513,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1091,
+        "completion_tokens": 193,
+        "total_tokens": 1284,
+        "seconds": 1.07
       }
     },
     "NCT02372461": {
@@ -17590,6 +19102,13 @@
         "completion_tokens": 266,
         "total_tokens": 1637,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01620723": {
@@ -17606,6 +19125,13 @@
         "completion_tokens": 300,
         "total_tokens": 1271,
         "seconds": 1.15
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 979,
+        "completion_tokens": 127,
+        "total_tokens": 1106,
+        "seconds": 1.01
       }
     },
     "NCT01621685": {
@@ -17622,6 +19148,13 @@
         "completion_tokens": 334,
         "total_tokens": 2171,
         "seconds": 1.74
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1340,
+        "completion_tokens": 418,
+        "total_tokens": 1758,
+        "seconds": 1.51
       }
     },
     "NCT00692198": {
@@ -17638,6 +19171,13 @@
         "completion_tokens": 343,
         "total_tokens": 2739,
         "seconds": 1.58
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1226,
+        "completion_tokens": 428,
+        "total_tokens": 1654,
+        "seconds": 1.6
       }
     },
     "NCT02600260": {
@@ -17654,6 +19194,13 @@
         "completion_tokens": 300,
         "total_tokens": 1046,
         "seconds": 0.83
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01232387": {
@@ -17670,6 +19217,13 @@
         "completion_tokens": 248,
         "total_tokens": 1636,
         "seconds": 2.36
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01468194": {
@@ -17686,6 +19240,13 @@
         "completion_tokens": 341,
         "total_tokens": 1005,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01321788": {
@@ -17702,6 +19263,13 @@
         "completion_tokens": 340,
         "total_tokens": 2031,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1063,
+        "completion_tokens": 233,
+        "total_tokens": 1296,
+        "seconds": 1.25
       }
     },
     "NCT01689961": {
@@ -17718,6 +19286,13 @@
         "completion_tokens": 299,
         "total_tokens": 1794,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02094547": {
@@ -17734,6 +19309,13 @@
         "completion_tokens": 291,
         "total_tokens": 1686,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01630655": {
@@ -17750,6 +19332,13 @@
         "completion_tokens": 258,
         "total_tokens": 2264,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 976,
+        "completion_tokens": 158,
+        "total_tokens": 1134,
+        "seconds": 0.53
       }
     },
     "NCT00573053": {
@@ -17766,6 +19355,13 @@
         "completion_tokens": 197,
         "total_tokens": 1170,
         "seconds": 1.07
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01098851": {
@@ -17782,6 +19378,13 @@
         "completion_tokens": 285,
         "total_tokens": 1663,
         "seconds": 2.62
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1240,
+        "completion_tokens": 296,
+        "total_tokens": 1536,
+        "seconds": 1.37
       }
     },
     "NCT00356551": {
@@ -17798,6 +19401,13 @@
         "completion_tokens": 295,
         "total_tokens": 1423,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1053,
+        "completion_tokens": 210,
+        "total_tokens": 1263,
+        "seconds": 0.64
       }
     },
     "NCT01959009": {
@@ -17814,6 +19424,13 @@
         "completion_tokens": 316,
         "total_tokens": 1895,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00314548": {
@@ -17830,6 +19447,13 @@
         "completion_tokens": 285,
         "total_tokens": 1596,
         "seconds": 0.9
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1122,
+        "completion_tokens": 294,
+        "total_tokens": 1416,
+        "seconds": 0.98
       }
     },
     "NCT02447731": {
@@ -17846,6 +19470,13 @@
         "completion_tokens": 238,
         "total_tokens": 935,
         "seconds": 0.88
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02399774": {
@@ -17862,6 +19493,13 @@
         "completion_tokens": 335,
         "total_tokens": 1261,
         "seconds": 1.62
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 964,
+        "completion_tokens": 138,
+        "total_tokens": 1102,
+        "seconds": 0.56
       }
     },
     "NCT01991886": {
@@ -17878,6 +19516,13 @@
         "completion_tokens": 315,
         "total_tokens": 1789,
         "seconds": 1.55
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02150616": {
@@ -17894,6 +19539,13 @@
         "completion_tokens": 307,
         "total_tokens": 1540,
         "seconds": 0.94
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 978,
+        "completion_tokens": 136,
+        "total_tokens": 1114,
+        "seconds": 0.9
       }
     }
   },
@@ -17912,6 +19564,13 @@
         "completion_tokens": 351,
         "total_tokens": 1861,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02498418": {
@@ -17928,6 +19587,13 @@
         "completion_tokens": 339,
         "total_tokens": 1926,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01646411": {
@@ -17944,6 +19610,13 @@
         "completion_tokens": 370,
         "total_tokens": 1213,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02340481": {
@@ -17960,6 +19633,13 @@
         "completion_tokens": 312,
         "total_tokens": 1605,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01973465": {
@@ -17975,6 +19655,13 @@
         "prompt_tokens": 1013,
         "completion_tokens": 264,
         "total_tokens": 1277,
+        "seconds": 1.01
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1045,
+        "completion_tokens": 227,
+        "total_tokens": 1272,
         "seconds": 1.01
       }
     },
@@ -17992,6 +19679,13 @@
         "completion_tokens": 279,
         "total_tokens": 1891,
         "seconds": 1.15
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1028,
+        "completion_tokens": 166,
+        "total_tokens": 1194,
+        "seconds": 0.72
       }
     },
     "NCT01559545": {
@@ -18008,6 +19702,13 @@
         "completion_tokens": 314,
         "total_tokens": 2136,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 948,
+        "completion_tokens": 175,
+        "total_tokens": 1123,
+        "seconds": 0.68
       }
     },
     "NCT00001081": {
@@ -18024,6 +19725,13 @@
         "completion_tokens": 357,
         "total_tokens": 2180,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1021,
+        "completion_tokens": 228,
+        "total_tokens": 1249,
+        "seconds": 0.83
       }
     },
     "NCT00002248": {
@@ -18040,6 +19748,13 @@
         "completion_tokens": 289,
         "total_tokens": 2199,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1186,
+        "completion_tokens": 290,
+        "total_tokens": 1476,
+        "seconds": 1.26
       }
     },
     "NCT00507871": {
@@ -18056,6 +19771,13 @@
         "completion_tokens": 285,
         "total_tokens": 1513,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00002444": {
@@ -18072,6 +19794,13 @@
         "completion_tokens": 339,
         "total_tokens": 2422,
         "seconds": 1.77
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1189,
+        "completion_tokens": 295,
+        "total_tokens": 1484,
+        "seconds": 1.27
       }
     },
     "NCT00002191": {
@@ -18088,6 +19817,13 @@
         "completion_tokens": 402,
         "total_tokens": 2497,
         "seconds": 1.45
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1062,
+        "completion_tokens": 209,
+        "total_tokens": 1271,
+        "seconds": 0.8
       }
     },
     "NCT02295254": {
@@ -18104,6 +19840,13 @@
         "completion_tokens": 341,
         "total_tokens": 1152,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1115,
+        "completion_tokens": 252,
+        "total_tokens": 1367,
+        "seconds": 1.71
       }
     },
     "NCT01590095": {
@@ -18120,6 +19863,13 @@
         "completion_tokens": 229,
         "total_tokens": 1315,
         "seconds": 1.0
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02604576": {
@@ -18136,6 +19886,13 @@
         "completion_tokens": 291,
         "total_tokens": 1929,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1077,
+        "completion_tokens": 251,
+        "total_tokens": 1328,
+        "seconds": 1.14
       }
     },
     "NCT01840891": {
@@ -18152,6 +19909,13 @@
         "completion_tokens": 361,
         "total_tokens": 1589,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 946,
+        "completion_tokens": 139,
+        "total_tokens": 1085,
+        "seconds": 1.01
       }
     },
     "NCT00058942": {
@@ -18168,6 +19932,13 @@
         "completion_tokens": 312,
         "total_tokens": 1466,
         "seconds": 1.96
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1033,
+        "completion_tokens": 242,
+        "total_tokens": 1275,
+        "seconds": 1.61
       }
     },
     "NCT01226134": {
@@ -18184,6 +19955,13 @@
         "completion_tokens": 301,
         "total_tokens": 1552,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1064,
+        "completion_tokens": 334,
+        "total_tokens": 1398,
+        "seconds": 1.55
       }
     },
     "NCT01142089": {
@@ -18200,6 +19978,13 @@
         "completion_tokens": 374,
         "total_tokens": 2240,
         "seconds": 1.44
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1257,
+        "completion_tokens": 530,
+        "total_tokens": 1787,
+        "seconds": 2.08
       }
     },
     "NCT00367627": {
@@ -18216,6 +20001,13 @@
         "completion_tokens": 299,
         "total_tokens": 1940,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1151,
+        "completion_tokens": 276,
+        "total_tokens": 1427,
+        "seconds": 1.2
       }
     },
     "NCT01813071": {
@@ -18232,6 +20024,13 @@
         "completion_tokens": 332,
         "total_tokens": 3152,
         "seconds": 2.0
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1482,
+        "completion_tokens": 597,
+        "total_tokens": 2079,
+        "seconds": 1.8
       }
     },
     "NCT00741637": {
@@ -18248,6 +20047,13 @@
         "completion_tokens": 356,
         "total_tokens": 2517,
         "seconds": 1.54
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1068,
+        "completion_tokens": 230,
+        "total_tokens": 1298,
+        "seconds": 1.04
       }
     },
     "NCT02054455": {
@@ -18264,6 +20070,13 @@
         "completion_tokens": 336,
         "total_tokens": 1400,
         "seconds": 1.46
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1102,
+        "completion_tokens": 225,
+        "total_tokens": 1327,
+        "seconds": 1.12
       }
     },
     "NCT01780909": {
@@ -18280,6 +20093,13 @@
         "completion_tokens": 352,
         "total_tokens": 2017,
         "seconds": 1.71
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1049,
+        "completion_tokens": 206,
+        "total_tokens": 1255,
+        "seconds": 0.77
       }
     },
     "NCT02609529": {
@@ -18296,6 +20116,13 @@
         "completion_tokens": 236,
         "total_tokens": 1455,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1082,
+        "completion_tokens": 175,
+        "total_tokens": 1257,
+        "seconds": 0.88
       }
     },
     "NCT02203890": {
@@ -18312,6 +20139,13 @@
         "completion_tokens": 215,
         "total_tokens": 1529,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02362932": {
@@ -18328,6 +20162,13 @@
         "completion_tokens": 272,
         "total_tokens": 974,
         "seconds": 0.79
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02428647": {
@@ -18344,6 +20185,13 @@
         "completion_tokens": 285,
         "total_tokens": 1680,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01233362": {
@@ -18360,6 +20208,13 @@
         "completion_tokens": 337,
         "total_tokens": 2007,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1342,
+        "completion_tokens": 460,
+        "total_tokens": 1802,
+        "seconds": 1.21
       }
     },
     "NCT02551289": {
@@ -18376,6 +20231,13 @@
         "completion_tokens": 359,
         "total_tokens": 1656,
         "seconds": 1.47
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 944,
+        "completion_tokens": 150,
+        "total_tokens": 1094,
+        "seconds": 0.87
       }
     },
     "NCT02530762": {
@@ -18392,6 +20254,13 @@
         "completion_tokens": 333,
         "total_tokens": 2599,
         "seconds": 1.54
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1163,
+        "completion_tokens": 383,
+        "total_tokens": 1546,
+        "seconds": 1.25
       }
     },
     "NCT01704105": {
@@ -18408,6 +20277,13 @@
         "completion_tokens": 239,
         "total_tokens": 1448,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00207675": {
@@ -18424,6 +20300,13 @@
         "completion_tokens": 252,
         "total_tokens": 1205,
         "seconds": 2.67
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1273,
+        "completion_tokens": 325,
+        "total_tokens": 1598,
+        "seconds": 1.28
       }
     },
     "NCT00624975": {
@@ -18440,6 +20323,13 @@
         "completion_tokens": 276,
         "total_tokens": 2028,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 958,
+        "completion_tokens": 145,
+        "total_tokens": 1103,
+        "seconds": 0.77
       }
     },
     "NCT00564863": {
@@ -18456,6 +20346,13 @@
         "completion_tokens": 318,
         "total_tokens": 2307,
         "seconds": 0.99
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 968,
+        "completion_tokens": 128,
+        "total_tokens": 1096,
+        "seconds": 0.51
       }
     },
     "NCT02032043": {
@@ -18472,6 +20369,13 @@
         "completion_tokens": 292,
         "total_tokens": 1441,
         "seconds": 1.26
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00755053": {
@@ -18488,6 +20392,13 @@
         "completion_tokens": 345,
         "total_tokens": 2068,
         "seconds": 2.41
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1012,
+        "completion_tokens": 190,
+        "total_tokens": 1202,
+        "seconds": 1.47
       }
     },
     "NCT01738607": {
@@ -18504,6 +20415,13 @@
         "completion_tokens": 309,
         "total_tokens": 1622,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1243,
+        "completion_tokens": 368,
+        "total_tokens": 1611,
+        "seconds": 1.16
       }
     },
     "NCT01792453": {
@@ -18520,6 +20438,13 @@
         "completion_tokens": 342,
         "total_tokens": 1631,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 939,
+        "completion_tokens": 130,
+        "total_tokens": 1069,
+        "seconds": 0.84
       }
     },
     "NCT01729260": {
@@ -18536,6 +20461,13 @@
         "completion_tokens": 314,
         "total_tokens": 2218,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 985,
+        "completion_tokens": 140,
+        "total_tokens": 1125,
+        "seconds": 0.64
       }
     },
     "NCT00662675": {
@@ -18552,6 +20484,13 @@
         "completion_tokens": 268,
         "total_tokens": 1568,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1280,
+        "completion_tokens": 335,
+        "total_tokens": 1615,
+        "seconds": 0.98
       }
     },
     "NCT00798291": {
@@ -18568,6 +20507,13 @@
         "completion_tokens": 264,
         "total_tokens": 1843,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 941,
+        "completion_tokens": 93,
+        "total_tokens": 1034,
+        "seconds": 0.85
       }
     },
     "NCT02175901": {
@@ -18584,6 +20530,13 @@
         "completion_tokens": 335,
         "total_tokens": 1482,
         "seconds": 1.0
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1075,
+        "completion_tokens": 182,
+        "total_tokens": 1257,
+        "seconds": 0.88
       }
     },
     "NCT00526188": {
@@ -18600,6 +20553,13 @@
         "completion_tokens": 306,
         "total_tokens": 3294,
         "seconds": 2.28
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 999,
+        "completion_tokens": 149,
+        "total_tokens": 1148,
+        "seconds": 0.82
       }
     },
     "NCT01427712": {
@@ -18616,6 +20576,13 @@
         "completion_tokens": 270,
         "total_tokens": 1117,
         "seconds": 0.91
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1007,
+        "completion_tokens": 140,
+        "total_tokens": 1147,
+        "seconds": 0.96
       }
     },
     "NCT00338910": {
@@ -18632,6 +20599,13 @@
         "completion_tokens": 281,
         "total_tokens": 2657,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1209,
+        "completion_tokens": 439,
+        "total_tokens": 1648,
+        "seconds": 1.34
       }
     },
     "NCT00950404": {
@@ -18648,6 +20622,13 @@
         "completion_tokens": 279,
         "total_tokens": 1096,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1077,
+        "completion_tokens": 181,
+        "total_tokens": 1258,
+        "seconds": 0.78
       }
     },
     "NCT00002007": {
@@ -18664,6 +20645,13 @@
         "completion_tokens": 292,
         "total_tokens": 2403,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1317,
+        "completion_tokens": 446,
+        "total_tokens": 1763,
+        "seconds": 1.18
       }
     },
     "NCT01837862": {
@@ -18680,6 +20668,13 @@
         "completion_tokens": 276,
         "total_tokens": 3640,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1109,
+        "completion_tokens": 226,
+        "total_tokens": 1335,
+        "seconds": 0.98
       }
     },
     "NCT00741845": {
@@ -18696,6 +20691,13 @@
         "completion_tokens": 311,
         "total_tokens": 1507,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1242,
+        "completion_tokens": 427,
+        "total_tokens": 1669,
+        "seconds": 1.38
       }
     }
   },
@@ -18714,6 +20716,13 @@
         "completion_tokens": 349,
         "total_tokens": 1517,
         "seconds": 1.44
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00419874": {
@@ -18730,6 +20739,13 @@
         "completion_tokens": 320,
         "total_tokens": 1341,
         "seconds": 1.91
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1114,
+        "completion_tokens": 188,
+        "total_tokens": 1302,
+        "seconds": 0.89
       }
     },
     "NCT01075035": {
@@ -18746,6 +20762,13 @@
         "completion_tokens": 389,
         "total_tokens": 1467,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 923,
+        "completion_tokens": 228,
+        "total_tokens": 1151,
+        "seconds": 1.37
       }
     },
     "NCT01619293": {
@@ -18761,6 +20784,13 @@
         "prompt_tokens": 761,
         "completion_tokens": 257,
         "total_tokens": 1018,
+        "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1045,
+        "completion_tokens": 192,
+        "total_tokens": 1237,
         "seconds": 1.2
       }
     },
@@ -18778,6 +20808,13 @@
         "completion_tokens": 248,
         "total_tokens": 999,
         "seconds": 0.97
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01624545": {
@@ -18794,6 +20831,13 @@
         "completion_tokens": 363,
         "total_tokens": 1696,
         "seconds": 1.58
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 930,
+        "completion_tokens": 159,
+        "total_tokens": 1089,
+        "seconds": 0.83
       }
     },
     "NCT02518646": {
@@ -18810,6 +20854,13 @@
         "completion_tokens": 282,
         "total_tokens": 1338,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 929,
+        "completion_tokens": 164,
+        "total_tokens": 1093,
+        "seconds": 1.2
       }
     },
     "NCT01869855": {
@@ -18826,6 +20877,13 @@
         "completion_tokens": 323,
         "total_tokens": 1282,
         "seconds": 1.26
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 930,
+        "completion_tokens": 171,
+        "total_tokens": 1101,
+        "seconds": 0.62
       }
     },
     "NCT02465307": {
@@ -18842,6 +20900,13 @@
         "completion_tokens": 276,
         "total_tokens": 1318,
         "seconds": 2.06
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1013,
+        "completion_tokens": 273,
+        "total_tokens": 1286,
+        "seconds": 1.22
       }
     },
     "NCT02531542": {
@@ -18858,6 +20923,13 @@
         "completion_tokens": 295,
         "total_tokens": 1538,
         "seconds": 1.07
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1267,
+        "completion_tokens": 510,
+        "total_tokens": 1777,
+        "seconds": 1.72
       }
     },
     "NCT00302692": {
@@ -18874,6 +20946,13 @@
         "completion_tokens": 644,
         "total_tokens": 3060,
         "seconds": 2.52
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01162343": {
@@ -18890,6 +20969,13 @@
         "completion_tokens": 334,
         "total_tokens": 1363,
         "seconds": 1.67
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00760734": {
@@ -18906,6 +20992,13 @@
         "completion_tokens": 269,
         "total_tokens": 1877,
         "seconds": 0.85
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1097,
+        "completion_tokens": 252,
+        "total_tokens": 1349,
+        "seconds": 1.19
       }
     },
     "NCT01633593": {
@@ -18922,6 +21015,13 @@
         "completion_tokens": 296,
         "total_tokens": 1424,
         "seconds": 1.12
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02035436": {
@@ -18938,6 +21038,13 @@
         "completion_tokens": 293,
         "total_tokens": 1528,
         "seconds": 0.94
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 914,
+        "completion_tokens": 203,
+        "total_tokens": 1117,
+        "seconds": 1.18
       }
     },
     "NCT02266563": {
@@ -18954,6 +21061,13 @@
         "completion_tokens": 372,
         "total_tokens": 2259,
         "seconds": 1.55
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1151,
+        "completion_tokens": 297,
+        "total_tokens": 1448,
+        "seconds": 1.49
       }
     },
     "NCT01862952": {
@@ -18970,6 +21084,13 @@
         "completion_tokens": 278,
         "total_tokens": 1346,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 990,
+        "completion_tokens": 158,
+        "total_tokens": 1148,
+        "seconds": 0.77
       }
     },
     "NCT01804426": {
@@ -18986,6 +21107,13 @@
         "completion_tokens": 309,
         "total_tokens": 1739,
         "seconds": 1.12
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1220,
+        "completion_tokens": 332,
+        "total_tokens": 1552,
+        "seconds": 1.27
       }
     },
     "NCT02051270": {
@@ -19002,6 +21130,13 @@
         "completion_tokens": 260,
         "total_tokens": 1071,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1034,
+        "completion_tokens": 225,
+        "total_tokens": 1259,
+        "seconds": 0.81
       }
     },
     "NCT01574950": {
@@ -19018,6 +21153,13 @@
         "completion_tokens": 238,
         "total_tokens": 1326,
         "seconds": 0.76
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 930,
+        "completion_tokens": 119,
+        "total_tokens": 1049,
+        "seconds": 0.65
       }
     },
     "NCT00928915": {
@@ -19034,6 +21176,13 @@
         "completion_tokens": 327,
         "total_tokens": 2202,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1137,
+        "completion_tokens": 427,
+        "total_tokens": 1564,
+        "seconds": 1.53
       }
     },
     "NCT01470040": {
@@ -19050,6 +21199,13 @@
         "completion_tokens": 346,
         "total_tokens": 2129,
         "seconds": 1.68
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1035,
+        "completion_tokens": 234,
+        "total_tokens": 1269,
+        "seconds": 1.43
       }
     },
     "NCT02513316": {
@@ -19066,6 +21222,13 @@
         "completion_tokens": 346,
         "total_tokens": 1663,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1068,
+        "completion_tokens": 239,
+        "total_tokens": 1307,
+        "seconds": 2.16
       }
     },
     "NCT01836848": {
@@ -19082,6 +21245,13 @@
         "completion_tokens": 381,
         "total_tokens": 1667,
         "seconds": 2.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1029,
+        "completion_tokens": 238,
+        "total_tokens": 1267,
+        "seconds": 1.22
       }
     },
     "NCT01991405": {
@@ -19098,6 +21268,13 @@
         "completion_tokens": 301,
         "total_tokens": 1775,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1328,
+        "completion_tokens": 418,
+        "total_tokens": 1746,
+        "seconds": 1.88
       }
     },
     "NCT01922115": {
@@ -19114,6 +21291,13 @@
         "completion_tokens": 260,
         "total_tokens": 1361,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 973,
+        "completion_tokens": 225,
+        "total_tokens": 1198,
+        "seconds": 1.06
       }
     },
     "NCT00928941": {
@@ -19130,6 +21314,13 @@
         "completion_tokens": 250,
         "total_tokens": 1524,
         "seconds": 1.13
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1043,
+        "completion_tokens": 189,
+        "total_tokens": 1232,
+        "seconds": 1.39
       }
     },
     "NCT02199093": {
@@ -19146,6 +21337,13 @@
         "completion_tokens": 313,
         "total_tokens": 1626,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1118,
+        "completion_tokens": 316,
+        "total_tokens": 1434,
+        "seconds": 1.04
       }
     },
     "NCT02631304": {
@@ -19162,6 +21360,13 @@
         "completion_tokens": 319,
         "total_tokens": 1727,
         "seconds": 2.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 937,
+        "completion_tokens": 149,
+        "total_tokens": 1086,
+        "seconds": 0.94
       }
     },
     "NCT02267538": {
@@ -19178,6 +21383,13 @@
         "completion_tokens": 280,
         "total_tokens": 1384,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01263067": {
@@ -19194,6 +21406,13 @@
         "completion_tokens": 292,
         "total_tokens": 1117,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1024,
+        "completion_tokens": 218,
+        "total_tokens": 1242,
+        "seconds": 0.7
       }
     },
     "NCT02028260": {
@@ -19210,6 +21429,13 @@
         "completion_tokens": 272,
         "total_tokens": 1933,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 929,
+        "completion_tokens": 91,
+        "total_tokens": 1020,
+        "seconds": 0.87
       }
     },
     "NCT02558777": {
@@ -19226,6 +21452,13 @@
         "completion_tokens": 297,
         "total_tokens": 1472,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02120664": {
@@ -19242,6 +21475,13 @@
         "completion_tokens": 285,
         "total_tokens": 1864,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 2,
+        "prompt_tokens": 2668,
+        "completion_tokens": 1106,
+        "total_tokens": 3774,
+        "seconds": 3.38
       }
     },
     "NCT02603731": {
@@ -19258,6 +21498,13 @@
         "completion_tokens": 332,
         "total_tokens": 1262,
         "seconds": 2.27
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02131181": {
@@ -19274,6 +21521,13 @@
         "completion_tokens": 311,
         "total_tokens": 1201,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 918,
+        "completion_tokens": 146,
+        "total_tokens": 1064,
+        "seconds": 0.75
       }
     },
     "NCT00094952": {
@@ -19290,6 +21544,13 @@
         "completion_tokens": 303,
         "total_tokens": 1785,
         "seconds": 1.65
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1456,
+        "completion_tokens": 519,
+        "total_tokens": 1975,
+        "seconds": 1.87
       }
     },
     "NCT01199276": {
@@ -19306,6 +21567,13 @@
         "completion_tokens": 262,
         "total_tokens": 1759,
         "seconds": 1.74
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 916,
+        "completion_tokens": 142,
+        "total_tokens": 1058,
+        "seconds": 0.95
       }
     },
     "NCT02227225": {
@@ -19322,6 +21590,13 @@
         "completion_tokens": 381,
         "total_tokens": 1315,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02323984": {
@@ -19338,6 +21613,13 @@
         "completion_tokens": 295,
         "total_tokens": 1430,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 915,
+        "completion_tokens": 89,
+        "total_tokens": 1004,
+        "seconds": 0.66
       }
     },
     "NCT02237703": {
@@ -19354,6 +21636,13 @@
         "completion_tokens": 262,
         "total_tokens": 1590,
         "seconds": 1.47
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1021,
+        "completion_tokens": 170,
+        "total_tokens": 1191,
+        "seconds": 0.96
       }
     },
     "NCT02366299": {
@@ -19370,6 +21659,13 @@
         "completion_tokens": 336,
         "total_tokens": 1113,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02394418": {
@@ -19386,6 +21682,13 @@
         "completion_tokens": 319,
         "total_tokens": 1146,
         "seconds": 1.09
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00493714": {
@@ -19402,6 +21705,13 @@
         "completion_tokens": 258,
         "total_tokens": 1461,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1012,
+        "completion_tokens": 211,
+        "total_tokens": 1223,
+        "seconds": 0.94
       }
     },
     "NCT00512655": {
@@ -19418,6 +21728,13 @@
         "completion_tokens": 328,
         "total_tokens": 1782,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1006,
+        "completion_tokens": 233,
+        "total_tokens": 1239,
+        "seconds": 0.95
       }
     },
     "NCT02577731": {
@@ -19434,6 +21751,13 @@
         "completion_tokens": 364,
         "total_tokens": 2305,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1560,
+        "completion_tokens": 365,
+        "total_tokens": 1925,
+        "seconds": 1.63
       }
     },
     "NCT02355483": {
@@ -19450,6 +21774,13 @@
         "completion_tokens": 355,
         "total_tokens": 1248,
         "seconds": 2.11
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 911,
+        "completion_tokens": 172,
+        "total_tokens": 1083,
+        "seconds": 0.96
       }
     },
     "NCT00450047": {
@@ -19466,6 +21797,13 @@
         "completion_tokens": 294,
         "total_tokens": 1268,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1096,
+        "completion_tokens": 419,
+        "total_tokens": 1515,
+        "seconds": 1.14
       }
     },
     "NCT01392820": {
@@ -19482,6 +21820,13 @@
         "completion_tokens": 283,
         "total_tokens": 1194,
         "seconds": 2.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1120,
+        "completion_tokens": 482,
+        "total_tokens": 1602,
+        "seconds": 1.39
       }
     },
     "NCT02404181": {
@@ -19498,6 +21843,13 @@
         "completion_tokens": 264,
         "total_tokens": 1460,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 903,
+        "completion_tokens": 112,
+        "total_tokens": 1015,
+        "seconds": 0.56
       }
     },
     "NCT00906711": {
@@ -19514,6 +21866,13 @@
         "completion_tokens": 303,
         "total_tokens": 1291,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 898,
+        "completion_tokens": 99,
+        "total_tokens": 997,
+        "seconds": 0.88
       }
     },
     "NCT00482001": {
@@ -19530,6 +21889,13 @@
         "completion_tokens": 292,
         "total_tokens": 1550,
         "seconds": 1.08
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1162,
+        "completion_tokens": 435,
+        "total_tokens": 1597,
+        "seconds": 1.65
       }
     }
   },
@@ -19548,6 +21914,13 @@
         "completion_tokens": 281,
         "total_tokens": 1804,
         "seconds": 0.98
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1002,
+        "completion_tokens": 96,
+        "total_tokens": 1098,
+        "seconds": 0.5
       }
     },
     "NCT02360072": {
@@ -19564,6 +21937,13 @@
         "completion_tokens": 355,
         "total_tokens": 1430,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02269761": {
@@ -19580,6 +21960,13 @@
         "completion_tokens": 279,
         "total_tokens": 1385,
         "seconds": 1.99
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1019,
+        "completion_tokens": 272,
+        "total_tokens": 1291,
+        "seconds": 1.18
       }
     },
     "NCT00711399": {
@@ -19596,6 +21983,13 @@
         "completion_tokens": 228,
         "total_tokens": 1144,
         "seconds": 0.82
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02507635": {
@@ -19612,6 +22006,13 @@
         "completion_tokens": 355,
         "total_tokens": 1370,
         "seconds": 1.57
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00000577": {
@@ -19628,6 +22029,13 @@
         "completion_tokens": 214,
         "total_tokens": 929,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00521040": {
@@ -19644,6 +22052,13 @@
         "completion_tokens": 298,
         "total_tokens": 1584,
         "seconds": 1.13
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1118,
+        "completion_tokens": 203,
+        "total_tokens": 1321,
+        "seconds": 0.95
       }
     },
     "NCT00029510": {
@@ -19660,6 +22075,13 @@
         "completion_tokens": 299,
         "total_tokens": 1443,
         "seconds": 1.51
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1122,
+        "completion_tokens": 297,
+        "total_tokens": 1419,
+        "seconds": 1.94
       }
     },
     "NCT02235428": {
@@ -19676,6 +22098,13 @@
         "completion_tokens": 354,
         "total_tokens": 2049,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1013,
+        "completion_tokens": 173,
+        "total_tokens": 1186,
+        "seconds": 0.88
       }
     },
     "NCT00930826": {
@@ -19692,6 +22121,13 @@
         "completion_tokens": 278,
         "total_tokens": 1052,
         "seconds": 0.88
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00839124": {
@@ -19708,6 +22144,13 @@
         "completion_tokens": 392,
         "total_tokens": 2712,
         "seconds": 1.87
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00287378": {
@@ -19724,6 +22167,13 @@
         "completion_tokens": 392,
         "total_tokens": 2895,
         "seconds": 2.08
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1765,
+        "completion_tokens": 752,
+        "total_tokens": 2517,
+        "seconds": 2.3
       }
     },
     "NCT01978288": {
@@ -19740,6 +22190,13 @@
         "completion_tokens": 283,
         "total_tokens": 1828,
         "seconds": 1.34
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1011,
+        "completion_tokens": 114,
+        "total_tokens": 1125,
+        "seconds": 0.86
       }
     },
     "NCT00489346": {
@@ -19756,6 +22213,13 @@
         "completion_tokens": 303,
         "total_tokens": 1298,
         "seconds": 1.15
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1022,
+        "completion_tokens": 85,
+        "total_tokens": 1107,
+        "seconds": 0.69
       }
     },
     "NCT00805324": {
@@ -19772,6 +22236,13 @@
         "completion_tokens": 284,
         "total_tokens": 2185,
         "seconds": 0.87
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1123,
+        "completion_tokens": 218,
+        "total_tokens": 1341,
+        "seconds": 1.42
       }
     },
     "NCT00569361": {
@@ -19788,6 +22259,13 @@
         "completion_tokens": 291,
         "total_tokens": 1345,
         "seconds": 1.58
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1272,
+        "completion_tokens": 309,
+        "total_tokens": 1581,
+        "seconds": 1.1
       }
     },
     "NCT00860418": {
@@ -19804,6 +22282,13 @@
         "completion_tokens": 318,
         "total_tokens": 1791,
         "seconds": 1.45
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1217,
+        "completion_tokens": 504,
+        "total_tokens": 1721,
+        "seconds": 1.52
       }
     },
     "NCT00346398": {
@@ -19820,6 +22305,13 @@
         "completion_tokens": 308,
         "total_tokens": 1645,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1192,
+        "completion_tokens": 331,
+        "total_tokens": 1523,
+        "seconds": 1.26
       }
     },
     "NCT01748162": {
@@ -19836,6 +22328,13 @@
         "completion_tokens": 335,
         "total_tokens": 1749,
         "seconds": 1.93
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1114,
+        "completion_tokens": 267,
+        "total_tokens": 1381,
+        "seconds": 1.01
       }
     },
     "NCT00092885": {
@@ -19852,6 +22351,13 @@
         "completion_tokens": 320,
         "total_tokens": 1257,
         "seconds": 1.5
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1188,
+        "completion_tokens": 401,
+        "total_tokens": 1589,
+        "seconds": 1.7
       }
     },
     "NCT01318954": {
@@ -19868,6 +22374,13 @@
         "completion_tokens": 243,
         "total_tokens": 1068,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1124,
+        "completion_tokens": 277,
+        "total_tokens": 1401,
+        "seconds": 1.28
       }
     },
     "NCT01113489": {
@@ -19884,6 +22397,13 @@
         "completion_tokens": 326,
         "total_tokens": 1389,
         "seconds": 1.73
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1025,
+        "completion_tokens": 177,
+        "total_tokens": 1202,
+        "seconds": 0.7
       }
     },
     "NCT02380495": {
@@ -19900,6 +22420,13 @@
         "completion_tokens": 266,
         "total_tokens": 1313,
         "seconds": 1.23
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1335,
+        "completion_tokens": 327,
+        "total_tokens": 1662,
+        "seconds": 1.44
       }
     },
     "NCT00273962": {
@@ -19916,6 +22443,13 @@
         "completion_tokens": 357,
         "total_tokens": 1713,
         "seconds": 0.98
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1141,
+        "completion_tokens": 206,
+        "total_tokens": 1347,
+        "seconds": 1.13
       }
     },
     "NCT00426634": {
@@ -19932,6 +22466,13 @@
         "completion_tokens": 304,
         "total_tokens": 2663,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1021,
+        "completion_tokens": 184,
+        "total_tokens": 1205,
+        "seconds": 1.01
       }
     },
     "NCT02113436": {
@@ -19948,6 +22489,13 @@
         "completion_tokens": 405,
         "total_tokens": 3036,
         "seconds": 1.61
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1634,
+        "completion_tokens": 416,
+        "total_tokens": 2050,
+        "seconds": 1.48
       }
     },
     "NCT01895478": {
@@ -19964,6 +22512,13 @@
         "completion_tokens": 383,
         "total_tokens": 1631,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1198,
+        "completion_tokens": 297,
+        "total_tokens": 1495,
+        "seconds": 0.87
       }
     },
     "NCT00710450": {
@@ -19980,6 +22535,13 @@
         "completion_tokens": 271,
         "total_tokens": 1106,
         "seconds": 0.94
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1012,
+        "completion_tokens": 110,
+        "total_tokens": 1122,
+        "seconds": 0.61
       }
     },
     "NCT01868113": {
@@ -19996,6 +22558,13 @@
         "completion_tokens": 364,
         "total_tokens": 1226,
         "seconds": 1.5
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02104505": {
@@ -20012,6 +22581,13 @@
         "completion_tokens": 290,
         "total_tokens": 2733,
         "seconds": 2.13
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1252,
+        "completion_tokens": 452,
+        "total_tokens": 1704,
+        "seconds": 2.31
       }
     },
     "NCT00920621": {
@@ -20028,6 +22604,13 @@
         "completion_tokens": 255,
         "total_tokens": 1531,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00660322": {
@@ -20044,6 +22627,13 @@
         "completion_tokens": 293,
         "total_tokens": 1493,
         "seconds": 0.86
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1088,
+        "completion_tokens": 241,
+        "total_tokens": 1329,
+        "seconds": 0.87
       }
     },
     "NCT00220753": {
@@ -20060,6 +22650,13 @@
         "completion_tokens": 293,
         "total_tokens": 1951,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1133,
+        "completion_tokens": 184,
+        "total_tokens": 1317,
+        "seconds": 0.95
       }
     },
     "NCT02296411": {
@@ -20076,6 +22673,13 @@
         "completion_tokens": 263,
         "total_tokens": 1390,
         "seconds": 1.03
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1134,
+        "completion_tokens": 366,
+        "total_tokens": 1500,
+        "seconds": 1.44
       }
     },
     "NCT01338311": {
@@ -20092,6 +22696,13 @@
         "completion_tokens": 306,
         "total_tokens": 1384,
         "seconds": 2.15
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1010,
+        "completion_tokens": 111,
+        "total_tokens": 1121,
+        "seconds": 0.71
       }
     },
     "NCT00747981": {
@@ -20108,6 +22719,13 @@
         "completion_tokens": 358,
         "total_tokens": 1375,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1002,
+        "completion_tokens": 170,
+        "total_tokens": 1172,
+        "seconds": 1.09
       }
     },
     "NCT01721291": {
@@ -20124,6 +22742,13 @@
         "completion_tokens": 309,
         "total_tokens": 1765,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1050,
+        "completion_tokens": 183,
+        "total_tokens": 1233,
+        "seconds": 0.57
       }
     },
     "NCT00377663": {
@@ -20140,6 +22765,13 @@
         "completion_tokens": 345,
         "total_tokens": 1228,
         "seconds": 1.66
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1192,
+        "completion_tokens": 285,
+        "total_tokens": 1477,
+        "seconds": 1.49
       }
     },
     "NCT01706198": {
@@ -20156,6 +22788,13 @@
         "completion_tokens": 270,
         "total_tokens": 2554,
         "seconds": 1.47
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1047,
+        "completion_tokens": 122,
+        "total_tokens": 1169,
+        "seconds": 0.83
       }
     },
     "NCT02579720": {
@@ -20172,6 +22811,13 @@
         "completion_tokens": 286,
         "total_tokens": 1124,
         "seconds": 0.88
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1127,
+        "completion_tokens": 195,
+        "total_tokens": 1322,
+        "seconds": 1.37
       }
     },
     "NCT01520688": {
@@ -20188,6 +22834,13 @@
         "completion_tokens": 294,
         "total_tokens": 2131,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1136,
+        "completion_tokens": 265,
+        "total_tokens": 1401,
+        "seconds": 1.13
       }
     },
     "NCT01405963": {
@@ -20204,6 +22857,13 @@
         "completion_tokens": 238,
         "total_tokens": 1980,
         "seconds": 1.82
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02026531": {
@@ -20220,6 +22880,13 @@
         "completion_tokens": 286,
         "total_tokens": 1508,
         "seconds": 2.07
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1053,
+        "completion_tokens": 130,
+        "total_tokens": 1183,
+        "seconds": 0.77
       }
     },
     "NCT02182713": {
@@ -20236,6 +22903,13 @@
         "completion_tokens": 271,
         "total_tokens": 2467,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1103,
+        "completion_tokens": 230,
+        "total_tokens": 1333,
+        "seconds": 1.09
       }
     },
     "NCT01175434": {
@@ -20252,6 +22926,13 @@
         "completion_tokens": 294,
         "total_tokens": 1691,
         "seconds": 0.98
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1008,
+        "completion_tokens": 155,
+        "total_tokens": 1163,
+        "seconds": 0.79
       }
     },
     "NCT02127866": {
@@ -20268,6 +22949,13 @@
         "completion_tokens": 253,
         "total_tokens": 1254,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01720069": {
@@ -20284,6 +22972,13 @@
         "completion_tokens": 344,
         "total_tokens": 1956,
         "seconds": 1.49
+      },
+      "review": {
+        "calls": 2,
+        "prompt_tokens": 3053,
+        "completion_tokens": 1257,
+        "total_tokens": 4310,
+        "seconds": 4.96
       }
     },
     "NCT00304304": {
@@ -20300,6 +22995,13 @@
         "completion_tokens": 299,
         "total_tokens": 1199,
         "seconds": 1.44
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02258308": {
@@ -20316,6 +23018,13 @@
         "completion_tokens": 320,
         "total_tokens": 1582,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02301975": {
@@ -20332,6 +23041,13 @@
         "completion_tokens": 291,
         "total_tokens": 2930,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02542254": {
@@ -20348,6 +23064,13 @@
         "completion_tokens": 252,
         "total_tokens": 2666,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1022,
+        "completion_tokens": 166,
+        "total_tokens": 1188,
+        "seconds": 0.79
       }
     },
     "NCT02182856": {
@@ -20364,6 +23087,13 @@
         "completion_tokens": 273,
         "total_tokens": 2354,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1125,
+        "completion_tokens": 290,
+        "total_tokens": 1415,
+        "seconds": 1.15
       }
     },
     "NCT00001845": {
@@ -20379,6 +23109,13 @@
         "prompt_tokens": 1150,
         "completion_tokens": 261,
         "total_tokens": 1411,
+        "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1052,
+        "completion_tokens": 119,
+        "total_tokens": 1171,
         "seconds": 1.16
       }
     }
@@ -20398,6 +23135,13 @@
         "completion_tokens": 367,
         "total_tokens": 1323,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00001646": {
@@ -20414,6 +23158,13 @@
         "completion_tokens": 425,
         "total_tokens": 3199,
         "seconds": 1.82
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1413,
+        "completion_tokens": 337,
+        "total_tokens": 1750,
+        "seconds": 1.21
       }
     },
     "NCT01448226": {
@@ -20430,6 +23181,13 @@
         "completion_tokens": 351,
         "total_tokens": 1253,
         "seconds": 1.44
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 968,
+        "completion_tokens": 244,
+        "total_tokens": 1212,
+        "seconds": 2.4
       }
     },
     "NCT00334412": {
@@ -20446,6 +23204,13 @@
         "completion_tokens": 400,
         "total_tokens": 2161,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1445,
+        "completion_tokens": 332,
+        "total_tokens": 1777,
+        "seconds": 1.03
       }
     },
     "NCT01207128": {
@@ -20462,6 +23227,13 @@
         "completion_tokens": 693,
         "total_tokens": 2371,
         "seconds": 2.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1014,
+        "completion_tokens": 230,
+        "total_tokens": 1244,
+        "seconds": 1.23
       }
     },
     "NCT01128907": {
@@ -20478,6 +23250,13 @@
         "completion_tokens": 366,
         "total_tokens": 1621,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 956,
+        "completion_tokens": 199,
+        "total_tokens": 1155,
+        "seconds": 0.93
       }
     },
     "NCT01176071": {
@@ -20494,6 +23273,13 @@
         "completion_tokens": 353,
         "total_tokens": 1135,
         "seconds": 1.66
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00923832": {
@@ -20510,6 +23296,13 @@
         "completion_tokens": 411,
         "total_tokens": 2359,
         "seconds": 1.41
+      },
+      "review": {
+        "calls": 2,
+        "prompt_tokens": 2899,
+        "completion_tokens": 871,
+        "total_tokens": 3770,
+        "seconds": 3.15
       }
     },
     "NCT01430663": {
@@ -20526,6 +23319,13 @@
         "completion_tokens": 279,
         "total_tokens": 1074,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 938,
+        "completion_tokens": 126,
+        "total_tokens": 1064,
+        "seconds": 0.7
       }
     },
     "NCT01247142": {
@@ -20542,6 +23342,13 @@
         "completion_tokens": 458,
         "total_tokens": 1319,
         "seconds": 1.5
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00974766": {
@@ -20558,6 +23365,13 @@
         "completion_tokens": 366,
         "total_tokens": 1738,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1513,
+        "completion_tokens": 355,
+        "total_tokens": 1868,
+        "seconds": 1.34
       }
     },
     "NCT00059878": {
@@ -20574,6 +23388,13 @@
         "completion_tokens": 875,
         "total_tokens": 6475,
         "seconds": 4.07
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1332,
+        "completion_tokens": 359,
+        "total_tokens": 1691,
+        "seconds": 1.46
       }
     },
     "NCT01887457": {
@@ -20590,6 +23411,13 @@
         "completion_tokens": 401,
         "total_tokens": 2044,
         "seconds": 1.79
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02534727": {
@@ -20606,6 +23434,13 @@
         "completion_tokens": 430,
         "total_tokens": 1894,
         "seconds": 1.43
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 936,
+        "completion_tokens": 152,
+        "total_tokens": 1088,
+        "seconds": 0.66
       }
     },
     "NCT01259336": {
@@ -20622,6 +23457,13 @@
         "completion_tokens": 314,
         "total_tokens": 1518,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01178177": {
@@ -20638,6 +23480,13 @@
         "completion_tokens": 437,
         "total_tokens": 1449,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1037,
+        "completion_tokens": 345,
+        "total_tokens": 1382,
+        "seconds": 1.45
       }
     },
     "NCT00263315": {
@@ -20654,6 +23503,13 @@
         "completion_tokens": 338,
         "total_tokens": 1608,
         "seconds": 1.04
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1303,
+        "completion_tokens": 596,
+        "total_tokens": 1899,
+        "seconds": 1.53
       }
     },
     "NCT01576315": {
@@ -20670,6 +23526,13 @@
         "completion_tokens": 315,
         "total_tokens": 1849,
         "seconds": 1.46
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1008,
+        "completion_tokens": 239,
+        "total_tokens": 1247,
+        "seconds": 1.03
       }
     },
     "NCT01615809": {
@@ -20686,6 +23549,13 @@
         "completion_tokens": 263,
         "total_tokens": 1754,
         "seconds": 1.07
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1271,
+        "completion_tokens": 328,
+        "total_tokens": 1599,
+        "seconds": 2.0
       }
     },
     "NCT00391014": {
@@ -20702,6 +23572,13 @@
         "completion_tokens": 360,
         "total_tokens": 1582,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02234739": {
@@ -20718,6 +23595,13 @@
         "completion_tokens": 301,
         "total_tokens": 1329,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 981,
+        "completion_tokens": 161,
+        "total_tokens": 1142,
+        "seconds": 0.88
       }
     },
     "NCT00163722": {
@@ -20734,6 +23618,13 @@
         "completion_tokens": 413,
         "total_tokens": 1306,
         "seconds": 1.99
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00838643": {
@@ -20750,6 +23641,13 @@
         "completion_tokens": 326,
         "total_tokens": 1094,
         "seconds": 1.75
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 928,
+        "completion_tokens": 133,
+        "total_tokens": 1061,
+        "seconds": 0.89
       }
     },
     "NCT00361517": {
@@ -20766,6 +23664,13 @@
         "completion_tokens": 353,
         "total_tokens": 1948,
         "seconds": 1.02
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1064,
+        "completion_tokens": 234,
+        "total_tokens": 1298,
+        "seconds": 1.23
       }
     },
     "NCT00906568": {
@@ -20782,6 +23687,13 @@
         "completion_tokens": 285,
         "total_tokens": 1580,
         "seconds": 0.85
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1181,
+        "completion_tokens": 276,
+        "total_tokens": 1457,
+        "seconds": 1.16
       }
     },
     "NCT01742026": {
@@ -20798,6 +23710,13 @@
         "completion_tokens": 326,
         "total_tokens": 1586,
         "seconds": 1.09
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1202,
+        "completion_tokens": 333,
+        "total_tokens": 1535,
+        "seconds": 0.93
       }
     },
     "NCT00528190": {
@@ -20814,6 +23733,13 @@
         "completion_tokens": 337,
         "total_tokens": 1806,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 970,
+        "completion_tokens": 135,
+        "total_tokens": 1105,
+        "seconds": 0.62
       }
     },
     "NCT00158730": {
@@ -20830,6 +23756,13 @@
         "completion_tokens": 428,
         "total_tokens": 1600,
         "seconds": 1.46
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1154,
+        "completion_tokens": 152,
+        "total_tokens": 1306,
+        "seconds": 1.05
       }
     },
     "NCT02371681": {
@@ -20846,6 +23779,13 @@
         "completion_tokens": 426,
         "total_tokens": 2362,
         "seconds": 1.5
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01222273": {
@@ -20862,6 +23802,13 @@
         "completion_tokens": 331,
         "total_tokens": 1937,
         "seconds": 1.41
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1258,
+        "completion_tokens": 309,
+        "total_tokens": 1567,
+        "seconds": 0.98
       }
     },
     "NCT02332122": {
@@ -20878,6 +23825,13 @@
         "completion_tokens": 316,
         "total_tokens": 1448,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 920,
+        "completion_tokens": 138,
+        "total_tokens": 1058,
+        "seconds": 0.86
       }
     },
     "NCT02550041": {
@@ -20894,6 +23848,13 @@
         "completion_tokens": 279,
         "total_tokens": 1389,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 928,
+        "completion_tokens": 112,
+        "total_tokens": 1040,
+        "seconds": 0.75
       }
     },
     "NCT01254708": {
@@ -20910,6 +23871,13 @@
         "completion_tokens": 301,
         "total_tokens": 2006,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1066,
+        "completion_tokens": 247,
+        "total_tokens": 1313,
+        "seconds": 1.07
       }
     },
     "NCT01117077": {
@@ -20926,6 +23894,13 @@
         "completion_tokens": 265,
         "total_tokens": 1204,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 936,
+        "completion_tokens": 130,
+        "total_tokens": 1066,
+        "seconds": 0.89
       }
     },
     "NCT01264055": {
@@ -20942,6 +23917,13 @@
         "completion_tokens": 378,
         "total_tokens": 2026,
         "seconds": 1.49
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1297,
+        "completion_tokens": 260,
+        "total_tokens": 1557,
+        "seconds": 1.15
       }
     },
     "NCT01952470": {
@@ -20958,6 +23940,13 @@
         "completion_tokens": 282,
         "total_tokens": 2373,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 920,
+        "completion_tokens": 154,
+        "total_tokens": 1074,
+        "seconds": 0.96
       }
     },
     "NCT01501227": {
@@ -20974,6 +23963,13 @@
         "completion_tokens": 237,
         "total_tokens": 1403,
         "seconds": 0.91
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1188,
+        "completion_tokens": 252,
+        "total_tokens": 1440,
+        "seconds": 1.11
       }
     },
     "NCT01698476": {
@@ -20990,6 +23986,13 @@
         "completion_tokens": 287,
         "total_tokens": 1362,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 979,
+        "completion_tokens": 176,
+        "total_tokens": 1155,
+        "seconds": 0.91
       }
     },
     "NCT01422798": {
@@ -21006,6 +24009,13 @@
         "completion_tokens": 250,
         "total_tokens": 1881,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00023452": {
@@ -21022,6 +24032,13 @@
         "completion_tokens": 349,
         "total_tokens": 2151,
         "seconds": 1.02
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 979,
+        "completion_tokens": 217,
+        "total_tokens": 1196,
+        "seconds": 0.95
       }
     },
     "NCT00827996": {
@@ -21038,6 +24055,13 @@
         "completion_tokens": 284,
         "total_tokens": 1849,
         "seconds": 1.25
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1767,
+        "completion_tokens": 692,
+        "total_tokens": 2459,
+        "seconds": 2.67
       }
     },
     "NCT02169570": {
@@ -21054,6 +24078,13 @@
         "completion_tokens": 357,
         "total_tokens": 1743,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1162,
+        "completion_tokens": 345,
+        "total_tokens": 1507,
+        "seconds": 1.46
       }
     },
     "NCT01999231": {
@@ -21070,6 +24101,13 @@
         "completion_tokens": 301,
         "total_tokens": 2651,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1572,
+        "completion_tokens": 457,
+        "total_tokens": 2029,
+        "seconds": 1.45
       }
     },
     "NCT00933790": {
@@ -21086,6 +24124,13 @@
         "completion_tokens": 287,
         "total_tokens": 1936,
         "seconds": 1.61
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1069,
+        "completion_tokens": 248,
+        "total_tokens": 1317,
+        "seconds": 0.79
       }
     },
     "NCT01533636": {
@@ -21102,6 +24147,13 @@
         "completion_tokens": 310,
         "total_tokens": 1538,
         "seconds": 1.03
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 926,
+        "completion_tokens": 136,
+        "total_tokens": 1062,
+        "seconds": 0.73
       }
     },
     "NCT02232945": {
@@ -21118,6 +24170,13 @@
         "completion_tokens": 251,
         "total_tokens": 1667,
         "seconds": 0.96
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1058,
+        "completion_tokens": 148,
+        "total_tokens": 1206,
+        "seconds": 1.02
       }
     },
     "NCT00856427": {
@@ -21134,6 +24193,13 @@
         "completion_tokens": 312,
         "total_tokens": 1367,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 918,
+        "completion_tokens": 154,
+        "total_tokens": 1072,
+        "seconds": 1.11
       }
     },
     "NCT00521924": {
@@ -21150,6 +24216,13 @@
         "completion_tokens": 271,
         "total_tokens": 2491,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1519,
+        "completion_tokens": 404,
+        "total_tokens": 1923,
+        "seconds": 1.43
       }
     },
     "NCT00251641": {
@@ -21166,6 +24239,13 @@
         "completion_tokens": 246,
         "total_tokens": 2095,
         "seconds": 1.5
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1741,
+        "completion_tokens": 437,
+        "total_tokens": 2178,
+        "seconds": 1.52
       }
     },
     "NCT00280202": {
@@ -21182,6 +24262,13 @@
         "completion_tokens": 299,
         "total_tokens": 1022,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 954,
+        "completion_tokens": 126,
+        "total_tokens": 1080,
+        "seconds": 0.85
       }
     },
     "NCT01511315": {
@@ -21198,6 +24285,13 @@
         "completion_tokens": 283,
         "total_tokens": 3468,
         "seconds": 1.26
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1778,
+        "completion_tokens": 633,
+        "total_tokens": 2411,
+        "seconds": 2.14
       }
     },
     "NCT01144143": {
@@ -21214,6 +24308,13 @@
         "completion_tokens": 291,
         "total_tokens": 3848,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1497,
+        "completion_tokens": 466,
+        "total_tokens": 1963,
+        "seconds": 1.52
       }
     },
     "NCT02297633": {
@@ -21230,6 +24331,13 @@
         "completion_tokens": 210,
         "total_tokens": 1012,
         "seconds": 1.34
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1095,
+        "completion_tokens": 226,
+        "total_tokens": 1321,
+        "seconds": 0.96
       }
     }
   },
@@ -21248,6 +24356,13 @@
         "completion_tokens": 394,
         "total_tokens": 2555,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1338,
+        "completion_tokens": 163,
+        "total_tokens": 1501,
+        "seconds": 1.01
       }
     },
     "NCT00844987": {
@@ -21264,6 +24379,13 @@
         "completion_tokens": 241,
         "total_tokens": 1536,
         "seconds": 0.9
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00683813": {
@@ -21280,6 +24402,13 @@
         "completion_tokens": 386,
         "total_tokens": 2609,
         "seconds": 1.47
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1513,
+        "completion_tokens": 446,
+        "total_tokens": 1959,
+        "seconds": 1.51
       }
     },
     "NCT02412176": {
@@ -21296,6 +24425,13 @@
         "completion_tokens": 343,
         "total_tokens": 2023,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1354,
+        "completion_tokens": 204,
+        "total_tokens": 1558,
+        "seconds": 1.93
       }
     },
     "NCT01673373": {
@@ -21312,6 +24448,13 @@
         "completion_tokens": 357,
         "total_tokens": 1791,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01107743": {
@@ -21328,6 +24471,13 @@
         "completion_tokens": 331,
         "total_tokens": 1409,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01206231": {
@@ -21344,6 +24494,13 @@
         "completion_tokens": 318,
         "total_tokens": 1306,
         "seconds": 1.66
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01243255": {
@@ -21360,6 +24517,13 @@
         "completion_tokens": 379,
         "total_tokens": 1509,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01604655": {
@@ -21376,6 +24540,13 @@
         "completion_tokens": 253,
         "total_tokens": 1644,
         "seconds": 1.22
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1382,
+        "completion_tokens": 396,
+        "total_tokens": 1778,
+        "seconds": 1.71
       }
     },
     "NCT01653587": {
@@ -21392,6 +24563,13 @@
         "completion_tokens": 392,
         "total_tokens": 2375,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1532,
+        "completion_tokens": 196,
+        "total_tokens": 1728,
+        "seconds": 0.88
       }
     },
     "NCT00990262": {
@@ -21408,6 +24586,13 @@
         "completion_tokens": 313,
         "total_tokens": 2135,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1341,
+        "completion_tokens": 223,
+        "total_tokens": 1564,
+        "seconds": 0.99
       }
     },
     "NCT01084239": {
@@ -21424,6 +24609,13 @@
         "completion_tokens": 435,
         "total_tokens": 2639,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1450,
+        "completion_tokens": 276,
+        "total_tokens": 1726,
+        "seconds": 1.05
       }
     },
     "NCT01403714": {
@@ -21440,6 +24632,13 @@
         "completion_tokens": 375,
         "total_tokens": 1730,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1561,
+        "completion_tokens": 333,
+        "total_tokens": 1894,
+        "seconds": 1.52
       }
     },
     "NCT00350766": {
@@ -21456,6 +24655,13 @@
         "completion_tokens": 405,
         "total_tokens": 2671,
         "seconds": 1.53
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1308,
+        "completion_tokens": 254,
+        "total_tokens": 1562,
+        "seconds": 1.08
       }
     },
     "NCT00388869": {
@@ -21472,6 +24678,13 @@
         "completion_tokens": 316,
         "total_tokens": 1327,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00701818": {
@@ -21488,6 +24701,13 @@
         "completion_tokens": 227,
         "total_tokens": 1507,
         "seconds": 1.02
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1225,
+        "completion_tokens": 135,
+        "total_tokens": 1360,
+        "seconds": 0.94
       }
     },
     "NCT02590653": {
@@ -21504,6 +24724,13 @@
         "completion_tokens": 325,
         "total_tokens": 3071,
         "seconds": 1.45
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1598,
+        "completion_tokens": 450,
+        "total_tokens": 2048,
+        "seconds": 1.19
       }
     },
     "NCT01004289": {
@@ -21520,6 +24747,13 @@
         "completion_tokens": 343,
         "total_tokens": 2109,
         "seconds": 1.45
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1240,
+        "completion_tokens": 150,
+        "total_tokens": 1390,
+        "seconds": 1.39
       }
     },
     "NCT01173666": {
@@ -21536,6 +24770,13 @@
         "completion_tokens": 338,
         "total_tokens": 1644,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01917149": {
@@ -21552,6 +24793,13 @@
         "completion_tokens": 316,
         "total_tokens": 2568,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1598,
+        "completion_tokens": 654,
+        "total_tokens": 2252,
+        "seconds": 2.1
       }
     },
     "NCT00417638": {
@@ -21568,6 +24816,13 @@
         "completion_tokens": 324,
         "total_tokens": 2854,
         "seconds": 1.83
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1297,
+        "completion_tokens": 224,
+        "total_tokens": 1521,
+        "seconds": 1.1
       }
     },
     "NCT01458405": {
@@ -21584,6 +24839,13 @@
         "completion_tokens": 371,
         "total_tokens": 3772,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1510,
+        "completion_tokens": 409,
+        "total_tokens": 1919,
+        "seconds": 1.49
       }
     },
     "NCT00081731": {
@@ -21600,6 +24862,13 @@
         "completion_tokens": 414,
         "total_tokens": 3001,
         "seconds": 2.15
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00711984": {
@@ -21616,6 +24885,13 @@
         "completion_tokens": 375,
         "total_tokens": 1654,
         "seconds": 1.56
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01128933": {
@@ -21632,6 +24908,13 @@
         "completion_tokens": 310,
         "total_tokens": 1655,
         "seconds": 1.21
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1211,
+        "completion_tokens": 91,
+        "total_tokens": 1302,
+        "seconds": 0.84
       }
     },
     "NCT01818960": {
@@ -21648,6 +24931,13 @@
         "completion_tokens": 314,
         "total_tokens": 1862,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1351,
+        "completion_tokens": 283,
+        "total_tokens": 1634,
+        "seconds": 1.26
       }
     },
     "NCT02594410": {
@@ -21664,6 +24954,13 @@
         "completion_tokens": 340,
         "total_tokens": 1889,
         "seconds": 1.47
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1216,
+        "completion_tokens": 91,
+        "total_tokens": 1307,
+        "seconds": 0.76
       }
     },
     "NCT02071602": {
@@ -21680,6 +24977,13 @@
         "completion_tokens": 343,
         "total_tokens": 2582,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1264,
+        "completion_tokens": 247,
+        "total_tokens": 1511,
+        "seconds": 1.16
       }
     },
     "NCT02072421": {
@@ -21696,6 +25000,13 @@
         "completion_tokens": 360,
         "total_tokens": 2354,
         "seconds": 1.86
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1883,
+        "completion_tokens": 484,
+        "total_tokens": 2367,
+        "seconds": 1.61
       }
     },
     "NCT01310309": {
@@ -21712,6 +25023,13 @@
         "completion_tokens": 394,
         "total_tokens": 3189,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1488,
+        "completion_tokens": 259,
+        "total_tokens": 1747,
+        "seconds": 1.12
       }
     },
     "NCT01960933": {
@@ -21728,6 +25046,13 @@
         "completion_tokens": 345,
         "total_tokens": 1910,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1385,
+        "completion_tokens": 340,
+        "total_tokens": 1725,
+        "seconds": 1.13
       }
     },
     "NCT01205776": {
@@ -21744,6 +25069,13 @@
         "completion_tokens": 346,
         "total_tokens": 1861,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1556,
+        "completion_tokens": 356,
+        "total_tokens": 1912,
+        "seconds": 1.55
       }
     },
     "NCT01923740": {
@@ -21760,6 +25092,13 @@
         "completion_tokens": 380,
         "total_tokens": 4442,
         "seconds": 1.85
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1620,
+        "completion_tokens": 506,
+        "total_tokens": 2126,
+        "seconds": 1.71
       }
     },
     "NCT01115933": {
@@ -21776,6 +25115,13 @@
         "completion_tokens": 427,
         "total_tokens": 3386,
         "seconds": 1.55
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 2138,
+        "completion_tokens": 862,
+        "total_tokens": 3000,
+        "seconds": 2.77
       }
     },
     "NCT01208714": {
@@ -21792,6 +25138,13 @@
         "completion_tokens": 446,
         "total_tokens": 2241,
         "seconds": 1.75
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00557531": {
@@ -21808,6 +25161,13 @@
         "completion_tokens": 334,
         "total_tokens": 2840,
         "seconds": 1.47
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1781,
+        "completion_tokens": 481,
+        "total_tokens": 2262,
+        "seconds": 1.37
       }
     },
     "NCT01050361": {
@@ -21824,6 +25184,13 @@
         "completion_tokens": 415,
         "total_tokens": 2878,
         "seconds": 1.62
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1380,
+        "completion_tokens": 359,
+        "total_tokens": 1739,
+        "seconds": 1.76
       }
     },
     "NCT02356510": {
@@ -21840,6 +25207,13 @@
         "completion_tokens": 281,
         "total_tokens": 1636,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1251,
+        "completion_tokens": 165,
+        "total_tokens": 1416,
+        "seconds": 0.87
       }
     },
     "NCT00919373": {
@@ -21856,6 +25230,13 @@
         "completion_tokens": 358,
         "total_tokens": 2478,
         "seconds": 1.46
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1523,
+        "completion_tokens": 256,
+        "total_tokens": 1779,
+        "seconds": 1.06
       }
     },
     "NCT00449488": {
@@ -21872,6 +25253,13 @@
         "completion_tokens": 383,
         "total_tokens": 2197,
         "seconds": 1.59
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1655,
+        "completion_tokens": 733,
+        "total_tokens": 2388,
+        "seconds": 2.23
       }
     },
     "NCT01399736": {
@@ -21888,6 +25276,13 @@
         "completion_tokens": 398,
         "total_tokens": 2518,
         "seconds": 1.52
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1326,
+        "completion_tokens": 202,
+        "total_tokens": 1528,
+        "seconds": 1.26
       }
     },
     "NCT02385487": {
@@ -21904,6 +25299,13 @@
         "completion_tokens": 445,
         "total_tokens": 2172,
         "seconds": 1.49
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1314,
+        "completion_tokens": 285,
+        "total_tokens": 1599,
+        "seconds": 1.41
       }
     },
     "NCT01172184": {
@@ -21920,6 +25322,13 @@
         "completion_tokens": 267,
         "total_tokens": 1663,
         "seconds": 0.84
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1242,
+        "completion_tokens": 117,
+        "total_tokens": 1359,
+        "seconds": 1.63
       }
     },
     "NCT01858194": {
@@ -21936,6 +25345,13 @@
         "completion_tokens": 343,
         "total_tokens": 2173,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1389,
+        "completion_tokens": 357,
+        "total_tokens": 1746,
+        "seconds": 1.28
       }
     },
     "NCT00774917": {
@@ -21952,6 +25368,13 @@
         "completion_tokens": 320,
         "total_tokens": 2819,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1862,
+        "completion_tokens": 595,
+        "total_tokens": 2457,
+        "seconds": 1.79
       }
     },
     "NCT00843986": {
@@ -21968,6 +25391,13 @@
         "completion_tokens": 353,
         "total_tokens": 2613,
         "seconds": 1.43
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1604,
+        "completion_tokens": 455,
+        "total_tokens": 2059,
+        "seconds": 1.58
       }
     },
     "NCT00321009": {
@@ -21984,6 +25414,13 @@
         "completion_tokens": 375,
         "total_tokens": 2556,
         "seconds": 1.27
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1333,
+        "completion_tokens": 198,
+        "total_tokens": 1531,
+        "seconds": 0.81
       }
     },
     "NCT01288560": {
@@ -22000,6 +25437,13 @@
         "completion_tokens": 381,
         "total_tokens": 2566,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1259,
+        "completion_tokens": 161,
+        "total_tokens": 1420,
+        "seconds": 0.91
       }
     },
     "NCT00704535": {
@@ -22016,6 +25460,13 @@
         "completion_tokens": 316,
         "total_tokens": 1601,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1247,
+        "completion_tokens": 179,
+        "total_tokens": 1426,
+        "seconds": 0.81
       }
     },
     "NCT00171236": {
@@ -22032,6 +25483,13 @@
         "completion_tokens": 270,
         "total_tokens": 1281,
         "seconds": 1.09
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1245,
+        "completion_tokens": 142,
+        "total_tokens": 1387,
+        "seconds": 0.88
       }
     },
     "NCT00756756": {
@@ -22048,6 +25506,13 @@
         "completion_tokens": 366,
         "total_tokens": 1588,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1292,
+        "completion_tokens": 257,
+        "total_tokens": 1549,
+        "seconds": 0.97
       }
     },
     "NCT00497328": {
@@ -22064,6 +25529,13 @@
         "completion_tokens": 346,
         "total_tokens": 2077,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1318,
+        "completion_tokens": 378,
+        "total_tokens": 1696,
+        "seconds": 0.97
       }
     },
     "NCT00909389": {
@@ -22080,6 +25552,13 @@
         "completion_tokens": 287,
         "total_tokens": 1533,
         "seconds": 1.2
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1225,
+        "completion_tokens": 184,
+        "total_tokens": 1409,
+        "seconds": 1.15
       }
     },
     "NCT02269761": {
@@ -22096,6 +25575,13 @@
         "completion_tokens": 401,
         "total_tokens": 1707,
         "seconds": 1.84
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1240,
+        "completion_tokens": 150,
+        "total_tokens": 1390,
+        "seconds": 0.6
       }
     }
   },
@@ -22114,6 +25600,13 @@
         "completion_tokens": 385,
         "total_tokens": 2229,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02457546": {
@@ -22130,6 +25623,13 @@
         "completion_tokens": 341,
         "total_tokens": 2435,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1130,
+        "completion_tokens": 389,
+        "total_tokens": 1519,
+        "seconds": 1.09
       }
     },
     "NCT02475226": {
@@ -22146,6 +25646,13 @@
         "completion_tokens": 203,
         "total_tokens": 953,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02467309": {
@@ -22162,6 +25669,13 @@
         "completion_tokens": 203,
         "total_tokens": 1124,
         "seconds": 1.11
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00162578": {
@@ -22178,6 +25692,13 @@
         "completion_tokens": 323,
         "total_tokens": 1123,
         "seconds": 1.03
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01730690": {
@@ -22194,6 +25715,13 @@
         "completion_tokens": 408,
         "total_tokens": 1430,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1227,
+        "completion_tokens": 275,
+        "total_tokens": 1502,
+        "seconds": 1.15
       }
     },
     "NCT01730391": {
@@ -22210,6 +25738,13 @@
         "completion_tokens": 306,
         "total_tokens": 1189,
         "seconds": 1.34
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02418169": {
@@ -22226,6 +25761,13 @@
         "completion_tokens": 263,
         "total_tokens": 939,
         "seconds": 0.82
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01355627": {
@@ -22242,6 +25784,13 @@
         "completion_tokens": 249,
         "total_tokens": 1798,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02021877": {
@@ -22258,6 +25807,13 @@
         "completion_tokens": 384,
         "total_tokens": 1547,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00452036": {
@@ -22274,6 +25830,13 @@
         "completion_tokens": 357,
         "total_tokens": 1048,
         "seconds": 1.71
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 925,
+        "completion_tokens": 252,
+        "total_tokens": 1177,
+        "seconds": 0.86
       }
     },
     "NCT01503788": {
@@ -22290,6 +25853,13 @@
         "completion_tokens": 307,
         "total_tokens": 1670,
         "seconds": 1.36
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 991,
+        "completion_tokens": 210,
+        "total_tokens": 1201,
+        "seconds": 1.0
       }
     },
     "NCT02495545": {
@@ -22306,6 +25876,13 @@
         "completion_tokens": 296,
         "total_tokens": 2054,
         "seconds": 1.06
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 896,
+        "completion_tokens": 161,
+        "total_tokens": 1057,
+        "seconds": 0.8
       }
     },
     "NCT00231374": {
@@ -22322,6 +25899,13 @@
         "completion_tokens": 294,
         "total_tokens": 1053,
         "seconds": 1.24
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01339702": {
@@ -22338,6 +25922,13 @@
         "completion_tokens": 379,
         "total_tokens": 1286,
         "seconds": 1.42
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00135278": {
@@ -22354,6 +25945,13 @@
         "completion_tokens": 312,
         "total_tokens": 1264,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1229,
+        "completion_tokens": 355,
+        "total_tokens": 1584,
+        "seconds": 1.43
       }
     },
     "NCT00704340": {
@@ -22370,6 +25968,13 @@
         "completion_tokens": 325,
         "total_tokens": 1046,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 897,
+        "completion_tokens": 131,
+        "total_tokens": 1028,
+        "seconds": 0.66
       }
     },
     "NCT02063087": {
@@ -22386,6 +25991,13 @@
         "completion_tokens": 234,
         "total_tokens": 1959,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 897,
+        "completion_tokens": 91,
+        "total_tokens": 988,
+        "seconds": 0.84
       }
     },
     "NCT02261792": {
@@ -22402,6 +26014,13 @@
         "completion_tokens": 306,
         "total_tokens": 1538,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 901,
+        "completion_tokens": 138,
+        "total_tokens": 1039,
+        "seconds": 1.01
       }
     },
     "NCT01448473": {
@@ -22418,6 +26037,13 @@
         "completion_tokens": 242,
         "total_tokens": 912,
         "seconds": 1.03
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT01915745": {
@@ -22434,6 +26060,13 @@
         "completion_tokens": 298,
         "total_tokens": 1474,
         "seconds": 1.0
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1182,
+        "completion_tokens": 273,
+        "total_tokens": 1455,
+        "seconds": 1.08
       }
     },
     "NCT00735527": {
@@ -22450,6 +26083,13 @@
         "completion_tokens": 290,
         "total_tokens": 1346,
         "seconds": 1.96
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1008,
+        "completion_tokens": 194,
+        "total_tokens": 1202,
+        "seconds": 0.93
       }
     },
     "NCT01977001": {
@@ -22466,6 +26106,13 @@
         "completion_tokens": 253,
         "total_tokens": 1358,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1031,
+        "completion_tokens": 195,
+        "total_tokens": 1226,
+        "seconds": 1.18
       }
     },
     "NCT00938756": {
@@ -22482,6 +26129,13 @@
         "completion_tokens": 383,
         "total_tokens": 1485,
         "seconds": 1.38
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 990,
+        "completion_tokens": 188,
+        "total_tokens": 1178,
+        "seconds": 1.11
       }
     },
     "NCT01815125": {
@@ -22498,6 +26152,13 @@
         "completion_tokens": 280,
         "total_tokens": 2037,
         "seconds": 1.12
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1039,
+        "completion_tokens": 339,
+        "total_tokens": 1378,
+        "seconds": 1.21
       }
     },
     "NCT00483873": {
@@ -22514,6 +26175,13 @@
         "completion_tokens": 334,
         "total_tokens": 1816,
         "seconds": 1.45
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1181,
+        "completion_tokens": 271,
+        "total_tokens": 1452,
+        "seconds": 1.37
       }
     },
     "NCT00927953": {
@@ -22530,6 +26198,13 @@
         "completion_tokens": 417,
         "total_tokens": 2503,
         "seconds": 1.49
+      },
+      "review": {
+        "calls": 3,
+        "prompt_tokens": 4177,
+        "completion_tokens": 1202,
+        "total_tokens": 5379,
+        "seconds": 4.89
       }
     },
     "NCT01943929": {
@@ -22546,6 +26221,13 @@
         "completion_tokens": 297,
         "total_tokens": 1104,
         "seconds": 1.05
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 900,
+        "completion_tokens": 118,
+        "total_tokens": 1018,
+        "seconds": 0.77
       }
     },
     "NCT01680029": {
@@ -22562,6 +26244,13 @@
         "completion_tokens": 336,
         "total_tokens": 2496,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 2,
+        "prompt_tokens": 2649,
+        "completion_tokens": 746,
+        "total_tokens": 3395,
+        "seconds": 2.84
       }
     },
     "NCT00619203": {
@@ -22578,6 +26267,13 @@
         "completion_tokens": 292,
         "total_tokens": 1404,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 878,
+        "completion_tokens": 101,
+        "total_tokens": 979,
+        "seconds": 0.82
       }
     },
     "NCT01522105": {
@@ -22594,6 +26290,13 @@
         "completion_tokens": 244,
         "total_tokens": 1560,
         "seconds": 1.31
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 900,
+        "completion_tokens": 97,
+        "total_tokens": 997,
+        "seconds": 0.79
       }
     },
     "NCT00226304": {
@@ -22610,6 +26313,13 @@
         "completion_tokens": 297,
         "total_tokens": 2347,
         "seconds": 1.41
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1143,
+        "completion_tokens": 289,
+        "total_tokens": 1432,
+        "seconds": 1.12
       }
     },
     "NCT00355394": {
@@ -22626,6 +26336,13 @@
         "completion_tokens": 262,
         "total_tokens": 1474,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1182,
+        "completion_tokens": 233,
+        "total_tokens": 1415,
+        "seconds": 1.13
       }
     },
     "NCT02011867": {
@@ -22642,6 +26359,13 @@
         "completion_tokens": 262,
         "total_tokens": 1172,
         "seconds": 0.91
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 901,
+        "completion_tokens": 118,
+        "total_tokens": 1019,
+        "seconds": 0.58
       }
     },
     "NCT01554124": {
@@ -22658,6 +26382,13 @@
         "completion_tokens": 277,
         "total_tokens": 1666,
         "seconds": 1.15
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 908,
+        "completion_tokens": 94,
+        "total_tokens": 1002,
+        "seconds": 0.93
       }
     },
     "NCT00681824": {
@@ -22674,6 +26405,13 @@
         "completion_tokens": 319,
         "total_tokens": 1434,
         "seconds": 1.52
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00069316": {
@@ -22690,6 +26428,13 @@
         "completion_tokens": 422,
         "total_tokens": 3469,
         "seconds": 1.49
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1036,
+        "completion_tokens": 215,
+        "total_tokens": 1251,
+        "seconds": 0.73
       }
     },
     "NCT01747369": {
@@ -22706,6 +26451,13 @@
         "completion_tokens": 368,
         "total_tokens": 1410,
         "seconds": 2.65
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1102,
+        "completion_tokens": 386,
+        "total_tokens": 1488,
+        "seconds": 1.11
       }
     },
     "NCT01540838": {
@@ -22722,6 +26474,13 @@
         "completion_tokens": 265,
         "total_tokens": 1169,
         "seconds": 1.29
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1084,
+        "completion_tokens": 298,
+        "total_tokens": 1382,
+        "seconds": 1.33
       }
     },
     "NCT02236442": {
@@ -22996,6 +26755,13 @@
         "completion_tokens": 285,
         "total_tokens": 1089,
         "seconds": 0.91
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00817908": {
@@ -23012,6 +26778,13 @@
         "completion_tokens": 363,
         "total_tokens": 1410,
         "seconds": 1.41
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1029,
+        "completion_tokens": 304,
+        "total_tokens": 1333,
+        "seconds": 1.09
       }
     },
     "NCT00077909": {
@@ -23028,6 +26801,13 @@
         "completion_tokens": 355,
         "total_tokens": 1479,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00471250": {
@@ -23044,6 +26824,13 @@
         "completion_tokens": 413,
         "total_tokens": 3282,
         "seconds": 1.8
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1215,
+        "completion_tokens": 390,
+        "total_tokens": 1605,
+        "seconds": 1.61
       }
     },
     "NCT00005572": {
@@ -23060,6 +26847,13 @@
         "completion_tokens": 400,
         "total_tokens": 2871,
         "seconds": 2.81
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1184,
+        "completion_tokens": 358,
+        "total_tokens": 1542,
+        "seconds": 1.38
       }
     },
     "NCT00699868": {
@@ -23076,6 +26870,13 @@
         "completion_tokens": 249,
         "total_tokens": 1065,
         "seconds": 1.0
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 917,
+        "completion_tokens": 136,
+        "total_tokens": 1053,
+        "seconds": 1.12
       }
     },
     "NCT02532452": {
@@ -23092,6 +26893,13 @@
         "completion_tokens": 343,
         "total_tokens": 1455,
         "seconds": 1.15
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00159055": {
@@ -23108,6 +26916,13 @@
         "completion_tokens": 357,
         "total_tokens": 1734,
         "seconds": 1.32
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1391,
+        "completion_tokens": 311,
+        "total_tokens": 1702,
+        "seconds": 1.22
       }
     },
     "NCT01646645": {
@@ -23124,6 +26939,13 @@
         "completion_tokens": 359,
         "total_tokens": 2057,
         "seconds": 1.35
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02136797": {
@@ -23140,6 +26962,13 @@
         "completion_tokens": 391,
         "total_tokens": 2248,
         "seconds": 1.48
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00034437": {
@@ -23156,6 +26985,13 @@
         "completion_tokens": 338,
         "total_tokens": 1543,
         "seconds": 1.58
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 911,
+        "completion_tokens": 162,
+        "total_tokens": 1073,
+        "seconds": 0.6
       }
     },
     "NCT00225394": {
@@ -23172,6 +27008,13 @@
         "completion_tokens": 292,
         "total_tokens": 1858,
         "seconds": 1.72
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT00001471": {
@@ -23188,6 +27031,13 @@
         "completion_tokens": 395,
         "total_tokens": 3266,
         "seconds": 1.75
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 935,
+        "completion_tokens": 155,
+        "total_tokens": 1090,
+        "seconds": 0.57
       }
     },
     "NCT00442975": {
@@ -23204,6 +27054,13 @@
         "completion_tokens": 436,
         "total_tokens": 1272,
         "seconds": 1.57
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 943,
+        "completion_tokens": 253,
+        "total_tokens": 1196,
+        "seconds": 0.91
       }
     },
     "NCT02025335": {
@@ -23220,6 +27077,13 @@
         "completion_tokens": 295,
         "total_tokens": 1122,
         "seconds": 1.28
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02081716": {
@@ -23236,6 +27100,13 @@
         "completion_tokens": 299,
         "total_tokens": 1059,
         "seconds": 1.14
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02370758": {
@@ -23252,6 +27123,13 @@
         "completion_tokens": 309,
         "total_tokens": 1298,
         "seconds": 1.17
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 940,
+        "completion_tokens": 194,
+        "total_tokens": 1134,
+        "seconds": 1.25
       }
     },
     "NCT02527291": {
@@ -23268,6 +27146,13 @@
         "completion_tokens": 323,
         "total_tokens": 1147,
         "seconds": 1.04
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 907,
+        "completion_tokens": 118,
+        "total_tokens": 1025,
+        "seconds": 0.78
       }
     },
     "NCT00002025": {
@@ -23284,6 +27169,13 @@
         "completion_tokens": 400,
         "total_tokens": 2310,
         "seconds": 1.58
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02622009": {
@@ -23300,6 +27192,13 @@
         "completion_tokens": 241,
         "total_tokens": 1204,
         "seconds": 1.3
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1075,
+        "completion_tokens": 241,
+        "total_tokens": 1316,
+        "seconds": 1.16
       }
     },
     "NCT01292213": {
@@ -23316,6 +27215,13 @@
         "completion_tokens": 369,
         "total_tokens": 1956,
         "seconds": 1.73
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 926,
+        "completion_tokens": 125,
+        "total_tokens": 1051,
+        "seconds": 0.99
       }
     },
     "NCT00954200": {
@@ -23332,6 +27238,13 @@
         "completion_tokens": 358,
         "total_tokens": 1473,
         "seconds": 1.5
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1006,
+        "completion_tokens": 177,
+        "total_tokens": 1183,
+        "seconds": 0.89
       }
     },
     "NCT01945619": {
@@ -23348,6 +27261,13 @@
         "completion_tokens": 351,
         "total_tokens": 3229,
         "seconds": 1.49
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 947,
+        "completion_tokens": 145,
+        "total_tokens": 1092,
+        "seconds": 0.67
       }
     },
     "NCT00547235": {
@@ -23364,6 +27284,13 @@
         "completion_tokens": 297,
         "total_tokens": 1433,
         "seconds": 1.33
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1013,
+        "completion_tokens": 189,
+        "total_tokens": 1202,
+        "seconds": 0.92
       }
     },
     "NCT01376778": {
@@ -23380,6 +27307,13 @@
         "completion_tokens": 264,
         "total_tokens": 2274,
         "seconds": 1.18
+      },
+      "review": {
+        "calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "seconds": 0.0
       }
     },
     "NCT02630537": {
@@ -23396,6 +27330,13 @@
         "completion_tokens": 269,
         "total_tokens": 1589,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1184,
+        "completion_tokens": 370,
+        "total_tokens": 1554,
+        "seconds": 1.52
       }
     },
     "NCT02328963": {
@@ -23412,6 +27353,13 @@
         "completion_tokens": 320,
         "total_tokens": 2459,
         "seconds": 1.55
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1348,
+        "completion_tokens": 479,
+        "total_tokens": 1827,
+        "seconds": 2.0
       }
     },
     "NCT02083042": {
@@ -23428,6 +27376,13 @@
         "completion_tokens": 298,
         "total_tokens": 1802,
         "seconds": 1.37
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1266,
+        "completion_tokens": 406,
+        "total_tokens": 1672,
+        "seconds": 1.46
       }
     },
     "NCT01259141": {
@@ -23444,6 +27399,13 @@
         "completion_tokens": 289,
         "total_tokens": 1488,
         "seconds": 1.4
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1369,
+        "completion_tokens": 678,
+        "total_tokens": 2047,
+        "seconds": 2.33
       }
     },
     "NCT00411645": {
@@ -23460,6 +27422,13 @@
         "completion_tokens": 254,
         "total_tokens": 1158,
         "seconds": 1.19
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1064,
+        "completion_tokens": 292,
+        "total_tokens": 1356,
+        "seconds": 0.82
       }
     },
     "NCT02152358": {
@@ -23476,6 +27445,13 @@
         "completion_tokens": 327,
         "total_tokens": 1773,
         "seconds": 1.16
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 996,
+        "completion_tokens": 205,
+        "total_tokens": 1201,
+        "seconds": 1.11
       }
     },
     "NCT00838552": {
@@ -23492,6 +27468,13 @@
         "completion_tokens": 296,
         "total_tokens": 1096,
         "seconds": 1.1
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1029,
+        "completion_tokens": 181,
+        "total_tokens": 1210,
+        "seconds": 0.78
       }
     },
     "NCT01088243": {
@@ -23878,6 +27861,13 @@
         "completion_tokens": 352,
         "total_tokens": 1940,
         "seconds": 1.46
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1153,
+        "completion_tokens": 247,
+        "total_tokens": 1400,
+        "seconds": 1.41
       }
     },
     "NCT01691911": {
@@ -23894,6 +27884,13 @@
         "completion_tokens": 334,
         "total_tokens": 1847,
         "seconds": 1.39
+      },
+      "review": {
+        "calls": 1,
+        "prompt_tokens": 1152,
+        "completion_tokens": 212,
+        "total_tokens": 1364,
+        "seconds": 1.03
       }
     },
     "NCT01599195": {
