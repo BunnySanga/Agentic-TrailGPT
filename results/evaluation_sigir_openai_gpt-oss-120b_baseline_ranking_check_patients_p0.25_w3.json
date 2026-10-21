@@ -1,0 +1,261 @@
+{
+  "corpus": "sigir",
+  "model": "openai/gpt-oss-120b",
+  "k": 10,
+  "score": {
+    "penalty": 0.25,
+    "weight": 3.0
+  },
+  "min_relevance": null,
+  "variants": {
+    "baseline": {
+      "patients": 14,
+      "ndcg@10": 0.6247863880895331,
+      "p@10": 0.32142857142857145,
+      "per_patient": {
+        "sigir-20141": {
+          "ndcg@10": 0.4048390571485209,
+          "p@10": 0.3
+        },
+        "sigir-20142": {
+          "ndcg@10": 0.7449678429409949,
+          "p@10": 0.4
+        },
+        "sigir-20144": {
+          "ndcg@10": 0.9746955575392974,
+          "p@10": 0.5
+        },
+        "sigir-201411": {
+          "ndcg@10": 0.3581409018449095,
+          "p@10": 0.1
+        },
+        "sigir-201412": {
+          "ndcg@10": 0.39463333162378583,
+          "p@10": 0.3
+        },
+        "sigir-201415": {
+          "ndcg@10": 0.31172435485504874,
+          "p@10": 0.1
+        },
+        "sigir-201417": {
+          "ndcg@10": 0.7482612916125789,
+          "p@10": 0.1
+        },
+        "sigir-201422": {
+          "ndcg@10": 0.8983805331236496,
+          "p@10": 0.7
+        },
+        "sigir-201427": {
+          "ndcg@10": 0.7451365183203781,
+          "p@10": 0.5
+        },
+        "sigir-20156": {
+          "ndcg@10": 0.9082950973757998,
+          "p@10": 0.8
+        },
+        "sigir-201523": {
+          "ndcg@10": 0.356145721404655,
+          "p@10": 0.1
+        },
+        "sigir-201526": {
+          "ndcg@10": 0.6316724323637466,
+          "p@10": 0.2
+        },
+        "sigir-201527": {
+          "ndcg@10": 0.49210094388530423,
+          "p@10": 0.2
+        },
+        "sigir-201529": {
+          "ndcg@10": 0.7780158492147935,
+          "p@10": 0.2
+        }
+      }
+    }
+  },
+  "trialgpt": {
+    "patients": 14,
+    "ndcg@10": 0.6084670695543001,
+    "p@10": 0.31428571428571433
+  },
+  "comparisons": {
+    "baseline": {
+      "ndcg@10": {
+        "patients": 14,
+        "metric": "ndcg@10",
+        "mean_difference": 0.016319318535233163,
+        "better": 8,
+        "same": 1,
+        "worse": 5,
+        "ci95": [
+          -0.009616718885440455,
+          0.04409188326320147
+        ]
+      },
+      "p@10": {
+        "patients": 14,
+        "metric": "p@10",
+        "mean_difference": 0.007142857142857139,
+        "better": 2,
+        "same": 11,
+        "worse": 1,
+        "ci95": [
+          -0.014285714285714294,
+          0.028571428571428574
+        ]
+      }
+    }
+  },
+  "cost": {
+    "patients": 14,
+    "trials": 533,
+    "baseline": {
+      "calls": 1601,
+      "prompt_tokens": 1834918,
+      "completion_tokens": 637801,
+      "total_tokens": 2472719,
+      "seconds": 2418.2599999999998
+    },
+    "per_patient": {
+      "sigir-20141": {
+        "trials": 101,
+        "baseline": {
+          "calls": 303,
+          "prompt_tokens": 345636,
+          "completion_tokens": 124939,
+          "total_tokens": 470575,
+          "seconds": 443.95000000000005
+        }
+      },
+      "sigir-201411": {
+        "trials": 18,
+        "baseline": {
+          "calls": 54,
+          "prompt_tokens": 64638,
+          "completion_tokens": 21892,
+          "total_tokens": 86530,
+          "seconds": 86.82000000000001
+        }
+      },
+      "sigir-201412": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 127761,
+          "completion_tokens": 42351,
+          "total_tokens": 170112,
+          "seconds": 156.24000000000004
+        }
+      },
+      "sigir-201415": {
+        "trials": 13,
+        "baseline": {
+          "calls": 40,
+          "prompt_tokens": 49706,
+          "completion_tokens": 19807,
+          "total_tokens": 69513,
+          "seconds": 67.75
+        }
+      },
+      "sigir-201417": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 139751,
+          "completion_tokens": 49058,
+          "total_tokens": 188809,
+          "seconds": 175.45999999999995
+        }
+      },
+      "sigir-20142": {
+        "trials": 28,
+        "baseline": {
+          "calls": 84,
+          "prompt_tokens": 93621,
+          "completion_tokens": 33670,
+          "total_tokens": 127291,
+          "seconds": 137.02
+        }
+      },
+      "sigir-201422": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 114358,
+          "completion_tokens": 36611,
+          "total_tokens": 150969,
+          "seconds": 152.77
+        }
+      },
+      "sigir-201427": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 131000,
+          "completion_tokens": 46535,
+          "total_tokens": 177535,
+          "seconds": 176.98
+        }
+      },
+      "sigir-20144": {
+        "trials": 23,
+        "baseline": {
+          "calls": 69,
+          "prompt_tokens": 87676,
+          "completion_tokens": 30374,
+          "total_tokens": 118050,
+          "seconds": 117.41999999999997
+        }
+      },
+      "sigir-201523": {
+        "trials": 29,
+        "baseline": {
+          "calls": 87,
+          "prompt_tokens": 112913,
+          "completion_tokens": 41460,
+          "total_tokens": 154373,
+          "seconds": 153.98000000000002
+        }
+      },
+      "sigir-201526": {
+        "trials": 37,
+        "baseline": {
+          "calls": 111,
+          "prompt_tokens": 117408,
+          "completion_tokens": 41923,
+          "total_tokens": 159331,
+          "seconds": 161.20999999999998
+        }
+      },
+      "sigir-201527": {
+        "trials": 37,
+        "baseline": {
+          "calls": 111,
+          "prompt_tokens": 133736,
+          "completion_tokens": 42427,
+          "total_tokens": 176163,
+          "seconds": 162.16000000000003
+        }
+      },
+      "sigir-201529": {
+        "trials": 13,
+        "baseline": {
+          "calls": 39,
+          "prompt_tokens": 53265,
+          "completion_tokens": 20536,
+          "total_tokens": 73801,
+          "seconds": 73.81000000000002
+        }
+      },
+      "sigir-20156": {
+        "trials": 78,
+        "baseline": {
+          "calls": 235,
+          "prompt_tokens": 263449,
+          "completion_tokens": 86218,
+          "total_tokens": 349667,
+          "seconds": 352.68999999999966
+        }
+      }
+    }
+  }
+}

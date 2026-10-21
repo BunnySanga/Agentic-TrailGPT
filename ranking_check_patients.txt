@@ -1,0 +1,17 @@
+# Ranking study check group (defined in RANKING_STUDY_PLAN.md before any held-out score):
+# the 14 held-out patients never used to tune anything: every patient in
+# ranking_test_patients.txt plus sigir-20141 and sigir-20156.
+sigir-201415
+sigir-201529
+sigir-201411
+sigir-20144
+sigir-20142
+sigir-201523
+sigir-201526
+sigir-201527
+sigir-201412
+sigir-201417
+sigir-201422
+sigir-201427
+sigir-20141
+sigir-20156

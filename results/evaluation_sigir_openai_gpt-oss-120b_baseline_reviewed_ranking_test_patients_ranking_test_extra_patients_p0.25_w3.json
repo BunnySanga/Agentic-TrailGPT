@@ -1,0 +1,1302 @@
+{
+  "corpus": "sigir",
+  "model": "openai/gpt-oss-120b",
+  "k": 10,
+  "score": {
+    "penalty": 0.25,
+    "weight": 3.0
+  },
+  "min_relevance": null,
+  "variants": {
+    "baseline": {
+      "patients": 46,
+      "ndcg@10": 0.6353111820481003,
+      "p@10": 0.3630434782608695,
+      "per_patient": {
+        "sigir-20141": {
+          "ndcg@10": 0.4048390571485209,
+          "p@10": 0.3
+        },
+        "sigir-20142": {
+          "ndcg@10": 0.7449678429409949,
+          "p@10": 0.4
+        },
+        "sigir-20143": {
+          "ndcg@10": 0.7378724709918102,
+          "p@10": 0.4
+        },
+        "sigir-20144": {
+          "ndcg@10": 0.9746955575392974,
+          "p@10": 0.5
+        },
+        "sigir-20145": {
+          "ndcg@10": 0.76008775562025,
+          "p@10": 0.6
+        },
+        "sigir-20146": {
+          "ndcg@10": 0.529072846721837,
+          "p@10": 0.3
+        },
+        "sigir-20147": {
+          "ndcg@10": 0.7958221994596777,
+          "p@10": 0.6
+        },
+        "sigir-20148": {
+          "ndcg@10": 0.2751792665767683,
+          "p@10": 0.0
+        },
+        "sigir-201410": {
+          "ndcg@10": 0.5643049494119152,
+          "p@10": 0.2
+        },
+        "sigir-201411": {
+          "ndcg@10": 0.3581409018449095,
+          "p@10": 0.1
+        },
+        "sigir-201412": {
+          "ndcg@10": 0.39463333162378583,
+          "p@10": 0.3
+        },
+        "sigir-201413": {
+          "ndcg@10": 0.4141155755068252,
+          "p@10": 0.1
+        },
+        "sigir-201414": {
+          "ndcg@10": 0.5827811781492327,
+          "p@10": 0.3
+        },
+        "sigir-201415": {
+          "ndcg@10": 0.31172435485504874,
+          "p@10": 0.1
+        },
+        "sigir-201417": {
+          "ndcg@10": 0.7482612916125789,
+          "p@10": 0.1
+        },
+        "sigir-201418": {
+          "ndcg@10": 0.5194475257199256,
+          "p@10": 0.0
+        },
+        "sigir-201419": {
+          "ndcg@10": 0.5474153394257687,
+          "p@10": 0.2
+        },
+        "sigir-201420": {
+          "ndcg@10": 0.8080298403869194,
+          "p@10": 0.4
+        },
+        "sigir-201421": {
+          "ndcg@10": 0.9608008655106622,
+          "p@10": 0.9
+        },
+        "sigir-201422": {
+          "ndcg@10": 0.8983805331236496,
+          "p@10": 0.7
+        },
+        "sigir-201423": {
+          "ndcg@10": 0.791320567881792,
+          "p@10": 0.3
+        },
+        "sigir-201424": {
+          "ndcg@10": 0.8394196647565566,
+          "p@10": 0.4
+        },
+        "sigir-201425": {
+          "ndcg@10": 0.9718298470106461,
+          "p@10": 0.6
+        },
+        "sigir-201427": {
+          "ndcg@10": 0.7451365183203781,
+          "p@10": 0.5
+        },
+        "sigir-201429": {
+          "ndcg@10": 0.8349756981393617,
+          "p@10": 0.5
+        },
+        "sigir-201430": {
+          "ndcg@10": 0.30637580736997555,
+          "p@10": 0.2
+        },
+        "sigir-20151": {
+          "ndcg@10": 0.8897913369218488,
+          "p@10": 0.8
+        },
+        "sigir-20152": {
+          "ndcg@10": 0.6037927454398442,
+          "p@10": 0.2
+        },
+        "sigir-20153": {
+          "ndcg@10": 0.5256909699176204,
+          "p@10": 0.5
+        },
+        "sigir-20154": {
+          "ndcg@10": 0.5358302753307107,
+          "p@10": 0.1
+        },
+        "sigir-20155": {
+          "ndcg@10": 0.0,
+          "p@10": 0.0
+        },
+        "sigir-20156": {
+          "ndcg@10": 0.9082950973757998,
+          "p@10": 0.8
+        },
+        "sigir-20157": {
+          "ndcg@10": 0.6808255853271287,
+          "p@10": 0.5
+        },
+        "sigir-201512": {
+          "ndcg@10": 0.6098033379688051,
+          "p@10": 0.4
+        },
+        "sigir-201515": {
+          "ndcg@10": 0.6313308315398742,
+          "p@10": 0.5
+        },
+        "sigir-201516": {
+          "ndcg@10": 0.5155043523040681,
+          "p@10": 0.4
+        },
+        "sigir-201517": {
+          "ndcg@10": 0.7776583665616709,
+          "p@10": 0.5
+        },
+        "sigir-201518": {
+          "ndcg@10": 0.4996805452188857,
+          "p@10": 0.3
+        },
+        "sigir-201519": {
+          "ndcg@10": 0.6320787427864673,
+          "p@10": 0.6
+        },
+        "sigir-201521": {
+          "ndcg@10": 0.8591795147865575,
+          "p@10": 0.3
+        },
+        "sigir-201522": {
+          "ndcg@10": 0.6302727785529557,
+          "p@10": 0.4
+        },
+        "sigir-201523": {
+          "ndcg@10": 0.356145721404655,
+          "p@10": 0.1
+        },
+        "sigir-201524": {
+          "ndcg@10": 0.8470141596627958,
+          "p@10": 0.7
+        },
+        "sigir-201526": {
+          "ndcg@10": 0.6316724323637466,
+          "p@10": 0.2
+        },
+        "sigir-201527": {
+          "ndcg@10": 0.49210094388530423,
+          "p@10": 0.2
+        },
+        "sigir-201529": {
+          "ndcg@10": 0.7780158492147935,
+          "p@10": 0.2
+        }
+      }
+    },
+    "reviewed": {
+      "patients": 46,
+      "ndcg@10": 0.6365250462703617,
+      "p@10": 0.3652173913043478,
+      "per_patient": {
+        "sigir-20141": {
+          "ndcg@10": 0.4048390571485209,
+          "p@10": 0.3
+        },
+        "sigir-20142": {
+          "ndcg@10": 0.7566666264105135,
+          "p@10": 0.4
+        },
+        "sigir-20143": {
+          "ndcg@10": 0.7378724709918102,
+          "p@10": 0.4
+        },
+        "sigir-20144": {
+          "ndcg@10": 0.9746955575392974,
+          "p@10": 0.5
+        },
+        "sigir-20145": {
+          "ndcg@10": 0.76008775562025,
+          "p@10": 0.6
+        },
+        "sigir-20146": {
+          "ndcg@10": 0.529072846721837,
+          "p@10": 0.3
+        },
+        "sigir-20147": {
+          "ndcg@10": 0.7958221994596777,
+          "p@10": 0.6
+        },
+        "sigir-20148": {
+          "ndcg@10": 0.2751792665767683,
+          "p@10": 0.0
+        },
+        "sigir-201410": {
+          "ndcg@10": 0.5215895895735374,
+          "p@10": 0.2
+        },
+        "sigir-201411": {
+          "ndcg@10": 0.3581409018449095,
+          "p@10": 0.1
+        },
+        "sigir-201412": {
+          "ndcg@10": 0.39463333162378583,
+          "p@10": 0.3
+        },
+        "sigir-201413": {
+          "ndcg@10": 0.4141155755068252,
+          "p@10": 0.1
+        },
+        "sigir-201414": {
+          "ndcg@10": 0.5827811781492327,
+          "p@10": 0.3
+        },
+        "sigir-201415": {
+          "ndcg@10": 0.3350015892316245,
+          "p@10": 0.1
+        },
+        "sigir-201417": {
+          "ndcg@10": 0.7482612916125789,
+          "p@10": 0.1
+        },
+        "sigir-201418": {
+          "ndcg@10": 0.5194475257199256,
+          "p@10": 0.0
+        },
+        "sigir-201419": {
+          "ndcg@10": 0.5474153394257687,
+          "p@10": 0.2
+        },
+        "sigir-201420": {
+          "ndcg@10": 0.8080298403869194,
+          "p@10": 0.4
+        },
+        "sigir-201421": {
+          "ndcg@10": 0.9608008655106622,
+          "p@10": 0.9
+        },
+        "sigir-201422": {
+          "ndcg@10": 0.8983805331236496,
+          "p@10": 0.7
+        },
+        "sigir-201423": {
+          "ndcg@10": 0.791320567881792,
+          "p@10": 0.3
+        },
+        "sigir-201424": {
+          "ndcg@10": 0.8394196647565566,
+          "p@10": 0.4
+        },
+        "sigir-201425": {
+          "ndcg@10": 0.9718298470106461,
+          "p@10": 0.6
+        },
+        "sigir-201427": {
+          "ndcg@10": 0.7451365183203781,
+          "p@10": 0.5
+        },
+        "sigir-201429": {
+          "ndcg@10": 0.8349756981393617,
+          "p@10": 0.5
+        },
+        "sigir-201430": {
+          "ndcg@10": 0.30637580736997555,
+          "p@10": 0.2
+        },
+        "sigir-20151": {
+          "ndcg@10": 0.8897913369218488,
+          "p@10": 0.8
+        },
+        "sigir-20152": {
+          "ndcg@10": 0.6037927454398442,
+          "p@10": 0.2
+        },
+        "sigir-20153": {
+          "ndcg@10": 0.5256909699176204,
+          "p@10": 0.5
+        },
+        "sigir-20154": {
+          "ndcg@10": 0.5331531480926226,
+          "p@10": 0.1
+        },
+        "sigir-20155": {
+          "ndcg@10": 0.0,
+          "p@10": 0.0
+        },
+        "sigir-20156": {
+          "ndcg@10": 0.9082950973757998,
+          "p@10": 0.8
+        },
+        "sigir-20157": {
+          "ndcg@10": 0.6808255853271287,
+          "p@10": 0.5
+        },
+        "sigir-201512": {
+          "ndcg@10": 0.6098033379688051,
+          "p@10": 0.4
+        },
+        "sigir-201515": {
+          "ndcg@10": 0.6313308315398742,
+          "p@10": 0.5
+        },
+        "sigir-201516": {
+          "ndcg@10": 0.5817585757584571,
+          "p@10": 0.5
+        },
+        "sigir-201517": {
+          "ndcg@10": 0.7776583665616709,
+          "p@10": 0.5
+        },
+        "sigir-201518": {
+          "ndcg@10": 0.4996805452188857,
+          "p@10": 0.3
+        },
+        "sigir-201519": {
+          "ndcg@10": 0.6320787427864673,
+          "p@10": 0.6
+        },
+        "sigir-201521": {
+          "ndcg@10": 0.8591795147865575,
+          "p@10": 0.3
+        },
+        "sigir-201522": {
+          "ndcg@10": 0.6302727785529557,
+          "p@10": 0.4
+        },
+        "sigir-201523": {
+          "ndcg@10": 0.356145721404655,
+          "p@10": 0.1
+        },
+        "sigir-201524": {
+          "ndcg@10": 0.8470141596627958,
+          "p@10": 0.7
+        },
+        "sigir-201526": {
+          "ndcg@10": 0.6316724323637466,
+          "p@10": 0.2
+        },
+        "sigir-201527": {
+          "ndcg@10": 0.49210094388530423,
+          "p@10": 0.2
+        },
+        "sigir-201529": {
+          "ndcg@10": 0.7780158492147935,
+          "p@10": 0.2
+        }
+      }
+    }
+  },
+  "trialgpt": {
+    "patients": 46,
+    "ndcg@10": 0.6105936621032236,
+    "p@10": 0.3434782608695652
+  },
+  "comparisons": {
+    "baseline": {
+      "ndcg@10": {
+        "patients": 46,
+        "metric": "ndcg@10",
+        "mean_difference": 0.024717519944876858,
+        "better": 26,
+        "same": 9,
+        "worse": 11,
+        "ci95": [
+          0.009523232672723309,
+          0.04033543289289337
+        ]
+      },
+      "p@10": {
+        "patients": 46,
+        "metric": "p@10",
+        "mean_difference": 0.01956521739130435,
+        "better": 13,
+        "same": 29,
+        "worse": 4,
+        "ci95": [
+          0.0021739130434782657,
+          0.034782608695652195
+        ]
+      }
+    },
+    "reviewed": {
+      "ndcg@10": {
+        "patients": 46,
+        "metric": "ndcg@10",
+        "mean_difference": 0.025931384167138104,
+        "better": 26,
+        "same": 8,
+        "worse": 12,
+        "ci95": [
+          0.011262063780038448,
+          0.04082458869537814
+        ]
+      },
+      "p@10": {
+        "patients": 46,
+        "metric": "p@10",
+        "mean_difference": 0.021739130434782605,
+        "better": 13,
+        "same": 29,
+        "worse": 4,
+        "ci95": [
+          0.004347826086956521,
+          0.03913043478260871
+        ]
+      }
+    }
+  },
+  "cost": {
+    "patients": 46,
+    "trials": 2689,
+    "baseline": {
+      "calls": 8081,
+      "prompt_tokens": 9237589,
+      "completion_tokens": 3254693,
+      "total_tokens": 12492282,
+      "seconds": 12284.549999999997
+    },
+    "reviewed": {
+      "calls": 9930,
+      "prompt_tokens": 11296714,
+      "completion_tokens": 3728066,
+      "total_tokens": 15024780,
+      "seconds": 14338.03
+    },
+    "per_patient": {
+      "sigir-20141": {
+        "trials": 101,
+        "baseline": {
+          "calls": 303,
+          "prompt_tokens": 345636,
+          "completion_tokens": 124939,
+          "total_tokens": 470575,
+          "seconds": 443.95000000000005
+        },
+        "reviewed": {
+          "calls": 386,
+          "prompt_tokens": 442415,
+          "completion_tokens": 145292,
+          "total_tokens": 587707,
+          "seconds": 529.17
+        },
+        "overhead_tokens_pct": 24.89125006640812
+      },
+      "sigir-201410": {
+        "trials": 56,
+        "baseline": {
+          "calls": 168,
+          "prompt_tokens": 184920,
+          "completion_tokens": 66597,
+          "total_tokens": 251517,
+          "seconds": 243.0599999999999
+        },
+        "reviewed": {
+          "calls": 215,
+          "prompt_tokens": 234216,
+          "completion_tokens": 78393,
+          "total_tokens": 312609,
+          "seconds": 292.37999999999994
+        },
+        "overhead_tokens_pct": 24.28941184890087
+      },
+      "sigir-201411": {
+        "trials": 18,
+        "baseline": {
+          "calls": 54,
+          "prompt_tokens": 64638,
+          "completion_tokens": 21892,
+          "total_tokens": 86530,
+          "seconds": 86.82000000000001
+        },
+        "reviewed": {
+          "calls": 69,
+          "prompt_tokens": 81789,
+          "completion_tokens": 26049,
+          "total_tokens": 107838,
+          "seconds": 101.82000000000001
+        },
+        "overhead_tokens_pct": 24.624985554143073
+      },
+      "sigir-201412": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 127761,
+          "completion_tokens": 42351,
+          "total_tokens": 170112,
+          "seconds": 156.24000000000004
+        },
+        "reviewed": {
+          "calls": 146,
+          "prompt_tokens": 159291,
+          "completion_tokens": 49872,
+          "total_tokens": 209163,
+          "seconds": 187.30000000000007
+        },
+        "overhead_tokens_pct": 22.95605248306998
+      },
+      "sigir-201413": {
+        "trials": 49,
+        "baseline": {
+          "calls": 147,
+          "prompt_tokens": 155974,
+          "completion_tokens": 53852,
+          "total_tokens": 209826,
+          "seconds": 215.54000000000013
+        },
+        "reviewed": {
+          "calls": 171,
+          "prompt_tokens": 182345,
+          "completion_tokens": 59467,
+          "total_tokens": 241812,
+          "seconds": 238.87000000000012
+        },
+        "overhead_tokens_pct": 15.244059363472592
+      },
+      "sigir-201414": {
+        "trials": 52,
+        "baseline": {
+          "calls": 157,
+          "prompt_tokens": 162075,
+          "completion_tokens": 57873,
+          "total_tokens": 219948,
+          "seconds": 236.64000000000007
+        },
+        "reviewed": {
+          "calls": 199,
+          "prompt_tokens": 206745,
+          "completion_tokens": 68788,
+          "total_tokens": 275533,
+          "seconds": 285.9399999999998
+        },
+        "overhead_tokens_pct": 25.27188244494153
+      },
+      "sigir-201415": {
+        "trials": 13,
+        "baseline": {
+          "calls": 40,
+          "prompt_tokens": 49706,
+          "completion_tokens": 19807,
+          "total_tokens": 69513,
+          "seconds": 67.75
+        },
+        "reviewed": {
+          "calls": 48,
+          "prompt_tokens": 58873,
+          "completion_tokens": 22559,
+          "total_tokens": 81432,
+          "seconds": 76.78999999999999
+        },
+        "overhead_tokens_pct": 17.146433041301627
+      },
+      "sigir-201417": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 139751,
+          "completion_tokens": 49058,
+          "total_tokens": 188809,
+          "seconds": 175.45999999999995
+        },
+        "reviewed": {
+          "calls": 153,
+          "prompt_tokens": 179922,
+          "completion_tokens": 57880,
+          "total_tokens": 237802,
+          "seconds": 219.53999999999988
+        },
+        "overhead_tokens_pct": 25.94844525419869
+      },
+      "sigir-201418": {
+        "trials": 65,
+        "baseline": {
+          "calls": 195,
+          "prompt_tokens": 224308,
+          "completion_tokens": 69698,
+          "total_tokens": 294006,
+          "seconds": 275.5
+        },
+        "reviewed": {
+          "calls": 238,
+          "prompt_tokens": 277077,
+          "completion_tokens": 81273,
+          "total_tokens": 358350,
+          "seconds": 324.0099999999999
+        },
+        "overhead_tokens_pct": 21.88526764759903
+      },
+      "sigir-201419": {
+        "trials": 76,
+        "baseline": {
+          "calls": 228,
+          "prompt_tokens": 264445,
+          "completion_tokens": 92211,
+          "total_tokens": 356656,
+          "seconds": 333.59000000000015
+        },
+        "reviewed": {
+          "calls": 278,
+          "prompt_tokens": 319214,
+          "completion_tokens": 105970,
+          "total_tokens": 425184,
+          "seconds": 388.6400000000002
+        },
+        "overhead_tokens_pct": 19.21403256919833
+      },
+      "sigir-20142": {
+        "trials": 28,
+        "baseline": {
+          "calls": 84,
+          "prompt_tokens": 93621,
+          "completion_tokens": 33670,
+          "total_tokens": 127291,
+          "seconds": 137.02
+        },
+        "reviewed": {
+          "calls": 107,
+          "prompt_tokens": 118734,
+          "completion_tokens": 39462,
+          "total_tokens": 158196,
+          "seconds": 160.73000000000005
+        },
+        "overhead_tokens_pct": 24.27901422724309
+      },
+      "sigir-201420": {
+        "trials": 56,
+        "baseline": {
+          "calls": 168,
+          "prompt_tokens": 187053,
+          "completion_tokens": 61883,
+          "total_tokens": 248936,
+          "seconds": 232.53999999999996
+        },
+        "reviewed": {
+          "calls": 207,
+          "prompt_tokens": 228382,
+          "completion_tokens": 70585,
+          "total_tokens": 298967,
+          "seconds": 273.2600000000001
+        },
+        "overhead_tokens_pct": 20.0979368191021
+      },
+      "sigir-201421": {
+        "trials": 86,
+        "baseline": {
+          "calls": 261,
+          "prompt_tokens": 324191,
+          "completion_tokens": 117131,
+          "total_tokens": 441322,
+          "seconds": 486.92999999999984
+        },
+        "reviewed": {
+          "calls": 304,
+          "prompt_tokens": 371416,
+          "completion_tokens": 128772,
+          "total_tokens": 500188,
+          "seconds": 532.9099999999999
+        },
+        "overhead_tokens_pct": 13.338560053656966
+      },
+      "sigir-201422": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 114358,
+          "completion_tokens": 36611,
+          "total_tokens": 150969,
+          "seconds": 152.77
+        },
+        "reviewed": {
+          "calls": 141,
+          "prompt_tokens": 138761,
+          "completion_tokens": 41189,
+          "total_tokens": 179950,
+          "seconds": 178.77
+        },
+        "overhead_tokens_pct": 19.19665626718068
+      },
+      "sigir-201423": {
+        "trials": 70,
+        "baseline": {
+          "calls": 210,
+          "prompt_tokens": 263224,
+          "completion_tokens": 93117,
+          "total_tokens": 356341,
+          "seconds": 346.68000000000006
+        },
+        "reviewed": {
+          "calls": 253,
+          "prompt_tokens": 312549,
+          "completion_tokens": 104825,
+          "total_tokens": 417374,
+          "seconds": 397.2800000000001
+        },
+        "overhead_tokens_pct": 17.127695101040857
+      },
+      "sigir-201424": {
+        "trials": 56,
+        "baseline": {
+          "calls": 170,
+          "prompt_tokens": 190893,
+          "completion_tokens": 63392,
+          "total_tokens": 254285,
+          "seconds": 232.67000000000004
+        },
+        "reviewed": {
+          "calls": 205,
+          "prompt_tokens": 230514,
+          "completion_tokens": 72235,
+          "total_tokens": 302749,
+          "seconds": 269.26
+        },
+        "overhead_tokens_pct": 19.05892994081444
+      },
+      "sigir-201425": {
+        "trials": 48,
+        "baseline": {
+          "calls": 144,
+          "prompt_tokens": 175059,
+          "completion_tokens": 60410,
+          "total_tokens": 235469,
+          "seconds": 231.19000000000003
+        },
+        "reviewed": {
+          "calls": 183,
+          "prompt_tokens": 221740,
+          "completion_tokens": 71433,
+          "total_tokens": 293173,
+          "seconds": 282.56
+        },
+        "overhead_tokens_pct": 24.50598592596053
+      },
+      "sigir-201427": {
+        "trials": 39,
+        "baseline": {
+          "calls": 117,
+          "prompt_tokens": 131000,
+          "completion_tokens": 46535,
+          "total_tokens": 177535,
+          "seconds": 176.98
+        },
+        "reviewed": {
+          "calls": 142,
+          "prompt_tokens": 158633,
+          "completion_tokens": 52727,
+          "total_tokens": 211360,
+          "seconds": 211.3299999999999
+        },
+        "overhead_tokens_pct": 19.052581181175544
+      },
+      "sigir-201429": {
+        "trials": 71,
+        "baseline": {
+          "calls": 213,
+          "prompt_tokens": 221008,
+          "completion_tokens": 79693,
+          "total_tokens": 300701,
+          "seconds": 296.53999999999996
+        },
+        "reviewed": {
+          "calls": 265,
+          "prompt_tokens": 275041,
+          "completion_tokens": 90869,
+          "total_tokens": 365910,
+          "seconds": 345.4199999999999
+        },
+        "overhead_tokens_pct": 21.685661171728725
+      },
+      "sigir-20143": {
+        "trials": 86,
+        "baseline": {
+          "calls": 258,
+          "prompt_tokens": 302430,
+          "completion_tokens": 103810,
+          "total_tokens": 406240,
+          "seconds": 434.3499999999999
+        },
+        "reviewed": {
+          "calls": 319,
+          "prompt_tokens": 368595,
+          "completion_tokens": 121484,
+          "total_tokens": 490079,
+          "seconds": 507.19999999999993
+        },
+        "overhead_tokens_pct": 20.63780031508468
+      },
+      "sigir-201430": {
+        "trials": 65,
+        "baseline": {
+          "calls": 196,
+          "prompt_tokens": 232304,
+          "completion_tokens": 83064,
+          "total_tokens": 315368,
+          "seconds": 315.35000000000014
+        },
+        "reviewed": {
+          "calls": 238,
+          "prompt_tokens": 283439,
+          "completion_tokens": 95094,
+          "total_tokens": 378533,
+          "seconds": 365.07999999999987
+        },
+        "overhead_tokens_pct": 20.028982014662237
+      },
+      "sigir-20144": {
+        "trials": 23,
+        "baseline": {
+          "calls": 69,
+          "prompt_tokens": 87676,
+          "completion_tokens": 30374,
+          "total_tokens": 118050,
+          "seconds": 117.41999999999997
+        },
+        "reviewed": {
+          "calls": 88,
+          "prompt_tokens": 111034,
+          "completion_tokens": 35714,
+          "total_tokens": 146748,
+          "seconds": 139.10999999999999
+        },
+        "overhead_tokens_pct": 24.310038119440915
+      },
+      "sigir-20145": {
+        "trials": 59,
+        "baseline": {
+          "calls": 177,
+          "prompt_tokens": 192620,
+          "completion_tokens": 64070,
+          "total_tokens": 256690,
+          "seconds": 244.54999999999993
+        },
+        "reviewed": {
+          "calls": 210,
+          "prompt_tokens": 230577,
+          "completion_tokens": 74256,
+          "total_tokens": 304833,
+          "seconds": 283.2999999999999
+        },
+        "overhead_tokens_pct": 18.75530795901671
+      },
+      "sigir-20146": {
+        "trials": 94,
+        "baseline": {
+          "calls": 282,
+          "prompt_tokens": 314324,
+          "completion_tokens": 125526,
+          "total_tokens": 439850,
+          "seconds": 430.17
+        },
+        "reviewed": {
+          "calls": 343,
+          "prompt_tokens": 375924,
+          "completion_tokens": 138700,
+          "total_tokens": 514624,
+          "seconds": 489.22999999999996
+        },
+        "overhead_tokens_pct": 16.999886324883484
+      },
+      "sigir-20147": {
+        "trials": 142,
+        "baseline": {
+          "calls": 426,
+          "prompt_tokens": 497466,
+          "completion_tokens": 186819,
+          "total_tokens": 684285,
+          "seconds": 685.4300000000004
+        },
+        "reviewed": {
+          "calls": 533,
+          "prompt_tokens": 619761,
+          "completion_tokens": 217725,
+          "total_tokens": 837486,
+          "seconds": 823.3300000000002
+        },
+        "overhead_tokens_pct": 22.38847848484184
+      },
+      "sigir-20148": {
+        "trials": 47,
+        "baseline": {
+          "calls": 141,
+          "prompt_tokens": 152260,
+          "completion_tokens": 51849,
+          "total_tokens": 204109,
+          "seconds": 194.42
+        },
+        "reviewed": {
+          "calls": 179,
+          "prompt_tokens": 194506,
+          "completion_tokens": 63070,
+          "total_tokens": 257576,
+          "seconds": 239.29999999999998
+        },
+        "overhead_tokens_pct": 26.19531720796241
+      },
+      "sigir-20151": {
+        "trials": 65,
+        "baseline": {
+          "calls": 195,
+          "prompt_tokens": 190784,
+          "completion_tokens": 65933,
+          "total_tokens": 256717,
+          "seconds": 264.8
+        },
+        "reviewed": {
+          "calls": 229,
+          "prompt_tokens": 226213,
+          "completion_tokens": 73651,
+          "total_tokens": 299864,
+          "seconds": 303.65
+        },
+        "overhead_tokens_pct": 16.807223518504813
+      },
+      "sigir-201512": {
+        "trials": 55,
+        "baseline": {
+          "calls": 165,
+          "prompt_tokens": 181752,
+          "completion_tokens": 63829,
+          "total_tokens": 245581,
+          "seconds": 237.69000000000003
+        },
+        "reviewed": {
+          "calls": 208,
+          "prompt_tokens": 228142,
+          "completion_tokens": 74889,
+          "total_tokens": 303031,
+          "seconds": 284.47000000000014
+        },
+        "overhead_tokens_pct": 23.393503569087184
+      },
+      "sigir-201515": {
+        "trials": 77,
+        "baseline": {
+          "calls": 232,
+          "prompt_tokens": 281571,
+          "completion_tokens": 97469,
+          "total_tokens": 379040,
+          "seconds": 367.01999999999987
+        },
+        "reviewed": {
+          "calls": 291,
+          "prompt_tokens": 349561,
+          "completion_tokens": 111939,
+          "total_tokens": 461500,
+          "seconds": 426.26999999999987
+        },
+        "overhead_tokens_pct": 21.754959898691432
+      },
+      "sigir-201516": {
+        "trials": 53,
+        "baseline": {
+          "calls": 159,
+          "prompt_tokens": 185681,
+          "completion_tokens": 63688,
+          "total_tokens": 249369,
+          "seconds": 253.29
+        },
+        "reviewed": {
+          "calls": 200,
+          "prompt_tokens": 232936,
+          "completion_tokens": 74625,
+          "total_tokens": 307561,
+          "seconds": 302.59000000000003
+        },
+        "overhead_tokens_pct": 23.33569930504594
+      },
+      "sigir-201517": {
+        "trials": 45,
+        "baseline": {
+          "calls": 136,
+          "prompt_tokens": 136311,
+          "completion_tokens": 44979,
+          "total_tokens": 181290,
+          "seconds": 175.17
+        },
+        "reviewed": {
+          "calls": 163,
+          "prompt_tokens": 162343,
+          "completion_tokens": 50149,
+          "total_tokens": 212492,
+          "seconds": 199.24999999999994
+        },
+        "overhead_tokens_pct": 17.211098240388328
+      },
+      "sigir-201518": {
+        "trials": 99,
+        "baseline": {
+          "calls": 297,
+          "prompt_tokens": 310145,
+          "completion_tokens": 115756,
+          "total_tokens": 425901,
+          "seconds": 418.07999999999987
+        },
+        "reviewed": {
+          "calls": 346,
+          "prompt_tokens": 360758,
+          "completion_tokens": 126071,
+          "total_tokens": 486829,
+          "seconds": 467.98999999999995
+        },
+        "overhead_tokens_pct": 14.305671975412126
+      },
+      "sigir-201519": {
+        "trials": 69,
+        "baseline": {
+          "calls": 207,
+          "prompt_tokens": 239404,
+          "completion_tokens": 89595,
+          "total_tokens": 328999,
+          "seconds": 322.78000000000003
+        },
+        "reviewed": {
+          "calls": 238,
+          "prompt_tokens": 272430,
+          "completion_tokens": 96834,
+          "total_tokens": 369264,
+          "seconds": 354.01999999999987
+        },
+        "overhead_tokens_pct": 12.238639023218916
+      },
+      "sigir-20152": {
+        "trials": 55,
+        "baseline": {
+          "calls": 167,
+          "prompt_tokens": 199520,
+          "completion_tokens": 72382,
+          "total_tokens": 271902,
+          "seconds": 265.1399999999999
+        },
+        "reviewed": {
+          "calls": 207,
+          "prompt_tokens": 243635,
+          "completion_tokens": 83610,
+          "total_tokens": 327245,
+          "seconds": 311.59999999999974
+        },
+        "overhead_tokens_pct": 20.354024611808665
+      },
+      "sigir-201521": {
+        "trials": 50,
+        "baseline": {
+          "calls": 150,
+          "prompt_tokens": 184834,
+          "completion_tokens": 65419,
+          "total_tokens": 250253,
+          "seconds": 247.6799999999999
+        },
+        "reviewed": {
+          "calls": 189,
+          "prompt_tokens": 227822,
+          "completion_tokens": 75503,
+          "total_tokens": 303325,
+          "seconds": 290.31
+        },
+        "overhead_tokens_pct": 21.207338173768147
+      },
+      "sigir-201522": {
+        "trials": 53,
+        "baseline": {
+          "calls": 160,
+          "prompt_tokens": 190731,
+          "completion_tokens": 70738,
+          "total_tokens": 261469,
+          "seconds": 259.66
+        },
+        "reviewed": {
+          "calls": 205,
+          "prompt_tokens": 243771,
+          "completion_tokens": 83342,
+          "total_tokens": 327113,
+          "seconds": 313.81999999999994
+        },
+        "overhead_tokens_pct": 25.105844287468116
+      },
+      "sigir-201523": {
+        "trials": 29,
+        "baseline": {
+          "calls": 87,
+          "prompt_tokens": 112913,
+          "completion_tokens": 41460,
+          "total_tokens": 154373,
+          "seconds": 153.98000000000002
+        },
+        "reviewed": {
+          "calls": 110,
+          "prompt_tokens": 138640,
+          "completion_tokens": 48501,
+          "total_tokens": 187141,
+          "seconds": 183.3800000000001
+        },
+        "overhead_tokens_pct": 21.226509817131234
+      },
+      "sigir-201524": {
+        "trials": 71,
+        "baseline": {
+          "calls": 213,
+          "prompt_tokens": 242802,
+          "completion_tokens": 79616,
+          "total_tokens": 322418,
+          "seconds": 292.83000000000004
+        },
+        "reviewed": {
+          "calls": 258,
+          "prompt_tokens": 293806,
+          "completion_tokens": 90513,
+          "total_tokens": 384319,
+          "seconds": 336.6999999999997
+        },
+        "overhead_tokens_pct": 19.19899013082396
+      },
+      "sigir-201526": {
+        "trials": 37,
+        "baseline": {
+          "calls": 111,
+          "prompt_tokens": 117408,
+          "completion_tokens": 41923,
+          "total_tokens": 159331,
+          "seconds": 161.20999999999998
+        },
+        "reviewed": {
+          "calls": 138,
+          "prompt_tokens": 147686,
+          "completion_tokens": 48570,
+          "total_tokens": 196256,
+          "seconds": 191.8899999999999
+        },
+        "overhead_tokens_pct": 23.175025575688345
+      },
+      "sigir-201527": {
+        "trials": 37,
+        "baseline": {
+          "calls": 111,
+          "prompt_tokens": 133736,
+          "completion_tokens": 42427,
+          "total_tokens": 176163,
+          "seconds": 162.16000000000003
+        },
+        "reviewed": {
+          "calls": 140,
+          "prompt_tokens": 167665,
+          "completion_tokens": 48683,
+          "total_tokens": 216348,
+          "seconds": 191.45000000000002
+        },
+        "overhead_tokens_pct": 22.81126002622571
+      },
+      "sigir-201529": {
+        "trials": 13,
+        "baseline": {
+          "calls": 39,
+          "prompt_tokens": 53265,
+          "completion_tokens": 20536,
+          "total_tokens": 73801,
+          "seconds": 73.81000000000002
+        },
+        "reviewed": {
+          "calls": 48,
+          "prompt_tokens": 63409,
+          "completion_tokens": 22965,
+          "total_tokens": 86374,
+          "seconds": 82.62000000000003
+        },
+        "overhead_tokens_pct": 17.03635452094145
+      },
+      "sigir-20153": {
+        "trials": 92,
+        "baseline": {
+          "calls": 276,
+          "prompt_tokens": 298378,
+          "completion_tokens": 103248,
+          "total_tokens": 401626,
+          "seconds": 432.41000000000037
+        },
+        "reviewed": {
+          "calls": 330,
+          "prompt_tokens": 351871,
+          "completion_tokens": 114069,
+          "total_tokens": 465940,
+          "seconds": 487.1000000000004
+        },
+        "overhead_tokens_pct": 16.01340550661561
+      },
+      "sigir-20154": {
+        "trials": 54,
+        "baseline": {
+          "calls": 162,
+          "prompt_tokens": 239046,
+          "completion_tokens": 83293,
+          "total_tokens": 322339,
+          "seconds": 282.91999999999996
+        },
+        "reviewed": {
+          "calls": 206,
+          "prompt_tokens": 301891,
+          "completion_tokens": 96979,
+          "total_tokens": 398870,
+          "seconds": 340.0600000000001
+        },
+        "overhead_tokens_pct": 23.742395428415424
+      },
+      "sigir-20155": {
+        "trials": 47,
+        "baseline": {
+          "calls": 141,
+          "prompt_tokens": 166563,
+          "completion_tokens": 54236,
+          "total_tokens": 220799,
+          "seconds": 199.9
+        },
+        "reviewed": {
+          "calls": 178,
+          "prompt_tokens": 208476,
+          "completion_tokens": 64225,
+          "total_tokens": 272701,
+          "seconds": 241.01000000000002
+        },
+        "overhead_tokens_pct": 23.506447040068114
+      },
+      "sigir-20156": {
+        "trials": 78,
+        "baseline": {
+          "calls": 235,
+          "prompt_tokens": 263449,
+          "completion_tokens": 86218,
+          "total_tokens": 349667,
+          "seconds": 352.68999999999966
+        },
+        "reviewed": {
+          "calls": 286,
+          "prompt_tokens": 318704,
+          "completion_tokens": 99159,
+          "total_tokens": 417863,
+          "seconds": 408.10999999999956
+        },
+        "overhead_tokens_pct": 19.50312726107983
+      },
+      "sigir-20157": {
+        "trials": 93,
+        "baseline": {
+          "calls": 279,
+          "prompt_tokens": 310595,
+          "completion_tokens": 115716,
+          "total_tokens": 426311,
+          "seconds": 411.77000000000015
+        },
+        "reviewed": {
+          "calls": 340,
+          "prompt_tokens": 375462,
+          "completion_tokens": 130106,
+          "total_tokens": 505568,
+          "seconds": 479.21000000000026
+        },
+        "overhead_tokens_pct": 18.5913570140109
+      }
+    },
+    "overhead_tokens_pct": 20.272501053050195
+  }
+}

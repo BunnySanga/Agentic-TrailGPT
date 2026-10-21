@@ -30,7 +30,8 @@ trial. Six SIGIR patients fail it and are left out. The lists are fixed and
 not changed after results are seen.
 
 Check group: 14 held-out patients were never used to tune anything (the 12 in
-`ranking_test_patients.txt`, plus sigir-20141 and sigir-20156). The other 32
+`ranking_test_patients.txt`, plus sigir-20141 and sigir-20156; listed in
+`ranking_check_patients.txt`). The other 32
 were criterion-test development patients, whose rule labels shaped the
 Reviewer prompt; their ranking labels were never used. Two of the 12
 (sigir-201415, sigir-201529) were looked at in the 2-patient v1 pilot.
@@ -155,3 +156,44 @@ python evaluate_rankings.py --variants baseline,reviewed \
   --patients-file ranking_test_patients.txt --patients-file ranking_test_extra_patients.txt \
   --penalty 0.25 --weight 3 [--min-relevance 50 | --min-relevance 70]
 ```
+
+## Results (phase 3, scored once on 2026-10-21)
+
+46 held-out patients, 2,689 trials, results commit 02051fa. Per-patient
+differences against TrialGPT as published; 95% CI from 10,000 bootstrap
+resamples (seed 2024).
+
+**Primary: TrialGPT + new score (penalty 0.25, weight 3) vs TrialGPT**
+
+| | TrialGPT | Agentic TrailGPT | Difference (95% CI) | Patients better / same / worse |
+|---|---|---|---|---|
+| NDCG@10 | 0.6106 | **0.6353** | **+0.0247 (+0.0095 to +0.0403)** | 26 / 9 / 11 |
+| P@10 | 0.3435 | **0.3630** | **+0.0196 (+0.0022 to +0.0348)** | 13 / 29 / 4 |
+| Extra tokens | | 0 | 0% | |
+
+Check group (14 patients never used to tune anything): NDCG@10 0.6085 →
+0.6248, +0.0163 (−0.0096 to +0.0441), 8 better / 1 same / 5 worse; P@10
++0.0071 (−0.0143 to +0.0286). Same direction, interval includes 0 with 14
+patients.
+
+The held-out gain (+0.025) is a third of the development gain (+0.076), as
+expected for a setting picked as the best of 20 on 6 patients.
+
+**Ablation: the Reviewer** (TrialGPT costs 4,646 tokens per trial)
+
+| Score | Reviewer cutoff | NDCG@10 without → with Reviewer | Difference (95% CI) | Better / same / worse | P@10 difference | Reviewer's extra tokens |
+|---|---|---|---|---|---|---|
+| TrialGPT's | 0 | 0.6106 → 0.6155 | +0.0049 (+0.0004 to +0.0108) | 5 / 38 / 3 | +0.0065 | +20.3% |
+| TrialGPT's | 50 | 0.6106 → 0.6151 | +0.0045 (+0.0002 to +0.0101) | 5 / 39 / 2 | +0.0065 | +6.9% |
+| TrialGPT's | 70 | 0.6106 → 0.6131 | +0.0025 (−0.0003 to +0.0065) | 3 / 41 / 2 | +0.0043 | +4.1% |
+| New score | 0 | 0.6353 → 0.6365 | +0.0012 (−0.0020 to +0.0051) | 3 / 41 / 2 | +0.0022 | +20.3% |
+| New score | 50 | 0.6353 → 0.6370 | +0.0017 (−0.0001 to +0.0049) | 3 / 42 / 1 | +0.0022 | +6.9% |
+| New score | 70 | 0.6353 → 0.6370 | +0.0017 (+0.0000 to +0.0048) | 2 / 44 / 0 | +0.0022 | +4.1% |
+
+On its own the Reviewer gives a small gain (+0.0045 NDCG@10 at +6.9% tokens),
+about a fifth of what the new score gives at no cost. On top of the new score
+it adds at most +0.0017, with intervals touching 0. The chosen system,
+TrialGPT + new score, stands.
+
+Evaluation files: `results/evaluation_sigir_openai_gpt-oss-120b_*ranking_test_patients_ranking_test_extra_patients*.json`
+and `*ranking_check_patients_p0.25_w3.json`.

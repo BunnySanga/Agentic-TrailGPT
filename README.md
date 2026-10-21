@@ -28,17 +28,21 @@ GPT-4's rule-level mistakes are in labels the score ignores, so re-checking
 labels (v1–v3 below) could barely change the ranking. The new score adds no
 LLM calls: our extra cost on top of TrialGPT is zero.
 
-On the 6 development patients NDCG@10 rises from 0.588 to 0.663 and P@10 from
-0.183 to 0.233. The settings were chosen there by the rule in
-[RANKING_STUDY_PLAN.md](RANKING_STUDY_PLAN.md); the 46 held-out patients are
-scored once, at the end.
+**Result on 46 held-out SIGIR patients (2,689 trials), scored once:** NDCG@10
+0.611 → **0.635** (+0.025, 95% CI +0.010 to +0.040; better for 26 patients,
+worse for 11) and P@10 0.344 → **0.363** (+0.020, CI +0.002 to +0.035), at zero
+extra tokens. The settings were chosen on 6 development patients (0.588 →
+0.663 there) by the rule in [RANKING_STUDY_PLAN.md](RANKING_STUDY_PLAN.md),
+which has the full results.
 
 **Tested and dropped: the Reviewer.** A Reviewer step after aggregation
 (`run_parallel.py --stages review`, `trialgpt_agents/targeted_review.py`)
 re-checked "not included" / "excluded" labels on relevant trials. On the
 development patients it changed no ranking at any cutoff while adding 4.6–22%
 tokens: it kept the penalty on 10 of the 11 penalised eligible trials, and most
-of its changes were on irrelevant trials. The code and its results are kept.
+of its changes were on irrelevant trials. On the 46 held-out patients it adds
++0.0045 NDCG@10 on its own (cutoff 50, +6.9% tokens) and at most +0.0017 on top
+of the new score. The code and its results are kept.
 
 ## Earlier versions (criterion test)
 
