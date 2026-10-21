@@ -190,6 +190,14 @@ expected for a setting picked as the best of 20 on 6 patients.
 | New score | 50 | 0.6353 → 0.6370 | +0.0017 (−0.0001 to +0.0049) | 3 / 42 / 1 | +0.0022 | +6.9% |
 | New score | 70 | 0.6353 → 0.6370 | +0.0017 (+0.0000 to +0.0048) | 2 / 44 / 0 | +0.0022 | +4.1% |
 
+New score + Reviewer against TrialGPT as published:
+
+| Reviewer cutoff | NDCG@10 | Difference (95% CI) | Better / same / worse | P@10 | Difference (95% CI) | Extra tokens |
+|---|---|---|---|---|---|---|
+| 0 | 0.6365 | +0.0259 (+0.0113 to +0.0408) | 26 / 8 / 12 | 0.3652 | +0.0217 (+0.0043 to +0.0391) | +20.3% |
+| 50 | 0.6370 | +0.0264 (+0.0112 to +0.0421) | 26 / 8 / 12 | 0.3652 | +0.0217 (+0.0043 to +0.0391) | +6.9% |
+| 70 | 0.6370 | +0.0264 (+0.0111 to +0.0421) | 26 / 9 / 11 | 0.3652 | +0.0217 (+0.0043 to +0.0391) | +4.1% |
+
 On its own the Reviewer gives a small gain (+0.0045 NDCG@10 at +6.9% tokens),
 about a fifth of what the new score gives at no cost. On top of the new score
 it adds at most +0.0017, with intervals touching 0. The chosen system,
